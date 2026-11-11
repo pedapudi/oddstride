@@ -1,0 +1,99 @@
+{
+  "previous_model_sha256": "f87c8396363cef5e28a767c537dd5b189c094fa26e297bb1367113247b6f839e",
+  "model_sha256": "259be343992b4dcabb15d9c82bad91c7a76019bfbed1ec6abe4374e09689aac5",
+  "slab_thickness_mm": 0.2,
+  "sections": [
+    {
+      "part": "thigh_inner",
+      "axis": "z",
+      "station_mm": -120,
+      "previous_area_mm2": 181.61498539070607,
+      "revised_area_mm2": 194.35451034056607
+    },
+    {
+      "part": "thigh_inner",
+      "axis": "z",
+      "station_mm": -130,
+      "previous_area_mm2": 262.86191360706505,
+      "revised_area_mm2": 174.969584771968
+    },
+    {
+      "part": "thigh_inner",
+      "axis": "z",
+      "station_mm": -140,
+      "previous_area_mm2": 348.5578437557903,
+      "revised_area_mm2": 122.47266610273672
+    },
+    {
+      "part": "thigh_inner",
+      "axis": "z",
+      "station_mm": -150,
+      "previous_area_mm2": 248.60619091846488,
+      "revised_area_mm2": 120.37958641630262
+    },
+    {
+      "part": "thigh_outer",
+      "axis": "z",
+      "station_mm": -120,
+      "previous_area_mm2": 181.61473388078525,
+      "revised_area_mm2": 290.40239695942273
+    },
+    {
+      "part": "thigh_outer",
+      "axis": "z",
+      "station_mm": -130,
+      "previous_area_mm2": 262.86131291373675,
+      "revised_area_mm2": 385.56200267061485
+    },
+    {
+      "part": "thigh_outer",
+      "axis": "z",
+      "station_mm": -140,
+      "previous_area_mm2": 335.06730503968816,
+      "revised_area_mm2": 327.9700819691472
+    },
+    {
+      "part": "thigh_outer",
+      "axis": "z",
+      "station_mm": -150,
+      "previous_area_mm2": 253.1669265487531,
+      "revised_area_mm2": 275.4612840597989
+    },
+    {
+      "part": "body_nose_surround",
+      "axis": "x",
+      "station_mm": 130,
+      "previous_area_mm2": 70.99235331693816,
+      "revised_area_mm2": 162.34985558889315
+    },
+    {
+      "part": "body_nose_surround",
+      "axis": "x",
+      "station_mm": 140,
+      "previous_area_mm2": 71.39371394724039,
+      "revised_area_mm2": 331.69058815600795
+    },
+    {
+      "part": "body_nose_surround",
+      "axis": "x",
+      "station_mm": 170,
+      "previous_area_mm2": 13.322665747777364,
+      "revised_area_mm2": 342.3151851177356
+    },
+    {
+      "part": "body_nose_surround",
+      "axis": "x",
+      "station_mm": 190,
+      "previous_area_mm2": 13.32266574777731,
+      "revised_area_mm2": 342.3857912603187
+    },
+    {
+      "part": "body_nose_surround",
+      "axis": "x",
+      "station_mm": 220,
+      "previous_area_mm2": 13.322665747777231,
+      "revised_area_mm2": 251.89390831297132
+    }
+  ],
+  "scope": "Average material area over thin slices. Does not establish bending stiffness, stress concentration, printed anisotropy, creep or fatigue."
+}

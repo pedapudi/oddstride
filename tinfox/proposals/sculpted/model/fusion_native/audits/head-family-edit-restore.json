@@ -1,0 +1,760 @@
+{
+  "bindings": {
+    "nose_mount_x": "body_hip_x - nose_mount_setback",
+    "nose_loft_start_x": "body_hip_x - nose_profile_start_setback",
+    "nose_end_x": "body_hip_x + nose_extension",
+    "nose_rounding_start_x": "nose_end_x - nose_rounding_length",
+    "nose_end_start_x": "nose_end_x - nose_end_start_setback",
+    "head_face_reference_x": "nose_end_x",
+    "head_face_tool_back_x": "head_face_reference_x - 65.4 mm",
+    "head_face_tool_half_width": "body_envelope_width / 2 - 1.2 mm",
+    "head_face_tool_half_height": "head_face_half_height + 13 mm",
+    "bezel_tool_start_x": "head_face_reference_x - 6.4 mm"
+  },
+  "tests": [
+    {
+      "parameter": "body_hip_x",
+      "test_expression": "190 mm",
+      "restored_expression": "185 mm",
+      "expected_response_parts": [
+        "sensor_bezel",
+        "CANDIDATE_front_fascia",
+        "CANDIDATE_body_nose_surround"
+      ],
+      "before": {
+        "sensor_bezel": {
+          "volume_mm3": 12794.883224475478,
+          "bounds_mm": [
+            251.05136359536675,
+            -87.00000000000001,
+            -18.000000000000004,
+            261.588888888889,
+            87.00000000000001,
+            28.000000000000004
+          ],
+          "faces": 19,
+          "edges": 48,
+          "issues": []
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 27235.86398372649,
+          "bounds_mm": [
+            243.00000000000006,
+            -98.68181818181817,
+            -40.227272727272705,
+            261.76167800453516,
+            98.68181818181817,
+            44.22727272727271
+          ],
+          "faces": 27,
+          "edges": 58,
+          "issues": []
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 107780.06316587552,
+          "bounds_mm": [
+            114.0,
+            -101.12359016645398,
+            -44.028980307355866,
+            251.87283542596344,
+            101.12359016645398,
+            68.43923585492485
+          ],
+          "faces": 137,
+          "edges": 344,
+          "issues": []
+        }
+      },
+      "changed": {
+        "sensor_bezel": {
+          "volume_mm3": 12794.883224475818,
+          "bounds_mm": [
+            256.05136359536675,
+            -87.00000000000001,
+            -18.000000000000004,
+            266.5888888888889,
+            87.00000000000001,
+            28.000000000000004
+          ],
+          "faces": 19,
+          "edges": 48,
+          "issues": []
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 27235.872635713975,
+          "bounds_mm": [
+            248.0,
+            -98.68181818181817,
+            -40.22727272727272,
+            266.76167800453516,
+            98.68181818181817,
+            44.227272727272705
+          ],
+          "faces": 27,
+          "edges": 58,
+          "issues": []
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 107778.99982927891,
+          "bounds_mm": [
+            118.99999999999999,
+            -101.12359016645398,
+            -44.02898030735589,
+            256.8728354259634,
+            101.12359016645398,
+            68.43923585492487
+          ],
+          "faces": 137,
+          "edges": 344,
+          "issues": []
+        }
+      },
+      "restore_errors": {
+        "sensor_bezel": {
+          "volume_mm3": 3.838067641481757e-10,
+          "bounds_mm": 1.1368683772161603e-13
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 0.0019523624250723515,
+          "bounds_mm": 5.684341886080802e-14
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 0.9455584765964886,
+          "bounds_mm": 8.526512829121202e-14
+        }
+      },
+      "restored_surface_probes": {
+        "sensor_bezel": {
+          "samples": 160,
+          "maximum_mm": 1.7426775918075578e-13,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        },
+        "CANDIDATE_front_fascia": {
+          "samples": 160,
+          "maximum_mm": 1.7094835882145235e-13,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        },
+        "CANDIDATE_body_nose_surround": {
+          "samples": 160,
+          "maximum_mm": 8.530969672967682e-14,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        }
+      },
+      "mass_property_note": "Fusion VeryHighCalculationAccuracy is documented as +/-0.01%; paired volume measurements are checked against that uncertainty. Actual restoration also requires bidirectional surface probes within 0.002 mm.",
+      "passed": true
+    },
+    {
+      "parameter": "body_envelope_width",
+      "test_expression": "224.4 mm",
+      "restored_expression": "222.4 mm",
+      "expected_response_parts": [
+        "CANDIDATE_body_nose_surround",
+        "CANDIDATE_front_fascia"
+      ],
+      "before": {
+        "sensor_bezel": {
+          "volume_mm3": 12794.883224475861,
+          "bounds_mm": [
+            251.0513635953667,
+            -87.00000000000001,
+            -18.000000000000004,
+            261.5888888888889,
+            87.00000000000001,
+            28.000000000000004
+          ],
+          "faces": 19,
+          "edges": 48,
+          "issues": []
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 27235.865936088914,
+          "bounds_mm": [
+            243.0,
+            -98.68181818181816,
+            -40.22727272727269,
+            261.76167800453516,
+            98.68181818181816,
+            44.22727272727269
+          ],
+          "faces": 27,
+          "edges": 58,
+          "issues": []
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 107779.11760739892,
+          "bounds_mm": [
+            113.99999999999999,
+            -101.12359016645398,
+            -44.02898030735589,
+            251.87283542596336,
+            101.12359016645398,
+            68.43923585492487
+          ],
+          "faces": 137,
+          "edges": 344,
+          "issues": []
+        }
+      },
+      "changed": {
+        "sensor_bezel": {
+          "volume_mm3": 12794.96394407164,
+          "bounds_mm": [
+            251.05136359536672,
+            -87.00000000000001,
+            -18.000000000000004,
+            261.58888888888885,
+            87.00000000000001,
+            28.000000000000004
+          ],
+          "faces": 19,
+          "edges": 48,
+          "issues": []
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 27547.993695503792,
+          "bounds_mm": [
+            243.0,
+            -99.68181818181819,
+            -40.22727272727272,
+            261.7616780045351,
+            99.68181818181819,
+            44.22727272727272
+          ],
+          "faces": 27,
+          "edges": 58,
+          "issues": []
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 108496.75046935238,
+          "bounds_mm": [
+            113.99999999999999,
+            -102.1235901259183,
+            -44.0289802891662,
+            251.87283542596336,
+            102.12359012591793,
+            68.43923585492486
+          ],
+          "faces": 137,
+          "edges": 344,
+          "issues": []
+        }
+      },
+      "restore_errors": {
+        "sensor_bezel": {
+          "volume_mm3": 5.093170329928398e-11,
+          "bounds_mm": 0.0
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 0.005527808498300146,
+          "bounds_mm": 5.684341886080802e-14
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 0.0982741879997775,
+          "bounds_mm": 1.4210854715202004e-14
+        }
+      },
+      "restored_surface_probes": {
+        "sensor_bezel": {
+          "samples": 160,
+          "maximum_mm": 1.7426775918075578e-13,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        },
+        "CANDIDATE_front_fascia": {
+          "samples": 160,
+          "maximum_mm": 1.2856188040515505e-13,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        },
+        "CANDIDATE_body_nose_surround": {
+          "samples": 160,
+          "maximum_mm": 6.933484963264299e-14,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        }
+      },
+      "mass_property_note": "Fusion VeryHighCalculationAccuracy is documented as +/-0.01%; paired volume measurements are checked against that uncertainty. Actual restoration also requires bidirectional surface probes within 0.002 mm.",
+      "passed": true
+    },
+    {
+      "parameter": "nose_bridge_depth",
+      "test_expression": "39 mm",
+      "restored_expression": "38 mm",
+      "expected_response_parts": [
+        "CANDIDATE_body_nose_surround"
+      ],
+      "before": {
+        "sensor_bezel": {
+          "volume_mm3": 12794.88322447581,
+          "bounds_mm": [
+            251.0513635953667,
+            -87.00000000000001,
+            -18.000000000000004,
+            261.5888888888889,
+            87.00000000000001,
+            28.000000000000004
+          ],
+          "faces": 19,
+          "edges": 48,
+          "issues": []
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 27235.871463897412,
+          "bounds_mm": [
+            243.0,
+            -98.68181818181816,
+            -40.2272727272727,
+            261.7616780045352,
+            98.68181818181816,
+            44.227272727272705
+          ],
+          "faces": 27,
+          "edges": 58,
+          "issues": []
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 107779.01933321092,
+          "bounds_mm": [
+            113.99999999999999,
+            -101.12359016645397,
+            -44.028980307355894,
+            251.87283542596336,
+            101.12359016645397,
+            68.43923585492486
+          ],
+          "faces": 137,
+          "edges": 344,
+          "issues": []
+        }
+      },
+      "changed": {
+        "sensor_bezel": {
+          "volume_mm3": 12794.88322447581,
+          "bounds_mm": [
+            251.0513635953667,
+            -87.00000000000001,
+            -18.000000000000004,
+            261.5888888888889,
+            87.00000000000001,
+            28.000000000000004
+          ],
+          "faces": 19,
+          "edges": 48,
+          "issues": []
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 27235.871463897412,
+          "bounds_mm": [
+            243.0,
+            -98.68181818181816,
+            -40.2272727272727,
+            261.7616780045352,
+            98.68181818181816,
+            44.227272727272705
+          ],
+          "faces": 27,
+          "edges": 58,
+          "issues": []
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 109953.89374040917,
+          "bounds_mm": [
+            113.99999999999999,
+            -101.12359016645397,
+            -44.028980307355894,
+            251.87283542596336,
+            101.12359016645397,
+            68.91770007183302
+          ],
+          "faces": 137,
+          "edges": 344,
+          "issues": []
+        }
+      },
+      "restore_errors": {
+        "sensor_bezel": {
+          "volume_mm3": 0.0,
+          "bounds_mm": 0.0
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 0.0,
+          "bounds_mm": 0.0
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 1.949956640601158e-09,
+          "bounds_mm": 0.0
+        }
+      },
+      "restored_surface_probes": {
+        "sensor_bezel": {
+          "samples": 160,
+          "maximum_mm": 1.7426775918075578e-13,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        },
+        "CANDIDATE_front_fascia": {
+          "samples": 160,
+          "maximum_mm": 1.2691756499080343e-13,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        },
+        "CANDIDATE_body_nose_surround": {
+          "samples": 160,
+          "maximum_mm": 6.933484963264299e-14,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        }
+      },
+      "mass_property_note": "Fusion VeryHighCalculationAccuracy is documented as +/-0.01%; paired volume measurements are checked against that uncertainty. Actual restoration also requires bidirectional surface probes within 0.002 mm.",
+      "passed": true
+    },
+    {
+      "parameter": "nose_wall",
+      "test_expression": "3.8 mm",
+      "restored_expression": "4.2 mm",
+      "expected_response_parts": [
+        "CANDIDATE_body_nose_surround"
+      ],
+      "before": {
+        "sensor_bezel": {
+          "volume_mm3": 12794.88322447581,
+          "bounds_mm": [
+            251.0513635953667,
+            -87.00000000000001,
+            -18.000000000000004,
+            261.5888888888889,
+            87.00000000000001,
+            28.000000000000004
+          ],
+          "faces": 19,
+          "edges": 48,
+          "issues": []
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 27235.871463897412,
+          "bounds_mm": [
+            243.0,
+            -98.68181818181816,
+            -40.2272727272727,
+            261.7616780045352,
+            98.68181818181816,
+            44.227272727272705
+          ],
+          "faces": 27,
+          "edges": 58,
+          "issues": []
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 107779.01933321287,
+          "bounds_mm": [
+            113.99999999999999,
+            -101.12359016645397,
+            -44.028980307355894,
+            251.87283542596336,
+            101.12359016645397,
+            68.43923585492486
+          ],
+          "faces": 137,
+          "edges": 344,
+          "issues": []
+        }
+      },
+      "changed": {
+        "sensor_bezel": {
+          "volume_mm3": 12794.88322447581,
+          "bounds_mm": [
+            251.0513635953667,
+            -87.00000000000001,
+            -18.000000000000004,
+            261.5888888888889,
+            87.00000000000001,
+            28.000000000000004
+          ],
+          "faces": 19,
+          "edges": 48,
+          "issues": []
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 27235.871463897412,
+          "bounds_mm": [
+            243.0,
+            -98.68181818181816,
+            -40.2272727272727,
+            261.7616780045352,
+            98.68181818181816,
+            44.227272727272705
+          ],
+          "faces": 27,
+          "edges": 58,
+          "issues": []
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 105208.89759337867,
+          "bounds_mm": [
+            113.99999999999999,
+            -101.12359016645397,
+            -44.028980307355894,
+            251.87283542596336,
+            101.12359016645397,
+            68.43923585492486
+          ],
+          "faces": 137,
+          "edges": 344,
+          "issues": []
+        }
+      },
+      "restore_errors": {
+        "sensor_bezel": {
+          "volume_mm3": 0.0,
+          "bounds_mm": 0.0
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 0.0,
+          "bounds_mm": 0.0
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 0.010646965383784845,
+          "bounds_mm": 0.0
+        }
+      },
+      "restored_surface_probes": {
+        "sensor_bezel": {
+          "samples": 160,
+          "maximum_mm": 1.7452351230884974e-13,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        },
+        "CANDIDATE_front_fascia": {
+          "samples": 160,
+          "maximum_mm": 1.370586891864204e-13,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        },
+        "CANDIDATE_body_nose_surround": {
+          "samples": 160,
+          "maximum_mm": 6.933484963264299e-14,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        }
+      },
+      "mass_property_note": "Fusion VeryHighCalculationAccuracy is documented as +/-0.01%; paired volume measurements are checked against that uncertainty. Actual restoration also requires bidirectional surface probes within 0.002 mm.",
+      "passed": true
+    },
+    {
+      "parameter": "nose_fascia_fit_gap",
+      "test_expression": ".45 mm",
+      "restored_expression": "0.35 mm",
+      "expected_response_parts": [
+        "CANDIDATE_body_nose_surround"
+      ],
+      "before": {
+        "sensor_bezel": {
+          "volume_mm3": 12794.88322447581,
+          "bounds_mm": [
+            251.0513635953667,
+            -87.00000000000001,
+            -18.000000000000004,
+            261.5888888888889,
+            87.00000000000001,
+            28.000000000000004
+          ],
+          "faces": 19,
+          "edges": 48,
+          "issues": []
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 27235.871463897412,
+          "bounds_mm": [
+            243.0,
+            -98.68181818181816,
+            -40.2272727272727,
+            261.7616780045352,
+            98.68181818181816,
+            44.227272727272705
+          ],
+          "faces": 27,
+          "edges": 58,
+          "issues": []
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 107779.00868624749,
+          "bounds_mm": [
+            113.99999999999999,
+            -101.12359016645397,
+            -44.028980307355894,
+            251.87283542596336,
+            101.12359016645397,
+            68.43923585492486
+          ],
+          "faces": 137,
+          "edges": 344,
+          "issues": []
+        }
+      },
+      "changed": {
+        "sensor_bezel": {
+          "volume_mm3": 12794.88322447581,
+          "bounds_mm": [
+            251.0513635953667,
+            -87.00000000000001,
+            -18.000000000000004,
+            261.5888888888889,
+            87.00000000000001,
+            28.000000000000004
+          ],
+          "faces": 19,
+          "edges": 48,
+          "issues": []
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 27235.871463897412,
+          "bounds_mm": [
+            243.0,
+            -98.68181818181816,
+            -40.2272727272727,
+            261.7616780045352,
+            98.68181818181816,
+            44.227272727272705
+          ],
+          "faces": 27,
+          "edges": 58,
+          "issues": []
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 107644.18701943396,
+          "bounds_mm": [
+            113.99999999999999,
+            -101.12359016645397,
+            -44.028980307355894,
+            251.77283542596336,
+            101.12359016645397,
+            68.43923585492486
+          ],
+          "faces": 137,
+          "edges": 344,
+          "issues": []
+        }
+      },
+      "restore_errors": {
+        "sensor_bezel": {
+          "volume_mm3": 0.0,
+          "bounds_mm": 0.0
+        },
+        "CANDIDATE_front_fascia": {
+          "volume_mm3": 0.0,
+          "bounds_mm": 0.0
+        },
+        "CANDIDATE_body_nose_surround": {
+          "volume_mm3": 0.0,
+          "bounds_mm": 0.0
+        }
+      },
+      "restored_surface_probes": {
+        "sensor_bezel": {
+          "samples": 160,
+          "maximum_mm": 1.7426775918075578e-13,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        },
+        "CANDIDATE_front_fascia": {
+          "samples": 160,
+          "maximum_mm": 1.758474195114523e-13,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        },
+        "CANDIDATE_body_nose_surround": {
+          "samples": 160,
+          "maximum_mm": 1.0494165092812845e-13,
+          "method": "Paired distance to restored and frozen native boundary at the same mesh sample; subtracts tessellation residual."
+        }
+      },
+      "mass_property_note": "Fusion VeryHighCalculationAccuracy is documented as +/-0.01%; paired volume measurements are checked against that uncertainty. Actual restoration also requires bidirectional surface probes within 0.002 mm.",
+      "passed": true
+    }
+  ],
+  "baseline": {
+    "sensor_bezel": {
+      "volume_mm3": 12794.883224475478,
+      "bounds_mm": [
+        251.05136359536675,
+        -87.00000000000001,
+        -18.000000000000004,
+        261.588888888889,
+        87.00000000000001,
+        28.000000000000004
+      ],
+      "faces": 19,
+      "edges": 48,
+      "issues": []
+    },
+    "CANDIDATE_front_fascia": {
+      "volume_mm3": 27235.86398372649,
+      "bounds_mm": [
+        243.00000000000006,
+        -98.68181818181817,
+        -40.227272727272705,
+        261.76167800453516,
+        98.68181818181817,
+        44.22727272727271
+      ],
+      "faces": 27,
+      "edges": 58,
+      "issues": []
+    },
+    "CANDIDATE_body_nose_surround": {
+      "volume_mm3": 107780.06316587552,
+      "bounds_mm": [
+        114.0,
+        -101.12359016645398,
+        -44.028980307355866,
+        251.87283542596344,
+        101.12359016645398,
+        68.43923585492485
+      ],
+      "faces": 137,
+      "edges": 344,
+      "issues": []
+    }
+  },
+  "restored": {
+    "sensor_bezel": {
+      "volume_mm3": 12794.88322447581,
+      "bounds_mm": [
+        251.0513635953667,
+        -87.00000000000001,
+        -18.000000000000004,
+        261.5888888888889,
+        87.00000000000001,
+        28.000000000000004
+      ],
+      "faces": 19,
+      "edges": 48,
+      "issues": []
+    },
+    "CANDIDATE_front_fascia": {
+      "volume_mm3": 27235.871463897412,
+      "bounds_mm": [
+        243.0,
+        -98.68181818181816,
+        -40.2272727272727,
+        261.7616780045352,
+        98.68181818181816,
+        44.227272727272705
+      ],
+      "faces": 27,
+      "edges": 58,
+      "issues": []
+    },
+    "CANDIDATE_body_nose_surround": {
+      "volume_mm3": 107779.00868624749,
+      "bounds_mm": [
+        113.99999999999999,
+        -101.12359016645397,
+        -44.028980307355894,
+        251.87283542596336,
+        101.12359016645397,
+        68.43923585492486
+      ],
+      "faces": 137,
+      "edges": 344,
+      "issues": []
+    }
+  },
+  "passed": true,
+  "paths": [
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/sensor_bezel-restored.step",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/front_fascia-restored.step",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/body_nose_surround-restored.step"
+  ],
+  "scope": "Head subsystem only. The complete robot assembly, motor-family variants and 20 kg load capability remain unqualified.",
+  "saved": false
+}

@@ -1,0 +1,29 @@
+{
+  "status": "partial",
+  "canonical_scopes": {
+    "motor_complex": {
+      "manifest": "manifests/motor-complex-native-exports.json",
+      "manifest_sha256": "9459ed17c86b648915166a39016a8f214cf3aa4263f4cb24a3156f14aeead078",
+      "saved_leg_version": 24,
+      "custom_parts": [
+        "hip_hub",
+        "motor_mount_ring",
+        "thigh_inner",
+        "thigh_outer",
+        "input_crank",
+        "roll_cartridge_1",
+        "roll_stator_backplate_1",
+        "roll_inner_spacer_1",
+        "roll_outer_spacer_1",
+        "roll_inner_backplate_1",
+        "roll_outer_retainer_1",
+        "motor_carrier_1",
+        "hip_stator_closure_1"
+      ],
+      "motion_available": false
+    }
+  },
+  "full_robot_native_source_of_truth": false,
+  "full_robot_reference": "Current generated robot; use explicitly scoped native motor-complex exports for these parts.",
+  "updated_utc": "2026-10-29T09:37:45.869449+00:00"
+}

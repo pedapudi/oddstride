@@ -1,0 +1,99 @@
+{
+  "status": "canonical_current_low_profile_integrated_dfma",
+  "canonical_scopes": {
+    "motor_complex": {
+      "manifest": "manifests/dfma-integrated-motor-complex-exports.json",
+      "manifest_sha256": "634c9f4991e0f67bd73750ee33f552e96935e85200b7c383464f7bab32c0640f",
+      "saved_leg_version": 37,
+      "custom_parts": [
+        "motor_carrier_1",
+        "roll_cartridge_1",
+        "roll_stator_backplate_1",
+        "roll_outer_retainer_1",
+        "roll_inner_backplate_1",
+        "roll_inner_spacer_1",
+        "roll_outer_spacer_1",
+        "thigh_inner",
+        "thigh_outer",
+        "input_crank"
+      ],
+      "motion_available": false,
+      "assembly_release_ready": true,
+      "scope": "Ten custom proximal parts and the detached supported unpowered fit assembly. Printed strength and loaded operation are not qualified."
+    },
+    "low_profile_robot": {
+      "manifest": "manifests/native-low-profile-cleanup-master65-exports.json",
+      "manifest_sha256": "ff3ab8f8c1453cde8c50228da3960c668585c25b6c68fda421f89e2d2df61569",
+      "saved_master_version": 65,
+      "subsystem_versions": {
+        "chassis": 18,
+        "head": 22,
+        "leg": 40
+      },
+      "unique_native_custom_and_stock_definitions": 72,
+      "review_model_sha256": "e1fa7e8fde14e021a0abbd60f561e00e8f4db5bf520fc7d4820c01564ead304d",
+      "motion_available": true,
+      "assembly_release_ready": false,
+      "document_name": "Tinfox",
+      "document_name_verification": "audits/tinfox-name-verification.json"
+    }
+  },
+  "full_robot_native_source_of_truth": true,
+  "full_robot_reference": "Saved native low-profile Tinfox v65 / Leg40 / Chassis18 / Head22; dependency-safe cleanup preserves the published geometry.",
+  "updated_utc": "2026-10-31T23:03:20.496290+00:00",
+  "excluded_scopes": {
+    "raised_head_variant": "Not part of this native whole-baseline promotion.",
+    "physical_qualification": "Native CAD authority does not qualify polymer strength, manufacturing tolerances, wiring or loaded locomotion."
+  },
+  "historical_scopes": {
+    "motor_complex_before_integrated": {
+      "manifest": "manifests/motor-complex-native-exports.json",
+      "manifest_sha256": "9459ed17c86b648915166a39016a8f214cf3aa4263f4cb24a3156f14aeead078",
+      "saved_leg_version": 24,
+      "custom_parts": [
+        "hip_hub",
+        "motor_mount_ring",
+        "thigh_inner",
+        "thigh_outer",
+        "input_crank",
+        "roll_cartridge_1",
+        "roll_stator_backplate_1",
+        "roll_inner_spacer_1",
+        "roll_outer_spacer_1",
+        "roll_inner_backplate_1",
+        "roll_outer_retainer_1",
+        "motor_carrier_1",
+        "hip_stator_closure_1"
+      ],
+      "motion_available": false
+    },
+    "low_profile_before_integrated_dfma": {
+      "manifest": "manifests/native-low-profile-exports.json",
+      "manifest_sha256": "368d5de84b2e2b78fb9f53bab18d19f6ec80da3a96e8b6cf7e61eb3673d129f6",
+      "saved_master_version": 63,
+      "subsystem_versions": {
+        "chassis": 18,
+        "leg": 30,
+        "head": 22
+      },
+      "unique_native_custom_and_stock_definitions": 88,
+      "review_model_sha256": "708144fa0ea128cf82c58db0e819ee74f4ed8e7d15ec70443bc40e4e1bc66be9",
+      "motion_available": true,
+      "assembly_release_ready": false
+    },
+    "low_profile_before_dependency_cleanup": {
+      "manifest": "manifests/native-low-profile-dfma-master64-exports.json",
+      "manifest_sha256": "1d9a1b6f400249d528a38797c2e3b0b357df0a15aa9d0d9cd95762172056461e",
+      "saved_master_version": 64,
+      "subsystem_versions": {
+        "leg": 39,
+        "chassis": 18,
+        "head": 22
+      },
+      "unique_native_custom_and_stock_definitions": 72,
+      "review_model_sha256": "e1fa7e8fde14e021a0abbd60f561e00e8f4db5bf520fc7d4820c01564ead304d",
+      "motion_available": true,
+      "assembly_release_ready": false
+    }
+  }
+}

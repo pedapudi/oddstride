@@ -1,0 +1,2167 @@
+{
+  "schema": 1,
+  "updated_utc": "2026-10-25T23:02:21.074150+00:00",
+  "authoritative_source": "CadQuery service-design model until migration gate passes",
+  "source_model_sha256": "3f384f8cace91b1b5154eea61771b4c69d207e6d3fdab714ed475639b0cd8ce5",
+  "source_file": "output/v0-rounded-body/model.json",
+  "fusion_project": {
+    "planned_name": "Tinfox",
+    "created": true,
+    "id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+    "name": "Tinfox",
+    "hub": "skp-repo"
+  },
+  "fusion_document": {
+    "planned_name": "Tinfox - Native Master Assembly",
+    "created": true,
+    "id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+    "name": "Tinfox - Native Master Assembly",
+    "folder": "01 Native master"
+  },
+  "migration_gate": {
+    "passed": false,
+    "requirements": [
+      "Every custom part constructed with native named timeline features and editable sketches.",
+      "No imported mesh, STEP, or replacement BRep authoring.",
+      "Volume, area, bounds, symmetric sampled surface deviation and critical sections match frozen source within explicitly reported tolerances.",
+      "Hole and bearing datums, connector volumes, link dimensions and instance transforms verified.",
+      "Visual comparison of front, side and isometric silhouettes.",
+      "Sampled collision and service path checks preserve or improve source results.",
+      "Parameter edit, recompute and restore test on scratch copy passes.",
+      "Native archive reopens with the expected timeline, parameters, components and instances."
+    ]
+  },
+  "parts": [
+    {
+      "id": "body_center_0",
+      "label": "Body center 0",
+      "group": "Body and chassis",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "body_center_0",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "7aa2f5ac35daa3f49903d2e86d5b64453ff1eddc4575799b34204b2d23bb94e7",
+      "source_volume_mm3": 301471.7915178685,
+      "source_bounds_mm": [
+        265.9473267397075,
+        229.77033080078564,
+        68.81590776853723
+      ],
+      "state": "native_built_pending_audit",
+      "native_document": null,
+      "native_component": "Upper body shell",
+      "native_feature_count": 279,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "fd479bbc17e878b42bf535161ae7ef2b42b2c6bc4106feb4b0b3ca0f6ee0aaee",
+      "source_step": "snapshots/deltas/3f384f8cace91b1b5154eea61771b4c69d207e6d3fdab714ed475639b0cd8ce5/body_center_0.step",
+      "source_model_sha256": "3f384f8cace91b1b5154eea61771b4c69d207e6d3fdab714ed475639b0cd8ce5",
+      "source_graph": "snapshots/deltas/3f384f8cace91b1b5154eea61771b4c69d207e6d3fdab714ed475639b0cd8ce5/recipe.json",
+      "native_file_id": "urn:adsk.wipprod:dm.lineage:7VsapvHGTdWzSh1cZ51Y2g",
+      "native_sketch_count": 130
+    },
+    {
+      "id": "belly_center_0",
+      "label": "Belly center 0",
+      "group": "Body and chassis",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "belly_center_0",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "bfc784d2f656af852ebd4b6e89e80629477bf625c2dfb548acf07d2331b620d3",
+      "source_volume_mm3": 104303.84172782318,
+      "source_bounds_mm": [
+        250.80708092516022,
+        222.4070809251354,
+        37.70403605675599
+      ],
+      "state": "native_built_pending_audit",
+      "native_document": null,
+      "native_component": "Lower body shell",
+      "native_feature_count": 112,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "3499ce59d99c0a6c770aee07d907f1ea75002e36fa71bf46e85f7a7630969cc5",
+      "source_step": "snapshots/step/belly_center_0.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59",
+      "source_graph": "snapshots/reconstructed/belly_center_0/recipe.json",
+      "recipe_reconstruction_audit": "snapshots/reconstructed/belly_center_0/reconstruction-audit.json",
+      "native_sketch_count": 43,
+      "native_local_archive": "exports/belly_center_0.f3d"
+    },
+    {
+      "id": "battery_side_panel_-1",
+      "label": "Battery side panel -1",
+      "group": "Body and chassis",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "battery_side_panel_-1",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "f1be94eec46deb50cc4e32b618d8905c0bcd23ace473d1fc467ca4dbc4e3a94b",
+      "source_volume_mm3": 12158.32,
+      "source_bounds_mm": [
+        135.96225080704403,
+        1.6059339008753,
+        60.00565630809886
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Battery side panel -1",
+      "native_feature_count": 12,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "eb0d6d2f90f6bb93a09dec17ae76f222ebac6669b26fa63c8284d86cdd4013ea",
+      "source_step": "snapshots/step/battery_side_panel_-1.step",
+      "native_sketch_count": 5,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "battery_access_latch_-1",
+      "label": "Battery access latch -1",
+      "group": "Body and chassis",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "battery_access_latch_-1",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "990d816c18448ddd019e2e9b384ba0d43c2bfd02aa93683ffc30eb2437a2c147",
+      "source_volume_mm3": 152.601,
+      "source_bounds_mm": [
+        22.003109130996304,
+        1.8031091309963188,
+        4.0031091309963
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Battery access latch -1",
+      "native_feature_count": 3,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "57ba96e3f65c5b4c4c9d7f8b2fd4c44e613dbb18c9f5100e1efe9ca8da7fc3ae",
+      "source_step": "snapshots/step/battery_access_latch_-1.step",
+      "native_sketch_count": 1,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "battery_side_panel_1",
+      "label": "Battery side panel 1",
+      "group": "Body and chassis",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "battery_side_panel_1",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "cd580a1d6515173e35c76919bd5968583a45a2ff3c027279ed5c11bf4938bcdb",
+      "source_volume_mm3": 12158.32,
+      "source_bounds_mm": [
+        135.96225080704403,
+        1.6059339008753,
+        60.00565630809886
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "22c9ca7e483ad4ccb5bbf7e829e7c244110ba120ef4c38c0eb05dca3439bb0c5",
+      "source_step": "snapshots/step/battery_side_panel_1.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "battery_access_latch_1",
+      "label": "Battery access latch 1",
+      "group": "Body and chassis",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "battery_access_latch_1",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "cf23cb083fae4a9c704f0bbfe3f0694e00475fbd25dff97757c8efb91d8c4c9f",
+      "source_volume_mm3": 152.601,
+      "source_bounds_mm": [
+        22.003109130996304,
+        1.8031091309963188,
+        4.0031091309963
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "50118aa5d833e1a5413042356f869606a392bff8f968e03aa94c433abe7b3b6d",
+      "source_step": "snapshots/step/battery_access_latch_1.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "battery_latch_-1",
+      "label": "Battery latch -1",
+      "group": "Body and chassis",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "battery_latch_-1",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "057669f7b6f173289b2a2b2e1745e4da36f6d786978094667d629bc62ccfd054",
+      "source_volume_mm3": 710.838,
+      "source_bounds_mm": [
+        18.01243592398521,
+        5.012435923985208,
+        9.012435923985208
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Battery latch -1",
+      "native_feature_count": 3,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "f874c940219037130955e137db944fd211ce4a7d12f02f549903e34c9a37fdd3",
+      "source_step": "snapshots/step/battery_latch_-1.step",
+      "native_sketch_count": 1,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "battery_latch_1",
+      "label": "Battery latch 1",
+      "group": "Body and chassis",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "battery_latch_1",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "0c8423d4b036e5df69cf8faac25196e29b83d16d7d926c39928b8fd6296f7994",
+      "source_volume_mm3": 710.838,
+      "source_bounds_mm": [
+        18.01243592398521,
+        5.012435923985208,
+        9.012435923985208
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "1216edfeef93ff0cb3223c3cd12d1369d5426b7c05618cd1a55b4dd15bf6fa1d",
+      "source_step": "snapshots/step/battery_latch_1.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "battery_cassette",
+      "label": "Battery cassette",
+      "group": "Body and chassis",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "battery_cassette",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "f08a675d453dbc4f19434812df2f300b4d2ea84b302eef085687999a1ce94073",
+      "source_volume_mm3": 170340.029,
+      "source_bounds_mm": [
+        140.09093425625753,
+        198.60435270339485,
+        69.54650251905024
+      ],
+      "state": "native_built_pending_audit",
+      "native_document": null,
+      "native_component": "Battery cassette",
+      "native_feature_count": 81,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "d63ec864b972627134bdee37c486a36f1a502664dbfe0b58c9cd7f7361277c59",
+      "source_step": "snapshots/step/battery_cassette.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59",
+      "native_file_id": "urn:adsk.wipprod:dm.lineage:7EMehEGQTV-NxCbRcPgGCw",
+      "native_sketch_count": 32
+    },
+    {
+      "id": "battery_skid",
+      "label": "Battery skid",
+      "group": "Body and chassis",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "battery_skid",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "105e9da1a00c40b7d768e0f8b7b0b92746a59383e44f4e99e5e51432a91fc1b7",
+      "source_volume_mm3": 39040.288,
+      "source_bounds_mm": [
+        138.02855355254428,
+        190.02855355254428,
+        1.5285535525443095
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Battery skid plate",
+      "native_feature_count": 1,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "d70f79575a2e77557fd1ad1d860c247293f674e6a09d127c132628e44e233497",
+      "source_step": "snapshots/step/battery_skid.step",
+      "native_sketch_count": 1,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "chassis_beam_-102",
+      "label": "Chassis beam -102",
+      "group": "Body and chassis",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "chassis_beam_-102",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "d8be194334b53f1eef9de3e7a157993d5c5d47c496b1d7e5d7c53187eedd15d3",
+      "source_volume_mm3": 17500.405,
+      "source_bounds_mm": [
+        262.01975805579946,
+        13.011176789525237,
+        54.004352703394844
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "bd400166a3a932a729a0d752b2ee95bb9b77aaeab4fab8f59fc2f106d7d06a19",
+      "source_step": "snapshots/step/chassis_beam_-102.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "chassis_beam_102",
+      "label": "Chassis beam 102",
+      "group": "Body and chassis",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "chassis_beam_102",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "c1ad4bf2048e23d7202432d837ed32190b479eabbe08979437dff44f73d695fb",
+      "source_volume_mm3": 17500.405,
+      "source_bounds_mm": [
+        262.01975805585573,
+        13.011176789582464,
+        54.004352703394844
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "f267ce582c83b03c741eda200a43f5d287e3b4efb664de1c63f6359203b8b755",
+      "source_step": "snapshots/step/chassis_beam_102.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "chassis_crossmember_-121",
+      "label": "Chassis crossmember -121",
+      "group": "Body and chassis",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "chassis_crossmember_-121",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "8eff99c60aef5075aa35db79c040bc178330f4d97d7acf4a46e1b6704ded69fe",
+      "source_volume_mm3": 4698.511,
+      "source_bounds_mm": [
+        12.04320703317103,
+        202.04320703317117,
+        8.80342377375954
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "82d1bd89cadaacfd723235b5e88b04c949264b549519957a778e4c87c9d87cb2",
+      "source_step": "snapshots/step/chassis_crossmember_-121.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "chassis_crossmember_121",
+      "label": "Chassis crossmember 121",
+      "group": "Body and chassis",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "chassis_crossmember_121",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "fcfffdbe72d3def982fe2177ed71723501f3f1a2d34cf28ad1aae2a7788a3275",
+      "source_volume_mm3": 4698.511,
+      "source_bounds_mm": [
+        12.04320703317103,
+        202.04320703317117,
+        8.80342377375954
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Front chassis crossmember",
+      "native_feature_count": 21,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "084262c8f4e39197b6d244fb8cef3f0391b9445e35302d29bb85734d3a4f7c86",
+      "source_step": "snapshots/step/chassis_crossmember_121.step",
+      "native_sketch_count": 15,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "chassis_lower_brace",
+      "label": "Chassis lower brace",
+      "group": "Body and chassis",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "chassis_lower_brace",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "7d825cefcabb69525c40b51d2962ddea6e52a2442165c03db23eae9479be100e",
+      "source_volume_mm3": 30235.25,
+      "source_bounds_mm": [
+        134.00218853612347,
+        202.00218853612347,
+        3.003423773759555
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Lower chassis brace",
+      "native_feature_count": 26,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "fe527e39fd83b3d16fd1767db7ef5e48cc067e52504b7e9780d25e99fc3668fd",
+      "source_step": "snapshots/step/chassis_lower_brace.step",
+      "native_sketch_count": 11,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "electronics_shelf",
+      "label": "Electronics shelf",
+      "group": "Electronics and sensors",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "electronics_shelf",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "4a40d823e5884f7cefc1a819b8d4aa042a89d4a2398143ec681011b1786b1018",
+      "source_volume_mm3": 69626.659,
+      "source_bounds_mm": [
+        134.01142154101774,
+        186.01142154101774,
+        4.011421541017725
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Electronics deck",
+      "native_feature_count": 36,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "c4d0aca0f42fe6dec318d8d3f7c286b7a032ba05876591a2a994601b8211bcfe",
+      "source_step": "snapshots/step/electronics_shelf.step",
+      "native_sketch_count": 15,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "lidar_lid",
+      "label": "Lidar lid",
+      "group": "Electronics and sensors",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "lidar_lid",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "3e4bb9da3e750b72d60bd8787c3b430d1200b118aff5722e1bbc4cbbc75e66c6",
+      "source_volume_mm3": 4580.442088933919,
+      "source_bounds_mm": [
+        54.01208452834545,
+        54.01812635444561,
+        2.0241688566908635
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Lidar lid",
+      "native_feature_count": 1,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "13c88a32fe7c692ed63892f0dfd511c099b7927831580b4260d76d7fe7d89a02",
+      "source_step": "snapshots/step/lidar_lid.step",
+      "native_sketch_count": 1,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "body_nose_surround",
+      "label": "Body nose surround",
+      "group": "Body and chassis",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "body_nose_surround",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "dd47a648e9aafb733702c88907ff33ab8069378baafc4eb8c78cbea0a2916f07",
+      "source_volume_mm3": 107791.20750779437,
+      "source_bounds_mm": [
+        137.8779233888747,
+        202.32135257766953,
+        113.49862367492831
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "f4536def426a7c01a37230a3d6843ffdd3589a304375e1948cbdc1ff70fbac1d",
+      "source_step": "snapshots/step/body_nose_surround.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "front_fascia",
+      "label": "Front fascia",
+      "group": "Body and chassis",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "front_fascia",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "9178cb6e5770c4948f2a2eb94af764a3cea9b77681b525bf9286ccd61564a5c9",
+      "source_volume_mm3": 27231.759,
+      "source_bounds_mm": [
+        19.0211502115892,
+        197.61363656363642,
+        84.65909110909092
+      ],
+      "state": "native_built_pending_audit",
+      "native_document": null,
+      "native_component": "Camera fascia",
+      "native_feature_count": 48,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "f6a5225092e99282b9dec9a8cdf42ab06f9dabef9d8084cb33cc7a2ef7694a9a",
+      "source_step": "snapshots/step/front_fascia.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59",
+      "source_graph": "snapshots/reconstructed/front_fascia/recipe.json",
+      "recipe_reconstruction_audit": "snapshots/reconstructed/front_fascia/reconstruction-audit.json",
+      "native_sketch_count": 58,
+      "native_local_archive": "exports/front_fascia.f3d"
+    },
+    {
+      "id": "sensor_bezel",
+      "label": "Sensor bezel",
+      "group": "Electronics and sensors",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "sensor_bezel",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "bb5d83163e2f40a09c3c12ba3f6ecafa888cc7fbcd34fd1d1539968791597d0d",
+      "source_volume_mm3": 12794.885,
+      "source_bounds_mm": [
+        10.696771153599798,
+        174.162008385575,
+        46.16200838557499
+      ],
+      "state": "native_built_pending_audit",
+      "native_document": null,
+      "native_component": "Sensor bezel",
+      "native_feature_count": 11,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "8c89298833bec4593670a73a04294bfcfb829b626cd869cb5b2d2942da96280e",
+      "source_step": "snapshots/step/sensor_bezel.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59",
+      "native_sketch_count": 59,
+      "native_local_archive": "exports/sensor_bezel.f3d"
+    },
+    {
+      "id": "power_button",
+      "label": "Power button",
+      "group": "Electronics and sensors",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "power_button",
+          "leg": null,
+          "kinematic_group": "body"
+        }
+      ],
+      "source_mesh_sha256": "f6ae18e424b49de7301376468e1b04df21545752624370284dbc76fd17f6c7ac",
+      "source_volume_mm3": 63.617,
+      "source_bounds_mm": [
+        9.009062601128178,
+        9.00000020000001,
+        1.0090626011281785
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Power button",
+      "native_feature_count": 1,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "4a87104d202a10119692b30cb905ece3a11e6a37838993bbf9eff82d691d2a99",
+      "source_step": "snapshots/step/power_button.step",
+      "native_sketch_count": 1,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "roll_cartridge_1",
+      "label": "Roll cartridge 1",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FL_roll_cartridge",
+          "leg": "FL",
+          "kinematic_group": "mount"
+        }
+      ],
+      "source_mesh_sha256": "586fabdce2f4ce9f131248f8e7e1856d4ca5069d835e719e9886df2211bf203d",
+      "source_volume_mm3": 17005.024,
+      "source_bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Roll cartridge 1",
+      "native_feature_count": 42,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "ea9fb891bc282d7313f29384df410c2f58448991e39056fa9ff9f8890eca9c15",
+      "source_step": "snapshots/step/roll_cartridge_1.step",
+      "native_sketch_count": 19,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "motor_carrier_1",
+      "label": "Motor carrier 1",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FL_motor_carrier",
+          "leg": "FL",
+          "kinematic_group": "roll"
+        }
+      ],
+      "source_mesh_sha256": "84e4be7bef9ac9545d08219aa63e5d4a10c326b97ef807ec94b94e367690d551",
+      "source_volume_mm3": 79452.50755927806,
+      "source_bounds_mm": [
+        111.31683152900499,
+        77.43994191788131,
+        88.03628377417107
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Motor carrier 1",
+      "native_feature_count": 77,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "e8fd52f45d32651c618464fcfa7a26e43afa0cc0a28b2455bef816c9c84dbb10",
+      "source_step": "snapshots/step/motor_carrier_1.step",
+      "native_sketch_count": 38,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "hip_hub",
+      "label": "Hip hub",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FL_hip_hub",
+          "leg": "FL",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RL_hip_hub",
+          "leg": "RL",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "05820d5d9b0034ef7875843ed00aa397e1561cece720d5c556ad9a7fc0a5fb6f",
+      "source_volume_mm3": 23213.197,
+      "source_bounds_mm": [
+        96.00000020000003,
+        8.068471675190619,
+        96.09666581203382
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Hip output hub",
+      "native_feature_count": 43,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "231863061c80f4d8204baf0395a54f30bc2761ac2ca760ff66bb37b136c2b71c",
+      "source_step": "snapshots/step/hip_hub.step",
+      "native_sketch_count": 22,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "motor_mount_ring",
+      "label": "Motor mount ring",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FL_motor_mount_ring",
+          "leg": "FL",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RL_motor_mount_ring",
+          "leg": "RL",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "2aa0b65c2d3286ae7f628006de34331da399659260f09e488d49b3dc4e2da7af",
+      "source_volume_mm3": 12905.536957240713,
+      "source_bounds_mm": [
+        96.03222447456996,
+        3.0429667007837082,
+        96.02148345039187
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Knee motor stator plate (1)",
+      "native_feature_count": 5,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "17ccd1aac5109e059c0cf9827cb362ce99e92f6036ba2800a3809768ded9cba9",
+      "source_step": "snapshots/step/motor_mount_ring.step",
+      "native_sketch_count": 3,
+      "native_parameter_count": 10,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "pod_sleeve_90",
+      "label": "Pod sleeve 90",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FL_pod_sleeve_90",
+          "leg": "FL",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RL_pod_sleeve_90",
+          "leg": "RL",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "67f1d560b1dae3ddd445d11fdb99eb90ddae379cdd8a3d585fffdfa6e49cc5a4",
+      "source_volume_mm3": 485.565,
+      "source_bounds_mm": [
+        5.00000020000001,
+        49.00503486729343,
+        5.005034867293432
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Pod sleeve 90",
+      "native_feature_count": 3,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "c387e88a064c9e182861c91826f60c63819ce24cfe14ae7efbcaa45de217fedc",
+      "source_step": "snapshots/step/pod_sleeve_90.step",
+      "native_sketch_count": 2,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "pod_sleeve_210",
+      "label": "Pod sleeve 210",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FL_pod_sleeve_210",
+          "leg": "FL",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RL_pod_sleeve_210",
+          "leg": "RL",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "3fa46b14a10e5397def63a09ee7b96911583f736a19695863931a08817d07814",
+      "source_volume_mm3": 485.565,
+      "source_bounds_mm": [
+        5.000000200000002,
+        49.00503486729343,
+        5.005034867293439
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Pod sleeve 210",
+      "native_feature_count": 3,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "f4161c86a8df337a36a53b7ad67c3d2ce5f390cd4d889086d0b26a26f263b7ab",
+      "source_step": "snapshots/step/pod_sleeve_210.step",
+      "native_sketch_count": 2,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "pod_sleeve_330",
+      "label": "Pod sleeve 330",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FL_pod_sleeve_330",
+          "leg": "FL",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RL_pod_sleeve_330",
+          "leg": "RL",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "711fb508d4f71842a8c5f8fc2f1b7caef491ab952bf6d96995e74d456b0e3599",
+      "source_volume_mm3": 485.565,
+      "source_bounds_mm": [
+        5.000000200000002,
+        49.00503486729343,
+        5.005034867293439
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Pod sleeve 330",
+      "native_feature_count": 3,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "79e5dd089e44acbb647773857af9bd14b30f14c0504d1a07d896db12dbb003ef",
+      "source_step": "snapshots/step/pod_sleeve_330.step",
+      "native_sketch_count": 2,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "thigh_inner",
+      "label": "Thigh inner",
+      "group": "Shared leg designs",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "FL_thigh_inner",
+          "leg": "FL",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RL_thigh_inner",
+          "leg": "RL",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "122ae9b084e715439a267a5221cc866e245cd027e6c7f0f05a2eed66a2b816d8",
+      "source_volume_mm3": 91591.16756814532,
+      "source_bounds_mm": [
+        98.19434736092381,
+        58.43200968184321,
+        238.0119749930861
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Thigh inner structural shell",
+      "native_feature_count": 103,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "82064feb604feaa8d6b242303583f2dbd9e391195fee69668572b2285d982b89",
+      "source_step": "snapshots/step/thigh_inner.step",
+      "native_sketch_count": 51,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "thigh_outer",
+      "label": "Thigh outer",
+      "group": "Shared leg designs",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "FL_thigh_outer",
+          "leg": "FL",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RL_thigh_outer",
+          "leg": "RL",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "a72264590bba97231d2ec90227eed6f18a94a64e26b62716e90780f6facee49c",
+      "source_volume_mm3": 99139.9760675404,
+      "source_bounds_mm": [
+        99.03013740159619,
+        44.38243227760367,
+        238.33533051837873
+      ],
+      "state": "native_built_pending_audit",
+      "native_document": null,
+      "native_component": "Thigh outer structural shell",
+      "native_feature_count": 137,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "e17b4fced90138564be69ddf402f1bdb128b191f2080a00f283223ffbe8b1385",
+      "source_step": "snapshots/step/thigh_outer.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59",
+      "native_file_id": "urn:adsk.wipprod:dm.lineage:F8VKcLWZTBeroV_VlZYsoQ",
+      "native_sketch_count": 64
+    },
+    {
+      "id": "sleeve_0",
+      "label": "Sleeve 0",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FL_sleeve_0",
+          "leg": "FL",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RL_sleeve_0",
+          "leg": "RL",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "66adc0caf1442b058fc2c83fa2233235b1aa4936482cd2232964c70147cba44f",
+      "source_volume_mm3": 1472.527,
+      "source_bounds_mm": [
+        8.000000200000017,
+        42.00805566766949,
+        8.008055667669495
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Sleeve 0",
+      "native_feature_count": 2,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "9fc4f141cce2520b2de880955ba4779b31eca313bc6b7a42d041756776aa288b",
+      "source_step": "snapshots/step/sleeve_0.step",
+      "native_sketch_count": 1,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "sleeve_1",
+      "label": "Sleeve 1",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FL_sleeve_1",
+          "leg": "FL",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RL_sleeve_1",
+          "leg": "RL",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "70fc002edd5d067e102aed970ef0cf2059538c237c1f296fc9f50a30c5ee0ed2",
+      "source_volume_mm3": 1472.527,
+      "source_bounds_mm": [
+        8.000000200000017,
+        42.00805566766949,
+        8.008055667669495
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Sleeve 1",
+      "native_feature_count": 2,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "95ffd8e90f123ce3fb503b66def14263005af7ee9df2e3781ae713e9843ee51e",
+      "source_step": "snapshots/step/sleeve_1.step",
+      "native_sketch_count": 1,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "input_crank",
+      "label": "Input crank",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FL_input_crank",
+          "leg": "FL",
+          "kinematic_group": "crank"
+        },
+        {
+          "name": "RL_input_crank",
+          "leg": "RL",
+          "kinematic_group": "crank"
+        }
+      ],
+      "source_mesh_sha256": "47038510d5b402b40964bd177aea74cda960760244eeca1c5c4a8c19b994610c",
+      "source_volume_mm3": 15325.64,
+      "source_bounds_mm": [
+        50.51956937562773,
+        27.631429010856067,
+        36.03693857579997
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Knee drive crank",
+      "native_feature_count": 85,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "6ee82cee31cf0be5cb536a5ff08fb2a5b8d0051d7def45920d99142cb2004473",
+      "source_step": "snapshots/step/input_crank.step",
+      "native_sketch_count": 40,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "pushrod",
+      "label": "Pushrod",
+      "group": "Shared leg designs",
+      "material": "steel",
+      "instances": [
+        {
+          "name": "FL_pushrod",
+          "leg": "FL",
+          "kinematic_group": "rod"
+        },
+        {
+          "name": "RL_pushrod",
+          "leg": "RL",
+          "kinematic_group": "rod"
+        }
+      ],
+      "source_mesh_sha256": "d8da4e10b8807c328058e96731eb3e340c1fcb13a2cfa60e121738ff316f71d7",
+      "source_volume_mm3": 7225.102,
+      "source_bounds_mm": [
+        15.015104201880327,
+        6.01510420188032,
+        185.00000020000002
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Knee pushrod",
+      "native_feature_count": 6,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "f533c69ae21628ed9e741ec9e38c89f9567352f825202801254faaa89fd10eda",
+      "source_step": "snapshots/step/pushrod.step",
+      "native_sketch_count": 3,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "knee_axle",
+      "label": "Knee axle",
+      "group": "Shared leg designs",
+      "material": "steel",
+      "instances": [
+        {
+          "name": "FL_knee_axle",
+          "leg": "FL",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RL_knee_axle",
+          "leg": "RL",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "79c95d24da7285cb59249fbaf8116198e4742e9e6ddede50078ad5f0e23712d5",
+      "source_volume_mm3": 2601.352,
+      "source_bounds_mm": [
+        12.00000020000007,
+        45.11208340150429,
+        12.012083401504299
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Knee axle",
+      "native_feature_count": 2,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "57fbb51e52579d384f6bba94b2eaf2c8c293bc3cf0c03be10e0c784e9ca1b26b",
+      "source_step": "snapshots/step/knee_axle.step",
+      "native_sketch_count": 1,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "knee_inner_spacer",
+      "label": "Knee inner spacer",
+      "group": "Shared leg designs",
+      "material": "steel",
+      "instances": [
+        {
+          "name": "FL_knee_inner_spacer",
+          "leg": "FL",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RL_knee_inner_spacer",
+          "leg": "RL",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "18725c54e57fdc1b13fddd2f9e889d69f75ed7171124f936b61b9ee403fc86b5",
+      "source_volume_mm3": 884.421,
+      "source_bounds_mm": [
+        15.50000020000003,
+        12.015607668609647,
+        15.515607668609675
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Knee inner spacer",
+      "native_feature_count": 2,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "ca2b207221e6c9f216c5a1481835309d9496fadb21a28ac61ce6373339ce99cf",
+      "source_step": "snapshots/step/knee_inner_spacer.step",
+      "native_sketch_count": 1,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "shin_inner",
+      "label": "Shin inner",
+      "group": "Shared leg designs",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "FL_shin_inner",
+          "leg": "FL",
+          "kinematic_group": "knee"
+        },
+        {
+          "name": "RL_shin_inner",
+          "leg": "RL",
+          "kinematic_group": "knee"
+        }
+      ],
+      "source_mesh_sha256": "28bfc0cb6c247f156367a20bf189c22b69d20202a1a3d9265a6c3218f71958c5",
+      "source_volume_mm3": 44361.08497988747,
+      "source_bounds_mm": [
+        49.031107657472845,
+        18.793864896014696,
+        168.82316453793206
+      ],
+      "state": "native_built_pending_audit",
+      "native_document": null,
+      "native_component": "Shin inner structural shell",
+      "native_feature_count": 132,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "c2e5c837eac67b0f498a606be34e5155865f2bf92af585230720c612b8e21059",
+      "source_step": "snapshots/step/shin_inner.step",
+      "native_sketch_count": 75,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59",
+      "native_file_id": "urn:adsk.wipprod:dm.lineage:-3See681Tr-nLMO4Ne286w"
+    },
+    {
+      "id": "shin_outer",
+      "label": "Shin outer",
+      "group": "Shared leg designs",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "FL_shin_outer",
+          "leg": "FL",
+          "kinematic_group": "knee"
+        },
+        {
+          "name": "RL_shin_outer",
+          "leg": "RL",
+          "kinematic_group": "knee"
+        }
+      ],
+      "source_mesh_sha256": "23b65d58cf5ccfffb6eb3679fbf9b07152396e13309547d683194004e7e3d61c",
+      "source_volume_mm3": 42032.13931468895,
+      "source_bounds_mm": [
+        49.031400266820086,
+        18.27869534182952,
+        168.82353727606937
+      ],
+      "state": "native_built_pending_audit",
+      "native_document": null,
+      "native_component": "Shin outer structural shell",
+      "native_feature_count": 128,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "e2912556c63207d9f20c1feb84e81ea1e762e86750d1bf2aec99708609ef4ed1",
+      "source_step": "snapshots/step/shin_outer.step",
+      "native_sketch_count": 90,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59",
+      "native_file_id": "urn:adsk.wipprod:dm.lineage:2oWHfN_uRfWNiBvhyxxWLA",
+      "source_brep": "snapshots/brep/shin_outer.brep",
+      "source_brep_sha256": "e35171360d9ee94c1c3f9221c57f6d13d806105e477918b4d626a14080ece933",
+      "source_reference_note": "Exact original source BRep replaces the STEP audit representation after STEP round-trip altered a small alignment-slot corner. Every frozen mesh vertex and triangle matches regeneration exactly; see audits/source-roundtrip-anomaly.json. Original STEP audits are preserved; numerical tolerances are unchanged."
+    },
+    {
+      "id": "shin_clamp_sleeve_37",
+      "label": "Shin clamp sleeve 37",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FL_shin_clamp_sleeve_37",
+          "leg": "FL",
+          "kinematic_group": "knee"
+        },
+        {
+          "name": "RL_shin_clamp_sleeve_37",
+          "leg": "RL",
+          "kinematic_group": "knee"
+        }
+      ],
+      "source_mesh_sha256": "b00af4cf758c994f113ba03736759ea55072bda13fac893d6cb4917e3b2d4355",
+      "source_volume_mm3": 643.3824674919215,
+      "source_bounds_mm": [
+        8.002685556214175,
+        18.00358074173198,
+        8.001790470865995
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Shin clamp sleeve 37",
+      "native_feature_count": 1,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "488aa92fc7df80bbf02505cba4b54a27464c48cee2a4a44debce6b7d7b3d446d",
+      "source_step": "snapshots/step/shin_clamp_sleeve_37.step",
+      "native_sketch_count": 1,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "shin_clamp_sleeve_105",
+      "label": "Shin clamp sleeve 105",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FL_shin_clamp_sleeve_105",
+          "leg": "FL",
+          "kinematic_group": "knee"
+        },
+        {
+          "name": "RL_shin_clamp_sleeve_105",
+          "leg": "RL",
+          "kinematic_group": "knee"
+        }
+      ],
+      "source_mesh_sha256": "4f659e195f9565d83967cdd462d2416a3d7ad0a425ed1f814a51e44825570a1f",
+      "source_volume_mm3": 643.382467491922,
+      "source_bounds_mm": [
+        8.002685556214189,
+        18.003580741732,
+        8.001790470866027
+      ],
+      "state": "geometry_audited_editability_pending",
+      "native_document": null,
+      "native_component": "Shin clamp sleeve 105",
+      "native_feature_count": 1,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "3ccddb9db2d689c944ebf2ea5213fc38a7a34f36f3383f288020ccb49f8bb03e",
+      "source_step": "snapshots/step/shin_clamp_sleeve_105.step",
+      "native_sketch_count": 1,
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "foot",
+      "label": "Foot",
+      "group": "Shared leg designs",
+      "material": "rubber",
+      "instances": [
+        {
+          "name": "FL_foot",
+          "leg": "FL",
+          "kinematic_group": "knee"
+        },
+        {
+          "name": "RL_foot",
+          "leg": "RL",
+          "kinematic_group": "knee"
+        }
+      ],
+      "source_mesh_sha256": "752b9678547b871c9bc153832fa58e2e58ff5d359a48596db49905b67ee4511d",
+      "source_volume_mm3": 36645.485,
+      "source_bounds_mm": [
+        41.79118640762644,
+        45.391180887508604,
+        42.789759056716235
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "ea6994176e2b085d1e0ebab009da2feca7f3f16fd3456b5fd0fd9e5e2397b102",
+      "source_step": "snapshots/step/foot.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "roll_cartridge_1_right",
+      "label": "Roll cartridge 1 right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FR_roll_cartridge",
+          "leg": "FR",
+          "kinematic_group": "mount"
+        }
+      ],
+      "source_mesh_sha256": "518e119929b170c86b9c4fa797c484974ef353aa6205ce61fce007bd231c4416",
+      "source_volume_mm3": 17005.024,
+      "source_bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "a7fa8a423cd44bf9ba7fb3e3c9c1c77063ffb2549273c5374ff4b27d98ad49ec",
+      "source_step": "snapshots/step/roll_cartridge_1_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "motor_carrier_1_right",
+      "label": "Motor carrier 1 right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FR_motor_carrier",
+          "leg": "FR",
+          "kinematic_group": "roll"
+        }
+      ],
+      "source_mesh_sha256": "b3ea246505594c0bcc50758ad2bc00af9d4ce2e3d0c7c4f7b7bc03e39aca848d",
+      "source_volume_mm3": 79452.50755927806,
+      "source_bounds_mm": [
+        111.31683152900499,
+        77.43994191788131,
+        88.03628377417107
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "372d160a87cde8c5cc826e9e30fd1ce62f07b2ef8326d4569136f346250a1ec6",
+      "source_step": "snapshots/step/motor_carrier_1_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "hip_hub_right",
+      "label": "Hip hub right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FR_hip_hub",
+          "leg": "FR",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RR_hip_hub",
+          "leg": "RR",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "fc509b227a29270d4e7e97559c0fbf6f601d62d0e812eccb23b32567e4782e52",
+      "source_volume_mm3": 23213.197,
+      "source_bounds_mm": [
+        96.00000020000003,
+        8.068471675190619,
+        96.09666581203382
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "6b0a50298fba5749f0d8dd2313c1ec65e5b6357684a21dc82ab4d14188700f6e",
+      "source_step": "snapshots/step/hip_hub_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "motor_mount_ring_right",
+      "label": "Motor mount ring right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FR_motor_mount_ring",
+          "leg": "FR",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RR_motor_mount_ring",
+          "leg": "RR",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "21bbe28e885080066f637528e0ae78f4362294093158f8efccc9662e004ff5ae",
+      "source_volume_mm3": 12905.536957240713,
+      "source_bounds_mm": [
+        96.03222447456996,
+        3.0429667007837082,
+        96.02148345039187
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "4ba0724246aaa72db6737dc935fce96a962f0dfb30d84695855d22bf4ac6745b",
+      "source_step": "snapshots/step/motor_mount_ring_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "pod_sleeve_90_right",
+      "label": "Pod sleeve 90 right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FR_pod_sleeve_90",
+          "leg": "FR",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RR_pod_sleeve_90",
+          "leg": "RR",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "b053eae490c3d00cea183272308c893cbe12ebedd1705000b9cc3365344adca6",
+      "source_volume_mm3": 485.565,
+      "source_bounds_mm": [
+        5.00000020000001,
+        49.00503486729343,
+        5.005034867293432
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "799bddf4d456608863d57fffbae07d2bf81007c5e7c68a51bf4625e71b26bde8",
+      "source_step": "snapshots/step/pod_sleeve_90_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "pod_sleeve_210_right",
+      "label": "Pod sleeve 210 right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FR_pod_sleeve_210",
+          "leg": "FR",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RR_pod_sleeve_210",
+          "leg": "RR",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "763a19e2fe67ae11d86d7fd024036cd9042d8a4dfcae31057c32d3c5549d00ba",
+      "source_volume_mm3": 485.565,
+      "source_bounds_mm": [
+        5.000000200000002,
+        49.00503486729343,
+        5.005034867293439
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "e3fdf956b4a5378162a25ebedec60b34e24f414533bc03634d568c82f72966fb",
+      "source_step": "snapshots/step/pod_sleeve_210_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "pod_sleeve_330_right",
+      "label": "Pod sleeve 330 right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FR_pod_sleeve_330",
+          "leg": "FR",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RR_pod_sleeve_330",
+          "leg": "RR",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "087049809e606ebf8f74331c8ad5a0fdf1afa80537a69696bacead52a1fa7d99",
+      "source_volume_mm3": 485.565,
+      "source_bounds_mm": [
+        5.000000200000002,
+        49.00503486729343,
+        5.005034867293439
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "afa82dfecaf296e9b257c99a48e2bb8359a89792fe1053c4e83d01e3b0bee3be",
+      "source_step": "snapshots/step/pod_sleeve_330_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "thigh_inner_right",
+      "label": "Thigh inner right",
+      "group": "Shared leg designs",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "FR_thigh_inner",
+          "leg": "FR",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RR_thigh_inner",
+          "leg": "RR",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "8e304e2e7a9f1e4722e0e3489fe969e57ba27bc43a942032e1ad935d55b01f78",
+      "source_volume_mm3": 91591.16756814532,
+      "source_bounds_mm": [
+        98.19434736092381,
+        58.43200968184321,
+        238.0119749930861
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "ba3aa402d498b3e508dffa5e772317b2045bba3ca57abd72d9f5e7c901410f4b",
+      "source_step": "snapshots/step/thigh_inner_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "thigh_outer_right",
+      "label": "Thigh outer right",
+      "group": "Shared leg designs",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "FR_thigh_outer",
+          "leg": "FR",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RR_thigh_outer",
+          "leg": "RR",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "2b9c3f4cdd5db72929da5b6f743f336b4d53f85e3e8ee134e20d7492b3c7afd7",
+      "source_volume_mm3": 99139.9760675404,
+      "source_bounds_mm": [
+        99.03013740159619,
+        44.38243227760367,
+        238.33533051837873
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "c34c4d05582a426388c950b05d531d51ba2f5663bac0bb032728bfb50af99ab7",
+      "source_step": "snapshots/step/thigh_outer_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "sleeve_0_right",
+      "label": "Sleeve 0 right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FR_sleeve_0",
+          "leg": "FR",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RR_sleeve_0",
+          "leg": "RR",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "8d68b0f7784ca2d1d1b74ec0f9136db8eb228d16645c083be375586aca92741d",
+      "source_volume_mm3": 1472.527,
+      "source_bounds_mm": [
+        8.000000200000017,
+        42.00805566766949,
+        8.008055667669495
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "8fc5bc00608449947173e3efd9a8287d070a6f532284b684b7e31a7158b4b286",
+      "source_step": "snapshots/step/sleeve_0_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "sleeve_1_right",
+      "label": "Sleeve 1 right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FR_sleeve_1",
+          "leg": "FR",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RR_sleeve_1",
+          "leg": "RR",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "f522eb31cc7b65f6f456a72b54409e4e76bc10dac7fa2cbd368e403efc33291a",
+      "source_volume_mm3": 1472.527,
+      "source_bounds_mm": [
+        8.000000200000017,
+        42.00805566766949,
+        8.008055667669495
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "cdec935097ecc5f33f32c7025d9ac0bd296a46771ea704326872b6b19aef57c5",
+      "source_step": "snapshots/step/sleeve_1_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "input_crank_right",
+      "label": "Input crank right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FR_input_crank",
+          "leg": "FR",
+          "kinematic_group": "crank"
+        },
+        {
+          "name": "RR_input_crank",
+          "leg": "RR",
+          "kinematic_group": "crank"
+        }
+      ],
+      "source_mesh_sha256": "a8ba7763be5f3a74f1416b32e03e08cbbc58f8d899f103c8cdc1a0d7a11501c7",
+      "source_volume_mm3": 15325.64,
+      "source_bounds_mm": [
+        50.51956937562773,
+        27.631429010856067,
+        36.03693857579997
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "554552cfe141718017987711311428061dad2d9111d690e73e2c5924bf84ff82",
+      "source_step": "snapshots/step/input_crank_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "pushrod_right",
+      "label": "Pushrod right",
+      "group": "Shared leg designs",
+      "material": "steel",
+      "instances": [
+        {
+          "name": "FR_pushrod",
+          "leg": "FR",
+          "kinematic_group": "rod"
+        },
+        {
+          "name": "RR_pushrod",
+          "leg": "RR",
+          "kinematic_group": "rod"
+        }
+      ],
+      "source_mesh_sha256": "d041727f5ee955d89dfb8cd1c804a5812cd52f2dd3e8c73945c1ea9263d931b6",
+      "source_volume_mm3": 7225.102,
+      "source_bounds_mm": [
+        15.015104201880327,
+        6.01510420188032,
+        185.00000020000002
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "76677428ca2000404b9047f210e66de7e3fa8ad61570867123b8fccdb9834df5",
+      "source_step": "snapshots/step/pushrod_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "knee_axle_right",
+      "label": "Knee axle right",
+      "group": "Shared leg designs",
+      "material": "steel",
+      "instances": [
+        {
+          "name": "FR_knee_axle",
+          "leg": "FR",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RR_knee_axle",
+          "leg": "RR",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "b053ca3a09ce21ef7f1c398fbfacfd4d949d4d4cd9535fd17d7022231207a5c8",
+      "source_volume_mm3": 2601.352,
+      "source_bounds_mm": [
+        12.00000020000007,
+        45.11208340150429,
+        12.012083401504299
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "a8906fb541de7d9b400c45c756837dac036e784bdb952485b879c852d3055267",
+      "source_step": "snapshots/step/knee_axle_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "knee_inner_spacer_right",
+      "label": "Knee inner spacer right",
+      "group": "Shared leg designs",
+      "material": "steel",
+      "instances": [
+        {
+          "name": "FR_knee_inner_spacer",
+          "leg": "FR",
+          "kinematic_group": "thigh"
+        },
+        {
+          "name": "RR_knee_inner_spacer",
+          "leg": "RR",
+          "kinematic_group": "thigh"
+        }
+      ],
+      "source_mesh_sha256": "ac4afa49c3f94e0083c50a7c61311b8ea32acae6135bc6ac9b7d8e98b43797e3",
+      "source_volume_mm3": 884.421,
+      "source_bounds_mm": [
+        15.50000020000003,
+        12.015607668609647,
+        15.515607668609675
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "6323a2941dba57b6be8e5a1c78882dd16d41310390a82518b2152f8062dbcab4",
+      "source_step": "snapshots/step/knee_inner_spacer_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "shin_inner_right",
+      "label": "Shin inner right",
+      "group": "Shared leg designs",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "FR_shin_inner",
+          "leg": "FR",
+          "kinematic_group": "knee"
+        },
+        {
+          "name": "RR_shin_inner",
+          "leg": "RR",
+          "kinematic_group": "knee"
+        }
+      ],
+      "source_mesh_sha256": "ce7b30cbe64887bfe89a3652d4aca044fc4463944fa70ef85b41c3fbe8a89418",
+      "source_volume_mm3": 44361.08497988747,
+      "source_bounds_mm": [
+        49.031107657472845,
+        18.793864896014696,
+        168.82316453793206
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "26db5b0ac32ee9cf60771e6e3ce00ae51b8092d22e45982544f7ed7a19538f69",
+      "source_step": "snapshots/step/shin_inner_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "shin_outer_right",
+      "label": "Shin outer right",
+      "group": "Shared leg designs",
+      "material": "petg",
+      "instances": [
+        {
+          "name": "FR_shin_outer",
+          "leg": "FR",
+          "kinematic_group": "knee"
+        },
+        {
+          "name": "RR_shin_outer",
+          "leg": "RR",
+          "kinematic_group": "knee"
+        }
+      ],
+      "source_mesh_sha256": "6bd1ef3921a14ec30b1413fcb25fa5164516b87e86c66bfe967dc50e3b32c70a",
+      "source_volume_mm3": 42032.13931468895,
+      "source_bounds_mm": [
+        49.031400266820086,
+        18.27869534182952,
+        168.82353727606937
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "55af9e154cb000a8ed3805e3d0a196216a0ae697fe78db675c4a2bf53df8e29e",
+      "source_step": "snapshots/step/shin_outer_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59",
+      "source_brep": "snapshots/brep/shin_outer_right.brep",
+      "source_brep_sha256": "58478ded283fdc4511fd965cfe80265fc99b1cbb3eb6902154d38a2e00f57363",
+      "source_reference_note": "Lossless source BRep retained for audit only after exact frozen mesh identity verification; source STEP round-trip moves a curved slot corner by 0.06474 mm. See shin_outer_right-source-roundtrip-anomaly.json."
+    },
+    {
+      "id": "shin_clamp_sleeve_37_right",
+      "label": "Shin clamp sleeve 37 right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FR_shin_clamp_sleeve_37",
+          "leg": "FR",
+          "kinematic_group": "knee"
+        },
+        {
+          "name": "RR_shin_clamp_sleeve_37",
+          "leg": "RR",
+          "kinematic_group": "knee"
+        }
+      ],
+      "source_mesh_sha256": "6c71b536a549003363f0904c4613f45fa746cc3580b17f3c1d13a8966b112e20",
+      "source_volume_mm3": 643.3824674919215,
+      "source_bounds_mm": [
+        8.002685556214175,
+        18.00358074173198,
+        8.001790470865995
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "31bcaefe8b0e961cd03d3f482e7d4774d8186a336b6f347cedab2dc02607888e",
+      "source_step": "snapshots/step/shin_clamp_sleeve_37_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "shin_clamp_sleeve_105_right",
+      "label": "Shin clamp sleeve 105 right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "FR_shin_clamp_sleeve_105",
+          "leg": "FR",
+          "kinematic_group": "knee"
+        },
+        {
+          "name": "RR_shin_clamp_sleeve_105",
+          "leg": "RR",
+          "kinematic_group": "knee"
+        }
+      ],
+      "source_mesh_sha256": "81817fa7ba331b63b75d273bb0c3affed96cba783b5feec019fe16715753ee1b",
+      "source_volume_mm3": 643.3824674919215,
+      "source_bounds_mm": [
+        8.002685556214189,
+        18.003580741732,
+        8.001790470866027
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "8ae34dfce8b9fc032ce5d14f14665906139731438f533fea59a36a78ef03f715",
+      "source_step": "snapshots/step/shin_clamp_sleeve_105_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "foot_right",
+      "label": "Foot right",
+      "group": "Shared leg designs",
+      "material": "rubber",
+      "instances": [
+        {
+          "name": "FR_foot",
+          "leg": "FR",
+          "kinematic_group": "knee"
+        },
+        {
+          "name": "RR_foot",
+          "leg": "RR",
+          "kinematic_group": "knee"
+        }
+      ],
+      "source_mesh_sha256": "9b7119445e3d165125d7a32419b2a8c39511ee7c1fa40b4b688490b71102327a",
+      "source_volume_mm3": 36645.485,
+      "source_bounds_mm": [
+        41.68036848541669,
+        45.16954504308911,
+        42.67894113450649
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "ef3df51046056ffd29610e63fa006d8f99ac59f8c52e917975c1fe2ef115d9ec",
+      "source_step": "snapshots/step/foot_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "roll_cartridge_-1",
+      "label": "Roll cartridge -1",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "RL_roll_cartridge",
+          "leg": "RL",
+          "kinematic_group": "mount"
+        }
+      ],
+      "source_mesh_sha256": "d6acdb9cc2c9f972b0192be9fcb65b84b65653dc126a072d28c189c4797f17ea",
+      "source_volume_mm3": 17005.024,
+      "source_bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "5f2e80726996b3adac596cec76aa3c4cd09fdab43434d5f98008886791c8ccc6",
+      "source_step": "snapshots/step/roll_cartridge_-1.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "motor_carrier_-1",
+      "label": "Motor carrier -1",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "RL_motor_carrier",
+          "leg": "RL",
+          "kinematic_group": "roll"
+        }
+      ],
+      "source_mesh_sha256": "334e2a6103a56bab3a7501e71e754f48eaebcdc8c25f6457894eb81febf6f888",
+      "source_volume_mm3": 79451.81553555914,
+      "source_bounds_mm": [
+        111.3168315290065,
+        77.43994191788134,
+        88.03628377417111
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "5ebd9e531daaa19bde5e5464e67d89b1bc567f034851a39dd5ce586d794dc3f8",
+      "source_step": "snapshots/step/motor_carrier_-1.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "roll_cartridge_-1_right",
+      "label": "Roll cartridge -1 right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "RR_roll_cartridge",
+          "leg": "RR",
+          "kinematic_group": "mount"
+        }
+      ],
+      "source_mesh_sha256": "54dbb309f1d749eaa96aaff50032fc81a810546d1bcc55430755a5c2d60036fd",
+      "source_volume_mm3": 17005.024,
+      "source_bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "2648d57ceca0e710e5c37b9de701f596ef8de16843fac5ccd74c96975ce1c165",
+      "source_step": "snapshots/step/roll_cartridge_-1_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    },
+    {
+      "id": "motor_carrier_-1_right",
+      "label": "Motor carrier -1 right",
+      "group": "Shared leg designs",
+      "material": "aluminum",
+      "instances": [
+        {
+          "name": "RR_motor_carrier",
+          "leg": "RR",
+          "kinematic_group": "roll"
+        }
+      ],
+      "source_mesh_sha256": "d8d055c1ef8d7dd515c7e532d9219a974c3a2f4105333355b5e435fc358d03ab",
+      "source_volume_mm3": 79451.81553555914,
+      "source_bounds_mm": [
+        111.3168315290065,
+        77.43994191788134,
+        88.03628377417111
+      ],
+      "state": "planned",
+      "native_document": null,
+      "native_component": null,
+      "native_feature_count": 0,
+      "audits": {},
+      "manufacturing_release": false,
+      "source_step_sha256": "1dc51890c77ca7c1f88aa73130cd9290f670263084e8cb05b0677ae32dcfa6a6",
+      "source_step": "snapshots/step/motor_carrier_-1_right.step",
+      "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59"
+    }
+  ],
+  "design_revision": "V0",
+  "baseline_source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59",
+  "reference_model": "snapshots/deltas/3f384f8cace91b1b5154eea61771b4c69d207e6d3fdab714ed475639b0cd8ce5/model.json.gz",
+  "authorized_deltas": [
+    {
+      "model_sha256": "3f384f8cace91b1b5154eea61771b4c69d207e6d3fdab714ed475639b0cd8ce5",
+      "changed_parts": [
+        "body_center_0"
+      ],
+      "recipe_capture_audit": "snapshots/deltas/3f384f8cace91b1b5154eea61771b4c69d207e6d3fdab714ed475639b0cd8ce5/capture-audit.json",
+      "fit_qualified": false
+    }
+  ]
+}

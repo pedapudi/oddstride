@@ -1,0 +1,224 @@
+{
+  "surface_distance_algorithm": "boundary_faces_v2: distance to face compound, never solid containment",
+  "part": "slim_thigh_cavity",
+  "source_step_sha256": "c94a4ec5ad1b45d9854c6289aaf942066be8c7e38d8d63ca541bf464ee34fde9",
+  "source_brep_sha256": null,
+  "source_reference_note": "Original knee envelope radius21.5 minus sidewall8; source toNURBS represents the same circular offset edge. Native linked sketch offset preserves its analytic cylinder type. This is not an added bearing or shaft bore.",
+  "native_step_sha256": "c07d28ce11e774e556dec90b153bc834cae36ec8d08a7be8c36e08cdbb0f4cd3",
+  "source_volume_mm3": 352019.6119237137,
+  "native_volume_mm3": 351981.0000785926,
+  "relative_volume_error": 0.00010968663055468127,
+  "volume_integration": {
+    "method": "Adaptive Gauss-Kronrod with B-spline spans; unchanged 0.1% volume gate",
+    "convergence": {
+      "source": [
+        {
+          "requested_error": 1e-07,
+          "volume_mm3": 352019.6118313391,
+          "estimated_error": 2.7047605363681082e-08
+        },
+        {
+          "requested_error": 1e-09,
+          "volume_mm3": 352019.6119307705,
+          "estimated_error": 1.462065211974195e-10
+        },
+        {
+          "requested_error": 1e-11,
+          "volume_mm3": 352019.61192388076,
+          "estimated_error": 5.4284806823502545e-12
+        },
+        {
+          "requested_error": 1e-12,
+          "volume_mm3": 352019.6119237137,
+          "estimated_error": 4.590719962587117e-12
+        }
+      ],
+      "native": [
+        {
+          "requested_error": 1e-07,
+          "volume_mm3": 351981.01118290436,
+          "estimated_error": 3.4806958620965996e-08
+        },
+        {
+          "requested_error": 1e-09,
+          "volume_mm3": 351981.0000960028,
+          "estimated_error": 3.489467787460523e-10
+        },
+        {
+          "requested_error": 1e-11,
+          "volume_mm3": 351981.00007761,
+          "estimated_error": 3.3562527049810453e-12
+        },
+        {
+          "requested_error": 1e-12,
+          "volume_mm3": 351981.0000785926,
+          "estimated_error": 3.5025843866716297e-13
+        }
+      ]
+    },
+    "reason": "Converged span-aware integration; original ordinary-Gauss diagnostic retained."
+  },
+  "source_area_mm2": 38642.95402021093,
+  "native_area_mm2": 38629.380405744974,
+  "relative_area_error": 0.0003512571647305718,
+  "area_integration": {
+    "method": "Adaptive Gauss integration",
+    "requested_relative_error": 1e-09,
+    "estimated_source_error": 2.1809646546621934e-12,
+    "estimated_native_error": 6.578183150525903e-16
+  },
+  "conservative_brep_bounds_error_max_mm": 0.1498205527180545,
+  "sampled_boundary_bounds_error_max_mm": 0.004593755663009347,
+  "surface_deviation": {
+    "native_to_source": {
+      "samples": 1000,
+      "max_mm": 0.00781746408496514,
+      "rms_mm": 0.001033885167913719,
+      "worst_samples": [
+        {
+          "point_mm": [
+            13.15932583270388,
+            53.0,
+            -165.96150662898376
+          ],
+          "distance_mm": 0.00781746408496514
+        },
+        {
+          "point_mm": [
+            13.1642565309127,
+            90.0,
+            -165.9883005563956
+          ],
+          "distance_mm": 0.00781611963579762
+        },
+        {
+          "point_mm": [
+            13.091881143405242,
+            90.0,
+            -165.61551458376144
+          ],
+          "distance_mm": 0.007670544873174344
+        },
+        {
+          "point_mm": [
+            13.091881143405242,
+            90.0,
+            -165.61551458376144
+          ],
+          "distance_mm": 0.007670544873174344
+        },
+        {
+          "point_mm": [
+            13.079256052338339,
+            53.0,
+            -165.55452435707943
+          ],
+          "distance_mm": 0.007612539112860198
+        }
+      ]
+    },
+    "source_to_native": {
+      "samples": 1000,
+      "max_mm": 0.009452790542330216,
+      "rms_mm": 0.002279104138004183,
+      "worst_samples": [
+        {
+          "point_mm": [
+            35.19374971160348,
+            65.33333333333333,
+            11.378502047490121
+          ],
+          "distance_mm": 0.009452790542330216
+        },
+        {
+          "point_mm": [
+            35.19374971160348,
+            69.44444444444444,
+            11.378502047490121
+          ],
+          "distance_mm": 0.009452790542330216
+        },
+        {
+          "point_mm": [
+            34.889344444733844,
+            53.0,
+            12.608477769383551
+          ],
+          "distance_mm": 0.009188003675836052
+        },
+        {
+          "point_mm": [
+            35.644266681833145,
+            89.99999999999997,
+            9.238064223525475
+          ],
+          "distance_mm": 0.008791892770466565
+        },
+        {
+          "point_mm": [
+            34.586635656124365,
+            90.00000000000001,
+            13.71356780052532
+          ],
+          "distance_mm": 0.00854670844602211
+        }
+      ]
+    }
+  },
+  "source_cylinders": [],
+  "native_cylinders": [
+    [
+      13.5,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "cylinder_position_radius_error_max_mm": 0,
+  "cylinder_axis_component_error_max": 0,
+  "native_solid_count": 1,
+  "source_solid_count": 1,
+  "critical_cylinder_gate_passed": true,
+  "declared_functional_clearance_cylinders": [
+    [
+      13.5,
+      0,
+      0,
+      -170,
+      0,
+      1,
+      0
+    ]
+  ],
+  "functional_clearance_proof": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/slim-thigh-cavity-analytic-arc-proof.json",
+  "clearance_cylinder_mapping": {
+    "source": [],
+    "native": []
+  },
+  "additional_source_curve_analytic_cylinders": [
+    [
+      13.5,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "unexplained_native_cylinders": [],
+  "cylinder_matching_method": "Source hole, shaft, seat and unchanged fillet cylinders match native radii, axes and locations within 0.0001 mm. Explicitly recorded sampled-clearance replacements and recovered sketch arcs are checked by the unchanged full-surface and section gates.",
+  "geometric_gate_passed": true,
+  "tolerances": {
+    "sampled_surface_mm": 0.05,
+    "relative_volume": 0.001,
+    "relative_area": 0.001,
+    "cylinder_position_radius_mm": 0.0001,
+    "cylinder_axis_component": 0.0001
+  },
+  "bounds_note": "Conservative BRep bounds can include untrimmed NURBS surface extents. Sampled boundary bounds use a 0.02 mm tessellation and describe the trimmed physical boundary.",
+  "scope": "Exact native STEP geometry. Sampled symmetric surface checks are finite, not a mathematical Hausdorff proof. Native editability and assembly migration gates are separate."
+}

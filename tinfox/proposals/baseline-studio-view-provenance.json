@@ -1,0 +1,41 @@
+{
+  "image": "proposals/baseline-studio-view.png",
+  "model_sha256": "f372d3cf5ed70d1af5611d37bd91bb8a273fc48d4130c8e0f687ebc12554e66d",
+  "method": "Blender Cycles rendering of exported CAD meshes; studio floor, lights and camera are presentation only.",
+  "script": "proposals/render_baseline.py",
+  "camera": {
+    "position": [
+      0.55,
+      -1.5,
+      0.25
+    ],
+    "target": [
+      0,
+      0,
+      -0.105
+    ],
+    "ortho_scale": 0.78
+  },
+  "pose": {
+    "FL": [
+      0,
+      45,
+      -75
+    ],
+    "FR": [
+      0,
+      45,
+      -75
+    ],
+    "RL": [
+      0,
+      45,
+      -75
+    ],
+    "RR": [
+      0,
+      45,
+      -75
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "leg_version": 21,
+  "leg_upload_complete": true,
+  "leg_modified": false,
+  "checks": [
+    {
+      "pair": [
+        "FL_carrier_closure_bolt_215",
+        "FL_pod_tie_210"
+      ],
+      "overlap_mm3": 0.009261998707984276,
+      "target_volume_before_mm3": 300.8640452489743,
+      "target_volume_after_mm3": 300.85478325026634,
+      "conditions": {
+        "hip_deg": -10,
+        "roll_deg": 0,
+        "frame": "Common bench pitch frame. Closure stays fixed; tie rotates about Y. Equal world translations cancel."
+      },
+      "classification": "positive solid interference"
+    },
+    {
+      "pair": [
+        "FL_roll_stator_bolt_0",
+        "chassis_beam_102"
+      ],
+      "overlap_mm3": 0,
+      "target_volume_before_mm3": 252.6971466841369,
+      "target_volume_after_mm3": 252.6971466841369,
+      "conditions": {
+        "fixed_mount": true,
+        "bench_to_whole_translation_mm": [
+          190,
+          68,
+          0
+        ],
+        "chassis_version": 18,
+        "chassis_modified": false,
+        "beam_bounds_mm": [
+          -131.0,
+          93.0,
+          -19.0,
+          131.0,
+          108.50000000000001,
+          35.0
+        ]
+      },
+      "classification": "no positive solid interference"
+    }
+  ],
+  "checker": "Native temporary BRep exact Boolean difference; source document geometry is not altered.",
+  "whole_source_target": "1ef89695619c6ff8853d0ac458b55eaccebfcc65ad6622c614fbe259ceae8c2f",
+  "scope": "Two flagged FL pairs only; no motion or strength release."
+}

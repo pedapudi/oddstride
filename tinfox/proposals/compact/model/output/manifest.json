@@ -1,0 +1,6253 @@
+{
+  "parameters": {
+    "units": "mm",
+    "thigh": 170,
+    "shank_to_foot_center": 154,
+    "foot_radius": 16,
+    "body_length": 479,
+    "body_width": 212,
+    "body_height": 106,
+    "hip_x": 185,
+    "roll_y": 63,
+    "pitch_offset": 0,
+    "shin_y": 67,
+    "crank_radius": 22,
+    "crank_phase_deg": -78,
+    "rod_length": 170,
+    "rod_diameter": 6,
+    "knee_shaft_diameter": 12,
+    "bearing_id": 12,
+    "bearing_od": 28,
+    "bearing_width": 8,
+    "motor_radius": 39.25,
+    "motor_depth": 45.4,
+    "motor_mass_kg": 0.405,
+    "shell_skin": 3.0,
+    "shell_wall": 2.8,
+    "knee_efficiency_assumption": 0.9,
+    "clearance_screen_mm": 1.5,
+    "joint_limits_deg": {
+      "roll": [
+        -60,
+        60
+      ],
+      "hip_front": [
+        -90,
+        200
+      ],
+      "hip_rear": [
+        -30,
+        260
+      ],
+      "knee": [
+        -156,
+        -48
+      ]
+    },
+    "nominal_pose_deg": [
+      0,
+      30,
+      -60
+    ],
+    "battery_envelope_mm": [
+      125,
+      85,
+      65
+    ],
+    "battery_each_mass_kg_assumed": 0.7,
+    "compute_sensors_wiring_mass_kg_assumed": 0.8,
+    "payload_cases_kg": [
+      0,
+      1
+    ],
+    "h2d_single_nozzle_volume_mm": [
+      325,
+      320,
+      325
+    ],
+    "print_bed_margin_mm": 10,
+    "rod_y": 70,
+    "roll_motor_x": 90,
+    "thigh_inner_y": 45,
+    "thigh_depth": 44,
+    "cap_y": 88.8,
+    "battery_center_z": -33.5,
+    "skid_below_hip_mm": 71,
+    "weight_target_kg": 10,
+    "battery_mass_basis": "Compact 5 Ah pack plus lightweight adapter target; verify exact pack mass and envelope.",
+    "electronics_mass_basis": "0.80 kg allocation for low-power SBC, compact lidar, GPS, microcontrollers, wiring and converters; not a selected BOM.",
+    "electronics_clearance_mm": [
+      130,
+      135,
+      32
+    ],
+    "motor_stack_inset_mm": 4,
+    "limb_recess_mm": 12,
+    "body_skin": 1.6,
+    "central_roof_height_mm": 48,
+    "nose_corner_extra_skin_mm": 0.3
+  },
+  "parts": [
+    {
+      "name": "flexible_gaiter_upper_-1_-1",
+      "mesh": "flexible_gaiter_upper_-1_-1",
+      "group": "body",
+      "leg": null,
+      "material": "fabric",
+      "color": "#d9d6cc",
+      "mass_kg": 0.018,
+      "com_mm": [
+        -170.99302637893356,
+        -57.982137635319596,
+        46.09077980254471
+      ],
+      "bounds_mm": [
+        115.12487030061219,
+        111.55062478489492,
+        64.63731180822506
+      ],
+      "check": false,
+      "note": "Neutral flexible gaiter envelope; not a rigid shoulder. Deformation and attachment remain to be developed.",
+      "volume_mm3": 17569.602
+    },
+    {
+      "name": "flexible_gaiter_lower_-1_-1",
+      "mesh": "flexible_gaiter_lower_-1_-1",
+      "group": "body",
+      "leg": null,
+      "material": "fabric",
+      "color": "#202321",
+      "mass_kg": 0.018,
+      "com_mm": [
+        -171.6770931389659,
+        -55.16607360387879,
+        -47.24787657858502
+      ],
+      "bounds_mm": [
+        114.79654842642884,
+        111.56077708371248,
+        44.670287841264255
+      ],
+      "check": false,
+      "note": "Neutral flexible gaiter envelope; not a rigid shoulder. Deformation and attachment remain to be developed.",
+      "volume_mm3": 16415.91
+    },
+    {
+      "name": "flexible_gaiter_upper_-1_1",
+      "mesh": "flexible_gaiter_upper_-1_1",
+      "group": "body",
+      "leg": null,
+      "material": "fabric",
+      "color": "#d9d6cc",
+      "mass_kg": 0.018,
+      "com_mm": [
+        -170.9930688512897,
+        57.98221266753187,
+        46.09068351699868
+      ],
+      "bounds_mm": [
+        115.09616725393539,
+        111.55795302848398,
+        64.60865072241668
+      ],
+      "check": false,
+      "note": "Neutral flexible gaiter envelope; not a rigid shoulder. Deformation and attachment remain to be developed.",
+      "volume_mm3": 17569.678
+    },
+    {
+      "name": "flexible_gaiter_lower_-1_1",
+      "mesh": "flexible_gaiter_lower_-1_1",
+      "group": "body",
+      "leg": null,
+      "material": "fabric",
+      "color": "#202321",
+      "mass_kg": 0.018,
+      "com_mm": [
+        -171.6771166835377,
+        55.166071120708715,
+        -47.24786916061991
+      ],
+      "bounds_mm": [
+        114.9996051632294,
+        111.57048556019197,
+        44.67041127870751
+      ],
+      "check": false,
+      "note": "Neutral flexible gaiter envelope; not a rigid shoulder. Deformation and attachment remain to be developed.",
+      "volume_mm3": 16415.921
+    },
+    {
+      "name": "flexible_gaiter_upper_1_-1",
+      "mesh": "flexible_gaiter_upper_1_-1",
+      "group": "body",
+      "leg": null,
+      "material": "fabric",
+      "color": "#d9d6cc",
+      "mass_kg": 0.018,
+      "com_mm": [
+        176.34630223076488,
+        -60.77907672683191,
+        45.431173113681474
+      ],
+      "bounds_mm": [
+        121.59827172334592,
+        101.28550432415169,
+        64.95493110350762
+      ],
+      "check": false,
+      "note": "Neutral flexible gaiter envelope; not a rigid shoulder. Deformation and attachment remain to be developed.",
+      "volume_mm3": 19184.948
+    },
+    {
+      "name": "flexible_gaiter_lower_1_-1",
+      "mesh": "flexible_gaiter_lower_1_-1",
+      "group": "body",
+      "leg": null,
+      "material": "fabric",
+      "color": "#202321",
+      "mass_kg": 0.018,
+      "com_mm": [
+        176.63030352540093,
+        -57.75327546251905,
+        -47.12414419078392
+      ],
+      "bounds_mm": [
+        121.55274313692553,
+        101.59622865749394,
+        44.87637422057637
+      ],
+      "check": false,
+      "note": "Neutral flexible gaiter envelope; not a rigid shoulder. Deformation and attachment remain to be developed.",
+      "volume_mm3": 17817.679
+    },
+    {
+      "name": "flexible_gaiter_upper_1_1",
+      "mesh": "flexible_gaiter_upper_1_1",
+      "group": "body",
+      "leg": null,
+      "material": "fabric",
+      "color": "#d9d6cc",
+      "mass_kg": 0.018,
+      "com_mm": [
+        176.34629542625737,
+        60.77908651103546,
+        45.43116396795357
+      ],
+      "bounds_mm": [
+        121.59827172334565,
+        101.49930943186865,
+        64.9781645400532
+      ],
+      "check": false,
+      "note": "Neutral flexible gaiter envelope; not a rigid shoulder. Deformation and attachment remain to be developed.",
+      "volume_mm3": 19184.947
+    },
+    {
+      "name": "flexible_gaiter_lower_1_1",
+      "mesh": "flexible_gaiter_lower_1_1",
+      "group": "body",
+      "leg": null,
+      "material": "fabric",
+      "color": "#202321",
+      "mass_kg": 0.018,
+      "com_mm": [
+        176.71869081274804,
+        57.77769454092459,
+        -47.108967915527685
+      ],
+      "bounds_mm": [
+        121.55274313692391,
+        101.43155111540479,
+        44.72980747952408
+      ],
+      "check": false,
+      "note": "Neutral flexible gaiter envelope; not a rigid shoulder. Deformation and attachment remain to be developed.",
+      "volume_mm3": 17847.861
+    },
+    {
+      "name": "body_aft_0",
+      "mesh": "body_aft_0",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#d9d6cc",
+      "mass_kg": 0.018339,
+      "com_mm": [
+        -221.4609424854162,
+        0.0007707349330245277,
+        24.028951682322564
+      ],
+      "bounds_mm": [
+        116.01037001846099,
+        139.35878907354456,
+        63.31570508926973
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 14440.424
+    },
+    {
+      "name": "belly_aft_0",
+      "mesh": "belly_aft_0",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.012742,
+      "com_mm": [
+        -215.41637588878686,
+        -0.0009453063573910244,
+        -34.093911739242046
+      ],
+      "bounds_mm": [
+        116.01203493116385,
+        139.29251621285619,
+        43.279812594237384
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 10032.936
+    },
+    {
+      "name": "body_center_0",
+      "mesh": "body_center_0",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#d9d6cc",
+      "mass_kg": 0.15828,
+      "com_mm": [
+        -0.1280834649749405,
+        -2.0336716393912448e-06,
+        37.64546889566474
+      ],
+      "bounds_mm": [
+        239.61765106739256,
+        213.37453103882194,
+        61.05712747280582
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 124630.252
+    },
+    {
+      "name": "belly_center_0",
+      "mesh": "belly_center_0",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.067564,
+      "com_mm": [
+        -4.7452729272121e-07,
+        4.395577031863157e-07,
+        -38.21113318126932
+      ],
+      "bounds_mm": [
+        239.61603122878785,
+        212.6004250846488,
+        40.313545975657725
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 53199.621
+    },
+    {
+      "name": "body_front_0",
+      "mesh": "body_front_0",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#d9d6cc",
+      "mass_kg": 0.014485,
+      "com_mm": [
+        221.46500815990734,
+        -0.003676515521974453,
+        31.374810492240545
+      ],
+      "bounds_mm": [
+        123.06236729105306,
+        180.15378713756488,
+        93.27203776371965
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 11405.272
+    },
+    {
+      "name": "belly_front_0",
+      "mesh": "belly_front_0",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.009213,
+      "com_mm": [
+        209.76433947206868,
+        -0.01544753382447399,
+        -47.680424313146574
+      ],
+      "bounds_mm": [
+        122.90924188087168,
+        168.45300631795078,
+        13.25830564278263
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 7254.001
+    },
+    {
+      "name": "panel_fastener_-1_-114_27",
+      "mesh": "panel_fastener_-1_-114_27",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000281,
+      "com_mm": [
+        -114.00000000000003,
+        -105.58914187944198,
+        27.000000000000007
+      ],
+      "bounds_mm": [
+        6.800000200000028,
+        1.206847347519087,
+        6.806847347519074
+      ],
+      "check": false,
+      "note": "Visible panel screw envelope; bosses and final screw selection require detail design.",
+      "volume_mm3": 35.805
+    },
+    {
+      "name": "panel_fastener_-1_114_27",
+      "mesh": "panel_fastener_-1_114_27",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000281,
+      "com_mm": [
+        114.00000000000003,
+        -105.58914187944198,
+        27.000000000000007
+      ],
+      "bounds_mm": [
+        6.800000200000028,
+        1.206847347519087,
+        6.806847347519074
+      ],
+      "check": false,
+      "note": "Visible panel screw envelope; bosses and final screw selection require detail design.",
+      "volume_mm3": 35.805
+    },
+    {
+      "name": "panel_fastener_-1_-114_-5",
+      "mesh": "panel_fastener_-1_-114_-5",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000281,
+      "com_mm": [
+        -113.99999999999997,
+        -105.58914187944195,
+        -5.0
+      ],
+      "bounds_mm": [
+        6.800000200000028,
+        1.206847347519087,
+        6.806847347519076
+      ],
+      "check": false,
+      "note": "Visible panel screw envelope; bosses and final screw selection require detail design.",
+      "volume_mm3": 35.805
+    },
+    {
+      "name": "panel_fastener_-1_114_-5",
+      "mesh": "panel_fastener_-1_114_-5",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000281,
+      "com_mm": [
+        114.00000000000003,
+        -105.58914187944198,
+        -5.0
+      ],
+      "bounds_mm": [
+        6.800000200000028,
+        1.206847347519087,
+        6.80684734751908
+      ],
+      "check": false,
+      "note": "Visible panel screw envelope; bosses and final screw selection require detail design.",
+      "volume_mm3": 35.805
+    },
+    {
+      "name": "body_mark_-1",
+      "mesh": "body_mark_-1",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 2.3e-05,
+      "com_mm": [
+        -41.84220410997504,
+        -105.17579144387321,
+        6.873545242025583
+      ],
+      "bounds_mm": [
+        44.42134314510271,
+        1.3059524592735272,
+        6.969719111483297
+      ],
+      "check": false,
+      "note": "0.12 mm finish marking follows the body surface.",
+      "volume_mm3": 8.504
+    },
+    {
+      "name": "body_index_-1",
+      "mesh": "body_index_-1",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#f66c27",
+      "mass_kg": 3.7e-05,
+      "com_mm": [
+        45.00000000000001,
+        -105.00000000000001,
+        9.000000000000004
+      ],
+      "bounds_mm": [
+        5.400000200000022,
+        0.6054376406769109,
+        5.4054376406769125
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 13.741
+    },
+    {
+      "name": "panel_fastener_1_-114_27",
+      "mesh": "panel_fastener_1_-114_27",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000281,
+      "com_mm": [
+        -114.00000000000003,
+        105.58914187944198,
+        27.0
+      ],
+      "bounds_mm": [
+        6.800000200000028,
+        1.206847347519087,
+        6.806847347519074
+      ],
+      "check": false,
+      "note": "Visible panel screw envelope; bosses and final screw selection require detail design.",
+      "volume_mm3": 35.805
+    },
+    {
+      "name": "panel_fastener_1_114_27",
+      "mesh": "panel_fastener_1_114_27",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000281,
+      "com_mm": [
+        114.00000000000003,
+        105.58914187944198,
+        27.0
+      ],
+      "bounds_mm": [
+        6.800000200000028,
+        1.206847347519087,
+        6.806847347519074
+      ],
+      "check": false,
+      "note": "Visible panel screw envelope; bosses and final screw selection require detail design.",
+      "volume_mm3": 35.805
+    },
+    {
+      "name": "panel_fastener_1_-114_-5",
+      "mesh": "panel_fastener_1_-114_-5",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000281,
+      "com_mm": [
+        -114.00000000000003,
+        105.58914187944198,
+        -5.0
+      ],
+      "bounds_mm": [
+        6.800000200000028,
+        1.206847347519087,
+        6.806847347519077
+      ],
+      "check": false,
+      "note": "Visible panel screw envelope; bosses and final screw selection require detail design.",
+      "volume_mm3": 35.805
+    },
+    {
+      "name": "panel_fastener_1_114_-5",
+      "mesh": "panel_fastener_1_114_-5",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000281,
+      "com_mm": [
+        113.99999999999997,
+        105.58914187944195,
+        -5.000000000000002
+      ],
+      "bounds_mm": [
+        6.800000200000028,
+        1.206847347519087,
+        6.806847347519078
+      ],
+      "check": false,
+      "note": "Visible panel screw envelope; bosses and final screw selection require detail design.",
+      "volume_mm3": 35.805
+    },
+    {
+      "name": "body_mark_1",
+      "mesh": "body_mark_1",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 2.3e-05,
+      "com_mm": [
+        -38.15761531450802,
+        105.07753640855636,
+        6.873532625552428
+      ],
+      "bounds_mm": [
+        44.42132913159661,
+        1.305938505720647,
+        6.9696629487815756
+      ],
+      "check": false,
+      "note": "0.12 mm finish marking follows the body surface.",
+      "volume_mm3": 8.504
+    },
+    {
+      "name": "body_index_1",
+      "mesh": "body_index_1",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#f66c27",
+      "mass_kg": 3.7e-05,
+      "com_mm": [
+        45.00000000000001,
+        105.00000000000001,
+        8.999999999999998
+      ],
+      "bounds_mm": [
+        5.400000200000022,
+        0.6054376406769109,
+        5.4054376406769125
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 13.741
+    },
+    {
+      "name": "battery_-1",
+      "mesh": "battery_-1",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.7,
+      "com_mm": [
+        1.13499904455374e-15,
+        -44.50000000000001,
+        -33.50000000000002
+      ],
+      "bounds_mm": [
+        125.04352523394823,
+        85.04352523394823,
+        65.04352523394823
+      ],
+      "check": true,
+      "note": "Pack plus adapter envelope; exact commercial pack remains unselected.",
+      "volume_mm3": 679517.318
+    },
+    {
+      "name": "battery_latch_-1",
+      "mesh": "battery_latch_-1",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#f66c27",
+      "mass_kg": 0.000214,
+      "com_mm": [
+        2.4242551395126987e-16,
+        -97.20000000000002,
+        -36.999999999999986
+      ],
+      "bounds_mm": [
+        18.00373091719557,
+        1.4037309171955599,
+        7.003730917195568
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 168.531
+    },
+    {
+      "name": "battery_1",
+      "mesh": "battery_1",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.7,
+      "com_mm": [
+        1.13499904455374e-15,
+        44.500000000000014,
+        -33.50000000000002
+      ],
+      "bounds_mm": [
+        125.04352523394823,
+        85.04352523394823,
+        65.04352523394823
+      ],
+      "check": true,
+      "note": "Pack plus adapter envelope; exact commercial pack remains unselected.",
+      "volume_mm3": 679517.318
+    },
+    {
+      "name": "battery_latch_1",
+      "mesh": "battery_latch_1",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#f66c27",
+      "mass_kg": 0.000214,
+      "com_mm": [
+        2.635059934252933e-17,
+        97.19999999999999,
+        -36.99999999999999
+      ],
+      "bounds_mm": [
+        18.00373091719557,
+        1.4037309171955599,
+        7.003730917195568
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 168.531
+    },
+    {
+      "name": "battery_rail_-90.5",
+      "mesh": "battery_rail_-90.5",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.019309,
+      "com_mm": [
+        5.563098565559887e-15,
+        -90.50000000000001,
+        -39.2871876799265
+      ],
+      "bounds_mm": [
+        134.0124359239852,
+        5.013325097853993,
+        61.01243592398521
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 15204.298
+    },
+    {
+      "name": "battery_rail_90.5",
+      "mesh": "battery_rail_90.5",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.019309,
+      "com_mm": [
+        5.563098565559887e-15,
+        90.50000000000001,
+        -39.2871876799265
+      ],
+      "bounds_mm": [
+        134.0124359239852,
+        5.013325097853993,
+        61.01243592398521
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 15204.298
+    },
+    {
+      "name": "battery_cassette",
+      "mesh": "battery_cassette",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.158718,
+      "com_mm": [
+        -5.568338064056908e-09,
+        7.0705694317484676e-09,
+        -49.25767281307957
+      ],
+      "bounds_mm": [
+        140.09048508140984,
+        194.08254981315224,
+        64.72143870204114
+      ],
+      "check": true,
+      "note": "Rounded structural underside enclosure; pack adapters and contacts remain unselected.",
+      "volume_mm3": 124974.667
+    },
+    {
+      "name": "battery_skid",
+      "mesh": "battery_skid",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.105409,
+      "com_mm": [
+        -7.280097364912283e-17,
+        0.0,
+        -70.24999999999999
+      ],
+      "bounds_mm": [
+        138.02855355254428,
+        190.02855355254428,
+        1.5285535525443095
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 39040.288
+    },
+    {
+      "name": "chassis_beam_-97",
+      "mesh": "chassis_beam_-97",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.026567,
+      "com_mm": [
+        1.3171440503383985e-14,
+        -97.00000000000011,
+        19.369063482967068
+      ],
+      "bounds_mm": [
+        264.00497448959413,
+        2.015228654690276,
+        54.004974489594105
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 9839.698
+    },
+    {
+      "name": "chassis_beam_97",
+      "mesh": "chassis_beam_97",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.026567,
+      "com_mm": [
+        1.3171440503383985e-14,
+        97.00000000000003,
+        19.369063482967068
+      ],
+      "bounds_mm": [
+        264.00497448959413,
+        2.015228654690276,
+        54.004974489594105
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 9839.698
+    },
+    {
+      "name": "chassis_bolt_-1_-125.5_-12",
+      "mesh": "chassis_bolt_-1_-125.5_-12",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.001939,
+      "com_mm": [
+        -125.5,
+        -94.8239268680445,
+        -12.000000000000002
+      ],
+      "bounds_mm": [
+        7.000000200000031,
+        14.505538334022788,
+        7.007048734210834
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 247.008
+    },
+    {
+      "name": "chassis_bolt_-1_-125.5_24",
+      "mesh": "chassis_bolt_-1_-125.5_24",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.001939,
+      "com_mm": [
+        -125.5,
+        -94.8239268680445,
+        24.0
+      ],
+      "bounds_mm": [
+        7.000000200000031,
+        14.505538334022788,
+        7.007048734210834
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 247.008
+    },
+    {
+      "name": "chassis_bolt_-1_125.5_-12",
+      "mesh": "chassis_bolt_-1_125.5_-12",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.001939,
+      "com_mm": [
+        125.5,
+        -94.8239268680445,
+        -12.000000000000002
+      ],
+      "bounds_mm": [
+        7.000000200000031,
+        14.505538334022788,
+        7.007048734210834
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 247.008
+    },
+    {
+      "name": "chassis_bolt_-1_125.5_24",
+      "mesh": "chassis_bolt_-1_125.5_24",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.001939,
+      "com_mm": [
+        125.5,
+        -94.8239268680445,
+        24.0
+      ],
+      "bounds_mm": [
+        7.000000200000031,
+        14.505538334022788,
+        7.007048734210834
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 247.008
+    },
+    {
+      "name": "chassis_bolt_1_-125.5_-12",
+      "mesh": "chassis_bolt_1_-125.5_-12",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.001939,
+      "com_mm": [
+        -125.5,
+        94.8239268680445,
+        -12.000000000000002
+      ],
+      "bounds_mm": [
+        7.000000200000031,
+        14.505538334022788,
+        7.007048734210834
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 247.008
+    },
+    {
+      "name": "chassis_bolt_1_-125.5_24",
+      "mesh": "chassis_bolt_1_-125.5_24",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.001939,
+      "com_mm": [
+        -125.5,
+        94.8239268680445,
+        24.0
+      ],
+      "bounds_mm": [
+        7.000000200000031,
+        14.505538334022788,
+        7.007048734210834
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 247.008
+    },
+    {
+      "name": "chassis_bolt_1_125.5_-12",
+      "mesh": "chassis_bolt_1_125.5_-12",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.001939,
+      "com_mm": [
+        125.5,
+        94.8239268680445,
+        -12.000000000000002
+      ],
+      "bounds_mm": [
+        7.000000200000031,
+        14.505538334022788,
+        7.007048734210834
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 247.008
+    },
+    {
+      "name": "chassis_bolt_1_125.5_24",
+      "mesh": "chassis_bolt_1_125.5_24",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.001939,
+      "com_mm": [
+        125.5,
+        94.8239268680445,
+        24.0
+      ],
+      "bounds_mm": [
+        7.000000200000031,
+        14.505538334022788,
+        7.007048734210834
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 247.008
+    },
+    {
+      "name": "electronics_shelf",
+      "mesh": "electronics_shelf",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.042077,
+      "com_mm": [
+        6.580112731059948e-15,
+        8.84157054328676e-15,
+        2.999999999999999
+      ],
+      "bounds_mm": [
+        134.0031091309963,
+        188.00310913099628,
+        1.5228428820354347
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 15584.16
+    },
+    {
+      "name": "electronics_clearance",
+      "mesh": "electronics_clearance",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.0,
+      "com_mm": [
+        -2.9916792306920865e-15,
+        3.744466195464933e-15,
+        22.0
+      ],
+      "bounds_mm": [
+        130.0124359239852,
+        135.0124359239852,
+        32.01243592398521
+      ],
+      "check": true,
+      "note": "Reserved 130 x 135 x 32 mm computer volume; mass is in the electronics allowance. Exact computer and heat sink are unselected.",
+      "volume_mm3": 560590.926
+    },
+    {
+      "name": "lidar_base",
+      "mesh": "lidar_base",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.04,
+      "com_mm": [
+        95.0,
+        2.353596838504663e-16,
+        51.5
+      ],
+      "bounds_mm": [
+        62.06243007443852,
+        62.00000020000004,
+        4.062430074438524
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 12076.282
+    },
+    {
+      "name": "lidar",
+      "mesh": "lidar",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#080f12",
+      "mass_kg": 0.15,
+      "com_mm": [
+        95.00000000000001,
+        1.452125069834294e-15,
+        62.50000000000001
+      ],
+      "bounds_mm": [
+        54.054374606769045,
+        54.00000020000003,
+        18.054374606769045
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 41223.979
+    },
+    {
+      "name": "lidar_lid",
+      "mesh": "lidar_lid",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.012367,
+      "com_mm": [
+        94.99999999999999,
+        6.933626795859771e-16,
+        72.49999999999999
+      ],
+      "bounds_mm": [
+        54.054374606769045,
+        54.00000020000003,
+        2.054374606769045
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4580.442
+    },
+    {
+      "name": "nose_rim_fastener_-68_-30",
+      "mesh": "nose_rim_fastener_-68_-30",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 8.2e-05,
+      "com_mm": [
+        242.56956016784056,
+        -81.50000000000001,
+        -25.000000000000004
+      ],
+      "bounds_mm": [
+        0.6550348672934376,
+        5.000000200000045,
+        5.005034867293446
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 10.482
+    },
+    {
+      "name": "nose_standoff_-68_-30",
+      "mesh": "nose_standoff_-68_-30",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000557,
+      "com_mm": [
+        240.10000000000005,
+        -74.55708485826868,
+        -27.571450052493066
+      ],
+      "bounds_mm": [
+        2.605257953852771,
+        18.702656465267196,
+        10.203382216834044
+      ],
+      "check": true,
+      "note": "Two-hole support tab joins the inset service face to the rear face of the rounded nose rim; final screws and nuts remain to be selected.",
+      "volume_mm3": 206.404
+    },
+    {
+      "name": "nose_fastener_-68_-30",
+      "mesh": "nose_fastener_-68_-30",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 9.7e-05,
+      "com_mm": [
+        242.74266055045874,
+        -67.99999999999999,
+        -29.999999999999996
+      ],
+      "bounds_mm": [
+        0.5060418007521434,
+        6.000000200000045,
+        6.006041800752133
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 12.328
+    },
+    {
+      "name": "nose_rim_fastener_-68_30",
+      "mesh": "nose_rim_fastener_-68_30",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 8.2e-05,
+      "com_mm": [
+        242.56956016784056,
+        -81.50000000000001,
+        25.000000000000004
+      ],
+      "bounds_mm": [
+        0.6550348672934376,
+        5.000000200000045,
+        5.005034867293446
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 10.482
+    },
+    {
+      "name": "nose_standoff_-68_30",
+      "mesh": "nose_standoff_-68_30",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000557,
+      "com_mm": [
+        240.10000000000002,
+        -74.5570848582687,
+        27.57145005249307
+      ],
+      "bounds_mm": [
+        2.605247042040702,
+        18.702727309833335,
+        10.20511748058501
+      ],
+      "check": true,
+      "note": "Two-hole support tab joins the inset service face to the rear face of the rounded nose rim; final screws and nuts remain to be selected.",
+      "volume_mm3": 206.404
+    },
+    {
+      "name": "nose_fastener_-68_30",
+      "mesh": "nose_fastener_-68_30",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 9.7e-05,
+      "com_mm": [
+        242.74266055045874,
+        -67.99999999999999,
+        29.999999999999996
+      ],
+      "bounds_mm": [
+        0.5060418007521434,
+        6.000000200000045,
+        6.006041800752133
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 12.328
+    },
+    {
+      "name": "nose_rim_fastener_68_-30",
+      "mesh": "nose_rim_fastener_68_-30",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 8.2e-05,
+      "com_mm": [
+        242.56956016784056,
+        81.50000000000001,
+        -25.000000000000004
+      ],
+      "bounds_mm": [
+        0.6550348672934376,
+        5.000000200000045,
+        5.005034867293446
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 10.482
+    },
+    {
+      "name": "nose_standoff_68_-30",
+      "mesh": "nose_standoff_68_-30",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000557,
+      "com_mm": [
+        240.1,
+        74.55708485826871,
+        -27.571450052493063
+      ],
+      "bounds_mm": [
+        2.605257953852771,
+        18.702656465267196,
+        10.203382216834044
+      ],
+      "check": true,
+      "note": "Two-hole support tab joins the inset service face to the rear face of the rounded nose rim; final screws and nuts remain to be selected.",
+      "volume_mm3": 206.404
+    },
+    {
+      "name": "nose_fastener_68_-30",
+      "mesh": "nose_fastener_68_-30",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 9.7e-05,
+      "com_mm": [
+        242.74266055045874,
+        67.99999999999999,
+        -29.999999999999996
+      ],
+      "bounds_mm": [
+        0.5060418007521434,
+        6.000000200000045,
+        6.006041800752133
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 12.328
+    },
+    {
+      "name": "nose_rim_fastener_68_30",
+      "mesh": "nose_rim_fastener_68_30",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 8.2e-05,
+      "com_mm": [
+        242.56956016784056,
+        81.50000000000001,
+        25.000000000000004
+      ],
+      "bounds_mm": [
+        0.6550348672934376,
+        5.000000200000045,
+        5.005034867293446
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 10.482
+    },
+    {
+      "name": "nose_standoff_68_30",
+      "mesh": "nose_standoff_68_30",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000557,
+      "com_mm": [
+        240.1,
+        74.55708485826872,
+        27.571450052493063
+      ],
+      "bounds_mm": [
+        2.605247042040702,
+        18.702727309833335,
+        10.20511748058501
+      ],
+      "check": true,
+      "note": "Two-hole support tab joins the inset service face to the rear face of the rounded nose rim; final screws and nuts remain to be selected.",
+      "volume_mm3": 206.404
+    },
+    {
+      "name": "nose_fastener_68_30",
+      "mesh": "nose_fastener_68_30",
+      "group": "body",
+      "leg": null,
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 9.7e-05,
+      "com_mm": [
+        242.74266055045874,
+        67.99999999999999,
+        29.999999999999996
+      ],
+      "bounds_mm": [
+        0.5060418007521434,
+        6.000000200000045,
+        6.006041800752133
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 12.328
+    },
+    {
+      "name": "nose_panel",
+      "mesh": "nose_panel",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#d9d6cc",
+      "mass_kg": 0.01164,
+      "com_mm": [
+        242.19733958251544,
+        -1.4342028977137182e-15,
+        -3.059783920220021
+      ],
+      "bounds_mm": [
+        1.6304571093805862,
+        156.03045710938056,
+        76.03045710938058
+      ],
+      "check": true,
+      "note": "1.6 mm removable cosmetic face sits flush inside the rounded body rim; counterbores clear the provisional low-head screw envelopes. Final optics and screws remain unselected.",
+      "volume_mm3": 9165.398
+    },
+    {
+      "name": "sensor_bezel",
+      "mesh": "sensor_bezel",
+      "group": "body",
+      "leg": null,
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.00437,
+      "com_mm": [
+        240.70000000000007,
+        -2.782257625891125e-14,
+        2.9999999999999982
+      ],
+      "bounds_mm": [
+        2.219035768362886,
+        150.01903576836287,
+        42.01903576836286
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1618.519
+    },
+    {
+      "name": "sensor_window",
+      "mesh": "sensor_window",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#080f12",
+      "mass_kg": 0.09,
+      "com_mm": [
+        239.1,
+        -2.9600633566645336e-15,
+        2.999999999999999
+      ],
+      "bounds_mm": [
+        1.4171322115266207,
+        146.0171322115266,
+        38.01713221152658
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 7669.857
+    },
+    {
+      "name": "camera_-50",
+      "mesh": "camera_-50",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.025,
+      "com_mm": [
+        240.70000000000005,
+        -50.000000000000014,
+        2.999999999999992
+      ],
+      "bounds_mm": [
+        2.2037559343687576,
+        19.000000200000017,
+        19.00375593436877
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 285.1
+    },
+    {
+      "name": "camera_aperture_-50",
+      "mesh": "camera_aperture_-50",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.0,
+      "com_mm": [
+        240.35,
+        -50.0,
+        2.999999999999984
+      ],
+      "bounds_mm": [
+        0.7026885151271358,
+        13.60000020000001,
+        13.602688515127122
+      ],
+      "check": false,
+      "note": "Provisional concentric aperture envelope; no selected camera module.",
+      "volume_mm3": 53.109
+    },
+    {
+      "name": "lens_-50",
+      "mesh": "lens_-50",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#080f12",
+      "mass_kg": 0.0,
+      "com_mm": [
+        240.50619156739444,
+        -49.999999999910095,
+        3.000000000787161
+      ],
+      "bounds_mm": [
+        0.6223642842128072,
+        13.239509874354368,
+        13.242119121388454
+      ],
+      "check": false,
+      "note": "Shallow curved optical envelope inside the recessed aperture; final lens geometry is unselected.",
+      "volume_mm3": 48.872
+    },
+    {
+      "name": "camera_50",
+      "mesh": "camera_50",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.025,
+      "com_mm": [
+        240.70000000000005,
+        50.000000000000014,
+        2.999999999999992
+      ],
+      "bounds_mm": [
+        2.2037559343687576,
+        19.000000200000017,
+        19.00375593436877
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 285.1
+    },
+    {
+      "name": "camera_aperture_50",
+      "mesh": "camera_aperture_50",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.0,
+      "com_mm": [
+        240.35,
+        50.0,
+        2.999999999999984
+      ],
+      "bounds_mm": [
+        0.7026885151271358,
+        13.60000020000001,
+        13.602688515127122
+      ],
+      "check": false,
+      "note": "Provisional concentric aperture envelope; no selected camera module.",
+      "volume_mm3": 53.109
+    },
+    {
+      "name": "lens_50",
+      "mesh": "lens_50",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#080f12",
+      "mass_kg": 0.0,
+      "com_mm": [
+        240.50619156739444,
+        50.0000000000899,
+        3.000000000787161
+      ],
+      "bounds_mm": [
+        0.6223642842128072,
+        13.239509874354368,
+        13.242119121388454
+      ],
+      "check": false,
+      "note": "Shallow curved optical envelope inside the recessed aperture; final lens geometry is unselected.",
+      "volume_mm3": 48.872
+    },
+    {
+      "name": "status_display",
+      "mesh": "status_display",
+      "group": "body",
+      "leg": null,
+      "material": "envelope",
+      "color": "#080f12",
+      "mass_kg": 0.03,
+      "com_mm": [
+        19.999999109636512,
+        4.8452675222549e-08,
+        48.24145867708042
+      ],
+      "bounds_mm": [
+        48.09300686129516,
+        28.171252540236573,
+        1.9445858735699133
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 798.159
+    },
+    {
+      "name": "power_button",
+      "mesh": "power_button",
+      "group": "body",
+      "leg": null,
+      "material": "petg",
+      "color": "#f66c27",
+      "mass_kg": 8.1e-05,
+      "com_mm": [
+        54.99999999999999,
+        -26.999999999999996,
+        49.88666676666666
+      ],
+      "bounds_mm": [
+        9.009062601128178,
+        9.00000020000001,
+        1.0090626011281785
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 63.617
+    },
+    {
+      "name": "FL_roll_motor",
+      "mesh": "roll_motor_1",
+      "group": "mount",
+      "leg": "FL",
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.405,
+      "com_mm": [
+        -91.33713707220693,
+        -5.619022316213042e-17,
+        -5.5346427422114925e-15
+      ],
+      "bounds_mm": [
+        45.46157418099861,
+        78.50000020000002,
+        78.57904447650681
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 206395.498
+    },
+    {
+      "name": "FL_roll_cartridge",
+      "mesh": "roll_cartridge_1",
+      "group": "mount",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.045979,
+      "com_mm": [
+        -64.72313559393962,
+        1.1692464277534558,
+        0.9985870184244513
+      ],
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "check": true,
+      "note": "50 x 66 x 8 RA5008-size crossed-roller bearing envelope; preload, retention and moment capacity require supplier review.",
+      "volume_mm3": 17029.291
+    },
+    {
+      "name": "FL_roll_bearing",
+      "mesh": "FL_roll_bearing",
+      "group": "mount",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.08,
+      "com_mm": [
+        -60.0,
+        -7.030649346374008e-16,
+        3.119624515151955e-15
+      ],
+      "bounds_mm": [
+        8.066457808273242,
+        66.00000020000002,
+        66.06645780827324
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 11661.592
+    },
+    {
+      "name": "FL_motor_carrier",
+      "mesh": "motor_carrier_1",
+      "group": "roll",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.139536,
+      "com_mm": [
+        -43.67508842729636,
+        -2.1565207718293635,
+        3.392307788980733e-05
+      ],
+      "bounds_mm": [
+        111.33458265308748,
+        58.02843648174449,
+        88.07821159450467
+      ],
+      "check": true,
+      "note": "Single machined elbow carrier includes the roll-output coupling, bearing journal and perpendicular hip-stator mounting flange.",
+      "volume_mm3": 51679.817
+    },
+    {
+      "name": "FL_hip_motor",
+      "mesh": "hip_motor",
+      "group": "roll",
+      "leg": "FL",
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.405,
+      "com_mm": [
+        -6.169689583730677e-17,
+        -24.037137072206942,
+        -3.5957551573603325e-15
+      ],
+      "bounds_mm": [
+        78.50000020000002,
+        45.46157418099862,
+        78.57904447650681
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 206395.498
+    },
+    {
+      "name": "FL_shoulder_cover",
+      "mesh": "shoulder_cover_1",
+      "group": "roll",
+      "leg": "FL",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.016953,
+      "com_mm": [
+        7.982281201504885,
+        -24.950000000000042,
+        5.484746951877477e-15
+      ],
+      "bounds_mm": [
+        76.80298956096851,
+        41.98109266190871,
+        83.0455529541569
+      ],
+      "check": true,
+      "note": "Open-back protective sleeve rotates with the roll carrier. Its 1.5 mm wall and short rear overhang preserve opposite-shoulder clearance; it carries no joint load.",
+      "volume_mm3": 13348.715
+    },
+    {
+      "name": "FL_hip_output_bolt_0",
+      "mesh": "FL_hip_output_bolt_0",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        12.0,
+        5.799999999999999,
+        1.1539427415740648e-16
+      ],
+      "bounds_mm": [
+        7.000000200000006,
+        4.0070487342108,
+        7.0070487342108
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "FL_hip_output_bolt_60",
+      "mesh": "FL_hip_output_bolt_60",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        6.000000000000002,
+        5.799999999999999,
+        10.392304845413264
+      ],
+      "bounds_mm": [
+        7.000000200000003,
+        4.007048734210802,
+        7.007048734210802
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "FL_hip_output_bolt_120",
+      "mesh": "FL_hip_output_bolt_120",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        -5.999999999999997,
+        5.799999999999999,
+        10.392304845413264
+      ],
+      "bounds_mm": [
+        7.000000200000005,
+        4.007048734210803,
+        7.0070487342108025
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "FL_hip_output_bolt_180",
+      "mesh": "FL_hip_output_bolt_180",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        -12.0,
+        5.799999999999998,
+        8.769964835962892e-16
+      ],
+      "bounds_mm": [
+        7.000000200000006,
+        4.0070487342108,
+        7.0070487342108
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "FL_hip_output_bolt_240",
+      "mesh": "FL_hip_output_bolt_240",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        -6.000000000000005,
+        5.8,
+        -10.392304845413259
+      ],
+      "bounds_mm": [
+        7.000000200000002,
+        4.0070487342108,
+        7.007048734210801
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "FL_hip_output_bolt_300",
+      "mesh": "FL_hip_output_bolt_300",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        6.000000000000002,
+        5.799999999999999,
+        -10.392304845413264
+      ],
+      "bounds_mm": [
+        7.000000200000003,
+        4.007048734210802,
+        7.007048734210802
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "FL_hip_hub",
+      "mesh": "hip_hub",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.062676,
+      "com_mm": [
+        -1.155812103234676e-15,
+        5.615141852946071,
+        -3.927802147433093e-15
+      ],
+      "bounds_mm": [
+        96.00000020000003,
+        8.068471675190619,
+        96.09666581203382
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 23213.197
+    },
+    {
+      "name": "FL_knee_motor",
+      "mesh": "knee_motor",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.405,
+      "com_mm": [
+        -5.078293415920574e-16,
+        30.36286292779304,
+        -3.4899976527320876e-15
+      ],
+      "bounds_mm": [
+        78.50000020000002,
+        45.46157418099862,
+        78.57904447650681
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 206395.498
+    },
+    {
+      "name": "FL_motor_mount_ring",
+      "mesh": "motor_mount_ring",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.034845,
+      "com_mm": [
+        -3.197722204793101e-15,
+        52.000000000000064,
+        -2.0437232824022024e-15
+      ],
+      "bounds_mm": [
+        96.00000020000003,
+        3.0966658120338195,
+        96.09666581203382
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 12905.537
+    },
+    {
+      "name": "FL_pod_sleeve_90",
+      "mesh": "pod_sleeve_90",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001311,
+      "com_mm": [
+        2.4795495800500835e-15,
+        31.22826086956522,
+        43.49999999999999
+      ],
+      "bounds_mm": [
+        5.00000020000001,
+        49.00503486729343,
+        5.005034867293432
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 485.565
+    },
+    {
+      "name": "FL_pod_tie_90",
+      "mesh": "pod_tie_90",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.003798,
+      "com_mm": [
+        2.6146883470299267e-15,
+        36.65757693805999,
+        43.50000000000001
+      ],
+      "bounds_mm": [
+        5.600000200000012,
+        61.00433001387236,
+        5.605639027368639
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 483.868
+    },
+    {
+      "name": "FL_pod_sleeve_210",
+      "mesh": "pod_sleeve_210",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001311,
+      "com_mm": [
+        -37.67210506462309,
+        31.22826086956521,
+        -21.749999999999996
+      ],
+      "bounds_mm": [
+        5.000000200000002,
+        49.00503486729343,
+        5.005034867293439
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 485.565
+    },
+    {
+      "name": "FL_pod_tie_210",
+      "mesh": "pod_tie_210",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.003798,
+      "com_mm": [
+        -37.67210506462308,
+        36.65757693805999,
+        -21.75
+      ],
+      "bounds_mm": [
+        5.600000200000011,
+        61.00433001387236,
+        5.605639027368653
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 483.868
+    },
+    {
+      "name": "FL_pod_sleeve_330",
+      "mesh": "pod_sleeve_330",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001311,
+      "com_mm": [
+        37.672105064623054,
+        31.228260869565204,
+        -21.750000000000014
+      ],
+      "bounds_mm": [
+        5.000000200000002,
+        49.00503486729343,
+        5.005034867293439
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 485.565
+    },
+    {
+      "name": "FL_pod_tie_330",
+      "mesh": "pod_tie_330",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.003798,
+      "com_mm": [
+        37.672105064623075,
+        36.65757693805999,
+        -21.75000000000002
+      ],
+      "bounds_mm": [
+        5.600000200000011,
+        61.00433001387236,
+        5.605639027368653
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 483.868
+    },
+    {
+      "name": "FL_thigh_inner",
+      "mesh": "thigh_inner",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.128857,
+      "com_mm": [
+        -0.5565738197502664,
+        38.000739129363915,
+        -22.096803007532785
+      ],
+      "bounds_mm": [
+        98.41275196283217,
+        58.99894180844802,
+        238.21854580538837
+      ],
+      "check": true,
+      "note": "One structural motor cradle and thigh cheek. Knee actuator is recessed 12 mm into the limb root; metal flange and compression sleeves spread mounting loads.",
+      "volume_mm3": 101462.146
+    },
+    {
+      "name": "FL_thigh_outer",
+      "mesh": "thigh_outer",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "petg",
+      "color": "#d9d6cc",
+      "mass_kg": 0.062755,
+      "com_mm": [
+        -0.6699270037742738,
+        83.10796233928305,
+        -42.03558080733746
+      ],
+      "bounds_mm": [
+        98.43387903323054,
+        22.55719803823132,
+        238.1249918575655
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 49413.131
+    },
+    {
+      "name": "FL_cap_bezel",
+      "mesh": "cap_bezel",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "rubber",
+      "color": "#202321",
+      "mass_kg": 0.00022,
+      "com_mm": [
+        -2.9071474420828985e-14,
+        88.79999999999994,
+        5.571817396607569e-13
+      ],
+      "bounds_mm": [
+        84.00000020000003,
+        0.48458261052959983,
+        84.0845826105296
+      ],
+      "check": true,
+      "note": "Thin seated finish gasket around the removable cap.",
+      "volume_mm3": 190.981
+    },
+    {
+      "name": "FL_cap_mark",
+      "mesh": "FL_cap_mark",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#202321",
+      "mass_kg": 1.4e-05,
+      "com_mm": [
+        1.718777783648017e-16,
+        88.47499999999997,
+        1.3750222269184137e-15
+      ],
+      "bounds_mm": [
+        14.345261377521505,
+        0.15000020000002223,
+        51.36230137263727
+      ],
+      "check": false,
+      "note": "Recessed finish in the engraved cap index.",
+      "volume_mm3": 5.168
+    },
+    {
+      "name": "FL_hip_disc",
+      "mesh": "hip_disc",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.014872,
+      "com_mm": [
+        -0.000515900339240526,
+        88.24873687613298,
+        0.026679626909033256
+      ],
+      "bounds_mm": [
+        80.00000020000003,
+        1.1805548766948277,
+        80.08055487669485
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 5508.217
+    },
+    {
+      "name": "FL_hip_index",
+      "mesh": "hip_index",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "petg",
+      "color": "#f66c27",
+      "mass_kg": 1e-05,
+      "com_mm": [
+        40.999999999999986,
+        88.59999999999995,
+        7.999999999999999
+      ],
+      "bounds_mm": [
+        2.002020357750297,
+        0.5020203577502969,
+        8.002020357750297
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 7.65
+    },
+    {
+      "name": "FL_sleeve_0",
+      "mesh": "sleeve_0",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.003597,
+      "com_mm": [
+        -34.0,
+        67.0,
+        -42.99999999999999
+      ],
+      "bounds_mm": [
+        8.000000200000017,
+        38.00805566766949,
+        8.008055667669495
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1332.287
+    },
+    {
+      "name": "FL_bolt_0",
+      "mesh": "bolt_0",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.005053,
+      "com_mm": [
+        -34.0,
+        68.24209293244826,
+        -42.99999999999999
+      ],
+      "bounds_mm": [
+        7.600000200000014,
+        46.00584041406039,
+        7.607652894286019
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 643.65
+    },
+    {
+      "name": "FL_sleeve_1",
+      "mesh": "sleeve_1",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.003597,
+      "com_mm": [
+        25.999999999999993,
+        67.0,
+        -48.0
+      ],
+      "bounds_mm": [
+        8.000000200000017,
+        38.00805566766949,
+        8.008055667669495
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1332.287
+    },
+    {
+      "name": "FL_bolt_1",
+      "mesh": "bolt_1",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.005053,
+      "com_mm": [
+        26.0,
+        68.24209293244827,
+        -48.0
+      ],
+      "bounds_mm": [
+        7.600000200000011,
+        46.00584041406039,
+        7.607652894286005
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 643.65
+    },
+    {
+      "name": "FL_knee_drive_adapter",
+      "mesh": "knee_drive_adapter",
+      "group": "crank",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.011979,
+      "com_mm": [
+        -8.956702073004087e-17,
+        57.04581504036253,
+        2.0660167311966194e-16
+      ],
+      "bounds_mm": [
+        36.00000020000001,
+        6.626180469925828,
+        36.03624980451268
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 4436.557
+    },
+    {
+      "name": "FL_input_crank",
+      "mesh": "input_crank",
+      "group": "crank",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.011399,
+      "com_mm": [
+        3.2576084753167094,
+        63.35051919713885,
+        2.046551265708724e-15
+      ],
+      "bounds_mm": [
+        47.017967130983656,
+        5.035934061967303,
+        36.01018143474454
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 4221.834
+    },
+    {
+      "name": "FL_input_bolt_0",
+      "mesh": "FL_input_bolt_0",
+      "group": "crank",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        11.999999999999998,
+        64.30000000000001,
+        1.4239031563114875e-16
+      ],
+      "bounds_mm": [
+        7.600000200000007,
+        2.2076528942860207,
+        7.607652894286012
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "FL_input_bolt_60",
+      "mesh": "FL_input_bolt_60",
+      "group": "crank",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        6.000000000000001,
+        64.30000000000001,
+        10.39230484541326
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "FL_input_bolt_120",
+      "mesh": "FL_input_bolt_120",
+      "group": "crank",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        -5.999999999999997,
+        64.30000000000001,
+        10.39230484541326
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "FL_input_bolt_180",
+      "mesh": "FL_input_bolt_180",
+      "group": "crank",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        -11.999999999999998,
+        64.30000000000001,
+        1.2815128406803388e-15
+      ],
+      "bounds_mm": [
+        7.600000200000007,
+        2.2076528942860207,
+        7.607652894286012
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "FL_input_bolt_240",
+      "mesh": "FL_input_bolt_240",
+      "group": "crank",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        -6.000000000000004,
+        64.30000000000001,
+        -10.39230484541326
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "FL_input_bolt_300",
+      "mesh": "FL_input_bolt_300",
+      "group": "crank",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        6.000000000000001,
+        64.30000000000001,
+        -10.392304845413266
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "FL_pushrod",
+      "mesh": "pushrod",
+      "group": "rod",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.053531,
+      "com_mm": [
+        1.061332405359586e-16,
+        70.00000000000006,
+        -85.00000000000003
+      ],
+      "bounds_mm": [
+        12.012083401504269,
+        6.01208340150427,
+        182.00000020000002
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 6819.292
+    },
+    {
+      "name": "FL_output_crank",
+      "mesh": "output_crank",
+      "group": "knee",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.018072,
+      "com_mm": [
+        0.22840517760077314,
+        63.499999999999986,
+        1.0745618757013933
+      ],
+      "bounds_mm": [
+        44.03842854843887,
+        5.043888224322764,
+        50.53704481458715
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 6693.332
+    },
+    {
+      "name": "FL_knee_axle",
+      "mesh": "knee_axle",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.021702,
+      "com_mm": [
+        -6.943576027546592e-16,
+        66.99999999999997,
+        -170.0
+      ],
+      "bounds_mm": [
+        12.00000020000007,
+        44.0120834015043,
+        12.012083401504299
+      ],
+      "check": false,
+      "note": "Fixed 12 x 8 mm tubular shaft ties the thigh cheeks; shin rotates on two bearings.",
+      "volume_mm3": 2764.602
+    },
+    {
+      "name": "FL_knee_inner_spacer",
+      "mesh": "knee_inner_spacer",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.010811,
+      "com_mm": [
+        2.97912516077998e-16,
+        66.99999999999997,
+        -169.99999999999994
+      ],
+      "bounds_mm": [
+        16.000000200000027,
+        16.016111135338996,
+        16.016111135338974
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1377.149
+    },
+    {
+      "name": "FL_shin_carrier_67",
+      "mesh": "shin_carrier_67",
+      "group": "knee",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.013032,
+      "com_mm": [
+        -8.45477722657706e-15,
+        57.682024072894464,
+        5.0874845579702415e-15
+      ],
+      "bounds_mm": [
+        44.00000020000001,
+        10.039042783284508,
+        44.044305272182164
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4826.817
+    },
+    {
+      "name": "FL_bearing_67",
+      "mesh": "bearing_67",
+      "group": "knee",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.022,
+      "com_mm": [
+        -7.473563960138609e-16,
+        54.99999999999997,
+        -5.088887490341626e-16
+      ],
+      "bounds_mm": [
+        28.000000200000006,
+        8.0281943368432,
+        28.028194336843196
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4021.239
+    },
+    {
+      "name": "FL_shin_carrier_91",
+      "mesh": "shin_carrier_91",
+      "group": "knee",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.00612,
+      "com_mm": [
+        -4.1828701942961e-15,
+        79.0,
+        8.827233354770803e-15
+      ],
+      "bounds_mm": [
+        34.0000002,
+        8.034235937595298,
+        34.034235937595305
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 2266.722
+    },
+    {
+      "name": "FL_bearing_91",
+      "mesh": "bearing_91",
+      "group": "knee",
+      "leg": "FL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.022,
+      "com_mm": [
+        -7.473563960138609e-16,
+        78.99999999999999,
+        -5.088887490341626e-16
+      ],
+      "bounds_mm": [
+        28.000000200000006,
+        8.0281943368432,
+        28.028194336843196
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4021.239
+    },
+    {
+      "name": "FL_shin_inner",
+      "mesh": "shin_inner",
+      "group": "knee",
+      "leg": "FL",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.041119,
+      "com_mm": [
+        2.077785307985859,
+        58.0826062758412,
+        -79.34704069630398
+      ],
+      "bounds_mm": [
+        44.041798369615066,
+        16.91601359825909,
+        181.52132337630127
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 32377.365
+    },
+    {
+      "name": "FL_shin_outer",
+      "mesh": "shin_outer",
+      "group": "knee",
+      "leg": "FL",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.041119,
+      "com_mm": [
+        2.0777853079858604,
+        75.91739372415879,
+        -79.34704069630395
+      ],
+      "bounds_mm": [
+        44.041798369615066,
+        16.9160135982591,
+        181.52132337630127
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 32377.365
+    },
+    {
+      "name": "FL_knee_bezel",
+      "mesh": "knee_bezel",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.000882,
+      "com_mm": [
+        -4.378097026810452e-16,
+        89.60000000000002,
+        -170.0
+      ],
+      "bounds_mm": [
+        35.20000020000004,
+        1.2354442577457547,
+        35.23544425774577
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 694.87
+    },
+    {
+      "name": "FL_knee_end_cap",
+      "mesh": "knee_end_cap",
+      "group": "thigh",
+      "leg": "FL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001409,
+      "com_mm": [
+        6.432459526465872e-17,
+        89.74999999999999,
+        -169.99999999999994
+      ],
+      "bounds_mm": [
+        22.00000020000007,
+        1.522152736091158,
+        22.02215273609113
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 521.944
+    },
+    {
+      "name": "FL_foot",
+      "mesh": "foot",
+      "group": "knee",
+      "leg": "FL",
+      "material": "rubber",
+      "color": "#191e1b",
+      "mass_kg": 0.017975,
+      "com_mm": [
+        -6.691538153363593e-16,
+        67.0,
+        -154.70943320380542
+      ],
+      "bounds_mm": [
+        32.190274854973715,
+        32.1580529842958,
+        30.147512783392926
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 15630.471
+    },
+    {
+      "name": "FR_roll_motor",
+      "mesh": "roll_motor_1_right",
+      "group": "mount",
+      "leg": "FR",
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.405,
+      "com_mm": [
+        -91.33713707220693,
+        5.619022316213042e-17,
+        -5.5346427422114925e-15
+      ],
+      "bounds_mm": [
+        45.46157418099861,
+        78.50000020000002,
+        78.57904447650681
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 206395.498
+    },
+    {
+      "name": "FR_roll_cartridge",
+      "mesh": "roll_cartridge_1_right",
+      "group": "mount",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.045979,
+      "com_mm": [
+        -64.72313559393962,
+        -1.1692464277534558,
+        0.9985870184244513
+      ],
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "check": true,
+      "note": "50 x 66 x 8 RA5008-size crossed-roller bearing envelope; preload, retention and moment capacity require supplier review.",
+      "volume_mm3": 17029.291
+    },
+    {
+      "name": "FR_roll_bearing",
+      "mesh": "FR_roll_bearing_right",
+      "group": "mount",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.08,
+      "com_mm": [
+        -60.0,
+        7.030649346374008e-16,
+        3.119624515151955e-15
+      ],
+      "bounds_mm": [
+        8.066457808273242,
+        66.00000020000002,
+        66.06645780827324
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 11661.592
+    },
+    {
+      "name": "FR_motor_carrier",
+      "mesh": "motor_carrier_1_right",
+      "group": "roll",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.139536,
+      "com_mm": [
+        -43.67508842729636,
+        2.1565207718293635,
+        3.3923077890014114e-05
+      ],
+      "bounds_mm": [
+        111.33458265308748,
+        58.02843648174449,
+        88.07821159450467
+      ],
+      "check": true,
+      "note": "Single machined elbow carrier includes the roll-output coupling, bearing journal and perpendicular hip-stator mounting flange.",
+      "volume_mm3": 51679.817
+    },
+    {
+      "name": "FR_hip_motor",
+      "mesh": "hip_motor_right",
+      "group": "roll",
+      "leg": "FR",
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.405,
+      "com_mm": [
+        -6.169689583730677e-17,
+        24.037137072206942,
+        -3.5957551573603325e-15
+      ],
+      "bounds_mm": [
+        78.50000020000002,
+        45.46157418099862,
+        78.57904447650681
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 206395.498
+    },
+    {
+      "name": "FR_shoulder_cover",
+      "mesh": "shoulder_cover_1_right",
+      "group": "roll",
+      "leg": "FR",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.016953,
+      "com_mm": [
+        7.982281201504885,
+        24.950000000000042,
+        5.484746951877477e-15
+      ],
+      "bounds_mm": [
+        76.80298956096851,
+        41.98109266190871,
+        83.0455529541569
+      ],
+      "check": true,
+      "note": "Open-back protective sleeve rotates with the roll carrier. Its 1.5 mm wall and short rear overhang preserve opposite-shoulder clearance; it carries no joint load.",
+      "volume_mm3": 13348.715
+    },
+    {
+      "name": "FR_hip_output_bolt_0",
+      "mesh": "FR_hip_output_bolt_0_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        12.0,
+        -5.799999999999999,
+        1.1539427415740648e-16
+      ],
+      "bounds_mm": [
+        7.000000200000006,
+        4.0070487342108,
+        7.0070487342108
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "FR_hip_output_bolt_60",
+      "mesh": "FR_hip_output_bolt_60_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        6.000000000000002,
+        -5.799999999999999,
+        10.392304845413264
+      ],
+      "bounds_mm": [
+        7.000000200000003,
+        4.007048734210802,
+        7.007048734210802
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "FR_hip_output_bolt_120",
+      "mesh": "FR_hip_output_bolt_120_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        -5.999999999999997,
+        -5.799999999999999,
+        10.392304845413264
+      ],
+      "bounds_mm": [
+        7.000000200000005,
+        4.007048734210803,
+        7.0070487342108025
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "FR_hip_output_bolt_180",
+      "mesh": "FR_hip_output_bolt_180_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        -12.0,
+        -5.799999999999998,
+        8.769964835962892e-16
+      ],
+      "bounds_mm": [
+        7.000000200000006,
+        4.0070487342108,
+        7.0070487342108
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "FR_hip_output_bolt_240",
+      "mesh": "FR_hip_output_bolt_240_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        -6.000000000000005,
+        -5.8,
+        -10.392304845413259
+      ],
+      "bounds_mm": [
+        7.000000200000002,
+        4.0070487342108,
+        7.007048734210801
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "FR_hip_output_bolt_300",
+      "mesh": "FR_hip_output_bolt_300_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        6.000000000000002,
+        -5.799999999999999,
+        -10.392304845413264
+      ],
+      "bounds_mm": [
+        7.000000200000003,
+        4.007048734210802,
+        7.007048734210802
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "FR_hip_hub",
+      "mesh": "hip_hub_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.062676,
+      "com_mm": [
+        -1.3517124597151295e-15,
+        -5.615141852946071,
+        -4.162882575209638e-15
+      ],
+      "bounds_mm": [
+        96.00000020000003,
+        8.068471675190619,
+        96.09666581203382
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 23213.197
+    },
+    {
+      "name": "FR_knee_motor",
+      "mesh": "knee_motor_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.405,
+      "com_mm": [
+        -5.078293415920574e-16,
+        -30.36286292779305,
+        -3.4899976527320876e-15
+      ],
+      "bounds_mm": [
+        78.50000020000002,
+        45.46157418099862,
+        78.57904447650681
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 206395.498
+    },
+    {
+      "name": "FR_motor_mount_ring",
+      "mesh": "motor_mount_ring_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.034845,
+      "com_mm": [
+        -3.197722204793101e-15,
+        -52.00000000000007,
+        -7.796099590198056e-16
+      ],
+      "bounds_mm": [
+        96.00000020000003,
+        3.0966658120338195,
+        96.09666581203382
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 12905.537
+    },
+    {
+      "name": "FR_pod_sleeve_90",
+      "mesh": "pod_sleeve_90_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001311,
+      "com_mm": [
+        2.4993031600042705e-15,
+        -31.22826086956522,
+        43.49999999999997
+      ],
+      "bounds_mm": [
+        5.00000020000001,
+        49.00503486729343,
+        5.005034867293432
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 485.565
+    },
+    {
+      "name": "FR_pod_tie_90",
+      "mesh": "pod_tie_90_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.003798,
+      "com_mm": [
+        2.6262216338718966e-15,
+        -36.65757693805999,
+        43.5
+      ],
+      "bounds_mm": [
+        5.600000200000012,
+        61.00433001387236,
+        5.605639027368639
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 483.868
+    },
+    {
+      "name": "FR_pod_sleeve_210",
+      "mesh": "pod_sleeve_210_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001311,
+      "com_mm": [
+        -37.67210506462309,
+        -31.228260869565226,
+        -21.749999999999993
+      ],
+      "bounds_mm": [
+        5.000000200000002,
+        49.00503486729343,
+        5.005034867293439
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 485.565
+    },
+    {
+      "name": "FR_pod_tie_210",
+      "mesh": "pod_tie_210_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.003798,
+      "com_mm": [
+        -37.67210506462308,
+        -36.65757693806,
+        -21.75
+      ],
+      "bounds_mm": [
+        5.600000200000011,
+        61.00433001387236,
+        5.605639027368653
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 483.868
+    },
+    {
+      "name": "FR_pod_sleeve_330",
+      "mesh": "pod_sleeve_330_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001311,
+      "com_mm": [
+        37.672105064623054,
+        -31.22826086956521,
+        -21.75000000000002
+      ],
+      "bounds_mm": [
+        5.000000200000002,
+        49.00503486729343,
+        5.005034867293439
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 485.565
+    },
+    {
+      "name": "FR_pod_tie_330",
+      "mesh": "pod_tie_330_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.003798,
+      "com_mm": [
+        37.672105064623075,
+        -36.65757693806,
+        -21.750000000000018
+      ],
+      "bounds_mm": [
+        5.600000200000011,
+        61.00433001387236,
+        5.605639027368653
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 483.868
+    },
+    {
+      "name": "FR_thigh_inner",
+      "mesh": "thigh_inner_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.128857,
+      "com_mm": [
+        -0.5565704567678293,
+        -38.00074537708336,
+        -22.096850774721464
+      ],
+      "bounds_mm": [
+        98.41275196283217,
+        58.99894180844802,
+        238.21854580538837
+      ],
+      "check": true,
+      "note": "One structural motor cradle and thigh cheek. Knee actuator is recessed 12 mm into the limb root; metal flange and compression sleeves spread mounting loads.",
+      "volume_mm3": 101462.205
+    },
+    {
+      "name": "FR_thigh_outer",
+      "mesh": "thigh_outer_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "petg",
+      "color": "#d9d6cc",
+      "mass_kg": 0.062755,
+      "com_mm": [
+        -0.6699271685466087,
+        -83.10796234826077,
+        -42.03558073120126
+      ],
+      "bounds_mm": [
+        98.43387903323054,
+        22.55719803823132,
+        238.1249918575655
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 49413.131
+    },
+    {
+      "name": "FR_cap_bezel",
+      "mesh": "cap_bezel_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "rubber",
+      "color": "#202321",
+      "mass_kg": 0.00022,
+      "com_mm": [
+        -2.9071474420828985e-14,
+        -88.7999999999999,
+        5.571817396607569e-13
+      ],
+      "bounds_mm": [
+        84.00000020000003,
+        0.48458261052959983,
+        84.0845826105296
+      ],
+      "check": true,
+      "note": "Thin seated finish gasket around the removable cap.",
+      "volume_mm3": 190.981
+    },
+    {
+      "name": "FR_cap_mark",
+      "mesh": "FR_cap_mark_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#202321",
+      "mass_kg": 1.4e-05,
+      "com_mm": [
+        1.718777783648017e-16,
+        -88.475,
+        1.3750222269184137e-15
+      ],
+      "bounds_mm": [
+        14.345261377521505,
+        0.15000020000002223,
+        51.36230137263727
+      ],
+      "check": false,
+      "note": "Recessed finish in the engraved cap index.",
+      "volume_mm3": 5.168
+    },
+    {
+      "name": "FR_hip_disc",
+      "mesh": "hip_disc_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.014872,
+      "com_mm": [
+        -0.000515900339240526,
+        -88.24873687613302,
+        0.026679626909033256
+      ],
+      "bounds_mm": [
+        80.00000020000003,
+        1.1805548766948277,
+        80.08055487669485
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 5508.217
+    },
+    {
+      "name": "FR_hip_index",
+      "mesh": "hip_index_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "petg",
+      "color": "#f66c27",
+      "mass_kg": 1e-05,
+      "com_mm": [
+        40.999999999999986,
+        -88.59999999999995,
+        7.999999999999999
+      ],
+      "bounds_mm": [
+        2.002020357750297,
+        0.5020203577502969,
+        8.002020357750297
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 7.65
+    },
+    {
+      "name": "FR_sleeve_0",
+      "mesh": "sleeve_0_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.003597,
+      "com_mm": [
+        -34.0,
+        -66.99999999999999,
+        -43.00000000000001
+      ],
+      "bounds_mm": [
+        8.000000200000017,
+        38.00805566766949,
+        8.008055667669495
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1332.287
+    },
+    {
+      "name": "FR_bolt_0",
+      "mesh": "bolt_0_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.005053,
+      "com_mm": [
+        -34.0,
+        -68.24209293244826,
+        -43.0
+      ],
+      "bounds_mm": [
+        7.600000200000014,
+        46.00584041406039,
+        7.607652894286019
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 643.65
+    },
+    {
+      "name": "FR_sleeve_1",
+      "mesh": "sleeve_1_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.003597,
+      "com_mm": [
+        26.0,
+        -66.99999999999999,
+        -48.0
+      ],
+      "bounds_mm": [
+        8.000000200000017,
+        38.00805566766949,
+        8.008055667669495
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1332.287
+    },
+    {
+      "name": "FR_bolt_1",
+      "mesh": "bolt_1_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.005053,
+      "com_mm": [
+        26.0,
+        -68.24209293244826,
+        -48.0
+      ],
+      "bounds_mm": [
+        7.600000200000011,
+        46.00584041406039,
+        7.607652894286005
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 643.65
+    },
+    {
+      "name": "FR_knee_drive_adapter",
+      "mesh": "knee_drive_adapter_right",
+      "group": "crank",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.011979,
+      "com_mm": [
+        -8.956702073004087e-17,
+        -57.04581504036254,
+        1.6015633575167592e-18
+      ],
+      "bounds_mm": [
+        36.00000020000001,
+        6.626180469925828,
+        36.03624980451268
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 4436.557
+    },
+    {
+      "name": "FR_input_crank",
+      "mesh": "input_crank_right",
+      "group": "crank",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.011399,
+      "com_mm": [
+        3.2576084753167094,
+        -63.35051919713888,
+        2.046551265708724e-15
+      ],
+      "bounds_mm": [
+        47.017967130983656,
+        5.035934061967303,
+        36.01018143474454
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 4221.834
+    },
+    {
+      "name": "FR_input_bolt_0",
+      "mesh": "FR_input_bolt_0_right",
+      "group": "crank",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        11.999999999999998,
+        -64.3,
+        1.4239031563114875e-16
+      ],
+      "bounds_mm": [
+        7.600000200000007,
+        2.2076528942860207,
+        7.607652894286012
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "FR_input_bolt_60",
+      "mesh": "FR_input_bolt_60_right",
+      "group": "crank",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        6.000000000000002,
+        -64.30000000000001,
+        10.392304845413262
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "FR_input_bolt_120",
+      "mesh": "FR_input_bolt_120_right",
+      "group": "crank",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        -5.999999999999997,
+        -64.30000000000001,
+        10.392304845413262
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "FR_input_bolt_180",
+      "mesh": "FR_input_bolt_180_right",
+      "group": "crank",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        -11.999999999999998,
+        -64.3,
+        1.2815128406803388e-15
+      ],
+      "bounds_mm": [
+        7.600000200000007,
+        2.2076528942860207,
+        7.607652894286012
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "FR_input_bolt_240",
+      "mesh": "FR_input_bolt_240_right",
+      "group": "crank",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        -6.000000000000004,
+        -64.3,
+        -10.39230484541326
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "FR_input_bolt_300",
+      "mesh": "FR_input_bolt_300_right",
+      "group": "crank",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        6.000000000000001,
+        -64.3,
+        -10.392304845413266
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "FR_pushrod",
+      "mesh": "pushrod_right",
+      "group": "rod",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.053531,
+      "com_mm": [
+        1.061332405359586e-16,
+        -70.00000000000001,
+        -85.00000000000003
+      ],
+      "bounds_mm": [
+        12.012083401504269,
+        6.01208340150427,
+        182.00000020000002
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 6819.292
+    },
+    {
+      "name": "FR_output_crank",
+      "mesh": "output_crank_right",
+      "group": "knee",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.018072,
+      "com_mm": [
+        0.22840517760077314,
+        -63.50000000000001,
+        1.0745618757013933
+      ],
+      "bounds_mm": [
+        44.03842854843887,
+        5.043888224322764,
+        50.53704481458715
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 6693.332
+    },
+    {
+      "name": "FR_knee_axle",
+      "mesh": "knee_axle_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.021702,
+      "com_mm": [
+        -6.943576027546592e-16,
+        -67.0,
+        -170.0
+      ],
+      "bounds_mm": [
+        12.00000020000007,
+        44.0120834015043,
+        12.012083401504299
+      ],
+      "check": false,
+      "note": "Fixed 12 x 8 mm tubular shaft ties the thigh cheeks; shin rotates on two bearings.",
+      "volume_mm3": 2764.602
+    },
+    {
+      "name": "FR_knee_inner_spacer",
+      "mesh": "knee_inner_spacer_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.010811,
+      "com_mm": [
+        3.911149234742184e-16,
+        -67.00000000000003,
+        -169.99999999999997
+      ],
+      "bounds_mm": [
+        16.000000200000027,
+        16.016111135338996,
+        16.016111135338974
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1377.149
+    },
+    {
+      "name": "FR_shin_carrier_67",
+      "mesh": "shin_carrier_67_right",
+      "group": "knee",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.013032,
+      "com_mm": [
+        -8.45477722657706e-15,
+        -57.68202407289445,
+        5.0874845579702415e-15
+      ],
+      "bounds_mm": [
+        44.00000020000001,
+        10.039042783284508,
+        44.044305272182164
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4826.817
+    },
+    {
+      "name": "FR_bearing_67",
+      "mesh": "bearing_67_right",
+      "group": "knee",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.022,
+      "com_mm": [
+        -7.473563960138609e-16,
+        -54.99999999999999,
+        -5.088887490341626e-16
+      ],
+      "bounds_mm": [
+        28.000000200000006,
+        8.0281943368432,
+        28.028194336843196
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4021.239
+    },
+    {
+      "name": "FR_shin_carrier_91",
+      "mesh": "shin_carrier_91_right",
+      "group": "knee",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.00612,
+      "com_mm": [
+        -4.1828701942961e-15,
+        -79.0,
+        8.827233354770803e-15
+      ],
+      "bounds_mm": [
+        34.0000002,
+        8.034235937595298,
+        34.034235937595305
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 2266.722
+    },
+    {
+      "name": "FR_bearing_91",
+      "mesh": "bearing_91_right",
+      "group": "knee",
+      "leg": "FR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.022,
+      "com_mm": [
+        -7.473563960138609e-16,
+        -78.99999999999999,
+        -5.088887490341626e-16
+      ],
+      "bounds_mm": [
+        28.000000200000006,
+        8.0281943368432,
+        28.028194336843196
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4021.239
+    },
+    {
+      "name": "FR_shin_inner",
+      "mesh": "shin_inner_right",
+      "group": "knee",
+      "leg": "FR",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.041119,
+      "com_mm": [
+        2.077785307985857,
+        -58.0826062758412,
+        -79.34704069630396
+      ],
+      "bounds_mm": [
+        44.041798369615066,
+        16.91601359825909,
+        181.52132337630127
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 32377.365
+    },
+    {
+      "name": "FR_shin_outer",
+      "mesh": "shin_outer_right",
+      "group": "knee",
+      "leg": "FR",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.041119,
+      "com_mm": [
+        2.077785307985858,
+        -75.91739372415879,
+        -79.34704069630399
+      ],
+      "bounds_mm": [
+        44.041798369615066,
+        16.916013598259084,
+        181.52132337630127
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 32377.365
+    },
+    {
+      "name": "FR_knee_bezel",
+      "mesh": "knee_bezel_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.000882,
+      "com_mm": [
+        -5.321754473233026e-16,
+        -89.60000000000001,
+        -170.0
+      ],
+      "bounds_mm": [
+        35.20000020000004,
+        1.2354442577457547,
+        35.23544425774577
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 694.87
+    },
+    {
+      "name": "FR_knee_end_cap",
+      "mesh": "knee_end_cap_right",
+      "group": "thigh",
+      "leg": "FR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001409,
+      "com_mm": [
+        6.967055902835232e-17,
+        -89.74999999999999,
+        -169.99999999999997
+      ],
+      "bounds_mm": [
+        22.00000020000007,
+        1.522152736091158,
+        22.02215273609113
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 521.944
+    },
+    {
+      "name": "FR_foot",
+      "mesh": "foot_right",
+      "group": "knee",
+      "leg": "FR",
+      "material": "rubber",
+      "color": "#191e1b",
+      "mass_kg": 0.017975,
+      "com_mm": [
+        -6.691538153363593e-16,
+        -67.0,
+        -154.70943320380542
+      ],
+      "bounds_mm": [
+        32.19027485497373,
+        32.1580529842958,
+        30.147512783392926
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 15630.471
+    },
+    {
+      "name": "RL_roll_motor",
+      "mesh": "roll_motor_-1",
+      "group": "mount",
+      "leg": "RL",
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.405,
+      "com_mm": [
+        91.33713707220693,
+        -5.619022316213042e-17,
+        -5.5346427422114925e-15
+      ],
+      "bounds_mm": [
+        45.46157418099861,
+        78.50000020000002,
+        78.57904447650681
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 206395.498
+    },
+    {
+      "name": "RL_roll_cartridge",
+      "mesh": "roll_cartridge_-1",
+      "group": "mount",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.045979,
+      "com_mm": [
+        64.72313559393962,
+        1.1692464277534558,
+        0.9985870184244513
+      ],
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "check": true,
+      "note": "50 x 66 x 8 RA5008-size crossed-roller bearing envelope; preload, retention and moment capacity require supplier review.",
+      "volume_mm3": 17029.291
+    },
+    {
+      "name": "RL_roll_bearing",
+      "mesh": "RL_roll_bearing",
+      "group": "mount",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.08,
+      "com_mm": [
+        60.0,
+        -7.030649346374008e-16,
+        3.119624515151955e-15
+      ],
+      "bounds_mm": [
+        8.066457808273242,
+        66.00000020000002,
+        66.06645780827324
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 11661.592
+    },
+    {
+      "name": "RL_motor_carrier",
+      "mesh": "motor_carrier_-1",
+      "group": "roll",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.139536,
+      "com_mm": [
+        43.675090292726246,
+        -2.1565215485628006,
+        3.4673735558915065e-05
+      ],
+      "bounds_mm": [
+        111.33458265309002,
+        58.02843648174449,
+        88.07821159450467
+      ],
+      "check": true,
+      "note": "Single machined elbow carrier includes the roll-output coupling, bearing journal and perpendicular hip-stator mounting flange.",
+      "volume_mm3": 51679.822
+    },
+    {
+      "name": "RL_hip_motor",
+      "mesh": "hip_motor",
+      "group": "roll",
+      "leg": "RL",
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.405,
+      "com_mm": [
+        -6.169689583730677e-17,
+        -24.037137072206942,
+        -3.5957551573603325e-15
+      ],
+      "bounds_mm": [
+        78.5,
+        45.4,
+        78.5
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 206395.498
+    },
+    {
+      "name": "RL_shoulder_cover",
+      "mesh": "shoulder_cover_-1",
+      "group": "roll",
+      "leg": "RL",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.016953,
+      "com_mm": [
+        -7.982281201504941,
+        -24.949999999999918,
+        -4.156143652975475e-14
+      ],
+      "bounds_mm": [
+        76.80298956096853,
+        41.98109266190871,
+        83.0455529541569
+      ],
+      "check": true,
+      "note": "Open-back protective sleeve rotates with the roll carrier. Its 1.5 mm wall and short rear overhang preserve opposite-shoulder clearance; it carries no joint load.",
+      "volume_mm3": 13348.715
+    },
+    {
+      "name": "RL_hip_output_bolt_0",
+      "mesh": "RL_hip_output_bolt_0",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        12.0,
+        5.799999999999999,
+        1.1539427415740648e-16
+      ],
+      "bounds_mm": [
+        7.000000200000006,
+        4.0070487342108,
+        7.0070487342108
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "RL_hip_output_bolt_60",
+      "mesh": "RL_hip_output_bolt_60",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        6.000000000000002,
+        5.799999999999999,
+        10.392304845413264
+      ],
+      "bounds_mm": [
+        7.000000200000003,
+        4.007048734210802,
+        7.007048734210802
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "RL_hip_output_bolt_120",
+      "mesh": "RL_hip_output_bolt_120",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        -5.999999999999997,
+        5.799999999999999,
+        10.392304845413264
+      ],
+      "bounds_mm": [
+        7.000000200000005,
+        4.007048734210803,
+        7.0070487342108025
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "RL_hip_output_bolt_180",
+      "mesh": "RL_hip_output_bolt_180",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        -12.0,
+        5.799999999999998,
+        8.769964835962892e-16
+      ],
+      "bounds_mm": [
+        7.000000200000006,
+        4.0070487342108,
+        7.0070487342108
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "RL_hip_output_bolt_240",
+      "mesh": "RL_hip_output_bolt_240",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        -6.000000000000005,
+        5.8,
+        -10.392304845413259
+      ],
+      "bounds_mm": [
+        7.000000200000002,
+        4.0070487342108,
+        7.007048734210801
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "RL_hip_output_bolt_300",
+      "mesh": "RL_hip_output_bolt_300",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        6.000000000000002,
+        5.799999999999999,
+        -10.392304845413264
+      ],
+      "bounds_mm": [
+        7.000000200000003,
+        4.007048734210802,
+        7.007048734210802
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "RL_hip_hub",
+      "mesh": "hip_hub",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.062676,
+      "com_mm": [
+        -1.155812103234676e-15,
+        5.615141852946071,
+        -3.927802147433093e-15
+      ],
+      "bounds_mm": [
+        96.0,
+        8.0,
+        96.0
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 23213.197
+    },
+    {
+      "name": "RL_knee_motor",
+      "mesh": "knee_motor",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.405,
+      "com_mm": [
+        -5.078293415920574e-16,
+        30.36286292779304,
+        -3.4899976527320876e-15
+      ],
+      "bounds_mm": [
+        78.5,
+        45.4,
+        78.5
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 206395.498
+    },
+    {
+      "name": "RL_motor_mount_ring",
+      "mesh": "motor_mount_ring",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.034845,
+      "com_mm": [
+        -3.197722204793101e-15,
+        52.000000000000064,
+        -2.0437232824022024e-15
+      ],
+      "bounds_mm": [
+        96.0,
+        3.0,
+        96.0
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 12905.537
+    },
+    {
+      "name": "RL_pod_sleeve_90",
+      "mesh": "pod_sleeve_90",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001311,
+      "com_mm": [
+        2.4795495800500835e-15,
+        31.22826086956522,
+        43.49999999999999
+      ],
+      "bounds_mm": [
+        5.0,
+        49.0,
+        5.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 485.565
+    },
+    {
+      "name": "RL_pod_tie_90",
+      "mesh": "pod_tie_90",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.003798,
+      "com_mm": [
+        2.6146883470299267e-15,
+        36.65757693805999,
+        43.50000000000001
+      ],
+      "bounds_mm": [
+        5.6,
+        61.0,
+        5.599999999999994
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 483.868
+    },
+    {
+      "name": "RL_pod_sleeve_210",
+      "mesh": "pod_sleeve_210",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001311,
+      "com_mm": [
+        -37.67210506462309,
+        31.22826086956521,
+        -21.749999999999996
+      ],
+      "bounds_mm": [
+        5.0,
+        49.0,
+        5.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 485.565
+    },
+    {
+      "name": "RL_pod_tie_210",
+      "mesh": "pod_tie_210",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.003798,
+      "com_mm": [
+        -37.67210506462308,
+        36.65757693805999,
+        -21.75
+      ],
+      "bounds_mm": [
+        5.599999999999994,
+        61.0,
+        5.600000000000001
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 483.868
+    },
+    {
+      "name": "RL_pod_sleeve_330",
+      "mesh": "pod_sleeve_330",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001311,
+      "com_mm": [
+        37.672105064623054,
+        31.228260869565204,
+        -21.750000000000014
+      ],
+      "bounds_mm": [
+        5.0,
+        49.0,
+        5.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 485.565
+    },
+    {
+      "name": "RL_pod_tie_330",
+      "mesh": "pod_tie_330",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.003798,
+      "com_mm": [
+        37.672105064623075,
+        36.65757693805999,
+        -21.75000000000002
+      ],
+      "bounds_mm": [
+        5.599999999999994,
+        61.0,
+        5.600000000000001
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 483.868
+    },
+    {
+      "name": "RL_thigh_inner",
+      "mesh": "thigh_inner",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.128857,
+      "com_mm": [
+        -0.5565738197502664,
+        38.000739129363915,
+        -22.096803007532785
+      ],
+      "bounds_mm": [
+        98.1698375608689,
+        58.23072853703253,
+        238.01999683561536
+      ],
+      "check": true,
+      "note": "One structural motor cradle and thigh cheek. Knee actuator is recessed 12 mm into the limb root; metal flange and compression sleeves spread mounting loads.",
+      "volume_mm3": 101462.146
+    },
+    {
+      "name": "RL_thigh_outer",
+      "mesh": "thigh_outer",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "petg",
+      "color": "#d9d6cc",
+      "mass_kg": 0.062755,
+      "com_mm": [
+        -0.6699270037742738,
+        83.10796233928305,
+        -42.03558080733746
+      ],
+      "bounds_mm": [
+        98.43387903323054,
+        22.55719803823132,
+        238.1249918575655
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 49413.131
+    },
+    {
+      "name": "RL_cap_bezel",
+      "mesh": "cap_bezel",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "rubber",
+      "color": "#202321",
+      "mass_kg": 0.00022,
+      "com_mm": [
+        -2.9071474420828985e-14,
+        88.79999999999994,
+        5.571817396607569e-13
+      ],
+      "bounds_mm": [
+        84.0,
+        0.4000000000000057,
+        84.0
+      ],
+      "check": true,
+      "note": "Thin seated finish gasket around the removable cap.",
+      "volume_mm3": 190.981
+    },
+    {
+      "name": "RL_cap_mark",
+      "mesh": "RL_cap_mark",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#202321",
+      "mass_kg": 1.4e-05,
+      "com_mm": [
+        1.718777783648017e-16,
+        88.47499999999997,
+        1.3750222269184137e-15
+      ],
+      "bounds_mm": [
+        14.345261377521505,
+        0.15000020000002223,
+        51.36230137263727
+      ],
+      "check": false,
+      "note": "Recessed finish in the engraved cap index.",
+      "volume_mm3": 5.168
+    },
+    {
+      "name": "RL_hip_disc",
+      "mesh": "hip_disc",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.014872,
+      "com_mm": [
+        -0.000515900339240526,
+        88.24873687613298,
+        0.026679626909033256
+      ],
+      "bounds_mm": [
+        80.0000002,
+        1.1000000999999884,
+        80.0000002
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 5508.217
+    },
+    {
+      "name": "RL_hip_index",
+      "mesh": "hip_index",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "petg",
+      "color": "#f66c27",
+      "mass_kg": 1e-05,
+      "com_mm": [
+        40.999999999999986,
+        88.59999999999995,
+        7.999999999999999
+      ],
+      "bounds_mm": [
+        2.0,
+        0.5,
+        8.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 7.65
+    },
+    {
+      "name": "RL_sleeve_0",
+      "mesh": "sleeve_0",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.003597,
+      "com_mm": [
+        -34.0,
+        67.0,
+        -42.99999999999999
+      ],
+      "bounds_mm": [
+        8.0,
+        38.0,
+        8.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1332.287
+    },
+    {
+      "name": "RL_bolt_0",
+      "mesh": "bolt_0",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.005053,
+      "com_mm": [
+        -34.0,
+        68.24209293244826,
+        -42.99999999999999
+      ],
+      "bounds_mm": [
+        7.599999999999998,
+        46.0,
+        7.599999999999994
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 643.65
+    },
+    {
+      "name": "RL_sleeve_1",
+      "mesh": "sleeve_1",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.003597,
+      "com_mm": [
+        25.999999999999993,
+        67.0,
+        -48.0
+      ],
+      "bounds_mm": [
+        8.0,
+        38.0,
+        8.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1332.287
+    },
+    {
+      "name": "RL_bolt_1",
+      "mesh": "bolt_1",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.005053,
+      "com_mm": [
+        26.0,
+        68.24209293244827,
+        -48.0
+      ],
+      "bounds_mm": [
+        7.600000000000001,
+        46.0,
+        7.599999999999994
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 643.65
+    },
+    {
+      "name": "RL_knee_drive_adapter",
+      "mesh": "knee_drive_adapter",
+      "group": "crank",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.011979,
+      "com_mm": [
+        -8.956702073004087e-17,
+        57.04581504036253,
+        2.0660167311966194e-16
+      ],
+      "bounds_mm": [
+        36.0,
+        6.600000000000001,
+        36.0
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 4436.557
+    },
+    {
+      "name": "RL_input_crank",
+      "mesh": "input_crank",
+      "group": "crank",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.011399,
+      "com_mm": [
+        3.2576084753167094,
+        63.35051919713885,
+        2.046551265708724e-15
+      ],
+      "bounds_mm": [
+        47.0,
+        5.0,
+        36.0
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 4221.834
+    },
+    {
+      "name": "RL_input_bolt_0",
+      "mesh": "RL_input_bolt_0",
+      "group": "crank",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        11.999999999999998,
+        64.30000000000001,
+        1.4239031563114875e-16
+      ],
+      "bounds_mm": [
+        7.600000200000007,
+        2.2076528942860207,
+        7.607652894286012
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "RL_input_bolt_60",
+      "mesh": "RL_input_bolt_60",
+      "group": "crank",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        6.000000000000001,
+        64.30000000000001,
+        10.39230484541326
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "RL_input_bolt_120",
+      "mesh": "RL_input_bolt_120",
+      "group": "crank",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        -5.999999999999997,
+        64.30000000000001,
+        10.39230484541326
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "RL_input_bolt_180",
+      "mesh": "RL_input_bolt_180",
+      "group": "crank",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        -11.999999999999998,
+        64.30000000000001,
+        1.2815128406803388e-15
+      ],
+      "bounds_mm": [
+        7.600000200000007,
+        2.2076528942860207,
+        7.607652894286012
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "RL_input_bolt_240",
+      "mesh": "RL_input_bolt_240",
+      "group": "crank",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        -6.000000000000004,
+        64.30000000000001,
+        -10.39230484541326
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "RL_input_bolt_300",
+      "mesh": "RL_input_bolt_300",
+      "group": "crank",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        6.000000000000001,
+        64.30000000000001,
+        -10.392304845413266
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "RL_pushrod",
+      "mesh": "pushrod",
+      "group": "rod",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.053531,
+      "com_mm": [
+        1.061332405359586e-16,
+        70.00000000000006,
+        -85.00000000000003
+      ],
+      "bounds_mm": [
+        12.0,
+        6.0,
+        182.0
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 6819.292
+    },
+    {
+      "name": "RL_output_crank",
+      "mesh": "output_crank",
+      "group": "knee",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.018072,
+      "com_mm": [
+        0.22840517760077314,
+        63.499999999999986,
+        1.0745618757013933
+      ],
+      "bounds_mm": [
+        44.0,
+        5.0,
+        50.519247216143725
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 6693.332
+    },
+    {
+      "name": "RL_knee_axle",
+      "mesh": "knee_axle",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.021702,
+      "com_mm": [
+        -6.943576027546592e-16,
+        66.99999999999997,
+        -170.0
+      ],
+      "bounds_mm": [
+        12.0,
+        44.0,
+        12.0
+      ],
+      "check": false,
+      "note": "Fixed 12 x 8 mm tubular shaft ties the thigh cheeks; shin rotates on two bearings.",
+      "volume_mm3": 2764.602
+    },
+    {
+      "name": "RL_knee_inner_spacer",
+      "mesh": "knee_inner_spacer",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.010811,
+      "com_mm": [
+        2.97912516077998e-16,
+        66.99999999999997,
+        -169.99999999999994
+      ],
+      "bounds_mm": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1377.149
+    },
+    {
+      "name": "RL_shin_carrier_67",
+      "mesh": "shin_carrier_67",
+      "group": "knee",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.013032,
+      "com_mm": [
+        -8.45477722657706e-15,
+        57.682024072894464,
+        5.0874845579702415e-15
+      ],
+      "bounds_mm": [
+        44.0,
+        10.0,
+        44.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4826.817
+    },
+    {
+      "name": "RL_bearing_67",
+      "mesh": "bearing_67",
+      "group": "knee",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.022,
+      "com_mm": [
+        -7.473563960138609e-16,
+        54.99999999999997,
+        -5.088887490341626e-16
+      ],
+      "bounds_mm": [
+        28.0,
+        8.0,
+        28.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4021.239
+    },
+    {
+      "name": "RL_shin_carrier_91",
+      "mesh": "shin_carrier_91",
+      "group": "knee",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.00612,
+      "com_mm": [
+        -4.1828701942961e-15,
+        79.0,
+        8.827233354770803e-15
+      ],
+      "bounds_mm": [
+        34.0,
+        8.0,
+        34.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 2266.722
+    },
+    {
+      "name": "RL_bearing_91",
+      "mesh": "bearing_91",
+      "group": "knee",
+      "leg": "RL",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.022,
+      "com_mm": [
+        -7.473563960138609e-16,
+        78.99999999999999,
+        -5.088887490341626e-16
+      ],
+      "bounds_mm": [
+        28.0,
+        8.0,
+        28.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4021.239
+    },
+    {
+      "name": "RL_shin_inner",
+      "mesh": "shin_inner",
+      "group": "knee",
+      "leg": "RL",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.041119,
+      "com_mm": [
+        2.077785307985859,
+        58.0826062758412,
+        -79.34704069630398
+      ],
+      "bounds_mm": [
+        44.041798369615066,
+        16.91601359825909,
+        181.52132337630127
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 32377.365
+    },
+    {
+      "name": "RL_shin_outer",
+      "mesh": "shin_outer",
+      "group": "knee",
+      "leg": "RL",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.041119,
+      "com_mm": [
+        2.0777853079858604,
+        75.91739372415879,
+        -79.34704069630395
+      ],
+      "bounds_mm": [
+        44.041798369615066,
+        16.9160135982591,
+        181.52132337630127
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 32377.365
+    },
+    {
+      "name": "RL_knee_bezel",
+      "mesh": "knee_bezel",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.000882,
+      "com_mm": [
+        -4.378097026810452e-16,
+        89.60000000000002,
+        -170.0
+      ],
+      "bounds_mm": [
+        35.2,
+        1.2000000000000028,
+        35.19999999999999
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 694.87
+    },
+    {
+      "name": "RL_knee_end_cap",
+      "mesh": "knee_end_cap",
+      "group": "thigh",
+      "leg": "RL",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001409,
+      "com_mm": [
+        6.432459526465872e-17,
+        89.74999999999999,
+        -169.99999999999994
+      ],
+      "bounds_mm": [
+        22.0,
+        1.5,
+        22.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 521.944
+    },
+    {
+      "name": "RL_foot",
+      "mesh": "foot",
+      "group": "knee",
+      "leg": "RL",
+      "material": "rubber",
+      "color": "#191e1b",
+      "mass_kg": 0.017975,
+      "com_mm": [
+        -6.691538153363593e-16,
+        67.0,
+        -154.70943320380542
+      ],
+      "bounds_mm": [
+        32.0,
+        32.0,
+        30.0
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 15630.471
+    },
+    {
+      "name": "RR_roll_motor",
+      "mesh": "roll_motor_-1_right",
+      "group": "mount",
+      "leg": "RR",
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.405,
+      "com_mm": [
+        91.33713707220693,
+        5.619022316213042e-17,
+        -5.5346427422114925e-15
+      ],
+      "bounds_mm": [
+        45.46157418099861,
+        78.50000020000002,
+        78.57904447650681
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 206395.498
+    },
+    {
+      "name": "RR_roll_cartridge",
+      "mesh": "roll_cartridge_-1_right",
+      "group": "mount",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.045979,
+      "com_mm": [
+        64.72313559393962,
+        -1.1692464277534558,
+        0.9985870184244513
+      ],
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "check": true,
+      "note": "50 x 66 x 8 RA5008-size crossed-roller bearing envelope; preload, retention and moment capacity require supplier review.",
+      "volume_mm3": 17029.291
+    },
+    {
+      "name": "RR_roll_bearing",
+      "mesh": "RR_roll_bearing_right",
+      "group": "mount",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.08,
+      "com_mm": [
+        60.0,
+        7.030649346374008e-16,
+        3.119624515151955e-15
+      ],
+      "bounds_mm": [
+        8.066457808273242,
+        66.00000020000002,
+        66.06645780827324
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 11661.592
+    },
+    {
+      "name": "RR_motor_carrier",
+      "mesh": "motor_carrier_-1_right",
+      "group": "roll",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.139536,
+      "com_mm": [
+        43.675090292726246,
+        2.1565215485628006,
+        3.467373555887987e-05
+      ],
+      "bounds_mm": [
+        111.33458265309002,
+        58.02843648174449,
+        88.07821159450467
+      ],
+      "check": true,
+      "note": "Single machined elbow carrier includes the roll-output coupling, bearing journal and perpendicular hip-stator mounting flange.",
+      "volume_mm3": 51679.822
+    },
+    {
+      "name": "RR_hip_motor",
+      "mesh": "hip_motor_right",
+      "group": "roll",
+      "leg": "RR",
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.405,
+      "com_mm": [
+        -6.169689583730677e-17,
+        24.037137072206942,
+        -3.5957551573603325e-15
+      ],
+      "bounds_mm": [
+        78.5,
+        45.4,
+        78.5
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 206395.498
+    },
+    {
+      "name": "RR_shoulder_cover",
+      "mesh": "shoulder_cover_-1_right",
+      "group": "roll",
+      "leg": "RR",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.016953,
+      "com_mm": [
+        -7.982281201504941,
+        24.949999999999918,
+        -4.156143652975475e-14
+      ],
+      "bounds_mm": [
+        76.80298956096853,
+        41.98109266190871,
+        83.0455529541569
+      ],
+      "check": true,
+      "note": "Open-back protective sleeve rotates with the roll carrier. Its 1.5 mm wall and short rear overhang preserve opposite-shoulder clearance; it carries no joint load.",
+      "volume_mm3": 13348.715
+    },
+    {
+      "name": "RR_hip_output_bolt_0",
+      "mesh": "RR_hip_output_bolt_0_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        12.0,
+        -5.799999999999999,
+        1.1539427415740648e-16
+      ],
+      "bounds_mm": [
+        7.000000200000006,
+        4.0070487342108,
+        7.0070487342108
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "RR_hip_output_bolt_60",
+      "mesh": "RR_hip_output_bolt_60_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        6.000000000000002,
+        -5.799999999999999,
+        10.392304845413264
+      ],
+      "bounds_mm": [
+        7.000000200000003,
+        4.007048734210802,
+        7.007048734210802
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "RR_hip_output_bolt_120",
+      "mesh": "RR_hip_output_bolt_120_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        -5.999999999999997,
+        -5.799999999999999,
+        10.392304845413264
+      ],
+      "bounds_mm": [
+        7.000000200000005,
+        4.007048734210803,
+        7.0070487342108025
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "RR_hip_output_bolt_180",
+      "mesh": "RR_hip_output_bolt_180_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        -12.0,
+        -5.799999999999998,
+        8.769964835962892e-16
+      ],
+      "bounds_mm": [
+        7.000000200000006,
+        4.0070487342108,
+        7.0070487342108
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "RR_hip_output_bolt_240",
+      "mesh": "RR_hip_output_bolt_240_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        -6.000000000000005,
+        -5.8,
+        -10.392304845413259
+      ],
+      "bounds_mm": [
+        7.000000200000002,
+        4.0070487342108,
+        7.007048734210801
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "RR_hip_output_bolt_300",
+      "mesh": "RR_hip_output_bolt_300_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001208,
+      "com_mm": [
+        6.000000000000002,
+        -5.799999999999999,
+        -10.392304845413264
+      ],
+      "bounds_mm": [
+        7.000000200000003,
+        4.007048734210802,
+        7.007048734210802
+      ],
+      "check": false,
+      "note": "Recessed M4 socket-head envelope; screw length and actuator thread engagement require supplier confirmation.",
+      "volume_mm3": 153.938
+    },
+    {
+      "name": "RR_hip_hub",
+      "mesh": "hip_hub_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.062676,
+      "com_mm": [
+        -1.3517124597151295e-15,
+        -5.615141852946071,
+        -4.162882575209638e-15
+      ],
+      "bounds_mm": [
+        96.0,
+        8.0,
+        96.0
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 23213.197
+    },
+    {
+      "name": "RR_knee_motor",
+      "mesh": "knee_motor_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "envelope",
+      "color": "#202321",
+      "mass_kg": 0.405,
+      "com_mm": [
+        -5.078293415920574e-16,
+        -30.36286292779305,
+        -3.4899976527320876e-15
+      ],
+      "bounds_mm": [
+        78.5,
+        45.4,
+        78.5
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 206395.498
+    },
+    {
+      "name": "RR_motor_mount_ring",
+      "mesh": "motor_mount_ring_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.034845,
+      "com_mm": [
+        -3.197722204793101e-15,
+        -52.00000000000007,
+        -7.796099590198056e-16
+      ],
+      "bounds_mm": [
+        96.0,
+        3.0,
+        96.0
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 12905.537
+    },
+    {
+      "name": "RR_pod_sleeve_90",
+      "mesh": "pod_sleeve_90_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001311,
+      "com_mm": [
+        2.4993031600042705e-15,
+        -31.22826086956522,
+        43.49999999999997
+      ],
+      "bounds_mm": [
+        5.0,
+        49.0,
+        5.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 485.565
+    },
+    {
+      "name": "RR_pod_tie_90",
+      "mesh": "pod_tie_90_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.003798,
+      "com_mm": [
+        2.6262216338718966e-15,
+        -36.65757693805999,
+        43.5
+      ],
+      "bounds_mm": [
+        5.6,
+        61.0,
+        5.599999999999994
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 483.868
+    },
+    {
+      "name": "RR_pod_sleeve_210",
+      "mesh": "pod_sleeve_210_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001311,
+      "com_mm": [
+        -37.67210506462309,
+        -31.228260869565226,
+        -21.749999999999993
+      ],
+      "bounds_mm": [
+        5.0,
+        49.0,
+        5.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 485.565
+    },
+    {
+      "name": "RR_pod_tie_210",
+      "mesh": "pod_tie_210_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.003798,
+      "com_mm": [
+        -37.67210506462308,
+        -36.65757693806,
+        -21.75
+      ],
+      "bounds_mm": [
+        5.599999999999994,
+        61.0,
+        5.600000000000001
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 483.868
+    },
+    {
+      "name": "RR_pod_sleeve_330",
+      "mesh": "pod_sleeve_330_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001311,
+      "com_mm": [
+        37.672105064623054,
+        -31.22826086956521,
+        -21.75000000000002
+      ],
+      "bounds_mm": [
+        5.0,
+        49.0,
+        5.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 485.565
+    },
+    {
+      "name": "RR_pod_tie_330",
+      "mesh": "pod_tie_330_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.003798,
+      "com_mm": [
+        37.672105064623075,
+        -36.65757693806,
+        -21.750000000000018
+      ],
+      "bounds_mm": [
+        5.599999999999994,
+        61.0,
+        5.600000000000001
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 483.868
+    },
+    {
+      "name": "RR_thigh_inner",
+      "mesh": "thigh_inner_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.128857,
+      "com_mm": [
+        -0.5565704567678293,
+        -38.00074537708336,
+        -22.096850774721464
+      ],
+      "bounds_mm": [
+        98.0000002,
+        58.00000080000003,
+        238.0000002
+      ],
+      "check": true,
+      "note": "One structural motor cradle and thigh cheek. Knee actuator is recessed 12 mm into the limb root; metal flange and compression sleeves spread mounting loads.",
+      "volume_mm3": 101462.205
+    },
+    {
+      "name": "RR_thigh_outer",
+      "mesh": "thigh_outer_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "petg",
+      "color": "#d9d6cc",
+      "mass_kg": 0.062755,
+      "com_mm": [
+        -0.6699271685466087,
+        -83.10796234826077,
+        -42.03558073120126
+      ],
+      "bounds_mm": [
+        98.00000025675311,
+        22.00000080000548,
+        237.96862716661744
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 49413.131
+    },
+    {
+      "name": "RR_cap_bezel",
+      "mesh": "cap_bezel_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "rubber",
+      "color": "#202321",
+      "mass_kg": 0.00022,
+      "com_mm": [
+        -2.9071474420828985e-14,
+        -88.7999999999999,
+        5.571817396607569e-13
+      ],
+      "bounds_mm": [
+        84.0,
+        0.4000000000000057,
+        84.0
+      ],
+      "check": true,
+      "note": "Thin seated finish gasket around the removable cap.",
+      "volume_mm3": 190.981
+    },
+    {
+      "name": "RR_cap_mark",
+      "mesh": "RR_cap_mark_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#202321",
+      "mass_kg": 1.4e-05,
+      "com_mm": [
+        1.718777783648017e-16,
+        -88.475,
+        1.3750222269184137e-15
+      ],
+      "bounds_mm": [
+        14.345261377521505,
+        0.15000020000002223,
+        51.36230137263727
+      ],
+      "check": false,
+      "note": "Recessed finish in the engraved cap index.",
+      "volume_mm3": 5.168
+    },
+    {
+      "name": "RR_hip_disc",
+      "mesh": "hip_disc_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.014872,
+      "com_mm": [
+        -0.000515900339240526,
+        -88.24873687613302,
+        0.026679626909033256
+      ],
+      "bounds_mm": [
+        80.0000002,
+        1.1000000999999884,
+        80.0000002
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 5508.217
+    },
+    {
+      "name": "RR_hip_index",
+      "mesh": "hip_index_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "petg",
+      "color": "#f66c27",
+      "mass_kg": 1e-05,
+      "com_mm": [
+        40.999999999999986,
+        -88.59999999999995,
+        7.999999999999999
+      ],
+      "bounds_mm": [
+        2.0,
+        0.5,
+        8.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 7.65
+    },
+    {
+      "name": "RR_sleeve_0",
+      "mesh": "sleeve_0_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.003597,
+      "com_mm": [
+        -34.0,
+        -66.99999999999999,
+        -43.00000000000001
+      ],
+      "bounds_mm": [
+        8.0,
+        38.0,
+        8.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1332.287
+    },
+    {
+      "name": "RR_bolt_0",
+      "mesh": "bolt_0_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.005053,
+      "com_mm": [
+        -34.0,
+        -68.24209293244826,
+        -43.0
+      ],
+      "bounds_mm": [
+        7.599999999999998,
+        46.0,
+        7.599999999999994
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 643.65
+    },
+    {
+      "name": "RR_sleeve_1",
+      "mesh": "sleeve_1_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.003597,
+      "com_mm": [
+        26.0,
+        -66.99999999999999,
+        -48.0
+      ],
+      "bounds_mm": [
+        8.0,
+        38.0,
+        8.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1332.287
+    },
+    {
+      "name": "RR_bolt_1",
+      "mesh": "bolt_1_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#202321",
+      "mass_kg": 0.005053,
+      "com_mm": [
+        26.0,
+        -68.24209293244826,
+        -48.0
+      ],
+      "bounds_mm": [
+        7.600000000000001,
+        46.0,
+        7.599999999999994
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 643.65
+    },
+    {
+      "name": "RR_knee_drive_adapter",
+      "mesh": "knee_drive_adapter_right",
+      "group": "crank",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.011979,
+      "com_mm": [
+        -8.956702073004087e-17,
+        -57.04581504036254,
+        1.6015633575167592e-18
+      ],
+      "bounds_mm": [
+        36.0,
+        6.600000000000001,
+        36.0
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 4436.557
+    },
+    {
+      "name": "RR_input_crank",
+      "mesh": "input_crank_right",
+      "group": "crank",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.011399,
+      "com_mm": [
+        3.2576084753167094,
+        -63.35051919713888,
+        2.046551265708724e-15
+      ],
+      "bounds_mm": [
+        47.0,
+        5.0,
+        36.0
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 4221.834
+    },
+    {
+      "name": "RR_input_bolt_0",
+      "mesh": "RR_input_bolt_0_right",
+      "group": "crank",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        11.999999999999998,
+        -64.3,
+        1.4239031563114875e-16
+      ],
+      "bounds_mm": [
+        7.600000200000007,
+        2.2076528942860207,
+        7.607652894286012
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "RR_input_bolt_60",
+      "mesh": "RR_input_bolt_60_right",
+      "group": "crank",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        6.000000000000002,
+        -64.30000000000001,
+        10.392304845413262
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "RR_input_bolt_120",
+      "mesh": "RR_input_bolt_120_right",
+      "group": "crank",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        -5.999999999999997,
+        -64.30000000000001,
+        10.392304845413262
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "RR_input_bolt_180",
+      "mesh": "RR_input_bolt_180_right",
+      "group": "crank",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        -11.999999999999998,
+        -64.3,
+        1.2815128406803388e-15
+      ],
+      "bounds_mm": [
+        7.600000200000007,
+        2.2076528942860207,
+        7.607652894286012
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "RR_input_bolt_240",
+      "mesh": "RR_input_bolt_240_right",
+      "group": "crank",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        -6.000000000000004,
+        -64.3,
+        -10.39230484541326
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "RR_input_bolt_300",
+      "mesh": "RR_input_bolt_300_right",
+      "group": "crank",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.000783,
+      "com_mm": [
+        6.000000000000001,
+        -64.3,
+        -10.392304845413266
+      ],
+      "bounds_mm": [
+        7.600000200000002,
+        2.2076528942860207,
+        7.607652894286011
+      ],
+      "check": false,
+      "note": "Recessed M4 low-head envelope; 0.6 mm below crank face. Select screw length after confirming motor engagement.",
+      "volume_mm3": 99.802
+    },
+    {
+      "name": "RR_pushrod",
+      "mesh": "pushrod_right",
+      "group": "rod",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.053531,
+      "com_mm": [
+        1.061332405359586e-16,
+        -70.00000000000001,
+        -85.00000000000003
+      ],
+      "bounds_mm": [
+        12.0,
+        6.0,
+        182.0
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 6819.292
+    },
+    {
+      "name": "RR_output_crank",
+      "mesh": "output_crank_right",
+      "group": "knee",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#545c58",
+      "mass_kg": 0.018072,
+      "com_mm": [
+        0.22840517760077314,
+        -63.50000000000001,
+        1.0745618757013933
+      ],
+      "bounds_mm": [
+        44.0,
+        5.0,
+        50.519247216143725
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 6693.332
+    },
+    {
+      "name": "RR_knee_axle",
+      "mesh": "knee_axle_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.021702,
+      "com_mm": [
+        -6.943576027546592e-16,
+        -67.0,
+        -170.0
+      ],
+      "bounds_mm": [
+        12.0,
+        44.0,
+        12.0
+      ],
+      "check": false,
+      "note": "Fixed 12 x 8 mm tubular shaft ties the thigh cheeks; shin rotates on two bearings.",
+      "volume_mm3": 2764.602
+    },
+    {
+      "name": "RR_knee_inner_spacer",
+      "mesh": "knee_inner_spacer_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.010811,
+      "com_mm": [
+        3.911149234742184e-16,
+        -67.00000000000003,
+        -169.99999999999997
+      ],
+      "bounds_mm": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 1377.149
+    },
+    {
+      "name": "RR_shin_carrier_67",
+      "mesh": "shin_carrier_67_right",
+      "group": "knee",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.013032,
+      "com_mm": [
+        -8.45477722657706e-15,
+        -57.68202407289445,
+        5.0874845579702415e-15
+      ],
+      "bounds_mm": [
+        44.0,
+        10.0,
+        44.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4826.817
+    },
+    {
+      "name": "RR_bearing_67",
+      "mesh": "bearing_67_right",
+      "group": "knee",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.022,
+      "com_mm": [
+        -7.473563960138609e-16,
+        -54.99999999999999,
+        -5.088887490341626e-16
+      ],
+      "bounds_mm": [
+        28.0,
+        8.0,
+        28.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4021.239
+    },
+    {
+      "name": "RR_shin_carrier_91",
+      "mesh": "shin_carrier_91_right",
+      "group": "knee",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.00612,
+      "com_mm": [
+        -4.1828701942961e-15,
+        -79.0,
+        8.827233354770803e-15
+      ],
+      "bounds_mm": [
+        34.0,
+        8.0,
+        34.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 2266.722
+    },
+    {
+      "name": "RR_bearing_91",
+      "mesh": "bearing_91_right",
+      "group": "knee",
+      "leg": "RR",
+      "material": "steel",
+      "color": "#b4b5b0",
+      "mass_kg": 0.022,
+      "com_mm": [
+        -7.473563960138609e-16,
+        -78.99999999999999,
+        -5.088887490341626e-16
+      ],
+      "bounds_mm": [
+        28.0,
+        8.0,
+        28.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 4021.239
+    },
+    {
+      "name": "RR_shin_inner",
+      "mesh": "shin_inner_right",
+      "group": "knee",
+      "leg": "RR",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.041119,
+      "com_mm": [
+        2.077785307985857,
+        -58.0826062758412,
+        -79.34704069630396
+      ],
+      "bounds_mm": [
+        44.0000002,
+        16.000000800000002,
+        181.00000020000016
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 32377.365
+    },
+    {
+      "name": "RR_shin_outer",
+      "mesh": "shin_outer_right",
+      "group": "knee",
+      "leg": "RR",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.041119,
+      "com_mm": [
+        2.077785307985858,
+        -75.91739372415879,
+        -79.34704069630399
+      ],
+      "bounds_mm": [
+        44.0000002,
+        16.000000799999995,
+        181.00000020000016
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 32377.365
+    },
+    {
+      "name": "RR_knee_bezel",
+      "mesh": "knee_bezel_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "petg",
+      "color": "#202321",
+      "mass_kg": 0.000882,
+      "com_mm": [
+        -5.321754473233026e-16,
+        -89.60000000000001,
+        -170.0
+      ],
+      "bounds_mm": [
+        35.2,
+        1.2000000000000028,
+        35.19999999999999
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 694.87
+    },
+    {
+      "name": "RR_knee_end_cap",
+      "mesh": "knee_end_cap_right",
+      "group": "thigh",
+      "leg": "RR",
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "mass_kg": 0.001409,
+      "com_mm": [
+        6.967055902835232e-17,
+        -89.74999999999999,
+        -169.99999999999997
+      ],
+      "bounds_mm": [
+        22.0,
+        1.5,
+        22.0
+      ],
+      "check": false,
+      "note": "",
+      "volume_mm3": 521.944
+    },
+    {
+      "name": "RR_foot",
+      "mesh": "foot_right",
+      "group": "knee",
+      "leg": "RR",
+      "material": "rubber",
+      "color": "#191e1b",
+      "mass_kg": 0.017975,
+      "com_mm": [
+        -6.691538153363593e-16,
+        -67.0,
+        -154.70943320380542
+      ],
+      "bounds_mm": [
+        32.0,
+        32.0,
+        30.0
+      ],
+      "check": true,
+      "note": "",
+      "volume_mm3": 15630.471
+    }
+  ],
+  "model_sha256": "26dc3e75cbdbc009a4c43802ad7746045052365b9068d46fa1c1d88d5b37584a"
+}

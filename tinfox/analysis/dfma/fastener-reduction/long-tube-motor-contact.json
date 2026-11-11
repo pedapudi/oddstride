@@ -1,0 +1,125 @@
+{
+  "scope": "Only the four proposed tube-to-motor contacts on the unchanged exact knee motor reference, plus analytic washer footprints. No whole-model matrix.",
+  "motor_reference_path": "tinfox/proposals/sculpted/model/fusion_native/snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/knee_motor.step",
+  "motor_reference_sha256": "fefb5120a4922808a37df220dceb6552e6b94fbf18c66aa098657ab5d7c8e6ba",
+  "contact_probe_y_mm": [
+    50.39,
+    50.4
+  ],
+  "rows": [
+    {
+      "tube_od_mm": 6,
+      "tube_id_mm": 4,
+      "factory_angle_deg": 20,
+      "valid": true,
+      "nominal_end_area_mm2": 15.707963267948966,
+      "motor_supported_area_mm2": 15.289402343422632,
+      "unsupported_area_mm2": 0.418560924526334,
+      "supported_percent": 97.33535839506081,
+      "supported_centroid_radial_shift_mm": -0.0779239078926684
+    },
+    {
+      "tube_od_mm": 6,
+      "tube_id_mm": 4,
+      "factory_angle_deg": 60,
+      "valid": true,
+      "nominal_end_area_mm2": 15.707963267948966,
+      "motor_supported_area_mm2": 15.289402343422648,
+      "unsupported_area_mm2": 0.418560924526318,
+      "supported_percent": 97.33535839506091,
+      "supported_centroid_radial_shift_mm": -0.0779239078926539
+    },
+    {
+      "tube_od_mm": 6,
+      "tube_id_mm": 4,
+      "factory_angle_deg": 300,
+      "valid": true,
+      "nominal_end_area_mm2": 15.707963267948966,
+      "motor_supported_area_mm2": 15.289402343422637,
+      "unsupported_area_mm2": 0.41856092452632865,
+      "supported_percent": 97.33535839506084,
+      "supported_centroid_radial_shift_mm": -0.07792390789266361
+    },
+    {
+      "tube_od_mm": 6,
+      "tube_id_mm": 4,
+      "factory_angle_deg": 340,
+      "valid": true,
+      "nominal_end_area_mm2": 15.707963267948966,
+      "motor_supported_area_mm2": 15.289402343422648,
+      "unsupported_area_mm2": 0.418560924526318,
+      "supported_percent": 97.33535839506091,
+      "supported_centroid_radial_shift_mm": -0.07792390789263985
+    },
+    {
+      "tube_od_mm": 5,
+      "tube_id_mm": 3.4,
+      "factory_angle_deg": 20,
+      "valid": true,
+      "nominal_end_area_mm2": 10.555751316061706,
+      "motor_supported_area_mm2": 10.555751316059602,
+      "unsupported_area_mm2": 2.1032064978498966e-12,
+      "supported_percent": 99.99999999998008,
+      "supported_centroid_radial_shift_mm": 6.075498208092055e-16
+    },
+    {
+      "tube_od_mm": 5,
+      "tube_id_mm": 3.4,
+      "factory_angle_deg": 60,
+      "valid": true,
+      "nominal_end_area_mm2": 10.555751316061706,
+      "motor_supported_area_mm2": 10.555751316059606,
+      "unsupported_area_mm2": 2.099653784171096e-12,
+      "supported_percent": 99.99999999998012,
+      "supported_centroid_radial_shift_mm": 9.230220894641107e-15
+    },
+    {
+      "tube_od_mm": 5,
+      "tube_id_mm": 3.4,
+      "factory_angle_deg": 300,
+      "valid": true,
+      "nominal_end_area_mm2": 10.555751316061706,
+      "motor_supported_area_mm2": 10.555751316059606,
+      "unsupported_area_mm2": 2.099653784171096e-12,
+      "supported_percent": 99.99999999998012,
+      "supported_centroid_radial_shift_mm": -9.706194275227907e-15
+    },
+    {
+      "tube_od_mm": 5,
+      "tube_id_mm": 3.4,
+      "factory_angle_deg": 340,
+      "valid": true,
+      "nominal_end_area_mm2": 10.555751316061706,
+      "motor_supported_area_mm2": 10.555751316059602,
+      "unsupported_area_mm2": 2.1032064978498966e-12,
+      "supported_percent": 99.99999999998008,
+      "supported_centroid_radial_shift_mm": 1.822649462427616e-15
+    }
+  ],
+  "washer": {
+    "od_mm": 12,
+    "id_mm": 4.3,
+    "thickness_mm": 1,
+    "plastic_through_bore_assumed_mm": 6.2,
+    "nominal_plastic_bearing_area_mm2": 82.90663012823464,
+    "modeled_M3_head_od_mm": 5.5,
+    "head_to_washer_area_mm2": 9.236282401553993,
+    "tube6_washer_area_mm2": 13.752321841089321,
+    "tube5_washer_area_mm2": 5.112942043717389,
+    "actual_plastic_floor_verified": false,
+    "note": "Expected full annular lands from proposed dimensions only. Finished native secondary is not yet exported; ports/roof cuts must not remove these lands."
+  },
+  "nominal_stack_y_mm": {
+    "motor_face": 50.4,
+    "tube_length": 34,
+    "plastic_floor": 84.4,
+    "washer_top_and_head_seat": 85.4,
+    "M3x40_tip": 45.4,
+    "nominal_thread_engagement": 5
+  },
+  "limitations": [
+    "Motor reference geometry, not measured physical case geometry or grade.",
+    "Footprint area does not establish allowable preload or operating strength.",
+    "Metal tube and plastic floor contact simultaneously only if the actual sleeve/host length stack permits it; a too-long tube lifts the washer off the plastic."
+  ]
+}

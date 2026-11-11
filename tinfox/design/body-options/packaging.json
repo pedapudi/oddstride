@@ -1,0 +1,33 @@
+{
+  "status": "Concept envelope reasoning; not a collision or mass validation.",
+  "baseline": {
+    "nominal_body_mm": [
+      480,
+      248,
+      114
+    ],
+    "shoulder_cap_width_mm": 354,
+    "battery_each_mm": [
+      125,
+      85,
+      65
+    ]
+  },
+  "tandem": {
+    "two_pack_length_with_10mm_gap": 260,
+    "pack_width_mm": 85.0,
+    "minimum_motor_body_clearance_mm": 2,
+    "motor_only_top_depth_below_hip_mm": 31.43743787270203,
+    "estimated_skid_depth_mm": 101.43743787270203,
+    "extra_belly_depth_mm": 30.437437872702034,
+    "limitations": "Only the circular roll-motor body and rectangular battery envelope are considered. Flanges, wiring, adapters, structure and leg sweep can require more room."
+  },
+  "twin_rail": {
+    "proposed_pack_centers_y_mm": [
+      -60,
+      60
+    ],
+    "gap_between_pack_envelopes_mm": 35,
+    "combined_pack_width_mm": 205
+  }
+}

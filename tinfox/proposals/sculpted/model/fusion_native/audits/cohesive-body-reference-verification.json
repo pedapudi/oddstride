@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "saved": false,
+  "checks": [
+    {
+      "id": "chassis_tie_bolt_-121_-1_-3",
+      "display_name": "chassis_tie_bolt_-121_-1_-3 (1)",
+      "path": "Placement corner -1 -1:1+chassis_tie_bolt_-121_-1_-3 (1):1",
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "volume_error_mm3": 1.7195134205394424e-12,
+      "passed": true
+    },
+    {
+      "id": "chassis_tie_bolt_-121_-1_3",
+      "display_name": "chassis_tie_bolt_-121_-1_3 (1)",
+      "path": "Placement corner -1 -1:1+chassis_tie_bolt_-121_-1_3 (1):1",
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "volume_error_mm3": 1.7195134205394424e-12,
+      "passed": true
+    },
+    {
+      "id": "chassis_tie_bolt_-121_1_-3",
+      "display_name": "chassis_tie_bolt_-121_1_-3 (1)",
+      "path": "Placement corner -1 1:1+chassis_tie_bolt_-121_1_-3 (1):1",
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "volume_error_mm3": 1.7195134205394424e-12,
+      "passed": true
+    },
+    {
+      "id": "chassis_tie_bolt_-121_1_3",
+      "display_name": "chassis_tie_bolt_-121_1_3 (1)",
+      "path": "Placement corner -1 1:1+chassis_tie_bolt_-121_1_3 (1):1",
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "volume_error_mm3": 1.7195134205394424e-12,
+      "passed": true
+    },
+    {
+      "id": "chassis_tie_bolt_121_-1_-3",
+      "display_name": "chassis_tie_bolt_121_-1_-3 (1)",
+      "path": "Placement corner 1 -1:1+chassis_tie_bolt_121_-1_-3 (1):1",
+      "bounds_error_mm": 2.842170943040401e-14,
+      "volume_error_mm3": 1.7195134205394424e-12,
+      "passed": true
+    },
+    {
+      "id": "chassis_tie_bolt_121_-1_3",
+      "display_name": "chassis_tie_bolt_121_-1_3 (1)",
+      "path": "Placement corner 1 -1:1+chassis_tie_bolt_121_-1_3 (1):1",
+      "bounds_error_mm": 2.842170943040401e-14,
+      "volume_error_mm3": 1.7195134205394424e-12,
+      "passed": true
+    },
+    {
+      "id": "chassis_tie_bolt_121_1_-3",
+      "display_name": "chassis_tie_bolt_121_1_-3 (1)",
+      "path": "Placement corner 1 1:1+chassis_tie_bolt_121_1_-3 (1):1",
+      "bounds_error_mm": 2.842170943040401e-14,
+      "volume_error_mm3": 1.7195134205394424e-12,
+      "passed": true
+    },
+    {
+      "id": "chassis_tie_bolt_121_1_3",
+      "display_name": "chassis_tie_bolt_121_1_3 (1)",
+      "path": "Placement corner 1 1:1+chassis_tie_bolt_121_1_3 (1):1",
+      "bounds_error_mm": 2.842170943040401e-14,
+      "volume_error_mm3": 1.7195134205394424e-12,
+      "passed": true
+    },
+    {
+      "id": "body_service_screw_-1_-64_18",
+      "display_name": "body_service_screw_-1_-64_18",
+      "path": "Cover attachment datum cover_-1_-1:1+body_service_screw_-1_-64_18:1",
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "volume_error_mm3": 1.2676082405960187e-11,
+      "passed": true
+    },
+    {
+      "id": "body_service_screw_1_-64_18",
+      "display_name": "body_service_screw_1_-64_18",
+      "path": "Cover attachment datum cover_-1_1:1+body_service_screw_1_-64_18:1",
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "volume_error_mm3": 1.2676082405960187e-11,
+      "passed": true
+    },
+    {
+      "id": "body_service_screw_-1_64_18",
+      "display_name": "body_service_screw_-1_64_18",
+      "path": "Cover attachment datum cover_1_-1:1+body_service_screw_-1_64_18:1",
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "volume_error_mm3": 1.261923898709938e-11,
+      "passed": true
+    },
+    {
+      "id": "body_service_screw_1_64_18",
+      "display_name": "body_service_screw_1_64_18",
+      "path": "Cover attachment datum cover_1_1:1+body_service_screw_1_64_18:1",
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "volume_error_mm3": 1.261923898709938e-11,
+      "passed": true
+    }
+  ],
+  "retired_still_active": [],
+  "feature_issues": [],
+  "scope": "Active standard screw IDs, exact source dimensions and assembly coordinates verified after import. Eight display names have Fusion-generated suffixes; part IDs remain stable. No custom solid import.",
+  "source_model_sha256": "729b1d80c0597fde72c9e7db1d2b6d7d6890a0bda5a4f44e8aca6490b933bc9c"
+}

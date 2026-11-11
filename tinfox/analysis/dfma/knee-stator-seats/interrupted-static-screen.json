@@ -1,0 +1,13 @@
+{
+  "status": "interrupted_before_complete_pair_report",
+  "time_utc": "2026-10-29T09:33:16.985408+00:00",
+  "worker_pids": [
+    3522241,
+    3522266,
+    3522267,
+    3522268,
+    3522269
+  ],
+  "reason": "One forked OCC worker remained CPU-active while the others were idle for several minutes. Possible inherited parallel-kernel state; not established as a geometry defect. Restart uses spawned workers and single-threaded exact Booleans.",
+  "step_sha256": "ca629df49d3b28a17cff81ebc2a0bef398e9e46868fc2d76f970445e2c9e850b"
+}

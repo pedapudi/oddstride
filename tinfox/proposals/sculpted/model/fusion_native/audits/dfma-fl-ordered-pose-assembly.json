@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "leg": "FL",
+  "cases": [
+    {
+      "case": "nominal",
+      "checks": [
+        {
+          "group": "mount",
+          "bodies": 24,
+          "maximum_vertex_error_mm": 0,
+          "frame_matrix_error_cm": 0.0
+        },
+        {
+          "group": "roll",
+          "bodies": 27,
+          "maximum_vertex_error_mm": 0,
+          "frame_matrix_error_cm": 0.0
+        },
+        {
+          "group": "thigh",
+          "bodies": 50,
+          "maximum_vertex_error_mm": 3.552713678800501e-14,
+          "frame_matrix_error_cm": 8.881784197001252e-16
+        },
+        {
+          "group": "knee",
+          "bodies": 17,
+          "maximum_vertex_error_mm": 3.972054645195637e-14,
+          "frame_matrix_error_cm": 1.7763568394002505e-15
+        },
+        {
+          "group": "crank",
+          "bodies": 9,
+          "maximum_vertex_error_mm": 3.66205343881779e-14,
+          "frame_matrix_error_cm": 8.881784197001252e-16
+        },
+        {
+          "group": "rod",
+          "bodies": 5,
+          "maximum_vertex_error_mm": 3.552713678800501e-14,
+          "frame_matrix_error_cm": 3.552713678800501e-15
+        }
+      ]
+    },
+    {
+      "case": "offset",
+      "checks": [
+        {
+          "group": "mount",
+          "bodies": 24,
+          "maximum_vertex_error_mm": 0,
+          "frame_matrix_error_cm": 0.0
+        },
+        {
+          "group": "roll",
+          "bodies": 27,
+          "maximum_vertex_error_mm": 0,
+          "frame_matrix_error_cm": 0.0
+        },
+        {
+          "group": "thigh",
+          "bodies": 50,
+          "maximum_vertex_error_mm": 7.95651227888113e-14,
+          "frame_matrix_error_cm": 3.552713678800501e-15
+        },
+        {
+          "group": "knee",
+          "bodies": 17,
+          "maximum_vertex_error_mm": 1.1783018260144471e-13,
+          "frame_matrix_error_cm": 8.881784197001252e-15
+        },
+        {
+          "group": "crank",
+          "bodies": 9,
+          "maximum_vertex_error_mm": 5.145497462003087e-14,
+          "frame_matrix_error_cm": 3.552713678800501e-15
+        },
+        {
+          "group": "rod",
+          "bodies": 5,
+          "maximum_vertex_error_mm": 4.3511678576336586e-14,
+          "frame_matrix_error_cm": 3.552713678800501e-15
+        }
+      ]
+    },
+    {
+      "case": "restored",
+      "checks": [
+        {
+          "group": "mount",
+          "bodies": 24,
+          "maximum_vertex_error_mm": 0,
+          "frame_matrix_error_cm": 0.0
+        },
+        {
+          "group": "roll",
+          "bodies": 27,
+          "maximum_vertex_error_mm": 0,
+          "frame_matrix_error_cm": 0.0
+        },
+        {
+          "group": "thigh",
+          "bodies": 50,
+          "maximum_vertex_error_mm": 3.552713678800501e-14,
+          "frame_matrix_error_cm": 8.881784197001252e-16
+        },
+        {
+          "group": "knee",
+          "bodies": 17,
+          "maximum_vertex_error_mm": 3.972054645195637e-14,
+          "frame_matrix_error_cm": 1.7763568394002505e-15
+        },
+        {
+          "group": "crank",
+          "bodies": 9,
+          "maximum_vertex_error_mm": 3.66205343881779e-14,
+          "frame_matrix_error_cm": 8.881784197001252e-16
+        },
+        {
+          "group": "rod",
+          "bodies": 5,
+          "maximum_vertex_error_mm": 3.552713678800501e-14,
+          "frame_matrix_error_cm": 3.552713678800501e-15
+        }
+      ]
+    }
+  ],
+  "pose_mates": 6,
+  "geometry_items": 132,
+  "seconds": 160.99869429203682,
+  "saved_version": 38,
+  "modified": true,
+  "scope": "Independent revised native pose assembly; content precedes dimensional pose mates. Actual native boundary vertices and original parameter restore verified. Older assembly hidden, definitions retained."
+}

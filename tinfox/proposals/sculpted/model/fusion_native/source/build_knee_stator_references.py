@@ -1,0 +1,24 @@
+"""Reuse the checked common DIN7991 reference in nine independently hideable locations."""
+import json
+from pathlib import Path
+from run_native import rpc
+from fetch_exports import fetch
+ROOT=Path(__file__).resolve().parents[1]
+s=(ROOT/'source/native_documents.py').read_text()+'''
+import adsk.core as core,adsk.fusion as fusion,math,json,os,tempfile,time
+def run(_context:str):
+ app=core.Application.get();doc=authoring_document(app,'leg');assert doc==app.activeDocument or doc.activate();d=fusion.Design.cast(app.activeProduct);assert d.activateRootComponent();root=d.rootComponent;tick=time.monotonic();assert any(c.partNumber=='CANDIDATE_ks_motor_mount_ring'for c in d.allComponents);assert not any(c.partNumber=='CANDIDATE_KNEE_SEATED_REFERENCES'for c in d.allComponents)
+ source=next(c for c in d.allComponents if c.attributes.itemByName('Tinfox','BenchReferenceName')and c.attributes.itemByName('Tinfox','BenchReferenceName').value=='FL_hip_stator_bolt_0').bRepBodies.item(0);holder=root.occurrences.addNewComponent(core.Matrix3D.create());holder.isLightBulbOn=False;holder.component.name='Knee stator DIN7991 references - revision candidate';holder.component.partNumber='CANDIDATE_KNEE_SEATED_REFERENCES';rows=[]
+ plate=next(c for c in d.allComponents if c.partNumber=='CANDIDATE_ks_motor_mount_ring').bRepBodies.item(0);crank=next(c for c in d.allComponents if c.partNumber=='CANDIDATE_mc_input_crank').bRepBodies.item(0);tm=fusion.TemporaryBRepManager.get();checks=[]
+ for angle in range(20,380,40):
+  occ=holder.component.occurrences.addNewComponent(core.Matrix3D.create());c=occ.component;c.name='Knee stator M3x8 DIN7991 '+str(angle);c.partNumber='BENCH_REFERENCE_KNEE_DIN7991_'+str(angle);c.attributes.add('Tinfox','BenchReferenceName','Knee stator M3x8 '+str(angle));c.attributes.add('Tinfox','BenchReferenceRole','standard_hardware');c.attributes.add('Tinfox','Specification','M3 x 8 DIN7991; nominal 5.9 mm diameter, 90 degree head; physical stock verification pending');objects=core.ObjectCollection.create();objects.add(source);copy=c.features.copyPasteBodies.add(objects);copy.name='Shared checked DIN7991 reference';body=copy.bodies.item(0);objects=core.ObjectCollection.create();objects.add(body);m=core.Matrix3D.create();m.setToRotation(math.radians(-angle),core.Vector3D.create(0,1,0),core.Point3D.create(0,0,0));m.translation=core.Vector3D.create(0,5.44,0);mi=c.features.moveFeatures.createInput2(objects);assert mi.defineAsFreeMove(m);move=c.features.moveFeatures.add(mi);move.name='Knee stator clock and seated plane';body=c.bRepBodies.item(0);body.name=c.name;bb=body.boundingBox;bounds=[v*10 for v in [*bb.minPoint.asArray(),*bb.maxPoint.asArray()]];assert abs(bounds[1]-45.5)<1e-6 and abs(bounds[4]-53.5)<1e-6
+  # Exact native intersection uses root-context proxies. Axial separation is
+  # invariant under the crank's Y-axis rotation and bounds every crank angle.
+  plate_occ=next(o for o in root.occurrences if o.component.partNumber=='CANDIDATE_ks_motor_mount_ring');entities=core.ObjectCollection.create();entities.add(plate.createForAssemblyContext(plate_occ));entities.add(body.createForAssemblyContext(occ.createForAssemblyContext(holder)));interference=d.createInterferenceInput(entities);interference.areCoincidentFacesIncluded=False;result=d.analyzeInterference(interference);assert result is not None;overlap=sum(abs(r.interferenceBody.volume)*1000 for r in result);assert overlap<1e-5,(angle,overlap)
+  gap=(crank.boundingBox.minPoint.y-body.boundingBox.maxPoint.y)*10;assert gap>.8,(angle,gap);checks.append({'angle_deg':angle,'plate_interference_mm3':overlap,'all_crank_y_rotations_axial_gap_lower_bound_mm':gap,'gap_note':'Whole-crank bound includes its lower axial hub; local fork/head gap is assessed separately on exported solids.'})
+  path=os.path.join(tempfile.gettempdir(),'tinfox-native','knee-seated-reference-'+str(angle)+'.step');holder.isLightBulbOn=True;body.isLightBulbOn=True;assert d.exportManager.execute(d.exportManager.createSTEPExportOptions(path,c));assert os.path.getsize(path)>5000;holder.isLightBulbOn=False;rows.append({'name':'Knee stator M3x8 '+str(angle),'component':c.partNumber,'path':path,'bounds_mm':bounds,'volume_mm3':body.volume*1000})
+ print(json.dumps({'saved_version':doc.dataFile.versionNumber,'working_modified':doc.isModified,'candidate_only':True,'references':rows,'native_checks':checks,'elapsed_seconds':time.monotonic()-tick,'scope':'Nominal reference seating and aligned crank clearance. Not stock availability or printed preload qualification.'}))
+'''
+r=rpc(s,'knee-stator-seated-references',timeout=600);assert r[0]['success'],r;record=json.loads(r[0]['message']);(ROOT/'audits/knee-stator-seated-references.json').write_text(json.dumps(record,indent=2))
+for row in record['references']:fetch(row['path'],Path(row['path']).name)
+print({'references':len(record['references']),'checks':len(record['native_checks'])})

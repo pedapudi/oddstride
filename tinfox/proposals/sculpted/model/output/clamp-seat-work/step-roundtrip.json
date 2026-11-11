@@ -1,0 +1,563 @@
+{
+  "model_sha256": "5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873",
+  "parts": [
+    {
+      "part": "thigh_inner",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.001090902616851963,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00013673360573094627,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_inner_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0011206798371858895,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00013673360573094627,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_outer",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0007001191552262753,
+      "mesh": {
+        "mesher": "Gmsh STEP surface triangulation",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0001203233351054468,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_outer_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.015066304214997217,
+      "mesh": {
+        "mesher": "Gmsh STEP surface triangulation",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00013366841438328442,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_inner",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 3.607154940254986e-05,
+      "mesh": {
+        "mesher": "Gmsh STEP surface triangulation",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 7.946997947456415e-05,
+        "mesher_warnings": [
+          "Warning: Could not converge parametrisation of (14,61,6.13043e-09) on curve 117, taking parameter with lowest error",
+          "Warning: Could not converge parametrisation of (-14,61,-2.82727e-14) on curve 118, taking parameter with lowest error"
+        ],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_inner_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.005597307004791219,
+      "mesh": {
+        "mesher": "Gmsh STEP surface triangulation",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 9.325489894229996e-05,
+        "mesher_warnings": [
+          "Warning: Could not converge parametrisation of (-14,-61,-2.82727e-14) on curve 118, taking parameter with lowest error",
+          "Warning: Could not converge parametrisation of (14,-61,6.13043e-09) on curve 119, taking parameter with lowest error"
+        ],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_outer",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 1.82819931069389e-05,
+      "mesh": {
+        "mesher": "Gmsh STEP surface triangulation",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 5.625611330655239e-05,
+        "mesher_warnings": [
+          "Warning: Could not converge parametrisation of (14,77,6.13043e-09) on curve 30, taking parameter with lowest error",
+          "Warning: Could not converge parametrisation of (-14,77,-2.82727e-14) on curve 31, taking parameter with lowest error"
+        ],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_outer_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 1.7244128684978932e-05,
+      "mesh": {
+        "mesher": "Gmsh STEP surface triangulation",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 6.605003977778108e-05,
+        "mesher_warnings": [
+          "Warning: Could not converge parametrisation of (-14,-77,-2.82727e-14) on curve 31, taking parameter with lowest error",
+          "Warning: Could not converge parametrisation of (14,-77,6.13043e-09) on curve 32, taking parameter with lowest error"
+        ],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "bolt_0",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041416435031952986,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "bolt_0_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 1.057287590811029e-11,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041416435031952986,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "bolt_1",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041408771275830783,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "bolt_1_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 1.0459189070388675e-11,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041408771275830783,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_clamp_nut_0",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017304744680952388,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_clamp_nut_0_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 3.0269120543380268e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017304744680952388,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_clamp_nut_1",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0001732272049492636,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_clamp_nut_1_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 3.097966327914037e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0001732272049492636,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_bolt_37",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143510864486301,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_bolt_37_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 1.0459189070388675e-11,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143510864486301,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_bolt_105",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004140905012919271,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_bolt_105_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 1.0459189070388675e-11,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004140905012919271,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_nut_37",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0001733937711009556,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_nut_37_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 3.0127011996228248e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0001733937711009556,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_nut_105",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017328859481060608,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_nut_105_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 3.0269120543380268e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017328859481060608,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_clamp_washer_0_inner",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.1316282072803006e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143498401005088,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_clamp_washer_0_inner_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.1742607714259066e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143498401005088,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_clamp_washer_0_outer",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.1316282072803006e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143498401005088,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_clamp_washer_0_outer_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.1742607714259066e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143498401005088,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_clamp_washer_1_inner",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.0889956431346945e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143451087005102,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_clamp_washer_1_inner_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.1600499167107046e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143451086999338,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_clamp_washer_1_outer",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.0889956431346945e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143451087005102,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_clamp_washer_1_outer_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.1600499167107046e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143451086999338,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_washer_37_inner",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.1600499167107046e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041440482864397505,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_washer_37_inner_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.1458390619955026e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041440482864397505,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_washer_37_outer",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.1600499167107046e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041440482864397505,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_washer_37_outer_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.1458390619955026e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041440482864397505,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_washer_105_inner",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.0747847884194925e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041434415848652054,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_washer_105_inner_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.1600499167107046e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143441584859441,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_washer_105_outer",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.0747847884194925e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041434415848652054,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "shin_clamp_washer_105_outer_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 2.1600499167107046e-12,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143441584859441,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "chassis_beam_-102",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 2.4085760528956707e-05,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "chassis_beam_102",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 2.405727100191877e-05,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    }
+  ]
+}

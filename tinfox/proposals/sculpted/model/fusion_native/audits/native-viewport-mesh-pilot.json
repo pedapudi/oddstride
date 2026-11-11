@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "part": "front_fascia",
+  "saved_head_version": 22,
+  "best_display_mesh": {
+    "vertices": 25423,
+    "triangles": 44920,
+    "surface_tolerance_cm": 0.0036068970825565904
+  },
+  "rows": [
+    {
+      "kind": "existing_display",
+      "index": 0,
+      "vertices": 13059,
+      "triangles": 21996,
+      "surface_tolerance_cm": 0.014427588330226362
+    },
+    {
+      "kind": "existing_display",
+      "index": 1,
+      "vertices": 25423,
+      "triangles": 44920,
+      "surface_tolerance_cm": 0.0036068970825565904
+    },
+    {
+      "kind": "native_quality_preset",
+      "quality": "Low",
+      "settings": {
+        "surfaceTolerance": 0.1154207066418109,
+        "maxNormalDeviation": 0.12,
+        "maxSideLength": 0.0,
+        "maxAspectRatio": 0.0
+      },
+      "elapsed_seconds": 14.274274625000544,
+      "vertices": 1012405,
+      "triangles": 1968124,
+      "surface_tolerance_getter_error": "2 : InternalValidationError : res"
+    },
+    {
+      "kind": "native_quality_preset",
+      "quality": "Normal",
+      "settings": {
+        "surfaceTolerance": 0.014427588330226362,
+        "maxNormalDeviation": 0.12,
+        "maxSideLength": 0.0,
+        "maxAspectRatio": 0.0
+      },
+      "elapsed_seconds": 14.617567416979,
+      "vertices": 1031020,
+      "triangles": 2006706,
+      "surface_tolerance_getter_error": "2 : InternalValidationError : res"
+    }
+  ],
+  "new_documents": 0,
+  "new_mesh_bodies": 0,
+  "cad_changed": false
+}

@@ -1,0 +1,216 @@
+{
+  "scope": "Changed cap seats, front bearing gap, open race path, cup/head and adjacent rail only. No whole-model test.",
+  "inputs": {
+    "housing": {
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/dfma-architecture-v1/dfma_roll_housing_fl.step",
+      "sha256": "bd57b1d4477997e2a59cdad51f7f607f502397a4ad0f874b4e393434be2e5a68"
+    },
+    "backplate": {
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/dfma-architecture-v1/dfma_roll_backplate_fl.step",
+      "sha256": "5dcab12687878d9622c773d2f60b1e38a52b20c6acff6abc309d5da1de48dfb1"
+    },
+    "cap": {
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/dfma-architecture-v1/dfma_shared_roll_cap_fl.step",
+      "sha256": "db486485f29ff9e8d8a8000c7899177ce4e117346a1b572ca0f9afe6ac673355",
+      "frozen_path": "tinfox/analysis/dfma/fastener-reduction/input/db486485f29ff9e8d8a8000c7899177ce4e117346a1b572ca0f9afe6ac673355.step"
+    },
+    "cup": {
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/dfma-architecture-v1/dfma-rear-loaded-cup.step",
+      "sha256": "c256929a709d77d506e83a95d83fee956fd0db8d6cc906fe050ba7dc7131377e",
+      "frozen_path": "tinfox/analysis/dfma/fastener-reduction/input/c256929a709d77d506e83a95d83fee956fd0db8d6cc906fe050ba7dc7131377e.step"
+    }
+  },
+  "cap_pilot_status": "This inspected cap is the earlier3.6mm export; floor probes conservatively exclude the future3.8mm hole. Final native3.8 export remains to bind.",
+  "standard_head_floor_checks": [
+    {
+      "angle_deg": 0,
+      "head_floor_area_mm2": 14.176436849321119,
+      "housing_hard_land_area_mm2": 14.176436849321119,
+      "expected_mm2": 14.176436849323945,
+      "passed": true
+    },
+    {
+      "angle_deg": 40,
+      "head_floor_area_mm2": 14.176436849321124,
+      "housing_hard_land_area_mm2": 14.176436849321124,
+      "expected_mm2": 14.176436849323945,
+      "passed": true
+    },
+    {
+      "angle_deg": 80,
+      "head_floor_area_mm2": 14.176436849321124,
+      "housing_hard_land_area_mm2": 14.176436849321124,
+      "expected_mm2": 14.176436849323945,
+      "passed": true
+    },
+    {
+      "angle_deg": 120,
+      "head_floor_area_mm2": 14.176436849321123,
+      "housing_hard_land_area_mm2": 14.176436849321123,
+      "expected_mm2": 14.176436849323945,
+      "passed": true
+    },
+    {
+      "angle_deg": 160,
+      "head_floor_area_mm2": 14.176436849321124,
+      "housing_hard_land_area_mm2": 14.176436849321124,
+      "expected_mm2": 14.176436849323945,
+      "passed": true
+    },
+    {
+      "angle_deg": 200,
+      "head_floor_area_mm2": 14.176436849321124,
+      "housing_hard_land_area_mm2": 14.176436849321124,
+      "expected_mm2": 14.176436849323945,
+      "passed": true
+    },
+    {
+      "angle_deg": 240,
+      "head_floor_area_mm2": 14.176436849321119,
+      "housing_hard_land_area_mm2": 14.176436849321119,
+      "expected_mm2": 14.176436849323945,
+      "passed": true
+    },
+    {
+      "angle_deg": 280,
+      "head_floor_area_mm2": 14.176436849321119,
+      "housing_hard_land_area_mm2": 14.176436849321119,
+      "expected_mm2": 14.176436849323945,
+      "passed": true
+    },
+    {
+      "angle_deg": 320,
+      "head_floor_area_mm2": 14.176436849321124,
+      "housing_hard_land_area_mm2": 14.176436849321124,
+      "expected_mm2": 14.176436849323945,
+      "passed": true
+    }
+  ],
+  "interface_checks": [
+    {
+      "check": "cap/housing",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "cap/cup",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "backplate/housing",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "continuous bearing sweep through housing with both end pieces removed",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "front race nominal cap gap",
+      "gap_mm": 0.14999999999999858,
+      "passed": true
+    },
+    {
+      "check": "max standard head/cup at0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "max standard head/cup at40",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "max standard head/cup at80",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "max standard head/cup at120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "max standard head/cup at160",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "max standard head/cup at200",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "max standard head/cup at240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "max standard head/cup at280",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "max standard head/cup at320",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    }
+  ],
+  "nearby_rail_checks": [
+    {
+      "front_sign": 1,
+      "side_sign": 1,
+      "check": "changed35mm stator screw0/nearby rail",
+      "beam_sha256": "e8f833af9af134156102f3f40b10b29ea55be863488625054e257fa6560e2674",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "front_sign": 1,
+      "side_sign": -1,
+      "check": "changed35mm stator screw0/nearby rail",
+      "beam_sha256": "a29d0ac915aa1316301d2b0241679ee3c269dcedd058512203564ddf68a24757",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "front_sign": -1,
+      "side_sign": 1,
+      "check": "changed35mm stator screw0/nearby rail",
+      "beam_sha256": "e8f833af9af134156102f3f40b10b29ea55be863488625054e257fa6560e2674",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "front_sign": -1,
+      "side_sign": -1,
+      "check": "changed35mm stator screw0/nearby rail",
+      "beam_sha256": "a29d0ac915aa1316301d2b0241679ee3c269dcedd058512203564ddf68a24757",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "nominal_motor_engagement_mm": 5,
+  "minimum_cap_to_frame_axial_bounding_gap_mm": 3.5,
+  "limit": "Geometric support and nominal clearance only; final revised exports and physical fits remain separate."
+}

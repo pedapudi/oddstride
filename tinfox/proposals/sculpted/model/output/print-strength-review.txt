@@ -1,0 +1,78 @@
+TINFOX — PRINT ORIENTATION AND KNEE STRENGTH
+
+STATUS
+The printed knee and limb structure is not strength-qualified. A 100% infill
+PETG print does not establish survival during loaded stairs, self-righting or
+landing. The main CAD shows the hybrid: printed shells with integral forks, metal cranks and shoulder screws,
+shaft and bearings. The separate printed variant replaces custom joint parts
+with printed parts for unloaded fit and hand-articulation checks. It is not a
+release for standing or dynamic operation.
+
+LAYER DIRECTION
+Both thigh halves and both shin halves lie lengthwise in the bed plane.
+The thigh split lies in local X/Z, and its pitch axis prints vertically. The shin
+split lies in local Y/Z, and its bearing axis prints horizontally. Both orientations
+keep the long load path within layers. The shin bearing seats are open semicircles
+at the split face; inspect their perimeters and fit after printing.
+
+Print each structural half with its split face and open cavity upward.
+The motor cradle needs accessible support beneath its offset web. Local supports
+under curved exterior surfaces remain necessary. The actual oriented STL files
+were checked: every structural limb length is parallel to the bed. They are not
+sliced, and perimeter continuity and support removal still require layer preview.
+
+Loads that open a fork, pry a washer ledge or pull a motor-retaining web apart can
+act across layers in this orientation. No orientation makes the whole knee
+isotropic. The motor tie preload must pass through metal compression hardware;
+the printed service-ring webs must not be treated as proven axial ties.
+
+CONCENTRATED KNEE LOAD
+The 22 mm cranks have a minimum effective moment arm of 12.93 mm over
+the modeled knee range. Rod force equals torque divided by that moment arm:
+6 N m gives 464 N; 17 N m gives 1315 N. External impacts can
+exceed the motor-driven load. Bearings, bushings and the pin carry concentrated
+forces even when the robot's total weight seems modest.
+
+For the current 7.8 mm outer fork ear in PETG, a simplified equal-share
+model gives 14.0 MPa average pin bearing pressure at 17 N m.
+This is a local contact-pressure screen, not tensile stress or a failure limit.
+It excludes hole-edge concentration, ear bending, uneven sharing and fatigue.
+The hybrid also uses printed shin forks. Both printed-shell routes remain unloaded prototypes until tested.
+
+STRUCTURAL SHELL
+The shin uses two structural halves with broad mating lands, continuous clamp
+rails and full-width fastening ribs. Two M4 screws and captive compression sleeves
+join the halves. The assembled section encloses a cavity;
+its torsional stiffness depends on joint preload, fit and slip. Both halves are
+required. The sampled minimum sagittal section modulus is 1007 mm3.
+The uniform-bending screen gives 14.4 MPa nominal stress;
+a factor of two would require 28.7 MPa before local effects. This does not
+establish a PETG margin. The screen omits local bearing-seat stresses and the actual variation of moment
+along the shin.
+That single measure cannot qualify lateral loading, torsion, clamp seats or the
+3 mm bearing-retaining shoulders. The separate motor and knee cosmetic caps are
+integral with the outer thigh. No separate thin cap needs to be printed.
+
+
+SOLID PETG
+More walls and dense local material help distribute loads. Solid infill does not
+remove interlayer weakness, creep or hole-edge stress concentration. The mass
+estimate already uses solid CAD volume, without an infill weight discount.
+Bambu's PETG HF data reports 34 MPa XY and 23 MPa Z tensile strength from 100%
+infill specimens. Those specimens were annealed/dried; the values are not design
+allowables for an arbitrary PETG print. Its reported HDT at 1.8 MPa is 62 C,
+which is not a safe continuous service-temperature limit near a motor.
+Source: https://store.bblcdn.com/3a230e260a3a47c2b0db0156e07eef91.pdf
+
+PROTOTYPE AND TEST PLAN
+Start with six to eight perimeters and dense local zones at clamp seats and
+bearing supports. These are trial settings, not a qualified print recipe. Verify
+wall count in narrow webs; do not assume an infill percentage creates continuous
+fibers along the limb. Use the filament manufacturer's dry-material profile.
+
+Test the actual material/profile at operating temperature, then test a complete
+leg in bending, lateral loading, torsion and sustained pushrod loading. Record
+permanent deflection, bearing alignment, cracking and fastener relaxation.
+Choose proof and fatigue loads from measured duty and impact loads. A static
+screen alone does not authorize running or jumping. Revisit metal reinforcement
+if the tests show excessive strain or creep. Inspect the three fabrication variants in variants.html.

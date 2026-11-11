@@ -1,0 +1,97 @@
+{
+  "updated_utc": "2026-10-29T07:32:16.510599+00:00",
+  "saved_versions": {
+    "Master": 62,
+    "Chassis": 18,
+    "Leg": 20,
+    "Head": 22
+  },
+  "working_document": "Leg",
+  "cloud_documents": 4,
+  "current_shell_target_sha256": "5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873",
+  "saved_current_body": true,
+  "latest_limb_saved": true,
+  "source_of_truth": "Native Fusion for the13-part motor complex only; full robot remains a generated migration reference.",
+  "families": {
+    "slim_motor_mounts": {
+      "definitions": 4,
+      "native_built": true,
+      "surface_sections_passed": true,
+      "parameter_edit_restore_tests_passed": 3,
+      "installed_in_assembly": false,
+      "saved": true
+    },
+    "rounded_shin": {
+      "native_stage": "Four saved native shells pass shape, sections, absolute-deflection silhouettes, service, native interfaces and family edits.",
+      "first_unconstrained_loft_passed": false,
+      "first_max_surface_deviation_mm": 0.3624152967685504,
+      "finished_shells": true,
+      "saved": true,
+      "surface_and_sections_passed": true,
+      "parameter_edit_restore_tests_passed": 4,
+      "native_interface_checks_passed": 5,
+      "service_checks_passed": 73,
+      "knee_samples_clear": 109,
+      "silhouette_passed": true,
+      "silhouette_report": "audits/rounded-shin-silhouettes.json",
+      "latest_edits_saved": true
+    },
+    "closed_flared_thigh": {
+      "native_built": "Four saved native baseline halves plus corrected motor-complex outer shell and its handed candidate.",
+      "target_frozen": true,
+      "saved": true,
+      "features": 66,
+      "sketches": 32,
+      "latest_edits_saved": true,
+      "partial_stock_shape_and_sections_passed": true,
+      "final_geometry_qualified": false,
+      "approved_source_overlay": "snapshots/knee-stub-cleanup/manifest.json",
+      "master_features": 66,
+      "master_sketches": 32,
+      "bench_left_geometry_qualified": true,
+      "bench_left_saved_version": 20,
+      "remaining": "Compare/install the corrected handed variants in the current whole-robot assembly."
+    },
+    "clamp_hardware": {
+      "latest_source": "open OD12 washer seats, M4x25 screws, 18 mm sleeves",
+      "native_updated": false,
+      "native_bench_updated": true,
+      "remaining": "Propagate checked purchased-reference inventory into all four legs."
+    },
+    "paired_6810_roll_support": {
+      "target_status": "Bench support complete; remaining handed housing/cup variants and whole-robot installation pending.",
+      "native_updated": "All8 left-front custom housing/carrier/retention parts are canonical in the bench;16 retention/spacer handed definitions are also saved.",
+      "do_not_publish_old_roll_bearing_as_latest": true,
+      "native_definitions": 16,
+      "comparison_report": "audits/paired-retention-comparison.json",
+      "saved": true,
+      "parameter_edit_restore_tests_passed": 3,
+      "bench_canonical": true
+    },
+    "cut_stock": {
+      "definitions": 12,
+      "native_built": true,
+      "surface_sections_passed": true,
+      "comparison_report": "audits/bench-cut-stock-comparison.json",
+      "saved": true,
+      "installed_in_assembly": false,
+      "installed_in_bench": true
+    }
+  },
+  "publication_gates_remaining": [
+    "Complete and compare current handed housing/cup/closure and corrected thigh/crank families.",
+    "Replace old installed Leg14 definitions and hardware with current saved native families.",
+    "Reconcile Chassis18 and Head22 against current frozen body/head targets.",
+    "Verify native whole-robot placements, linkage/motion/service paths and parameter dependencies; preserve inherited design limits separately.",
+    "Save/reopen the full current Master and publish its native-only export allowlist."
+  ],
+  "fabrication_release": false,
+  "saved_work_version": 20,
+  "saved_master_leg_version": 14,
+  "latest_limb_installed_in_master": false,
+  "next_bench_target_sha256": "b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6",
+  "working_document_modified": false,
+  "canonical_scope_manifest": "manifests/motor-complex-native-exports.json",
+  "full_robot_native_source_of_truth": false,
+  "current_operation": "Map and complete current handed limb families and whole-robot assembly against the refreshed frozen target."
+}

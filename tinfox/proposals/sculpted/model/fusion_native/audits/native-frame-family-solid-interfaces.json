@@ -1,0 +1,501 @@
+{
+  "passed": true,
+  "saved": false,
+  "chassis_saved_version": 16,
+  "working_document_modified": true,
+  "checker": "Fusion Design.analyzeInterference, native root-context bodies, coincident faces excluded",
+  "volume_tolerance_mm3": 1e-06,
+  "conditions": [
+    {
+      "condition": "Frozen nominal geometry",
+      "checks": [
+        {
+          "pair": [
+            "body_center_0",
+            "chassis_beam_102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "body_center_0",
+            "chassis_beam_-102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "chassis_lower_brace",
+            "chassis_beam_102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "chassis_lower_brace",
+            "chassis_beam_-102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "electronics_shelf",
+            "chassis_lower_brace"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "belly_center_0",
+            "battery_cassette"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_cassette",
+            "chassis_beam_102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_cassette",
+            "chassis_beam_-102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_cassette",
+            "chassis_lower_brace"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "condition": "robot_roll_y=73 mm",
+      "checks": [
+        {
+          "pair": [
+            "body_center_0",
+            "chassis_beam_102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "body_center_0",
+            "chassis_beam_-102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "chassis_lower_brace",
+            "chassis_beam_102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "chassis_lower_brace",
+            "chassis_beam_-102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "electronics_shelf",
+            "chassis_lower_brace"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "belly_center_0",
+            "battery_cassette"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_cassette",
+            "chassis_beam_102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_cassette",
+            "chassis_beam_-102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_cassette",
+            "chassis_lower_brace"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "condition": "frame_brace_thickness=4 mm",
+      "checks": [
+        {
+          "pair": [
+            "body_center_0",
+            "chassis_beam_102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "body_center_0",
+            "chassis_beam_-102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "chassis_lower_brace",
+            "chassis_beam_102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "chassis_lower_brace",
+            "chassis_beam_-102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "electronics_shelf",
+            "chassis_lower_brace"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "belly_center_0",
+            "battery_cassette"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_cassette",
+            "chassis_beam_102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_cassette",
+            "chassis_beam_-102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_cassette",
+            "chassis_lower_brace"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "condition": "Nominal geometry restored",
+      "checks": [
+        {
+          "pair": [
+            "body_center_0",
+            "chassis_beam_102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "body_center_0",
+            "chassis_beam_-102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "chassis_lower_brace",
+            "chassis_beam_102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "chassis_lower_brace",
+            "chassis_beam_-102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "electronics_shelf",
+            "chassis_lower_brace"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "belly_center_0",
+            "battery_cassette"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_cassette",
+            "chassis_beam_102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_cassette",
+            "chassis_beam_-102"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_cassette",
+            "chassis_lower_brace"
+          ],
+          "volume_mm3": 0,
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "elapsed_seconds": 14.190854125015903,
+  "scope": "Nine chassis interfaces in nominal, wider-frame, thicker-brace and restored conditions. This does not validate screw engagement, a whole-robot resized variant, CNC access, strength or newer browser geometry.",
+  "updated_utc": "2026-10-29T00:15:39.474234+00:00",
+  "source_model_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "native_inputs": {
+    "battery_cassette": {
+      "path": "exports/frame-checkpoint-battery_cassette.step",
+      "sha256": "5183c4ead165fc388e0fd17b6f4d8076de2d61b458f1a09093ce1fa62c91eeed",
+      "cloud_component": "battery_cassette",
+      "state": "saved_chassis_v16",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-checkpoint-battery_cassette-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "qualified_boundary_and_sections",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "not_rechecked_against_this_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "section_audit": "audits/frame-checkpoint-battery_cassette-sections.json",
+      "family_audit": "audits/frame-cassette-family-edit-restore.json"
+    },
+    "belly_center_0": {
+      "path": "exports/frame-checkpoint-belly_center_0.step",
+      "sha256": "984161825bc294f79d0dac76b60f9cd56a8b206275320daa5661f778ae64bfb8",
+      "cloud_component": "belly_center_0",
+      "state": "saved_chassis_v16",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-checkpoint-belly_center_0-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "qualified_boundary_and_sections",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "not_rechecked_against_this_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "section_audit": "audits/frame-checkpoint-belly_center_0-sections.json",
+      "family_audit": "audits/frame-process-family-edit-restore.json"
+    },
+    "body_center_0": {
+      "path": "exports/current-body-cover-native.step",
+      "sha256": "cd7e2cd07ee02efe1433fb60096a0b0fa55e753c27ba0afd7ddd878dcc50ec7e",
+      "cloud_component": "body_center_0",
+      "state": "saved_chassis_v5",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/current-body-cover-native-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "chassis_beam_-102": {
+      "path": "exports/frame-intent-left-rail-final.step",
+      "sha256": "38d2aaf4139833774a7bfb81e8434ae819e09d41772f2e6d8bc8068d1a773957",
+      "cloud_component": "chassis_beam_-102",
+      "state": "saved_native_parametric",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-intent-left-rail-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "full_geometry_and_section_gate_passed",
+          "passed": true,
+          "screen_export_hash_matches": false,
+          "basis": "audits/frame-intent-left-rail-final-geometry.json"
+        },
+        "high": {
+          "state": "not_rechecked_for_new_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "saved_subsystem": "chassis",
+      "saved_version": 14,
+      "sections_audit": "audits/frame-intent-left-rail-final-sections.json",
+      "family_edit_audit": "audits/frame-rail-family-edit-restore.json"
+    },
+    "chassis_beam_102": {
+      "path": "exports/frame-intent-right-rail-final.step",
+      "sha256": "6e7039c958cd2e7bbe2e9c58254048e7de43b184af98710a1d6e74d8b1c19c47",
+      "cloud_component": "chassis_beam_102",
+      "state": "saved_native_parametric",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-intent-right-rail-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "full_geometry_and_section_gate_passed",
+          "passed": true,
+          "screen_export_hash_matches": false,
+          "basis": "audits/frame-intent-right-rail-final-geometry.json"
+        },
+        "high": {
+          "state": "not_rechecked_for_new_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "saved_subsystem": "chassis",
+      "saved_version": 14,
+      "sections_audit": "audits/frame-intent-right-rail-final-sections.json",
+      "family_edit_audit": "audits/frame-rail-family-edit-restore.json"
+    },
+    "chassis_lower_brace": {
+      "path": "exports/frame-checkpoint-chassis_lower_brace.step",
+      "sha256": "e524c15c5206769ee436f99f8fc82e116ae409dc818ba9fa325d881f93059eb0",
+      "cloud_component": "chassis_lower_brace",
+      "state": "saved_chassis_v16",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-checkpoint-chassis_lower_brace-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "qualified_boundary_and_sections",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "not_rechecked_against_this_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "saved_subsystem": "chassis",
+      "saved_version": 13,
+      "sections_audit": "audits/frame-intent-chassis_lower_brace-final-sections.json",
+      "family_edit_audit": "audits/frame-deck-family-edit-restore.json",
+      "section_audit": "audits/frame-checkpoint-chassis_lower_brace-sections.json",
+      "family_audit": "audits/frame-process-family-edit-restore.json"
+    },
+    "electronics_shelf": {
+      "path": "exports/frame-checkpoint-electronics_shelf.step",
+      "sha256": "784fdbbc2788e44d69b1f8b61e6054e6d7b871d402c9df96a07eac665cb93070",
+      "cloud_component": "electronics_shelf",
+      "state": "saved_chassis_v16",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-checkpoint-electronics_shelf-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "qualified_boundary_and_sections",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "not_rechecked_against_this_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "saved_subsystem": "chassis",
+      "saved_version": 13,
+      "sections_audit": "audits/frame-intent-electronics_shelf-final-sections.json",
+      "family_edit_audit": "audits/frame-deck-family-edit-restore.json",
+      "section_audit": "audits/frame-checkpoint-electronics_shelf-sections.json",
+      "family_audit": "audits/frame-process-family-edit-restore.json"
+    }
+  }
+}

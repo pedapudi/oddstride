@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"message\": \"{\\\"toEntity\\\": \\\"\\\\nStatically creates a new ToEntityExtentDefinition object. This is used as input when\\\\ndefining the extents of a feature to be up to a construction plane or face.\\\\nentity : The construction plane or face that the feature extent it up to.\\\\nisChained : \\\\noffset : A optional input value that defines an offset distance of the entity that will be used\\\\nfor the extent. Positive and negative values can be used to offset in both directions.\\\\nIf this argument is not provided a value of zero will be used.\\\\nReturns the newly created ToEntityExtentDefinition object or null if the creation failed.\\\\n\\\", \\\"extent\\\": \\\"\\\\nDefines the extrusion to go in one direction from the profile. The extent of the extrusion is\\\\ndefined by the extent argument.\\\\nextent : An ExtentDefinition object that defines how the extent of the extrusion is defined. This can be\\\\na specified distance (DistanceExtentDefinition), to an entity (ToEntityExtent), or through-all (AllExtentDefinition).\\\\nThese objects can be obtained by using the static create method on the appropriate class.\\\\ndirection : Specifies the direction of the extrusion. PositiveExtentDirection and NegativeExtentDirection\\\\nare valid values. PositiveExtentDirection is in the same direction as the normal of the profile's\\\\nparent sketch plane.\\\\ntaperAngle : Optional argument that specifies the taper angle. If omitted a taper angle of 0 is used.\\\\nReturns true is setting the input to a one sided extent was successful.\\\\n\\\"}\\n\",\n    \"success\": true\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

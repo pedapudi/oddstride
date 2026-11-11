@@ -1,0 +1,1295 @@
+{
+  "source_model_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "target_model_sha256": "beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8",
+  "source_scope": "Frozen low-profile generated reference matched by saved native baseline",
+  "target_folder": "output/closed-thigh-work",
+  "custom_parts": [
+    {
+      "key": "battery_access_latch_-1",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "990d816c18448ddd019e2e9b384ba0d43c2bfd02aa93683ffc30eb2437a2c147",
+      "new_mesh_sha256": "990d816c18448ddd019e2e9b384ba0d43c2bfd02aa93683ffc30eb2437a2c147",
+      "old_volume_mm3": 152.601,
+      "new_volume_mm3": 152.601,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/battery_access_latch_-1.step",
+      "step_sha256": "57ba96e3f65c5b4c4c9d7f8b2fd4c44e613dbb18c9f5100e1efe9ca8da7fc3ae",
+      "instances": [
+        "battery_access_latch_-1"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "battery_access_latch_1",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "cf23cb083fae4a9c704f0bbfe3f0694e00475fbd25dff97757c8efb91d8c4c9f",
+      "new_mesh_sha256": "cf23cb083fae4a9c704f0bbfe3f0694e00475fbd25dff97757c8efb91d8c4c9f",
+      "old_volume_mm3": 152.601,
+      "new_volume_mm3": 152.601,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/battery_access_latch_1.step",
+      "step_sha256": "50118aa5d833e1a5413042356f869606a392bff8f968e03aa94c433abe7b3b6d",
+      "instances": [
+        "battery_access_latch_1"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "battery_cassette",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "f08a675d453dbc4f19434812df2f300b4d2ea84b302eef085687999a1ce94073",
+      "new_mesh_sha256": "f08a675d453dbc4f19434812df2f300b4d2ea84b302eef085687999a1ce94073",
+      "old_volume_mm3": 170340.029,
+      "new_volume_mm3": 170340.029,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/battery_cassette.step",
+      "step_sha256": "d63ec864b972627134bdee37c486a36f1a502664dbfe0b58c9cd7f7361277c59",
+      "instances": [
+        "battery_cassette"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "battery_latch_-1",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "057669f7b6f173289b2a2b2e1745e4da36f6d786978094667d629bc62ccfd054",
+      "new_mesh_sha256": "057669f7b6f173289b2a2b2e1745e4da36f6d786978094667d629bc62ccfd054",
+      "old_volume_mm3": 710.838,
+      "new_volume_mm3": 710.838,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/battery_latch_-1.step",
+      "step_sha256": "f874c940219037130955e137db944fd211ce4a7d12f02f549903e34c9a37fdd3",
+      "instances": [
+        "battery_latch_-1"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "battery_latch_1",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "0c8423d4b036e5df69cf8faac25196e29b83d16d7d926c39928b8fd6296f7994",
+      "new_mesh_sha256": "0c8423d4b036e5df69cf8faac25196e29b83d16d7d926c39928b8fd6296f7994",
+      "old_volume_mm3": 710.838,
+      "new_volume_mm3": 710.838,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/battery_latch_1.step",
+      "step_sha256": "1216edfeef93ff0cb3223c3cd12d1369d5426b7c05618cd1a55b4dd15bf6fa1d",
+      "instances": [
+        "battery_latch_1"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "battery_side_panel_-1",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "f1be94eec46deb50cc4e32b618d8905c0bcd23ace473d1fc467ca4dbc4e3a94b",
+      "new_mesh_sha256": "f1be94eec46deb50cc4e32b618d8905c0bcd23ace473d1fc467ca4dbc4e3a94b",
+      "old_volume_mm3": 12158.32,
+      "new_volume_mm3": 12158.32,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/battery_side_panel_-1.step",
+      "step_sha256": "eb0d6d2f90f6bb93a09dec17ae76f222ebac6669b26fa63c8284d86cdd4013ea",
+      "instances": [
+        "battery_side_panel_-1"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "battery_side_panel_1",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "cd580a1d6515173e35c76919bd5968583a45a2ff3c027279ed5c11bf4938bcdb",
+      "new_mesh_sha256": "cd580a1d6515173e35c76919bd5968583a45a2ff3c027279ed5c11bf4938bcdb",
+      "old_volume_mm3": 12158.32,
+      "new_volume_mm3": 12158.32,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/battery_side_panel_1.step",
+      "step_sha256": "22c9ca7e483ad4ccb5bbf7e829e7c244110ba120ef4c38c0eb05dca3439bb0c5",
+      "instances": [
+        "battery_side_panel_1"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "battery_skid",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "105e9da1a00c40b7d768e0f8b7b0b92746a59383e44f4e99e5e51432a91fc1b7",
+      "new_mesh_sha256": "105e9da1a00c40b7d768e0f8b7b0b92746a59383e44f4e99e5e51432a91fc1b7",
+      "old_volume_mm3": 39040.288,
+      "new_volume_mm3": 39040.288,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/battery_skid.step",
+      "step_sha256": "d70f79575a2e77557fd1ad1d860c247293f674e6a09d127c132628e44e233497",
+      "instances": [
+        "battery_skid"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "belly_center_0",
+      "leg": false,
+      "mesh_changed": true,
+      "old_mesh_sha256": "bfc784d2f656af852ebd4b6e89e80629477bf625c2dfb548acf07d2331b620d3",
+      "new_mesh_sha256": "1312bec2488e22d9d2e10ddbea8e8215d2f4d72b3fed62951c049c2d29b6f2bd",
+      "old_volume_mm3": 104303.84172782318,
+      "new_volume_mm3": 35686.77355790237,
+      "volume_delta_mm3": -68617.0681699208,
+      "step": "output/closed-thigh-work/step/belly_center_0.step",
+      "step_sha256": "fa3266d9392b4eaf8a3e44a28abe731ffa4207ccb40394d815a9eba1d48314f0",
+      "instances": [
+        "belly_center_0"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "body_center_0",
+      "leg": false,
+      "mesh_changed": true,
+      "old_mesh_sha256": "3c360e7c70b3e7ef246ff20866f5a41f4c4e00b5fb86a4328d7ee24a0896befe",
+      "new_mesh_sha256": "505eb826fd4c64cd133fdf15031f0d832ce2c40e51f369192823621b80977faf",
+      "old_volume_mm3": 259366.7202187614,
+      "new_volume_mm3": 178082.43394982378,
+      "volume_delta_mm3": -81284.2862689376,
+      "step": "output/closed-thigh-work/step/body_center_0.step",
+      "step_sha256": "3e8b30102eb51cec075714a52feb1daed36da42814ead0c3b8c0d12f20ed4149",
+      "instances": [
+        "body_center_0"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "body_nose_surround",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "fe3acd20344d08e4a5fd7ac09a4b71e7403e68a9e1c6e9666f2f7e6965a8f901",
+      "new_mesh_sha256": "fe3acd20344d08e4a5fd7ac09a4b71e7403e68a9e1c6e9666f2f7e6965a8f901",
+      "old_volume_mm3": 22404.984899548203,
+      "new_volume_mm3": 22404.984899548203,
+      "volume_delta_mm3": 0.0,
+      "step": "output/closed-thigh-work/step/body_nose_surround.step",
+      "step_sha256": "8fc31da7330e69c2b53a36b90fffab6680a4430d2c113a404aac55807a42d269",
+      "instances": [
+        "body_nose_surround"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "chassis_beam_-102",
+      "leg": false,
+      "mesh_changed": true,
+      "old_mesh_sha256": "d8be194334b53f1eef9de3e7a157993d5c5d47c496b1d7e5d7c53187eedd15d3",
+      "new_mesh_sha256": "183d6f45b01fb2ec8cecadd20ac6527e49ab5ec47b9a6d942d945e0f3f0c192a",
+      "old_volume_mm3": 17500.405,
+      "new_volume_mm3": 19442.209773451792,
+      "volume_delta_mm3": 1941.8047734517932,
+      "step": "output/closed-thigh-work/step/chassis_beam_-102.step",
+      "step_sha256": "0104f529d41580a4189c58137df29df97afa1d6c4828eb0a79209959f8141a9e",
+      "instances": [
+        "chassis_beam_-102"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "chassis_beam_102",
+      "leg": false,
+      "mesh_changed": true,
+      "old_mesh_sha256": "c1ad4bf2048e23d7202432d837ed32190b479eabbe08979437dff44f73d695fb",
+      "new_mesh_sha256": "c004cd602ab0ef71a9e9004ccd60a164f19ea6747d5a57551cbcd969f3a07b71",
+      "old_volume_mm3": 17500.405,
+      "new_volume_mm3": 19442.209773811013,
+      "volume_delta_mm3": 1941.8047738110145,
+      "step": "output/closed-thigh-work/step/chassis_beam_102.step",
+      "step_sha256": "6ed331fa207c1129f4781c699d4ef2042e483144a0ac2ee7d21505097b76fe13",
+      "instances": [
+        "chassis_beam_102"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "chassis_crossmember_-121",
+      "leg": false,
+      "mesh_changed": true,
+      "old_mesh_sha256": "8eff99c60aef5075aa35db79c040bc178330f4d97d7acf4a46e1b6704ded69fe",
+      "new_mesh_sha256": "31f6c8db6f1adfb9075b108154df7cafb6f74c0a4f57486ccebde6ab8f81f471",
+      "old_volume_mm3": 4698.511,
+      "new_volume_mm3": 5394.888645034577,
+      "volume_delta_mm3": 696.3776450345767,
+      "step": "output/closed-thigh-work/step/chassis_crossmember_-121.step",
+      "step_sha256": "42d69df6d0c64d4e979d40115daf2f5669ee5c0730b9919a99e07828a689d28c",
+      "instances": [
+        "chassis_crossmember_-121"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "chassis_crossmember_121",
+      "leg": false,
+      "mesh_changed": true,
+      "old_mesh_sha256": "784223feece64f13604ef3743670dd18fa3e1235a7e7abc29880f664fca6d174",
+      "new_mesh_sha256": "2e8695acddd0853139cff941e39ac8230e50bdc52c2cc227493447018b3c5aff",
+      "old_volume_mm3": 4637.689615026392,
+      "new_volume_mm3": 6285.88830389089,
+      "volume_delta_mm3": 1648.1986888644979,
+      "step": "output/closed-thigh-work/step/chassis_crossmember_121.step",
+      "step_sha256": "c1519b3ea3f13a1302d306c8300724c84c7bc7b92fb11132b8eb248a1676fb04",
+      "instances": [
+        "chassis_crossmember_121"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "chassis_lower_brace",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "7d825cefcabb69525c40b51d2962ddea6e52a2442165c03db23eae9479be100e",
+      "new_mesh_sha256": "7d825cefcabb69525c40b51d2962ddea6e52a2442165c03db23eae9479be100e",
+      "old_volume_mm3": 30235.25,
+      "new_volume_mm3": 30235.25,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/chassis_lower_brace.step",
+      "step_sha256": "fe527e39fd83b3d16fd1767db7ef5e48cc067e52504b7e9780d25e99fc3668fd",
+      "instances": [
+        "chassis_lower_brace"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "electronics_shelf",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "4a40d823e5884f7cefc1a819b8d4aa042a89d4a2398143ec681011b1786b1018",
+      "new_mesh_sha256": "4a40d823e5884f7cefc1a819b8d4aa042a89d4a2398143ec681011b1786b1018",
+      "old_volume_mm3": 69626.659,
+      "new_volume_mm3": 69626.659,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/electronics_shelf.step",
+      "step_sha256": "c4d0aca0f42fe6dec318d8d3f7c286b7a032ba05876591a2a994601b8211bcfe",
+      "instances": [
+        "electronics_shelf"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "foot",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "752b9678547b871c9bc153832fa58e2e58ff5d359a48596db49905b67ee4511d",
+      "new_mesh_sha256": "752b9678547b871c9bc153832fa58e2e58ff5d359a48596db49905b67ee4511d",
+      "old_volume_mm3": 36645.485,
+      "new_volume_mm3": 36645.485,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/foot.step",
+      "step_sha256": "ea6994176e2b085d1e0ebab009da2feca7f3f16fd3456b5fd0fd9e5e2397b102",
+      "instances": [
+        "FL_foot",
+        "RL_foot"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "foot_right",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "9b7119445e3d165125d7a32419b2a8c39511ee7c1fa40b4b688490b71102327a",
+      "new_mesh_sha256": "9b7119445e3d165125d7a32419b2a8c39511ee7c1fa40b4b688490b71102327a",
+      "old_volume_mm3": 36645.485,
+      "new_volume_mm3": 36645.485,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/foot_right.step",
+      "step_sha256": "ef3df51046056ffd29610e63fa006d8f99ac59f8c52e917975c1fe2ef115d9ec",
+      "instances": [
+        "FR_foot",
+        "RR_foot"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "front_fascia",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "09ec6df88284919e9390b1ae438bb21dae9dbceea962d9c9b5a1930552d8a7d1",
+      "new_mesh_sha256": "09ec6df88284919e9390b1ae438bb21dae9dbceea962d9c9b5a1930552d8a7d1",
+      "old_volume_mm3": 113393.92653607232,
+      "new_volume_mm3": 113393.92653607232,
+      "volume_delta_mm3": 0.0,
+      "step": "output/closed-thigh-work/step/front_fascia.step",
+      "step_sha256": "b1ed4be5c9e6167cf2df65641f56895fee8ed2dde8b41d1a1bed7fce7943e4b6",
+      "instances": [
+        "front_fascia"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "hip_hub",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "05820d5d9b0034ef7875843ed00aa397e1561cece720d5c556ad9a7fc0a5fb6f",
+      "new_mesh_sha256": "00f19d0a405fb73690e06d7776c4e25a83860dac07202c8c45ed7d04443d0bee",
+      "old_volume_mm3": 23213.197,
+      "new_volume_mm3": 18276.117020087215,
+      "volume_delta_mm3": -4937.079979912785,
+      "step": "output/closed-thigh-work/step/hip_hub.step",
+      "step_sha256": "983f8f512e35e94e67cb1a17e81d3e2910b7816a85bda1c39eadb7de3151450e",
+      "instances": [
+        "FL_hip_hub",
+        "RL_hip_hub"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "hip_hub_right",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "fc509b227a29270d4e7e97559c0fbf6f601d62d0e812eccb23b32567e4782e52",
+      "new_mesh_sha256": "731815f5f2768cafd3eb9690fa2a2aba2b3b680b91c3105b77d2544839dcf736",
+      "old_volume_mm3": 23213.197,
+      "new_volume_mm3": 18276.117020087215,
+      "volume_delta_mm3": -4937.079979912785,
+      "step": "output/closed-thigh-work/step/hip_hub_right.step",
+      "step_sha256": "92196da6917d430a84038d514af037596cc9edc4dd6ec177f72194986c0a7b87",
+      "instances": [
+        "FR_hip_hub",
+        "RR_hip_hub"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "input_crank",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "8df1848ec63a87ccf372df9a833f3f8d7e3c849f41a5ca48038006083b393181",
+      "new_mesh_sha256": "8df1848ec63a87ccf372df9a833f3f8d7e3c849f41a5ca48038006083b393181",
+      "old_volume_mm3": 14760.517492717816,
+      "new_volume_mm3": 14760.517492717816,
+      "volume_delta_mm3": 0.0,
+      "step": "output/integrated-candidate/step/input_crank.step",
+      "step_sha256": "aa29713f87d285758ef60af545e1f366e32e1b4e50815318dedba2a9db9d2272",
+      "instances": [
+        "FL_input_crank",
+        "RL_input_crank"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "input_crank_right",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "ccbd9ff849c72eabf5e250173d1b19f17d14e8468e02e1726708b9634cee2e1e",
+      "new_mesh_sha256": "ccbd9ff849c72eabf5e250173d1b19f17d14e8468e02e1726708b9634cee2e1e",
+      "old_volume_mm3": 14760.519430059798,
+      "new_volume_mm3": 14760.519430059798,
+      "volume_delta_mm3": 0.0,
+      "step": "output/integrated-candidate/step/input_crank_right.step",
+      "step_sha256": "71ad89d9af2de752dd5caae492380280b430feff61d924274c138f25df7e1415",
+      "instances": [
+        "FR_input_crank",
+        "RR_input_crank"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "knee_axle",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "79c95d24da7285cb59249fbaf8116198e4742e9e6ddede50078ad5f0e23712d5",
+      "new_mesh_sha256": "79c95d24da7285cb59249fbaf8116198e4742e9e6ddede50078ad5f0e23712d5",
+      "old_volume_mm3": 2601.352,
+      "new_volume_mm3": 2601.352,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/knee_axle.step",
+      "step_sha256": "57fbb51e52579d384f6bba94b2eaf2c8c293bc3cf0c03be10e0c784e9ca1b26b",
+      "instances": [
+        "FL_knee_axle",
+        "RL_knee_axle"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "knee_axle_right",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "b053ca3a09ce21ef7f1c398fbfacfd4d949d4d4cd9535fd17d7022231207a5c8",
+      "new_mesh_sha256": "b053ca3a09ce21ef7f1c398fbfacfd4d949d4d4cd9535fd17d7022231207a5c8",
+      "old_volume_mm3": 2601.352,
+      "new_volume_mm3": 2601.352,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/knee_axle_right.step",
+      "step_sha256": "a8906fb541de7d9b400c45c756837dac036e784bdb952485b879c852d3055267",
+      "instances": [
+        "FR_knee_axle",
+        "RR_knee_axle"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "knee_inner_spacer",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "858b8ec16341367328b84f12a1116d327bbf6ca58624b9cc9faa5bd56c830f72",
+      "new_mesh_sha256": "858b8ec16341367328b84f12a1116d327bbf6ca58624b9cc9faa5bd56c830f72",
+      "old_volume_mm3": 1148.691937858573,
+      "new_volume_mm3": 1148.691937858573,
+      "volume_delta_mm3": 0.0,
+      "step": "output/closed-thigh-work/step/knee_inner_spacer.step",
+      "step_sha256": "b6f3c122e310eb1b6fa3aea5364045c6bf012d2d42e2d3e1daa79a85d96781c6",
+      "instances": [
+        "FL_knee_inner_spacer",
+        "RL_knee_inner_spacer"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "knee_inner_spacer_right",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "5d14ccb78bb3edb347cf4e16537f3541de231d7f4c12186102ed29aa18c5f41a",
+      "new_mesh_sha256": "5d14ccb78bb3edb347cf4e16537f3541de231d7f4c12186102ed29aa18c5f41a",
+      "old_volume_mm3": 1148.691937858574,
+      "new_volume_mm3": 1148.691937858574,
+      "volume_delta_mm3": 0.0,
+      "step": "output/closed-thigh-work/step/knee_inner_spacer_right.step",
+      "step_sha256": "e79ffea78131008eba9d30008c2661dc566fb91788ce102a281152370127a78b",
+      "instances": [
+        "FR_knee_inner_spacer",
+        "RR_knee_inner_spacer"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "lidar_lid",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "962af59693dd6f019b8ddeda54f5dc6a2964e6d36102e5d9d54aa209b67adc3d",
+      "new_mesh_sha256": "962af59693dd6f019b8ddeda54f5dc6a2964e6d36102e5d9d54aa209b67adc3d",
+      "old_volume_mm3": 4580.442088933917,
+      "new_volume_mm3": 4580.442088933917,
+      "volume_delta_mm3": 0.0,
+      "step": "output/closed-thigh-work/step/lidar_lid.step",
+      "step_sha256": "ef988aea46f1e6b31738d970502aa9ebfe42c0dbc6bad3478a35154519fa005d",
+      "instances": [
+        "lidar_lid"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "motor_carrier_-1",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "53b2f1916a253b0285066b2281b7769e3d37582cf5d3cf2cf4b82b7600880523",
+      "new_mesh_sha256": "53b2f1916a253b0285066b2281b7769e3d37582cf5d3cf2cf4b82b7600880523",
+      "old_volume_mm3": 78614.23583564324,
+      "new_volume_mm3": 78614.23583564324,
+      "volume_delta_mm3": 0.0,
+      "step": "output/closed-thigh-work/step/motor_carrier_-1.step",
+      "step_sha256": "f54ecc8db4e4605a53e47f646dd234ffb605c7a9952feaf47429b2ac24937d53",
+      "instances": [
+        "RL_motor_carrier"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "motor_carrier_-1_right",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "5d9b1485e318f17daa2f86c2545e6cf420cf3bce4d07c9e54680eccddd383ba7",
+      "new_mesh_sha256": "5d9b1485e318f17daa2f86c2545e6cf420cf3bce4d07c9e54680eccddd383ba7",
+      "old_volume_mm3": 78614.23583564324,
+      "new_volume_mm3": 78614.23583564324,
+      "volume_delta_mm3": 0.0,
+      "step": "output/closed-thigh-work/step/motor_carrier_-1_right.step",
+      "step_sha256": "1edf10391c732a2db367d70e0e6d61887c1f0807df778d48df406241506a559d",
+      "instances": [
+        "RR_motor_carrier"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "motor_carrier_1",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "9762c0581c7ea66a9a88e3732d7513a9d727c1eaf04942fa5c2ae90b1be82101",
+      "new_mesh_sha256": "9762c0581c7ea66a9a88e3732d7513a9d727c1eaf04942fa5c2ae90b1be82101",
+      "old_volume_mm3": 78614.92865583597,
+      "new_volume_mm3": 78614.92865583597,
+      "volume_delta_mm3": 0.0,
+      "step": "output/closed-thigh-work/step/motor_carrier_1.step",
+      "step_sha256": "8424c2c1bce38e2b76c1140da282669d2e185c3c6b5f2a449a124c7c35a9c934",
+      "instances": [
+        "FL_motor_carrier"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "motor_carrier_1_right",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "31772df6fae84be758aa538a50c4ed782dfc019a768891318eb2f576a76e34c1",
+      "new_mesh_sha256": "31772df6fae84be758aa538a50c4ed782dfc019a768891318eb2f576a76e34c1",
+      "old_volume_mm3": 78614.92865583597,
+      "new_volume_mm3": 78614.92865583597,
+      "volume_delta_mm3": 0.0,
+      "step": "output/closed-thigh-work/step/motor_carrier_1_right.step",
+      "step_sha256": "099793a160165b314d1f513a7e6834ca1996c4b63851766237140ccbedc08579",
+      "instances": [
+        "FR_motor_carrier"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "motor_mount_ring",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "2aa0b65c2d3286ae7f628006de34331da399659260f09e488d49b3dc4e2da7af",
+      "new_mesh_sha256": "aae132bb655beac5ac807486fe0106657f97ae8afbe7872725aad621180b0a5d",
+      "old_volume_mm3": 12905.536957240713,
+      "new_volume_mm3": 8094.9297526551045,
+      "volume_delta_mm3": -4810.607204585608,
+      "step": "output/closed-thigh-work/step/motor_mount_ring.step",
+      "step_sha256": "72b1f1c3bc6e89d66e37ee4f264c4c6813617ed7d4070d315771abe944ef897e",
+      "instances": [
+        "FL_motor_mount_ring",
+        "RL_motor_mount_ring"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "motor_mount_ring_right",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "21bbe28e885080066f637528e0ae78f4362294093158f8efccc9662e004ff5ae",
+      "new_mesh_sha256": "dd7895bbd6433d09432dde59b736c57a5e46d9a2f9b0cff9095b8fe7369d4768",
+      "old_volume_mm3": 12905.536957240713,
+      "new_volume_mm3": 8094.9297526551045,
+      "volume_delta_mm3": -4810.607204585608,
+      "step": "output/closed-thigh-work/step/motor_mount_ring_right.step",
+      "step_sha256": "767852ca94902621d5010ad99b0ec7193f262802ac8255cfe3ecac5136bd9057",
+      "instances": [
+        "FR_motor_mount_ring",
+        "RR_motor_mount_ring"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "pod_sleeve_210",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "3fa46b14a10e5397def63a09ee7b96911583f736a19695863931a08817d07814",
+      "new_mesh_sha256": "93a803962f387e93dba3e17aeae00c9a766d7aa6819971117133fd88fe7c4967",
+      "old_volume_mm3": 485.565,
+      "new_volume_mm3": 496.1203118548988,
+      "volume_delta_mm3": 10.555311854898775,
+      "step": "output/closed-thigh-work/step/pod_sleeve_210.step",
+      "step_sha256": "38b4c0fd289dc73cef55834b5bda3040f3c287e9e1dc6ca47259a0df659bb800",
+      "instances": [
+        "FL_pod_sleeve_210",
+        "RL_pod_sleeve_210"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "pod_sleeve_210_right",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "763a19e2fe67ae11d86d7fd024036cd9042d8a4dfcae31057c32d3c5549d00ba",
+      "new_mesh_sha256": "af3d62881ea00437eae7055ceb319ebdb5d80d5e952e850df06ffda76e5d3890",
+      "old_volume_mm3": 485.565,
+      "new_volume_mm3": 496.1203118548988,
+      "volume_delta_mm3": 10.555311854898775,
+      "step": "output/closed-thigh-work/step/pod_sleeve_210_right.step",
+      "step_sha256": "7e4317a9490cecde97c03bbaea13f5ad38fbb22cc45ad3775e488fcb93ce41f8",
+      "instances": [
+        "FR_pod_sleeve_210",
+        "RR_pod_sleeve_210"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "pod_sleeve_330",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "711fb508d4f71842a8c5f8fc2f1b7caef491ab952bf6d96995e74d456b0e3599",
+      "new_mesh_sha256": "160369fa1ccbfc7e8d092551cdd6f6a712b1e9cf5bbc886cb76af13f627af9f0",
+      "old_volume_mm3": 485.565,
+      "new_volume_mm3": 496.12031185489894,
+      "volume_delta_mm3": 10.555311854898946,
+      "step": "output/closed-thigh-work/step/pod_sleeve_330.step",
+      "step_sha256": "45d0dd5411fcf02b6ceb37be7fc887ef3423bc2dd201b24689ce32a274856b6a",
+      "instances": [
+        "FL_pod_sleeve_330",
+        "RL_pod_sleeve_330"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "pod_sleeve_330_right",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "087049809e606ebf8f74331c8ad5a0fdf1afa80537a69696bacead52a1fa7d99",
+      "new_mesh_sha256": "93a3ea1fdf952b1d9ebeb4c620eb2a62b32d34ab052f7e9bf8310aac7c2302d1",
+      "old_volume_mm3": 485.565,
+      "new_volume_mm3": 496.12031185489894,
+      "volume_delta_mm3": 10.555311854898946,
+      "step": "output/closed-thigh-work/step/pod_sleeve_330_right.step",
+      "step_sha256": "9e0e5a114bc8edd6107f6f3d74d7b32ebb6582f30bfb0c5bc26151b92a7d42f9",
+      "instances": [
+        "FR_pod_sleeve_330",
+        "RR_pod_sleeve_330"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "pod_sleeve_90",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "67f1d560b1dae3ddd445d11fdb99eb90ddae379cdd8a3d585fffdfa6e49cc5a4",
+      "new_mesh_sha256": "92663e97f6b5e36cbac1efcffe1cd59420ace3163f2c143fbd5fef5e742cd03d",
+      "old_volume_mm3": 485.565,
+      "new_volume_mm3": 496.12031185489894,
+      "volume_delta_mm3": 10.555311854898946,
+      "step": "output/closed-thigh-work/step/pod_sleeve_90.step",
+      "step_sha256": "9348b93d7580372c6c93932f911ed0c3d9143d739f56174836e1fd06aec44523",
+      "instances": [
+        "FL_pod_sleeve_90",
+        "RL_pod_sleeve_90"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "pod_sleeve_90_right",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "b053eae490c3d00cea183272308c893cbe12ebedd1705000b9cc3365344adca6",
+      "new_mesh_sha256": "73ccc87d268a39c551a0eb68e980ca5731a6f26b4533f1dffe59bccd7b58a5fc",
+      "old_volume_mm3": 485.565,
+      "new_volume_mm3": 496.1203118548985,
+      "volume_delta_mm3": 10.555311854898491,
+      "step": "output/closed-thigh-work/step/pod_sleeve_90_right.step",
+      "step_sha256": "2d5aa1bc32623120e2254702398c3b5d3d9b8d143091564b6ce31f4db9ef7fbc",
+      "instances": [
+        "FR_pod_sleeve_90",
+        "RR_pod_sleeve_90"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "power_button",
+      "leg": false,
+      "mesh_changed": false,
+      "old_mesh_sha256": "f6ae18e424b49de7301376468e1b04df21545752624370284dbc76fd17f6c7ac",
+      "new_mesh_sha256": "f6ae18e424b49de7301376468e1b04df21545752624370284dbc76fd17f6c7ac",
+      "old_volume_mm3": 63.617,
+      "new_volume_mm3": 63.617,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/power_button.step",
+      "step_sha256": "4a87104d202a10119692b30cb905ece3a11e6a37838993bbf9eff82d691d2a99",
+      "instances": [
+        "power_button"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "pushrod",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "d8da4e10b8807c328058e96731eb3e340c1fcb13a2cfa60e121738ff316f71d7",
+      "new_mesh_sha256": "d8da4e10b8807c328058e96731eb3e340c1fcb13a2cfa60e121738ff316f71d7",
+      "old_volume_mm3": 7225.102,
+      "new_volume_mm3": 7225.102,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/pushrod.step",
+      "step_sha256": "f533c69ae21628ed9e741ec9e38c89f9567352f825202801254faaa89fd10eda",
+      "instances": [
+        "FL_pushrod",
+        "RL_pushrod"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "pushrod_right",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "d041727f5ee955d89dfb8cd1c804a5812cd52f2dd3e8c73945c1ea9263d931b6",
+      "new_mesh_sha256": "d041727f5ee955d89dfb8cd1c804a5812cd52f2dd3e8c73945c1ea9263d931b6",
+      "old_volume_mm3": 7225.102,
+      "new_volume_mm3": 7225.102,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/pushrod_right.step",
+      "step_sha256": "76677428ca2000404b9047f210e66de7e3fa8ad61570867123b8fccdb9834df5",
+      "instances": [
+        "FR_pushrod",
+        "RR_pushrod"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "roll_cartridge_-1",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "d6acdb9cc2c9f972b0192be9fcb65b84b65653dc126a072d28c189c4797f17ea",
+      "new_mesh_sha256": "d6acdb9cc2c9f972b0192be9fcb65b84b65653dc126a072d28c189c4797f17ea",
+      "old_volume_mm3": 17005.024,
+      "new_volume_mm3": 17005.024,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/roll_cartridge_-1.step",
+      "step_sha256": "5f2e80726996b3adac596cec76aa3c4cd09fdab43434d5f98008886791c8ccc6",
+      "instances": [
+        "RL_roll_cartridge"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "roll_cartridge_-1_right",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "54dbb309f1d749eaa96aaff50032fc81a810546d1bcc55430755a5c2d60036fd",
+      "new_mesh_sha256": "54dbb309f1d749eaa96aaff50032fc81a810546d1bcc55430755a5c2d60036fd",
+      "old_volume_mm3": 17005.024,
+      "new_volume_mm3": 17005.024,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/roll_cartridge_-1_right.step",
+      "step_sha256": "2648d57ceca0e710e5c37b9de701f596ef8de16843fac5ccd74c96975ce1c165",
+      "instances": [
+        "RR_roll_cartridge"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "roll_cartridge_1",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "586fabdce2f4ce9f131248f8e7e1856d4ca5069d835e719e9886df2211bf203d",
+      "new_mesh_sha256": "586fabdce2f4ce9f131248f8e7e1856d4ca5069d835e719e9886df2211bf203d",
+      "old_volume_mm3": 17005.024,
+      "new_volume_mm3": 17005.024,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/roll_cartridge_1.step",
+      "step_sha256": "ea9fb891bc282d7313f29384df410c2f58448991e39056fa9ff9f8890eca9c15",
+      "instances": [
+        "FL_roll_cartridge"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "roll_cartridge_1_right",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "518e119929b170c86b9c4fa797c484974ef353aa6205ce61fce007bd231c4416",
+      "new_mesh_sha256": "518e119929b170c86b9c4fa797c484974ef353aa6205ce61fce007bd231c4416",
+      "old_volume_mm3": 17005.024,
+      "new_volume_mm3": 17005.024,
+      "volume_delta_mm3": 0.0,
+      "step": "output/step-parts/roll_cartridge_1_right.step",
+      "step_sha256": "a7fa8a423cd44bf9ba7fb3e3c9c1c77063ffb2549273c5374ff4b27d98ad49ec",
+      "instances": [
+        "FR_roll_cartridge"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "shin_clamp_sleeve_105",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "4f659e195f9565d83967cdd462d2416a3d7ad0a425ed1f814a51e44825570a1f",
+      "new_mesh_sha256": "4f659e195f9565d83967cdd462d2416a3d7ad0a425ed1f814a51e44825570a1f",
+      "old_volume_mm3": 643.382467491922,
+      "new_volume_mm3": 643.382467491922,
+      "volume_delta_mm3": 0.0,
+      "step": "output/service-design/step/shin_clamp_sleeve_105.step",
+      "step_sha256": "3ccddb9db2d689c944ebf2ea5213fc38a7a34f36f3383f288020ccb49f8bb03e",
+      "instances": [
+        "FL_shin_clamp_sleeve_105",
+        "RL_shin_clamp_sleeve_105"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "shin_clamp_sleeve_105_right",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "81817fa7ba331b63b75d273bb0c3affed96cba783b5feec019fe16715753ee1b",
+      "new_mesh_sha256": "81817fa7ba331b63b75d273bb0c3affed96cba783b5feec019fe16715753ee1b",
+      "old_volume_mm3": 643.3824674919215,
+      "new_volume_mm3": 643.3824674919215,
+      "volume_delta_mm3": 0.0,
+      "step": "output/service-design/step/shin_clamp_sleeve_105_right.step",
+      "step_sha256": "8ae34dfce8b9fc032ce5d14f14665906139731438f533fea59a36a78ef03f715",
+      "instances": [
+        "FR_shin_clamp_sleeve_105",
+        "RR_shin_clamp_sleeve_105"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "shin_clamp_sleeve_37",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "b00af4cf758c994f113ba03736759ea55072bda13fac893d6cb4917e3b2d4355",
+      "new_mesh_sha256": "b00af4cf758c994f113ba03736759ea55072bda13fac893d6cb4917e3b2d4355",
+      "old_volume_mm3": 643.3824674919215,
+      "new_volume_mm3": 643.3824674919215,
+      "volume_delta_mm3": 0.0,
+      "step": "output/service-design/step/shin_clamp_sleeve_37.step",
+      "step_sha256": "488aa92fc7df80bbf02505cba4b54a27464c48cee2a4a44debce6b7d7b3d446d",
+      "instances": [
+        "FL_shin_clamp_sleeve_37",
+        "RL_shin_clamp_sleeve_37"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "shin_clamp_sleeve_37_right",
+      "leg": true,
+      "mesh_changed": false,
+      "old_mesh_sha256": "6c71b536a549003363f0904c4613f45fa746cc3580b17f3c1d13a8966b112e20",
+      "new_mesh_sha256": "6c71b536a549003363f0904c4613f45fa746cc3580b17f3c1d13a8966b112e20",
+      "old_volume_mm3": 643.3824674919215,
+      "new_volume_mm3": 643.3824674919215,
+      "volume_delta_mm3": 0.0,
+      "step": "output/service-design/step/shin_clamp_sleeve_37_right.step",
+      "step_sha256": "31bcaefe8b0e961cd03d3f482e7d4774d8186a336b6f347cedab2dc02607888e",
+      "instances": [
+        "FR_shin_clamp_sleeve_37",
+        "RR_shin_clamp_sleeve_37"
+      ],
+      "scope": "same frozen generated mesh"
+    },
+    {
+      "key": "shin_inner",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "5db59890ba292727f69989f58ef379e33c794b3a8b35aadecb6225c931e742e7",
+      "new_mesh_sha256": "a91e1f6ea695d28bc6a47836c03ac3f4be77216fc7b7feb6cbece7cd7be0a953",
+      "old_volume_mm3": 55434.78522768066,
+      "new_volume_mm3": 47699.65986702496,
+      "volume_delta_mm3": -7735.1253606557,
+      "step": "output/closed-thigh-work/step/shin_inner.step",
+      "step_sha256": "55d3bf9413139180473e08cff9c1a8f9ac57c3650572534f5c78e9a2bfe263aa",
+      "instances": [
+        "FL_shin_inner",
+        "RL_shin_inner"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "shin_inner_right",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "16d86f8e48a11862fa01bf9919c189056ab48eeff393892a493c123d87545f36",
+      "new_mesh_sha256": "25500cc9e9532f67f2a6cdbf539515ce7f17ad34f31f9725c6b15aaedab6b913",
+      "old_volume_mm3": 55434.78522768066,
+      "new_volume_mm3": 47699.65986702496,
+      "volume_delta_mm3": -7735.1253606557,
+      "step": "output/closed-thigh-work/step/shin_inner_right.step",
+      "step_sha256": "e903c983422a52c388fd26ac383edd2194be098fa857af1d34dbc04db68f0cd8",
+      "instances": [
+        "FR_shin_inner",
+        "RR_shin_inner"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "shin_outer",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "32d2e78a070354569c25658d6566fdebde30cc650c981f0d948284afac68b22c",
+      "new_mesh_sha256": "55c8472951b81216018a9d6e8867a7f92c97cf14445eecf01ab7163da9dd1ca1",
+      "old_volume_mm3": 60449.18529737552,
+      "new_volume_mm3": 51556.94123828044,
+      "volume_delta_mm3": -8892.244059095086,
+      "step": "output/closed-thigh-work/step/shin_outer.step",
+      "step_sha256": "d5f4b413b68429585d9c7013fa4c009686eebc6b361761b7c5535534f246e17c",
+      "instances": [
+        "FL_shin_outer",
+        "RL_shin_outer"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "shin_outer_right",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "17dffca3b252c2a38e079cad34147233bc6c58e0a9594c323c2302ea20cafb99",
+      "new_mesh_sha256": "73c0ab6b46db55fc355a6774d4b7ac47cf1dd292befd484906f4acbcee1076f8",
+      "old_volume_mm3": 60449.18529737551,
+      "new_volume_mm3": 51556.94123828044,
+      "volume_delta_mm3": -8892.244059095072,
+      "step": "output/closed-thigh-work/step/shin_outer_right.step",
+      "step_sha256": "e656e6ab38f0ef432a0673ed570c06c8da5d8d3b6c912e8ee31231c3793dbf4a",
+      "instances": [
+        "FR_shin_outer",
+        "RR_shin_outer"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "sleeve_0",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "e7daa92e4fadcd9e7624e6d1d113943118ecc3ddc805bcbb2b9c7c133918d830",
+      "new_mesh_sha256": "53b2c975aa36f12769bbdc4be00a848e261d2ed497f24cce96f4ead7cf93a3d9",
+      "old_volume_mm3": 643.3824674919356,
+      "new_volume_mm3": 643.3824674919346,
+      "volume_delta_mm3": -1.0231815394945443e-12,
+      "step": "output/closed-thigh-work/step/sleeve_0.step",
+      "step_sha256": "04d7368cd8557c50392a2141c087be4f1f517273d9558bc7b9b17287e273c53f",
+      "instances": [
+        "FL_sleeve_0",
+        "RL_sleeve_0"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "sleeve_0_right",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "d4ba9331be67176bb5b13f8b09af20691f027e2956c5d32440d288b60fb38391",
+      "new_mesh_sha256": "1902bf2fc1be0eeeade9d79f11509c31c5b0dd71a3c6385d2ff89f6900728f68",
+      "old_volume_mm3": 643.3824674919356,
+      "new_volume_mm3": 643.3824674919346,
+      "volume_delta_mm3": -1.0231815394945443e-12,
+      "step": "output/closed-thigh-work/step/sleeve_0_right.step",
+      "step_sha256": "9581913f43a1f6688214f31d55eee392614697cdb0f2b2f2afb94dda3c37b805",
+      "instances": [
+        "FR_sleeve_0",
+        "RR_sleeve_0"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "sleeve_1",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "70fc002edd5d067e102aed970ef0cf2059538c237c1f296fc9f50a30c5ee0ed2",
+      "new_mesh_sha256": "2d3af99c09944c378140cb54703e57f38311bffcb58de31e88927fe4c88276e9",
+      "old_volume_mm3": 1472.527,
+      "new_volume_mm3": 643.3824674919339,
+      "volume_delta_mm3": -829.1445325080662,
+      "step": "output/closed-thigh-work/step/sleeve_1.step",
+      "step_sha256": "766531264585224e2c63a83312a2b716c0cd4988bb12dde5267c13c2474452cc",
+      "instances": [
+        "FL_sleeve_1",
+        "RL_sleeve_1"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "sleeve_1_right",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "f522eb31cc7b65f6f456a72b54409e4e76bc10dac7fa2cbd368e403efc33291a",
+      "new_mesh_sha256": "66209c37f3c56bceb3261f9c032487cfb34ace4aba31f4d3d9fa5a73ad8bdcad",
+      "old_volume_mm3": 1472.527,
+      "new_volume_mm3": 643.3824674919339,
+      "volume_delta_mm3": -829.1445325080662,
+      "step": "output/closed-thigh-work/step/sleeve_1_right.step",
+      "step_sha256": "18ef6811e856b8bbd8c12920672cc59741bf4f7a2b453811c2677a27ffce45c7",
+      "instances": [
+        "FR_sleeve_1",
+        "RR_sleeve_1"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "thigh_inner",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "ec534965589a21445e5a254ec371021bae4d33519e7f4ccf444ac56295d77408",
+      "new_mesh_sha256": "fb9414e2c36e6a9a7bcd381103f2e76eee6ad8d0964c23f7d2a4fd983e7d34dc",
+      "old_volume_mm3": 62495.131312266334,
+      "new_volume_mm3": 71129.05749630184,
+      "volume_delta_mm3": 8633.92618403551,
+      "step": "output/closed-thigh-work/step/thigh_inner.step",
+      "step_sha256": "321ca0ee49f1ebe4263d226259c7d332c03ed21117889f59c4d4d867d9d3d2a0",
+      "instances": [
+        "FL_thigh_inner",
+        "RL_thigh_inner"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "thigh_inner_right",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "2981ad5b27cd42e45bfbbe6e9a3519032c195a5803759b9192f5c62d6deecbb3",
+      "new_mesh_sha256": "404715a7ac69e799bece8bb11e91b7d6825510afb91882d028e704e2df552c8f",
+      "old_volume_mm3": 62495.13131226632,
+      "new_volume_mm3": 71129.05749630184,
+      "volume_delta_mm3": 8633.926184035525,
+      "step": "output/closed-thigh-work/step/thigh_inner_right.step",
+      "step_sha256": "870f56fe70a33586d5d49f6e9d213f13e196d6b221728b6cee2d66d9ae245a64",
+      "instances": [
+        "FR_thigh_inner",
+        "RR_thigh_inner"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "thigh_outer",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "9ec916d9d9db8cbf5ced92065d3b62b761999cf0b56badbb1a6132fc4bd4391c",
+      "new_mesh_sha256": "2fa52d342bb851e59145a6cb8ba181b9cd5c6d24dd4233f130ec875545a70533",
+      "old_volume_mm3": 115472.17368711463,
+      "new_volume_mm3": 183508.73458096845,
+      "volume_delta_mm3": 68036.56089385382,
+      "step": "output/closed-thigh-work/step/thigh_outer.step",
+      "step_sha256": "1e11e410db92ffceb72d383bdd9e6114cf7a03fb8433f6303cdfed59b8692881",
+      "instances": [
+        "FL_thigh_outer",
+        "RL_thigh_outer"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    },
+    {
+      "key": "thigh_outer_right",
+      "leg": true,
+      "mesh_changed": true,
+      "old_mesh_sha256": "dd3e152e01e93d5a02d46d6f8ba24f35bdee783439ec4552d159f4ce44251261",
+      "new_mesh_sha256": "7eb6ba4b4749cece4a5d773c8a7f4685e4184f4b0c0ce3c56c82887c06cb6bf8",
+      "old_volume_mm3": 115472.17368711463,
+      "new_volume_mm3": 183508.73458096848,
+      "volume_delta_mm3": 68036.56089385385,
+      "step": "output/closed-thigh-work/step/thigh_outer_right.step",
+      "step_sha256": "ee61395cf5c5544128a1b07c1ec587efad9ec0a9d4b5a4279a13955bee61d3b5",
+      "instances": [
+        "FR_thigh_outer",
+        "RR_thigh_outer"
+      ],
+      "scope": "mesh representation differs; surface comparison required"
+    }
+  ],
+  "changed_leg_hardware": [
+    {
+      "key": "pod_tie_90",
+      "material": "steel",
+      "old_volume_mm3": 483.868,
+      "new_volume_mm3": 483.86810050589156,
+      "new_mesh_sha256": "77421a6160fb454e60e2530866edfdb54c6423ceb55d91f877f645042e312376",
+      "instances": [
+        "FL_pod_tie_90",
+        "RL_pod_tie_90"
+      ]
+    },
+    {
+      "key": "pod_tie_210",
+      "material": "steel",
+      "old_volume_mm3": 483.868,
+      "new_volume_mm3": 483.8681005058917,
+      "new_mesh_sha256": "0a704913b03af51a3e24e1d0ec9c7b76aa402a7801ad0d43c45129ed64ee7b6e",
+      "instances": [
+        "FL_pod_tie_210",
+        "RL_pod_tie_210"
+      ]
+    },
+    {
+      "key": "pod_tie_330",
+      "material": "steel",
+      "old_volume_mm3": 483.868,
+      "new_volume_mm3": 483.8681005058917,
+      "new_mesh_sha256": "65785675db2696db237f32df1ec0961d31f35195f29fa000358dfc7ea8652582",
+      "instances": [
+        "FL_pod_tie_330",
+        "RL_pod_tie_330"
+      ]
+    },
+    {
+      "key": "bolt_0",
+      "material": "steel",
+      "old_volume_mm3": 413.9613807782146,
+      "new_volume_mm3": 413.96138077821377,
+      "new_mesh_sha256": "acbb801cf32b8a3f5ac24aa2febf9d676afb7120588d66b1ba6a8ba1fe73d5e8",
+      "instances": [
+        "FL_bolt_0",
+        "RL_bolt_0"
+      ]
+    },
+    {
+      "key": "bolt_1",
+      "material": "steel",
+      "old_volume_mm3": 693.915,
+      "new_volume_mm3": 413.96138077821377,
+      "new_mesh_sha256": "42de868cb2a055c4d9ffd4d764d943bcd60eac7ac1bdd356f52cfc1d4acd6bf3",
+      "instances": [
+        "FL_bolt_1",
+        "RL_bolt_1"
+      ]
+    },
+    {
+      "key": "input_pin",
+      "material": "steel",
+      "old_volume_mm3": 1087.7533904644017,
+      "new_volume_mm3": 1033.7572667308232,
+      "new_mesh_sha256": "5008ccad1d9fabeffc54238051d00a8e74ebed47bbd1ffd38218c2bdfef18ece",
+      "instances": [
+        "FL_input_pin",
+        "RL_input_pin"
+      ]
+    },
+    {
+      "key": "output_pin",
+      "material": "steel",
+      "old_volume_mm3": 1087.7533904643979,
+      "new_volume_mm3": 1033.7572667308198,
+      "new_mesh_sha256": "1d864783b41fcab18123870cb31137fc5a01869f195ab953536f7a8dfebe6e5c",
+      "instances": [
+        "FL_output_pin",
+        "RL_output_pin"
+      ]
+    },
+    {
+      "key": "pod_tie_90_right",
+      "material": "steel",
+      "old_volume_mm3": 483.868,
+      "new_volume_mm3": 483.86810050589156,
+      "new_mesh_sha256": "b2d351233a2945fe811e08c4f4913543fe79aa14065a09cca3b30adfddc395ee",
+      "instances": [
+        "FR_pod_tie_90",
+        "RR_pod_tie_90"
+      ]
+    },
+    {
+      "key": "pod_tie_210_right",
+      "material": "steel",
+      "old_volume_mm3": 483.868,
+      "new_volume_mm3": 483.8681005058917,
+      "new_mesh_sha256": "3b5801ae02e1fadb06feb9cfa72c291ed2ef828846bee6f9afe2285acc100957",
+      "instances": [
+        "FR_pod_tie_210",
+        "RR_pod_tie_210"
+      ]
+    },
+    {
+      "key": "pod_tie_330_right",
+      "material": "steel",
+      "old_volume_mm3": 483.868,
+      "new_volume_mm3": 483.8681005058917,
+      "new_mesh_sha256": "3d9b92a51e260b7f1a1706c50634e3eb294357dbc6a6cde43d77d6a6fe5e1796",
+      "instances": [
+        "FR_pod_tie_330",
+        "RR_pod_tie_330"
+      ]
+    },
+    {
+      "key": "bolt_0_right",
+      "material": "steel",
+      "old_volume_mm3": 413.9613807782146,
+      "new_volume_mm3": 413.96138077821377,
+      "new_mesh_sha256": "5294432cf3a9933819fdd9770232f137e071a2171a4c44817bf89bbcfd447e83",
+      "instances": [
+        "FR_bolt_0",
+        "RR_bolt_0"
+      ]
+    },
+    {
+      "key": "bolt_1_right",
+      "material": "steel",
+      "old_volume_mm3": 693.915,
+      "new_volume_mm3": 413.96138077821377,
+      "new_mesh_sha256": "fedf6a9107c40d646c3f483d77d8cf3f8a0d2d79113793a132dcc196e5342b13",
+      "instances": [
+        "FR_bolt_1",
+        "RR_bolt_1"
+      ]
+    },
+    {
+      "key": "input_pin_right",
+      "material": "steel",
+      "old_volume_mm3": 1087.7533904643387,
+      "new_volume_mm3": 1033.7572667308232,
+      "new_mesh_sha256": "69fd3a76545f0eec2753056a70d5dd53db0ff412426fd6a6bf6f72aa2d0ac518",
+      "instances": [
+        "FR_input_pin",
+        "RR_input_pin"
+      ]
+    },
+    {
+      "key": "output_pin_right",
+      "material": "steel",
+      "old_volume_mm3": 1087.7533904643346,
+      "new_volume_mm3": 1033.7572667308198,
+      "new_mesh_sha256": "ca0ebd29820eb6350bf956a163e29841bc9248467b3863c214208d689b685649",
+      "instances": [
+        "FR_output_pin",
+        "RR_output_pin"
+      ]
+    },
+    {
+      "key": "thigh_clamp_nut_0",
+      "material": "steel",
+      "old_volume_mm3": 95.58039734745162,
+      "new_volume_mm3": 95.5803973474517,
+      "new_mesh_sha256": "27ac73a5b8b5679fdafa0b8d72e90b6c9382cfc193d6649ce75fb1929884e3bd",
+      "instances": [
+        "FL_thigh_clamp_nut_0",
+        "RL_thigh_clamp_nut_0"
+      ]
+    },
+    {
+      "key": "thigh_clamp_nut_0_right",
+      "material": "steel",
+      "old_volume_mm3": 95.58039734745162,
+      "new_volume_mm3": 95.5803973474517,
+      "new_mesh_sha256": "aedda355857be9560dcc14c1e0c6ed6f9f238c108b473c029e69b23c1541cbb6",
+      "instances": [
+        "FR_thigh_clamp_nut_0",
+        "RR_thigh_clamp_nut_0"
+      ]
+    },
+    {
+      "key": "thigh_clamp_nut_1",
+      "material": "steel",
+      "old_volume_mm3": null,
+      "new_volume_mm3": 95.58039734745164,
+      "new_mesh_sha256": "062268a50aa41a882ca491bcffdd3fdd1c28161de83bedc4e371c68349655087",
+      "instances": [
+        "FL_thigh_clamp_nut_1",
+        "RL_thigh_clamp_nut_1"
+      ]
+    },
+    {
+      "key": "thigh_clamp_nut_1_right",
+      "material": "steel",
+      "old_volume_mm3": null,
+      "new_volume_mm3": 95.58039734745164,
+      "new_mesh_sha256": "a9e1f635ceb3568618b79c444ac2b7abc034658b6bc1802d6c62f4d38026ef6a",
+      "instances": [
+        "FR_thigh_clamp_nut_1",
+        "RR_thigh_clamp_nut_1"
+      ]
+    }
+  ],
+  "added_instances": [
+    "FL_thigh_clamp_nut_1",
+    "FR_thigh_clamp_nut_1",
+    "RL_thigh_clamp_nut_1",
+    "RR_thigh_clamp_nut_1",
+    "body_service_screw_-1_-64_18",
+    "body_service_screw_-1_64_18",
+    "body_service_screw_1_-64_18",
+    "body_service_screw_1_64_18"
+  ],
+  "removed_instances": [
+    "body_service_screw_-1_-112_22",
+    "body_service_screw_-1_112_22",
+    "body_service_screw_1_-112_22",
+    "body_service_screw_1_112_22",
+    "chassis_tie_nut_-121_-1_-3",
+    "chassis_tie_nut_-121_-1_3",
+    "chassis_tie_nut_-121_1_-3",
+    "chassis_tie_nut_-121_1_3",
+    "chassis_tie_nut_121_-1_-3",
+    "chassis_tie_nut_121_-1_3",
+    "chassis_tie_nut_121_1_-3",
+    "chassis_tie_nut_121_1_3",
+    "sensor_root_nut_0",
+    "sensor_root_nut_1"
+  ],
+  "scope": "Mesh/hash inventory finds candidates for geometric comparison. Different triangulation alone is not evidence of a changed CAD solid. Native baseline comparison remains required."
+}

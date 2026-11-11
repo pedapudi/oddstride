@@ -1,0 +1,31 @@
+{
+  "model_sha256": "beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8",
+  "source_model_sha256": "b6de90815c773509d8f9710feea44df1372e411e14cb830df839fd6190588693",
+  "changes": [
+    {
+      "part": "thigh_outer",
+      "mass_change_kg": 0.004018266104169221,
+      "volume_mm3": 183508.73458096845
+    },
+    {
+      "part": "thigh_outer_right",
+      "mass_change_kg": 0.004018266104169277,
+      "volume_mm3": 183508.73458096848
+    },
+    {
+      "part": "chassis_beam_-102",
+      "mass_change_kg": -0.0017183115786583922,
+      "volume_mm3": 19442.209773451792
+    },
+    {
+      "part": "chassis_beam_102",
+      "mass_change_kg": -0.0017183115758655013,
+      "volume_mm3": 19442.209773811013
+    }
+  ],
+  "mass_change_kg": 0.004599909053814605,
+  "previously_clear_poses_lost": [],
+  "added_motion_pairs": [],
+  "mechanism": "Original170mm link,28mm cranks, motor axes, pushrod, boot, bearings and nominal knee limits retained. The omitted spherical relief changes only the thigh wall; ordinary screw access and axle bores remain.",
+  "scope": "Closed structural thigh candidate checked against the modeled boot. Continuous thigh front wall, retained service holes and no cosmetic waist depression. Frame remnant cleanup. Strength, actual boot behavior and machining access remain unqualified."
+}

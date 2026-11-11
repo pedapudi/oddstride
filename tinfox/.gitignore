@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+model/.cache/
+model/review/screenshots/
+viewer/.native-candidate/
+
+# Generated CAD, mesh and archive payloads stay local; Fusion holds the native source.
+*.stl
+*.step
+*.3mf
+*.glb
+*.f3d
+*.brep
+*.npz
+*.zip
+*.gz
+*.log

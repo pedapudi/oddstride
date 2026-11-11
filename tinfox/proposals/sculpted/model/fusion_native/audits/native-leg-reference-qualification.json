@@ -1,0 +1,1794 @@
+{
+  "passed": true,
+  "saved": false,
+  "shape_checks": [
+    {
+      "part": "FL_roll_motor",
+      "relative_volume_error": 5.125838847847101e-15,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 15,
+      "source_faces": 15
+    },
+    {
+      "part": "FL_roll_bearing",
+      "relative_volume_error": 2.1057465477275233e-14,
+      "bounds_error_mm": 3.552713678800501e-13,
+      "native_faces": 4,
+      "source_faces": 4
+    },
+    {
+      "part": "FL_roll_port_-1_socket",
+      "relative_volume_error": 2.9443208500850885e-13,
+      "bounds_error_mm": 1.049826892085548e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "FL_roll_port_-1_plug",
+      "relative_volume_error": 2.2752734965310873e-13,
+      "bounds_error_mm": 2.6769697569761775e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_roll_port_-1_boot",
+      "relative_volume_error": 2.505321053494821e-14,
+      "bounds_error_mm": 1.0480505352461478e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_roll_port_-1_cable",
+      "relative_volume_error": 4.2834354567229296e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_roll_port_1_socket",
+      "relative_volume_error": 1.2065013342124608e-12,
+      "bounds_error_mm": 6.323830348264892e-13,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "FL_roll_port_1_plug",
+      "relative_volume_error": 4.4162685572028443e-13,
+      "bounds_error_mm": 3.431921413721284e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_roll_port_1_boot",
+      "relative_volume_error": 3.3263926592614326e-14,
+      "bounds_error_mm": 6.892264536872972e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_roll_port_1_cable",
+      "relative_volume_error": 4.256580062009933e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_hip_motor",
+      "relative_volume_error": 5.268223260287299e-15,
+      "bounds_error_mm": 0.0,
+      "native_faces": 15,
+      "source_faces": 15
+    },
+    {
+      "part": "FL_hip_port_-1_socket",
+      "relative_volume_error": 8.624965001978268e-13,
+      "bounds_error_mm": 1.1084466677857563e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "FL_hip_port_-1_plug",
+      "relative_volume_error": 6.712056814767562e-13,
+      "bounds_error_mm": 5.8122395785176195e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_hip_port_-1_boot",
+      "relative_volume_error": 4.2106236193182436e-16,
+      "bounds_error_mm": 6.963318810448982e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_hip_port_-1_cable",
+      "relative_volume_error": 4.2565800620099325e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_hip_port_1_socket",
+      "relative_volume_error": 3.7439558690234707e-14,
+      "bounds_error_mm": 5.719869022868806e-13,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "FL_hip_port_1_plug",
+      "relative_volume_error": 0.0,
+      "bounds_error_mm": 2.9309887850104133e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_hip_port_1_boot",
+      "relative_volume_error": 9.263371962501917e-15,
+      "bounds_error_mm": 6.892264536872972e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_hip_port_1_cable",
+      "relative_volume_error": 4.229724667296936e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_hip_output_bolt_0",
+      "relative_volume_error": 4.301898540588114e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_hip_output_bolt_60",
+      "relative_volume_error": 4.301898540588114e-14,
+      "bounds_error_mm": 1.7763568394002505e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_hip_output_bolt_120",
+      "relative_volume_error": 4.301898540588114e-14,
+      "bounds_error_mm": 1.7763568394002505e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_hip_output_bolt_180",
+      "relative_volume_error": 4.301898540588114e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_hip_output_bolt_240",
+      "relative_volume_error": 4.301898540588114e-14,
+      "bounds_error_mm": 5.998757046654646e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_hip_output_bolt_300",
+      "relative_volume_error": 4.283435456722928e-14,
+      "bounds_error_mm": 5.998757046654646e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_knee_motor",
+      "relative_volume_error": 1.8509973617225653e-15,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 15,
+      "source_faces": 15
+    },
+    {
+      "part": "FL_pod_tie_90",
+      "relative_volume_error": 2.831197992000693e-14,
+      "bounds_error_mm": 4.440892098500626e-16,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FL_pod_tie_210",
+      "relative_volume_error": 2.842945701511069e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FL_pod_tie_330",
+      "relative_volume_error": 2.854693411021445e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FL_bolt_0",
+      "relative_volume_error": 2.9385571217645074e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FL_bolt_1",
+      "relative_volume_error": 2.850710848145051e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_axle_bolt",
+      "relative_volume_error": 3.236937886842628e-14,
+      "bounds_error_mm": 8.881784197001252e-16,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FL_axle_nut",
+      "relative_volume_error": 9.558731855302626e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 12,
+      "source_faces": 13
+    },
+    {
+      "part": "FL_knee_port_-1_socket",
+      "relative_volume_error": 2.1955296762788752e-14,
+      "bounds_error_mm": 1.9682033780554775e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "FL_knee_port_-1_plug",
+      "relative_volume_error": 3.729956551689876e-16,
+      "bounds_error_mm": 4.164668609973887e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_knee_port_-1_boot",
+      "relative_volume_error": 8.078081413666151e-13,
+      "bounds_error_mm": 4.0181191707233666e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_knee_port_-1_cable",
+      "relative_volume_error": 4.337146246148922e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_knee_port_1_socket",
+      "relative_volume_error": 1.6616693023627378e-13,
+      "bounds_error_mm": 4.170885858911788e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "FL_knee_port_1_plug",
+      "relative_volume_error": 1.1357717699903647e-13,
+      "bounds_error_mm": 2.807531984672096e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_knee_port_1_boot",
+      "relative_volume_error": 5.263279524151e-14,
+      "bounds_error_mm": 3.517186542012496e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FL_knee_port_1_cable",
+      "relative_volume_error": 4.243152364653435e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_thigh_clamp_nut_0",
+      "relative_volume_error": 5.508578974455082e-13,
+      "bounds_error_mm": 3.538502824085299e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "FL_output_pivot_nut",
+      "relative_volume_error": 7.444775770544071e-14,
+      "bounds_error_mm": 5.049294315995212e-13,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "FL_output_pin",
+      "relative_volume_error": 5.85285503885439e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 14,
+      "source_faces": 14
+    },
+    {
+      "part": "FL_bearing_inner",
+      "relative_volume_error": 2.0581722738714568e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 4,
+      "source_faces": 4
+    },
+    {
+      "part": "FL_bearing_outer",
+      "relative_volume_error": 2.0581722738714568e-14,
+      "bounds_error_mm": 1.7763568394002505e-15,
+      "native_faces": 4,
+      "source_faces": 4
+    },
+    {
+      "part": "FL_shin_clamp_bolt_37",
+      "relative_volume_error": 3.020946573776594e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FL_shin_clamp_nut_37",
+      "relative_volume_error": 1.7975362969274232e-13,
+      "bounds_error_mm": 1.2851941733060812e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "FL_shin_clamp_bolt_105",
+      "relative_volume_error": 3.117067601124033e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FL_shin_clamp_nut_105",
+      "relative_volume_error": 1.827272215817869e-13,
+      "bounds_error_mm": 1.2851941733060812e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "FL_input_bolt_0",
+      "relative_volume_error": 3.986928837672175e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_input_bolt_60",
+      "relative_volume_error": 3.9869288376721756e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_input_bolt_120",
+      "relative_volume_error": 3.9869288376721756e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_input_bolt_180",
+      "relative_volume_error": 3.9726898061090595e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_input_bolt_240",
+      "relative_volume_error": 3.9726898061090595e-14,
+      "bounds_error_mm": 5.999645225074346e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_input_bolt_300",
+      "relative_volume_error": 3.9726898061090595e-14,
+      "bounds_error_mm": 5.999645225074346e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FL_input_pin",
+      "relative_volume_error": 7.211553530016991e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 14,
+      "source_faces": 14
+    },
+    {
+      "part": "FL_input_pivot_nut",
+      "relative_volume_error": 1.854245485250074e-13,
+      "bounds_error_mm": 1.2576606422953773e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "FL_rod_bush_input_0",
+      "relative_volume_error": 1.884836607082955e-14,
+      "bounds_error_mm": 8.881784197001252e-16,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "FL_rod_bush_input_1",
+      "relative_volume_error": 2.0181078823312446e-14,
+      "bounds_error_mm": 8.881784197001252e-16,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "FL_rod_bush_output_0",
+      "relative_volume_error": 2.26561167922093e-14,
+      "bounds_error_mm": 2.842170943040401e-14,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "FL_rod_bush_output_1",
+      "relative_volume_error": 2.2846504328278278e-14,
+      "bounds_error_mm": 2.842170943040401e-14,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "FR_roll_motor",
+      "relative_volume_error": 9.625186280958208e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 15,
+      "source_faces": 15
+    },
+    {
+      "part": "FR_roll_bearing",
+      "relative_volume_error": 7.393510100910362e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 4,
+      "source_faces": 4
+    },
+    {
+      "part": "FR_roll_port_-1_socket",
+      "relative_volume_error": 8.664253427764324e-13,
+      "bounds_error_mm": 1.1084466677857563e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "FR_roll_port_-1_plug",
+      "relative_volume_error": 6.699001966836643e-13,
+      "bounds_error_mm": 5.8122395785176195e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_roll_port_-1_boot",
+      "relative_volume_error": 4.2106236193182427e-16,
+      "bounds_error_mm": 6.963318810448982e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_roll_port_-1_cable",
+      "relative_volume_error": 4.149158483157947e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_roll_port_1_socket",
+      "relative_volume_error": 4.090618449488602e-14,
+      "bounds_error_mm": 5.719869022868806e-13,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "FR_roll_port_1_plug",
+      "relative_volume_error": 7.459913103382236e-16,
+      "bounds_error_mm": 2.9309887850104133e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_roll_port_1_boot",
+      "relative_volume_error": 8.84230960057001e-15,
+      "bounds_error_mm": 6.892264536872972e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_roll_port_1_cable",
+      "relative_volume_error": 4.1760138778709424e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_hip_motor",
+      "relative_volume_error": 1.0664592491771744e-13,
+      "bounds_error_mm": 0.0,
+      "native_faces": 15,
+      "source_faces": 15
+    },
+    {
+      "part": "FR_hip_port_-1_socket",
+      "relative_volume_error": 7.00489520927013e-13,
+      "bounds_error_mm": 1.1084466677857563e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "FR_hip_port_-1_plug",
+      "relative_volume_error": 1.704590144122687e-13,
+      "bounds_error_mm": 5.8122395785176195e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_hip_port_-1_boot",
+      "relative_volume_error": 0.0,
+      "bounds_error_mm": 6.963318810448982e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_hip_port_-1_cable",
+      "relative_volume_error": 4.243152364653435e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_hip_port_1_socket",
+      "relative_volume_error": 3.905731739907203e-14,
+      "bounds_error_mm": 5.719869022868806e-13,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "FR_hip_port_1_plug",
+      "relative_volume_error": 1.8649782758455585e-16,
+      "bounds_error_mm": 2.9309887850104133e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_hip_port_1_boot",
+      "relative_volume_error": 8.842309600570011e-15,
+      "bounds_error_mm": 6.892264536872972e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_hip_port_1_cable",
+      "relative_volume_error": 4.256580062009931e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_hip_output_bolt_0",
+      "relative_volume_error": 4.3203616244533e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_hip_output_bolt_60",
+      "relative_volume_error": 4.3203616244533e-14,
+      "bounds_error_mm": 1.7763568394002505e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_hip_output_bolt_120",
+      "relative_volume_error": 4.3203616244533e-14,
+      "bounds_error_mm": 1.7763568394002505e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_hip_output_bolt_180",
+      "relative_volume_error": 4.3203616244533e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_hip_output_bolt_240",
+      "relative_volume_error": 4.3203616244533e-14,
+      "bounds_error_mm": 5.998757046654646e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_hip_output_bolt_300",
+      "relative_volume_error": 4.3203616244533e-14,
+      "bounds_error_mm": 5.998757046654646e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_knee_motor",
+      "relative_volume_error": 1.6758645344212826e-13,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 15,
+      "source_faces": 15
+    },
+    {
+      "part": "FR_pod_tie_90",
+      "relative_volume_error": 6.367258554623741e-14,
+      "bounds_error_mm": 1.7763568394002505e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FR_pod_tie_210",
+      "relative_volume_error": 6.379006264134115e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FR_pod_tie_330",
+      "relative_volume_error": 6.390753973644491e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FR_bolt_0",
+      "relative_volume_error": 6.000698421546965e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FR_bolt_1",
+      "relative_volume_error": 6.045473005548795e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_axle_bolt",
+      "relative_volume_error": 6.011456075564713e-14,
+      "bounds_error_mm": 8.881784197001252e-16,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FR_axle_nut",
+      "relative_volume_error": 1.0880942226150468e-13,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 12,
+      "source_faces": 13
+    },
+    {
+      "part": "FR_knee_port_-1_socket",
+      "relative_volume_error": 8.331457350510888e-14,
+      "bounds_error_mm": 1.9682033780554775e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "FR_knee_port_-1_plug",
+      "relative_volume_error": 1.8649782758449378e-16,
+      "bounds_error_mm": 4.164668609973887e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_knee_port_-1_boot",
+      "relative_volume_error": 3.3579723364080023e-13,
+      "bounds_error_mm": 4.0181191707233666e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_knee_port_-1_cable",
+      "relative_volume_error": 4.3505739435054195e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_knee_port_1_socket",
+      "relative_volume_error": 6.810764164204438e-13,
+      "bounds_error_mm": 4.170885858911788e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "FR_knee_port_1_plug",
+      "relative_volume_error": 1.1339067917145186e-13,
+      "bounds_error_mm": 2.807531984672096e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_knee_port_1_boot",
+      "relative_volume_error": 3.501133539465245e-13,
+      "bounds_error_mm": 3.517186542012496e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "FR_knee_port_1_cable",
+      "relative_volume_error": 4.2162969699404396e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_thigh_clamp_nut_0",
+      "relative_volume_error": 5.12052523293457e-13,
+      "bounds_error_mm": 3.538502824085299e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "FR_output_pivot_nut",
+      "relative_volume_error": 2.4418864527383332e-14,
+      "bounds_error_mm": 5.049294315995212e-13,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "FR_output_pin",
+      "relative_volume_error": 1.1496679540607642e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 14,
+      "source_faces": 14
+    },
+    {
+      "part": "FR_bearing_inner",
+      "relative_volume_error": 7.361923902694447e-14,
+      "bounds_error_mm": 4.920508445138694e-13,
+      "native_faces": 4,
+      "source_faces": 4
+    },
+    {
+      "part": "FR_bearing_outer",
+      "relative_volume_error": 7.361923902694447e-14,
+      "bounds_error_mm": 4.920508445138694e-13,
+      "native_faces": 4,
+      "source_faces": 4
+    },
+    {
+      "part": "FR_shin_clamp_bolt_37",
+      "relative_volume_error": 6.028161572217659e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FR_shin_clamp_nut_37",
+      "relative_volume_error": 1.415429739185146e-13,
+      "bounds_error_mm": 1.2851941733060812e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "FR_shin_clamp_bolt_105",
+      "relative_volume_error": 6.151745750235789e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "FR_shin_clamp_nut_105",
+      "relative_volume_error": 1.4466524540201129e-13,
+      "bounds_error_mm": 1.2851941733060812e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "FR_input_bolt_0",
+      "relative_volume_error": 3.9726898061090595e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_input_bolt_60",
+      "relative_volume_error": 3.97268980610906e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_input_bolt_120",
+      "relative_volume_error": 3.97268980610906e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_input_bolt_180",
+      "relative_volume_error": 3.986928837672175e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_input_bolt_240",
+      "relative_volume_error": 3.986928837672175e-14,
+      "bounds_error_mm": 5.999645225074346e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_input_bolt_300",
+      "relative_volume_error": 3.986928837672175e-14,
+      "bounds_error_mm": 5.999645225074346e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "FR_input_pin",
+      "relative_volume_error": 2.090305371019564e-15,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 14,
+      "source_faces": 14
+    },
+    {
+      "part": "FR_input_pivot_nut",
+      "relative_volume_error": 1.3539565534694725e-13,
+      "bounds_error_mm": 1.2576606422953773e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "FR_rod_bush_input_0",
+      "relative_volume_error": 7.082416341766621e-14,
+      "bounds_error_mm": 1.305622276959184e-13,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "FR_rod_bush_input_1",
+      "relative_volume_error": 7.17761010980112e-14,
+      "bounds_error_mm": 1.3145040611561853e-13,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "FR_rod_bush_output_0",
+      "relative_volume_error": 7.32992013865633e-14,
+      "bounds_error_mm": 2.842170943040401e-14,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "FR_rod_bush_output_1",
+      "relative_volume_error": 7.501268921118424e-14,
+      "bounds_error_mm": 2.842170943040401e-14,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "RL_roll_motor",
+      "relative_volume_error": 1.0707307815503806e-13,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 15,
+      "source_faces": 15
+    },
+    {
+      "part": "RL_roll_bearing",
+      "relative_volume_error": 7.393510100910362e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 4,
+      "source_faces": 4
+    },
+    {
+      "part": "RL_roll_port_-1_socket",
+      "relative_volume_error": 2.9801426500665013e-13,
+      "bounds_error_mm": 1.049826892085548e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "RL_roll_port_-1_plug",
+      "relative_volume_error": 2.2752734965310873e-13,
+      "bounds_error_mm": 2.6769697569761775e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_roll_port_-1_boot",
+      "relative_volume_error": 2.5474272896880113e-14,
+      "bounds_error_mm": 1.0480505352461478e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_roll_port_-1_cable",
+      "relative_volume_error": 4.2834354567229296e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_roll_port_1_socket",
+      "relative_volume_error": 3.5336472368754954e-13,
+      "bounds_error_mm": 6.323830348264892e-13,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "RL_roll_port_1_plug",
+      "relative_volume_error": 5.800082437880426e-14,
+      "bounds_error_mm": 3.431921413721284e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_roll_port_1_boot",
+      "relative_volume_error": 3.263233304971658e-14,
+      "bounds_error_mm": 6.892264536872972e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_roll_port_1_cable",
+      "relative_volume_error": 4.283435456722928e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_hip_motor",
+      "relative_volume_error": 5.268223260287299e-15,
+      "bounds_error_mm": 0.0,
+      "native_faces": 15,
+      "source_faces": 15
+    },
+    {
+      "part": "RL_hip_port_-1_socket",
+      "relative_volume_error": 8.624965001978268e-13,
+      "bounds_error_mm": 1.1084466677857563e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "RL_hip_port_-1_plug",
+      "relative_volume_error": 6.712056814767562e-13,
+      "bounds_error_mm": 5.8122395785176195e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_hip_port_-1_boot",
+      "relative_volume_error": 4.2106236193182436e-16,
+      "bounds_error_mm": 6.963318810448982e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_hip_port_-1_cable",
+      "relative_volume_error": 4.2565800620099325e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_hip_port_1_socket",
+      "relative_volume_error": 3.7439558690234707e-14,
+      "bounds_error_mm": 5.719869022868806e-13,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "RL_hip_port_1_plug",
+      "relative_volume_error": 0.0,
+      "bounds_error_mm": 2.9309887850104133e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_hip_port_1_boot",
+      "relative_volume_error": 9.263371962501917e-15,
+      "bounds_error_mm": 6.892264536872972e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_hip_port_1_cable",
+      "relative_volume_error": 4.229724667296936e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_hip_output_bolt_0",
+      "relative_volume_error": 4.301898540588114e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_hip_output_bolt_60",
+      "relative_volume_error": 4.301898540588114e-14,
+      "bounds_error_mm": 1.7763568394002505e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_hip_output_bolt_120",
+      "relative_volume_error": 4.301898540588114e-14,
+      "bounds_error_mm": 1.7763568394002505e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_hip_output_bolt_180",
+      "relative_volume_error": 4.301898540588114e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_hip_output_bolt_240",
+      "relative_volume_error": 4.301898540588114e-14,
+      "bounds_error_mm": 5.998757046654646e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_hip_output_bolt_300",
+      "relative_volume_error": 4.283435456722928e-14,
+      "bounds_error_mm": 5.998757046654646e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_knee_motor",
+      "relative_volume_error": 1.8509973617225653e-15,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 15,
+      "source_faces": 15
+    },
+    {
+      "part": "RL_pod_tie_90",
+      "relative_volume_error": 2.831197992000693e-14,
+      "bounds_error_mm": 4.440892098500626e-16,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RL_pod_tie_210",
+      "relative_volume_error": 2.842945701511069e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RL_pod_tie_330",
+      "relative_volume_error": 2.854693411021445e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RL_bolt_0",
+      "relative_volume_error": 2.9385571217645074e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RL_bolt_1",
+      "relative_volume_error": 2.850710848145051e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_axle_bolt",
+      "relative_volume_error": 3.236937886842628e-14,
+      "bounds_error_mm": 8.881784197001252e-16,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RL_axle_nut",
+      "relative_volume_error": 9.558731855302626e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 12,
+      "source_faces": 13
+    },
+    {
+      "part": "RL_knee_port_-1_socket",
+      "relative_volume_error": 2.1955296762788752e-14,
+      "bounds_error_mm": 1.9682033780554775e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "RL_knee_port_-1_plug",
+      "relative_volume_error": 3.729956551689876e-16,
+      "bounds_error_mm": 4.164668609973887e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_knee_port_-1_boot",
+      "relative_volume_error": 8.078081413666151e-13,
+      "bounds_error_mm": 4.0181191707233666e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_knee_port_-1_cable",
+      "relative_volume_error": 4.337146246148922e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_knee_port_1_socket",
+      "relative_volume_error": 1.6616693023627378e-13,
+      "bounds_error_mm": 4.170885858911788e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "RL_knee_port_1_plug",
+      "relative_volume_error": 1.1357717699903647e-13,
+      "bounds_error_mm": 2.807531984672096e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_knee_port_1_boot",
+      "relative_volume_error": 5.263279524151e-14,
+      "bounds_error_mm": 3.517186542012496e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RL_knee_port_1_cable",
+      "relative_volume_error": 4.243152364653435e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_thigh_clamp_nut_0",
+      "relative_volume_error": 5.508578974455082e-13,
+      "bounds_error_mm": 3.538502824085299e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "RL_output_pivot_nut",
+      "relative_volume_error": 7.444775770544071e-14,
+      "bounds_error_mm": 5.049294315995212e-13,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "RL_output_pin",
+      "relative_volume_error": 5.85285503885439e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 14,
+      "source_faces": 14
+    },
+    {
+      "part": "RL_bearing_inner",
+      "relative_volume_error": 2.0581722738714568e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 4,
+      "source_faces": 4
+    },
+    {
+      "part": "RL_bearing_outer",
+      "relative_volume_error": 2.0581722738714568e-14,
+      "bounds_error_mm": 1.7763568394002505e-15,
+      "native_faces": 4,
+      "source_faces": 4
+    },
+    {
+      "part": "RL_shin_clamp_bolt_37",
+      "relative_volume_error": 3.020946573776594e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RL_shin_clamp_nut_37",
+      "relative_volume_error": 1.7975362969274232e-13,
+      "bounds_error_mm": 1.2851941733060812e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "RL_shin_clamp_bolt_105",
+      "relative_volume_error": 3.117067601124033e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RL_shin_clamp_nut_105",
+      "relative_volume_error": 1.827272215817869e-13,
+      "bounds_error_mm": 1.2851941733060812e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "RL_input_bolt_0",
+      "relative_volume_error": 3.986928837672175e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_input_bolt_60",
+      "relative_volume_error": 3.9869288376721756e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_input_bolt_120",
+      "relative_volume_error": 3.9869288376721756e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_input_bolt_180",
+      "relative_volume_error": 3.9726898061090595e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_input_bolt_240",
+      "relative_volume_error": 3.9726898061090595e-14,
+      "bounds_error_mm": 5.999645225074346e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_input_bolt_300",
+      "relative_volume_error": 3.9726898061090595e-14,
+      "bounds_error_mm": 5.999645225074346e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RL_input_pin",
+      "relative_volume_error": 7.211553530016991e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 14,
+      "source_faces": 14
+    },
+    {
+      "part": "RL_input_pivot_nut",
+      "relative_volume_error": 1.854245485250074e-13,
+      "bounds_error_mm": 1.2576606422953773e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "RL_rod_bush_input_0",
+      "relative_volume_error": 1.884836607082955e-14,
+      "bounds_error_mm": 8.881784197001252e-16,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "RL_rod_bush_input_1",
+      "relative_volume_error": 2.0181078823312446e-14,
+      "bounds_error_mm": 8.881784197001252e-16,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "RL_rod_bush_output_0",
+      "relative_volume_error": 2.26561167922093e-14,
+      "bounds_error_mm": 2.842170943040401e-14,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "RL_rod_bush_output_1",
+      "relative_volume_error": 2.2846504328278278e-14,
+      "bounds_error_mm": 2.842170943040401e-14,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "RR_roll_motor",
+      "relative_volume_error": 1.594705419330209e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 15,
+      "source_faces": 15
+    },
+    {
+      "part": "RR_roll_bearing",
+      "relative_volume_error": 2.1057465477275233e-14,
+      "bounds_error_mm": 3.552713678800501e-13,
+      "native_faces": 4,
+      "source_faces": 4
+    },
+    {
+      "part": "RR_roll_port_-1_socket",
+      "relative_volume_error": 6.955206906070079e-13,
+      "bounds_error_mm": 1.1084466677857563e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "RR_roll_port_-1_plug",
+      "relative_volume_error": 1.6934002744676146e-13,
+      "bounds_error_mm": 5.8122395785176195e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_roll_port_-1_boot",
+      "relative_volume_error": 8.421247238636487e-16,
+      "bounds_error_mm": 6.963318810448982e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_roll_port_-1_cable",
+      "relative_volume_error": 4.162586180514445e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_roll_port_1_socket",
+      "relative_volume_error": 4.3332822558141936e-14,
+      "bounds_error_mm": 5.719869022868806e-13,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "RR_roll_port_1_plug",
+      "relative_volume_error": 1.305484793091891e-15,
+      "bounds_error_mm": 2.9309887850104133e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_roll_port_1_boot",
+      "relative_volume_error": 7.789653695740247e-15,
+      "bounds_error_mm": 6.892264536872972e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_roll_port_1_cable",
+      "relative_volume_error": 4.149158483157947e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_hip_motor",
+      "relative_volume_error": 1.0664592491771744e-13,
+      "bounds_error_mm": 0.0,
+      "native_faces": 15,
+      "source_faces": 15
+    },
+    {
+      "part": "RR_hip_port_-1_socket",
+      "relative_volume_error": 7.00489520927013e-13,
+      "bounds_error_mm": 1.1084466677857563e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "RR_hip_port_-1_plug",
+      "relative_volume_error": 1.704590144122687e-13,
+      "bounds_error_mm": 5.8122395785176195e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_hip_port_-1_boot",
+      "relative_volume_error": 0.0,
+      "bounds_error_mm": 6.963318810448982e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_hip_port_-1_cable",
+      "relative_volume_error": 4.243152364653435e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_hip_port_1_socket",
+      "relative_volume_error": 3.905731739907203e-14,
+      "bounds_error_mm": 5.719869022868806e-13,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "RR_hip_port_1_plug",
+      "relative_volume_error": 1.8649782758455585e-16,
+      "bounds_error_mm": 2.9309887850104133e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_hip_port_1_boot",
+      "relative_volume_error": 8.842309600570011e-15,
+      "bounds_error_mm": 6.892264536872972e-13,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_hip_port_1_cable",
+      "relative_volume_error": 4.256580062009931e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_hip_output_bolt_0",
+      "relative_volume_error": 4.3203616244533e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_hip_output_bolt_60",
+      "relative_volume_error": 4.3203616244533e-14,
+      "bounds_error_mm": 1.7763568394002505e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_hip_output_bolt_120",
+      "relative_volume_error": 4.3203616244533e-14,
+      "bounds_error_mm": 1.7763568394002505e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_hip_output_bolt_180",
+      "relative_volume_error": 4.3203616244533e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_hip_output_bolt_240",
+      "relative_volume_error": 4.3203616244533e-14,
+      "bounds_error_mm": 5.998757046654646e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_hip_output_bolt_300",
+      "relative_volume_error": 4.3203616244533e-14,
+      "bounds_error_mm": 5.998757046654646e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_knee_motor",
+      "relative_volume_error": 1.6758645344212826e-13,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 15,
+      "source_faces": 15
+    },
+    {
+      "part": "RR_pod_tie_90",
+      "relative_volume_error": 6.367258554623741e-14,
+      "bounds_error_mm": 1.7763568394002505e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RR_pod_tie_210",
+      "relative_volume_error": 6.379006264134115e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RR_pod_tie_330",
+      "relative_volume_error": 6.390753973644491e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RR_bolt_0",
+      "relative_volume_error": 6.000698421546965e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RR_bolt_1",
+      "relative_volume_error": 6.045473005548795e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_axle_bolt",
+      "relative_volume_error": 6.011456075564713e-14,
+      "bounds_error_mm": 8.881784197001252e-16,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RR_axle_nut",
+      "relative_volume_error": 1.0880942226150468e-13,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 12,
+      "source_faces": 13
+    },
+    {
+      "part": "RR_knee_port_-1_socket",
+      "relative_volume_error": 8.331457350510888e-14,
+      "bounds_error_mm": 1.9682033780554775e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "RR_knee_port_-1_plug",
+      "relative_volume_error": 1.8649782758449378e-16,
+      "bounds_error_mm": 4.164668609973887e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_knee_port_-1_boot",
+      "relative_volume_error": 3.3579723364080023e-13,
+      "bounds_error_mm": 4.0181191707233666e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_knee_port_-1_cable",
+      "relative_volume_error": 4.3505739435054195e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_knee_port_1_socket",
+      "relative_volume_error": 6.810764164204438e-13,
+      "bounds_error_mm": 4.170885858911788e-12,
+      "native_faces": 11,
+      "source_faces": 11
+    },
+    {
+      "part": "RR_knee_port_1_plug",
+      "relative_volume_error": 1.1339067917145186e-13,
+      "bounds_error_mm": 2.807531984672096e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_knee_port_1_boot",
+      "relative_volume_error": 3.501133539465245e-13,
+      "bounds_error_mm": 3.517186542012496e-12,
+      "native_faces": 6,
+      "source_faces": 6
+    },
+    {
+      "part": "RR_knee_port_1_cable",
+      "relative_volume_error": 4.2162969699404396e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_thigh_clamp_nut_0",
+      "relative_volume_error": 5.12052523293457e-13,
+      "bounds_error_mm": 3.538502824085299e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "RR_output_pivot_nut",
+      "relative_volume_error": 2.4418864527383332e-14,
+      "bounds_error_mm": 5.049294315995212e-13,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "RR_output_pin",
+      "relative_volume_error": 1.1496679540607642e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 14,
+      "source_faces": 14
+    },
+    {
+      "part": "RR_bearing_inner",
+      "relative_volume_error": 7.361923902694447e-14,
+      "bounds_error_mm": 4.920508445138694e-13,
+      "native_faces": 4,
+      "source_faces": 4
+    },
+    {
+      "part": "RR_bearing_outer",
+      "relative_volume_error": 7.361923902694447e-14,
+      "bounds_error_mm": 4.920508445138694e-13,
+      "native_faces": 4,
+      "source_faces": 4
+    },
+    {
+      "part": "RR_shin_clamp_bolt_37",
+      "relative_volume_error": 6.028161572217659e-14,
+      "bounds_error_mm": 3.552713678800501e-15,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RR_shin_clamp_nut_37",
+      "relative_volume_error": 1.415429739185146e-13,
+      "bounds_error_mm": 1.2851941733060812e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "RR_shin_clamp_bolt_105",
+      "relative_volume_error": 6.151745750235789e-14,
+      "bounds_error_mm": 1.4210854715202004e-14,
+      "native_faces": 5,
+      "source_faces": 5
+    },
+    {
+      "part": "RR_shin_clamp_nut_105",
+      "relative_volume_error": 1.4466524540201129e-13,
+      "bounds_error_mm": 1.2851941733060812e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "RR_input_bolt_0",
+      "relative_volume_error": 3.9726898061090595e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_input_bolt_60",
+      "relative_volume_error": 3.97268980610906e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_input_bolt_120",
+      "relative_volume_error": 3.97268980610906e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_input_bolt_180",
+      "relative_volume_error": 3.986928837672175e-14,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_input_bolt_240",
+      "relative_volume_error": 3.986928837672175e-14,
+      "bounds_error_mm": 5.999645225074346e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_input_bolt_300",
+      "relative_volume_error": 3.986928837672175e-14,
+      "bounds_error_mm": 5.999645225074346e-12,
+      "native_faces": 3,
+      "source_faces": 3
+    },
+    {
+      "part": "RR_input_pin",
+      "relative_volume_error": 2.090305371019564e-15,
+      "bounds_error_mm": 7.105427357601002e-15,
+      "native_faces": 14,
+      "source_faces": 14
+    },
+    {
+      "part": "RR_input_pivot_nut",
+      "relative_volume_error": 1.3539565534694725e-13,
+      "bounds_error_mm": 1.2576606422953773e-12,
+      "native_faces": 9,
+      "source_faces": 9
+    },
+    {
+      "part": "RR_rod_bush_input_0",
+      "relative_volume_error": 7.082416341766621e-14,
+      "bounds_error_mm": 1.305622276959184e-13,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "RR_rod_bush_input_1",
+      "relative_volume_error": 7.17761010980112e-14,
+      "bounds_error_mm": 1.3145040611561853e-13,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "RR_rod_bush_output_0",
+      "relative_volume_error": 7.32992013865633e-14,
+      "bounds_error_mm": 2.842170943040401e-14,
+      "native_faces": 6,
+      "source_faces": 7
+    },
+    {
+      "part": "RR_rod_bush_output_1",
+      "relative_volume_error": 7.501268921118424e-14,
+      "bounds_error_mm": 2.842170943040401e-14,
+      "native_faces": 6,
+      "source_faces": 7
+    }
+  ],
+  "pose_checks": [
+    {
+      "pose": "stand",
+      "physical_references": 248,
+      "maximum_matrix_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 3.972054645195637e-15
+    },
+    {
+      "pose": "studio",
+      "physical_references": 248,
+      "maximum_matrix_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 5.0242958677880805e-15
+    },
+    {
+      "pose": "raised",
+      "physical_references": 248,
+      "maximum_matrix_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 5.0242958677880805e-15
+    },
+    {
+      "pose": "crouch",
+      "physical_references": 248,
+      "maximum_matrix_error_cm": 7.105427357601002e-15,
+      "maximum_vertex_error_cm": 8.881784197001252e-15
+    },
+    {
+      "pose": "reach",
+      "physical_references": 248,
+      "maximum_matrix_error_cm": 7.105427357601002e-15,
+      "maximum_vertex_error_cm": 1.1234667099445444e-14
+    },
+    {
+      "pose": "fold",
+      "physical_references": 248,
+      "maximum_matrix_error_cm": 2.220446049250313e-15,
+      "maximum_vertex_error_cm": 2.220446049250313e-15
+    },
+    {
+      "pose": "splay",
+      "physical_references": 248,
+      "maximum_matrix_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 7.944109290391274e-15
+    },
+    {
+      "pose": "side_reach",
+      "physical_references": 248,
+      "maximum_matrix_error_cm": 5.329070518200751e-15,
+      "maximum_vertex_error_cm": 1.1521205373357395e-14
+    }
+  ],
+  "elapsed_seconds": 197.04432108299807,
+  "scope": "Reference STEP volume/bounds and 248 actual occurrences across eight native driven poses. Supplier specifications and all-pose collision freedom remain unqualified."
+}

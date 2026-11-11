@@ -1,0 +1,111 @@
+{
+  "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+  "saved_version": 65,
+  "save_verification": "audits/dependency-cleanup-master-saved-verification.json",
+  "assembly_audit": "audits/dependency-cleanup-master-refresh.json",
+  "subsystem_versions": {
+    "chassis": 18,
+    "head": 22,
+    "leg": 40
+  },
+  "mapped_source_items": 620,
+  "physical_custom_instances": 116,
+  "reference_items_including_nonphysical_envelope": 504,
+  "excluded_nonphysical_reference": "electronics_clearance",
+  "source_of_truth": true,
+  "open_gates": [],
+  "exports": {
+    "step": "exports/Tinfox-native-robot-candidate.step",
+    "f3d": "exports/Tinfox-Master-v60-motion-audited.f3d",
+    "preview": "exports/Tinfox-native-robot-clean-view.png",
+    "step_scope": "Earlier protected baseline assembly; not the current body or latest limb revision.",
+    "review_model": "exports/native-review-model.json.gz",
+    "review_model_scope": "Protected earlier low-profile baseline, pending current native refresh.",
+    "historical_export_scope": "Existing legacy export fields remain earlier protected baseline artifacts; use current_native_backups and current_native_candidate for current geometry.",
+    "current_native_backups": "manifests/current-native-backups.json",
+    "current_native_candidate": "manifests/current-whole-native-exports-candidate.json",
+    "current_native_canonical": "manifests/native-low-profile-exports.json"
+  },
+  "updated_utc": "2026-10-31T23:03:20.496290+00:00",
+  "whole_robot_comparison": "audits/whole-native-robot-motion-service.json",
+  "shared_family_edit_reports": [
+    "audits/leg-datum-propagation-edited.json",
+    "audits/leg-datum-propagation-restored.json",
+    "audits/head-datum-propagation-edited.json",
+    "audits/head-datum-propagation-restored.json"
+  ],
+  "physical_qualification_remaining": [
+    "CNC process/tool access qualification where unreviewed, manufacturing fits, structural strength, continuous motion and loaded performance; these are separate from CAD-authority scope."
+  ],
+  "source_reference_sha256": "f1f1c97f613eb1516102e39bb675f14b8ea0904ef8a361ddbbb0b48b0ed1a09c",
+  "scope": "Current low-profile robot with integrated DFMA limbs; optional raised head excluded.",
+  "independent_reference_visibility": "12 separate motors,96 connector bodies and individually named standard references; current native assembly verified.",
+  "local_archive_saved_version": 63,
+  "local_archive_is_current": false,
+  "targeted_native_interface_review": "audits/current-master-assembly-refresh.json",
+  "assembly_target": "Saved integrated DFMA Tinfox v65 / Leg40; published geometry unchanged.",
+  "partial_native_scope": "manifests/dfma-integrated-motor-complex-exports.json",
+  "visible_model_items": 619,
+  "visible_solid_bodies": 626,
+  "saved_reopen_audit": "audits/current-native-master-saved-reopen.json",
+  "local_archive_manifest": "manifests/current-native-backups.json",
+  "native_cleanup": {
+    "deleted_obsolete_assembly_occurrences": 4,
+    "deleted_exclusive_frame_datum_definitions": 32,
+    "deleted_obsolete_pose_joints": 24,
+    "retained_crossed_roller_reference_assemblies": 4,
+    "retained_required_source_proposal": true,
+    "current_integrated_leg_assemblies": 4,
+    "construction_and_variant_definitions_retained": true,
+    "scope": "Dependency-proven obsolete pose assemblies deleted. Required construction sources and historical bearing layouts remain; no blanket unused-definition purge."
+  },
+  "review_export": "exports/whole-native-master-64/native-whole-dfma-canonical.json.gz",
+  "canonical_manifest": "manifests/native-low-profile-cleanup-master65-exports.json",
+  "canonical_manifest_sha256": "ff3ab8f8c1453cde8c50228da3960c668585c25b6c68fda421f89e2d2df61569",
+  "latest_saved_dfma_update": {
+    "saved_master_version": 65,
+    "subsystem_versions": {
+      "leg": 40,
+      "chassis": 18,
+      "head": 22
+    },
+    "saved_complete": true,
+    "modified": false,
+    "candidate_manifest": "manifests/native-low-profile-dfma-master64-candidate.json",
+    "publication_pending": false
+  },
+  "local_archive_note": "Previous versioned native backups are retained; no additional backup set was generated for this focused update.",
+  "cleanup_equivalence": {
+    "previous_manifest": "manifests/native-low-profile-dfma-master64-exports.json",
+    "previous_manifest_sha256": "1d9a1b6f400249d528a38797c2e3b0b357df0a15aa9d0d9cd95762172056461e",
+    "geometry_and_review_exports_unchanged": true,
+    "exported_master_version": 64,
+    "exported_leg_version": 39,
+    "current_saved_master_version": 65,
+    "current_saved_leg_version": 40,
+    "evidence": [
+      {
+        "path": "audits/dependency-cleanup-leg-graph.json",
+        "sha256": "ad549ba221b8597b3d5af715c9222db5910afa00781be6d243f0a12ff79402b5"
+      },
+      {
+        "path": "audits/dependency-cleanup-delete-old-assemblies.json",
+        "sha256": "aa910940cf76de9ed971f120469a663747aaec9b6aeb93087aa9e4954992536e"
+      },
+      {
+        "path": "audits/dependency-cleanup-leg-saved-verification.json",
+        "sha256": "8bf7f41b72462a9440a608d3d9eeaea84b7b8a802940e1fa080a8d50cf604315"
+      },
+      {
+        "path": "audits/dependency-cleanup-master-refresh.json",
+        "sha256": "fb9ae7f4d069bcee1deffed6dc39b1ed54a4061940bcba155d4ddbf89da38ef4"
+      },
+      {
+        "path": "audits/dependency-cleanup-master-saved-verification.json",
+        "sha256": "d23d64c5b723c470a3a91e3903fc3d3763584ee107863e0e7c54e9f2ef4c2b09"
+      }
+    ]
+  },
+  "document_name": "Tinfox",
+  "document_name_verification": "audits/tinfox-name-verification.json"
+}

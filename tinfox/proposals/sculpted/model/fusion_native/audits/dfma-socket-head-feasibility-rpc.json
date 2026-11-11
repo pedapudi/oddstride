@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"message\": \"{\\\"saved_version\\\": 36, \\\"modified\\\": false, \\\"parameters\\\": {\\\"pr_motor_face_x\\\": {\\\"expression\\\": \\\"pr_original_motor_face_x + pr_motor_shift_x\\\", \\\"mm\\\": -73.5}, \\\"pr_bearing_rear_x\\\": {\\\"expression\\\": \\\"pr_motor_face_x + pr_inner_backplate_thickness\\\", \\\"mm\\\": -71.5}, \\\"pr_bearing_end_x\\\": {\\\"expression\\\": \\\"pr_bearing_front_x + pr_bearing_width\\\", \\\"mm\\\": -50.5}, \\\"pc_output_recess\\\": {\\\"expression\\\": \\\"2 mm\\\", \\\"mm\\\": 2.0}, \\\"pc_output_seat_depth\\\": {\\\"expression\\\": \\\"2.3 mm\\\", \\\"mm\\\": 2.3}, \\\"pc_output_head_radius\\\": {\\\"expression\\\": \\\"4.65 mm\\\", \\\"mm\\\": 4.65}, \\\"pr_motor_output_pcd_radius\\\": {\\\"expression\\\": \\\"lc_rs02_output_pcd_radius\\\", \\\"mm\\\": 12.000000000000002}, \\\"pc_closure_front_y\\\": {\\\"expression\\\": \\\"-0.9 mm\\\", \\\"mm\\\": -0.9000000000000001}, \\\"pc_split_y\\\": {\\\"expression\\\": \\\"-4 mm\\\", \\\"mm\\\": -4.0}, \\\"dfma_thigh_motor_front_y\\\": {\\\"expression\\\": \\\"50.4 mm\\\", \\\"mm\\\": 50.4}, \\\"dfma_thigh_stator_face_y\\\": {\\\"expression\\\": \\\"53.5 mm\\\", \\\"mm\\\": 53.50000000000001}}, \\\"parts\\\": [{\\\"part\\\": \\\"DFMA_REAR_LOADED_CUP_FL\\\", \\\"bounds_mm\\\": [-71.5, -48.4, -44.0, 49.0, 29.000000000000004, 44.0], \\\"features\\\": 26}, {\\\"part\\\": \\\"DFMA_SHARED_ROLL_CAP_FL\\\", \\\"bounds_mm\\\": [-50.50000000000001, -40.5, -40.5, -47.5, 40.5, 40.5], \\\"features\\\": 3}, {\\\"part\\\": \\\"DFMA_THIGH_PRIMARY_FL\\\", \\\"bounds_mm\\\": [-45.58933669274409, 0.0, -191.5, 28.616214065524083, 67.0, 51.000000000000014], \\\"features\\\": 20, \\\"min_y_at_hip_stator_head_radial_band_mm\\\": 5.0, \\\"hip_socket_head_top_y_mm\\\": 2.1, \\\"continuous_axial_gap_mm\\\": 2.9}, {\\\"part\\\": \\\"DFMA_THIGH_SECONDARY_FL\\\", \\\"bounds_mm\\\": [-45.58933669274409, 9.000000000000004, -191.5, 44.71220316700585, 97.00000000000001, 51.000000000000014], \\\"features\\\": 11, \\\"min_y_at_hip_stator_head_radial_band_mm\\\": 50.4, \\\"hip_socket_head_top_y_mm\\\": 2.1, \\\"continuous_axial_gap_mm\\\": 48.3}, {\\\"part\\\": \\\"CANDIDATE_mc_input_crank\\\", \\\"bounds_mm\\\": [-18.0, 54.400000000000006, -18.0, 38.50000000000001, 86.0, 18.0], \\\"features\\\": 18}], \\\"scope\\\": \\\"Small read-only native feasibility survey; no geometry edits or full motion matrix.\\\"}\\n\",\n    \"success\": true\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

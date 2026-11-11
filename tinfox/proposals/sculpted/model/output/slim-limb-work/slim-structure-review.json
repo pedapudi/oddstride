@@ -1,0 +1,2415 @@
+{
+  "model_sha256": "8f781a5487185a13f330d2838e8918c01c34ef13d87c52db980e227ed5853969",
+  "upper_thigh_width_mm": {
+    "source": 98.0,
+    "candidate": 89.77018054483531
+  },
+  "shell_mass_one_leg_kg": {
+    "source": 0.2546342739340989,
+    "candidate": 0.30760992495272743
+  },
+  "mount_mass_one_leg_kg": {
+    "source": 0.09752094978454992,
+    "candidate": 0.07120182628640426
+  },
+  "gross_sections": [
+    {
+      "z_mm": -45,
+      "source": {
+        "area_mm2": 1813.368045790845,
+        "width_mm": 78.48937342250015,
+        "depth_mm": 84.77199321393378,
+        "Ixx_mm4": 1078090.3442332875,
+        "Iyy_mm4": 905507.2550857641,
+        "Ixy_mm4": 96106.38147368937,
+        "centroid_xy_mm": [
+          1.5258964136883173,
+          55.504724840979065
+        ],
+        "Sx_mm3": 23296.60333634733,
+        "Sy_mm3": 20981.865149816418,
+        "17Nm_gross_bending_stress_MPa": [
+          0.7297201121794705,
+          0.8102234895999578
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          1.459440224358941,
+          1.6204469791999156
+        ],
+        "load_envelope_peak_normal_stress_MPa": 3.452902648529332,
+        "double_envelope_required_normal_strength_MPa": 6.905805297058664,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            1044.3182728351428
+          ],
+          "section_moment_Nmm": [
+            46937.40458754817,
+            22200.075976253996,
+            17747.557612717133
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 2.8935549075602487,
+        "required_transfer_over_100mm_N": 289.3554907560249
+      },
+      "candidate": {
+        "area_mm2": 1578.5096623587795,
+        "width_mm": 80.80140363108325,
+        "depth_mm": 85.0,
+        "Ixx_mm4": 960018.9085811746,
+        "Iyy_mm4": 1053800.1625948388,
+        "Ixy_mm4": 26952.51851199839,
+        "centroid_xy_mm": [
+          -6.339230156979035,
+          60.55898043327517
+        ],
+        "Sx_mm3": 18619.819486608718,
+        "Sy_mm3": 24991.445657262855,
+        "17Nm_gross_bending_stress_MPa": [
+          0.9130056288798243,
+          0.6802327577660385
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          1.8260112577596486,
+          1.360465515532077
+        ],
+        "load_envelope_peak_normal_stress_MPa": 2.9883580782734844,
+        "double_envelope_required_normal_strength_MPa": 5.976716156546969,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            -137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            -41512.489189606466,
+            27082.382205371367,
+            -15871.38513155313
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 2.5636946752620253,
+        "required_transfer_over_100mm_N": 256.3694675262025
+      },
+      "Ixx_ratio": 0.8904809450491067,
+      "Iyy_ratio": 1.163767774003124,
+      "Sx_ratio": 0.7992503979135062,
+      "Sy_ratio": 1.1910974300338366
+    },
+    {
+      "z_mm": -50,
+      "source": {
+        "area_mm2": 1010.0346672394975,
+        "width_mm": 76.60879006791538,
+        "depth_mm": 47.0,
+        "Ixx_mm4": 297971.5257742981,
+        "Iyy_mm4": 729228.6104908773,
+        "Ixy_mm4": 3212.3056521308763,
+        "centroid_xy_mm": [
+          -1.8409298626541388,
+          69.86501925954121
+        ],
+        "Sx_mm3": 12346.043652514385,
+        "Sy_mm3": 17887.34083219721,
+        "17Nm_gross_bending_stress_MPa": [
+          1.3769593303307164,
+          0.9503928034624355
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          2.7539186606614328,
+          1.900785606924871
+        ],
+        "load_envelope_peak_normal_stress_MPa": 4.476384815263107,
+        "double_envelope_required_normal_strength_MPa": 8.952769630526214,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            30974.833930047847,
+            21662.890465415017,
+            15842.830458968436
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.278354740048925,
+        "required_transfer_over_100mm_N": 327.8354740048925
+      },
+      "candidate": {
+        "area_mm2": 1205.4316168371008,
+        "width_mm": 77.30212357717004,
+        "depth_mm": 46.74261470871164,
+        "Ixx_mm4": 317316.94827361545,
+        "Iyy_mm4": 951881.202763826,
+        "Ixy_mm4": 115434.63762939721,
+        "centroid_xy_mm": [
+          -8.792550724158726,
+          71.42576029838997
+        ],
+        "Sx_mm3": 12991.07763267993,
+        "Sy_mm3": 22943.422366901537,
+        "17Nm_gross_bending_stress_MPa": [
+          1.3085904403523352,
+          0.7409531031658297
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          2.6171808807046704,
+          1.4819062063316595
+        ],
+        "load_envelope_peak_normal_stress_MPa": 4.39932732053216,
+        "double_envelope_required_normal_strength_MPa": 8.79865464106432,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -33575.91286588546,
+            -20554.390175684675,
+            -16259.609155181844
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.066896496537076,
+        "required_transfer_over_100mm_N": 306.68964965370765
+      },
+      "Ixx_ratio": 1.0649237286987305,
+      "Iyy_ratio": 1.3053261886187804,
+      "Sx_ratio": 1.052246209257018,
+      "Sy_ratio": 1.2826625590766059
+    },
+    {
+      "z_mm": -55,
+      "source": {
+        "area_mm2": 1066.8488083823418,
+        "width_mm": 74.59908525889159,
+        "depth_mm": 47.0,
+        "Ixx_mm4": 321050.3830557889,
+        "Iyy_mm4": 778256.9960674455,
+        "Ixy_mm4": 2735.5959435180994,
+        "centroid_xy_mm": [
+          -1.073316425737836,
+          69.7725442100018
+        ],
+        "Sx_mm3": 13251.51042844242,
+        "Sy_mm3": 18300.975311159014,
+        "17Nm_gross_bending_stress_MPa": [
+          1.2828726273732538,
+          0.9289122416133885
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          2.5657452547465076,
+          1.857824483226777
+        ],
+        "load_envelope_peak_normal_stress_MPa": 4.080568997106297,
+        "double_envelope_required_normal_strength_MPa": 8.161137994212593,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            -137.40012738881978,
+            1044.3182728351428
+          ],
+          "section_moment_Nmm": [
+            -30256.497248009793,
+            17837.1461555347,
+            -16666.72634461078
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.376960025907149,
+        "required_transfer_over_100mm_N": 337.6960025907149
+      },
+      "candidate": {
+        "area_mm2": 1207.41702227264,
+        "width_mm": 73.078463549178,
+        "depth_mm": 46.08066120177551,
+        "Ixx_mm4": 312073.2171997937,
+        "Iyy_mm4": 833768.3545871042,
+        "Ixy_mm4": 94135.22444172762,
+        "centroid_xy_mm": [
+          -9.586667510021577,
+          70.96943039357596
+        ],
+        "Sx_mm3": 13019.634262290703,
+        "Sy_mm3": 21526.39324178654,
+        "17Nm_gross_bending_stress_MPa": [
+          1.3057202420222964,
+          0.7897282098795813
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          2.611440484044593,
+          1.5794564197591625
+        ],
+        "load_envelope_peak_normal_stress_MPa": 4.430523794771476,
+        "double_envelope_required_normal_strength_MPa": 8.861047589542952,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            31416.04225177069,
+            28751.27090310426,
+            16725.03093291997
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.3042849429939976,
+        "required_transfer_over_100mm_N": 330.42849429939974
+      },
+      "Ixx_ratio": 0.9720381400247848,
+      "Iyy_ratio": 1.0713277989149588,
+      "Sx_ratio": 0.9825019066766888,
+      "Sy_ratio": 1.1762429529458371
+    },
+    {
+      "z_mm": -60,
+      "source": {
+        "area_mm2": 1181.2299230706676,
+        "width_mm": 72.34114941413664,
+        "depth_mm": 47.0,
+        "Ixx_mm4": 333104.472406972,
+        "Iyy_mm4": 794209.6110453146,
+        "Ixy_mm4": -54.654892367017965,
+        "centroid_xy_mm": [
+          -14.467890207335486,
+          69.71634196170365
+        ],
+        "Sx_mm3": 13717.227935002718,
+        "Sy_mm3": 18766.206695989924,
+        "17Nm_gross_bending_stress_MPa": [
+          1.2393174539748313,
+          0.9058836596760208
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          2.4786349079496626,
+          1.8117673193520416
+        ],
+        "load_envelope_peak_normal_stress_MPa": 4.626450260254246,
+        "double_envelope_required_normal_strength_MPa": 9.252900520508492,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            29448.951663473592,
+            32913.41189128782,
+            17602.28623355076
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.49490377520851,
+        "required_transfer_over_100mm_N": 349.49037752085104
+      },
+      "candidate": {
+        "area_mm2": 1362.1677130096464,
+        "width_mm": 68.2616558806949,
+        "depth_mm": 45.07836377949364,
+        "Ixx_mm4": 317204.27105757507,
+        "Iyy_mm4": 781952.9775883151,
+        "Ixy_mm4": 69760.36968830803,
+        "centroid_xy_mm": [
+          -12.947979559678522,
+          70.35991106596543
+        ],
+        "Sx_mm3": 13579.001656377472,
+        "Sy_mm3": 20477.769959146586,
+        "17Nm_gross_bending_stress_MPa": [
+          1.2519329793303202,
+          0.8301685209822758
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          2.5038659586606404,
+          1.6603370419645516
+        ],
+        "load_envelope_peak_normal_stress_MPa": 4.361980611847391,
+        "double_envelope_required_normal_strength_MPa": 8.723961223694783,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            30106.388379361102,
+            31360.75024544289,
+            17287.356382530856
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.4922029901812675,
+        "required_transfer_over_100mm_N": 349.22029901812675
+      },
+      "Ixx_ratio": 0.952266623037199,
+      "Iyy_ratio": 0.984567508014833,
+      "Sx_ratio": 0.9899231623706908,
+      "Sy_ratio": 1.0912045407409052
+    },
+    {
+      "z_mm": -65,
+      "source": {
+        "area_mm2": 1285.8686923948562,
+        "width_mm": 69.69063996434284,
+        "depth_mm": 47.0,
+        "Ixx_mm4": 337983.4215546667,
+        "Iyy_mm4": 746645.1938717215,
+        "Ixy_mm4": 10636.885806782888,
+        "centroid_xy_mm": [
+          -17.067982726865033,
+          69.34221856790938
+        ],
+        "Sx_mm3": 13706.968020845608,
+        "Sy_mm3": 17967.847741542824,
+        "17Nm_gross_bending_stress_MPa": [
+          1.2402451055657484,
+          0.9461344644353203
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          2.480490211131497,
+          1.8922689288706407
+        ],
+        "load_envelope_peak_normal_stress_MPa": 4.687851067319657,
+        "double_envelope_required_normal_strength_MPa": 9.375702134639313,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            28379.7660308173,
+            34745.268963318056,
+            18021.214429695585
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.6693861641116228,
+        "required_transfer_over_100mm_N": 366.9386164111623
+      },
+      "candidate": {
+        "area_mm2": 1378.5516144586584,
+        "width_mm": 63.04381853347192,
+        "depth_mm": 43.856590811706425,
+        "Ixx_mm4": 264553.55512422114,
+        "Iyy_mm4": 421675.836515071,
+        "Ixy_mm4": 47875.50148561635,
+        "centroid_xy_mm": [
+          -2.496285571572639,
+          68.73460688580423
+        ],
+        "Sx_mm3": 11958.85305813194,
+        "Sy_mm3": 10671.25664033052,
+        "17Nm_gross_bending_stress_MPa": [
+          1.421541005426111,
+          1.593064488370646
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          2.843082010852222,
+          3.186128976741292
+        ],
+        "load_envelope_peak_normal_stress_MPa": 5.331211179501844,
+        "double_envelope_required_normal_strength_MPa": 10.662422359003688,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            1044.3182728351428
+          ],
+          "section_moment_Nmm": [
+            30373.194472907293,
+            14702.589117339943,
+            16119.227650073442
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 4.285754038728559,
+        "required_transfer_over_100mm_N": 428.5754038728559
+      },
+      "Ixx_ratio": 0.7827412182151403,
+      "Iyy_ratio": 0.5647606654085255,
+      "Sx_ratio": 0.8724652337369483,
+      "Sy_ratio": 0.5939084521324102
+    },
+    {
+      "z_mm": -70,
+      "source": {
+        "area_mm2": 951.9941136893011,
+        "width_mm": 66.5184083996829,
+        "depth_mm": 47.0,
+        "Ixx_mm4": 265292.9666937175,
+        "Iyy_mm4": 483482.1774068176,
+        "Ixy_mm4": 18145.053593186105,
+        "centroid_xy_mm": [
+          -11.808078895049736,
+          68.93411828171816
+        ],
+        "Sx_mm3": 10583.827438243501,
+        "Sy_mm3": 14259.504656143978,
+        "17Nm_gross_bending_stress_MPa": [
+          1.6062242226826529,
+          1.19218727508008
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          3.2124484453653057,
+          2.38437455016016
+        ],
+        "load_envelope_peak_normal_stress_MPa": 5.4790642990499,
+        "double_envelope_required_normal_strength_MPa": 10.9581285980998,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            27275.871372501446,
+            28547.76267110886,
+            17365.779299360885
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.603641610530251,
+        "required_transfer_over_100mm_N": 360.3641610530251
+      },
+      "candidate": {
+        "area_mm2": 1106.5312276851857,
+        "width_mm": 57.67769218506252,
+        "depth_mm": 42.55099303708867,
+        "Ixx_mm4": 211297.0175515798,
+        "Iyy_mm4": 406358.0571921749,
+        "Ixy_mm4": 26316.244600231672,
+        "centroid_xy_mm": [
+          -12.271177261008594,
+          66.89040631383685
+        ],
+        "Sx_mm3": 9324.428362429373,
+        "Sy_mm3": 14039.56846839692,
+        "17Nm_gross_bending_stress_MPa": [
+          1.8231680634169025,
+          1.2108634277661037
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          3.646336126833805,
+          2.4217268555322073
+        ],
+        "load_envelope_peak_normal_stress_MPa": 5.836824360543314,
+        "double_envelope_required_normal_strength_MPa": 11.673648721086629,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            -137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            -31609.63071127873,
+            29020.839869552212,
+            -17730.18639750365
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 4.3734185932199985,
+        "required_transfer_over_100mm_N": 437.34185932199983
+      },
+      "Ixx_ratio": 0.7964667144588254,
+      "Iyy_ratio": 0.8404819788222556,
+      "Sx_ratio": 0.8810072175531295,
+      "Sy_ratio": 0.9845761691551961
+    },
+    {
+      "z_mm": -75,
+      "source": {
+        "area_mm2": 1270.0856654469794,
+        "width_mm": 62.736944822525956,
+        "depth_mm": 47.0,
+        "Ixx_mm4": 316340.36572696187,
+        "Iyy_mm4": 581861.9410286343,
+        "Ixy_mm4": 7262.56883440401,
+        "centroid_xy_mm": [
+          -20.638536051772817,
+          69.2591485685588
+        ],
+        "Sx_mm3": 12786.155181585618,
+        "Sy_mm3": 15568.012167804678,
+        "17Nm_gross_bending_stress_MPa": [
+          1.3295630905906008,
+          1.0919827025287618
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          2.6591261811812017,
+          2.1839654050575237
+        ],
+        "load_envelope_peak_normal_stress_MPa": 5.131699063013,
+        "double_envelope_required_normal_strength_MPa": 10.263398126026,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            26920.904767224543,
+            36744.23612812956,
+            18525.50320311734
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.872500362791263,
+        "required_transfer_over_100mm_N": 387.2500362791263
+      },
+      "candidate": {
+        "area_mm2": 1235.7256134579256,
+        "width_mm": 52.386960255431674,
+        "depth_mm": 41.368723822626706,
+        "Ixx_mm4": 231237.0769269205,
+        "Iyy_mm4": 399409.55353823124,
+        "Ixy_mm4": -7380.6451596449415,
+        "centroid_xy_mm": [
+          -11.970173930512297,
+          66.98501225441018
+        ],
+        "Sx_mm3": 10813.701643386245,
+        "Sy_mm3": 14233.85472882125,
+        "17Nm_gross_bending_stress_MPa": [
+          1.5720796227439242,
+          1.194335640195748
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          3.1441592454878484,
+          2.388671280391496
+        ],
+        "load_envelope_peak_normal_stress_MPa": 5.35116251793737,
+        "double_envelope_required_normal_strength_MPa": 10.70232503587474,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            -137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            -30825.98556722249,
+            27889.08834774907,
+            -17704.424521289115
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 4.537645836639034,
+        "required_transfer_over_100mm_N": 453.7645836639034
+      },
+      "Ixx_ratio": 0.730975562968479,
+      "Iyy_ratio": 0.6864335426925193,
+      "Sx_ratio": 0.8457352104532515,
+      "Sy_ratio": 0.9143013620105898
+    },
+    {
+      "z_mm": -80,
+      "source": {
+        "area_mm2": 1149.155590293995,
+        "width_mm": 58.25313326416518,
+        "depth_mm": 47.0,
+        "Ixx_mm4": 288811.26968296006,
+        "Iyy_mm4": 486418.45750251,
+        "Ixy_mm4": -2187.2826497787955,
+        "centroid_xy_mm": [
+          -21.83027602166065,
+          69.5915339056693
+        ],
+        "Sx_mm3": 11832.4219378145,
+        "Sy_mm3": 14273.964810219653,
+        "17Nm_gross_bending_stress_MPa": [
+          1.436730374334502,
+          1.1909795369418734
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          2.873460748669004,
+          2.381959073883747
+        ],
+        "load_envelope_peak_normal_stress_MPa": 5.539188759158431,
+        "double_envelope_required_normal_strength_MPa": 11.078377518316861,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            26573.451698664332,
+            37137.393503550964,
+            18634.4538943634
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.87691730697777,
+        "required_transfer_over_100mm_N": 387.691730697777
+      },
+      "candidate": {
+        "area_mm2": 1058.302446313202,
+        "width_mm": 47.475004095410185,
+        "depth_mm": 40.22134988508684,
+        "Ixx_mm4": 198869.7559669005,
+        "Iyy_mm4": 289825.09927037376,
+        "Ixy_mm4": 663.3941883497025,
+        "centroid_xy_mm": [
+          -14.570351017024429,
+          66.89615578520485
+        ],
+        "Sx_mm3": 9784.396399346328,
+        "Sy_mm3": 11753.906855463018,
+        "17Nm_gross_bending_stress_MPa": [
+          1.7374602689988858,
+          1.4463276091131083
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          3.4749205379977717,
+          2.8926552182262166
+        ],
+        "load_envelope_peak_normal_stress_MPa": 6.195603066279814,
+        "double_envelope_required_normal_strength_MPa": 12.391206132559628,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            -137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            -30229.756076551363,
+            29721.031809009204,
+            -18047.04097882856
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 4.574015150805325,
+        "required_transfer_over_100mm_N": 457.4015150805325
+      },
+      "Ixx_ratio": 0.6885803181614345,
+      "Iyy_ratio": 0.5958349129234641,
+      "Sx_ratio": 0.8269140883217648,
+      "Sy_ratio": 0.8234507378810151
+    },
+    {
+      "z_mm": -85,
+      "source": {
+        "area_mm2": 762.345781144265,
+        "width_mm": 53.42667392502178,
+        "depth_mm": 46.99231262655904,
+        "Ixx_mm4": 223925.57593994058,
+        "Iyy_mm4": 297916.6332786635,
+        "Ixy_mm4": -1296.449603473234,
+        "centroid_xy_mm": [
+          -17.681470828528898,
+          69.39793979690972
+        ],
+        "Sx_mm3": 9104.748370326037,
+        "Sy_mm3": 10607.141259257847,
+        "17Nm_gross_bending_stress_MPa": [
+          1.867157587287746,
+          1.6026938441271823
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          3.734315174575492,
+          3.2053876882543646
+        ],
+        "load_envelope_peak_normal_stress_MPa": 6.5948935526658925,
+        "double_envelope_required_normal_strength_MPa": 13.189787105331785,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            25688.68539174754,
+            32074.92777684731,
+            18096.32199269193
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.6559580006525887,
+        "required_transfer_over_100mm_N": 365.59580006525886
+      },
+      "candidate": {
+        "area_mm2": 969.7354381551949,
+        "width_mm": 42.86314401164948,
+        "depth_mm": 39.418298907722416,
+        "Ixx_mm4": 173335.4730164197,
+        "Iyy_mm4": 214599.72317551923,
+        "Ixy_mm4": 773.9419230709575,
+        "centroid_xy_mm": [
+          -16.340957451108675,
+          66.571706861177
+        ],
+        "Sx_mm3": 8733.76510233611,
+        "Sy_mm3": 9686.010834860546,
+        "17Nm_gross_bending_stress_MPa": [
+          1.9464686536454747,
+          1.7551085054350712
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          3.8929373072909494,
+          3.5102170108701425
+        ],
+        "load_envelope_peak_normal_stress_MPa": 7.195043505153025,
+        "double_envelope_required_normal_strength_MPa": 14.39008701030605,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            -137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            -29874.195581269716,
+            30705.529049316196,
+            -18236.83633302413
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 4.693495554100489,
+        "required_transfer_over_100mm_N": 469.3495554100489
+      },
+      "Ixx_ratio": 0.7740762630120924,
+      "Iyy_ratio": 0.7203348158636991,
+      "Sx_ratio": 0.9592538692009297,
+      "Sy_ratio": 0.9131594081870699
+    },
+    {
+      "z_mm": -90,
+      "source": {
+        "area_mm2": 707.9498390500332,
+        "width_mm": 48.35703169253165,
+        "depth_mm": 46.962952719965116,
+        "Ixx_mm4": 204349.6155374296,
+        "Iyy_mm4": 228108.2068216077,
+        "Ixy_mm4": -685.999520224975,
+        "centroid_xy_mm": [
+          -20.009498595213795,
+          69.41599190228618
+        ],
+        "Sx_mm3": 8324.843839334082,
+        "Sy_mm3": 9024.334343846915,
+        "17Nm_gross_bending_stress_MPa": [
+          2.0420803474626927,
+          1.8837954526353686
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.0841606949253855,
+          3.7675909052707373
+        ],
+        "load_envelope_peak_normal_stress_MPa": 7.566076225510025,
+        "double_envelope_required_normal_strength_MPa": 15.13215245102005,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            25020.12584651365,
+            33628.85765126276,
+            18413.217370857386
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.681299951288054,
+        "required_transfer_over_100mm_N": 368.12999512880543
+      },
+      "candidate": {
+        "area_mm2": 896.6258024127484,
+        "width_mm": 39.18923045058504,
+        "depth_mm": 39.0,
+        "Ixx_mm4": 155774.01363522944,
+        "Iyy_mm4": 165062.44983294848,
+        "Ixy_mm4": 1142.8763071332187,
+        "centroid_xy_mm": [
+          -17.691696408820853,
+          66.36239837858973
+        ],
+        "Sx_mm3": 7932.435774916315,
+        "Sy_mm3": 8189.22397825433,
+        "17Nm_gross_bending_stress_MPa": [
+          2.1430996080367692,
+          2.0758987719888733
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.2861992160735385,
+          4.151797543977747
+        ],
+        "load_envelope_peak_normal_stress_MPa": 8.164835726771255,
+        "double_envelope_required_normal_strength_MPa": 16.32967145354251,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            -137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            -29401.013601076425,
+            31261.111518938756,
+            -18387.92302470478
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 4.782539433461085,
+        "required_transfer_over_100mm_N": 478.2539433461085
+      },
+      "Ixx_ratio": 0.7622916892970477,
+      "Iyy_ratio": 0.7236146920484793,
+      "Sx_ratio": 0.9528630119686237,
+      "Sy_ratio": 0.9074601700498841
+    },
+    {
+      "z_mm": -95,
+      "source": {
+        "area_mm2": 662.7681678682382,
+        "width_mm": 43.92826554978971,
+        "depth_mm": 46.9239969530521,
+        "Ixx_mm4": 187363.81412664248,
+        "Iyy_mm4": 178151.52000617728,
+        "Ixy_mm4": -362.2177958094737,
+        "centroid_xy_mm": [
+          -22.0636532782037,
+          69.37933325883068
+        ],
+        "Sx_mm3": 7633.586528657706,
+        "Sy_mm3": 7907.84116392203,
+        "17Nm_gross_bending_stress_MPa": [
+          2.227000366889047,
+          2.1497649797974137
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.454000733778094,
+          4.299529959594827
+        ],
+        "load_envelope_peak_normal_stress_MPa": 8.614110470130816,
+        "double_envelope_required_normal_strength_MPa": 17.228220940261632,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -24989.373281256703,
+            -32306.015731823805,
+            -18257.475891073307
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.69745488880674,
+        "required_transfer_over_100mm_N": 369.745488880674
+      },
+      "candidate": {
+        "area_mm2": 850.5102768300342,
+        "width_mm": 36.531840540742714,
+        "depth_mm": 39.39518075874729,
+        "Ixx_mm4": 149465.3309261327,
+        "Iyy_mm4": 135594.56036873226,
+        "Ixy_mm4": 1216.6689113156337,
+        "centroid_xy_mm": [
+          -18.453775552520295,
+          66.48312642022547
+        ],
+        "Sx_mm3": 7506.273756845743,
+        "Sy_mm3": 7233.707387756713,
+        "17Nm_gross_bending_stress_MPa": [
+          2.2647721826686578,
+          2.350108884522072
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.5295443653373155,
+          4.700217769044144
+        ],
+        "load_envelope_peak_normal_stress_MPa": 8.755943568822433,
+        "double_envelope_required_normal_strength_MPa": 17.511887137644866,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            -137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            -28590.683477550498,
+            31215.349746992404,
+            -18512.535107856656
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 4.785226983225053,
+        "required_transfer_over_100mm_N": 478.52269832250533
+      },
+      "Ixx_ratio": 0.7977278410072635,
+      "Iyy_ratio": 0.7611193009413033,
+      "Sx_ratio": 0.9833220241450057,
+      "Sy_ratio": 0.9147512244883066
+    },
+    {
+      "z_mm": -100,
+      "source": {
+        "area_mm2": 617.2313147528885,
+        "width_mm": 40.302387804625404,
+        "depth_mm": 46.887997293278474,
+        "Ixx_mm4": 172918.03998446956,
+        "Iyy_mm4": 139809.31355722417,
+        "Ixy_mm4": -360.942045696798,
+        "centroid_xy_mm": [
+          -23.361540232595235,
+          69.37248120556444
+        ],
+        "Sx_mm3": 7053.4121886639605,
+        "Sy_mm3": 6876.134883172484,
+        "17Nm_gross_bending_stress_MPa": [
+          2.410180994004846,
+          2.4723191573223775
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.820361988009692,
+          4.944638314644755
+        ],
+        "load_envelope_peak_normal_stress_MPa": 9.783013060176152,
+        "double_envelope_required_normal_strength_MPa": 19.566026120352305,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -24294.32489002493,
+            -33404.24079228158,
+            -18436.389719680898
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.7245055061799954,
+        "required_transfer_over_100mm_N": 372.45055061799957
+      },
+      "candidate": {
+        "area_mm2": 831.9595235496656,
+        "width_mm": 34.76574488693854,
+        "depth_mm": 40.54097558638372,
+        "Ixx_mm4": 153665.26369446222,
+        "Iyy_mm4": 120479.73913193909,
+        "Ixy_mm4": 1147.149045922914,
+        "centroid_xy_mm": [
+          -18.628133164761138,
+          66.95411993886533
+        ],
+        "Sx_mm3": 7464.241568769417,
+        "Sy_mm3": 6741.306895504789,
+        "17Nm_gross_bending_stress_MPa": [
+          2.277525431535931,
+          2.5217662188522927
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.555050863071862,
+          5.043532437704585
+        ],
+        "load_envelope_peak_normal_stress_MPa": 8.834100707552857,
+        "double_envelope_required_normal_strength_MPa": 17.668201415105713,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            -137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            -27422.540364921402,
+            30569.202234121258,
+            -18614.13629476089
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 4.7046690286815425,
+        "required_transfer_over_100mm_N": 470.46690286815425
+      },
+      "Ixx_ratio": 0.8886595274169398,
+      "Iyy_ratio": 0.861743299259005,
+      "Sx_ratio": 1.0582454802181744,
+      "Sy_ratio": 0.9803918931262314
+    },
+    {
+      "z_mm": -105,
+      "source": {
+        "area_mm2": 576.8812824663116,
+        "width_mm": 37.63353861030083,
+        "depth_mm": 46.86509098728935,
+        "Ixx_mm4": 162786.97584815367,
+        "Iyy_mm4": 113594.98712381769,
+        "Ixy_mm4": -260.2399836898985,
+        "centroid_xy_mm": [
+          -24.280152472526016,
+          69.37214059636158
+        ],
+        "Sx_mm3": 6646.278755721083,
+        "Sy_mm3": 5884.891764671216,
+        "17Nm_gross_bending_stress_MPa": [
+          2.5578222979838885,
+          2.888753214129806
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          5.115644595967777,
+          5.777506428259612
+        ],
+        "load_envelope_peak_normal_stress_MPa": 11.04443802051489,
+        "double_envelope_required_normal_strength_MPa": 22.08887604102978,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -23606.924206690903,
+            -34057.00671940988,
+            -18562.636188353965
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.830318826659125,
+        "required_transfer_over_100mm_N": 383.03188266591246
+      },
+      "candidate": {
+        "area_mm2": 833.2846751083837,
+        "width_mm": 33.68148835723277,
+        "depth_mm": 42.76764547081707,
+        "Ixx_mm4": 169696.06822920084,
+        "Iyy_mm4": 114238.47646810471,
+        "Ixy_mm4": 956.6815138454128,
+        "centroid_xy_mm": [
+          -18.304660298489623,
+          67.87075379716708
+        ],
+        "Sx_mm3": 7749.7788616914795,
+        "Sy_mm3": 6568.762102696622,
+        "17Nm_gross_bending_stress_MPa": [
+          2.1936109795382666,
+          2.5880066493839267
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.387221959076533,
+          5.176013298767853
+        ],
+        "load_envelope_peak_normal_stress_MPa": 8.41763621727938,
+        "double_envelope_required_normal_strength_MPa": 16.83527243455876,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            -137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            -25799.154265277917,
+            29414.497003524833,
+            -18720.80040596205
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 4.5339378099257,
+        "required_transfer_over_100mm_N": 453.39378099257
+      },
+      "Ixx_ratio": 1.042442537832338,
+      "Iyy_ratio": 1.0056647688474636,
+      "Sx_ratio": 1.1660327751105097,
+      "Sy_ratio": 1.1162078021775839
+    },
+    {
+      "z_mm": -110,
+      "source": {
+        "area_mm2": 559.7406816264695,
+        "width_mm": 36.10427256886262,
+        "depth_mm": 46.85952220559554,
+        "Ixx_mm4": 157179.7726243521,
+        "Iyy_mm4": 101047.04074445923,
+        "Ixy_mm4": -346.3975195010353,
+        "centroid_xy_mm": [
+          -23.902696725136245,
+          69.36162550000584
+        ],
+        "Sx_mm3": 6416.051733473442,
+        "Sy_mm3": 5422.50158509864,
+        "17Nm_gross_bending_stress_MPa": [
+          2.649604570877852,
+          3.135084376317569
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          5.299209141755704,
+          6.270168752635138
+        ],
+        "load_envelope_peak_normal_stress_MPa": 11.428350801715684,
+        "double_envelope_required_normal_strength_MPa": 22.856701603431368,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -22907.573561874116,
+            -33187.53744246259,
+            -18511.669914933686
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.864284863840949,
+        "required_transfer_over_100mm_N": 386.4284863840949
+      },
+      "candidate": {
+        "area_mm2": 847.4727187817131,
+        "width_mm": 33.13685610382775,
+        "depth_mm": 45.25427093826352,
+        "Ixx_mm4": 191497.04404652992,
+        "Iyy_mm4": 113175.48356720258,
+        "Ixy_mm4": 307.97155382977223,
+        "centroid_xy_mm": [
+          -17.592202222859413,
+          68.8622418992247
+        ],
+        "Sx_mm3": 8186.422978825037,
+        "Sy_mm3": 6586.686585772337,
+        "17Nm_gross_bending_stress_MPa": [
+          2.076609044508465,
+          2.5809638546824263
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.15321808901693,
+          5.161927709364853
+        ],
+        "load_envelope_peak_normal_stress_MPa": 7.658846502640986,
+        "double_envelope_required_normal_strength_MPa": 15.317693005281972,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            -137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            -24099.300964429138,
+            27862.4247196064,
+            -18786.357804254476
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 4.360286008843885,
+        "required_transfer_over_100mm_N": 436.0286008843885
+      },
+      "Ixx_ratio": 1.2183313466433974,
+      "Iyy_ratio": 1.1200276894146295,
+      "Sx_ratio": 1.2759284555196648,
+      "Sy_ratio": 1.2146951886326685
+    },
+    {
+      "z_mm": -115,
+      "source": {
+        "area_mm2": 552.0261946258045,
+        "width_mm": 35.26371725071756,
+        "depth_mm": 46.86911336111781,
+        "Ixx_mm4": 154848.4518818009,
+        "Iyy_mm4": 95763.33680734388,
+        "Ixy_mm4": -239.12664075291832,
+        "centroid_xy_mm": [
+          -22.577051953375502,
+          69.31640590069742
+        ],
+        "Sx_mm3": 6306.777048169562,
+        "Sy_mm3": 5367.66860844619,
+        "17Nm_gross_bending_stress_MPa": [
+          2.695513075879854,
+          3.1671105725957043
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          5.391026151759708,
+          6.3342211451914086
+        ],
+        "load_envelope_peak_normal_stress_MPa": 11.10198965214203,
+        "double_envelope_required_normal_strength_MPa": 22.20397930428406,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -22167.462388557786,
+            -31204.417703397525,
+            -18333.380189444215
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.7658032372057795,
+        "required_transfer_over_100mm_N": 376.58032372057795
+      },
+      "candidate": {
+        "area_mm2": 844.087959197555,
+        "width_mm": 32.654412994367604,
+        "depth_mm": 46.86029517666364,
+        "Ixx_mm4": 199991.74833291414,
+        "Iyy_mm4": 108738.35113163691,
+        "Ixy_mm4": 1090.6263607810956,
+        "centroid_xy_mm": [
+          -16.578208789332,
+          69.2754773107624
+        ],
+        "Sx_mm3": 8134.766318944326,
+        "Sy_mm3": 6328.434005633287,
+        "17Nm_gross_bending_stress_MPa": [
+          2.089795740095229,
+          2.6862885802186396
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.179591480190458,
+          5.372577160437279
+        ],
+        "load_envelope_peak_normal_stress_MPa": 7.330552801134355,
+        "double_envelope_required_normal_strength_MPa": 14.66110560226871,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            21441.580265220786,
+            26002.31960112966,
+            17964.921887092645
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 4.32862910011033,
+        "required_transfer_over_100mm_N": 432.862910011033
+      },
+      "Ixx_ratio": 1.2915321135116808,
+      "Iyy_ratio": 1.1354904158195331,
+      "Sx_ratio": 1.2898452342318503,
+      "Sy_ratio": 1.1789911910126685
+    },
+    {
+      "z_mm": -120,
+      "source": {
+        "area_mm2": 379.12529171767267,
+        "width_mm": 34.87950629812535,
+        "depth_mm": 46.8893974161856,
+        "Ixx_mm4": 129050.5822156931,
+        "Iyy_mm4": 39688.508449214285,
+        "Ixy_mm4": -5110.831131122784,
+        "centroid_xy_mm": [
+          -27.010320069648188,
+          68.65001411216855
+        ],
+        "Sx_mm3": 5113.0640024454815,
+        "Sy_mm3": 1695.4193888448133,
+        "17Nm_gross_bending_stress_MPa": [
+          3.324816585880643,
+          10.027017569725375
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          6.649633171761286,
+          20.05403513945075
+        ],
+        "load_envelope_peak_normal_stress_MPa": 28.08525034878477,
+        "double_envelope_required_normal_strength_MPa": 56.17050069756954,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            23019.489931817327,
+            -35985.15604981188,
+            19280.56701452127
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.7271130999154076,
+        "required_transfer_over_100mm_N": 372.71130999154076
+      },
+      "candidate": {
+        "area_mm2": 529.2464213609499,
+        "width_mm": 32.485149559114355,
+        "depth_mm": 46.965963550272875,
+        "Ixx_mm4": 163009.89401490986,
+        "Iyy_mm4": 46717.596710344944,
+        "Ixy_mm4": 8138.381152716861,
+        "centroid_xy_mm": [
+          -21.6463272087181,
+          70.27677687330278
+        ],
+        "Sx_mm3": 6881.194202137092,
+        "Sy_mm3": 2178.440121390648,
+        "17Nm_gross_bending_stress_MPa": [
+          2.4705014130716307,
+          7.803749037245849
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.9410028261432615,
+          15.607498074491698
+        ],
+        "load_envelope_peak_normal_stress_MPa": 20.48978936693429,
+        "double_envelope_required_normal_strength_MPa": 40.97957873386858,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -22608.419943447825,
+            -29685.132557835546,
+            -18123.646740398526
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.7596959799446052,
+        "required_transfer_over_100mm_N": 375.9695979944605
+      },
+      "Ixx_ratio": 1.2631472963249226,
+      "Iyy_ratio": 1.1771063850919248,
+      "Sx_ratio": 1.3458063890547718,
+      "Sy_ratio": 1.284897492457571
+    },
+    {
+      "z_mm": -125,
+      "source": {
+        "area_mm2": 339.2029289738173,
+        "width_mm": 34.88426066135864,
+        "depth_mm": 46.91509453308791,
+        "Ixx_mm4": 117184.8659388251,
+        "Iyy_mm4": 36147.75384981506,
+        "Ixy_mm4": -6638.870523085484,
+        "centroid_xy_mm": [
+          -25.58767711004069,
+          67.7572962521385
+        ],
+        "Sx_mm3": 4479.92085114328,
+        "Sy_mm3": 1530.8342411816466,
+        "17Nm_gross_bending_stress_MPa": [
+          3.7947098988727856,
+          11.105056016305037
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          7.589419797745571,
+          22.210112032610073
+        ],
+        "load_envelope_peak_normal_stress_MPa": 30.805674296857703,
+        "double_envelope_required_normal_strength_MPa": 61.611348593715405,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            23380.988730966987,
+            -33888.11168818351,
+            19009.009967844446
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.522919852233533,
+        "required_transfer_over_100mm_N": 352.2919852233533
+      },
+      "candidate": {
+        "area_mm2": 385.4169631844022,
+        "width_mm": 32.56461205910068,
+        "depth_mm": 46.97731088689909,
+        "Ixx_mm4": 137424.33181680524,
+        "Iyy_mm4": 42264.0977590232,
+        "Ixy_mm4": 6660.841267534025,
+        "centroid_xy_mm": [
+          -18.979239226526087,
+          72.17709990836345
+        ],
+        "Sx_mm3": 5458.306648382286,
+        "Sy_mm3": 2110.276579773804,
+        "17Nm_gross_bending_stress_MPa": [
+          3.114519043197839,
+          8.055816077825304
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          6.229038086395678,
+          16.111632155650607
+        ],
+        "load_envelope_peak_normal_stress_MPa": 21.2906030002481,
+        "double_envelope_required_normal_strength_MPa": 42.5812060004962,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -24153.353627376415,
+            -26126.484297764255,
+            -17595.225300278034
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.5070460170172035,
+        "required_transfer_over_100mm_N": 350.7046017017204
+      },
+      "Ixx_ratio": 1.172713990973424,
+      "Iyy_ratio": 1.169203982483117,
+      "Sx_ratio": 1.2183935452764352,
+      "Sy_ratio": 1.3785140957814528
+    },
+    {
+      "z_mm": -130,
+      "source": {
+        "area_mm2": 210.7047311836949,
+        "width_mm": 35.16176276498444,
+        "depth_mm": 46.94208126879336,
+        "Ixx_mm4": 90084.34247759638,
+        "Iyy_mm4": 21476.768936167427,
+        "Ixy_mm4": 570.3687310775108,
+        "centroid_xy_mm": [
+          -18.53779173701964,
+          65.1209242046625
+        ],
+        "Sx_mm3": 3125.632405289867,
+        "Sy_mm3": 1156.527306322962,
+        "17Nm_gross_bending_stress_MPa": [
+          5.438899331613323,
+          14.699177362313591
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          10.877798663226645,
+          29.398354724627183
+        ],
+        "load_envelope_peak_normal_stress_MPa": 32.193829290083755,
+        "double_envelope_required_normal_strength_MPa": 64.38765858016751,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            25790.41388415874,
+            -25181.856554152324,
+            17815.658662108715
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.1989346833961614,
+        "required_transfer_over_100mm_N": 319.89346833961616
+      },
+      "candidate": {
+        "area_mm2": 331.62068061492135,
+        "width_mm": 32.908545991125955,
+        "depth_mm": 48.98819546424686,
+        "Ixx_mm4": 151056.53848503105,
+        "Iyy_mm4": 30335.061716379463,
+        "Ixy_mm4": -4852.75956813597,
+        "centroid_xy_mm": [
+          -13.078828546189238,
+          69.86566716646296
+        ],
+        "Sx_mm3": 6074.9039015838425,
+        "Sy_mm3": 1761.4186865140248,
+        "17Nm_gross_bending_stress_MPa": [
+          2.7983981764004167,
+          9.651311258451692
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          5.596796352800833,
+          19.302622516903384
+        ],
+        "load_envelope_peak_normal_stress_MPa": 16.719540081297797,
+        "double_envelope_required_normal_strength_MPa": 33.439080162595594,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": 65,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": -17,
+          "shaft_force_N": [
+            -164.85243575188542,
+            -137.40012738881978,
+            -1021.5479760198122
+          ],
+          "section_moment_Nmm": [
+            -20326.25136581836,
+            19954.748260145177,
+            -18331.63678552586
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.2484458963285863,
+        "required_transfer_over_100mm_N": 324.84458963285863
+      },
+      "Ixx_ratio": 1.6768345567110978,
+      "Iyy_ratio": 1.4124592859633762,
+      "Sx_ratio": 1.9435759276435016,
+      "Sy_ratio": 1.5230238636684172
+    },
+    {
+      "z_mm": -135,
+      "source": {
+        "area_mm2": 201.25553568137155,
+        "width_mm": 35.754425137496376,
+        "depth_mm": 46.96755429144086,
+        "Ixx_mm4": 89878.50597794667,
+        "Iyy_mm4": 18471.957435806533,
+        "Ixy_mm4": 789.6753024579111,
+        "centroid_xy_mm": [
+          -15.276190439228307,
+          65.22190041539109
+        ],
+        "Sx_mm3": 3126.681562558972,
+        "Sy_mm3": 1025.2827427252819,
+        "17Nm_gross_bending_stress_MPa": [
+          5.437074310211072,
+          16.580792099175166
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          10.874148620422144,
+          33.16158419835033
+        ],
+        "load_envelope_peak_normal_stress_MPa": 30.408661572678092,
+        "double_envelope_required_normal_strength_MPa": 60.817323145356184,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            24984.816426485362,
+            -20924.95086688546,
+            17376.120360565572
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.1591931944936764,
+        "required_transfer_over_100mm_N": 315.91931944936766
+      },
+      "candidate": {
+        "area_mm2": 356.2767050910893,
+        "width_mm": 33.56123382435743,
+        "depth_mm": 48.996763345335836,
+        "Ixx_mm4": 164013.52481277403,
+        "Iyy_mm4": 34871.60032298073,
+        "Ixy_mm4": 9.482637600742393,
+        "centroid_xy_mm": [
+          -12.06829111247829,
+          68.61172232029435
+        ],
+        "Sx_mm3": 6461.030519942048,
+        "Sy_mm3": 2057.962945229485,
+        "17Nm_gross_bending_stress_MPa": [
+          2.6311592164019806,
+          8.260595769912815
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          5.262318432803961,
+          16.52119153982563
+        ],
+        "load_envelope_peak_normal_stress_MPa": 14.14827675068232,
+        "double_envelope_required_normal_strength_MPa": 28.29655350136464,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -18591.807152559963,
+            -17157.264808683685,
+            -16949.53480302988
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.1926288025397116,
+        "required_transfer_over_100mm_N": 319.26288025397116
+      },
+      "Ixx_ratio": 1.824835905183134,
+      "Iyy_ratio": 1.8878129426275472,
+      "Sx_ratio": 2.0664178269097997,
+      "Sy_ratio": 2.007215043685665
+    },
+    {
+      "z_mm": -140,
+      "source": {
+        "area_mm2": 209.2021056931394,
+        "width_mm": 36.86991488467326,
+        "depth_mm": 46.98808931059921,
+        "Ixx_mm4": 94047.3425514197,
+        "Iyy_mm4": 20317.628176063274,
+        "Ixy_mm4": 424.0604181215806,
+        "centroid_xy_mm": [
+          -12.876529465699178,
+          65.45892826409492
+        ],
+        "Sx_mm3": 3296.5337606008375,
+        "Sy_mm3": 1097.4140345949165,
+        "17Nm_gross_bending_stress_MPa": [
+          5.156931866792568,
+          15.490962812659065
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          10.313863733585135,
+          30.98192562531813
+        ],
+        "load_envelope_peak_normal_stress_MPa": 26.09572855602425,
+        "double_envelope_required_normal_strength_MPa": 52.1914571120485,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            24019.425968040305,
+            -17680.39632033059,
+            17066.608355930402
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.1552894271955716,
+        "required_transfer_over_100mm_N": 315.52894271955716
+      },
+      "candidate": {
+        "area_mm2": 369.83596005066624,
+        "width_mm": 34.6319319399409,
+        "depth_mm": 48.99980765298818,
+        "Ixx_mm4": 170699.08853642512,
+        "Iyy_mm4": 38893.55402322994,
+        "Ixy_mm4": 740.4988803635515,
+        "centroid_xy_mm": [
+          -10.262493205447072,
+          68.53502975776446
+        ],
+        "Sx_mm3": 6703.340953483917,
+        "Sy_mm3": 2234.884003745542,
+        "17Nm_gross_bending_stress_MPa": [
+          2.5360488326592754,
+          7.606658766857223
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          5.072097665318551,
+          15.213317533714447
+        ],
+        "load_envelope_peak_normal_stress_MPa": 12.175826988309867,
+        "double_envelope_required_normal_strength_MPa": 24.351653976619733,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -17814.730902518502,
+            -14610.203970072567,
+            -16707.954394370696
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.189369170941354,
+        "required_transfer_over_100mm_N": 318.9369170941354
+      },
+      "Ixx_ratio": 1.8150336192976066,
+      "Iyy_ratio": 1.914276296730907,
+      "Sx_ratio": 2.03345132805864,
+      "Sy_ratio": 2.0365002936840466
+    },
+    {
+      "z_mm": -145,
+      "source": {
+        "area_mm2": 222.69334535564778,
+        "width_mm": 39.000212162174094,
+        "depth_mm": 46.99940785874112,
+        "Ixx_mm4": 100586.61348554617,
+        "Iyy_mm4": 24087.028569272537,
+        "Ixy_mm4": -316.7042302737947,
+        "centroid_xy_mm": [
+          -9.958647495967028,
+          65.62868033399377
+        ],
+        "Sx_mm3": 3545.4365207168553,
+        "Sy_mm3": 1231.7932201432081,
+        "17Nm_gross_bending_stress_MPa": [
+          4.7948961716462355,
+          13.801017672449587
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          9.589792343292471,
+          27.602035344899175
+        ],
+        "load_envelope_peak_normal_stress_MPa": 21.034207838603965,
+        "double_envelope_required_normal_strength_MPa": 42.06841567720793,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            23133.0510858462,
+            -13827.189873081676,
+            16680.158852528493
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.1507390086734586,
+        "required_transfer_over_100mm_N": 315.07390086734586
+      },
+      "candidate": {
+        "area_mm2": 381.4903743913694,
+        "width_mm": 36.29701698648963,
+        "depth_mm": 48.99836522676314,
+        "Ixx_mm4": 176979.04945943994,
+        "Iyy_mm4": 44010.6411047559,
+        "Ixy_mm4": 2135.1283340671316,
+        "centroid_xy_mm": [
+          -7.865303911292359,
+          68.24596505842605
+        ],
+        "Sx_mm3": 6872.3322215627095,
+        "Sy_mm3": 2389.3089364187053,
+        "17Nm_gross_bending_stress_MPa": [
+          2.4736871635309776,
+          7.115028007002314
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.947374327061955,
+          14.230056014004628
+        ],
+        "load_envelope_peak_normal_stress_MPa": 10.060322440677334,
+        "double_envelope_required_normal_strength_MPa": 20.120644881354668,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -16788.223028382203,
+            -11368.552417337258,
+            -16403.21706341195
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.1952092965830112,
+        "required_transfer_over_100mm_N": 319.5209296583011
+      },
+      "Ixx_ratio": 1.7594692109290566,
+      "Iyy_ratio": 1.8271511148909259,
+      "Sx_ratio": 1.9383599682030652,
+      "Sy_ratio": 1.9396996974386047
+    },
+    {
+      "z_mm": -150,
+      "source": {
+        "area_mm2": 253.52958548753685,
+        "width_mm": 44.60163501314398,
+        "depth_mm": 47.0,
+        "Ixx_mm4": 114287.7472959101,
+        "Iyy_mm4": 35475.52531726475,
+        "Ixy_mm4": -3341.041349641234,
+        "centroid_xy_mm": [
+          -5.575017331905924,
+          65.51160092361877
+        ],
+        "Sx_mm3": 4011.729370593598,
+        "Sy_mm3": 1556.2519909022756,
+        "17Nm_gross_bending_stress_MPa": [
+          4.237573981089503,
+          10.92368080451022
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          8.475147962179006,
+          21.84736160902044
+        ],
+        "load_envelope_peak_normal_stress_MPa": 14.705463235930992,
+        "double_envelope_required_normal_strength_MPa": 29.410926471861984,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": 25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            22583.56051927556,
+            -8252.458379657894,
+            16067.868912781478
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.1455977898515615,
+        "required_transfer_over_100mm_N": 314.55977898515613
+      },
+      "candidate": {
+        "area_mm2": 390.68392524683594,
+        "width_mm": 38.61901376168248,
+        "depth_mm": 49.0,
+        "Ixx_mm4": 182687.8851572891,
+        "Iyy_mm4": 48667.03754635058,
+        "Ixy_mm4": 7402.872063206367,
+        "centroid_xy_mm": [
+          -4.649102442721737,
+          67.51558333950084
+        ],
+        "Sx_mm3": 6897.938795448851,
+        "Sy_mm3": 2404.275500665967,
+        "17Nm_gross_bending_stress_MPa": [
+          2.464504325729351,
+          7.070737107827752
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.929008651458702,
+          14.141474215655505
+        ],
+        "load_envelope_peak_normal_stress_MPa": 7.988273770156951,
+        "double_envelope_required_normal_strength_MPa": 15.976547540313902,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -15243.387173040544,
+            -7164.968946940868,
+            -16023.560498232619
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.2459267945361434,
+        "required_transfer_over_100mm_N": 324.5926794536143
+      },
+      "Ixx_ratio": 1.5984905598347265,
+      "Iyy_ratio": 1.3718482562586878,
+      "Sx_ratio": 1.7194427036907012,
+      "Sy_ratio": 1.5449140079634716
+    },
+    {
+      "z_mm": -155,
+      "source": {
+        "area_mm2": 348.30306943211093,
+        "width_mm": 46.627986209571034,
+        "depth_mm": 50.599998474121094,
+        "Ixx_mm4": 175213.37557273524,
+        "Iyy_mm4": 46978.720198622046,
+        "Ixy_mm4": 3775.817841187801,
+        "centroid_xy_mm": [
+          -1.7593152460458739,
+          72.59149154998106
+        ],
+        "Sx_mm3": 6846.548011105079,
+        "Sy_mm3": 1975.1265897336457,
+        "17Nm_gross_bending_stress_MPa": [
+          2.483003109366363,
+          8.6070432590817
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.966006218732726,
+          17.2140865181634
+        ],
+        "load_envelope_peak_normal_stress_MPa": 8.257987413973577,
+        "double_envelope_required_normal_strength_MPa": 16.515974827947154,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -20518.053860835586,
+            -3344.7598833285983,
+            -15193.887240109081
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.0743702842546643,
+        "required_transfer_over_100mm_N": 307.43702842546645
+      },
+      "candidate": {
+        "area_mm2": 492.10476835322385,
+        "width_mm": 40.79219663523806,
+        "depth_mm": 52.599998474121094,
+        "Ixx_mm4": 243515.40684402332,
+        "Iyy_mm4": 62709.21173675859,
+        "Ixy_mm4": 9974.497605311099,
+        "centroid_xy_mm": [
+          -2.094464621206433,
+          71.93607331008214
+        ],
+        "Sx_mm3": 9040.493914637358,
+        "Sy_mm3": 2924.3535925833826,
+        "17Nm_gross_bending_stress_MPa": [
+          1.8804282332932605,
+          5.813250505381652
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          3.760856466586521,
+          11.626501010763304
+        ],
+        "load_envelope_peak_normal_stress_MPa": 6.063875612370056,
+        "double_envelope_required_normal_strength_MPa": 12.127751224740113,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -19748.263442487227,
+            -3738.393691496381,
+            -15295.797648040789
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.092555925734722,
+        "required_transfer_over_100mm_N": 309.2555925734722
+      },
+      "Ixx_ratio": 1.3898220158593673,
+      "Iyy_ratio": 1.334842913379278,
+      "Sx_ratio": 1.3204455588383672,
+      "Sy_ratio": 1.4805904633068325
+    },
+    {
+      "z_mm": -160,
+      "source": {
+        "area_mm2": 513.2814825864274,
+        "width_mm": 46.48988632183422,
+        "depth_mm": 50.599998474121094,
+        "Ixx_mm4": 229389.78170457517,
+        "Iyy_mm4": 56973.996526598785,
+        "Ixy_mm4": 2492.43492863271,
+        "centroid_xy_mm": [
+          -0.44991207104079484,
+          75.88170493652224
+        ],
+        "Sx_mm3": 7942.390596702665,
+        "Sy_mm3": 2406.016439707023,
+        "17Nm_gross_bending_stress_MPa": [
+          2.14041349301779,
+          7.0656208824865985
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          4.28082698603558,
+          14.131241764973197
+        ],
+        "load_envelope_peak_normal_stress_MPa": 5.936834132035962,
+        "double_envelope_required_normal_strength_MPa": 11.873668264071924,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -23695.417358266983,
+            -1380.7159416705676,
+            -14733.55247672579
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.1387862163376705,
+        "required_transfer_over_100mm_N": 313.87862163376707
+      },
+      "candidate": {
+        "area_mm2": 659.2488483573909,
+        "width_mm": 42.20842155609303,
+        "depth_mm": 52.599998474121094,
+        "Ixx_mm4": 304653.11874654016,
+        "Iyy_mm4": 82256.49162143678,
+        "Ixy_mm4": 5220.277730464378,
+        "centroid_xy_mm": [
+          -0.7365670669405567,
+          74.16979352490208
+        ],
+        "Sx_mm3": 10444.130106250483,
+        "Sy_mm3": 3787.8736635923888,
+        "17Nm_gross_bending_stress_MPa": [
+          1.6277085623268936,
+          4.4880060714267165
+        ],
+        "34Nm_gross_bending_stress_MPa": [
+          3.2554171246537873,
+          8.976012142853433
+        ],
+        "load_envelope_peak_normal_stress_MPa": 4.3915184431958165,
+        "double_envelope_required_normal_strength_MPa": 8.783036886391633,
+        "worst_load": {
+          "case": "unloaded_three_g_two_support",
+          "hip_deg": -10,
+          "roll_deg": -25,
+          "knee_deg": -48,
+          "motor_torque_Nm": 17,
+          "shaft_force_N": [
+            85.22930502968363,
+            -137.40012738881978,
+            1174.5025870306504
+          ],
+          "section_moment_Nmm": [
+            -21684.77297655181,
+            -1717.3929759400985,
+            -14918.84392956383
+          ]
+        },
+        "required_seam_shear_flow_N_per_mm": 3.1131391657407343,
+        "required_transfer_over_100mm_N": 311.31391657407346
+      },
+      "Ixx_ratio": 1.328102396203919,
+      "Iyy_ratio": 1.4437549871200392,
+      "Sx_ratio": 1.3149857060148151,
+      "Sy_ratio": 1.5743340739823177
+    }
+  ],
+  "mount_hole_surround_checks": [
+    {
+      "feature": "stator screw surround",
+      "angle_deg": 20,
+      "minimum_required_ligament_mm": 2.3,
+      "coverage_fraction": 1.0000000000000007,
+      "passed": true
+    },
+    {
+      "feature": "stator screw surround",
+      "angle_deg": 60,
+      "minimum_required_ligament_mm": 2.3,
+      "coverage_fraction": 1.0,
+      "passed": true
+    },
+    {
+      "feature": "stator screw surround",
+      "angle_deg": 100,
+      "minimum_required_ligament_mm": 2.3,
+      "coverage_fraction": 1.0,
+      "passed": true
+    },
+    {
+      "feature": "stator screw surround",
+      "angle_deg": 140,
+      "minimum_required_ligament_mm": 2.3,
+      "coverage_fraction": 1.0000000000000002,
+      "passed": true
+    },
+    {
+      "feature": "stator screw surround",
+      "angle_deg": 180,
+      "minimum_required_ligament_mm": 2.3,
+      "coverage_fraction": 1.0,
+      "passed": true
+    },
+    {
+      "feature": "stator screw surround",
+      "angle_deg": 220,
+      "minimum_required_ligament_mm": 2.3,
+      "coverage_fraction": 1.0,
+      "passed": true
+    },
+    {
+      "feature": "stator screw surround",
+      "angle_deg": 260,
+      "minimum_required_ligament_mm": 2.3,
+      "coverage_fraction": 1.0,
+      "passed": true
+    },
+    {
+      "feature": "stator screw surround",
+      "angle_deg": 300,
+      "minimum_required_ligament_mm": 2.3,
+      "coverage_fraction": 1.0,
+      "passed": true
+    },
+    {
+      "feature": "stator screw surround",
+      "angle_deg": 340,
+      "minimum_required_ligament_mm": 2.3,
+      "coverage_fraction": 1.0,
+      "passed": true
+    },
+    {
+      "feature": "stator tie",
+      "angle_deg": 90,
+      "minimum_required_ligament_mm": 2.8,
+      "coverage_fraction": 0.9999999999999698,
+      "passed": true
+    },
+    {
+      "feature": "hub tie",
+      "angle_deg": 90,
+      "minimum_required_ligament_mm": 2.8,
+      "coverage_fraction": 1.0,
+      "passed": true
+    },
+    {
+      "feature": "stator tie",
+      "angle_deg": 210,
+      "minimum_required_ligament_mm": 2.8,
+      "coverage_fraction": 0.9999999999997705,
+      "passed": true
+    },
+    {
+      "feature": "hub tie",
+      "angle_deg": 210,
+      "minimum_required_ligament_mm": 2.8,
+      "coverage_fraction": 1.0,
+      "passed": true
+    },
+    {
+      "feature": "stator tie",
+      "angle_deg": 330,
+      "minimum_required_ligament_mm": 2.8,
+      "coverage_fraction": 1.0000000000000246,
+      "passed": true
+    },
+    {
+      "feature": "hub tie",
+      "angle_deg": 330,
+      "minimum_required_ligament_mm": 2.8,
+      "coverage_fraction": 1.0,
+      "passed": true
+    }
+  ],
+  "17Nm_equal_sharing_force_screens_N": {
+    "tie_source": 130.26819923371647,
+    "tie_candidate": 130.26819923371647,
+    "stator_screw_candidate": 51.750380517503814
+  },
+  "motor_to_tie_sleeve_nominal_radial_gap_mm": 1.75,
+  "force_envelope": {
+    "actuator_peak_torque_Nm": 17,
+    "structural_screen_torque_Nm": 34,
+    "crank_radius_mm": 28,
+    "minimum_transmission_cosine": 0.5877852522924731,
+    "pushrod_at_actuator_peak_N": 1032.933124427477,
+    "pushrod_at_double_peak_screen_N": 2065.866248854954,
+    "local_stator_overturning_arm_mm": 19.5,
+    "local_stator_overturning_at_actuator_peak_Nm": 20.142195926335802,
+    "ideal_max_tie_axial_reaction_at_actuator_peak_N": 308.6926578748782,
+    "scope": "Conservative local actuator bracket screen. Internal rod forces are not treated as whole-robot ground forces. Real impacts can exceed commanded motor torque."
+  },
+  "load_envelope": {
+    "cases": 864,
+    "robot_mass_estimate_kg": 13.444603280721978,
+    "ground_cases": "One kilogram payload, single support at 1 g; unloaded two-foot support at 3 g. Horizontal ground forces independently \u00b130% of vertical.",
+    "section_loading": "Ideal knee shaft transmits force and X/Z overturning moment; its free Y rotation carries no bearing torque. Shaft loads include independent \u00b117 Nm actuator rod force. Unsymmetric bending uses the full area-moment tensor.",
+    "scope": "Independent conservative force envelope, not a dynamically consistent gait simulation. Normal stress only; torsional/shear stress, local bearing/pin stresses, joint flexibility and fatigue remain unqualified."
+  },
+  "unverified": [
+    "Actuator output-bearing radial and overturning ratings",
+    "Material allowables at print direction and operating temperature",
+    "Fastener grades, preload and fatigue"
+  ],
+  "connection_assumption": {
+    "section": "Combined-half properties assume full composite action. That connection has not been qualified.",
+    "seam_shear": "Reported shear flow is a local prismatic-beam requirement. Closure sleeves can bypass the printed faces; bolt torque alone does not establish seam pressure or friction capacity.",
+    "sleeves_per_leg": 6,
+    "sleeve_lengths_mm": [
+      41,
+      6
+    ],
+    "sleeve_OD_ID_mm": [
+      5,
+      3.4
+    ],
+    "tube_end_area_mm2": 10.555751316061706,
+    "ideal_overturning_tube_end_pressure_MPa_before_preload": 29.244025236286998,
+    "scope": "Local pad bearing/punching, thread engagement, plate prying, hole-clearance slip and tolerance stack need separate qualification."
+  },
+  "clearance_allowance_example": {
+    "nominal_motor_to_sleeve_gap_mm": 1.75,
+    "illustrative_radial_allowances_mm": {
+      "motor_OD_radius": 0.2,
+      "axis_position": 0.15,
+      "sleeve_OD_radius": 0.05,
+      "bracket_deflection": 0.25
+    },
+    "validated": false,
+    "scope": "Example budget only. Actual purchased dimensions, process capability and loaded deflection remain unmeasured."
+  },
+  "section_method": "Planar cuts through welded exported meshes; polygon area moments by Green theorem. Source tessellation tolerance 0.1 mm; candidate 0.08 mm. This is a gross-section comparison, not FEA.",
+  "scope": "Gross section area moments describe stiffness-related geometry only. They omit fastener slip, open-shell torsion, stress concentrations, print anisotropy, creep, heat, fatigue and impacts. Hole surrounds establish geometric ligaments, not bolt or material strength. New mounts and slimmer shells require load and fatigue qualification."
+}

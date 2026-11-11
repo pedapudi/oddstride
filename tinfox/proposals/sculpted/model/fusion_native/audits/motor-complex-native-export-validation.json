@@ -1,0 +1,600 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "scope": "Read-only direct native motor-complex export validation. Candidate remains unpromoted by this checker; no release was prepared.",
+  "candidate_manifest": {
+    "path": "tinfox/analysis/dfma/motor-complex-fit/native-exports/candidate-manifest.json",
+    "sha256": "104798de52453ab223a1e9c642b39dedea387fc1cbcd83b5fc00fcb6acf0b8c4",
+    "original_path": "tinfox/proposals/sculpted/model/fusion_native/manifests/motor-complex-native-candidate.json",
+    "native_source_of_truth_at_review": false,
+    "saved_leg_version": 19
+  },
+  "checker": {
+    "command": "tinfox/.venv/bin/python tinfox/proposals/sculpted/model/prepare_native_motor_complex.py --validate-only --manifest tinfox/analysis/dfma/motor-complex-fit/native-exports/candidate-manifest.json",
+    "source_sha256": "fa64a4f5ae6db15b6c583036cdf3d67b6e38ff28226dff213e88b6933de3fc3f",
+    "integration": "OCC BRepGProp.VolumePropertiesGK_s with tolerance 1e-9, span-aware and adaptive flags enabled",
+    "bounds_tolerance_mm": 0.05,
+    "maximum_allowed_relative_volume_error": 0.005
+  },
+  "overall_passed": true,
+  "release_prepared": false,
+  "authority_changed": false,
+  "custom_part_count": 13,
+  "optional_stock_type_count": 3,
+  "optional_stock_quantity": 8,
+  "custom_validation": {
+    "hash_checks_passed": true,
+    "zip_integrity_passed": true,
+    "mesh_closure_passed": true,
+    "mesh_winding_passed": true,
+    "positive_volume_passed": true,
+    "step_valid_single_solid_passed": true,
+    "bounds_against_native_step_passed": true,
+    "units": {
+      "hip_hub": "millimeter",
+      "motor_mount_ring": "millimeter",
+      "thigh_inner": "millimeter",
+      "thigh_outer": "millimeter",
+      "input_crank": "millimeter",
+      "roll_cartridge_1": "millimeter",
+      "roll_stator_backplate_1": "millimeter",
+      "roll_inner_spacer_1": "millimeter",
+      "roll_outer_spacer_1": "millimeter",
+      "roll_inner_backplate_1": "millimeter",
+      "roll_outer_retainer_1": "millimeter",
+      "motor_carrier_1": "millimeter",
+      "hip_stator_closure_1": "millimeter"
+    },
+    "maximum_mesh_step_relative_volume_error": 5.10631996908595e-05,
+    "parts": [
+      {
+        "part": "motor_carrier_1",
+        "native_step_sha256": "b4d3fa0141de0d3b877e1bfaaff0440a3edf00a92207b44899f0f57a88b3c721",
+        "native_3mf_sha256": "95fa8c7bae96f0323ca317ebc5cb17a1124565d5f97397746d7a9479f58add82",
+        "mesh_volume_relative_error": 2.7083405944031663e-05,
+        "print_bounds_mm": [
+          120.999984,
+          96.99977200000001,
+          77.4
+        ]
+      },
+      {
+        "part": "hip_stator_closure_1",
+        "native_step_sha256": "4bbb56e2125b9e9a440a9a4149f3d2f8caed3f888ddaf21eae2655cc5f84f634",
+        "native_3mf_sha256": "dc3d2ac3d45f09f77664408aabfd2b05aefed4a8b58b5094023a5be3574679e1",
+        "mesh_volume_relative_error": 1.3258266419339986e-05,
+        "print_bounds_mm": [
+          88.999968,
+          96.99977200000001,
+          3.100000000000006
+        ]
+      },
+      {
+        "part": "roll_cartridge_1",
+        "native_step_sha256": "5ff59a30f035ab92d5007f4cf576e36013f377d94659bdd5521081040f0b357d",
+        "native_3mf_sha256": "5bfe6de4e2f5aba3dc6d0523b1e313f3070436577b4087f834fc79b2e92f263e",
+        "mesh_volume_relative_error": 4.1693696581321455e-05,
+        "print_bounds_mm": [
+          80.383216,
+          77.798784,
+          24.0
+        ]
+      },
+      {
+        "part": "roll_stator_backplate_1",
+        "native_step_sha256": "e24727d8883bad7f42c2eb301539086410f9bf1afb81ee88d7317769366d30e5",
+        "native_3mf_sha256": "c5089cdd374450c90639ab5b000ce1a5cb5ed5d36261bbc8219da2c461a4e782",
+        "mesh_volume_relative_error": 1.680783713695944e-05,
+        "print_bounds_mm": [
+          81.999728,
+          81.999028,
+          6.0
+        ]
+      },
+      {
+        "part": "roll_outer_retainer_1",
+        "native_step_sha256": "6cdfeccd6940561097caf7933f9da590c375ed7b48400333c5c8a0deaae5be70",
+        "native_3mf_sha256": "d6a492bdca2f61c0f06dfcdb90324bc99d14ea1cd5781b28550942866fa273fb",
+        "mesh_volume_relative_error": 4.39706540175776e-05,
+        "print_bounds_mm": [
+          76.937716,
+          75.26848799999999,
+          2.0
+        ]
+      },
+      {
+        "part": "roll_inner_backplate_1",
+        "native_step_sha256": "3c64453a00e1f7620e39a228e55f4e2906b3ea14c87e002cc8293a62f8aeab6a",
+        "native_3mf_sha256": "c3aa8c3f9d046af829e745478e76dbfd356fd3ef755845ccf9697596c94dca66",
+        "mesh_volume_relative_error": 5.077382886388864e-05,
+        "print_bounds_mm": [
+          52.5,
+          52.5,
+          2.0
+        ]
+      },
+      {
+        "part": "roll_inner_spacer_1",
+        "native_step_sha256": "c73bd027069ea6d0c39f8e6aab04152ae1fe0d8c3a2e4a6c64f19167d4b57990",
+        "native_3mf_sha256": "d34538f04287487fe940e1886e8fe4f705344f55ee0abc6952f7b8894f8f6096",
+        "mesh_volume_relative_error": 5.10631996908595e-05,
+        "print_bounds_mm": [
+          52.5,
+          52.5,
+          7.0
+        ]
+      },
+      {
+        "part": "roll_outer_spacer_1",
+        "native_step_sha256": "da6dc0bedec1dfbc8250a34a46a44281a2d47b38edbabb2902c46bc25537b993",
+        "native_3mf_sha256": "c8afe611b82945329797772d70624b737b20e30797eb9c5109aeb706cfa0fd31",
+        "mesh_volume_relative_error": 2.076824384427045e-05,
+        "print_bounds_mm": [
+          64.89900600000001,
+          64.899504,
+          7.0
+        ]
+      },
+      {
+        "part": "thigh_inner",
+        "native_step_sha256": "0264e0a75d553c6d909a1f3e7e158127a4cd2dffdc135be536563ca09a32c6ae",
+        "native_3mf_sha256": "91411109b59a09bb0526bd9e64a2ef1795d8b354fe0276f6464af5b432ece40b",
+        "mesh_volume_relative_error": 2.8799641989084808e-05,
+        "print_bounds_mm": [
+          71.62379999999999,
+          231.58247999999998,
+          58.0
+        ]
+      },
+      {
+        "part": "thigh_outer",
+        "native_step_sha256": "bd72171a1c4826480f1d4afac933152f4454a979e1c19662c7b8928d60209421",
+        "native_3mf_sha256": "dfcb0c23ee2a1ed600a4691e8382718eca6d37275b77e00f75fb21068ecc2642",
+        "mesh_volume_relative_error": 2.6335955686306633e-05,
+        "print_bounds_mm": [
+          90.301528,
+          242.49994400000003,
+          88.00000000000001
+        ]
+      },
+      {
+        "part": "hip_hub",
+        "native_step_sha256": "cdb610d12e927697921a403da6654f52419617abba176c9b6a4d9d1a97a5015e",
+        "native_3mf_sha256": "6c7191f6d44830ff6f23cf39e60dccddafa6779486cb955c65a4cbc66cc5c078",
+        "mesh_volume_relative_error": 9.074208518571311e-06,
+        "print_bounds_mm": [
+          86.989792,
+          75.74999199999999,
+          9.500000000000005
+        ]
+      },
+      {
+        "part": "motor_mount_ring",
+        "native_step_sha256": "f06bf3ee803e7e585ee79eace1fa6c2618d3d9bca1a0db0ae98276fc51462020",
+        "native_3mf_sha256": "bcda889f7d29e6e2017ba477b1515208784bcf30a4f8682a6eb6ab6ee1f97a22",
+        "mesh_volume_relative_error": 2.013385548665314e-05,
+        "print_bounds_mm": [
+          84.344208,
+          88.49902399999999,
+          4.5
+        ]
+      },
+      {
+        "part": "input_crank",
+        "native_step_sha256": "277beedc5cd650be48df2acd5ad717aefb8fc3ea4a33e03fff6632eb419ccbb5",
+        "native_3mf_sha256": "534e47934a8eac4a9b254654ec641e5da34d390e46d2f000489aa804980fd521",
+        "mesh_volume_relative_error": 3.1031400951061125e-05,
+        "print_bounds_mm": [
+          56.5,
+          36.0,
+          31.6
+        ]
+      }
+    ]
+  },
+  "optional_stock_validation": {
+    "manifest_sha256": "104798de52453ab223a1e9c642b39dedea387fc1cbcd83b5fc00fcb6acf0b8c4",
+    "saved_leg_version": 19,
+    "scope": "Read-only direct native 3MF stock reference validation. Three unique types, eight optional printed copies. No release preparation or authority change.",
+    "overall_passed": true,
+    "quantity_total": 8,
+    "parts": [
+      {
+        "part": "fit-only-pod-long-sleeve",
+        "quantity": 3,
+        "saved_version": 19,
+        "native_3mf": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/fit-only-pod-long-sleeve.3mf",
+        "sha256": "30436d6295625b7781e3c1627e9cf89a51c090ee1d42b4dcaa142a455dd2ebac",
+        "bytes": 839773,
+        "units": "millimeter",
+        "nominal_od_id_length_mm": [
+          5,
+          3.4,
+          41
+        ],
+        "measured_bounds_mm": [
+          [
+            -2.5,
+            9.5,
+            41.0
+          ],
+          [
+            2.5,
+            50.5,
+            46.0
+          ]
+        ],
+        "measured_inner_outer_radius_mm": [
+          1.699996860100923,
+          2.5000023650548804
+        ],
+        "measured_volume_mm3": 432.76380907927205,
+        "analytic_volume_mm3": 432.7858039585299,
+        "relative_volume_error": 5.0821628289781834e-05,
+        "vertices": 39960,
+        "triangles": 79920,
+        "connected_components": 1,
+        "euler_number": 0,
+        "checks": {
+          "sha256_matches": true,
+          "zip_integrity": true,
+          "units_declared_millimeter": true,
+          "one_connected_surface": true,
+          "closed": true,
+          "winding_consistent": true,
+          "positive_volume": true,
+          "no_degenerate_faces": true,
+          "no_duplicate_faces": true,
+          "annular_topology": true,
+          "extents_match_nominal": true,
+          "bounds_match_native_manifest": true,
+          "inner_radius_matches": true,
+          "outer_radius_matches": true,
+          "volume_matches_annular_stock": true
+        },
+        "passed": true
+      },
+      {
+        "part": "fit-only-pod-short-sleeve",
+        "quantity": 3,
+        "saved_version": 19,
+        "native_3mf": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/fit-only-pod-short-sleeve.3mf",
+        "sha256": "2fc005e5975da86f183d23fc15aeb4d073d246ccec2668f3cbad02a31cce5777",
+        "bytes": 151101,
+        "units": "millimeter",
+        "nominal_od_id_length_mm": [
+          5,
+          3.4,
+          6
+        ],
+        "measured_bounds_mm": [
+          [
+            -2.5,
+            55.0,
+            41.0
+          ],
+          [
+            2.5,
+            61.0,
+            46.0
+          ]
+        ],
+        "measured_inner_outer_radius_mm": [
+          1.699996860100923,
+          2.5000023650548804
+        ],
+        "measured_volume_mm3": 63.33128913355199,
+        "analytic_volume_mm3": 63.33450789637023,
+        "relative_volume_error": 5.082162829005273e-05,
+        "vertices": 6840,
+        "triangles": 13680,
+        "connected_components": 1,
+        "euler_number": 0,
+        "checks": {
+          "sha256_matches": true,
+          "zip_integrity": true,
+          "units_declared_millimeter": true,
+          "one_connected_surface": true,
+          "closed": true,
+          "winding_consistent": true,
+          "positive_volume": true,
+          "no_degenerate_faces": true,
+          "no_duplicate_faces": true,
+          "annular_topology": true,
+          "extents_match_nominal": true,
+          "bounds_match_native_manifest": true,
+          "inner_radius_matches": true,
+          "outer_radius_matches": true,
+          "volume_matches_annular_stock": true
+        },
+        "passed": true
+      },
+      {
+        "part": "fit-only-thigh-clamp-sleeve",
+        "quantity": 2,
+        "saved_version": 19,
+        "native_3mf": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/fit-only-thigh-clamp-sleeve.3mf",
+        "sha256": "8d161ea0a8d529c9d8b2239edd95d96b2e499beb814a80a7d555decf8322b307",
+        "bytes": 275976,
+        "units": "millimeter",
+        "nominal_od_id_length_mm": [
+          8,
+          4.3,
+          18
+        ],
+        "measured_bounds_mm": [
+          [
+            -40.0,
+            58.0,
+            -70.0
+          ],
+          [
+            -32.0,
+            76.0,
+            -62.0
+          ]
+        ],
+        "measured_inner_outer_radius_mm": [
+          2.149992667433078,
+          4.000005651302008
+        ],
+        "measured_volume_mm3": 643.3498168446238,
+        "analytic_volume_mm3": 643.3824674919217,
+        "relative_volume_error": 5.074842562188986e-05,
+        "vertices": 13320,
+        "triangles": 26640,
+        "connected_components": 1,
+        "euler_number": 0,
+        "checks": {
+          "sha256_matches": true,
+          "zip_integrity": true,
+          "units_declared_millimeter": true,
+          "one_connected_surface": true,
+          "closed": true,
+          "winding_consistent": true,
+          "positive_volume": true,
+          "no_degenerate_faces": true,
+          "no_duplicate_faces": true,
+          "annular_topology": true,
+          "extents_match_nominal": true,
+          "bounds_match_native_manifest": true,
+          "inner_radius_matches": true,
+          "outer_radius_matches": true,
+          "volume_matches_annular_stock": true
+        },
+        "passed": true
+      }
+    ],
+    "note": "The intended native thigh-clamp sleeve is 8 mm OD, 4.3 mm ID, 18 mm long. The current native body, guide and print builder agree. Earlier 4.4 mm table wording is a reconciled documentation discrepancy, not an export defect. Historical released package hashes remain unchanged. Optional printed sleeves are finger-tight dimensional surrogates only."
+  },
+  "review_model": {
+    "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/native-bench-review.json.gz",
+    "gzip_sha256": "875cade0a6fb628a0858d2c21f7401b449fac70a6a42ad71a6670d04d9b9f21c",
+    "uncompressed_sha256": "8f3f6290c7e8b9fb6985bb2a46b62597e1666ca7816bf00e39d766862b232a8d",
+    "body_count": 124,
+    "scope": "Hash and body-count identity only; browser review is handled separately."
+  },
+  "input_files": [
+    {
+      "part": "hip_hub",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/slim-native-hip_hub-restored.step",
+      "sha256": "cdb610d12e927697921a403da6654f52419617abba176c9b6a4d9d1a97a5015e",
+      "bytes": 136717
+    },
+    {
+      "part": "hip_hub",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/hip_hub.3mf",
+      "sha256": "6c7191f6d44830ff6f23cf39e60dccddafa6779486cb955c65a4cbc66cc5c078",
+      "bytes": 4688497
+    },
+    {
+      "part": "motor_mount_ring",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/slim-native-motor_mount_ring-restored.step",
+      "sha256": "f06bf3ee803e7e585ee79eace1fa6c2618d3d9bca1a0db0ae98276fc51462020",
+      "bytes": 48721
+    },
+    {
+      "part": "motor_mount_ring",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/motor_mount_ring.3mf",
+      "sha256": "bcda889f7d29e6e2017ba477b1515208784bcf30a4f8682a6eb6ab6ee1f97a22",
+      "bytes": 726032
+    },
+    {
+      "part": "thigh_inner",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/slim-native-thigh_inner.step",
+      "sha256": "0264e0a75d553c6d909a1f3e7e158127a4cd2dffdc135be536563ca09a32c6ae",
+      "bytes": 197531
+    },
+    {
+      "part": "thigh_inner",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/thigh_inner.3mf",
+      "sha256": "91411109b59a09bb0526bd9e64a2ef1795d8b354fe0276f6464af5b432ece40b",
+      "bytes": 1544096
+    },
+    {
+      "part": "thigh_outer",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native-thigh_outer.step",
+      "sha256": "bd72171a1c4826480f1d4afac933152f4454a979e1c19662c7b8928d60209421",
+      "bytes": 547475
+    },
+    {
+      "part": "thigh_outer",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/thigh_outer.3mf",
+      "sha256": "dfcb0c23ee2a1ed600a4691e8382718eca6d37275b77e00f75fb21068ecc2642",
+      "bytes": 6991540
+    },
+    {
+      "part": "input_crank",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native-input_crank.step",
+      "sha256": "277beedc5cd650be48df2acd5ad717aefb8fc3ea4a33e03fff6632eb419ccbb5",
+      "bytes": 110556
+    },
+    {
+      "part": "input_crank",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/input_crank.3mf",
+      "sha256": "534e47934a8eac4a9b254654ec641e5da34d390e46d2f000489aa804980fd521",
+      "bytes": 2481533
+    },
+    {
+      "part": "roll_cartridge_1",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-roll_cartridge_1.step",
+      "sha256": "5ff59a30f035ab92d5007f4cf576e36013f377d94659bdd5521081040f0b357d",
+      "bytes": 145736
+    },
+    {
+      "part": "roll_cartridge_1",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/roll_cartridge_1.3mf",
+      "sha256": "5bfe6de4e2f5aba3dc6d0523b1e313f3070436577b4087f834fc79b2e92f263e",
+      "bytes": 5928557
+    },
+    {
+      "part": "roll_stator_backplate_1",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-roll_stator_backplate_1.step",
+      "sha256": "e24727d8883bad7f42c2eb301539086410f9bf1afb81ee88d7317769366d30e5",
+      "bytes": 59745
+    },
+    {
+      "part": "roll_stator_backplate_1",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/roll_stator_backplate_1.3mf",
+      "sha256": "c5089cdd374450c90639ab5b000ce1a5cb5ed5d36261bbc8219da2c461a4e782",
+      "bytes": 524082
+    },
+    {
+      "part": "roll_inner_spacer_1",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-roll_inner_spacer_1.step",
+      "sha256": "c73bd027069ea6d0c39f8e6aab04152ae1fe0d8c3a2e4a6c64f19167d4b57990",
+      "bytes": 7114
+    },
+    {
+      "part": "roll_inner_spacer_1",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/roll_inner_spacer_1.3mf",
+      "sha256": "d34538f04287487fe940e1886e8fe4f705344f55ee0abc6952f7b8894f8f6096",
+      "bytes": 36097
+    },
+    {
+      "part": "roll_outer_spacer_1",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-roll_outer_spacer_1.step",
+      "sha256": "da6dc0bedec1dfbc8250a34a46a44281a2d47b38edbabb2902c46bc25537b993",
+      "bytes": 7110
+    },
+    {
+      "part": "roll_outer_spacer_1",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/roll_outer_spacer_1.3mf",
+      "sha256": "c8afe611b82945329797772d70624b737b20e30797eb9c5109aeb706cfa0fd31",
+      "bytes": 38755
+    },
+    {
+      "part": "roll_inner_backplate_1",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-roll_inner_backplate_1.step",
+      "sha256": "3c64453a00e1f7620e39a228e55f4e2906b3ea14c87e002cc8293a62f8aeab6a",
+      "bytes": 16836
+    },
+    {
+      "part": "roll_inner_backplate_1",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/roll_inner_backplate_1.3mf",
+      "sha256": "c3aa8c3f9d046af829e745478e76dbfd356fd3ef755845ccf9697596c94dca66",
+      "bytes": 234724
+    },
+    {
+      "part": "roll_outer_retainer_1",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-roll_outer_retainer_1.step",
+      "sha256": "6cdfeccd6940561097caf7933f9da590c375ed7b48400333c5c8a0deaae5be70",
+      "bytes": 46817
+    },
+    {
+      "part": "roll_outer_retainer_1",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/roll_outer_retainer_1.3mf",
+      "sha256": "d6a492bdca2f61c0f06dfcdb90324bc99d14ea1cd5781b28550942866fa273fb",
+      "bytes": 328752
+    },
+    {
+      "part": "motor_carrier_1",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-motor_carrier_1.step",
+      "sha256": "b4d3fa0141de0d3b877e1bfaaff0440a3edf00a92207b44899f0f57a88b3c721",
+      "bytes": 193680
+    },
+    {
+      "part": "motor_carrier_1",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/motor_carrier_1.3mf",
+      "sha256": "95fa8c7bae96f0323ca317ebc5cb17a1124565d5f97397746d7a9479f58add82",
+      "bytes": 3213470
+    },
+    {
+      "part": "hip_stator_closure_1",
+      "role": "native_step",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-hip_stator_closure_1.step",
+      "sha256": "4bbb56e2125b9e9a440a9a4149f3d2f8caed3f888ddaf21eae2655cc5f84f634",
+      "bytes": 50622
+    },
+    {
+      "part": "hip_stator_closure_1",
+      "role": "native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/hip_stator_closure_1.3mf",
+      "sha256": "dc3d2ac3d45f09f77664408aabfd2b05aefed4a8b58b5094023a5be3574679e1",
+      "bytes": 739167
+    },
+    {
+      "part": "fit-only-pod-long-sleeve",
+      "role": "optional_stock_native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/fit-only-pod-long-sleeve.3mf",
+      "sha256": "30436d6295625b7781e3c1627e9cf89a51c090ee1d42b4dcaa142a455dd2ebac",
+      "bytes": 839773
+    },
+    {
+      "part": "fit-only-pod-short-sleeve",
+      "role": "optional_stock_native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/fit-only-pod-short-sleeve.3mf",
+      "sha256": "2fc005e5975da86f183d23fc15aeb4d073d246ccec2668f3cbad02a31cce5777",
+      "bytes": 151101
+    },
+    {
+      "part": "fit-only-thigh-clamp-sleeve",
+      "role": "optional_stock_native_3mf",
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/fit-only-thigh-clamp-sleeve.3mf",
+      "sha256": "8d161ea0a8d529c9d8b2239edd95d96b2e499beb814a80a7d555decf8322b307",
+      "bytes": 275976
+    }
+  ],
+  "retained_reports": [
+    {
+      "path": "tinfox/analysis/dfma/motor-complex-fit/native-exports/main-validation.json",
+      "sha256": "c6f119f37f30bd454bbcc40af3c32d22e08712d83cf4b25b0806b0ddd5824652"
+    },
+    {
+      "path": "tinfox/analysis/dfma/motor-complex-fit/native-exports/stock-sleeve-validation.json",
+      "sha256": "bc126298fdaa499d51ad27dbeee33d8bfff5a1e6949438066ddfa61f28b708be"
+    }
+  ],
+  "reconciled_documentation": "The intended native thigh-clamp sleeve is 8 mm OD, 4.3 mm ID, 18 mm long. The current native body, guide and print builder agree. Earlier 4.4 mm table wording is a reconciled documentation discrepancy, not an export defect. Historical released package hashes remain unchanged. Optional printed sleeves are finger-tight dimensional surrogates only.",
+  "exclusions": [
+    "The earlier empty assembled 3MF is excluded from the candidate manifest and was not tested or counted as a candidate defect. Its replacement is a separate owner task."
+  ],
+  "limitations": [
+    "Does not promote native geometry or certify edit/restore, saved reopen, reference fidelity, interference, or construction method; those are separate promotion gates.",
+    "No physical printing, purchased hardware fit, preload, deformation or loaded strength validation."
+  ]
+}

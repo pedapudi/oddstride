@@ -1,0 +1,80 @@
+{
+  "model_sha256": "295fcc6656da7bdf9a699153604efd4f4cd505ffb9bf4eace9a7b5b6703d6ff5",
+  "pose_count": 1050,
+  "roll_deg": [
+    -60,
+    -55,
+    -50,
+    -45,
+    -40,
+    -35,
+    -30,
+    -25,
+    -20,
+    -15,
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60
+  ],
+  "hip_pitch_deg": [
+    -35,
+    -25,
+    -15,
+    -5,
+    5,
+    15,
+    25,
+    35,
+    45,
+    55,
+    65,
+    75,
+    85,
+    90
+  ],
+  "knee_pitch_deg": [
+    -156,
+    -100,
+    -48
+  ],
+  "minimum_sampled_gaps": {
+    "head": {
+      "distance_mm": 14.292702166888098,
+      "pair": [
+        "FR_thigh_outer",
+        "equipment_head_lower"
+      ],
+      "angles_deg": [
+        60,
+        5,
+        -156
+      ]
+    },
+    "neck": {
+      "distance_mm": 3.9215744817482463,
+      "pair": [
+        "FL_motor_carrier",
+        "neck_right"
+      ],
+      "angles_deg": [
+        -30,
+        -35,
+        -156
+      ]
+    }
+  },
+  "collision_samples": [],
+  "scope": "Both complete front legs, including modeled motor housings, carriers, fasteners, sockets, plugs, boots and static cable envelopes. Connector keepouts checked separately; withdrawal/service envelopes excluded. Grid samples do not certify continuous motion, tolerances, structural deflection or cable flex. Unrelated chassis/leg collisions are outside this targeted audit."
+}

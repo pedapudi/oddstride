@@ -1,0 +1,263 @@
+{
+  "model_sha256": "26dc3e75cbdbc009a4c43802ad7746045052365b9068d46fa1c1d88d5b37584a",
+  "baseline_model_sha256": "b4f7ef491f49c176b6453cc6d513244e3d6f93bed19fef275be3de93d938f13e",
+  "before": {
+    "printed_shin_pair": {
+      "mass_kg": 0.086828,
+      "hip_pitch_inertia_stand_kg_m2": 0.004471855248843009,
+      "knee_pitch_inertia_kg_m2": 0.0008568718144711716
+    },
+    "printed_thigh_pair_and_finish": {
+      "mass_kg": 0.196469,
+      "hip_pitch_inertia_stand_kg_m2": 0.0010152249614606805
+    },
+    "distal_knee_assembly": {
+      "mass_kg": 0.186027,
+      "hip_pitch_inertia_stand_kg_m2": 0.008254093523835585,
+      "knee_pitch_inertia_kg_m2": 0.001304064943534361
+    },
+    "moving_leg": {
+      "mass_kg": 1.057239,
+      "hip_pitch_inertia_stand_kg_m2": 0.011259992109856391
+    },
+    "thigh_shin_paired_gaps": {
+      "crouch": {
+        "parts": [
+          "FL_thigh_inner",
+          "FL_shin_inner"
+        ],
+        "distance_mm": 2.0
+      },
+      "fold": {
+        "parts": [
+          "FL_thigh_outer",
+          "FL_shin_outer"
+        ],
+        "distance_mm": 1.6034309352130878
+      }
+    }
+  },
+  "after": {
+    "printed_shin_pair": {
+      "mass_kg": 0.082238,
+      "hip_pitch_inertia_stand_kg_m2": 0.004162339169372739,
+      "knee_pitch_inertia_kg_m2": 0.0007280675932715035
+    },
+    "printed_thigh_pair_and_finish": {
+      "mass_kg": 0.191612,
+      "hip_pitch_inertia_stand_kg_m2": 0.0009396833392613644
+    },
+    "distal_knee_assembly": {
+      "mass_kg": 0.18143700000000001,
+      "hip_pitch_inertia_stand_kg_m2": 0.007944577444365315,
+      "knee_pitch_inertia_kg_m2": 0.001175260722334693
+    },
+    "moving_leg": {
+      "mass_kg": 1.046972,
+      "hip_pitch_inertia_stand_kg_m2": 0.010850988289294886
+    },
+    "thigh_shin_paired_gaps": {
+      "crouch": {
+        "parts": [
+          "FL_thigh_inner",
+          "FL_shin_inner"
+        ],
+        "distance_mm": 2.0
+      },
+      "fold": {
+        "parts": [
+          "FL_thigh_outer",
+          "FL_shin_outer"
+        ],
+        "distance_mm": 1.859661145351261
+      }
+    }
+  },
+  "delta": {
+    "printed_shin_pair": {
+      "mass_kg": {
+        "absolute": -0.004589999999999997,
+        "percent": -5.286313170866541
+      },
+      "hip_pitch_inertia_stand_kg_m2": {
+        "absolute": -0.0003095160794702699,
+        "percent": -6.92142438086184
+      },
+      "knee_pitch_inertia_kg_m2": {
+        "absolute": -0.00012880422119966812,
+        "percent": -15.03191247796628
+      }
+    },
+    "printed_thigh_pair_and_finish": {
+      "mass_kg": {
+        "absolute": -0.004857,
+        "percent": -2.47214573291461
+      },
+      "hip_pitch_inertia_stand_kg_m2": {
+        "absolute": -7.554162219931609e-05,
+        "percent": -7.440875182051143
+      }
+    },
+    "distal_knee_assembly": {
+      "mass_kg": {
+        "absolute": -0.004589999999999983,
+        "percent": -2.467383766872544
+      },
+      "hip_pitch_inertia_stand_kg_m2": {
+        "absolute": -0.0003095160794702699,
+        "percent": -3.7498494362399826
+      },
+      "knee_pitch_inertia_kg_m2": {
+        "absolute": -0.00012880422119966812,
+        "percent": -9.877132411103284
+      }
+    },
+    "moving_leg": {
+      "mass_kg": {
+        "absolute": -0.010267000000000026,
+        "percent": -0.9711143837864533
+      },
+      "hip_pitch_inertia_stand_kg_m2": {
+        "absolute": -0.0004090038205615057,
+        "percent": -3.6323632962716346
+      }
+    }
+  },
+  "thigh_section_comparison": {
+    "before": {
+      "minimum_section_modulus_y_mm3": 1819.5605908395842,
+      "samples": [
+        {
+          "z_mm": -70,
+          "area_mm2": 352.2571519792206,
+          "section_modulus_y_mm3": 3495.632967309853
+        },
+        {
+          "z_mm": -80,
+          "area_mm2": 325.2700120611886,
+          "section_modulus_y_mm3": 2986.1887515476606
+        },
+        {
+          "z_mm": -90,
+          "area_mm2": 303.1502974188005,
+          "section_modulus_y_mm3": 2602.573845864431
+        },
+        {
+          "z_mm": -100,
+          "area_mm2": 289.86242130688515,
+          "section_modulus_y_mm3": 2359.7283248397966
+        },
+        {
+          "z_mm": -110,
+          "area_mm2": 282.6556173902426,
+          "section_modulus_y_mm3": 2241.455278094856
+        },
+        {
+          "z_mm": -120,
+          "area_mm2": 278.85415361847924,
+          "section_modulus_y_mm3": 2185.9014669987737
+        },
+        {
+          "z_mm": -130,
+          "area_mm2": 275.7553764181586,
+          "section_modulus_y_mm3": 2140.534972018981
+        },
+        {
+          "z_mm": -140,
+          "area_mm2": 271.9281751021282,
+          "section_modulus_y_mm3": 2065.586650015477
+        },
+        {
+          "z_mm": -150,
+          "area_mm2": 256.3346733923323,
+          "section_modulus_y_mm3": 1819.5605908395842
+        }
+      ],
+      "scope": "Combined printed thigh halves, tessellated XY sections every 10 mm from z=-70 to -150; values exclude proximal cradle and knee seat. This geometric section comparison omits local stress, fastener load paths, anisotropy and fatigue."
+    },
+    "after": {
+      "minimum_section_modulus_y_mm3": 1457.5945545371137,
+      "samples": [
+        {
+          "z_mm": -70,
+          "area_mm2": 336.2158959327215,
+          "section_modulus_y_mm3": 3171.968949390431
+        },
+        {
+          "z_mm": -80,
+          "area_mm2": 302.97041221906585,
+          "section_modulus_y_mm3": 2594.042274167228
+        },
+        {
+          "z_mm": -90,
+          "area_mm2": 275.33486030165994,
+          "section_modulus_y_mm3": 2147.14122236785
+        },
+        {
+          "z_mm": -100,
+          "area_mm2": 254.35402230852347,
+          "section_modulus_y_mm3": 1829.3610269485284
+        },
+        {
+          "z_mm": -110,
+          "area_mm2": 240.12251766644926,
+          "section_modulus_y_mm3": 1632.8364766593993
+        },
+        {
+          "z_mm": -120,
+          "area_mm2": 233.08354188051328,
+          "section_modulus_y_mm3": 1533.3028574955413
+        },
+        {
+          "z_mm": -130,
+          "area_mm2": 230.4724686092936,
+          "section_modulus_y_mm3": 1491.218739781148
+        },
+        {
+          "z_mm": -140,
+          "area_mm2": 229.12344452317717,
+          "section_modulus_y_mm3": 1457.5945545371137
+        },
+        {
+          "z_mm": -150,
+          "area_mm2": 230.9064097198662,
+          "section_modulus_y_mm3": 1476.3064429518342
+        }
+      ],
+      "scope": "Combined printed thigh halves, tessellated XY sections every 10 mm from z=-70 to -150; values exclude proximal cradle and knee seat. This geometric section comparison omits local stress, fastener load paths, anisotropy and fatigue."
+    }
+  },
+  "section_modulus_y_mm3": {
+    "before": 881.6024512739133,
+    "after": 962.5896348382595
+  },
+  "base_mass_kg": {
+    "before": 12.062372000000002,
+    "after": 12.030049
+  },
+  "scope": "Per front-left limb. Nominal CAD masses; tessellated mass moments are scaled to CAD mass. Hip-pitch inertia uses the standing pose; knee-pitch inertia is about the knee axis. These are comparisons of this geometry revision, not proof of an optimal design, material strength or dynamic capability.",
+  "comparison_summary": {
+    "moving_leg_mass_delta_g": -10.267000000000026,
+    "hip_pitch_inertia_change_percent": -3.6323632962716346,
+    "knee_pitch_inertia_change_percent": -9.877132411103284,
+    "shin_section_modulus_change_percent": 9.186360977935104,
+    "thigh_section_modulus_change_percent": -19.893046602831266,
+    "fold_min_thigh_shin_gap_mm_before": 1.6034309352130878,
+    "fold_min_thigh_shin_gap_mm_after": 1.859661145351261,
+    "scope": "Front-left moving leg mass and hip-pitch inertia in nominal stand; complete distal knee assembly inertia about knee pitch. Fold gaps are the minimum across the four printed thigh/shin pairings in the prescribed fold pose."
+  },
+  "nominal_sagittal_bending_screen": {
+    "thigh": {
+      "maximum_hip_pitch_joint_moment_Nm": 13.736314168007793,
+      "minimum_sampled_section_modulus_y_mm3": 1457.5945545371137,
+      "nominal_M_over_W_MPa": 9.423960953510845
+    },
+    "shin": {
+      "maximum_knee_pitch_joint_moment_Nm": 13.58735120147053,
+      "minimum_sampled_section_modulus_y_mm3": 962.5896348382595,
+      "nominal_M_over_W_MPa": 14.115413993371707
+    },
+    "thigh_to_shin_nominal_stress_ratio": 0.6676361712051898,
+    "scope": "Uniform maximum prescribed sagittal joint moment divided by minimum sampled section modulus about local transverse Y. Thigh uses tessellated sections; shin uses CAD solid sections. Includes combined halves but omits shear transfer, local stress concentration, hip-roll/frontal loading, torsion, fasteners, material anisotropy, fatigue and creep. It is a comparison screen, not a structural qualification or material allowable."
+  }
+}

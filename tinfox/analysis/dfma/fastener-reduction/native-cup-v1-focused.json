@@ -1,0 +1,280 @@
+{
+  "scope": "Only changed native cup: rear motor insertion, stator/coupling drivers and eight fan sections. No full-model test.",
+  "input_step": "tinfox/proposals/sculpted/model/fusion_native/exports/dfma-architecture-v1/dfma-rear-loaded-cup.step",
+  "input_sha256": "c256929a709d77d506e83a95d83fee956fd0db8d6cc906fe050ba7dc7131377e",
+  "bench_translation_mm": [
+    -5,
+    0,
+    0
+  ],
+  "valid_one_solid": true,
+  "checks": [
+    {
+      "check": "motor rear insertionY-100",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "motor rear insertionY-80",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "motor rear insertionY-60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "motor rear insertionY-50",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "motor rear insertionY-40",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "motor rear insertionY-30",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "motor rear insertionY-20",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "motor rear insertionY-10",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "motor rear insertionY-5",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "motor rear insertionY-1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "motor rear insertionY0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "roll output driver0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "roll output driver60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "roll output driver120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "roll output driver180",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "roll output driver240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "roll output driver300",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "hip stator driver0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "hip stator driver40",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "hip stator driver80",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "hip stator driver120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "hip stator driver160",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "hip stator driver200",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "hip stator driver240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "hip stator driver280",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "check": "hip stator driver320",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    }
+  ],
+  "fan_sections": [
+    {
+      "pitch_local_x_mm": -54,
+      "old": {
+        "area_mm2": 917.126386860297,
+        "Iyy_mm4": 203206.15123307612,
+        "Izz_mm4": 38942.64528465457
+      },
+      "new": {
+        "area_mm2": 944.9219997618954,
+        "Iyy_mm4": 212992.6285363012,
+        "Izz_mm4": 40523.166932428256
+      }
+    },
+    {
+      "pitch_local_x_mm": -52,
+      "old": {
+        "area_mm2": 657.8357014117963,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "new": {
+        "area_mm2": 898.6659201204536,
+        "Iyy_mm4": 180177.59157095663,
+        "Izz_mm4": 36780.678152907174
+      }
+    },
+    {
+      "pitch_local_x_mm": -50,
+      "old": {
+        "area_mm2": 657.8357014117963,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "new": {
+        "area_mm2": 898.6659201204536,
+        "Iyy_mm4": 180177.59157095663,
+        "Izz_mm4": 36780.678152907174
+      }
+    },
+    {
+      "pitch_local_x_mm": -48,
+      "old": {
+        "area_mm2": 657.8357014117963,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "new": {
+        "area_mm2": 898.6659201204536,
+        "Iyy_mm4": 180177.59157095733,
+        "Izz_mm4": 36780.67815290764
+      }
+    },
+    {
+      "pitch_local_x_mm": -46,
+      "old": {
+        "area_mm2": 657.8357014117963,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.720557072433
+      },
+      "new": {
+        "area_mm2": 898.6659201204536,
+        "Iyy_mm4": 180177.59157095687,
+        "Izz_mm4": 36780.678152907174
+      }
+    },
+    {
+      "pitch_local_x_mm": -44,
+      "old": {
+        "area_mm2": 690.4519122247905,
+        "Iyy_mm4": 118721.25671611191,
+        "Izz_mm4": 23460.071286734892
+      },
+      "new": {
+        "area_mm2": 898.6659201204536,
+        "Iyy_mm4": 180177.59157095687,
+        "Izz_mm4": 36780.67815290694
+      }
+    },
+    {
+      "pitch_local_x_mm": -42,
+      "old": {
+        "area_mm2": 1233.7574281180994,
+        "Iyy_mm4": 162394.84455727646,
+        "Izz_mm4": 160178.06054459978
+      },
+      "new": {
+        "area_mm2": 1346.8732225131969,
+        "Iyy_mm4": 206093.914342531,
+        "Izz_mm4": 170989.42947145365
+      }
+    },
+    {
+      "pitch_local_x_mm": -40.9,
+      "old": {
+        "area_mm2": 1311.019733798691,
+        "Iyy_mm4": 172725.35993275233,
+        "Izz_mm4": 171708.69458855595
+      },
+      "new": {
+        "area_mm2": 1464.0579006198811,
+        "Iyy_mm4": 231487.2076938469,
+        "Izz_mm4": 191755.45158046996
+      }
+    }
+  ],
+  "section_band": "Y[-45,-4],Z[-30,30]",
+  "passed_packaging": true,
+  "final_port_web_review": "Pending rounded24x40R3 window revision.",
+  "structural_limit": "Section properties are geometry comparisons only; rear diaphragm removal, load redistribution and printed anisotropy remain unqualified.",
+  "frozen_input_step": "tinfox/analysis/dfma/fastener-reduction/input/c256929a709d77d506e83a95d83fee956fd0db8d6cc906fe050ba7dc7131377e.step"
+}

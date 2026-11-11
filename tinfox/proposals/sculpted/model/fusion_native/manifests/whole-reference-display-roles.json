@@ -1,0 +1,45 @@
+{
+  "source_manifest_sha256": "41d5d8ada6533b94e66d381c71be786fef0026297d91b86e5b99583a5d6c5119",
+  "source_model_sha256": "f1f1c97f613eb1516102e39bb675f14b8ea0904ef8a361ddbbb0b48b0ed1a09c",
+  "scope": "Semantic clarification only; exact geometry, source hashes and coordinates remain unchanged. Display markings, provisional optical backing and the hidden electronics keepout are excluded from manufacturing and native-custom completeness.",
+  "items": [
+    {
+      "name": "body_wordmark",
+      "reference_role": "nonmanufacturing_display_reference",
+      "solid_count": 7
+    },
+    {
+      "name": "body_serial",
+      "reference_role": "nonmanufacturing_display_reference",
+      "solid_count": 2
+    },
+    {
+      "name": "sensor_window",
+      "reference_role": "provisional_optical_backing_envelope",
+      "solid_count": 1,
+      "manufactured_custom_part": false,
+      "vendor_selected": false,
+      "note": "Provisional dark sensor backing with lens apertures. Protective glazing and seals remain unmodeled. The historical native STEP is an export of an imported reference, not native custom authoring."
+    },
+    {
+      "name": "electronics_clearance",
+      "reference_role": "auxiliary_clearance_envelope",
+      "service_role": "keepout",
+      "native_visible": false,
+      "solid_count": 1,
+      "manufactured_custom_part": false,
+      "physical_component": false,
+      "note": "Hidden electronics packaging clearance volume. Included in the original560 reference items, not purchased hardware or a physical part."
+    }
+  ],
+  "previous_semantic_manifest_sha256": "a3614265a9f0704eb177b1562c2ac7c3f0b59ffe9e928958ca07f1fc2b8b5cd3",
+  "count_interpretation": {
+    "total_reference_items": 560,
+    "hidden_auxiliary_items": 1,
+    "visible_reference_items": 559,
+    "whole_review_records": 684,
+    "whole_review_solids": 703,
+    "visible_model_items": 683,
+    "visible_model_solids": 702
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "compact": {
+    "model_sha256": "26dc3e75cbdbc009a4c43802ad7746045052365b9068d46fa1c1d88d5b37584a",
+    "body_baseline_model_sha256": "3cf92b464b15bda6a43c7bd99891539db4de54dd5f9791cf2ef818de00aedce0",
+    "unchanged_limb_meshes": 140,
+    "sampled_joint_intervals_preserved": true,
+    "individual_step_count": 99,
+    "foot_contact_cases": [
+      {
+        "leg": "FL",
+        "case": "four_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "FL",
+        "case": "two_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "FL",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.04299838598990391
+      },
+      {
+        "leg": "FL",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "FL",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "FL",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.011145020804832484
+      },
+      {
+        "leg": "FL",
+        "case": "four_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "FL",
+        "case": "two_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "FL",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.04299838598990391
+      },
+      {
+        "leg": "FL",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "FL",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "FL",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.011145020804832484
+      },
+      {
+        "leg": "FL",
+        "case": "unloaded_2p5g_pulse",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "FL",
+        "case": "unloaded_3g_landing_screen",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "FR",
+        "case": "four_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "FR",
+        "case": "two_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "FR",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.04299838598990391
+      },
+      {
+        "leg": "FR",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "FR",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "FR",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.011145020804832484
+      },
+      {
+        "leg": "FR",
+        "case": "four_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "FR",
+        "case": "two_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "FR",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.04299838598990391
+      },
+      {
+        "leg": "FR",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "FR",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "FR",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.011145020804832484
+      },
+      {
+        "leg": "FR",
+        "case": "unloaded_2p5g_pulse",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "FR",
+        "case": "unloaded_3g_landing_screen",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "RL",
+        "case": "four_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "RL",
+        "case": "two_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "RL",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.04299838598990391
+      },
+      {
+        "leg": "RL",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "RL",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "RL",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.011145020804832484
+      },
+      {
+        "leg": "RL",
+        "case": "four_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "RL",
+        "case": "two_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "RL",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.04299838598990391
+      },
+      {
+        "leg": "RL",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "RL",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "RL",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.011145020804832484
+      },
+      {
+        "leg": "RL",
+        "case": "unloaded_2p5g_pulse",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "RL",
+        "case": "unloaded_3g_landing_screen",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "RR",
+        "case": "four_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "RR",
+        "case": "two_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "RR",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.04299838598990391
+      },
+      {
+        "leg": "RR",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "RR",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "RR",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.011145020804832484
+      },
+      {
+        "leg": "RR",
+        "case": "four_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "RR",
+        "case": "two_foot_stand",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "RR",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.04299838598990391
+      },
+      {
+        "leg": "RR",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "RR",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.011132345410430844
+      },
+      {
+        "leg": "RR",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.011145020804832484
+      },
+      {
+        "leg": "RR",
+        "case": "unloaded_2p5g_pulse",
+        "support_height_error_mm": 0.012973296964673864
+      },
+      {
+        "leg": "RR",
+        "case": "unloaded_3g_landing_screen",
+        "support_height_error_mm": 0.012973296964673864
+      }
+    ],
+    "scope": "Checks final export identity, declared limb geometry changes and preserved sampled joint intervals during refinement, and support heights on all legs in the prescribed torque poses. Does not validate deformable soles, gait control or loads."
+  },
+  "sculpted": {
+    "model_sha256": "144a84e88daed50139f890480e9f1a1740cfb20c773e740ba6b4e9c1b9eede5e",
+    "body_baseline_model_sha256": "24b3c16db86814d909769acf61e71565eed122890c3cb0818f033e14f235ddc6",
+    "unchanged_limb_meshes": 54,
+    "sampled_joint_intervals_preserved": true,
+    "individual_step_count": 98,
+    "foot_contact_cases": [
+      {
+        "leg": "FL",
+        "case": "four_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "FL",
+        "case": "two_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "FL",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.014641588864861887
+      },
+      {
+        "leg": "FL",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "FL",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "FL",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.01667085852272976
+      },
+      {
+        "leg": "FL",
+        "case": "four_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "FL",
+        "case": "two_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "FL",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.014641588864861887
+      },
+      {
+        "leg": "FL",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "FL",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "FL",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.01667085852272976
+      },
+      {
+        "leg": "FL",
+        "case": "unloaded_2p5g_pulse",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "FL",
+        "case": "unloaded_3g_landing_screen",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "FR",
+        "case": "four_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "FR",
+        "case": "two_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "FR",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.014641588864861887
+      },
+      {
+        "leg": "FR",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "FR",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "FR",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.01667085852272976
+      },
+      {
+        "leg": "FR",
+        "case": "four_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "FR",
+        "case": "two_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "FR",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.014641588864861887
+      },
+      {
+        "leg": "FR",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "FR",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "FR",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.01667085852272976
+      },
+      {
+        "leg": "FR",
+        "case": "unloaded_2p5g_pulse",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "FR",
+        "case": "unloaded_3g_landing_screen",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "RL",
+        "case": "four_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "RL",
+        "case": "two_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "RL",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.014641588864861887
+      },
+      {
+        "leg": "RL",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "RL",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "RL",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.01667085852272976
+      },
+      {
+        "leg": "RL",
+        "case": "four_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "RL",
+        "case": "two_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "RL",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.014641588864861887
+      },
+      {
+        "leg": "RL",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "RL",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "RL",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.01667085852272976
+      },
+      {
+        "leg": "RL",
+        "case": "unloaded_2p5g_pulse",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "RL",
+        "case": "unloaded_3g_landing_screen",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "RR",
+        "case": "four_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "RR",
+        "case": "two_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "RR",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.014641588864861887
+      },
+      {
+        "leg": "RR",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "RR",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "RR",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.01667085852272976
+      },
+      {
+        "leg": "RR",
+        "case": "four_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "RR",
+        "case": "two_foot_stand",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "RR",
+        "case": "three_foot_crouch",
+        "support_height_error_mm": 0.014641588864861887
+      },
+      {
+        "leg": "RR",
+        "case": "stair_reach_60_percent",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "RR",
+        "case": "reach_with_braking",
+        "support_height_error_mm": 0.014586670689851644
+      },
+      {
+        "leg": "RR",
+        "case": "splayed_two_foot",
+        "support_height_error_mm": 0.01667085852272976
+      },
+      {
+        "leg": "RR",
+        "case": "unloaded_2p5g_pulse",
+        "support_height_error_mm": -9.671272778177809e-07
+      },
+      {
+        "leg": "RR",
+        "case": "unloaded_3g_landing_screen",
+        "support_height_error_mm": -9.671272778177809e-07
+      }
+    ],
+    "scope": "Checks final export identity, declared limb geometry changes and preserved sampled joint intervals during refinement, and support heights on all legs in the prescribed torque poses. Does not validate deformable soles, gait control or loads."
+  }
+}

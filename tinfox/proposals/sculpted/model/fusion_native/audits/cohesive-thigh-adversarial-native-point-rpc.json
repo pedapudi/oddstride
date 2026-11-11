@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"message\": \"{\\\"point_mm\\\": [-34.30355086222323, -51.000000269579, -131.37555592957895], \\\"native_classification\\\": [{\\\"axis\\\": 0, \\\"delta_mm\\\": -0.005, \\\"containment\\\": \\\"0\\\"}, {\\\"axis\\\": 0, \\\"delta_mm\\\": 0, \\\"containment\\\": \\\"1\\\"}, {\\\"axis\\\": 0, \\\"delta_mm\\\": 0.005, \\\"containment\\\": \\\"2\\\"}, {\\\"axis\\\": 1, \\\"delta_mm\\\": -0.005, \\\"containment\\\": \\\"2\\\"}, {\\\"axis\\\": 1, \\\"delta_mm\\\": 0, \\\"containment\\\": \\\"1\\\"}, {\\\"axis\\\": 1, \\\"delta_mm\\\": 0.005, \\\"containment\\\": \\\"0\\\"}, {\\\"axis\\\": 2, \\\"delta_mm\\\": -0.005, \\\"containment\\\": \\\"2\\\"}, {\\\"axis\\\": 2, \\\"delta_mm\\\": 0, \\\"containment\\\": \\\"1\\\"}, {\\\"axis\\\": 2, \\\"delta_mm\\\": 0.005, \\\"containment\\\": \\\"0\\\"}], \\\"units\\\": \\\"0 inside, 1 outside, 2 on boundary; verify enum separately\\\", \\\"enum_inside\\\": 0, \\\"enum_outside\\\": 2, \\\"enum_on\\\": 1}\\n\",\n    \"success\": true\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

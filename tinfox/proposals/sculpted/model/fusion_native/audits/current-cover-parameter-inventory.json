@@ -1,0 +1,3003 @@
+{
+  "parameters": [
+    {
+      "name": "d329",
+      "expression": "-cover_half_length",
+      "owner_name": "Cover end datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d330",
+      "expression": "0.00 mm",
+      "owner_name": "Cover end datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d331",
+      "expression": "( cover_half_width ) - ( cover_corner_radius )",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d332",
+      "expression": "-( -( ( cover_roof_z ) - ( cover_top_bevel ) - ( cover_corner_radius ) * ( sqrt(2) - 1 ) ) )",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d333",
+      "expression": "-( -( ( cover_roof_z ) - ( cover_corner_radius ) ) )",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d334",
+      "expression": "-( ( cover_floor_z ) + ( cover_bottom_bevel ) + ( cover_corner_radius ) * ( sqrt(2) - 1 ) )",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d335",
+      "expression": "-( ( cover_floor_z ) + ( cover_corner_radius ) )",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-6"
+    },
+    {
+      "name": "d336",
+      "expression": "( cover_top_bevel ) - ( cover_corner_radius ) + ( cover_corner_radius ) * ( sqrt(2) - 1 )",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-7"
+    },
+    {
+      "name": "d337",
+      "expression": "( cover_bottom_bevel ) - ( cover_corner_radius ) + ( cover_corner_radius ) * ( sqrt(2) - 1 )",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-8"
+    },
+    {
+      "name": "d338",
+      "expression": "cover_corner_radius",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d339",
+      "expression": "( cover_corner_radius ) / sqrt(2)",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-9"
+    },
+    {
+      "name": "d340",
+      "expression": "cover_corner_radius",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-3"
+    },
+    {
+      "name": "d341",
+      "expression": "( cover_corner_radius ) / sqrt(2)",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-10"
+    },
+    {
+      "name": "d342",
+      "expression": "cover_corner_radius",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-4"
+    },
+    {
+      "name": "d343",
+      "expression": "( cover_corner_radius ) / sqrt(2)",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-11"
+    },
+    {
+      "name": "d344",
+      "expression": "cover_corner_radius",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-5"
+    },
+    {
+      "name": "d345",
+      "expression": "( cover_corner_radius ) / sqrt(2)",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-12"
+    },
+    {
+      "name": "d346",
+      "expression": "cover_corner_radius",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-6"
+    },
+    {
+      "name": "d347",
+      "expression": "( cover_corner_radius ) / sqrt(2)",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-13"
+    },
+    {
+      "name": "d348",
+      "expression": "cover_corner_radius",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-7"
+    },
+    {
+      "name": "d349",
+      "expression": "( cover_corner_radius ) / sqrt(2)",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-14"
+    },
+    {
+      "name": "d350",
+      "expression": "cover_corner_radius",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-8"
+    },
+    {
+      "name": "d351",
+      "expression": "( cover_corner_radius ) / sqrt(2)",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-15"
+    },
+    {
+      "name": "d352",
+      "expression": "cover_corner_radius",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-9"
+    },
+    {
+      "name": "d353",
+      "expression": "( cover_corner_radius ) / sqrt(2)",
+      "owner_name": "Transverse structural envelope",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-16"
+    },
+    {
+      "name": "d354",
+      "expression": "2 * cover_half_length",
+      "owner_name": "Constant central body span",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d355",
+      "expression": "0.0 deg",
+      "owner_name": "Constant central body span",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d356",
+      "expression": "-cover_half_length - 1 mm",
+      "owner_name": "Inner wall opening datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d357",
+      "expression": "0.00 mm",
+      "owner_name": "Inner wall opening datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d358",
+      "expression": "( cover_half_width - cover_wall ) - ( cover_corner_radius - cover_wall )",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d359",
+      "expression": "-( -( ( cover_roof_z - cover_wall ) - ( cover_top_bevel + cover_wall * ( sqrt(2) - 2 ) ) - ( cover_corner_radius - cover_wall ) * ( sqrt(2) - 1 ) ) )",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d360",
+      "expression": "-( -( ( cover_roof_z - cover_wall ) - ( cover_corner_radius - cover_wall ) ) )",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d361",
+      "expression": "-( ( cover_floor_z + cover_wall ) + ( cover_bottom_bevel + cover_wall * ( sqrt(2) - 2 ) ) + ( cover_corner_radius - cover_wall ) * ( sqrt(2) - 1 ) )",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d362",
+      "expression": "-( ( cover_floor_z + cover_wall ) + ( cover_corner_radius - cover_wall ) )",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-6"
+    },
+    {
+      "name": "d363",
+      "expression": "( cover_top_bevel + cover_wall * ( sqrt(2) - 2 ) ) - ( cover_corner_radius - cover_wall ) + ( cover_corner_radius - cover_wall ) * ( sqrt(2) - 1 )",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-7"
+    },
+    {
+      "name": "d364",
+      "expression": "( cover_bottom_bevel + cover_wall * ( sqrt(2) - 2 ) ) - ( cover_corner_radius - cover_wall ) + ( cover_corner_radius - cover_wall ) * ( sqrt(2) - 1 )",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-8"
+    },
+    {
+      "name": "d365",
+      "expression": "cover_corner_radius - cover_wall",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d366",
+      "expression": "( cover_corner_radius - cover_wall ) / sqrt(2)",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-9"
+    },
+    {
+      "name": "d367",
+      "expression": "cover_corner_radius - cover_wall",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-3"
+    },
+    {
+      "name": "d368",
+      "expression": "( cover_corner_radius - cover_wall ) / sqrt(2)",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-10"
+    },
+    {
+      "name": "d369",
+      "expression": "cover_corner_radius - cover_wall",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-4"
+    },
+    {
+      "name": "d370",
+      "expression": "( cover_corner_radius - cover_wall ) / sqrt(2)",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-11"
+    },
+    {
+      "name": "d371",
+      "expression": "cover_corner_radius - cover_wall",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-5"
+    },
+    {
+      "name": "d372",
+      "expression": "( cover_corner_radius - cover_wall ) / sqrt(2)",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-12"
+    },
+    {
+      "name": "d373",
+      "expression": "cover_corner_radius - cover_wall",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-6"
+    },
+    {
+      "name": "d374",
+      "expression": "( cover_corner_radius - cover_wall ) / sqrt(2)",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-13"
+    },
+    {
+      "name": "d375",
+      "expression": "cover_corner_radius - cover_wall",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-7"
+    },
+    {
+      "name": "d376",
+      "expression": "( cover_corner_radius - cover_wall ) / sqrt(2)",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-14"
+    },
+    {
+      "name": "d377",
+      "expression": "cover_corner_radius - cover_wall",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-8"
+    },
+    {
+      "name": "d378",
+      "expression": "( cover_corner_radius - cover_wall ) / sqrt(2)",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-15"
+    },
+    {
+      "name": "d379",
+      "expression": "cover_corner_radius - cover_wall",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-9"
+    },
+    {
+      "name": "d380",
+      "expression": "( cover_corner_radius - cover_wall ) / sqrt(2)",
+      "owner_name": "Normal-offset inner wall",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-16"
+    },
+    {
+      "name": "d381",
+      "expression": "2 * cover_half_length + 2 mm",
+      "owner_name": "Uniform central shell wall",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d382",
+      "expression": "0.0 deg",
+      "owner_name": "Uniform central shell wall",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d383",
+      "expression": "( cover_lower_edge_z - 50 mm ) - ( 100 mm ) / 2",
+      "owner_name": "Open underside tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d384",
+      "expression": "0.00 mm",
+      "owner_name": "Open underside tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d385",
+      "expression": "-( ( 0 mm ) - ( 2 * cover_half_width + 10 mm ) / 2 )",
+      "owner_name": "Open underside tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d386",
+      "expression": "-( ( 0 mm ) - ( 2 * cover_half_length + 10 mm ) / 2 )",
+      "owner_name": "Open underside tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d387",
+      "expression": "( 0 mm ) + ( 2 * cover_half_width + 10 mm ) / 2",
+      "owner_name": "Open underside tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d388",
+      "expression": "( 0 mm ) + ( 2 * cover_half_length + 10 mm ) / 2",
+      "owner_name": "Open underside tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d389",
+      "expression": "100 mm",
+      "owner_name": "Open underside tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d390",
+      "expression": "0.0 deg",
+      "owner_name": "Open underside tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d391",
+      "expression": "( 46.75 mm ) - ( 5.5 mm ) / 2",
+      "owner_name": "Roof stiffening rib datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d392",
+      "expression": "0.00 mm",
+      "owner_name": "Roof stiffening rib datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d393",
+      "expression": "-( ( 0 mm ) - ( 170 mm ) / 2 )",
+      "owner_name": "Roof stiffening rib rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d394",
+      "expression": "( 28 mm ) - ( 2.4 mm ) / 2",
+      "owner_name": "Roof stiffening rib rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d395",
+      "expression": "( 0 mm ) + ( 170 mm ) / 2",
+      "owner_name": "Roof stiffening rib rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d396",
+      "expression": "( 28 mm ) + ( 2.4 mm ) / 2",
+      "owner_name": "Roof stiffening rib rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d397",
+      "expression": "5.5 mm",
+      "owner_name": "Roof stiffening rib",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d398",
+      "expression": "0.0 deg",
+      "owner_name": "Roof stiffening rib",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d401",
+      "expression": "( cover_roll_y ) + ( 0 mm )",
+      "owner_name": "Stepped roll cartridge clearance section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d402",
+      "expression": "cover_hip_x - 114.7 mm",
+      "owner_name": "Stepped roll cartridge clearance section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d403",
+      "expression": "( cover_roll_y ) + ( 41.25 mm )",
+      "owner_name": "Stepped roll cartridge clearance section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d404",
+      "expression": "cover_hip_x - 73.3 mm",
+      "owner_name": "Stepped roll cartridge clearance section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d405",
+      "expression": "( cover_roll_y ) + ( 42 mm )",
+      "owner_name": "Stepped roll cartridge clearance section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-6"
+    },
+    {
+      "name": "d406",
+      "expression": "cover_hip_x - 66.3 mm",
+      "owner_name": "Stepped roll cartridge clearance section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-7"
+    },
+    {
+      "name": "d407",
+      "expression": "cover_hip_x - 65.3 mm",
+      "owner_name": "Stepped roll cartridge clearance section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-8"
+    },
+    {
+      "name": "d408",
+      "expression": "( cover_roll_y ) + ( 38 mm )",
+      "owner_name": "Stepped roll cartridge clearance section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-9"
+    },
+    {
+      "name": "d409",
+      "expression": "cover_hip_x - 51.5 mm",
+      "owner_name": "Stepped roll cartridge clearance section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-10"
+    },
+    {
+      "name": "d410",
+      "expression": "cover_roll_y",
+      "owner_name": "Stepped roll cartridge clearance axis offset",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d411",
+      "expression": "0.00 mm",
+      "owner_name": "Stepped roll cartridge clearance axis offset",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d412",
+      "expression": "360 deg",
+      "owner_name": "Stepped roll cartridge clearance",
+      "owner_type": "adsk::fusion::RevolveFeature",
+      "role": "AlongAngle"
+    },
+    {
+      "name": "d419",
+      "expression": "( cover_boss_z ) - ( cover_boss_height ) / 2",
+      "owner_name": "Cover attachment boss datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d420",
+      "expression": "0.00 mm",
+      "owner_name": "Cover attachment boss datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d421",
+      "expression": "( cover_boss_y ) - ( cover_boss_depth ) / 2",
+      "owner_name": "Cover attachment boss rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d422",
+      "expression": "( cover_boss_x ) - ( cover_boss_width ) / 2",
+      "owner_name": "Cover attachment boss rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d423",
+      "expression": "( cover_boss_y ) + ( cover_boss_depth ) / 2",
+      "owner_name": "Cover attachment boss rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d424",
+      "expression": "( cover_boss_x ) + ( cover_boss_width ) / 2",
+      "owner_name": "Cover attachment boss rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d425",
+      "expression": "cover_boss_height",
+      "owner_name": "Cover attachment boss",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d426",
+      "expression": "0.0 deg",
+      "owner_name": "Cover attachment boss",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d427",
+      "expression": "1",
+      "owner_name": "Cover attachment boss edge radii",
+      "owner_type": "adsk::fusion::FilletFeature",
+      "role": "TangencyWeight"
+    },
+    {
+      "name": "d428",
+      "expression": "cover_boss_radius",
+      "owner_name": "Cover attachment boss edge radii",
+      "owner_type": "adsk::fusion::FilletFeature",
+      "role": "Radius"
+    },
+    {
+      "name": "d435",
+      "expression": "( -13.3 mm ) - ( 80 mm ) / 2",
+      "owner_name": "Open mounting boss channel datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d438",
+      "expression": "0.00 mm",
+      "owner_name": "Open mounting boss channel datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d441",
+      "expression": "( 103.5 mm ) - ( 5.4 mm ) / 2",
+      "owner_name": "Open mounting boss channel rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d444",
+      "expression": "( cover_boss_x ) - ( 9.4 mm ) / 2",
+      "owner_name": "Open mounting boss channel rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d447",
+      "expression": "( 103.5 mm ) + ( 5.4 mm ) / 2",
+      "owner_name": "Open mounting boss channel rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d450",
+      "expression": "( cover_boss_x ) + ( 9.4 mm ) / 2",
+      "owner_name": "Open mounting boss channel rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d453",
+      "expression": "80 mm",
+      "owner_name": "Open mounting boss channel",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d456",
+      "expression": "0.0 deg",
+      "owner_name": "Open mounting boss channel",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d459",
+      "expression": "1",
+      "owner_name": "Open mounting boss channel edge radii",
+      "owner_type": "adsk::fusion::FilletFeature",
+      "role": "TangencyWeight"
+    },
+    {
+      "name": "d462",
+      "expression": "0.3 mm",
+      "owner_name": "Open mounting boss channel edge radii",
+      "owner_type": "adsk::fusion::FilletFeature",
+      "role": "Radius"
+    },
+    {
+      "name": "d482",
+      "expression": "( -5 mm ) - ( 100 mm ) / 2",
+      "owner_name": "Inner boss release tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d483",
+      "expression": "0.00 mm",
+      "owner_name": "Inner boss release tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d486",
+      "expression": "( 101.5 mm ) - ( 4 mm ) / 2",
+      "owner_name": "Inner boss release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d490",
+      "expression": "( cover_boss_x ) - ( 10 mm ) / 2",
+      "owner_name": "Inner boss release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d491",
+      "expression": "( 101.5 mm ) + ( 4 mm ) / 2",
+      "owner_name": "Inner boss release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d494",
+      "expression": "( cover_boss_x ) + ( 10 mm ) / 2",
+      "owner_name": "Inner boss release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d498",
+      "expression": "100 mm",
+      "owner_name": "Inner boss release tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d499",
+      "expression": "0.0 deg",
+      "owner_name": "Inner boss release tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d518",
+      "expression": "101 mm",
+      "owner_name": "Lateral cover screw hole datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d522",
+      "expression": "0.00 mm",
+      "owner_name": "Lateral cover screw hole datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d523",
+      "expression": "-( -( cover_boss_z ) )",
+      "owner_name": "Lateral cover screw hole circular section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d526",
+      "expression": "cover_boss_x",
+      "owner_name": "Lateral cover screw hole circular section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d527",
+      "expression": "cover_fastener_radius",
+      "owner_name": "Lateral cover screw hole circular section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d528",
+      "expression": "12 mm",
+      "owner_name": "Lateral cover screw hole",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d529",
+      "expression": "0.0 deg",
+      "owner_name": "Lateral cover screw hole",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d536",
+      "expression": "cover_hip_x - 73.3 mm",
+      "owner_name": "Boss to cartridge clearance datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d537",
+      "expression": "0.00 mm",
+      "owner_name": "Boss to cartridge clearance datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d538",
+      "expression": "cover_roll_y",
+      "owner_name": "Boss to cartridge clearance circular section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d539",
+      "expression": "42 mm",
+      "owner_name": "Boss to cartridge clearance circular section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d540",
+      "expression": "7 mm",
+      "owner_name": "Boss to cartridge clearance",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d541",
+      "expression": "0.0 deg",
+      "owner_name": "Boss to cartridge clearance",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d548",
+      "expression": "( -35.8 mm ) - ( 100 mm ) / 2",
+      "owner_name": "Lower end service relief datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d549",
+      "expression": "0.00 mm",
+      "owner_name": "Lower end service relief datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d550",
+      "expression": "-( ( 0 mm ) - ( 260 mm ) / 2 )",
+      "owner_name": "Lower end service relief rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d551",
+      "expression": "( cover_half_length ) - ( 32 mm ) / 2",
+      "owner_name": "Lower end service relief rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d552",
+      "expression": "( 0 mm ) + ( 260 mm ) / 2",
+      "owner_name": "Lower end service relief rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d553",
+      "expression": "( cover_half_length ) + ( 32 mm ) / 2",
+      "owner_name": "Lower end service relief rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d554",
+      "expression": "100 mm",
+      "owner_name": "Lower end service relief",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d555",
+      "expression": "0.0 deg",
+      "owner_name": "Lower end service relief",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d556",
+      "expression": "1",
+      "owner_name": "Lower end service relief edge radii",
+      "owner_type": "adsk::fusion::FilletFeature",
+      "role": "TangencyWeight"
+    },
+    {
+      "name": "d557",
+      "expression": "2 mm",
+      "owner_name": "Lower end service relief edge radii",
+      "owner_type": "adsk::fusion::FilletFeature",
+      "role": "Radius"
+    },
+    {
+      "name": "d560",
+      "expression": "cover_roof_z - 2.7 mm",
+      "owner_name": "Roof section 1",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d561",
+      "expression": "0.00 mm",
+      "owner_name": "Roof section 1",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d562",
+      "expression": "( 0 mm ) + ( 2 * cover_half_width - 21.4 mm ) / 2 - ( 19 mm )",
+      "owner_name": "Roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d563",
+      "expression": "( 0 mm ) + ( 2 * cover_half_length - 1.3 mm ) / 2 - ( 19 mm )",
+      "owner_name": "Roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d564",
+      "expression": "-( ( 0 mm ) - ( 2 * cover_half_length - 1.3 mm ) / 2 + ( 19 mm ) )",
+      "owner_name": "Roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d565",
+      "expression": "-( ( 0 mm ) - ( 2 * cover_half_width - 21.4 mm ) / 2 + ( 19 mm ) )",
+      "owner_name": "Roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d566",
+      "expression": "19 mm",
+      "owner_name": "Roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d567",
+      "expression": "19 mm",
+      "owner_name": "Roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-3"
+    },
+    {
+      "name": "d568",
+      "expression": "19 mm",
+      "owner_name": "Roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-4"
+    },
+    {
+      "name": "d569",
+      "expression": "19 mm",
+      "owner_name": "Roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-5"
+    },
+    {
+      "name": "d570",
+      "expression": "( cover_roof_z - 2.7 mm ) - 3 mm",
+      "owner_name": "Inner roof section 1",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d571",
+      "expression": "0.00 mm",
+      "owner_name": "Inner roof section 1",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d572",
+      "expression": "( 0 mm ) + ( ( 2 * cover_half_width - 21.4 mm ) - 6 mm ) / 2 - ( ( 19 mm ) - 3 mm )",
+      "owner_name": "Inner roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d573",
+      "expression": "( 0 mm ) + ( ( 2 * cover_half_length - 1.3 mm ) - 6 mm ) / 2 - ( ( 19 mm ) - 3 mm )",
+      "owner_name": "Inner roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d574",
+      "expression": "-( ( 0 mm ) - ( ( 2 * cover_half_length - 1.3 mm ) - 6 mm ) / 2 + ( ( 19 mm ) - 3 mm ) )",
+      "owner_name": "Inner roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d575",
+      "expression": "-( ( 0 mm ) - ( ( 2 * cover_half_width - 21.4 mm ) - 6 mm ) / 2 + ( ( 19 mm ) - 3 mm ) )",
+      "owner_name": "Inner roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d576",
+      "expression": "( 19 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d577",
+      "expression": "( 19 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-3"
+    },
+    {
+      "name": "d578",
+      "expression": "( 19 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-4"
+    },
+    {
+      "name": "d579",
+      "expression": "( 19 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 1",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-5"
+    },
+    {
+      "name": "d580",
+      "expression": "cover_roof_z + 0.5 mm",
+      "owner_name": "Roof section 2",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d581",
+      "expression": "0.00 mm",
+      "owner_name": "Roof section 2",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d582",
+      "expression": "( 0 mm ) + ( 2 * cover_half_width - 27.4 mm ) / 2 - ( 23 mm )",
+      "owner_name": "Roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d583",
+      "expression": "( 0 mm ) + ( 2 * cover_half_length - 4.8 mm ) / 2 - ( 23 mm )",
+      "owner_name": "Roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d584",
+      "expression": "-( ( 0 mm ) - ( 2 * cover_half_length - 4.8 mm ) / 2 + ( 23 mm ) )",
+      "owner_name": "Roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d585",
+      "expression": "-( ( 0 mm ) - ( 2 * cover_half_width - 27.4 mm ) / 2 + ( 23 mm ) )",
+      "owner_name": "Roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d586",
+      "expression": "23 mm",
+      "owner_name": "Roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d587",
+      "expression": "23 mm",
+      "owner_name": "Roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-3"
+    },
+    {
+      "name": "d588",
+      "expression": "23 mm",
+      "owner_name": "Roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-4"
+    },
+    {
+      "name": "d589",
+      "expression": "23 mm",
+      "owner_name": "Roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-5"
+    },
+    {
+      "name": "d590",
+      "expression": "( cover_roof_z + 0.5 mm ) - 3 mm",
+      "owner_name": "Inner roof section 2",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d591",
+      "expression": "0.00 mm",
+      "owner_name": "Inner roof section 2",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d592",
+      "expression": "( 0 mm ) + ( ( 2 * cover_half_width - 27.4 mm ) - 6 mm ) / 2 - ( ( 23 mm ) - 3 mm )",
+      "owner_name": "Inner roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d593",
+      "expression": "( 0 mm ) + ( ( 2 * cover_half_length - 4.8 mm ) - 6 mm ) / 2 - ( ( 23 mm ) - 3 mm )",
+      "owner_name": "Inner roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d594",
+      "expression": "-( ( 0 mm ) - ( ( 2 * cover_half_length - 4.8 mm ) - 6 mm ) / 2 + ( ( 23 mm ) - 3 mm ) )",
+      "owner_name": "Inner roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d595",
+      "expression": "-( ( 0 mm ) - ( ( 2 * cover_half_width - 27.4 mm ) - 6 mm ) / 2 + ( ( 23 mm ) - 3 mm ) )",
+      "owner_name": "Inner roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d596",
+      "expression": "( 23 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d597",
+      "expression": "( 23 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-3"
+    },
+    {
+      "name": "d598",
+      "expression": "( 23 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-4"
+    },
+    {
+      "name": "d599",
+      "expression": "( 23 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 2",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-5"
+    },
+    {
+      "name": "d600",
+      "expression": "cover_roof_z + 4.5 mm",
+      "owner_name": "Roof section 3",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d601",
+      "expression": "0.00 mm",
+      "owner_name": "Roof section 3",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d602",
+      "expression": "( 0 mm ) + ( 2 * cover_half_width - 48.4 mm ) / 2 - ( 32 mm )",
+      "owner_name": "Roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d603",
+      "expression": "( 0 mm ) + ( 2 * cover_half_length - 20.8 mm ) / 2 - ( 32 mm )",
+      "owner_name": "Roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d604",
+      "expression": "-( ( 0 mm ) - ( 2 * cover_half_length - 20.8 mm ) / 2 + ( 32 mm ) )",
+      "owner_name": "Roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d605",
+      "expression": "-( ( 0 mm ) - ( 2 * cover_half_width - 48.4 mm ) / 2 + ( 32 mm ) )",
+      "owner_name": "Roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d606",
+      "expression": "32 mm",
+      "owner_name": "Roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d607",
+      "expression": "32 mm",
+      "owner_name": "Roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-3"
+    },
+    {
+      "name": "d608",
+      "expression": "32 mm",
+      "owner_name": "Roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-4"
+    },
+    {
+      "name": "d609",
+      "expression": "32 mm",
+      "owner_name": "Roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-5"
+    },
+    {
+      "name": "d610",
+      "expression": "( cover_roof_z + 4.5 mm ) - 3 mm",
+      "owner_name": "Inner roof section 3",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d611",
+      "expression": "0.00 mm",
+      "owner_name": "Inner roof section 3",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d612",
+      "expression": "( 0 mm ) + ( ( 2 * cover_half_width - 48.4 mm ) - 6 mm ) / 2 - ( ( 32 mm ) - 3 mm )",
+      "owner_name": "Inner roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d613",
+      "expression": "( 0 mm ) + ( ( 2 * cover_half_length - 20.8 mm ) - 6 mm ) / 2 - ( ( 32 mm ) - 3 mm )",
+      "owner_name": "Inner roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d614",
+      "expression": "-( ( 0 mm ) - ( ( 2 * cover_half_length - 20.8 mm ) - 6 mm ) / 2 + ( ( 32 mm ) - 3 mm ) )",
+      "owner_name": "Inner roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d615",
+      "expression": "-( ( 0 mm ) - ( ( 2 * cover_half_width - 48.4 mm ) - 6 mm ) / 2 + ( ( 32 mm ) - 3 mm ) )",
+      "owner_name": "Inner roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d616",
+      "expression": "( 32 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d617",
+      "expression": "( 32 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-3"
+    },
+    {
+      "name": "d618",
+      "expression": "( 32 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-4"
+    },
+    {
+      "name": "d619",
+      "expression": "( 32 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 3",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-5"
+    },
+    {
+      "name": "d620",
+      "expression": "cover_roof_z + 6 mm",
+      "owner_name": "Roof section 4",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d621",
+      "expression": "0.00 mm",
+      "owner_name": "Roof section 4",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d622",
+      "expression": "( 0 mm ) + ( 2 * cover_half_width - 77.4 mm ) / 2 - ( 36 mm )",
+      "owner_name": "Roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d623",
+      "expression": "( 0 mm ) + ( 2 * cover_half_length - 38.8 mm ) / 2 - ( 36 mm )",
+      "owner_name": "Roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d624",
+      "expression": "-( ( 0 mm ) - ( 2 * cover_half_length - 38.8 mm ) / 2 + ( 36 mm ) )",
+      "owner_name": "Roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d625",
+      "expression": "-( ( 0 mm ) - ( 2 * cover_half_width - 77.4 mm ) / 2 + ( 36 mm ) )",
+      "owner_name": "Roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d626",
+      "expression": "36 mm",
+      "owner_name": "Roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d627",
+      "expression": "36 mm",
+      "owner_name": "Roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-3"
+    },
+    {
+      "name": "d628",
+      "expression": "36 mm",
+      "owner_name": "Roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-4"
+    },
+    {
+      "name": "d629",
+      "expression": "36 mm",
+      "owner_name": "Roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-5"
+    },
+    {
+      "name": "d630",
+      "expression": "( cover_roof_z + 6 mm ) - 3 mm",
+      "owner_name": "Inner roof section 4",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d631",
+      "expression": "0.00 mm",
+      "owner_name": "Inner roof section 4",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d632",
+      "expression": "( 0 mm ) + ( ( 2 * cover_half_width - 77.4 mm ) - 6 mm ) / 2 - ( ( 36 mm ) - 3 mm )",
+      "owner_name": "Inner roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d633",
+      "expression": "( 0 mm ) + ( ( 2 * cover_half_length - 38.8 mm ) - 6 mm ) / 2 - ( ( 36 mm ) - 3 mm )",
+      "owner_name": "Inner roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d634",
+      "expression": "-( ( 0 mm ) - ( ( 2 * cover_half_length - 38.8 mm ) - 6 mm ) / 2 + ( ( 36 mm ) - 3 mm ) )",
+      "owner_name": "Inner roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d635",
+      "expression": "-( ( 0 mm ) - ( ( 2 * cover_half_width - 77.4 mm ) - 6 mm ) / 2 + ( ( 36 mm ) - 3 mm ) )",
+      "owner_name": "Inner roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d636",
+      "expression": "( 36 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d637",
+      "expression": "( 36 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-3"
+    },
+    {
+      "name": "d638",
+      "expression": "( 36 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-4"
+    },
+    {
+      "name": "d639",
+      "expression": "( 36 mm ) - 3 mm",
+      "owner_name": "Inner roof outline 4",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-5"
+    },
+    {
+      "name": "d640",
+      "expression": "45.8 mm",
+      "owner_name": "Open old roof datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d641",
+      "expression": "0.00 mm",
+      "owner_name": "Open old roof datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d642",
+      "expression": "( 0 mm ) + ( 139 mm ) / 2 - ( 32 mm )",
+      "owner_name": "Open old roof outline",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d643",
+      "expression": "( 0 mm ) + ( 207 mm ) / 2 - ( 32 mm )",
+      "owner_name": "Open old roof outline",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d644",
+      "expression": "-( ( 0 mm ) - ( 207 mm ) / 2 + ( 32 mm ) )",
+      "owner_name": "Open old roof outline",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d645",
+      "expression": "-( ( 0 mm ) - ( 139 mm ) / 2 + ( 32 mm ) )",
+      "owner_name": "Open old roof outline",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d646",
+      "expression": "32 mm",
+      "owner_name": "Open old roof outline",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d647",
+      "expression": "32 mm",
+      "owner_name": "Open old roof outline",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-3"
+    },
+    {
+      "name": "d648",
+      "expression": "32 mm",
+      "owner_name": "Open old roof outline",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-4"
+    },
+    {
+      "name": "d649",
+      "expression": "32 mm",
+      "owner_name": "Open old roof outline",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-5"
+    },
+    {
+      "name": "d650",
+      "expression": "4 mm",
+      "owner_name": "Old double wall removal tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d651",
+      "expression": "0.0 deg",
+      "owner_name": "Old double wall removal tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d652",
+      "expression": "( 55 mm ) - ( 20 mm ) / 2",
+      "owner_name": "Display aperture tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d653",
+      "expression": "0.00 mm",
+      "owner_name": "Display aperture tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d654",
+      "expression": "-( ( 0 mm ) - ( 30 mm ) / 2 )",
+      "owner_name": "Display aperture tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d655",
+      "expression": "-( ( 20 mm ) - ( 50 mm ) / 2 )",
+      "owner_name": "Display aperture tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d656",
+      "expression": "( 0 mm ) + ( 30 mm ) / 2",
+      "owner_name": "Display aperture tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d657",
+      "expression": "( 20 mm ) + ( 50 mm ) / 2",
+      "owner_name": "Display aperture tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d658",
+      "expression": "20 mm",
+      "owner_name": "Display aperture tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d659",
+      "expression": "0.0 deg",
+      "owner_name": "Display aperture tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d660",
+      "expression": "1",
+      "owner_name": "Display aperture tool edge radii",
+      "owner_type": "adsk::fusion::FilletFeature",
+      "role": "TangencyWeight"
+    },
+    {
+      "name": "d661",
+      "expression": "4 mm",
+      "owner_name": "Display aperture tool edge radii",
+      "owner_type": "adsk::fusion::FilletFeature",
+      "role": "Radius"
+    },
+    {
+      "name": "d662",
+      "expression": "( cover_roll_y ) + ( 48 mm )",
+      "owner_name": "Upper half roll cuff section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d663",
+      "expression": "118.8 mm",
+      "owner_name": "Upper half roll cuff section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d664",
+      "expression": "128 mm",
+      "owner_name": "Upper half roll cuff section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d665",
+      "expression": "( cover_roll_y ) + ( 43 mm )",
+      "owner_name": "Upper half roll cuff section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d666",
+      "expression": "132 mm",
+      "owner_name": "Upper half roll cuff section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-6"
+    },
+    {
+      "name": "d667",
+      "expression": "( cover_roll_y ) + ( 40.5 mm )",
+      "owner_name": "Upper half roll cuff section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-7"
+    },
+    {
+      "name": "d668",
+      "expression": "135 mm",
+      "owner_name": "Upper half roll cuff section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-8"
+    },
+    {
+      "name": "d669",
+      "expression": "( cover_roll_y ) + ( 37.5 mm )",
+      "owner_name": "Upper half roll cuff section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-9"
+    },
+    {
+      "name": "d670",
+      "expression": "( cover_roll_y ) + ( 42.5 mm )",
+      "owner_name": "Upper half roll cuff section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-10"
+    },
+    {
+      "name": "d671",
+      "expression": "cover_roll_y",
+      "owner_name": "Upper half roll cuff axis offset",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d672",
+      "expression": "0.00 mm",
+      "owner_name": "Upper half roll cuff axis offset",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d673",
+      "expression": "180 deg",
+      "owner_name": "Upper half roll cuff",
+      "owner_type": "adsk::fusion::RevolveFeature",
+      "role": "AlongAngle"
+    },
+    {
+      "name": "d680",
+      "expression": "( 46.5 mm ) - ( 5 mm ) / 2",
+      "owner_name": "Cuff structural root datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d681",
+      "expression": "0.00 mm",
+      "owner_name": "Cuff structural root datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d682",
+      "expression": "( cover_roll_y ) - ( 32 mm ) / 2",
+      "owner_name": "Cuff structural root rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d683",
+      "expression": "( 121 mm ) - ( 9 mm ) / 2",
+      "owner_name": "Cuff structural root rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d684",
+      "expression": "( cover_roll_y ) + ( 32 mm ) / 2",
+      "owner_name": "Cuff structural root rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d685",
+      "expression": "( 121 mm ) + ( 9 mm ) / 2",
+      "owner_name": "Cuff structural root rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d686",
+      "expression": "5 mm",
+      "owner_name": "Cuff structural root",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d687",
+      "expression": "0.0 deg",
+      "owner_name": "Cuff structural root",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d688",
+      "expression": "1",
+      "owner_name": "Cuff structural root edge radii",
+      "owner_type": "adsk::fusion::FilletFeature",
+      "role": "TangencyWeight"
+    },
+    {
+      "name": "d689",
+      "expression": "1 mm",
+      "owner_name": "Cuff structural root edge radii",
+      "owner_type": "adsk::fusion::FilletFeature",
+      "role": "Radius"
+    },
+    {
+      "name": "d696",
+      "expression": "( 41.8 mm ) - ( 4.6 mm ) / 2",
+      "owner_name": "Crossmember underside clearance datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d697",
+      "expression": "0.00 mm",
+      "owner_name": "Crossmember underside clearance datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d698",
+      "expression": "-( ( 0 mm ) - ( 184 mm ) / 2 )",
+      "owner_name": "Crossmember underside clearance rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d699",
+      "expression": "( 121 mm ) - ( 14 mm ) / 2",
+      "owner_name": "Crossmember underside clearance rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d700",
+      "expression": "( 0 mm ) + ( 184 mm ) / 2",
+      "owner_name": "Crossmember underside clearance rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d701",
+      "expression": "( 121 mm ) + ( 14 mm ) / 2",
+      "owner_name": "Crossmember underside clearance rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d702",
+      "expression": "4.6 mm",
+      "owner_name": "Crossmember underside clearance",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d703",
+      "expression": "0.0 deg",
+      "owner_name": "Crossmember underside clearance",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d706",
+      "expression": "( 24 mm ) - ( 14 mm ) / 2",
+      "owner_name": "Upper cuff ear tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d707",
+      "expression": "0.00 mm",
+      "owner_name": "Upper cuff ear tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d708",
+      "expression": "( cover_roll_y + 26.5 mm ) - ( 16 mm ) / 2",
+      "owner_name": "Upper cuff ear tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d709",
+      "expression": "( 125.5 mm ) - ( 14 mm ) / 2",
+      "owner_name": "Upper cuff ear tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d710",
+      "expression": "( cover_roll_y + 26.5 mm ) + ( 16 mm ) / 2",
+      "owner_name": "Upper cuff ear tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d711",
+      "expression": "( 125.5 mm ) + ( 14 mm ) / 2",
+      "owner_name": "Upper cuff ear tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d712",
+      "expression": "14 mm",
+      "owner_name": "Upper cuff ear tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d713",
+      "expression": "0.0 deg",
+      "owner_name": "Upper cuff ear tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d714",
+      "expression": "1",
+      "owner_name": "Upper cuff ear tool edge radii",
+      "owner_type": "adsk::fusion::FilletFeature",
+      "role": "TangencyWeight"
+    },
+    {
+      "name": "d715",
+      "expression": "0.8 mm",
+      "owner_name": "Upper cuff ear tool edge radii",
+      "owner_type": "adsk::fusion::FilletFeature",
+      "role": "Radius"
+    },
+    {
+      "name": "d722",
+      "expression": "-200 mm",
+      "owner_name": "Hip pitch motion clearance datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d723",
+      "expression": "0.00 mm",
+      "owner_name": "Hip pitch motion clearance datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d724",
+      "expression": "cover_hip_x",
+      "owner_name": "Hip pitch motion clearance circular section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d725",
+      "expression": "67 mm",
+      "owner_name": "Hip pitch motion clearance circular section",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d726",
+      "expression": "400 mm",
+      "owner_name": "Hip pitch motion clearance",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d727",
+      "expression": "0.0 deg",
+      "owner_name": "Hip pitch motion clearance",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d739",
+      "expression": "( 44 mm ) - ( 18 mm ) / 2",
+      "owner_name": "Obsolete front lip relief datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d740",
+      "expression": "0.00 mm",
+      "owner_name": "Obsolete front lip relief datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d741",
+      "expression": "-( ( 0 mm ) - ( 204 mm ) / 2 )",
+      "owner_name": "Obsolete front lip relief rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d742",
+      "expression": "( 122 mm ) - ( 18 mm ) / 2",
+      "owner_name": "Obsolete front lip relief rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d743",
+      "expression": "( 0 mm ) + ( 204 mm ) / 2",
+      "owner_name": "Obsolete front lip relief rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d744",
+      "expression": "( 122 mm ) + ( 18 mm ) / 2",
+      "owner_name": "Obsolete front lip relief rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d745",
+      "expression": "18 mm",
+      "owner_name": "Obsolete front lip relief",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d746",
+      "expression": "0.0 deg",
+      "owner_name": "Obsolete front lip relief",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d747",
+      "expression": "( 60 mm ) - ( 70 mm ) / 2",
+      "owner_name": "Former cradle relief datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d748",
+      "expression": "0.00 mm",
+      "owner_name": "Former cradle relief datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d749",
+      "expression": "-( ( 0 mm ) - ( 62 mm ) / 2 )",
+      "owner_name": "Former cradle relief rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d750",
+      "expression": "( 138 mm ) - ( 24 mm ) / 2",
+      "owner_name": "Former cradle relief rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d751",
+      "expression": "( 0 mm ) + ( 62 mm ) / 2",
+      "owner_name": "Former cradle relief rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d752",
+      "expression": "( 138 mm ) + ( 24 mm ) / 2",
+      "owner_name": "Former cradle relief rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d753",
+      "expression": "70 mm",
+      "owner_name": "Former cradle relief",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d754",
+      "expression": "0.0 deg",
+      "owner_name": "Former cradle relief",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d755",
+      "expression": "45 mm",
+      "owner_name": "Obsolete lidar seat tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d756",
+      "expression": "0.00 mm",
+      "owner_name": "Obsolete lidar seat tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d757",
+      "expression": "saddle_cover_old_seat_x",
+      "owner_name": "Obsolete lidar seat tool",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d758",
+      "expression": "35 mm",
+      "owner_name": "Obsolete lidar seat tool",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d759",
+      "expression": "15 mm",
+      "owner_name": "Obsolete lidar seat tool (1)",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d760",
+      "expression": "0.0 deg",
+      "owner_name": "Obsolete lidar seat tool (1)",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d761",
+      "expression": "saddle_cover_roof_z - saddle_cover_roof_patch_thickness",
+      "owner_name": "Close obsolete roof opening datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d762",
+      "expression": "0.00 mm",
+      "owner_name": "Close obsolete roof opening datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d763",
+      "expression": "saddle_cover_old_seat_x",
+      "owner_name": "Close obsolete roof opening",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d764",
+      "expression": "36 mm",
+      "owner_name": "Close obsolete roof opening",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d765",
+      "expression": "saddle_cover_roof_patch_thickness",
+      "owner_name": "Close obsolete roof opening (1)",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d766",
+      "expression": "0.0 deg",
+      "owner_name": "Close obsolete roof opening (1)",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d767",
+      "expression": "-70 mm",
+      "owner_name": "Sensor service opening datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d768",
+      "expression": "0.00 mm",
+      "owner_name": "Sensor service opening datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d769",
+      "expression": "( 0 mm ) + ( saddle_cover_service_width ) / 2 - ( saddle_cover_service_radius )",
+      "owner_name": "Rounded sensor service opening",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d770",
+      "expression": "( saddle_cover_service_x ) + ( saddle_cover_service_length ) / 2 - ( saddle_cover_service_radius )",
+      "owner_name": "Rounded sensor service opening",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d771",
+      "expression": "( saddle_cover_service_x ) - ( saddle_cover_service_length ) / 2 + ( saddle_cover_service_radius )",
+      "owner_name": "Rounded sensor service opening",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d772",
+      "expression": "-( ( 0 mm ) - ( saddle_cover_service_width ) / 2 + ( saddle_cover_service_radius ) )",
+      "owner_name": "Rounded sensor service opening",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d773",
+      "expression": "saddle_cover_service_radius",
+      "owner_name": "Rounded sensor service opening",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-2"
+    },
+    {
+      "name": "d774",
+      "expression": "saddle_cover_service_radius",
+      "owner_name": "Rounded sensor service opening",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-3"
+    },
+    {
+      "name": "d775",
+      "expression": "saddle_cover_service_radius",
+      "owner_name": "Rounded sensor service opening",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-4"
+    },
+    {
+      "name": "d776",
+      "expression": "saddle_cover_service_radius",
+      "owner_name": "Rounded sensor service opening",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Radial Dimension-5"
+    },
+    {
+      "name": "d777",
+      "expression": "200 mm",
+      "owner_name": "Sensor service opening tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d778",
+      "expression": "0.0 deg",
+      "owner_name": "Sensor service opening tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d779",
+      "expression": "( -14.5 mm ) - ( 100 mm ) / 2",
+      "owner_name": "Left rail release tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d780",
+      "expression": "0.00 mm",
+      "owner_name": "Left rail release tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d781",
+      "expression": "-( ( -saddle_cover_rail_y ) - ( 15 mm ) / 2 )",
+      "owner_name": "Left rail release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d782",
+      "expression": "-( ( 0 mm ) - ( 264 mm ) / 2 )",
+      "owner_name": "Left rail release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d783",
+      "expression": "-( ( -saddle_cover_rail_y ) + ( 15 mm ) / 2 )",
+      "owner_name": "Left rail release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d784",
+      "expression": "( 0 mm ) + ( 264 mm ) / 2",
+      "owner_name": "Left rail release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d785",
+      "expression": "100 mm",
+      "owner_name": "Left rail release tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d786",
+      "expression": "0.0 deg",
+      "owner_name": "Left rail release tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d787",
+      "expression": "( -6.7 mm ) - ( 100 mm ) / 2",
+      "owner_name": "Left crossmember release tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d788",
+      "expression": "0.00 mm",
+      "owner_name": "Left crossmember release tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d789",
+      "expression": "-( ( 0 mm ) - ( 206 mm ) / 2 )",
+      "owner_name": "Left crossmember release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d790",
+      "expression": "-( ( -saddle_cover_crossmember_x ) - ( 14 mm ) / 2 )",
+      "owner_name": "Left crossmember release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d791",
+      "expression": "( 0 mm ) + ( 206 mm ) / 2",
+      "owner_name": "Left crossmember release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d792",
+      "expression": "-( ( -saddle_cover_crossmember_x ) + ( 14 mm ) / 2 )",
+      "owner_name": "Left crossmember release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d793",
+      "expression": "100 mm",
+      "owner_name": "Left crossmember release tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d794",
+      "expression": "0.0 deg",
+      "owner_name": "Left crossmember release tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d795",
+      "expression": "( -14.5 mm ) - ( 100 mm ) / 2",
+      "owner_name": "Right rail release tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d796",
+      "expression": "0.00 mm",
+      "owner_name": "Right rail release tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d797",
+      "expression": "( saddle_cover_rail_y ) - ( 15 mm ) / 2",
+      "owner_name": "Right rail release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d798",
+      "expression": "-( ( 0 mm ) - ( 264 mm ) / 2 )",
+      "owner_name": "Right rail release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d799",
+      "expression": "( saddle_cover_rail_y ) + ( 15 mm ) / 2",
+      "owner_name": "Right rail release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d800",
+      "expression": "( 0 mm ) + ( 264 mm ) / 2",
+      "owner_name": "Right rail release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d801",
+      "expression": "100 mm",
+      "owner_name": "Right rail release tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d802",
+      "expression": "0.0 deg",
+      "owner_name": "Right rail release tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    },
+    {
+      "name": "d803",
+      "expression": "( -6.7 mm ) - ( 100 mm ) / 2",
+      "owner_name": "Right crossmember release tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d804",
+      "expression": "0.00 mm",
+      "owner_name": "Right crossmember release tool datum",
+      "owner_type": "adsk::fusion::ConstructionPlane",
+      "role": "ExtraOffset"
+    },
+    {
+      "name": "d805",
+      "expression": "-( ( 0 mm ) - ( 206 mm ) / 2 )",
+      "owner_name": "Right crossmember release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-2"
+    },
+    {
+      "name": "d806",
+      "expression": "( saddle_cover_crossmember_x ) - ( 14 mm ) / 2",
+      "owner_name": "Right crossmember release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-3"
+    },
+    {
+      "name": "d807",
+      "expression": "( 0 mm ) + ( 206 mm ) / 2",
+      "owner_name": "Right crossmember release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-4"
+    },
+    {
+      "name": "d808",
+      "expression": "( saddle_cover_crossmember_x ) + ( 14 mm ) / 2",
+      "owner_name": "Right crossmember release tool rectangle",
+      "owner_type": "adsk::fusion::Sketch",
+      "role": "Linear Dimension-5"
+    },
+    {
+      "name": "d809",
+      "expression": "100 mm",
+      "owner_name": "Right crossmember release tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "AlongDistance"
+    },
+    {
+      "name": "d810",
+      "expression": "0.0 deg",
+      "owner_name": "Right crossmember release tool",
+      "owner_type": "adsk::fusion::ExtrudeFeature",
+      "role": "TaperAngle"
+    }
+  ],
+  "features": [
+    {
+      "name": "Constant central body span",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Uniform central shell wall",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Open underside tool",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Open underside for assembly and printing",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Roof stiffening rib",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Second roof stiffener",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Integral roof ribs",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Stepped roll cartridge clearance",
+      "type": "adsk::fusion::RevolveFeature"
+    },
+    {
+      "name": "Roll cartridge clearance opposite side",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Roll cartridge clearance opposite end",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Roll cartridge clearance diagonal",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Four fixed motor clearances",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Cover attachment boss",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Cover attachment boss edge radii",
+      "type": "adsk::fusion::FilletFeature"
+    },
+    {
+      "name": "Cover boss opposite side",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Cover boss opposite end",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Cover boss diagonal",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Four integral mounting bosses",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Open mounting boss channel",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Open mounting boss channel edge radii",
+      "type": "adsk::fusion::FilletFeature"
+    },
+    {
+      "name": "Boss channel opposite side",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Boss channel opposite end",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Boss channel diagonal",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Four downward-open boss channels",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Inner boss release tool",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Inner boss release opposite side",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Inner boss release opposite end",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Inner boss release diagonal",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Open inner mounting channels",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Lateral cover screw hole",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Cover screw hole opposite side",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Cover screw hole opposite end",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Cover screw hole diagonal",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Four accessible M3 cover holes",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Boss to cartridge clearance",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Final cartridge relief opposite side",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Final cartridge relief opposite end",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Final cartridge relief diagonal",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Keep mounting bosses clear of cartridges",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Lower end service relief",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Lower end service relief edge radii",
+      "type": "adsk::fusion::FilletFeature"
+    },
+    {
+      "name": "Opposite lower end relief",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Open lower end service paths",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Four-station curved roof",
+      "type": "adsk::fusion::LoftFeature"
+    },
+    {
+      "name": "Four-station inner roof",
+      "type": "adsk::fusion::LoftFeature"
+    },
+    {
+      "name": "Hollow curved roof",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Continuous raised roof",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Old double wall removal tool",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Single roof wall",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Display aperture tool",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Display aperture tool edge radii",
+      "type": "adsk::fusion::FilletFeature"
+    },
+    {
+      "name": "Rounded display opening",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Upper half roll cuff",
+      "type": "adsk::fusion::RevolveFeature"
+    },
+    {
+      "name": "Shoulder cuff opposite side",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Shoulder cuff opposite end",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Shoulder cuff diagonal",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Cuff structural root",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Cuff structural root edge radii",
+      "type": "adsk::fusion::FilletFeature"
+    },
+    {
+      "name": "Cuff root opposite side",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Cuff root opposite end",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Cuff root diagonal",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Four integral upper shoulder cuffs",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Crossmember underside clearance",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Opposite crossmember underside clearance",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Crossmember to cuff clearance",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Upper cuff ear tool",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Upper cuff ear tool edge radii",
+      "type": "adsk::fusion::FilletFeature"
+    },
+    {
+      "name": "Upper cuff ear opposite side",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Upper cuff ear opposite end",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Upper cuff ear diagonal",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Rounded upper cuff mounting clearances",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Hip pitch motion clearance",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Opposite hip pitch clearance",
+      "type": "adsk::fusion::MirrorFeature"
+    },
+    {
+      "name": "Pitch freedom below the shoulders",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Obsolete front lip relief",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Remove obsolete front lip",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Remove disconnected obsolete lip",
+      "type": "adsk::fusion::RemoveFeature"
+    },
+    {
+      "name": "Remove disconnected obsolete lip (1)",
+      "type": "adsk::fusion::RemoveFeature"
+    },
+    {
+      "name": "Remove disconnected obsolete lip (2)",
+      "type": "adsk::fusion::RemoveFeature"
+    },
+    {
+      "name": "Remove disconnected obsolete lip (3)",
+      "type": "adsk::fusion::RemoveFeature"
+    },
+    {
+      "name": "Former cradle relief",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Open former cradle region",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Obsolete lidar seat tool (1)",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Remove old roof seat",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Close obsolete roof opening (1)",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Continuous roof over old sensor opening",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Sensor service opening tool",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Open sensor service aperture",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Left rail release tool",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Left open rail service path",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Left crossmember release tool",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Left open crossmember service path",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Right rail release tool",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Right open rail service path",
+      "type": "adsk::fusion::CombineFeature"
+    },
+    {
+      "name": "Right crossmember release tool",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Right open crossmember service path",
+      "type": "adsk::fusion::CombineFeature"
+    }
+  ],
+  "planes": [
+    {
+      "name": "Cover end datum",
+      "expression": "-cover_half_length"
+    },
+    {
+      "name": "Inner wall opening datum",
+      "expression": "-cover_half_length - 1 mm"
+    },
+    {
+      "name": "Open underside tool datum",
+      "expression": "( cover_lower_edge_z - 50 mm ) - ( 100 mm ) / 2"
+    },
+    {
+      "name": "Roof stiffening rib datum",
+      "expression": "( 46.75 mm ) - ( 5.5 mm ) / 2"
+    },
+    {
+      "name": "Stepped roll cartridge clearance axis offset",
+      "expression": "cover_roll_y"
+    },
+    {
+      "name": "Cover attachment boss datum",
+      "expression": "( cover_boss_z ) - ( cover_boss_height ) / 2"
+    },
+    {
+      "name": "Open mounting boss channel datum",
+      "expression": "( -13.3 mm ) - ( 80 mm ) / 2"
+    },
+    {
+      "name": "Inner boss release tool datum",
+      "expression": "( -5 mm ) - ( 100 mm ) / 2"
+    },
+    {
+      "name": "Lateral cover screw hole datum",
+      "expression": "101 mm"
+    },
+    {
+      "name": "Boss to cartridge clearance datum",
+      "expression": "cover_hip_x - 73.3 mm"
+    },
+    {
+      "name": "Lower end service relief datum",
+      "expression": "( -35.8 mm ) - ( 100 mm ) / 2"
+    },
+    {
+      "name": "Roof section 1",
+      "expression": "cover_roof_z - 2.7 mm"
+    },
+    {
+      "name": "Inner roof section 1",
+      "expression": "( cover_roof_z - 2.7 mm ) - 3 mm"
+    },
+    {
+      "name": "Roof section 2",
+      "expression": "cover_roof_z + 0.5 mm"
+    },
+    {
+      "name": "Inner roof section 2",
+      "expression": "( cover_roof_z + 0.5 mm ) - 3 mm"
+    },
+    {
+      "name": "Roof section 3",
+      "expression": "cover_roof_z + 4.5 mm"
+    },
+    {
+      "name": "Inner roof section 3",
+      "expression": "( cover_roof_z + 4.5 mm ) - 3 mm"
+    },
+    {
+      "name": "Roof section 4",
+      "expression": "cover_roof_z + 6 mm"
+    },
+    {
+      "name": "Inner roof section 4",
+      "expression": "( cover_roof_z + 6 mm ) - 3 mm"
+    },
+    {
+      "name": "Open old roof datum",
+      "expression": "45.8 mm"
+    },
+    {
+      "name": "Display aperture tool datum",
+      "expression": "( 55 mm ) - ( 20 mm ) / 2"
+    },
+    {
+      "name": "Upper half roll cuff axis offset",
+      "expression": "cover_roll_y"
+    },
+    {
+      "name": "Cuff structural root datum",
+      "expression": "( 46.5 mm ) - ( 5 mm ) / 2"
+    },
+    {
+      "name": "Crossmember underside clearance datum",
+      "expression": "( 41.8 mm ) - ( 4.6 mm ) / 2"
+    },
+    {
+      "name": "Upper cuff ear tool datum",
+      "expression": "( 24 mm ) - ( 14 mm ) / 2"
+    },
+    {
+      "name": "Hip pitch motion clearance datum",
+      "expression": "-200 mm"
+    },
+    {
+      "name": "Obsolete front lip relief datum",
+      "expression": "( 44 mm ) - ( 18 mm ) / 2"
+    },
+    {
+      "name": "Former cradle relief datum",
+      "expression": "( 60 mm ) - ( 70 mm ) / 2"
+    },
+    {
+      "name": "Obsolete lidar seat tool datum",
+      "expression": "45 mm"
+    },
+    {
+      "name": "Close obsolete roof opening datum",
+      "expression": "saddle_cover_roof_z - saddle_cover_roof_patch_thickness"
+    },
+    {
+      "name": "Sensor service opening datum",
+      "expression": "-70 mm"
+    },
+    {
+      "name": "Left rail release tool datum",
+      "expression": "( -14.5 mm ) - ( 100 mm ) / 2"
+    },
+    {
+      "name": "Left crossmember release tool datum",
+      "expression": "( -6.7 mm ) - ( 100 mm ) / 2"
+    },
+    {
+      "name": "Right rail release tool datum",
+      "expression": "( -14.5 mm ) - ( 100 mm ) / 2"
+    },
+    {
+      "name": "Right crossmember release tool datum",
+      "expression": "( -6.7 mm ) - ( 100 mm ) / 2"
+    }
+  ]
+}

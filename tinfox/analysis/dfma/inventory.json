@@ -1,0 +1,961 @@
+{
+  "model_path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/output/closed-thigh-work/model.json",
+  "model_sha256": "beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8",
+  "physical_component_count": 424,
+  "custom_material_families": [
+    {
+      "key": "battery_access_latch_-1",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.000194,
+      "bounds_mm": [
+        22.003109130996304,
+        1.8031091309963188,
+        4.0031091309963
+      ],
+      "note": ""
+    },
+    {
+      "key": "battery_access_latch_1",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.000194,
+      "bounds_mm": [
+        22.003109130996304,
+        1.8031091309963188,
+        4.0031091309963
+      ],
+      "note": ""
+    },
+    {
+      "key": "battery_cassette",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.216332,
+      "bounds_mm": [
+        140.09093425625753,
+        198.60435270339485,
+        69.54650251905024
+      ],
+      "note": "One-piece underside cassette with integral pack guides and four captive-nut pockets. Four side-access M3 screws attach the cassette independently to the frame. Pack adapters and contacts remain unselected."
+    },
+    {
+      "key": "battery_latch_-1",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.000903,
+      "bounds_mm": [
+        18.01243592398521,
+        5.012435923985208,
+        9.012435923985208
+      ],
+      "note": ""
+    },
+    {
+      "key": "battery_latch_1",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.000903,
+      "bounds_mm": [
+        18.01243592398521,
+        5.012435923985208,
+        9.012435923985208
+      ],
+      "note": ""
+    },
+    {
+      "key": "battery_side_panel_-1",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.015441,
+      "bounds_mm": [
+        135.96225080704403,
+        1.6059339008753,
+        60.00565630809886
+      ],
+      "note": "Compact lower trim panel stays within the cassette withdrawal envelope. Two M3 clearance holes align with integral cassette pilot bosses; screw specification remains provisional."
+    },
+    {
+      "key": "battery_side_panel_1",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.015441,
+      "bounds_mm": [
+        135.96225080704403,
+        1.6059339008753,
+        60.00565630809886
+      ],
+      "note": "Compact lower trim panel stays within the cassette withdrawal envelope. Two M3 clearance holes align with integral cassette pilot bosses; screw specification remains provisional."
+    },
+    {
+      "key": "battery_skid",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.105409,
+      "bounds_mm": [
+        138.02855355254428,
+        190.02855355254428,
+        1.5285535525443095
+      ],
+      "note": ""
+    },
+    {
+      "key": "belly_center_0",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.04532220241853601,
+      "bounds_mm": [
+        174.01277623943201,
+        220.01277623943201,
+        37.70889889298199
+      ],
+      "note": "Lower protective shell ends inside a rounded cassette perimeter. Thin motor-facing end crescents removed; actuator loads bypass this enclosure."
+    },
+    {
+      "key": "body_center_0",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.22616469111627618,
+      "bounds_mm": [
+        250.829699510534,
+        222.4328816801443,
+        59.52644910539874
+      ],
+      "note": "Continuous tangent shoulder opening with four lateral M3 x 10 screws into integral metal frame bosses at X +/-64, Z18. No cover tabs surround the fixed roll motor. Cover lifts upward after four screws are removed; motor frame remains assembled. Printed fit and strength unqualified."
+    },
+    {
+      "key": "body_nose_surround",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.028454330822426214,
+      "bounds_mm": [
+        89.00216717072502,
+        64.00201853494463,
+        17.204087539081073
+      ],
+      "note": "Short cradle with two direct crossmember feet, four open-bottom M3 nut pockets and two recessed M4 mounting screws. Print top clamping lands down."
+    },
+    {
+      "key": "chassis_beam_-102",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.05249396638831984,
+      "bounds_mm": [
+        262.0000002,
+        15.5,
+        54.0000001
+      ],
+      "note": "Tapped metal motor rail with open rounded motor windows. Retired cover-boss roots, their pilot holes and obsolete top-flange tie holes are removed. Current cover and tie mounting datums retained. Frame strength and machining access remain unqualified."
+    },
+    {
+      "key": "chassis_beam_102",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.052493966389289735,
+      "bounds_mm": [
+        262.0000002,
+        15.5,
+        54.0000001
+      ],
+      "note": "Tapped metal motor rail with open rounded motor windows. Retired cover-boss roots, their pilot holes and obsolete top-flange tie holes are removed. Current cover and tie mounting datums retained. Frame strength and machining access remain unqualified."
+    },
+    {
+      "key": "chassis_crossmember_-121",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.014566199341593358,
+      "bounds_mm": [
+        21.000301381303842,
+        219.00060256260764,
+        8.801056981197249
+      ],
+      "note": "Removable transverse tie with fastener feet at X +/-115, Y +/-104 and M3 x 8 countersunk screws seating at Z36. Two screws per rail thread into integral metal pads. Front tie has two integral 6.8 mm M4 tapped sensor pads; sensor mounting remains independently removable."
+    },
+    {
+      "key": "chassis_crossmember_121",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.016971898420505404,
+      "bounds_mm": [
+        21.000301381303856,
+        219.00060256260764,
+        8.802219267384338
+      ],
+      "note": "Removable transverse tie with fastener feet at X +/-115, Y +/-104 and M3 x 8 countersunk screws seating at Z36. Two screws per rail thread into integral metal pads. Front tie has two integral 6.8 mm M4 tapped sensor pads; sensor mounting remains independently removable."
+    },
+    {
+      "key": "chassis_lower_brace",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.081635,
+      "bounds_mm": [
+        134.00218853612347,
+        202.00218853612347,
+        3.003423773759555
+      ],
+      "note": "Flat 3 mm aluminum frame diaphragm with four rail attachments and four tapped deck mounts. Carries the lower rail connection independently of the deck. Plastic copy is an unloaded fit mockup; frame stiffness and joints require qualification."
+    },
+    {
+      "key": "electronics_shelf",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.088426,
+      "bounds_mm": [
+        134.01142154101774,
+        186.01142154101774,
+        4.011421541017725
+      ],
+      "note": "Flat 134 x 186 x 4 mm PETG electronics deck. Six rounded openings, four top-access M3 holes and four adapter slots. Print broad face down without designed supports. Computer standoffs and wiring remain component-specific; the fixed metal brace carries frame loads."
+    },
+    {
+      "key": "foot",
+      "quantity": 2,
+      "material": "rubber",
+      "mass_one_kg": 0.042142,
+      "bounds_mm": [
+        41.79118640762644,
+        45.391180887508604,
+        42.789759056716235
+      ],
+      "note": "Rounded boot envelope with a shin-aligned neck. Attachment cavity and retaining fastener remain to be detailed."
+    },
+    {
+      "key": "foot_right",
+      "quantity": 2,
+      "material": "rubber",
+      "mass_one_kg": 0.042142,
+      "bounds_mm": [
+        41.68036848541669,
+        45.16954504308911,
+        42.67894113450649
+      ],
+      "note": "Rounded boot envelope with a shin-aligned neck. Attachment cavity and retaining fastener remain to be detailed."
+    },
+    {
+      "key": "front_fascia",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.14401028670081184,
+      "bounds_mm": [
+        189.21073287163819,
+        196.58991267522265,
+        125.88393710319406
+      ],
+      "note": "Low continuous hood with integral lidar seat and four top-access M3 screws. Straight upward release. The retained face mounting holes are available for the sensor cartridge; selected sensor retention remains to be detailed."
+    },
+    {
+      "key": "hip_hub",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.04934551595423548,
+      "bounds_mm": [
+        87.02204562579425,
+        9.523812516693086,
+        75.76730948380703
+      ],
+      "note": "Rounded three-point aluminum mounting structure retaining the actuator bolt pattern. Tie circle radius 43.5 mm. Integral hub ribs and locally thickened tie pads support overturning loads; strength/fatigue remain unqualified."
+    },
+    {
+      "key": "hip_hub_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.04934551595423548,
+      "bounds_mm": [
+        87.02204562579425,
+        9.523812516693086,
+        75.76730948380703
+      ],
+      "note": "Rounded three-point aluminum mounting structure retaining the actuator bolt pattern. Tie circle radius 43.5 mm. Integral hub ribs and locally thickened tie pads support overturning loads; strength/fatigue remain unqualified."
+    },
+    {
+      "key": "input_crank",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0398533972303381,
+      "bounds_mm": [
+        56.5000001,
+        31.600000099999995,
+        36.0
+      ],
+      "note": "Integrated 28 mm input crank; motor bolt pattern retained. Structural and fatigue qualification pending."
+    },
+    {
+      "key": "input_crank_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.03985340246116145,
+      "bounds_mm": [
+        56.5000001,
+        31.600000099999995,
+        36.0
+      ],
+      "note": "Integrated 28 mm input crank; motor bolt pattern retained. Structural and fatigue qualification pending."
+    },
+    {
+      "key": "lidar_lid",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.012367193640121576,
+      "bounds_mm": [
+        54.01678437195598,
+        54.00000020000006,
+        2.0167843719559926
+      ],
+      "note": "Provisional lidar envelope. Seat Z80, horizontal optical band Z84\u2013102; actual model, mounting pattern and beam angles remain unselected."
+    },
+    {
+      "key": "motor_carrier_-1",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.21225843675623673,
+      "bounds_mm": [
+        111.32161812151503,
+        77.4387774062542,
+        88.0269934680015
+      ],
+      "note": "Shallow rounded bridge relief gives the rotating pod-tie screw tips nominal clearance without changing fastener length or motor datums."
+    },
+    {
+      "key": "motor_carrier_-1_right",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.21225843675623673,
+      "bounds_mm": [
+        111.32161812151503,
+        77.4387774062542,
+        88.0269934680015
+      ],
+      "note": "Shallow rounded bridge relief gives the rotating pod-tie screw tips nominal clearance without changing fastener length or motor datums."
+    },
+    {
+      "key": "motor_carrier_1",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.21226030737075713,
+      "bounds_mm": [
+        111.3216181215146,
+        77.43877740625672,
+        88.02699346800321
+      ],
+      "note": "Shallow rounded bridge relief gives the rotating pod-tie screw tips nominal clearance without changing fastener length or motor datums."
+    },
+    {
+      "key": "motor_carrier_1_right",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.21226030737075713,
+      "bounds_mm": [
+        111.3216181215146,
+        77.43877740625672,
+        88.02699346800321
+      ],
+      "note": "Shallow rounded bridge relief gives the rotating pod-tie screw tips nominal clearance without changing fastener length or motor datums."
+    },
+    {
+      "key": "motor_mount_ring",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.021856310332168782,
+      "bounds_mm": [
+        84.34576485451878,
+        4.50868234861823,
+        88.50088971603473
+      ],
+      "note": "Rounded three-point aluminum mounting structure retaining the actuator bolt pattern. Tie circle radius 43.5 mm. Integral hub ribs and locally thickened tie pads support overturning loads; strength/fatigue remain unqualified."
+    },
+    {
+      "key": "motor_mount_ring_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.021856310332168782,
+      "bounds_mm": [
+        84.34576485451878,
+        4.50868234861823,
+        88.50088971603473
+      ],
+      "note": "Rounded three-point aluminum mounting structure retaining the actuator bolt pattern. Tie circle radius 43.5 mm. Integral hub ribs and locally thickened tie pads support overturning loads; strength/fatigue remain unqualified."
+    },
+    {
+      "key": "pod_sleeve_210",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0013395248420082267,
+      "bounds_mm": [
+        5.0000002000000165,
+        51.50098855114969,
+        5.000988551149689
+      ],
+      "note": "5 mm OD / 3.4 mm ID metal tube segments, cut to 41 and 6 mm. The complete tie compression stack spans hub pad to stator pad to screw head; tie radius 43.5 mm. Two separately cut sleeves per tie."
+    },
+    {
+      "key": "pod_sleeve_210_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0013395248420082267,
+      "bounds_mm": [
+        5.0000002000000165,
+        51.50098855114969,
+        5.000988551149689
+      ],
+      "note": "5 mm OD / 3.4 mm ID metal tube segments, cut to 41 and 6 mm. The complete tie compression stack spans hub pad to stator pad to screw head; tie radius 43.5 mm. Two separately cut sleeves per tie."
+    },
+    {
+      "key": "pod_sleeve_330",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0013395248420082272,
+      "bounds_mm": [
+        5.0000002000000165,
+        51.50098855114969,
+        5.000988551149689
+      ],
+      "note": "5 mm OD / 3.4 mm ID metal tube segments, cut to 41 and 6 mm. The complete tie compression stack spans hub pad to stator pad to screw head; tie radius 43.5 mm. Two separately cut sleeves per tie."
+    },
+    {
+      "key": "pod_sleeve_330_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0013395248420082272,
+      "bounds_mm": [
+        5.0000002000000165,
+        51.50098855114969,
+        5.000988551149689
+      ],
+      "note": "5 mm OD / 3.4 mm ID metal tube segments, cut to 41 and 6 mm. The complete tie compression stack spans hub pad to stator pad to screw head; tie radius 43.5 mm. Two separately cut sleeves per tie."
+    },
+    {
+      "key": "pod_sleeve_90",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0013395248420082272,
+      "bounds_mm": [
+        5.000000200000013,
+        51.50098855114969,
+        5.000988551149689
+      ],
+      "note": "5 mm OD / 3.4 mm ID metal tube segments, cut to 41 and 6 mm. The complete tie compression stack spans hub pad to stator pad to screw head; tie radius 43.5 mm. Two separately cut sleeves per tie."
+    },
+    {
+      "key": "pod_sleeve_90_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0013395248420082259,
+      "bounds_mm": [
+        5.000000200000013,
+        51.50098855114969,
+        5.000988551149689
+      ],
+      "note": "5 mm OD / 3.4 mm ID metal tube segments, cut to 41 and 6 mm. The complete tie compression stack spans hub pad to stator pad to screw head; tie radius 43.5 mm. Two separately cut sleeves per tie."
+    },
+    {
+      "key": "power_button",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 8.1e-05,
+      "bounds_mm": [
+        9.009062601128178,
+        9.00000020000001,
+        1.0090626011281785
+      ],
+      "note": ""
+    },
+    {
+      "key": "roll_cartridge_-1",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.045914,
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "note": "50 x 66 x 8 RA5008-size crossed-roller bearing envelope; preload, retention and moment capacity require supplier review."
+    },
+    {
+      "key": "roll_cartridge_-1_right",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.045914,
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "note": "50 x 66 x 8 RA5008-size crossed-roller bearing envelope; preload, retention and moment capacity require supplier review."
+    },
+    {
+      "key": "roll_cartridge_1",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.045914,
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "note": "50 x 66 x 8 RA5008-size crossed-roller bearing envelope; preload, retention and moment capacity require supplier review."
+    },
+    {
+      "key": "roll_cartridge_1_right",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.045914,
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "note": "50 x 66 x 8 RA5008-size crossed-roller bearing envelope; preload, retention and moment capacity require supplier review."
+    },
+    {
+      "key": "shin_clamp_sleeve_105",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0017371326622281893,
+      "bounds_mm": [
+        8.002685556214189,
+        18.003580741732,
+        8.001790470866027
+      ],
+      "note": "8 OD x 4.3 ID x 18 mm metal compression sleeve."
+    },
+    {
+      "key": "shin_clamp_sleeve_105_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.001737132662228188,
+      "bounds_mm": [
+        8.002685556214189,
+        18.003580741732,
+        8.001790470866027
+      ],
+      "note": "8 OD x 4.3 ID x 18 mm metal compression sleeve."
+    },
+    {
+      "key": "shin_clamp_sleeve_37",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.001737132662228188,
+      "bounds_mm": [
+        8.002685556214175,
+        18.00358074173198,
+        8.001790470865995
+      ],
+      "note": "8 OD x 4.3 ID x 18 mm metal compression sleeve."
+    },
+    {
+      "key": "shin_clamp_sleeve_37_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.001737132662228188,
+      "bounds_mm": [
+        8.002685556214175,
+        18.00358074173198,
+        8.001790470865995
+      ],
+      "note": "8 OD x 4.3 ID x 18 mm metal compression sleeve."
+    },
+    {
+      "key": "shin_inner",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.060578568031121695,
+      "bounds_mm": [
+        42.473513150711305,
+        16.72291688700259,
+        174.2963964941688
+      ],
+      "note": "Coordinated rounded structural limb. Thigh motor cup and crowned face; shin rounded crosssection with integral cam and complete bearing seats. Original linkage and foot planes retained. Nominal fit/motion checks do not establish printed strength."
+    },
+    {
+      "key": "shin_inner_right",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.060578568031121695,
+      "bounds_mm": [
+        42.473513150711305,
+        16.72291688700259,
+        174.2963964941688
+      ],
+      "note": "Coordinated rounded structural limb. Thigh motor cup and crowned face; shin rounded crosssection with integral cam and complete bearing seats. Original linkage and foot planes retained. Nominal fit/motion checks do not establish printed strength."
+    },
+    {
+      "key": "shin_outer",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.06547731537261615,
+      "bounds_mm": [
+        42.36490756653319,
+        18.37686712867533,
+        174.17915063964728
+      ],
+      "note": "Coordinated rounded structural limb. Thigh motor cup and crowned face; shin rounded crosssection with integral cam and complete bearing seats. Original linkage and foot planes retained. Nominal fit/motion checks do not establish printed strength."
+    },
+    {
+      "key": "shin_outer_right",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.06547731537261615,
+      "bounds_mm": [
+        42.36490756653319,
+        18.37686712867533,
+        174.17915063964728
+      ],
+      "note": "Coordinated rounded structural limb. Thigh motor cup and crowned face; shin rounded crosssection with integral cam and complete bearing seats. Original linkage and foot planes retained. Nominal fit/motion checks do not establish printed strength."
+    },
+    {
+      "key": "sleeve_0",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0017371326622282234,
+      "bounds_mm": [
+        8.00000020000003,
+        18.001581561839494,
+        8.001581561839494
+      ],
+      "note": "Common M4 x 25 screw, 18 mm compression sleeve and M4 nut stack. Both thigh clamps use the same dimensions; circular recesses expose the nuts. One standard nut is added at the previously incomplete front clamp."
+    },
+    {
+      "key": "sleeve_0_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0017371326622282234,
+      "bounds_mm": [
+        8.00000020000003,
+        18.001581561839494,
+        8.001581561839494
+      ],
+      "note": "Common M4 x 25 screw, 18 mm compression sleeve and M4 nut stack. Both thigh clamps use the same dimensions; circular recesses expose the nuts. One standard nut is added at the previously incomplete front clamp."
+    },
+    {
+      "key": "sleeve_1",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0017371326622282214,
+      "bounds_mm": [
+        8.000000200000036,
+        18.001581561839515,
+        8.001581561839515
+      ],
+      "note": "Common M4 x 25 screw, 18 mm compression sleeve and M4 nut stack. Both thigh clamps use the same dimensions; circular recesses expose the nuts. One standard nut is added at the previously incomplete front clamp."
+    },
+    {
+      "key": "sleeve_1_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0017371326622282214,
+      "bounds_mm": [
+        8.000000200000036,
+        18.001581561839515,
+        8.001581561839515
+      ],
+      "note": "Common M4 x 25 screw, 18 mm compression sleeve and M4 nut stack. Both thigh clamps use the same dimensions; circular recesses expose the nuts. One standard nut is added at the previously incomplete front clamp."
+    },
+    {
+      "key": "thigh_inner",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.09033390302030334,
+      "bounds_mm": [
+        71.38241093486377,
+        58.51102161232204,
+        231.858197940427
+      ],
+      "note": "Continuous outer thigh face without the cosmetic waist depression. Six-millimetre outer waist skin, eight-millimetre sidewalls, original motor/crank/bearing datums and two structural halves. Strength remains unqualified."
+    },
+    {
+      "key": "thigh_inner_right",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.09033390302030334,
+      "bounds_mm": [
+        71.38241093486377,
+        58.51102161232204,
+        231.858197940427
+      ],
+      "note": "Continuous outer thigh face without the cosmetic waist depression. Six-millimetre outer waist skin, eight-millimetre sidewalls, original motor/crank/bearing datums and two structural halves. Strength remains unqualified."
+    },
+    {
+      "key": "thigh_outer",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.23305609291782992,
+      "bounds_mm": [
+        89.77044941374912,
+        88.6000001,
+        242.50000020000098
+      ],
+      "note": "Continuous front wall and smooth outer face. The conservative full-sphere foot cut is omitted; validate against the modeled boot over the complete knee range. Original motor, crank, pushrod and bearing interfaces; two structural halves. Strength and production fits remain unqualified."
+    },
+    {
+      "key": "thigh_outer_right",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.23305609291782994,
+      "bounds_mm": [
+        89.77044941374912,
+        88.6000001,
+        242.50000020000098
+      ],
+      "note": "Continuous front wall and smooth outer face. The conservative full-sphere foot cut is omitted; validate against the modeled boot over the complete knee range. Original motor, crank, pushrod and bearing interfaces; two structural halves. Strength and production fits remain unqualified."
+    }
+  ],
+  "mass_sum_by_material_kg": {
+    "petg": 2.579650028425535,
+    "envelope": 6.628232,
+    "steel": 1.2592518302024838,
+    "aluminum": 1.8567200376621844,
+    "rubber": 0.168568
+  },
+  "parameters": {
+    "units": "mm",
+    "thigh": 170,
+    "shank_to_foot_center": 148,
+    "foot_radius": 22,
+    "body_length": 464,
+    "body_width": 222.4,
+    "body_height": 96,
+    "hip_x": 185,
+    "roll_y": 68,
+    "pitch_offset": 0,
+    "shin_y": 67,
+    "crank_radius": 28.0,
+    "crank_phase_deg": -78,
+    "rod_length": 170,
+    "rod_diameter": 6,
+    "knee_shaft_diameter": 12,
+    "bearing_id": 12,
+    "bearing_od": 28,
+    "bearing_width": 8,
+    "motor_radius": 39.25,
+    "motor_depth": 45.4,
+    "motor_mass_kg": 0.405,
+    "shell_skin": 3.0,
+    "shell_wall": 2.8,
+    "knee_efficiency_assumption": 0.9,
+    "clearance_screen_mm": 1.5,
+    "joint_limits_deg": {
+      "roll": [
+        -60,
+        60
+      ],
+      "hip_front": [
+        -90,
+        200
+      ],
+      "hip_rear": [
+        -30,
+        260
+      ],
+      "knee": [
+        -156,
+        -48
+      ]
+    },
+    "nominal_pose_deg": [
+      0,
+      30,
+      -60
+    ],
+    "battery_envelope_mm": [
+      125,
+      85,
+      65
+    ],
+    "battery_each_mass_kg_assumed": 0.7,
+    "compute_sensors_wiring_mass_kg_assumed": 0.8,
+    "payload_cases_kg": [
+      0,
+      1
+    ],
+    "h2d_single_nozzle_volume_mm": [
+      325,
+      320,
+      325
+    ],
+    "print_bed_margin_mm": 10,
+    "rod_y": 70,
+    "roll_motor_x": 90,
+    "thigh_inner_y": 45,
+    "thigh_depth": 48,
+    "cap_y": 92.8,
+    "battery_center_z": -33.5,
+    "skid_below_hip_mm": 71,
+    "weight_target_kg": 10,
+    "battery_mass_basis": "Compact 5 Ah pack plus lightweight adapter target; verify exact pack mass and envelope.",
+    "electronics_mass_basis": "0.80 kg allocation for low-power SBC, compact lidar, GPS, microcontrollers, wiring and converters; not a selected BOM.",
+    "electronics_clearance_mm": [
+      130,
+      135,
+      32
+    ],
+    "motor_stack_inset_mm": 4,
+    "limb_recess_mm": 12,
+    "body_skin": 2.8,
+    "central_roof_height_mm": 49.5,
+    "nose_extension_mm": 13.4,
+    "shoulder_crown_height_mm": 55.5,
+    "front_face_center_x_mm": 263.4,
+    "front_face_horizontal_radius_at_center_mm": 600.25,
+    "front_face_crown_mm": 8.0,
+    "front_face_skin_mm": 1.8,
+    "front_face_vertical_crown_mm": 10.0,
+    "front_face_vertical_radius_at_center_mm": 88.2,
+    "knee_bearing_inner_y": 53.0,
+    "knee_bearing_outer_y": 77.0,
+    "knee_bearing_width": 8.0,
+    "knee_crown_radius": 21.0,
+    "knee_shaft_channel_y": [
+      66.5,
+      73.5
+    ],
+    "low_lidar_center_x_mm": 121.0,
+    "low_lidar_seat_z_mm": 80.0,
+    "low_lidar_raise_mm": 28,
+    "low_lidar_scan_band_z_mm": [
+      84.0,
+      102.0
+    ],
+    "low_lidar_cable_bore_mm": 18,
+    "sensor_hood_screw_centers_xy_mm": [
+      [
+        92,
+        -25
+      ],
+      [
+        92,
+        25
+      ],
+      [
+        164,
+        -18
+      ],
+      [
+        164,
+        18
+      ]
+    ],
+    "sensor_saddle_split_z_mm": 60,
+    "seamless_thigh_face_radius_mm": 500.0,
+    "seamless_thigh_outer_edge_radius_mm": 8,
+    "seamless_shell_wall_mm": 4,
+    "seamless_thigh_cap_y_mm": 94,
+    "thigh_cnc_relief_tool_diameter_mm": 3,
+    "thigh_split_blend_radius_mm": 3,
+    "thigh_fixture_land_diameter_mm": 8,
+    "thigh_fixture_land_y_mm": 93.4,
+    "thigh_motor_bore_entry_chamfer_mm": 1,
+    "slim_tie_radius_mm": 43.5,
+    "slim_case_bore_radius_mm": 40.25,
+    "slim_case_outer_radius_mm": 45.4,
+    "slim_wall_mm": 8.0,
+    "slim_rear_clamp_xz_mm": [
+      -36.0,
+      -66.0
+    ],
+    "slim_roof_bezier_control_points_mm": [
+      [
+        [
+          -117,
+          94
+        ],
+        [
+          -108,
+          94
+        ],
+        [
+          -105,
+          94
+        ],
+        [
+          -90,
+          94
+        ]
+      ],
+      [
+        [
+          -90,
+          94
+        ],
+        [
+          -76,
+          94
+        ],
+        [
+          -61,
+          94
+        ],
+        [
+          -45,
+          94
+        ]
+      ]
+    ],
+    "slim_front_clamp_xz_mm": [
+      5.0,
+      -70.0
+    ],
+    "slim_waist_outer_skin_maximum_mm": 6,
+    "slim_inner_knee_pad_y_mm": [
+      45,
+      49
+    ],
+    "slim_knee_opening_y_mm": [
+      50.5,
+      86.5
+    ],
+    "slim_pin_thread_length_mm": 7,
+    "slim_pin_tail_clearance_radial_mm": 1.75,
+    "slim_stator_plate_outer_radius_mm": 40.5,
+    "slim_stator_plate_boss_radius_mm": 4.5,
+    "body_cover_screw_x_mm": 64,
+    "body_cover_screw_z_mm": 18,
+    "chassis_tie_y_mm": 104,
+    "chassis_tie_pad_x_mm": 115,
+    "chassis_tie_pad_height_mm": 8,
+    "chassis_tie_engagement_mm": 6,
+    "slim_waist_divot_depth_mm": 0,
+    "thigh_spherical_foot_relief": false,
+    "thigh_foot_clearance_required_mm": 1.5,
+    "chassis_retired_mounts_removed": true
+  },
+  "source_files": {
+    "build.py": {
+      "sha256": "37ac5605adf83a91cefd72803033688dcfe2adf9d59a93e37ae770b9633962d9",
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/build.py"
+    },
+    "slim_limb.py": {
+      "sha256": "861c37a7e65f61910072a47b058560a13bb433513d8b68cc31d369bda125654b",
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/slim_limb.py"
+    },
+    "seamless_limb.py": {
+      "sha256": "47ceb1a9f328c1973f9cd57a9436ad29d903e762a85ba6c87015d0d78a949272",
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/seamless_limb.py"
+    },
+    "cohesive_limb.py": {
+      "sha256": "e456cdaa860ee0d98a31aa998c37660683cbd4e77551c179c1209a51ce011c57",
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/cohesive_limb.py"
+    },
+    "cohesive_chassis.py": {
+      "sha256": "16ba51b4e136f350b889bda44c44f33567e9181c18c30f3477036fa71ac6caff",
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/cohesive_chassis.py"
+    },
+    "closed_thigh.py": {
+      "sha256": "42f513e494e1342853590953d454308186afa6d611295d3aef2c528c0bc8fa6f",
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/closed_thigh.py"
+    },
+    "service_design.py": {
+      "sha256": "5ca03f3ab0b3c83c4395e582243dc4157d100edfe186e6b49fbfac47b799de02",
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/service_design.py"
+    },
+    "printed_carrier.py": {
+      "sha256": "46423b436290a219e4ef00300f9eb46bb101d3694f5afaeeef19343e7d7a7332",
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/printed_carrier.py"
+    },
+    "low_sensor_saddle.py": {
+      "sha256": "211f67f47e7896834adcfe6f2393a8aaf17abb4a285221aa7765102c2ca7ea8f",
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/low_sensor_saddle.py"
+    }
+  },
+  "scope": "Inventory and documented dimensions only. Reference envelopes can have assigned masses; this is not a BOM cost, stock verification or physical qualification."
+}

@@ -1,0 +1,439 @@
+{
+  "model_sha256": "beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8",
+  "source": "Frozen generated geometry; left front leg; bearing pair centered at existing roll bearing midpoint.",
+  "limitations": [
+    "Proposed architecture only; no changed CAD or Fusion model is validated.",
+    "Vertical point force only; omits horizontal/axial contact force, limb inertia, bearing stiffness and motor-bearing load sharing.",
+    "3g and one-foot cases are force screens, not physically feasible gaits or qualified jumps.",
+    "C0r/reaction is a catalog static-rating ratio, not a structural safety factor or service-life prediction.",
+    "Pair spacing, finish fits, shoulders, retention and preload remain to be designed."
+  ],
+  "bearings": {
+    "Koyo 6808 2RS": {
+      "d_mm": 40,
+      "D_mm": 52,
+      "B_mm": 7,
+      "Cr_N": 6150,
+      "C0r_N": 4200,
+      "mass_kg": 0.033
+    },
+    "Koyo 6809 2RS": {
+      "d_mm": 45,
+      "D_mm": 58,
+      "B_mm": 7,
+      "Cr_N": 7750,
+      "C0r_N": 5400,
+      "mass_kg": 0.04
+    },
+    "Koyo 6810 2RS": {
+      "d_mm": 50,
+      "D_mm": 65,
+      "B_mm": 7,
+      "Cr_N": 8200,
+      "C0r_N": 6100,
+      "mass_kg": 0.052
+    }
+  },
+  "packaging": [
+    {
+      "spacing_mm": 14,
+      "bearing_pack_length_mm": 21,
+      "housing_length_assuming_2mm_each_end_mm": 25,
+      "growth_over_current_16_3mm_barrel_mm": 8.7,
+      "journal_growth_over_current_13_3mm_mm": 7.699999999999999
+    },
+    {
+      "spacing_mm": 20,
+      "bearing_pack_length_mm": 27,
+      "housing_length_assuming_2mm_each_end_mm": 31,
+      "growth_over_current_16_3mm_barrel_mm": 14.7,
+      "journal_growth_over_current_13_3mm_mm": 13.7
+    }
+  ],
+  "cases": [
+    {
+      "pose": "stand",
+      "loading": "loaded_two_foot",
+      "force_per_foot_N": 70.14150000000001,
+      "foot_relative_pair_midpoint_mm": [
+        49.0,
+        67.0,
+        -297.3960784034515
+      ],
+      "roll_axis_moment_Nm": 4.699480500000001,
+      "transverse_overturning_moment_Nm": 3.4369335000000003,
+      "reactions": [
+        {
+          "center_spacing_mm": 14,
+          "maximum_radial_reaction_screen_N": 280.56600000000003,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 14.969739740381941,
+            "Koyo 6809 2RS": 19.246808237633925,
+            "Koyo 6810 2RS": 21.741764861030912
+          }
+        },
+        {
+          "center_spacing_mm": 20,
+          "maximum_radial_reaction_screen_N": 206.917425,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 20.297952190348397,
+            "Koyo 6809 2RS": 26.097367101876507,
+            "Koyo 6810 2RS": 29.48035913360124
+          }
+        }
+      ]
+    },
+    {
+      "pose": "stand",
+      "loading": "loaded_one_foot",
+      "force_per_foot_N": 140.28300000000002,
+      "foot_relative_pair_midpoint_mm": [
+        49.0,
+        67.0,
+        -297.3960784034515
+      ],
+      "roll_axis_moment_Nm": 9.398961000000002,
+      "transverse_overturning_moment_Nm": 6.873867000000001,
+      "reactions": [
+        {
+          "center_spacing_mm": 14,
+          "maximum_radial_reaction_screen_N": 561.1320000000001,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 7.484869870190971,
+            "Koyo 6809 2RS": 9.623404118816962,
+            "Koyo 6810 2RS": 10.870882430515456
+          }
+        },
+        {
+          "center_spacing_mm": 20,
+          "maximum_radial_reaction_screen_N": 413.83485,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 10.148976095174199,
+            "Koyo 6809 2RS": 13.048683550938254,
+            "Koyo 6810 2RS": 14.74017956680062
+          }
+        }
+      ]
+    },
+    {
+      "pose": "stand",
+      "loading": "unloaded_3g_two_foot",
+      "force_per_foot_N": 195.70950000000002,
+      "foot_relative_pair_midpoint_mm": [
+        49.0,
+        67.0,
+        -297.3960784034515
+      ],
+      "roll_axis_moment_Nm": 13.112536500000003,
+      "transverse_overturning_moment_Nm": 9.589765500000002,
+      "reactions": [
+        {
+          "center_spacing_mm": 14,
+          "maximum_radial_reaction_screen_N": 782.8380000000001,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 5.365094693921347,
+            "Koyo 6809 2RS": 6.8979788921845895,
+            "Koyo 6810 2RS": 7.7921613411714805
+          }
+        },
+        {
+          "center_spacing_mm": 20,
+          "maximum_radial_reaction_screen_N": 577.3430250000001,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 7.274704669723859,
+            "Koyo 6809 2RS": 9.353191718216392,
+            "Koyo 6810 2RS": 10.5656424965037
+          }
+        }
+      ]
+    },
+    {
+      "pose": "raised",
+      "loading": "loaded_two_foot",
+      "force_per_foot_N": 70.14150000000001,
+      "foot_relative_pair_midpoint_mm": [
+        51.051793852332395,
+        67.0,
+        -312.5074555303471
+      ],
+      "roll_axis_moment_Nm": 4.699480500000001,
+      "transverse_overturning_moment_Nm": 3.580849398493373,
+      "reactions": [
+        {
+          "center_spacing_mm": 14,
+          "maximum_radial_reaction_screen_N": 290.84570703524093,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 14.440646357868015,
+            "Koyo 6809 2RS": 18.56654531725888,
+            "Koyo 6810 2RS": 20.97331971023688
+          }
+        },
+        {
+          "center_spacing_mm": 20,
+          "maximum_radial_reaction_screen_N": 214.11321992466867,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 19.615790194915025,
+            "Koyo 6809 2RS": 25.220301679176462,
+            "Koyo 6810 2RS": 28.48960004499563
+          }
+        }
+      ]
+    },
+    {
+      "pose": "raised",
+      "loading": "loaded_one_foot",
+      "force_per_foot_N": 140.28300000000002,
+      "foot_relative_pair_midpoint_mm": [
+        51.051793852332395,
+        67.0,
+        -312.5074555303471
+      ],
+      "roll_axis_moment_Nm": 9.398961000000002,
+      "transverse_overturning_moment_Nm": 7.161698796986746,
+      "reactions": [
+        {
+          "center_spacing_mm": 14,
+          "maximum_radial_reaction_screen_N": 581.6914140704819,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 7.220323178934008,
+            "Koyo 6809 2RS": 9.28327265862944,
+            "Koyo 6810 2RS": 10.48665985511844
+          }
+        },
+        {
+          "center_spacing_mm": 20,
+          "maximum_radial_reaction_screen_N": 428.22643984933734,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 9.807895097457513,
+            "Koyo 6809 2RS": 12.610150839588231,
+            "Koyo 6810 2RS": 14.244800022497815
+          }
+        }
+      ]
+    },
+    {
+      "pose": "raised",
+      "loading": "unloaded_3g_two_foot",
+      "force_per_foot_N": 195.70950000000002,
+      "foot_relative_pair_midpoint_mm": [
+        51.051793852332395,
+        67.0,
+        -312.5074555303471
+      ],
+      "roll_axis_moment_Nm": 13.112536500000003,
+      "transverse_overturning_moment_Nm": 9.991321048943048,
+      "reactions": [
+        {
+          "center_spacing_mm": 14,
+          "maximum_radial_reaction_screen_N": 811.5205392102176,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 5.175469747306082,
+            "Koyo 6809 2RS": 6.654175389393533,
+            "Koyo 6810 2RS": 7.516753680611213
+          }
+        },
+        {
+          "center_spacing_mm": 20,
+          "maximum_radial_reaction_screen_N": 597.4208024471524,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 7.03022054604724,
+            "Koyo 6809 2RS": 9.038854987775023,
+            "Koyo 6810 2RS": 10.21055841211623
+          }
+        }
+      ]
+    },
+    {
+      "pose": "reach",
+      "loading": "loaded_two_foot",
+      "force_per_foot_N": 70.14150000000001,
+      "foot_relative_pair_midpoint_mm": [
+        236.9570055209565,
+        91.44314868557422,
+        -191.236943676855
+      ],
+      "roll_axis_moment_Nm": 6.4139596135292045,
+      "transverse_overturning_moment_Nm": 16.620519802748174,
+      "reactions": [
+        {
+          "center_spacing_mm": 14,
+          "maximum_radial_reaction_screen_N": 1222.250735910584,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 3.4362834699960114,
+            "Koyo 6809 2RS": 4.418078747137729,
+            "Koyo 6810 2RS": 4.9907926588037315
+          }
+        },
+        {
+          "center_spacing_mm": 20,
+          "maximum_radial_reaction_screen_N": 866.0967401374087,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 4.849342810519825,
+            "Koyo 6809 2RS": 6.234869327811204,
+            "Koyo 6810 2RS": 7.043093129564507
+          }
+        }
+      ]
+    },
+    {
+      "pose": "reach",
+      "loading": "loaded_one_foot",
+      "force_per_foot_N": 140.28300000000002,
+      "foot_relative_pair_midpoint_mm": [
+        236.9570055209565,
+        91.44314868557422,
+        -191.236943676855
+      ],
+      "roll_axis_moment_Nm": 12.827919227058409,
+      "transverse_overturning_moment_Nm": 33.24103960549635,
+      "reactions": [
+        {
+          "center_spacing_mm": 14,
+          "maximum_radial_reaction_screen_N": 2444.501471821168,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 1.7181417349980057,
+            "Koyo 6809 2RS": 2.2090393735688645,
+            "Koyo 6810 2RS": 2.4953963294018657
+          }
+        },
+        {
+          "center_spacing_mm": 20,
+          "maximum_radial_reaction_screen_N": 1732.1934802748174,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 2.4246714052599123,
+            "Koyo 6809 2RS": 3.117434663905602,
+            "Koyo 6810 2RS": 3.5215465647822537
+          }
+        }
+      ]
+    },
+    {
+      "pose": "reach",
+      "loading": "unloaded_3g_two_foot",
+      "force_per_foot_N": 195.70950000000002,
+      "foot_relative_pair_midpoint_mm": [
+        236.9570055209565,
+        91.44314868557422,
+        -191.236943676855
+      ],
+      "roll_axis_moment_Nm": 17.89629290767939,
+      "transverse_overturning_moment_Nm": 46.37473707200364,
+      "reactions": [
+        {
+          "center_spacing_mm": 14,
+          "maximum_radial_reaction_screen_N": 3410.3359694288315,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 1.2315502160637337,
+            "Koyo 6809 2RS": 1.5834217063676574,
+            "Koyo 6810 2RS": 1.7886800757116132
+          }
+        },
+        {
+          "center_spacing_mm": 20,
+          "maximum_radial_reaction_screen_N": 2416.5916036001818,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 1.737985017304098,
+            "Koyo 6809 2RS": 2.234552165105269,
+            "Koyo 6810 2RS": 2.524216334655952
+          }
+        }
+      ]
+    },
+    {
+      "pose": "crouch",
+      "loading": "loaded_two_foot",
+      "force_per_foot_N": 70.14150000000001,
+      "foot_relative_pair_midpoint_mm": [
+        40.061228685193726,
+        67.0,
+        -156.3926072335424
+      ],
+      "roll_axis_moment_Nm": 4.699480500000001,
+      "transverse_overturning_moment_Nm": 2.809954671822516,
+      "reactions": [
+        {
+          "center_spacing_mm": 14,
+          "maximum_radial_reaction_screen_N": 235.7817979873226,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 17.813079872373454,
+            "Koyo 6809 2RS": 22.902531264480157,
+            "Koyo 6810 2RS": 25.871377909875733
+          }
+        },
+        {
+          "center_spacing_mm": 20,
+          "maximum_radial_reaction_screen_N": 175.5684835911258,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 23.922288978591435,
+            "Koyo 6809 2RS": 30.757228686760413,
+            "Koyo 6810 2RS": 34.744276849858984
+          }
+        }
+      ]
+    },
+    {
+      "pose": "crouch",
+      "loading": "loaded_one_foot",
+      "force_per_foot_N": 140.28300000000002,
+      "foot_relative_pair_midpoint_mm": [
+        40.061228685193726,
+        67.0,
+        -156.3926072335424
+      ],
+      "roll_axis_moment_Nm": 9.398961000000002,
+      "transverse_overturning_moment_Nm": 5.619909343645032,
+      "reactions": [
+        {
+          "center_spacing_mm": 14,
+          "maximum_radial_reaction_screen_N": 471.5635959746452,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 8.906539936186727,
+            "Koyo 6809 2RS": 11.451265632240078,
+            "Koyo 6810 2RS": 12.935688954937866
+          }
+        },
+        {
+          "center_spacing_mm": 20,
+          "maximum_radial_reaction_screen_N": 351.1369671822516,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 11.961144489295718,
+            "Koyo 6809 2RS": 15.378614343380207,
+            "Koyo 6810 2RS": 17.372138424929492
+          }
+        }
+      ]
+    },
+    {
+      "pose": "crouch",
+      "loading": "unloaded_3g_two_foot",
+      "force_per_foot_N": 195.70950000000002,
+      "foot_relative_pair_midpoint_mm": [
+        40.061228685193726,
+        67.0,
+        -156.3926072335424
+      ],
+      "roll_axis_moment_Nm": 13.112536500000003,
+      "transverse_overturning_moment_Nm": 7.8403630353649225,
+      "reactions": [
+        {
+          "center_spacing_mm": 14,
+          "maximum_radial_reaction_screen_N": 657.8806810974944,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 6.3841363953619155,
+            "Koyo 6809 2RS": 8.208175365465321,
+            "Koyo 6810 2RS": 9.27219809802564
+          }
+        },
+        {
+          "center_spacing_mm": 20,
+          "maximum_radial_reaction_screen_N": 489.87290176824615,
+          "C0r_over_reaction": {
+            "Koyo 6808 2RS": 8.573652440948809,
+            "Koyo 6809 2RS": 11.02326742407704,
+            "Koyo 6810 2RS": 12.452209497568509
+          }
+        }
+      ]
+    }
+  ]
+}

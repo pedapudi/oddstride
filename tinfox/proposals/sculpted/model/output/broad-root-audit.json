@@ -1,0 +1,52 @@
+{
+  "model_sha256": "144a84e88daed50139f890480e9f1a1740cfb20c773e740ba6b4e9c1b9eede5e",
+  "motor_collar_sections": [
+    {
+      "local_y_mm": 60,
+      "section_area_mm2": 1539.6241777335094
+    },
+    {
+      "local_y_mm": 64,
+      "section_area_mm2": 1470.9774431789554
+    },
+    {
+      "local_y_mm": 68,
+      "section_area_mm2": 1457.8043709031972
+    }
+  ],
+  "shin_mating_lands": [
+    {
+      "part": "shin_inner",
+      "split_face_area_mm2": 2409.0449200144776
+    },
+    {
+      "part": "shin_outer",
+      "split_face_area_mm2": 2409.0449200145067
+    }
+  ],
+  "end_cap_attachment_roots": [
+    {
+      "part": "body_nose_surround",
+      "root_x_mm": 140.2,
+      "minimum_sampled_attachment_section_mm2": 95.19999999999659
+    },
+    {
+      "part": "body_aft_0",
+      "root_x_mm": -140.2,
+      "minimum_sampled_attachment_section_mm2": 95.199999999997
+    }
+  ],
+  "dimensions_mm": {
+    "collar_radial_wall": 7.5,
+    "collar_axial_length": 20.2,
+    "shin_retaining_shoulders": 3,
+    "fork_outer_ear": 7.8,
+    "fork_boss_diameter": 21,
+    "structural_shin_bearing_wall": 5,
+    "end_cap_lap_length": 26,
+    "end_cap_rib_width": 28,
+    "shin_join_rib_length": 16,
+    "integrated_motor_face": 3
+  },
+  "scope": "Selected exact-solid sections and mating faces, not a universal wall-thickness search or strength certification. Standard metal hardware retains process-specific thicknesses."
+}

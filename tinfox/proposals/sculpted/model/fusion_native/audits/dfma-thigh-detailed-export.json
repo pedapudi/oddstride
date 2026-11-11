@@ -1,0 +1,176 @@
+{
+  "checks": [
+    {
+      "condition": "primary / -1 socket",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "secondary / -1 socket",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "primary / -1 plug",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "secondary / -1 plug",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "primary / -1 boot",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "secondary / -1 boot",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "primary / -1 cable",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "secondary / -1 cable",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "primary / 1 socket",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "secondary / 1 socket",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "primary / 1 plug",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "secondary / 1 plug",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "primary / 1 boot",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "secondary / 1 boot",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "primary / 1 cable",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "secondary / 1 cable",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Radial motor insertion BENCH_REFERENCE_Knee_pitch_motor dx0",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Radial motor insertion BENCH_REFERENCE_FL_knee_port_-1_socket dx0",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Radial motor insertion BENCH_REFERENCE_FL_knee_port_1_socket dx0",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Radial motor insertion BENCH_REFERENCE_Knee_pitch_motor dx20",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Radial motor insertion BENCH_REFERENCE_FL_knee_port_-1_socket dx20",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Radial motor insertion BENCH_REFERENCE_FL_knee_port_1_socket dx20",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Radial motor insertion BENCH_REFERENCE_Knee_pitch_motor dx90",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Radial motor insertion BENCH_REFERENCE_FL_knee_port_-1_socket dx90",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Radial motor insertion BENCH_REFERENCE_FL_knee_port_1_socket dx90",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Secondary closure dy0",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Secondary closure dy5",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Secondary closure dy20",
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "condition": "Secondary closure dy60",
+      "intersection_mm3": 0.0,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "files": [
+    {
+      "path": "/Users/sunil/Library/Caches/Tinfox/dfma-architecture-v1/dfma-thigh-primary-detailed.step",
+      "sha256": "4909ffed568ad0c16231410bef115b43e2a75f46fa3a0b864efa4630eb42e59d"
+    },
+    {
+      "path": "/Users/sunil/Library/Caches/Tinfox/dfma-architecture-v1/dfma-thigh-secondary-detailed.step",
+      "sha256": "17a865404a3570e2123cea4799e7528f7f818d52388e8f654395b3a277e1ce23"
+    },
+    {
+      "path": "/Users/sunil/Library/Caches/Tinfox/dfma-architecture-v1/dfma-native-display-definitions-v2.json.gz",
+      "sha256": "3a87f20e4e69e8883cacc81211a55509c1494cf8ffb53c2a0a422003440d3a03"
+    },
+    {
+      "path": "/Users/sunil/Library/Caches/Tinfox/dfma-architecture-v1/dfma-thigh-detailed-assembled.png",
+      "sha256": "5c3510cd2ec82aebf1f01a1676d00a8c236034edb538f8a5f8bb507c52b4e469"
+    },
+    {
+      "path": "/Users/sunil/Library/Caches/Tinfox/dfma-architecture-v1/dfma-thigh-detailed-open.png",
+      "sha256": "9dd5a136846d01e85bfd43b75b8bd00ed4c2f261fbb26d9c3c91978da520aa50"
+    }
+  ],
+  "model_sha256": "827073fde27e86f99530a999b327de3195b38da52d5e97abdfc54b6127cf16a8",
+  "saved_version": 34,
+  "working_modified": true,
+  "scope": "Changed split and connector-window clearance only. Prior unrelated checks reused; no manufacturing or loaded release."
+}

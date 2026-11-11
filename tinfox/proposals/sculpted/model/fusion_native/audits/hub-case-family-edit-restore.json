@@ -1,0 +1,199 @@
+{
+  "passed": true,
+  "parameter": "hc_case_radial_clearance",
+  "edit_mm": [
+    0.5,
+    0.6,
+    0.5
+  ],
+  "before": {
+    "hip_hub": {
+      "volume_mm3": 18244.89847897021,
+      "bounds_mm": [
+        -43.49489761534433,
+        0.0,
+        -27.750000000000018,
+        43.49489761534435,
+        9.5,
+        48.00000000000001
+      ],
+      "clearance_faces": [
+        {
+          "radius_mm": 39.75,
+          "min_y_mm": 8.75,
+          "max_y_mm": 9.5
+        },
+        {
+          "radius_mm": 39.75,
+          "min_y_mm": 8.75,
+          "max_y_mm": 9.5
+        },
+        {
+          "radius_mm": 39.75,
+          "min_y_mm": 8.75,
+          "max_y_mm": 9.5
+        }
+      ],
+      "feature_count": 2,
+      "face_count": 104
+    },
+    "hip_hub_right": {
+      "volume_mm3": 18244.89847897026,
+      "bounds_mm": [
+        -43.49489761534433,
+        -9.5,
+        -27.750000000000018,
+        43.49489761534435,
+        0.0,
+        48.00000000000001
+      ],
+      "clearance_faces": [
+        {
+          "radius_mm": 39.75,
+          "min_y_mm": -9.5,
+          "max_y_mm": -8.75
+        },
+        {
+          "radius_mm": 39.75,
+          "min_y_mm": -9.5,
+          "max_y_mm": -8.75
+        },
+        {
+          "radius_mm": 39.75,
+          "min_y_mm": -9.5,
+          "max_y_mm": -8.75
+        }
+      ],
+      "feature_count": 3,
+      "face_count": 104
+    }
+  },
+  "changed": {
+    "hip_hub": {
+      "volume_mm3": 18242.864341480443,
+      "bounds_mm": [
+        -43.49489761534433,
+        0.0,
+        -27.750000000000018,
+        43.49489761534435,
+        9.5,
+        48.00000000000001
+      ],
+      "clearance_faces": [
+        {
+          "radius_mm": 39.85,
+          "min_y_mm": 8.75,
+          "max_y_mm": 9.5
+        },
+        {
+          "radius_mm": 39.85,
+          "min_y_mm": 8.75,
+          "max_y_mm": 9.5
+        },
+        {
+          "radius_mm": 39.85,
+          "min_y_mm": 8.75,
+          "max_y_mm": 9.5
+        }
+      ],
+      "feature_count": 2,
+      "face_count": 104
+    },
+    "hip_hub_right": {
+      "volume_mm3": 18242.864341480497,
+      "bounds_mm": [
+        -43.49489761534433,
+        -9.5,
+        -27.750000000000018,
+        43.49489761534435,
+        0.0,
+        48.00000000000001
+      ],
+      "clearance_faces": [
+        {
+          "radius_mm": 39.85,
+          "min_y_mm": -9.5,
+          "max_y_mm": -8.75
+        },
+        {
+          "radius_mm": 39.85,
+          "min_y_mm": -9.5,
+          "max_y_mm": -8.75
+        },
+        {
+          "radius_mm": 39.85,
+          "min_y_mm": -9.5,
+          "max_y_mm": -8.75
+        }
+      ],
+      "feature_count": 3,
+      "face_count": 104
+    }
+  },
+  "restored": {
+    "hip_hub": {
+      "volume_mm3": 18244.89847897021,
+      "bounds_mm": [
+        -43.49489761534433,
+        0.0,
+        -27.750000000000018,
+        43.49489761534435,
+        9.5,
+        48.00000000000001
+      ],
+      "clearance_faces": [
+        {
+          "radius_mm": 39.75,
+          "min_y_mm": 8.75,
+          "max_y_mm": 9.5
+        },
+        {
+          "radius_mm": 39.75,
+          "min_y_mm": 8.75,
+          "max_y_mm": 9.5
+        },
+        {
+          "radius_mm": 39.75,
+          "min_y_mm": 8.75,
+          "max_y_mm": 9.5
+        }
+      ],
+      "feature_count": 2,
+      "face_count": 104
+    },
+    "hip_hub_right": {
+      "volume_mm3": 18244.89847897026,
+      "bounds_mm": [
+        -43.49489761534433,
+        -9.5,
+        -27.750000000000018,
+        43.49489761534435,
+        0.0,
+        48.00000000000001
+      ],
+      "clearance_faces": [
+        {
+          "radius_mm": 39.75,
+          "min_y_mm": -9.5,
+          "max_y_mm": -8.75
+        },
+        {
+          "radius_mm": 39.75,
+          "min_y_mm": -9.5,
+          "max_y_mm": -8.75
+        },
+        {
+          "radius_mm": 39.75,
+          "min_y_mm": -9.5,
+          "max_y_mm": -8.75
+        }
+      ],
+      "feature_count": 3,
+      "face_count": 104
+    }
+  },
+  "saved_version": 22,
+  "working_modified": true,
+  "elapsed_seconds": 87.64796254102839,
+  "scope": "Both handed native clearances edit and restore independently of the nominal motor and tube dimensions."
+}

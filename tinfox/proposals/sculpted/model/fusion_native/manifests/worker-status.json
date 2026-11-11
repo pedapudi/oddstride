@@ -1,0 +1,60 @@
+{
+  "pid": 1089364,
+  "state": "stopped_by_marker",
+  "updated_utc": "2026-10-26T00:06:39.700582+00:00",
+  "design_revision": "V0",
+  "authoritative_source": "CadQuery V0 until complete native migration audits pass",
+  "built": 27,
+  "remaining": [
+    "battery_cassette",
+    "body_center_0",
+    "belly_center_0",
+    "sensor_bezel",
+    "front_fascia",
+    "body_nose_surround",
+    "foot",
+    "battery_side_panel_1",
+    "battery_access_latch_1",
+    "battery_latch_1",
+    "chassis_beam_102",
+    "chassis_crossmember_-121",
+    "roll_cartridge_1_right",
+    "motor_carrier_1_right",
+    "hip_hub_right",
+    "motor_mount_ring_right",
+    "pod_sleeve_90_right",
+    "pod_sleeve_210_right",
+    "pod_sleeve_330_right",
+    "thigh_inner_right",
+    "thigh_outer_right",
+    "sleeve_0_right",
+    "sleeve_1_right",
+    "input_crank_right",
+    "pushrod_right",
+    "knee_axle_right",
+    "knee_inner_spacer_right",
+    "shin_inner_right",
+    "shin_outer_right",
+    "shin_clamp_sleeve_37_right",
+    "shin_clamp_sleeve_105_right",
+    "foot_right",
+    "roll_cartridge_-1",
+    "roll_cartridge_-1_right",
+    "motor_carrier_-1_right"
+  ],
+  "failed": {
+    "thigh_outer": {
+      "kind": "native_feature_error",
+      "evidence": "audits/thigh_outer-build-rpc.json"
+    },
+    "motor_carrier_-1": {
+      "kind": "native_feature_error",
+      "evidence": "audits/motor_carrier_-1-build-rpc.json"
+    },
+    "chassis_beam_-102": {
+      "kind": "native_feature_error",
+      "evidence": "audits/chassis_beam_-102-build-rpc.json"
+    }
+  },
+  "migration_gate_passed": false
+}

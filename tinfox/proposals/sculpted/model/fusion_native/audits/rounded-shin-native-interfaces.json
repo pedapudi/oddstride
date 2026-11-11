@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "pair": [
+        "inner",
+        "outer"
+      ],
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "inner",
+        "bearing_inner"
+      ],
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "inner",
+        "bearing_outer"
+      ],
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "outer",
+        "bearing_inner"
+      ],
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "outer",
+        "bearing_outer"
+      ],
+      "overlap_mm3": 0,
+      "passed": true
+    }
+  ],
+  "saved_leg_base_version": 14,
+  "working_candidates_unsaved": true,
+  "temporary_instances_removed": true,
+  "elapsed_seconds": 7.125673957983963,
+  "checker": "Fusion native interference on actual candidate bodies and purchased bearing references in a common local frame",
+  "scope": "Two half interfaces and four nominal bearing fits. Local source-hashed service audit covers washers, screws and extraction paths. No strength or process-fit qualification."
+}

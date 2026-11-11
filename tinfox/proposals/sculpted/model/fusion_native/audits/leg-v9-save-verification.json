@@ -1,0 +1,650 @@
+{
+  "version": 9,
+  "complete": true,
+  "modified": false,
+  "read_only": false,
+  "editable_files": 4,
+  "parts": [
+    {
+      "part": "pushrod_right",
+      "name": "Right parallel knee linkage eye rod",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_RL_knee",
+      "name": "Shin and foot (2)",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_RL_crank",
+      "name": "Knee drive crank (2)",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_RL_rod",
+      "name": "Parallel pushrod (2)",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_RR_roll",
+      "name": "Hip roll carrier (3)",
+      "features": 0,
+      "sketches": 2,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "ASSEMBLY_RR",
+      "name": "RR leg",
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_RR_mount",
+      "name": "Fixed shoulder (3)",
+      "features": 0,
+      "sketches": 2,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "sleeve_1",
+      "name": "Front thigh compression sleeve",
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "DATUM_RL",
+      "name": "Grounded robot datum (2)",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "DATUM_RR",
+      "name": "Grounded robot datum (3)",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "carrier_design_master",
+      "name": "Carrier shared design master",
+      "features": 16,
+      "sketches": 7,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "knee_axle",
+      "name": "Removable knee axle sleeve",
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "shin_inner",
+      "name": "Left inner shin shell",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "knee_inner_spacer_right",
+      "name": "Right knee bearing spacer",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "shin_outer",
+      "name": "Left outer shin shell",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "input_crank_right",
+      "name": "Right integrated knee drive crank",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_RR_thigh",
+      "name": "Thigh and proximal motors (3)",
+      "features": 0,
+      "sketches": 2,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "DATUM_FR",
+      "name": "Grounded robot datum (1)",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "DATUM_FL",
+      "name": "Grounded robot datum",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_RR_rod",
+      "name": "Parallel pushrod (3)",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_RR_crank",
+      "name": "Knee drive crank (3)",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_RR_knee",
+      "name": "Shin and foot (3)",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "motor_carrier_-1",
+      "name": "Rear perpendicular motor carrier",
+      "features": 10,
+      "sketches": 5,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "knee_axle_right",
+      "name": "Right removable knee axle sleeve",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "foot",
+      "name": "Rounded compliant foot",
+      "features": 2,
+      "sketches": 3,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_FR_crank",
+      "name": "Knee drive crank (1)",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_RL_mount",
+      "name": "Fixed shoulder (2)",
+      "features": 0,
+      "sketches": 2,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_RL_thigh",
+      "name": "Thigh and proximal motors (2)",
+      "features": 0,
+      "sketches": 2,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_RL_roll",
+      "name": "Hip roll carrier (2)",
+      "features": 0,
+      "sketches": 2,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "ASSEMBLY_RL",
+      "name": "RL leg",
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_FR_rod",
+      "name": "Parallel pushrod (1)",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "pushrod",
+      "name": "Parallel knee linkage eye rod",
+      "features": 2,
+      "sketches": 2,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "knee_inner_spacer",
+      "name": "Knee bearing spacer",
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "shin_outer_right",
+      "name": "Right outer shin shell",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "motor_carrier_1",
+      "name": "Front perpendicular motor carrier",
+      "features": 8,
+      "sketches": 5,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "foot_right",
+      "name": "Right rounded compliant foot",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "sleeve_1_right",
+      "name": "Right front thigh compression sleeve",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "thigh_design_master",
+      "name": "Thigh shared design master",
+      "features": 28,
+      "sketches": 15,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "shin_inner_right",
+      "name": "Right inner shin shell",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_FL_rod",
+      "name": "Parallel pushrod",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_FR_knee",
+      "name": "Shin and foot (1)",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_FR_mount",
+      "name": "Fixed shoulder (1)",
+      "features": 0,
+      "sketches": 2,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_FR_thigh",
+      "name": "Thigh and proximal motors (1)",
+      "features": 0,
+      "sketches": 2,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_FR_roll",
+      "name": "Hip roll carrier (1)",
+      "features": 0,
+      "sketches": 2,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "ASSEMBLY_FR",
+      "name": "FR leg",
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "thigh_inner_right",
+      "name": "Right inner thigh shell",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "thigh_outer_right",
+      "name": "Right outer thigh shell",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "thigh_inner",
+      "name": "Left inner thigh shell",
+      "features": 11,
+      "sketches": 8,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "thigh_outer",
+      "name": "Left outer thigh shell",
+      "features": 11,
+      "sketches": 8,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "shin_design_master",
+      "name": "Shin shared design master",
+      "features": 22,
+      "sketches": 19,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_FL_mount",
+      "name": "Fixed shoulder",
+      "features": 0,
+      "sketches": 2,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "sleeve_0",
+      "name": "Rear thigh compression sleeve",
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "ASSEMBLY_FL",
+      "name": "FL leg",
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_FL_thigh",
+      "name": "Thigh and proximal motors",
+      "features": 0,
+      "sketches": 2,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_FL_crank",
+      "name": "Knee drive crank",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_FL_knee",
+      "name": "Shin and foot",
+      "features": 0,
+      "sketches": 1,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "FRAME_FL_roll",
+      "name": "Hip roll carrier",
+      "features": 0,
+      "sketches": 2,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "motor_carrier_1_right",
+      "name": "Front right motor carrier",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "motor_carrier_-1_right",
+      "name": "Rear right motor carrier",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "sleeve_0_right",
+      "name": "Right rear thigh compression sleeve",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "Tinfox - Leg module",
+      "name": "Tinfox - Leg module v9",
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0,
+      "unhealthy": []
+    },
+    {
+      "part": "motor_mount_ring",
+      "name": "Knee motor stator plate (1)",
+      "features": 5,
+      "sketches": 3,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "hip_hub",
+      "name": "Hip output hub",
+      "features": 43,
+      "sketches": 22,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "motor_mount_ring_right",
+      "name": "motor mount ring right",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "roll_cartridge_-1",
+      "name": "roll cartridge -1",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "hip_hub_right",
+      "name": "hip hub right",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "pod_sleeve_90",
+      "name": "Pod sleeve 90",
+      "features": 3,
+      "sketches": 2,
+      "bodies": 2,
+      "unhealthy": []
+    },
+    {
+      "part": "pod_sleeve_210",
+      "name": "Pod sleeve 210",
+      "features": 3,
+      "sketches": 2,
+      "bodies": 2,
+      "unhealthy": []
+    },
+    {
+      "part": "pod_sleeve_330",
+      "name": "Pod sleeve 330",
+      "features": 3,
+      "sketches": 2,
+      "bodies": 2,
+      "unhealthy": []
+    },
+    {
+      "part": "roll_cartridge_1",
+      "name": "Roll cartridge 1",
+      "features": 42,
+      "sketches": 19,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "pod_sleeve_90_right",
+      "name": "pod sleeve 90 right",
+      "features": 4,
+      "sketches": 0,
+      "bodies": 2,
+      "unhealthy": []
+    },
+    {
+      "part": "roll_cartridge_-1_right",
+      "name": "roll cartridge -1 right",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "roll_cartridge_1_right",
+      "name": "roll cartridge 1 right",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "shin_clamp_sleeve_105_right",
+      "name": "shin clamp sleeve 105 right",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "shin_clamp_sleeve_37_right",
+      "name": "shin clamp sleeve 37 right",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "pod_sleeve_210_right",
+      "name": "pod sleeve 210 right",
+      "features": 4,
+      "sketches": 0,
+      "bodies": 2,
+      "unhealthy": []
+    },
+    {
+      "part": "pod_sleeve_330_right",
+      "name": "pod sleeve 330 right",
+      "features": 4,
+      "sketches": 0,
+      "bodies": 2,
+      "unhealthy": []
+    },
+    {
+      "part": "input_crank",
+      "name": "Integrated knee drive crank",
+      "features": 18,
+      "sketches": 12,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "shin_clamp_sleeve_37",
+      "name": "Shin clamp sleeve 37",
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1,
+      "unhealthy": []
+    },
+    {
+      "part": "shin_clamp_sleeve_105",
+      "name": "Shin clamp sleeve 105",
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1,
+      "unhealthy": []
+    }
+  ],
+  "verified_utc": "2026-10-28T18:27:48.501468+00:00"
+}

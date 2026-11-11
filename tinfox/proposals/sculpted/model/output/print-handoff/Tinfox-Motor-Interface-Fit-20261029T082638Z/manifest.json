@@ -1,0 +1,120 @@
+{
+  "source_kind": "native-interfaces-with-generated-gauges",
+  "source_manifest_sha256": "ce303ca696b0c0596827fcaf223dec76c7b8c3bde18cb697023a913e7fbb7e86",
+  "parts": [
+    {
+      "part": "01-thigh-case-gauge-80p50",
+      "source_kind": "generated-auxiliary-gauge",
+      "source_package": "Tinfox-Motor-Fit-20261029T044755Z",
+      "source_stl_sha256": "2502f178976a7e9b74f42a65669f7f74e3e1135b0b137063babdb570f8d84624",
+      "robot_component": false
+    },
+    {
+      "part": "02-hip-case-gauge-81p50",
+      "source_kind": "generated-auxiliary-gauge",
+      "source_package": "Tinfox-Motor-Fit-20261029T044755Z",
+      "source_stl_sha256": "a26926baf32a27b21417182c56a3497f2c9ced431d57827dc6824c2514e8d2dd",
+      "robot_component": false
+    },
+    {
+      "part": "05-hip-output-hub",
+      "source_kind": "fusion-native",
+      "native_part": "hip_hub",
+      "native_source": {
+        "component_part_number": "CANDIDATE_sl_hip_hub",
+        "native_step": "exports/slim-native-hip_hub-restored.step",
+        "native_step_sha256": "cdb610d12e927697921a403da6654f52419617abba176c9b6a4d9d1a97a5015e",
+        "target_step_sha256": "983f8f512e35e94e67cb1a17e81d3e2910b7816a85bda1c39eadb7de3151450e",
+        "saved_version": 20,
+        "state": "canonical_native",
+        "assembly_translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "native_3mf": "exports/motor-complex-native/hip_hub.3mf",
+        "native_3mf_sha256": "6c7191f6d44830ff6f23cf39e60dccddafa6779486cb955c65a4cbc66cc5c078",
+        "native_bounds_mm": [
+          -43.49489761534433,
+          0.0,
+          -27.750000000000018,
+          43.49489761534435,
+          9.500000000000002,
+          48.00000000000001
+        ],
+        "native_volume_mm3": 18276.11616371595,
+        "native_feature_count": 17,
+        "native_sketch_count": 9,
+        "export_checkpoint_version": 19,
+        "saved_native_fingerprint": {
+          "features": 17,
+          "sketches": 9,
+          "faces": 98,
+          "edges": 207,
+          "volume_mm3": 18276.11616371595,
+          "bounds_mm": [
+            -43.49489761534433,
+            0.0,
+            -27.750000000000018,
+            43.49489761534435,
+            9.500000000000002,
+            48.00000000000001
+          ]
+        },
+        "geometry_comparison_evidence": [
+          {
+            "path": "audits/motor-complex-hip_hub-comparison.json",
+            "sha256": "93fe8312916296585081b4a1d4cc4a7a2559c075907b944a41e4ab1c751b1fdd"
+          }
+        ]
+      }
+    }
+  ],
+  "units": "mm",
+  "sliced": false,
+  "objects": 3,
+  "layout_bed_mm": [
+    325,
+    320,
+    325
+  ],
+  "plate_bounds_mm": {
+    "01-thigh-case-gauge-80p50": [
+      [
+        10.0,
+        10.0,
+        0.0
+      ],
+      [
+        100.798828125,
+        110.69943618774414,
+        8.0
+      ]
+    ],
+    "02-hip-case-gauge-81p50": [
+      [
+        110.798828125,
+        10.0,
+        0.0
+      ],
+      [
+        198.7984619140625,
+        109.79990768432617,
+        8.0
+      ]
+    ],
+    "05-hip-output-hub": [
+      [
+        208.7984619140625,
+        10.0,
+        0.0
+      ],
+      [
+        295.7882537841797,
+        85.74999237060547,
+        9.5
+      ]
+    ]
+  },
+  "knee_stator_countersinks": 9
+}

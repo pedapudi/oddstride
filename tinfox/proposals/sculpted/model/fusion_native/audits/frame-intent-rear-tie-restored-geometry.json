@@ -1,0 +1,260 @@
+{
+  "surface_distance_algorithm": "boundary_faces_v2: distance to face compound, never solid containment",
+  "part": "chassis_crossmember_-121",
+  "source_step_sha256": "82d1bd89cadaacfd723235b5e88b04c949264b549519957a778e4c87c9d87cb2",
+  "source_brep_sha256": null,
+  "source_reference_note": "Frozen low robot transverse tie. Common parametric section and front-only sensor attachment bores.",
+  "native_step_sha256": "5ae991ba5301b3d69a2f3e08b36b88515705186508dc6cbb668f2cb2eb8e3401",
+  "source_volume_mm3": 4698.510848799365,
+  "native_volume_mm3": 4698.510010271781,
+  "relative_volume_error": 1.7846666979155062e-07,
+  "volume_integration": {
+    "method": "Adaptive Gauss integration of exact BRep surfaces",
+    "requested_relative_error": 1e-09,
+    "estimated_source_error": 1.8221863248488637e-15,
+    "estimated_native_error": 6.42778496143649e-10
+  },
+  "source_area_mm2": 5840.137185749876,
+  "native_area_mm2": 5840.137239900516,
+  "relative_area_error": 9.272152001946246e-09,
+  "area_integration": {
+    "method": "Adaptive Gauss integration",
+    "requested_relative_error": 1e-09,
+    "estimated_source_error": 7.914461165644678e-16,
+    "estimated_native_error": 6.42778504626463e-10
+  },
+  "conservative_brep_bounds_error_max_mm": 6.264540340339408e-05,
+  "sampled_boundary_bounds_error_max_mm": 1.4210854715202004e-14,
+  "surface_deviation": {
+    "native_to_source": {
+      "samples": 1000,
+      "max_mm": 6.905071707738183e-13,
+      "rms_mm": 2.0097440964665986e-13,
+      "worst_samples": [
+        {
+          "point_mm": [
+            -119.84169224797797,
+            -96.9131089850731,
+            35.7833333333334
+          ],
+          "distance_mm": 6.905071707738183e-13
+        },
+        {
+          "point_mm": [
+            -120.61547779452084,
+            -99.95195606558981,
+            35.7833333333334
+          ],
+          "distance_mm": 6.901049158010596e-13
+        },
+        {
+          "point_mm": [
+            -122.48991289890695,
+            -96.66192784723029,
+            35.7833333333334
+          ],
+          "distance_mm": 6.900683355399328e-13
+        },
+        {
+          "point_mm": [
+            -121.22012656927393,
+            -98.86126228491105,
+            35.7833333333334
+          ],
+          "distance_mm": 6.889333840647402e-13
+        },
+        {
+          "point_mm": [
+            -125.01686585115317,
+            -96.40906806627358,
+            35.7833333333334
+          ],
+          "distance_mm": 6.887501522244653e-13
+        }
+      ]
+    },
+    "source_to_native": {
+      "samples": 1000,
+      "max_mm": 6.972375965249435e-13,
+      "rms_mm": 1.9890590228502368e-13,
+      "worst_samples": [
+        {
+          "point_mm": [
+            -125.26978632963272,
+            96.52319013214183,
+            35.78333333333382
+          ],
+          "distance_mm": 6.972375965249435e-13
+        },
+        {
+          "point_mm": [
+            -119.26978632963272,
+            96.52319013214183,
+            35.78333333333382
+          ],
+          "distance_mm": 6.972375965249435e-13
+        },
+        {
+          "point_mm": [
+            -115.27185324215536,
+            98.44849323476181,
+            35.78333333333382
+          ],
+          "distance_mm": 6.954975810935944e-13
+        },
+        {
+          "point_mm": [
+            -121.27185324215536,
+            98.44849323476181,
+            35.78333333333382
+          ],
+          "distance_mm": 6.954975810935944e-13
+        },
+        {
+          "point_mm": [
+            -120.72814675784463,
+            98.44849323476176,
+            35.78333333333382
+          ],
+          "distance_mm": 6.954975810935944e-13
+        }
+      ]
+    }
+  },
+  "source_cylinders": [
+    [
+      1.7,
+      -124.0,
+      -99.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.7,
+      -124.0,
+      99.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.7,
+      -121.0,
+      -18.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.7,
+      -121.0,
+      18.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.7,
+      -118.0,
+      -99.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.7,
+      -118.0,
+      99.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "native_cylinders": [
+    [
+      1.7,
+      -124.0,
+      -99.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.7,
+      -124.0,
+      99.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.7,
+      -121.0,
+      -18.0,
+      0.0,
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    [
+      1.7,
+      -121.0,
+      18.0,
+      0.0,
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    [
+      1.7,
+      -118.0,
+      -99.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      1.7,
+      -118.0,
+      99.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "cylinder_position_radius_error_max_mm": 0.0,
+  "cylinder_axis_component_error_max": 0.0,
+  "native_solid_count": 1,
+  "source_solid_count": 1,
+  "critical_cylinder_gate_passed": true,
+  "declared_functional_clearance_cylinders": null,
+  "functional_clearance_proof": null,
+  "clearance_cylinder_mapping": {
+    "source": [],
+    "native": []
+  },
+  "additional_source_curve_analytic_cylinders": [],
+  "unexplained_native_cylinders": [],
+  "cylinder_matching_method": "Source hole, shaft, seat and unchanged fillet cylinders match native radii, axes and locations within 0.0001 mm. Explicitly recorded sampled-clearance replacements and recovered sketch arcs are checked by the unchanged full-surface and section gates.",
+  "geometric_gate_passed": true,
+  "tolerances": {
+    "sampled_surface_mm": 0.05,
+    "relative_volume": 0.001,
+    "relative_area": 0.001,
+    "cylinder_position_radius_mm": 0.0001,
+    "cylinder_axis_component": 0.0001
+  },
+  "bounds_note": "Conservative BRep bounds can include untrimmed NURBS surface extents. Sampled boundary bounds use a 0.02 mm tessellation and describe the trimmed physical boundary.",
+  "scope": "Exact native STEP geometry. Sampled symmetric surface checks are finite, not a mathematical Hausdorff proof. Native editability and assembly migration gates are separate."
+}

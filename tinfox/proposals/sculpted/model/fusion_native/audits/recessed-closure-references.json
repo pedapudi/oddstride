@@ -1,0 +1,111 @@
+{
+  "saved_version": 22,
+  "working_modified": true,
+  "candidate_only": true,
+  "references": [
+    {
+      "name": "FL_carrier_closure_bolt_90",
+      "component": "BENCH_REFERENCE_RECESSED_CLOSURE_90",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/recessed-closure-reference-90.step",
+      "bounds_mm": [
+        -3.8,
+        -18.200000000000003,
+        43.2,
+        3.8,
+        0.0,
+        50.8
+      ],
+      "volume_mm3": 300.8640452489746
+    },
+    {
+      "name": "FL_carrier_closure_bolt_215",
+      "component": "BENCH_REFERENCE_RECESSED_CLOSURE_215",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/recessed-closure-reference-215.step",
+      "bounds_mm": [
+        -42.30014608158,
+        -18.200000000000003,
+        -30.75809250849,
+        -34.70014608158,
+        0.0,
+        -23.15809250849
+      ],
+      "volume_mm3": 300.8640452489743
+    },
+    {
+      "name": "FL_carrier_closure_bolt_325",
+      "component": "BENCH_REFERENCE_RECESSED_CLOSURE_325",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/recessed-closure-reference-325.step",
+      "bounds_mm": [
+        34.700146081583,
+        -18.200000000000003,
+        -30.75809250849,
+        42.300146081583,
+        0.0,
+        -23.15809250849
+      ],
+      "volume_mm3": 300.8640452489745
+    }
+  ],
+  "continuous_gap_checks": [
+    {
+      "head": "FL_carrier_closure_bolt_90",
+      "tie_angle_deg": 90,
+      "continuous_hip_rotation_gap_lower_bound_mm": 1.0,
+      "proof": "Rotation about Y preserves each solid Y interval; strict axial separation holds at every angle."
+    },
+    {
+      "head": "FL_carrier_closure_bolt_90",
+      "tie_angle_deg": 210,
+      "continuous_hip_rotation_gap_lower_bound_mm": 1.0,
+      "proof": "Rotation about Y preserves each solid Y interval; strict axial separation holds at every angle."
+    },
+    {
+      "head": "FL_carrier_closure_bolt_90",
+      "tie_angle_deg": 330,
+      "continuous_hip_rotation_gap_lower_bound_mm": 1.0,
+      "proof": "Rotation about Y preserves each solid Y interval; strict axial separation holds at every angle."
+    },
+    {
+      "head": "FL_carrier_closure_bolt_215",
+      "tie_angle_deg": 90,
+      "continuous_hip_rotation_gap_lower_bound_mm": 1.0,
+      "proof": "Rotation about Y preserves each solid Y interval; strict axial separation holds at every angle."
+    },
+    {
+      "head": "FL_carrier_closure_bolt_215",
+      "tie_angle_deg": 210,
+      "continuous_hip_rotation_gap_lower_bound_mm": 1.0,
+      "proof": "Rotation about Y preserves each solid Y interval; strict axial separation holds at every angle."
+    },
+    {
+      "head": "FL_carrier_closure_bolt_215",
+      "tie_angle_deg": 330,
+      "continuous_hip_rotation_gap_lower_bound_mm": 1.0,
+      "proof": "Rotation about Y preserves each solid Y interval; strict axial separation holds at every angle."
+    },
+    {
+      "head": "FL_carrier_closure_bolt_325",
+      "tie_angle_deg": 90,
+      "continuous_hip_rotation_gap_lower_bound_mm": 1.0,
+      "proof": "Rotation about Y preserves each solid Y interval; strict axial separation holds at every angle."
+    },
+    {
+      "head": "FL_carrier_closure_bolt_325",
+      "tie_angle_deg": 210,
+      "continuous_hip_rotation_gap_lower_bound_mm": 1.0,
+      "proof": "Rotation about Y preserves each solid Y interval; strict axial separation holds at every angle."
+    },
+    {
+      "head": "FL_carrier_closure_bolt_325",
+      "tie_angle_deg": 330,
+      "continuous_hip_rotation_gap_lower_bound_mm": 1.0,
+      "proof": "Rotation about Y preserves each solid Y interval; strict axial separation holds at every angle."
+    }
+  ],
+  "remove_reference_names": [
+    "FL_carrier_closure_washer_90",
+    "FL_carrier_closure_washer_215",
+    "FL_carrier_closure_washer_325"
+  ],
+  "elapsed_seconds": 35.676741959003266
+}

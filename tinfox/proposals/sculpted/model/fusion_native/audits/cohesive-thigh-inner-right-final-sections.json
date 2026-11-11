@@ -1,0 +1,575 @@
+{
+  "part": "cohesive_thigh_inner_right",
+  "source_step_sha256": "99a41ce6d8a555e50c5e3b09d30c9d358f7d314b443b6bd98ff0936a566c94c2",
+  "source_brep_sha256": null,
+  "source_reference_note": null,
+  "native_step_sha256": "6400f6b14303ff01ea0446574838c777da5abd000d1ad738e49fb520af2de0d1",
+  "sections": [
+    {
+      "axis": "X",
+      "offset_mm": -24.5,
+      "source_edges": 17,
+      "native_edges": 17,
+      "source_perimeter_mm": 319.63807160023276,
+      "native_perimeter_mm": 319.63931207004987,
+      "relative_perimeter_error": 3.8808575301905505e-06,
+      "symmetric_sampled_error_max_mm": 0.007685831829366046,
+      "section_to_own_solid_max_mm": [
+        1.6915218594704129e-06,
+        1.071661976466012e-06
+      ],
+      "samples": 401,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            1.6915218594704129e-06,
+            1.071661976466012e-06
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "X",
+      "offset_mm": 0.0,
+      "source_edges": 47,
+      "native_edges": 47,
+      "source_perimeter_mm": 327.26299570190815,
+      "native_perimeter_mm": 327.2579317319416,
+      "relative_perimeter_error": 1.547370168049569e-05,
+      "symmetric_sampled_error_max_mm": 0.008654556387061085,
+      "section_to_own_solid_max_mm": [
+        4.717823679600894e-07,
+        0.7679192453975805
+      ],
+      "samples": 615,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            1.097173789487955e-06,
+            0.7679192453975805
+          ]
+        },
+        {
+          "approximation": true,
+          "section_to_own_solid_max_mm": [
+            4.717823679600894e-07,
+            0.7679192453975805
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 0.008654556387061085,
+            "perimeters_mm": [
+              327.2629957019083,
+              327.2579317319417
+            ],
+            "self_errors_mm": [
+              4.717823679600894e-07,
+              0.7679192453975805
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 2,
+              "intervals": 3,
+              "maximum_trim_projection_mm": 2.842170943040401e-14
+            },
+            {
+              "face": 4,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 2.315696615534353e-15
+            },
+            {
+              "face": 6,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 3.602194735275662e-15
+            },
+            {
+              "face": 8,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 3.9881441711980606e-15
+            },
+            {
+              "face": 10,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 4.406256060113981e-15
+            },
+            {
+              "face": 12,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 2.864375403532904e-14
+            },
+            {
+              "face": 15,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 20,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 24,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 40,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 43,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 46,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 48,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 50,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 51,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 54,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 1.977804580622483e-15
+            },
+            {
+              "face": 57,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 60,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 1.977804580622483e-15
+            },
+            {
+              "face": 62,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 1.5534464795876307e-14
+            },
+            {
+              "face": 64,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.4210854715202004e-14
+            },
+            {
+              "face": 76,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 80,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.4210854715202004e-14
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 1,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 6,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.3880552523354295e-14
+            },
+            {
+              "face": 8,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 11,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 2.204364238465236e-15
+            },
+            {
+              "face": 13,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 3.552713678800501e-15
+            },
+            {
+              "face": 15,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 3.552713678800501e-15
+            },
+            {
+              "face": 17,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 3.552713678800501e-15
+            },
+            {
+              "face": 19,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 4.194415287079684e-15
+            },
+            {
+              "face": 20,
+              "intervals": 3,
+              "maximum_trim_projection_mm": 5.817072295949926e-15
+            },
+            {
+              "face": 43,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 8.872676898752374e-15
+            },
+            {
+              "face": 48,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 51,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 52,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 8.872566059822572e-15
+            },
+            {
+              "face": 54,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 60,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 1.478761009970429e-14
+            },
+            {
+              "face": 63,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 70,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 71,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 3.520859547548637e-15
+            },
+            {
+              "face": 77,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 80,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 81,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 104,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.1545939985341258e-14
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            4.717823679600894e-07,
+            0.7679192453975805
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "X",
+      "offset_mm": 24.5,
+      "source_edges": 30,
+      "native_edges": 30,
+      "source_perimeter_mm": 225.506690236855,
+      "native_perimeter_mm": 225.50254550606715,
+      "relative_perimeter_error": 1.8379635582003062e-05,
+      "symmetric_sampled_error_max_mm": 0.008387365535084974,
+      "section_to_own_solid_max_mm": [
+        8.667261762580014e-07,
+        0.0001766479195129412
+      ],
+      "samples": 378,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            8.667261762580014e-07,
+            0.0001766479195129412
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -61.99999999096926,
+      "source_edges": 26,
+      "native_edges": 36,
+      "source_perimeter_mm": 894.5112401688414,
+      "native_perimeter_mm": 894.5145779947411,
+      "relative_perimeter_error": 3.731452160516733e-06,
+      "symmetric_sampled_error_max_mm": 0.007534292818085498,
+      "section_to_own_solid_max_mm": [
+        7.840466372168322e-05,
+        0.0033390192915942344
+      ],
+      "samples": 994,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            7.840466372168322e-05,
+            0.0033390192915942344
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -56.99999998193852,
+      "source_edges": 36,
+      "native_edges": 46,
+      "source_perimeter_mm": 1007.7150759681742,
+      "native_perimeter_mm": 1007.7182995291008,
+      "relative_perimeter_error": 3.1988813142328982e-06,
+      "symmetric_sampled_error_max_mm": 0.0075838234428864506,
+      "section_to_own_solid_max_mm": [
+        7.840466372168322e-05,
+        0.003125291575694433
+      ],
+      "samples": 1140,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            7.840466372168322e-05,
+            0.003125291575694433
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -51.99999997290779,
+      "source_edges": 26,
+      "native_edges": 38,
+      "source_perimeter_mm": 1213.2465623162518,
+      "native_perimeter_mm": 1213.2487990643128,
+      "relative_perimeter_error": 1.8436055213315865e-06,
+      "symmetric_sampled_error_max_mm": 0.006975334962466492,
+      "section_to_own_solid_max_mm": [
+        9.239438847070246e-08,
+        0.006961151909298435
+      ],
+      "samples": 1321,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            6.885184918419607e-05,
+            0.0069609286739068426
+          ]
+        },
+        {
+          "approximation": true,
+          "section_to_own_solid_max_mm": [
+            9.239438847070246e-08,
+            0.006961151909298435
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 0.006975334962466492,
+            "perimeters_mm": [
+              1213.2465623162518,
+              1213.2487990643128
+            ],
+            "self_errors_mm": [
+              9.239438847070246e-08,
+              0.006961151909298435
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 16,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 19,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 21,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 25,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 49,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 7,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 9,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 78,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 79,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 102,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            9.239438847070246e-08,
+            0.006961151909298435
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -132.4764702249475,
+      "source_edges": 5,
+      "native_edges": 5,
+      "source_perimeter_mm": 74.29175467042357,
+      "native_perimeter_mm": 74.28971893536172,
+      "relative_perimeter_error": 2.7401897705654222e-05,
+      "symmetric_sampled_error_max_mm": 0.00619937571707076,
+      "section_to_own_solid_max_mm": [
+        1.3546925000985034e-06,
+        1.980948402186604e-06
+      ],
+      "samples": 98,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            1.3546925000985034e-06,
+            1.980948402186604e-06
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -71.98431348329834,
+      "source_edges": 14,
+      "native_edges": 14,
+      "source_perimeter_mm": 221.22741612419742,
+      "native_perimeter_mm": 221.21943951548823,
+      "relative_perimeter_error": 3.60561491379866e-05,
+      "symmetric_sampled_error_max_mm": 0.007344329820942507,
+      "section_to_own_solid_max_mm": [
+        2.1463825209798698e-06,
+        0.0005959494012494508
+      ],
+      "samples": 280,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            2.1463825209798698e-06,
+            0.0005959494012494508
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -11.492156741649183,
+      "source_edges": 18,
+      "native_edges": 18,
+      "source_perimeter_mm": 121.99484907368873,
+      "native_perimeter_mm": 121.98527620482909,
+      "relative_perimeter_error": 7.846945122947732e-05,
+      "symmetric_sampled_error_max_mm": 0.007404402584663471,
+      "section_to_own_solid_max_mm": [
+        1.2697209026342988e-06,
+        0.0011885947068025543
+      ],
+      "samples": 212,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            1.2697209026342988e-06,
+            0.0011885947068025543
+          ]
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "section_gate_passed": false,
+  "section_algorithm": {
+    "compute_parent_pcurves": true,
+    "primary_approximation": false,
+    "fallback_approximation": true,
+    "fallback_condition": "Retry approximation for off-parent curves. If discrepancy remains, independently reconstruct analytical planar-face intervals from trim roots and inside-face classification, retaining original results. Same sample planes and pass thresholds."
+  },
+  "tolerances": {
+    "sampled_distance_mm": 0.05,
+    "relative_perimeter": 0.002,
+    "section_to_own_solid_mm": 0.005
+  },
+  "scope": "Nine sampled planar cuts supplement the full-surface comparison. They do not replace functional datums, service-path or editability audits."
+}

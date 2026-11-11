@@ -1,0 +1,22 @@
+{
+  "model_sha256": "3f384f8cace91b1b5154eea61771b4c69d207e6d3fdab714ed475639b0cd8ce5",
+  "changed_custom_parts": [
+    "body_center_0"
+  ],
+  "baseline_cover_reconstruction": {
+    "source_volume_mm3": 216886.2133864604,
+    "reconstructed_volume_mm3": 216886.2133866108,
+    "relative_volume_error": 6.933566206072682e-13,
+    "sampled_surface_max_mm": 8.374135958153429e-11
+  },
+  "rounded_cover_reconstruction": {
+    "source_volume_mm3": 301471.78751770826,
+    "reconstructed_volume_mm3": 301471.78765533504,
+    "relative_volume_error": 4.565162686486123e-10,
+    "sampled_surface_max_mm": 8.372809406985595e-11
+  },
+  "source_limitations": [
+    "Fixed frame/hardware contacts remain unresolved in the authorized source cover. Seven named limb poses passed the source screen; this does not qualify assembly fit."
+  ],
+  "native_recipe": "snapshots/deltas/3f384f8cace91b1b5154eea61771b4c69d207e6d3fdab714ed475639b0cd8ce5/recipe.json"
+}

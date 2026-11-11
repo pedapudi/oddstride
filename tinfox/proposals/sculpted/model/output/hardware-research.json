@@ -1,0 +1,121 @@
+{
+  "model_sha256": "144a84e88daed50139f890480e9f1a1740cfb20c773e740ba6b4e9c1b9eede5e",
+  "checked_date": "2026-10-25",
+  "status": "Research shortlist, not a purchase-ready BOM",
+  "parts": [
+    {
+      "component": "Knee bearings",
+      "robot_quantity": "8",
+      "candidate": "6001-2RS; LittleMachineShop / NSK",
+      "dimensions": "12 x 28 x 8 mm",
+      "fit_status": "US product listing. Bearings sit directly in the structural shin halves. Finish split bore roundness and check free rotation after tightening.",
+      "source": "https://littlemachineshop.com/products/bearing-6001-2rs"
+    },
+    {
+      "component": "Pushrod bushes",
+      "robot_quantity": "16",
+      "candidate": "igus US GFM-0608-04",
+      "dimensions": "6 ID x 8 OD x 12 flange; 4 mm total length, 1 mm flange",
+      "fit_status": "Manufacturer dimensions verified. Retain paired flanges for thrust wear protection; four bushes per leg.",
+      "source": "https://www.igus.com/iglide-ibh/flange-bearings/product-details/iglide-g-m?artnr=GFM-0608-04"
+    },
+    {
+      "component": "Shin clamp screws",
+      "robot_quantity": "8",
+      "candidate": "Amazon US BNUOK M4 x 20 socket cap screws",
+      "dimensions": "M4 x 0.7; 7 mm head diameter; 4 mm head height",
+      "fit_status": "Listing dimensions match the nominal envelope. Seller claims grade 12.9; material certification and local delivery date are not verified.",
+      "source": "https://www.amazon.com/dp/B0DYSQZHC9"
+    },
+    {
+      "component": "M4 captive nuts",
+      "robot_quantity": "8 plus 8 in printed carrier",
+      "candidate": "Standard M4 hex nuts; Amazon US or McMaster",
+      "dimensions": "7 mm across flats; 3.2 mm thickness",
+      "fit_status": "Match actual nut thickness and flats before printing pockets. Exact Amazon SKU remains unselected.",
+      "source": "https://www.mcmaster.com/metric-hex-nuts/"
+    },
+    {
+      "component": "Printed carrier screws",
+      "robot_quantity": "8; printed route only",
+      "candidate": "M4 x 16 button-head screws; Amazon US or McMaster",
+      "dimensions": "ISO 7380 envelope; 7.6 mm head diameter; 2.2 mm head height",
+      "fit_status": "Two per keyed carrier. Socket-cap heads are too tall for this location. Exact SKU and grade remain unselected.",
+      "source": "https://www.mcmaster.com/products/metric-button-head-screws/"
+    },
+    {
+      "component": "Pushrod shoulder screws",
+      "robot_quantity": "8",
+      "candidate": "McMaster steel metric shoulder-screw families",
+      "dimensions": "CAD: 6 mm shoulder x 20 mm, M5 x 6 mm thread, 10 x 5 mm head",
+      "fit_status": "Catalog 94361A525 has a 5 mm thread and 4.5 mm head; 92981A103 has a 10 mm thread. Neither is an exact unreviewed substitution. Confirm thread engagement or finish the longer threaded tip to the drawing.",
+      "source": "https://www.mcmaster.com/products/shoulder-screws/fastener-head-type~socket/material~steel-2/"
+    },
+    {
+      "component": "Knee axle retention",
+      "robot_quantity": "4 screws + 4 flange nuts",
+      "candidate": "M8 x 60 button-head screws and M8 flange nuts; McMaster / Fastenal",
+      "dimensions": "14 x 4.4 mm head; nominal nut 13 mm flats, 17.9 mm flange",
+      "fit_status": "The head is recessed flush to the inner thigh; the nut is outboard. Large removable hardware retains the precision sleeve. Actual nut profile, locking method and preload still need verification.",
+      "source": "https://www.mcmaster.com/products/metric-button-head-screws/"
+    },
+    {
+      "component": "Knee axle sleeve / inner spacer",
+      "robot_quantity": "4 each custom",
+      "candidate": "Precision steel stock; McMaster",
+      "dimensions": "Sleeve 12 OD x 8.4 ID x 45.1 mm; inner-race spacer 12 mm long",
+      "fit_status": "Finish from stock to the bearing-fit drawing. Ordinary hardware-store tubing is not a substitute for a ground bearing seat.",
+      "source": "https://www.mcmaster.com/precision-shafts/"
+    },
+    {
+      "component": "Shin compression sleeves",
+      "robot_quantity": "8",
+      "candidate": "Aluminum stock; McMaster or Fastenal",
+      "dimensions": "8 OD x 4.3 ID x 16 mm",
+      "fit_status": "Two captive sleeves per shin; finished length controls clamp stack. Exact off-the-shelf SKU is unselected.",
+      "source": "https://www.mcmaster.com/metric-spacers/"
+    },
+    {
+      "component": "Hip-roll bearings",
+      "robot_quantity": "4",
+      "candidate": "THK North America RA / RAU 5008 family",
+      "dimensions": "RA5008 envelope 50 x 66 x 8 mm",
+      "fit_status": "Specialist exception. Confirm interchangeable model, load/moment capacity, retainers and preload with US distributor; not a general hardware-store item.",
+      "source": "https://www.thk.com/us/en/products/cross_roller_ring/cross_roller_ring/rau/rau_ra/"
+    },
+    {
+      "component": "Motor screws",
+      "robot_quantity": "108 stator + 72 output positions",
+      "candidate": "M3 stator / M4 output; Amazon US or Fastenal",
+      "dimensions": "Nine M3 holes on 73 mm circle; six M4 holes on 24 mm circle",
+      "fit_status": "Pattern count is not a released purchase quantity. Lengths depend on clamp thickness, low-head clearance and delivered motor thread depth.",
+      "source": "https://robstride.com/products/robStride02"
+    },
+    {
+      "component": "Frame / tray / cover fasteners",
+      "robot_quantity": "Per final assembly inventory",
+      "candidate": "M3 metric screws and captive nuts; Amazon US",
+      "dimensions": "M3 x 8 countersunk frame screws; M3 x 12 independent cassette screws",
+      "fit_status": "Keep head styles distinct. Ordinary fasteners use Amazon first; Lowe's is a local fallback, not a required source.",
+      "source": "https://www.mcmaster.com/metric-screws/"
+    },
+    {
+      "component": "Pushrod and motor ties",
+      "robot_quantity": "Custom/provisional",
+      "candidate": "Steel link and compression stock from US suppliers",
+      "dimensions": "170 mm eye centers; steel web 6 x 6 mm; M3 motor ties",
+      "fit_status": "The rod, precise sleeves and motor tie stack remain custom or unfinished interfaces. Do not list them as ready-made Amazon parts.",
+      "source": "https://www.mcmaster.com/steel/"
+    },
+    {
+      "component": "Electronics deck / fixed brace screws",
+      "robot_quantity": "4 M3 x 8 + 4 M3 x 6",
+      "candidate": "Amazon US matching socket-cap screws; McMaster dimensional reference",
+      "dimensions": "M3 x 0.5; 5.5 mm head diameter; 3 mm head height",
+      "fit_status": "Use standard socket caps, not the countersunk frame-tie screws. Deck and brace have independent attachments. Verify actual tapped engagement; stock and delivery are not confirmed.",
+      "source": "https://www.mcmaster.com/products/metric-blue-socket-head-cap-screws"
+    }
+  ],
+  "stock_and_prices": "Not verified",
+  "scope": "Catalog dimensions and nominal assembly review; no physical fit or load tests."
+}

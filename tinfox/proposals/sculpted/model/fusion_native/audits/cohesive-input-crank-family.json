@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "removed_empty_cuts": [
+    "M5 screw tip clearance (1)",
+    "Replaceable rod bush flanges (1)"
+  ],
+  "features": 18,
+  "sketches": 12,
+  "edits": [
+    {
+      "parameter": "lc_crank_radius",
+      "changed_expression": "30 mm",
+      "restored_expression": "28 mm",
+      "changed": {
+        "volume": 14.922880161640649,
+        "faces": 78,
+        "edges": 168
+      },
+      "restored": {
+        "volume": 14.76038348949255,
+        "faces": 79,
+        "edges": 173
+      }
+    },
+    {
+      "parameter": "lc_drive_coupling_depth",
+      "changed_expression": "8 mm",
+      "restored_expression": "7.4 mm",
+      "changed": {
+        "volume": 15.038468558887498,
+        "faces": 79,
+        "edges": 173
+      },
+      "restored": {
+        "volume": 14.76038348949255,
+        "faces": 79,
+        "edges": 173
+      }
+    },
+    {
+      "parameter": "lc_drive_fork_gap",
+      "changed_expression": "9 mm",
+      "restored_expression": "8.4 mm",
+      "changed": {
+        "volume": 14.762108912329477,
+        "faces": 85,
+        "edges": 189
+      },
+      "restored": {
+        "volume": 14.76038348949255,
+        "faces": 79,
+        "edges": 173
+      }
+    }
+  ],
+  "paths": [
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/cohesive-input-crank.step"
+  ],
+  "saved": false
+}

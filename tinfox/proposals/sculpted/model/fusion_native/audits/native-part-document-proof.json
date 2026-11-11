@@ -1,0 +1,46 @@
+{
+  "stage": "native_editability_test",
+  "file_id": "urn:adsk.wipprod:dm.lineage:IHZUaHmjTLmK4GE7bEpphw",
+  "file_name": "V0 - Knee motor stator plate",
+  "folder": "04 Native parts/Leg masters",
+  "sketches": 3,
+  "features": [
+    {
+      "name": "Plate thickness",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Motor bolts \u00c2\u00b7 first clearance hole",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Motor bolts \u00c2\u00b7 9 around axis",
+      "type": "adsk::fusion::CircularPatternFeature"
+    },
+    {
+      "name": "Structural ties \u00c2\u00b7 first clearance hole",
+      "type": "adsk::fusion::ExtrudeFeature"
+    },
+    {
+      "name": "Structural ties \u00c2\u00b7 3 around axis",
+      "type": "adsk::fusion::CircularPatternFeature"
+    }
+  ],
+  "user_parameters": [
+    "stator_axial_datum",
+    "stator_outer_diameter",
+    "stator_bore",
+    "stator_thickness",
+    "stator_motor_pcd",
+    "stator_motor_clock",
+    "stator_clearance",
+    "stator_motor_hole_count",
+    "stator_tie_pcd",
+    "stator_tie_hole_count"
+  ],
+  "part_number": "motor_mount_ring",
+  "before_volume_mm3": 12905.53695724129,
+  "changed_volume_mm3": 14196.090652965426,
+  "restored_volume_mm3": 12905.53695724129,
+  "passed": true
+}

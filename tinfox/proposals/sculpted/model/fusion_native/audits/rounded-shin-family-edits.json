@@ -1,0 +1,355 @@
+{
+  "passed": true,
+  "saved": false,
+  "tests": [
+    {
+      "parameter": "lc_shank_foot_center",
+      "value": "153 mm",
+      "healthy": true,
+      "bearing_seat_radius_mm": 14,
+      "geometry": {
+        "CANDIDATE_round_shin_outer": {
+          "bounds_mm": [
+            -21.0,
+            67.00000000000001,
+            -141.0,
+            21.0,
+            85.0,
+            37.888132820546545
+          ],
+          "volume_mm3": 51158.52501980625
+        },
+        "CANDIDATE_round_shin_inner": {
+          "bounds_mm": [
+            -21.0,
+            51.00000000000001,
+            -141.0,
+            20.999999999999993,
+            67.00000000000001,
+            37.888132820546545
+          ],
+          "volume_mm3": 47659.58665283932
+        },
+        "CANDIDATE_round_shin_outer_right": {
+          "bounds_mm": [
+            -21.0,
+            -85.0,
+            -141.0,
+            21.0,
+            -67.00000000000001,
+            37.888132820546545
+          ],
+          "volume_mm3": 51158.56334869562
+        },
+        "CANDIDATE_round_shin_inner_right": {
+          "bounds_mm": [
+            -21.0,
+            -67.00000000000001,
+            -141.0,
+            20.999999999999993,
+            -51.00000000000001,
+            37.888132820546545
+          ],
+          "volume_mm3": 47659.95583130417
+        },
+        "CANDIDATE_round_shin_master": {
+          "bounds_mm": [
+            -21.0,
+            51.00000000000001,
+            -141.0,
+            21.0,
+            85.0,
+            37.888132820546545
+          ],
+          "volume_mm3": 98818.07721911275
+        }
+      },
+      "restore_errors": {
+        "CANDIDATE_round_shin_outer": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.04017235743958736
+        },
+        "CANDIDATE_round_shin_inner": {
+          "bounds_mm": 7.105427357601002e-15,
+          "volume_mm3": 0.0017417488124920055
+        },
+        "CANDIDATE_round_shin_outer_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.003895380606991239
+        },
+        "CANDIDATE_round_shin_inner_right": {
+          "bounds_mm": 7.105427357601002e-15,
+          "volume_mm3": 0.033814993206760846
+        },
+        "CANDIDATE_round_shin_master": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.10111360921291634
+        }
+      }
+    },
+    {
+      "parameter": "rs_wall",
+      "value": "4.5 mm",
+      "healthy": true,
+      "bearing_seat_radius_mm": 14,
+      "geometry": {
+        "CANDIDATE_round_shin_outer": {
+          "bounds_mm": [
+            -21.0,
+            67.00000000000001,
+            -136.0,
+            21.0,
+            85.0,
+            37.888132820546545
+          ],
+          "volume_mm3": 52285.15753988084
+        },
+        "CANDIDATE_round_shin_inner": {
+          "bounds_mm": [
+            -21.0,
+            51.00000000000001,
+            -136.0,
+            20.999999999999993,
+            67.00000000000001,
+            37.888132820546545
+          ],
+          "volume_mm3": 48641.80551801334
+        },
+        "CANDIDATE_round_shin_outer_right": {
+          "bounds_mm": [
+            -21.0,
+            -85.0,
+            -136.0,
+            21.0,
+            -67.00000000000001,
+            37.888132820546545
+          ],
+          "volume_mm3": 52284.90800626176
+        },
+        "CANDIDATE_round_shin_inner_right": {
+          "bounds_mm": [
+            -21.0,
+            -67.00000000000001,
+            -136.0,
+            20.999999999999993,
+            -51.00000000000001,
+            37.888132820546545
+          ],
+          "volume_mm3": 48642.72231456779
+        },
+        "CANDIDATE_round_shin_master": {
+          "bounds_mm": [
+            -21.0,
+            51.00000000000001,
+            -136.0,
+            21.0,
+            85.0,
+            37.888132820546545
+          ],
+          "volume_mm3": 100927.1140162907
+        }
+      },
+      "restore_errors": {
+        "CANDIDATE_round_shin_outer": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 1.4551915228366852e-11
+        },
+        "CANDIDATE_round_shin_inner": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 7.275957614183426e-12
+        },
+        "CANDIDATE_round_shin_outer_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 2.1827872842550278e-11
+        },
+        "CANDIDATE_round_shin_inner_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_round_shin_master": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 1.4551915228366852e-11
+        }
+      }
+    },
+    {
+      "parameter": "rs_washer_access_diametral_allowance",
+      "value": "0.6 mm",
+      "healthy": true,
+      "bearing_seat_radius_mm": 14,
+      "geometry": {
+        "CANDIDATE_round_shin_outer": {
+          "bounds_mm": [
+            -21.0,
+            67.00000000000001,
+            -136.0,
+            21.0,
+            85.0,
+            37.888132820546545
+          ],
+          "volume_mm3": 50114.438904000344
+        },
+        "CANDIDATE_round_shin_inner": {
+          "bounds_mm": [
+            -21.0,
+            51.00000000000001,
+            -136.0,
+            20.999999999999993,
+            67.00000000000001,
+            37.888132820546545
+          ],
+          "volume_mm3": 46690.87295504945
+        },
+        "CANDIDATE_round_shin_outer_right": {
+          "bounds_mm": [
+            -21.0,
+            -85.0,
+            -136.0,
+            21.0,
+            -67.00000000000001,
+            37.888132820546545
+          ],
+          "volume_mm3": 50114.279051241545
+        },
+        "CANDIDATE_round_shin_inner_right": {
+          "bounds_mm": [
+            -21.0,
+            -67.00000000000001,
+            -136.0,
+            20.999999999999993,
+            -51.00000000000001,
+            37.888132820546545
+          ],
+          "volume_mm3": 46691.68793176619
+        },
+        "CANDIDATE_round_shin_master": {
+          "bounds_mm": [
+            -21.0,
+            51.00000000000001,
+            -136.0,
+            21.0,
+            85.0,
+            37.888132820546545
+          ],
+          "volume_mm3": 96805.41087872535
+        }
+      },
+      "restore_errors": {
+        "CANDIDATE_round_shin_outer": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_round_shin_inner": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_round_shin_outer_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_round_shin_inner_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_round_shin_master": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        }
+      }
+    },
+    {
+      "parameter": "lc_bearing_fit_allowance",
+      "value": "0.025 mm",
+      "healthy": true,
+      "bearing_seat_radius_mm": 14.025,
+      "geometry": {
+        "CANDIDATE_round_shin_outer": {
+          "bounds_mm": [
+            -21.0,
+            67.00000000000001,
+            -136.0,
+            21.0,
+            85.0,
+            37.888132820546545
+          ],
+          "volume_mm3": 50167.51611188274
+        },
+        "CANDIDATE_round_shin_inner": {
+          "bounds_mm": [
+            -21.0,
+            51.00000000000001,
+            -136.0,
+            20.999999999999993,
+            67.00000000000001,
+            37.888132820546545
+          ],
+          "volume_mm3": 46723.84004295806
+        },
+        "CANDIDATE_round_shin_outer_right": {
+          "bounds_mm": [
+            -21.0,
+            -85.0,
+            -136.0,
+            21.0,
+            -67.00000000000001,
+            37.888132820546545
+          ],
+          "volume_mm3": 50167.35625912395
+        },
+        "CANDIDATE_round_shin_inner_right": {
+          "bounds_mm": [
+            -21.0,
+            -67.00000000000001,
+            -136.0,
+            20.999999999999993,
+            -51.00000000000001,
+            37.888132820546545
+          ],
+          "volume_mm3": 46724.596680039955
+        },
+        "CANDIDATE_round_shin_master": {
+          "bounds_mm": [
+            -21.0,
+            51.00000000000001,
+            -136.0,
+            21.0,
+            85.0,
+            37.888132820546545
+          ],
+          "volume_mm3": 96891.45517451638
+        }
+      },
+      "restore_errors": {
+        "CANDIDATE_round_shin_outer": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_round_shin_inner": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_round_shin_outer_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_round_shin_inner_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_round_shin_master": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        }
+      }
+    }
+  ],
+  "paths": [
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/rounded-native-shin_outer.step",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/rounded-native-shin_inner.step",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/rounded-native-shin_outer_right.step",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/rounded-native-shin_inner_right.step",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/rounded-native-shin_master.step"
+  ],
+  "elapsed_seconds": 232.25957591598853,
+  "scope": "Four meaningful edit/restore tests in the five-component shin family. Hardware remains nominal; the radial bearing allowance is intentionally separate from bearing OD. Process fits, preload, strength and CNC access are not qualified by this test."
+}

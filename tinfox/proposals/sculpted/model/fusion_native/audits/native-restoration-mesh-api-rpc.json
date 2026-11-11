@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"message\": \"{\\\"type\\\": \\\"adsk::fusion::TriangleMeshCalculator\\\", \\\"properties\\\": [\\\"calculate\\\", \\\"cast\\\", \\\"classType\\\", \\\"isValid\\\", \\\"maxAspectRatio\\\", \\\"maxNormalDeviation\\\", \\\"maxSideLength\\\", \\\"objectType\\\", \\\"parentMeshManager\\\", \\\"setQuality\\\", \\\"surfaceTolerance\\\", \\\"this\\\", \\\"thisown\\\"], \\\"copy\\\": \\\"\\\\nCreates a temporary copy of the input BRepBody, BRepFace, or BRepEdge object.\\\\nbRepEntity : The BRepBody, BRepFace, BRepLoop, or BRepEdge to create a copy of. This can be a parametric\\\\nB-Rep entity or a temporary B-Rep entity.\\\\nReturns a BRepBody that contains the result. If a BRepBody is input the copy is\\\\nof the entire body. If a BRepFace is input, then the result is a BRepBody that\\\\ncontains a single face. If a BRepLoop is input then the result is a BRepBody that\\\\ncontains a wire where each edge in the loop will have a corresponding edge in the wire.\\\\nIf a BRepEdge is input then the result is a BRepBody that contains a wire that contains\\\\nthe single edge.\\\\n\\\"}\\n\",\n    \"success\": true\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

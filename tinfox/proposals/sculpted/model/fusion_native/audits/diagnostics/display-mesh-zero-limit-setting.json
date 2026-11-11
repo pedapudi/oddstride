@@ -1,0 +1,8 @@
+{
+  "passed": false,
+  "scope": "Read-only mesh calculator configuration diagnostic; no CAD mutation.",
+  "attempted_sequence": ["surfaceTolerance=0.005cm", "maxNormalDeviation=0.12rad", "maxSideLength=0", "maxAspectRatio=0"],
+  "error": "Invalid tolerance value",
+  "exact_rejected_property": "Not captured by this diagnostic. Subsequent pilot retains the returned side/aspect defaults and records them explicitly.",
+  "geometry_changed": false
+}

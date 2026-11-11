@@ -1,0 +1,87 @@
+{
+  "model_sha256": "86c1c8abc645da2555696532252064983eb8514d63d48696c93281e56f288815",
+  "pairs": [
+    {
+      "parts": [
+        "head_bridge_spacer_30_-1",
+        "chassis_beam_-102"
+      ],
+      "exact_overlap_mm3": 0.0,
+      "requires_review": false
+    },
+    {
+      "parts": [
+        "head_bridge_spacer_30_1",
+        "chassis_beam_102"
+      ],
+      "exact_overlap_mm3": 0.0,
+      "requires_review": false
+    },
+    {
+      "parts": [
+        "head_bridge_spacer_62_-1",
+        "chassis_beam_-102"
+      ],
+      "exact_overlap_mm3": 0.0,
+      "requires_review": false
+    },
+    {
+      "parts": [
+        "head_bridge_spacer_62_1",
+        "chassis_beam_102"
+      ],
+      "exact_overlap_mm3": 0.0,
+      "requires_review": false
+    },
+    {
+      "parts": [
+        "head_bridge_washer_bottom_30_-1",
+        "chassis_beam_-102"
+      ],
+      "exact_overlap_mm3": 0.0,
+      "requires_review": false
+    },
+    {
+      "parts": [
+        "head_bridge_washer_bottom_30_1",
+        "chassis_beam_102"
+      ],
+      "exact_overlap_mm3": 0.0,
+      "requires_review": false
+    },
+    {
+      "parts": [
+        "head_bridge_washer_bottom_62_-1",
+        "chassis_beam_-102"
+      ],
+      "exact_overlap_mm3": 0.0,
+      "requires_review": false
+    },
+    {
+      "parts": [
+        "head_bridge_washer_bottom_62_1",
+        "chassis_beam_102"
+      ],
+      "exact_overlap_mm3": 0.0,
+      "requires_review": false
+    },
+    {
+      "parts": [
+        "neck_left",
+        "body_center_0"
+      ],
+      "exact_overlap_mm3": 0.0,
+      "requires_review": false
+    },
+    {
+      "parts": [
+        "neck_right",
+        "body_center_0"
+      ],
+      "exact_overlap_mm3": 0.0,
+      "requires_review": false
+    }
+  ],
+  "unresolved_pairs": [],
+  "scope": "Mesh broad phase followed by exact STEP volume checks where available. Contacts below 0.05 cubic mm are reported as contact, not penetration. Fixed mounting hardware, cover and equipment envelope check only; insertion paths and loaded strength are not certified."
+}

@@ -1,0 +1,93 @@
+{
+  "units": "mm",
+  "thigh": 170,
+  "shank_to_foot_center": 148,
+  "foot_radius": 22,
+  "body_length": 464,
+  "body_width": 222.4,
+  "body_height": 96,
+  "hip_x": 185,
+  "roll_y": 68,
+  "pitch_offset": 0,
+  "shin_y": 67,
+  "crank_radius": 22,
+  "crank_phase_deg": -78,
+  "rod_length": 170,
+  "rod_diameter": 6,
+  "knee_shaft_diameter": 12,
+  "bearing_id": 12,
+  "bearing_od": 28,
+  "bearing_width": 8,
+  "motor_radius": 39.25,
+  "motor_depth": 45.4,
+  "motor_mass_kg": 0.405,
+  "shell_skin": 3.0,
+  "shell_wall": 2.8,
+  "knee_efficiency_assumption": 0.9,
+  "clearance_screen_mm": 1.5,
+  "joint_limits_deg": {
+    "roll": [
+      -60,
+      60
+    ],
+    "hip_front": [
+      -90,
+      200
+    ],
+    "hip_rear": [
+      -30,
+      260
+    ],
+    "knee": [
+      -156,
+      -48
+    ]
+  },
+  "nominal_pose_deg": [
+    0,
+    30,
+    -60
+  ],
+  "battery_envelope_mm": [
+    125,
+    85,
+    65
+  ],
+  "battery_each_mass_kg_assumed": 0.7,
+  "compute_sensors_wiring_mass_kg_assumed": 0.8,
+  "payload_cases_kg": [
+    0,
+    1
+  ],
+  "h2d_single_nozzle_volume_mm": [
+    325,
+    320,
+    325
+  ],
+  "print_bed_margin_mm": 10,
+  "rod_y": 70,
+  "roll_motor_x": 90,
+  "thigh_inner_y": 45,
+  "thigh_depth": 44,
+  "cap_y": 88.8,
+  "battery_center_z": -33.5,
+  "skid_below_hip_mm": 71,
+  "weight_target_kg": 10,
+  "battery_mass_basis": "Compact 5 Ah pack plus lightweight adapter target; verify exact pack mass and envelope.",
+  "electronics_mass_basis": "0.80 kg allocation for low-power SBC, compact lidar, GPS, microcontrollers, wiring and converters; not a selected BOM.",
+  "electronics_clearance_mm": [
+    130,
+    135,
+    32
+  ],
+  "motor_stack_inset_mm": 4,
+  "limb_recess_mm": 12,
+  "body_skin": 1.6,
+  "central_roof_height_mm": 49.5,
+  "nose_extension_mm": 13.4,
+  "shoulder_crown_height_mm": 55.5,
+  "front_face_center_x_mm": 248.8,
+  "front_face_horizontal_radius_at_center_mm": 1412.3529411764707,
+  "front_face_crown_mm": 3.4,
+  "front_face_skin_mm": 1.8
+}

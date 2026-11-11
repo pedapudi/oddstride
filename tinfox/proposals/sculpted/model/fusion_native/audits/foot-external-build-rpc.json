@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"error\": \"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 63, in <module>\\n  File \\\"<string>\\\", line 61, in run\\n  File \\\"tinfox_native.py\\\", line 297, in run\\n  File \\\"/Users/sunil/Library/Application Support/Autodesk/webdeploy/production/7698c9b1a08b85444b2eb3d6ec1ab6ea0789097a/Autodesk Fusion.app/Contents/Api/Python/packages/adsk/core.py\\\", line 12358, in _get_dataFile\\n    return _core.Document__get_dataFile(self)\\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\\nRuntimeError: 3 : Failed to get temporary file\\n\",\n    \"success\": false\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

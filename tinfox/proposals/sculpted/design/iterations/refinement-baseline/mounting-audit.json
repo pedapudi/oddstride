@@ -1,0 +1,264 @@
+{
+  "model_sha256": "24b3c16db86814d909769acf61e71565eed122890c3cb0818f033e14f235ddc6",
+  "thigh_sections": [
+    {
+      "z_mm": -65,
+      "section_modulus_y_mm3": 9695.150389113393
+    },
+    {
+      "z_mm": -70,
+      "section_modulus_y_mm3": 4809.161761419143
+    },
+    {
+      "z_mm": -75,
+      "section_modulus_y_mm3": 4284.577159294276
+    },
+    {
+      "z_mm": -80,
+      "section_modulus_y_mm3": 3830.6997039771068
+    },
+    {
+      "z_mm": -85,
+      "section_modulus_y_mm3": 3441.503289252303
+    },
+    {
+      "z_mm": -90,
+      "section_modulus_y_mm3": 3110.236101212373
+    },
+    {
+      "z_mm": -95,
+      "section_modulus_y_mm3": 2831.226014204126
+    },
+    {
+      "z_mm": -100,
+      "section_modulus_y_mm3": 2599.5381206673846
+    },
+    {
+      "z_mm": -105,
+      "section_modulus_y_mm3": 1783.8407999643002
+    },
+    {
+      "z_mm": -110,
+      "section_modulus_y_mm3": 2262.275179443728
+    },
+    {
+      "z_mm": -115,
+      "section_modulus_y_mm3": 2148.888614792709
+    },
+    {
+      "z_mm": -120,
+      "section_modulus_y_mm3": 2066.6763283639893
+    },
+    {
+      "z_mm": -125,
+      "section_modulus_y_mm3": 2011.2947872556451
+    },
+    {
+      "z_mm": -130,
+      "section_modulus_y_mm3": 1976.5034904059885
+    },
+    {
+      "z_mm": -135,
+      "section_modulus_y_mm3": 1956.3101759493547
+    },
+    {
+      "z_mm": -140,
+      "section_modulus_y_mm3": 1949.577191185065
+    },
+    {
+      "z_mm": -145,
+      "section_modulus_y_mm3": 2361.2124972151855
+    },
+    {
+      "z_mm": -150,
+      "section_modulus_y_mm3": 2415.0187988544976
+    },
+    {
+      "z_mm": -155,
+      "section_modulus_y_mm3": 2514.7208581029454
+    }
+  ],
+  "minimum_thigh_section_modulus_y_mm3": 1783.8407999643002,
+  "groove_wall_samples": [
+    {
+      "x_mm": -0.566289262235208,
+      "z_mm": -85,
+      "transverse_wall_mm": 2.813452269255947
+    },
+    {
+      "x_mm": -0.741599707815924,
+      "z_mm": -95,
+      "transverse_wall_mm": 2.6871816480708617
+    },
+    {
+      "x_mm": -1.0264791818845875,
+      "z_mm": -105,
+      "transverse_wall_mm": 2.5945592792978758
+    },
+    {
+      "x_mm": -1.4209276844411978,
+      "z_mm": -115,
+      "transverse_wall_mm": 2.5228521016866168
+    }
+  ],
+  "minimum_sampled_groove_wall_mm": 2.5228521016866168,
+  "rod_hardware_sweep": {
+    "knee_range_deg": [
+      -156,
+      -48
+    ],
+    "step_deg": 1,
+    "collisions": []
+  },
+  "shin_sections": [
+    {
+      "z_mm": -35,
+      "area_mm2": 407.7565626046544,
+      "Iy_mm4": 32357.908165802834,
+      "Ix_mm4": 52692.19448321509,
+      "section_modulus_y_mm3": 2004.2122069628967
+    },
+    {
+      "z_mm": -40,
+      "area_mm2": 382.9333676914492,
+      "Iy_mm4": 29293.14212913043,
+      "Ix_mm4": 48154.75136087982,
+      "section_modulus_y_mm3": 1843.4760857780664
+    },
+    {
+      "z_mm": -45,
+      "area_mm2": 361.052629447168,
+      "Iy_mm4": 26610.046801603807,
+      "Ix_mm4": 44331.37669889975,
+      "section_modulus_y_mm3": 1701.9121198940156
+    },
+    {
+      "z_mm": -50,
+      "area_mm2": 326.1255747982953,
+      "Iy_mm4": 24015.603893915086,
+      "Ix_mm4": 38409.0918184968,
+      "section_modulus_y_mm3": 1544.6827813716473
+    },
+    {
+      "z_mm": -55,
+      "area_mm2": 308.87651530811615,
+      "Iy_mm4": 21914.410321519437,
+      "Ix_mm4": 35701.61902421581,
+      "section_modulus_y_mm3": 1432.1877012977573
+    },
+    {
+      "z_mm": -60,
+      "area_mm2": 293.39079273946857,
+      "Iy_mm4": 20039.319486025815,
+      "Ix_mm4": 33355.232584659134,
+      "section_modulus_y_mm3": 1331.001005656302
+    },
+    {
+      "z_mm": -65,
+      "area_mm2": 279.4369504715604,
+      "Iy_mm4": 18360.44644759007,
+      "Ix_mm4": 31308.628649178278,
+      "section_modulus_y_mm3": 1239.6899119847312
+    },
+    {
+      "z_mm": -70,
+      "area_mm2": 266.82580750065836,
+      "Iy_mm4": 16854.19418594256,
+      "Ix_mm4": 29513.567890237555,
+      "section_modulus_y_mm3": 1157.1503156902504
+    },
+    {
+      "z_mm": -75,
+      "area_mm2": 255.40040644901836,
+      "Iy_mm4": 15501.23856105001,
+      "Ix_mm4": 27931.56987097758,
+      "section_modulus_y_mm3": 1082.4951378055036
+    },
+    {
+      "z_mm": -80,
+      "area_mm2": 466.544549577722,
+      "Iy_mm4": 28444.02815092777,
+      "Ix_mm4": 31256.66880022516,
+      "section_modulus_y_mm3": 2036.2863828290936
+    },
+    {
+      "z_mm": -85,
+      "area_mm2": 406.2880740986373,
+      "Iy_mm4": 34600.93134798943,
+      "Ix_mm4": 28490.846440438952,
+      "section_modulus_y_mm3": 2519.8480233537903
+    },
+    {
+      "z_mm": -90,
+      "area_mm2": 442.1515885269106,
+      "Iy_mm4": 33238.38385753889,
+      "Ix_mm4": 25528.028443920506,
+      "section_modulus_y_mm3": 2403.166089196537
+    },
+    {
+      "z_mm": -95,
+      "area_mm2": 373.41810308091726,
+      "Iy_mm4": 29814.805697734337,
+      "Ix_mm4": 26023.584844513898,
+      "section_modulus_y_mm3": 2253.0067858564366
+    },
+    {
+      "z_mm": -100,
+      "area_mm2": 357.8599805222755,
+      "Iy_mm4": 27619.81371115009,
+      "Ix_mm4": 24929.66004537291,
+      "section_modulus_y_mm3": 2127.1133597811076
+    },
+    {
+      "z_mm": -105,
+      "area_mm2": 342.673095621828,
+      "Iy_mm4": 25530.88081588626,
+      "Ix_mm4": 23896.707613423998,
+      "section_modulus_y_mm3": 2004.5662889599987
+    },
+    {
+      "z_mm": -110,
+      "area_mm2": 327.65963454813493,
+      "Iy_mm4": 23526.57962483152,
+      "Ix_mm4": 22897.331965378562,
+      "section_modulus_y_mm3": 1883.826431829012
+    },
+    {
+      "z_mm": -115,
+      "area_mm2": 312.5765947837206,
+      "Iy_mm4": 21583.57273508846,
+      "Ix_mm4": 21899.626861147048,
+      "section_modulus_y_mm3": 1763.069898020595
+    },
+    {
+      "z_mm": -120,
+      "area_mm2": 297.1131168097216,
+      "Iy_mm4": 19675.86409560722,
+      "Ix_mm4": 20864.771575274324,
+      "section_modulus_y_mm3": 1640.096492636433
+    },
+    {
+      "z_mm": -125,
+      "area_mm2": 560.7351133077708,
+      "Iy_mm4": 23388.814951807046,
+      "Ix_mm4": 28018.933482550103,
+      "section_modulus_y_mm3": 2021.507105853726
+    },
+    {
+      "z_mm": -130,
+      "area_mm2": 457.2521186062096,
+      "Iy_mm4": 21374.992205794402,
+      "Ix_mm4": 22170.903439565296,
+      "section_modulus_y_mm3": 1888.8731716362008
+    },
+    {
+      "z_mm": -135,
+      "area_mm2": 523.3656393895135,
+      "Iy_mm4": 19451.327695630003,
+      "Ix_mm4": 25242.80848742926,
+      "section_modulus_y_mm3": 1758.2937711869881
+    }
+  ],
+  "minimum_shin_section_modulus_y_mm3": 1082.4951378055036,
+  "scope": "Nominal rod versus modeled fastening hardware at one-degree increments. Shin sections are 0.2 mm CAD slices at 5 mm intervals, measured about their centroids; no local stress, anisotropy, fatigue or torsion qualification."
+}

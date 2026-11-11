@@ -1,0 +1,224 @@
+[
+  {
+    "variant": "low",
+    "key": "thigh_inner",
+    "scope": "Local native export coverage screen only",
+    "native_file": "exports/cohesive-thigh-inner-final.step",
+    "source_sha256": "9b9841da933392b33fb4449069ebfa7dabdfae639bae6608b80f6ce12800a7c0",
+    "native_sha256": "95f5c087a5650e6d0099327ffa593d8c4f3fae32d13ad1e449e0bb68df36faf9",
+    "volume_method_evidence": "audits/cohesive-thigh-inner-final-geometry.json",
+    "valid": true,
+    "source_solids": 1,
+    "native_solids": 1,
+    "source_volume_mm3": 62487.81876292768,
+    "native_volume_mm3": 62485.76736279989,
+    "relative_volume_error": 3.282880037106699e-05,
+    "surface_deviation": {
+      "source_to_native": {
+        "samples": 240,
+        "maximum_mm": 0.008739753576833608,
+        "worst_point_mm": [
+          -6.653685798398473,
+          47.47039071705231,
+          -116.52056936953507
+        ]
+      },
+      "native_to_source": {
+        "samples": 240,
+        "maximum_mm": 0.007861397312902278,
+        "worst_point_mm": [
+          -5.462123658698298,
+          47.367611632460836,
+          -121.9808143673217
+        ]
+      }
+    },
+    "critical_cylinders_passed": false,
+    "cylinder_error_mm": 3.105071755271638e-12,
+    "cylinder_axis_error": 0.0,
+    "unexplained_cylinders": [
+      [
+        45.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "passed": false,
+    "state": "geometry_differs"
+  },
+  {
+    "variant": "low",
+    "key": "thigh_outer",
+    "scope": "Local native export coverage screen only",
+    "native_file": "exports/cohesive-thigh-outer-final.step",
+    "source_sha256": "8399701b44961cac3ae5a191dac43c3d434d130d85fbe70e282c31b0acb9345a",
+    "native_sha256": "1f3d8943f6ed8ebdd0640a7bd63d8dd47d6099b0f6e365d5b4a557e678914dce",
+    "volume_method_evidence": "audits/cohesive-thigh-outer-final-geometry.json",
+    "valid": true,
+    "source_solids": 1,
+    "native_solids": 1,
+    "source_volume_mm3": 115781.22092314796,
+    "native_volume_mm3": 115782.37812796528,
+    "relative_volume_error": 9.994753968601324e-06,
+    "surface_deviation": {
+      "source_to_native": {
+        "samples": 240,
+        "maximum_mm": 0.00519767072424336,
+        "worst_point_mm": [
+          18.95749179622721,
+          99.371913714297,
+          -65.65415898159574
+        ]
+      },
+      "native_to_source": {
+        "samples": 240,
+        "maximum_mm": 0.006167602500216456,
+        "worst_point_mm": [
+          -4.172258924415496,
+          99.16947694197661,
+          -129.6005337678949
+        ]
+      }
+    },
+    "critical_cylinders_passed": false,
+    "cylinder_error_mm": 3.105071755271638e-12,
+    "cylinder_axis_error": 0.0,
+    "unexplained_cylinders": [
+      [
+        19.0,
+        0.0,
+        0.0,
+        -170.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        45.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "passed": false,
+    "state": "geometry_differs"
+  },
+  {
+    "variant": "low",
+    "key": "thigh_inner_right",
+    "scope": "Local native export coverage screen only",
+    "native_file": "exports/cohesive-thigh-inner-right-final.step",
+    "source_sha256": "99a41ce6d8a555e50c5e3b09d30c9d358f7d314b443b6bd98ff0936a566c94c2",
+    "native_sha256": "6400f6b14303ff01ea0446574838c777da5abd000d1ad738e49fb520af2de0d1",
+    "volume_method_evidence": "audits/cohesive-thigh-inner-right-final-geometry.json",
+    "valid": true,
+    "source_solids": 1,
+    "native_solids": 1,
+    "source_volume_mm3": 62487.818502681985,
+    "native_volume_mm3": 62486.526946042635,
+    "relative_volume_error": 2.0668934686750242e-05,
+    "surface_deviation": {
+      "source_to_native": {
+        "samples": 240,
+        "maximum_mm": 0.31847238732855726,
+        "worst_point_mm": [
+          -34.30355086222323,
+          -51.000000269579,
+          -131.37555592957895
+        ]
+      },
+      "native_to_source": {
+        "samples": 240,
+        "maximum_mm": 0.007826813515569459,
+        "worst_point_mm": [
+          38.76537744232056,
+          -47.42804891293535,
+          -36.5871443618388
+        ]
+      }
+    },
+    "critical_cylinders_passed": false,
+    "cylinder_error_mm": 3.105071755271638e-12,
+    "cylinder_axis_error": 0.0,
+    "unexplained_cylinders": [
+      [
+        45.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "passed": false,
+    "state": "geometry_differs"
+  },
+  {
+    "variant": "low",
+    "key": "thigh_outer_right",
+    "scope": "Local native export coverage screen only",
+    "native_file": "exports/cohesive-thigh-outer-right-final.step",
+    "source_sha256": "d8ae5d33c27422be10ec9be0bb278a7b34fd668e43ce96943016a2c6d5675019",
+    "native_sha256": "ec0d9ff7269b5f2325b374f313359a62d6f549046a49c90c999460c2a64d3744",
+    "volume_method_evidence": "audits/cohesive-thigh-outer-right-final-geometry.json",
+    "valid": true,
+    "source_solids": 1,
+    "native_solids": 1,
+    "source_volume_mm3": 115781.21982489162,
+    "native_volume_mm3": 115782.37296807517,
+    "relative_volume_error": 9.959673816621662e-06,
+    "surface_deviation": {
+      "source_to_native": {
+        "samples": 240,
+        "maximum_mm": 0.004894516953885769,
+        "worst_point_mm": [
+          -46.55504941566778,
+          -96.83046827369631,
+          -12.772562648167765
+        ]
+      },
+      "native_to_source": {
+        "samples": 240,
+        "maximum_mm": 0.006405501518099101,
+        "worst_point_mm": [
+          -4.954072165524999,
+          -99.62378158082647,
+          -130.45669099671903
+        ]
+      }
+    },
+    "critical_cylinders_passed": false,
+    "cylinder_error_mm": 3.105071755271638e-12,
+    "cylinder_axis_error": 0.0,
+    "unexplained_cylinders": [
+      [
+        19.0,
+        0.0,
+        0.0,
+        -170.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        45.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "passed": false,
+    "state": "geometry_differs"
+  }
+]

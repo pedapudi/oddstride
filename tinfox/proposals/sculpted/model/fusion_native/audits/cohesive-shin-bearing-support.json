@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "check": "inner bearing bore",
+      "expect": "empty",
+      "source_error_volume_mm3": 0.0,
+      "native_error_volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "outer bearing bore",
+      "expect": "empty",
+      "source_error_volume_mm3": 0.0,
+      "native_error_volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "inner full-width seat backing",
+      "expect": "solid",
+      "source_error_volume_mm3": 0.0,
+      "native_error_volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "outer full-width seat backing",
+      "expect": "solid",
+      "source_error_volume_mm3": 0.0,
+      "native_error_volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "inner axial shoulder",
+      "expect": "solid",
+      "source_error_volume_mm3": 0.0,
+      "native_error_volume_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "check": "outer axial shoulder",
+      "expect": "solid",
+      "source_error_volume_mm3": 0.0,
+      "native_error_volume_mm3": 0.0,
+      "pass": true
+    }
+  ],
+  "passed": true,
+  "scope": "Entire three-dimensional seat bands and axial-stop volumes; excludes deliberate extraction holes with 0.05 mm margin. Supplements source/full-surface comparison."
+}

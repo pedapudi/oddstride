@@ -1,0 +1,7066 @@
+{
+  "model_sha256": "3f384f8cace91b1b5154eea61771b4c69d207e6d3fdab714ed475639b0cd8ce5",
+  "moving_components": [
+    "FL_hip_output_bolt_0",
+    "FL_hip_output_bolt_60",
+    "FL_hip_output_bolt_120",
+    "FL_hip_output_bolt_180",
+    "FL_hip_output_bolt_240",
+    "FL_hip_output_bolt_300",
+    "FL_hip_hub",
+    "FL_knee_motor",
+    "FL_motor_mount_ring",
+    "FL_pod_sleeve_90",
+    "FL_pod_tie_90",
+    "FL_pod_sleeve_210",
+    "FL_pod_tie_210",
+    "FL_pod_sleeve_330",
+    "FL_pod_tie_330",
+    "FL_thigh_inner",
+    "FL_thigh_outer",
+    "FL_sleeve_0",
+    "FL_bolt_0",
+    "FL_sleeve_1",
+    "FL_bolt_1",
+    "FL_input_crank",
+    "FL_input_bolt_0",
+    "FL_input_bolt_60",
+    "FL_input_bolt_120",
+    "FL_input_bolt_180",
+    "FL_input_bolt_240",
+    "FL_input_bolt_300",
+    "FL_pushrod",
+    "FL_rod_bush_input_0",
+    "FL_rod_bush_input_1",
+    "FL_rod_bush_output_0",
+    "FL_rod_bush_output_1",
+    "FL_input_pin",
+    "FL_output_pivot_nut",
+    "FL_output_pin",
+    "FL_knee_axle",
+    "FL_axle_bolt",
+    "FL_axle_nut",
+    "FL_knee_inner_spacer",
+    "FL_bearing_inner",
+    "FL_bearing_outer",
+    "FL_shin_inner",
+    "FL_shin_outer",
+    "FL_shin_clamp_sleeve_37",
+    "FL_shin_clamp_bolt_37",
+    "FL_shin_clamp_nut_37",
+    "FL_shin_clamp_sleeve_105",
+    "FL_shin_clamp_bolt_105",
+    "FL_shin_clamp_nut_105",
+    "FL_foot",
+    "FR_hip_output_bolt_0",
+    "FR_hip_output_bolt_60",
+    "FR_hip_output_bolt_120",
+    "FR_hip_output_bolt_180",
+    "FR_hip_output_bolt_240",
+    "FR_hip_output_bolt_300",
+    "FR_hip_hub",
+    "FR_knee_motor",
+    "FR_motor_mount_ring",
+    "FR_pod_sleeve_90",
+    "FR_pod_tie_90",
+    "FR_pod_sleeve_210",
+    "FR_pod_tie_210",
+    "FR_pod_sleeve_330",
+    "FR_pod_tie_330",
+    "FR_thigh_inner",
+    "FR_thigh_outer",
+    "FR_sleeve_0",
+    "FR_bolt_0",
+    "FR_sleeve_1",
+    "FR_bolt_1",
+    "FR_input_crank",
+    "FR_input_bolt_0",
+    "FR_input_bolt_60",
+    "FR_input_bolt_120",
+    "FR_input_bolt_180",
+    "FR_input_bolt_240",
+    "FR_input_bolt_300",
+    "FR_pushrod",
+    "FR_rod_bush_input_0",
+    "FR_rod_bush_input_1",
+    "FR_rod_bush_output_0",
+    "FR_rod_bush_output_1",
+    "FR_input_pin",
+    "FR_output_pivot_nut",
+    "FR_output_pin",
+    "FR_knee_axle",
+    "FR_axle_bolt",
+    "FR_axle_nut",
+    "FR_knee_inner_spacer",
+    "FR_bearing_inner",
+    "FR_bearing_outer",
+    "FR_shin_inner",
+    "FR_shin_outer",
+    "FR_shin_clamp_sleeve_37",
+    "FR_shin_clamp_bolt_37",
+    "FR_shin_clamp_nut_37",
+    "FR_shin_clamp_sleeve_105",
+    "FR_shin_clamp_bolt_105",
+    "FR_shin_clamp_nut_105",
+    "FR_foot",
+    "FL_knee_port_-1_socket",
+    "FL_knee_port_-1_plug",
+    "FL_knee_port_-1_boot",
+    "FL_knee_port_-1_cable",
+    "FL_knee_port_1_socket",
+    "FL_knee_port_1_plug",
+    "FL_knee_port_1_boot",
+    "FL_knee_port_1_cable",
+    "FR_knee_port_-1_socket",
+    "FR_knee_port_-1_plug",
+    "FR_knee_port_-1_boot",
+    "FR_knee_port_-1_cable",
+    "FR_knee_port_1_socket",
+    "FR_knee_port_1_plug",
+    "FR_knee_port_1_boot",
+    "FR_knee_port_1_cable"
+  ],
+  "fixed_components": [
+    "body_center_0",
+    "belly_center_0",
+    "end_cap_nut_1_-18",
+    "end_cap_screw_1_-18",
+    "end_cap_nut_1_18",
+    "end_cap_screw_1_18",
+    "body_service_screw_-1_-112_22",
+    "body_service_screw_-1_112_22",
+    "body_service_screw_1_-112_22",
+    "body_service_screw_1_112_22",
+    "body_wordmark",
+    "body_serial",
+    "body_status_dot",
+    "battery_side_panel_-1",
+    "battery_access_screw_-1_-50",
+    "battery_access_screw_-1_50",
+    "battery_access_latch_-1",
+    "battery_side_panel_1",
+    "battery_access_screw_1_-50",
+    "battery_access_screw_1_50",
+    "battery_access_latch_1",
+    "battery_-1",
+    "battery_latch_-1",
+    "battery_1",
+    "battery_latch_1",
+    "cassette_nut_-1_-52",
+    "cassette_nut_-1_52",
+    "cassette_nut_1_-52",
+    "cassette_nut_1_52",
+    "battery_cassette",
+    "battery_skid",
+    "chassis_beam_-102",
+    "chassis_beam_102",
+    "chassis_tie_bolt_-121_-1_-3",
+    "chassis_tie_nut_-121_-1_-3",
+    "chassis_tie_bolt_-121_-1_3",
+    "chassis_tie_nut_-121_-1_3",
+    "chassis_tie_bolt_-121_1_-3",
+    "chassis_tie_nut_-121_1_-3",
+    "chassis_tie_bolt_-121_1_3",
+    "chassis_tie_nut_-121_1_3",
+    "chassis_crossmember_-121",
+    "chassis_tie_bolt_121_-1_-3",
+    "chassis_tie_nut_121_-1_-3",
+    "chassis_tie_bolt_121_-1_3",
+    "chassis_tie_nut_121_-1_3",
+    "chassis_tie_bolt_121_1_-3",
+    "chassis_tie_nut_121_1_-3",
+    "chassis_tie_bolt_121_1_3",
+    "chassis_tie_nut_121_1_3",
+    "chassis_crossmember_121",
+    "chassis_bolt_-1_-125.5_-12",
+    "chassis_bolt_-1_-125.5_24",
+    "chassis_bolt_-1_125.5_-12",
+    "chassis_bolt_-1_125.5_24",
+    "chassis_bolt_1_-125.5_-12",
+    "chassis_bolt_1_-125.5_24",
+    "chassis_bolt_1_125.5_-12",
+    "chassis_bolt_1_125.5_24",
+    "cassette_screw_-1_-52",
+    "cassette_screw_-1_52",
+    "cassette_screw_1_-52",
+    "cassette_screw_1_52",
+    "chassis_brace_screw_-1_-63",
+    "chassis_brace_screw_-1_63",
+    "chassis_brace_screw_1_-63",
+    "chassis_brace_screw_1_63",
+    "chassis_lower_brace",
+    "tray_screw_-1_-52",
+    "tray_screw_-1_52",
+    "tray_screw_1_-52",
+    "tray_screw_1_52",
+    "electronics_shelf",
+    "electronics_clearance",
+    "lidar_base",
+    "lidar",
+    "lidar_lid",
+    "front_fascia_screw_-89_-27",
+    "front_fascia_screw_-89_27",
+    "front_fascia_screw_89_-27",
+    "front_fascia_screw_89_27",
+    "body_nose_surround",
+    "front_fascia",
+    "sensor_bezel",
+    "sensor_window",
+    "camera_-52",
+    "lens_ring_-52",
+    "iris_-52",
+    "lens_-52",
+    "camera_52",
+    "lens_ring_52",
+    "iris_52",
+    "lens_52",
+    "depth_sensor",
+    "status_display",
+    "status_display_dial",
+    "power_button",
+    "FL_roll_motor",
+    "FL_roll_cartridge",
+    "FL_roll_bearing",
+    "FR_roll_motor",
+    "FR_roll_cartridge",
+    "FR_roll_bearing",
+    "RL_roll_motor",
+    "RL_roll_cartridge",
+    "RL_roll_bearing",
+    "RR_roll_motor",
+    "RR_roll_cartridge",
+    "RR_roll_bearing",
+    "FL_roll_port_-1_socket",
+    "FL_roll_port_-1_plug",
+    "FL_roll_port_-1_boot",
+    "FL_roll_port_-1_cable",
+    "FL_roll_port_1_socket",
+    "FL_roll_port_1_plug",
+    "FL_roll_port_1_boot",
+    "FL_roll_port_1_cable",
+    "FR_roll_port_-1_socket",
+    "FR_roll_port_-1_plug",
+    "FR_roll_port_-1_boot",
+    "FR_roll_port_-1_cable",
+    "FR_roll_port_1_socket",
+    "FR_roll_port_1_plug",
+    "FR_roll_port_1_boot",
+    "FR_roll_port_1_cable",
+    "RL_roll_port_-1_socket",
+    "RL_roll_port_-1_plug",
+    "RL_roll_port_-1_boot",
+    "RL_roll_port_-1_cable",
+    "RL_roll_port_1_socket",
+    "RL_roll_port_1_plug",
+    "RL_roll_port_1_boot",
+    "RL_roll_port_1_cable",
+    "RR_roll_port_-1_socket",
+    "RR_roll_port_-1_plug",
+    "RR_roll_port_-1_boot",
+    "RR_roll_port_-1_cable",
+    "RR_roll_port_1_socket",
+    "RR_roll_port_1_plug",
+    "RR_roll_port_1_boot",
+    "RR_roll_port_1_cable"
+  ],
+  "knee_hardware_components": [
+    "FL_rod_bush_output_0",
+    "FL_rod_bush_output_1",
+    "FL_output_pivot_nut",
+    "FL_output_pin",
+    "FL_knee_axle",
+    "FL_axle_bolt",
+    "FL_axle_nut",
+    "FL_knee_inner_spacer",
+    "FL_bearing_inner",
+    "FL_bearing_outer",
+    "FL_shin_clamp_sleeve_37",
+    "FL_shin_clamp_bolt_37",
+    "FL_shin_clamp_nut_37",
+    "FL_shin_clamp_sleeve_105",
+    "FL_shin_clamp_bolt_105",
+    "FL_shin_clamp_nut_105",
+    "FR_rod_bush_output_0",
+    "FR_rod_bush_output_1",
+    "FR_output_pivot_nut",
+    "FR_output_pin",
+    "FR_knee_axle",
+    "FR_axle_bolt",
+    "FR_axle_nut",
+    "FR_knee_inner_spacer",
+    "FR_bearing_inner",
+    "FR_bearing_outer",
+    "FR_shin_clamp_sleeve_37",
+    "FR_shin_clamp_bolt_37",
+    "FR_shin_clamp_nut_37",
+    "FR_shin_clamp_sleeve_105",
+    "FR_shin_clamp_bolt_105",
+    "FR_shin_clamp_nut_105"
+  ],
+  "named_poses": [
+    {
+      "pose": "stand",
+      "angles": {
+        "FL": [
+          0,
+          30,
+          -60
+        ],
+        "FR": [
+          0,
+          30,
+          -60
+        ],
+        "RL": [
+          0,
+          30,
+          -60
+        ],
+        "RR": [
+          0,
+          30,
+          -60
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 66.97985696484615,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "studio",
+      "angles": {
+        "FL": [
+          0,
+          45,
+          -75
+        ],
+        "FR": [
+          0,
+          45,
+          -75
+        ],
+        "RL": [
+          0,
+          45,
+          -75
+        ],
+        "RR": [
+          0,
+          45,
+          -75
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 37.416986225564735,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "raised",
+      "angles": {
+        "FL": [
+          0,
+          24,
+          -48
+        ],
+        "FR": [
+          0,
+          24,
+          -48
+        ],
+        "RL": [
+          0,
+          24,
+          -48
+        ],
+        "RR": [
+          0,
+          24,
+          -48
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 80.89193384781325,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "crouch",
+      "angles": {
+        "FL": [
+          0,
+          65,
+          -130
+        ],
+        "FR": [
+          0,
+          65,
+          -130
+        ],
+        "RL": [
+          0,
+          65,
+          -130
+        ],
+        "RR": [
+          0,
+          65,
+          -130
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 14.200000000000003,
+      "nearest_knee_hardware_pair": [
+        "FR_axle_bolt",
+        "battery_side_panel_-1"
+      ]
+    },
+    {
+      "pose": "reach",
+      "angles": {
+        "FL": [
+          8,
+          -10,
+          -75
+        ],
+        "FR": [
+          8,
+          38,
+          -76
+        ],
+        "RL": [
+          8,
+          38,
+          -76
+        ],
+        "RR": [
+          8,
+          38,
+          -76
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 54.0354105291658,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "battery_side_panel_-1"
+      ]
+    },
+    {
+      "pose": "fold",
+      "angles": {
+        "FL": [
+          0,
+          77,
+          -154
+        ],
+        "FR": [
+          0,
+          77,
+          -154
+        ],
+        "RL": [
+          0,
+          77,
+          -154
+        ],
+        "RR": [
+          0,
+          77,
+          -154
+        ]
+      },
+      "hits": [
+        [
+          "FL_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FL_thigh_inner",
+          "body_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "body_center_0"
+        ]
+      ],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 2.509080159021843,
+      "nearest_knee_hardware_pair": [
+        "FL_axle_bolt",
+        "belly_center_0"
+      ]
+    },
+    {
+      "pose": "splay",
+      "angles": {
+        "FL": [
+          25,
+          35,
+          -70
+        ],
+        "FR": [
+          25,
+          35,
+          -70
+        ],
+        "RL": [
+          25,
+          35,
+          -70
+        ],
+        "RR": [
+          25,
+          35,
+          -70
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 72.0254483073481,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "battery_side_panel_-1"
+      ]
+    },
+    {
+      "pose": "side_reach",
+      "angles": {
+        "FL": [
+          -60,
+          -35,
+          -70
+        ],
+        "FR": [
+          60,
+          -35,
+          -70
+        ],
+        "RL": [
+          -60,
+          35,
+          -70
+        ],
+        "RR": [
+          60,
+          35,
+          -70
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 71.1415522158575,
+      "nearest_knee_hardware_pair": [
+        "FL_axle_bolt",
+        "front_fascia"
+      ]
+    }
+  ],
+  "prior_sample_poses": [
+    {
+      "pose": "stand",
+      "angles": {
+        "FL": [
+          0,
+          30,
+          -60
+        ],
+        "FR": [
+          0,
+          30,
+          -60
+        ],
+        "RL": [
+          0,
+          30,
+          -60
+        ],
+        "RR": [
+          0,
+          30,
+          -60
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 66.97985696484615,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "studio",
+      "angles": {
+        "FL": [
+          0,
+          45,
+          -75
+        ],
+        "FR": [
+          0,
+          45,
+          -75
+        ],
+        "RL": [
+          0,
+          45,
+          -75
+        ],
+        "RR": [
+          0,
+          45,
+          -75
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 37.416986225564735,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "raised",
+      "angles": {
+        "FL": [
+          0,
+          24,
+          -48
+        ],
+        "FR": [
+          0,
+          24,
+          -48
+        ],
+        "RL": [
+          0,
+          24,
+          -48
+        ],
+        "RR": [
+          0,
+          24,
+          -48
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 80.89193384781325,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "crouch",
+      "angles": {
+        "FL": [
+          0,
+          65,
+          -130
+        ],
+        "FR": [
+          0,
+          65,
+          -130
+        ],
+        "RL": [
+          0,
+          65,
+          -130
+        ],
+        "RR": [
+          0,
+          65,
+          -130
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 14.200000000000003,
+      "nearest_knee_hardware_pair": [
+        "FL_axle_bolt",
+        "battery_side_panel_1"
+      ]
+    },
+    {
+      "pose": "reach",
+      "angles": {
+        "FL": [
+          8,
+          -10,
+          -75
+        ],
+        "FR": [
+          8,
+          38,
+          -76
+        ],
+        "RL": [
+          8,
+          38,
+          -76
+        ],
+        "RR": [
+          8,
+          38,
+          -76
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 54.0354105291658,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "battery_side_panel_-1"
+      ]
+    },
+    {
+      "pose": "fold",
+      "angles": {
+        "FL": [
+          0,
+          77,
+          -154
+        ],
+        "FR": [
+          0,
+          77,
+          -154
+        ],
+        "RL": [
+          0,
+          77,
+          -154
+        ],
+        "RR": [
+          0,
+          77,
+          -154
+        ]
+      },
+      "hits": [
+        [
+          "FL_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FL_thigh_inner",
+          "body_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "body_center_0"
+        ]
+      ],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 2.509080159021843,
+      "nearest_knee_hardware_pair": [
+        "FL_axle_bolt",
+        "belly_center_0"
+      ]
+    },
+    {
+      "pose": "splay",
+      "angles": {
+        "FL": [
+          25,
+          35,
+          -70
+        ],
+        "FR": [
+          25,
+          35,
+          -70
+        ],
+        "RL": [
+          25,
+          35,
+          -70
+        ],
+        "RR": [
+          25,
+          35,
+          -70
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 72.0254483073481,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "battery_side_panel_1"
+      ]
+    },
+    {
+      "pose": "side_reach",
+      "angles": {
+        "FL": [
+          -60,
+          -35,
+          -70
+        ],
+        "FR": [
+          60,
+          -35,
+          -70
+        ],
+        "RL": [
+          -60,
+          35,
+          -70
+        ],
+        "RR": [
+          60,
+          35,
+          -70
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 71.1415522158575,
+      "nearest_knee_hardware_pair": [
+        "FL_axle_bolt",
+        "front_fascia"
+      ]
+    },
+    {
+      "pose": "sample_-45_0_-140",
+      "angles": {
+        "FL": [
+          -45,
+          0,
+          -140
+        ],
+        "FR": [
+          -45,
+          0,
+          -140
+        ],
+        "RL": [
+          -45,
+          0,
+          -140
+        ],
+        "RR": [
+          -45,
+          0,
+          -140
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 53.923323302374556,
+      "nearest_knee_hardware_pair": [
+        "FR_shin_clamp_bolt_105",
+        "body_nose_surround"
+      ]
+    },
+    {
+      "pose": "sample_-45_0_-90",
+      "angles": {
+        "FL": [
+          -45,
+          0,
+          -90
+        ],
+        "FR": [
+          -45,
+          0,
+          -90
+        ],
+        "RL": [
+          -45,
+          0,
+          -90
+        ],
+        "RR": [
+          -45,
+          0,
+          -90
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 111.84672469723736,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "belly_center_0"
+      ]
+    },
+    {
+      "pose": "sample_-45_0_-60",
+      "angles": {
+        "FL": [
+          -45,
+          0,
+          -60
+        ],
+        "FR": [
+          -45,
+          0,
+          -60
+        ],
+        "RL": [
+          -45,
+          0,
+          -60
+        ],
+        "RR": [
+          -45,
+          0,
+          -60
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 106.6024570454186,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "belly_center_0"
+      ]
+    },
+    {
+      "pose": "sample_-45_30_-140",
+      "angles": {
+        "FL": [
+          -45,
+          30,
+          -140
+        ],
+        "FR": [
+          -45,
+          30,
+          -140
+        ],
+        "RL": [
+          -45,
+          30,
+          -140
+        ],
+        "RR": [
+          -45,
+          30,
+          -140
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 66.57625495004207,
+      "nearest_knee_hardware_pair": [
+        "FR_axle_bolt",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "sample_-45_30_-90",
+      "angles": {
+        "FL": [
+          -45,
+          30,
+          -90
+        ],
+        "FR": [
+          -45,
+          30,
+          -90
+        ],
+        "RL": [
+          -45,
+          30,
+          -90
+        ],
+        "RR": [
+          -45,
+          30,
+          -90
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 60.59237160111956,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "sample_-45_30_-60",
+      "angles": {
+        "FL": [
+          -45,
+          30,
+          -60
+        ],
+        "FR": [
+          -45,
+          30,
+          -60
+        ],
+        "RL": [
+          -45,
+          30,
+          -60
+        ],
+        "RR": [
+          -45,
+          30,
+          -60
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 59.603547266611514,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "sample_-45_65_-140",
+      "angles": {
+        "FL": [
+          -45,
+          65,
+          -140
+        ],
+        "FR": [
+          -45,
+          65,
+          -140
+        ],
+        "RL": [
+          -45,
+          65,
+          -140
+        ],
+        "RR": [
+          -45,
+          65,
+          -140
+        ]
+      },
+      "hits": [
+        [
+          "FL_shin_inner",
+          "battery_skid"
+        ],
+        [
+          "FL_thigh_inner",
+          "FL_roll_port_-1_cable"
+        ],
+        [
+          "FL_thigh_inner",
+          "battery_1"
+        ],
+        [
+          "FL_thigh_inner",
+          "battery_cassette"
+        ],
+        [
+          "FL_thigh_inner",
+          "battery_skid"
+        ],
+        [
+          "FL_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FR_shin_inner",
+          "battery_skid"
+        ],
+        [
+          "FR_thigh_inner",
+          "FR_roll_port_-1_cable"
+        ],
+        [
+          "FR_thigh_inner",
+          "battery_-1"
+        ],
+        [
+          "FR_thigh_inner",
+          "battery_cassette"
+        ],
+        [
+          "FR_thigh_inner",
+          "battery_skid"
+        ],
+        [
+          "FR_thigh_inner",
+          "belly_center_0"
+        ]
+      ],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 6.674819588430818,
+      "nearest_knee_hardware_pair": [
+        "FL_axle_bolt",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "sample_-45_65_-90",
+      "angles": {
+        "FL": [
+          -45,
+          65,
+          -90
+        ],
+        "FR": [
+          -45,
+          65,
+          -90
+        ],
+        "RL": [
+          -45,
+          65,
+          -90
+        ],
+        "RR": [
+          -45,
+          65,
+          -90
+        ]
+      },
+      "hits": [
+        [
+          "FL_pushrod",
+          "battery_skid"
+        ],
+        [
+          "FL_shin_inner",
+          "battery_cassette"
+        ],
+        [
+          "FL_shin_inner",
+          "battery_skid"
+        ],
+        [
+          "FL_thigh_inner",
+          "FL_roll_port_-1_cable"
+        ],
+        [
+          "FL_thigh_inner",
+          "battery_1"
+        ],
+        [
+          "FL_thigh_inner",
+          "battery_cassette"
+        ],
+        [
+          "FL_thigh_inner",
+          "battery_skid"
+        ],
+        [
+          "FL_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FR_pushrod",
+          "battery_skid"
+        ],
+        [
+          "FR_shin_inner",
+          "battery_cassette"
+        ],
+        [
+          "FR_shin_inner",
+          "battery_skid"
+        ],
+        [
+          "FR_thigh_inner",
+          "FR_roll_port_-1_cable"
+        ],
+        [
+          "FR_thigh_inner",
+          "battery_-1"
+        ],
+        [
+          "FR_thigh_inner",
+          "battery_cassette"
+        ],
+        [
+          "FR_thigh_inner",
+          "battery_skid"
+        ],
+        [
+          "FR_thigh_inner",
+          "belly_center_0"
+        ]
+      ],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 0.8475174507032895,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "sample_-45_65_-60",
+      "angles": {
+        "FL": [
+          -45,
+          65,
+          -60
+        ],
+        "FR": [
+          -45,
+          65,
+          -60
+        ],
+        "RL": [
+          -45,
+          65,
+          -60
+        ],
+        "RR": [
+          -45,
+          65,
+          -60
+        ]
+      },
+      "hits": [
+        [
+          "FL_shin_inner",
+          "battery_cassette"
+        ],
+        [
+          "FL_shin_inner",
+          "battery_skid"
+        ],
+        [
+          "FL_thigh_inner",
+          "FL_roll_port_-1_cable"
+        ],
+        [
+          "FL_thigh_inner",
+          "battery_1"
+        ],
+        [
+          "FL_thigh_inner",
+          "battery_cassette"
+        ],
+        [
+          "FL_thigh_inner",
+          "battery_skid"
+        ],
+        [
+          "FL_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FR_shin_inner",
+          "battery_cassette"
+        ],
+        [
+          "FR_shin_inner",
+          "battery_skid"
+        ],
+        [
+          "FR_thigh_inner",
+          "FR_roll_port_-1_cable"
+        ],
+        [
+          "FR_thigh_inner",
+          "battery_-1"
+        ],
+        [
+          "FR_thigh_inner",
+          "battery_cassette"
+        ],
+        [
+          "FR_thigh_inner",
+          "battery_skid"
+        ],
+        [
+          "FR_thigh_inner",
+          "belly_center_0"
+        ]
+      ],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 1.4221177027516592,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "sample_0_0_-140",
+      "angles": {
+        "FL": [
+          0,
+          0,
+          -140
+        ],
+        "FR": [
+          0,
+          0,
+          -140
+        ],
+        "RL": [
+          0,
+          0,
+          -140
+        ],
+        "RR": [
+          0,
+          0,
+          -140
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 53.28765115015761,
+      "nearest_knee_hardware_pair": [
+        "FL_shin_clamp_bolt_105",
+        "body_nose_surround"
+      ]
+    },
+    {
+      "pose": "sample_0_0_-90",
+      "angles": {
+        "FL": [
+          0,
+          0,
+          -90
+        ],
+        "FR": [
+          0,
+          0,
+          -90
+        ],
+        "RL": [
+          0,
+          0,
+          -90
+        ],
+        "RR": [
+          0,
+          0,
+          -90
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 123.31244964314658,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "belly_center_0"
+      ]
+    },
+    {
+      "pose": "sample_0_0_-60",
+      "angles": {
+        "FL": [
+          0,
+          0,
+          -60
+        ],
+        "FR": [
+          0,
+          0,
+          -60
+        ],
+        "RL": [
+          0,
+          0,
+          -60
+        ],
+        "RR": [
+          0,
+          0,
+          -60
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 115.61331928521129,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "belly_center_0"
+      ]
+    },
+    {
+      "pose": "sample_0_30_-140",
+      "angles": {
+        "FL": [
+          0,
+          30,
+          -140
+        ],
+        "FR": [
+          0,
+          30,
+          -140
+        ],
+        "RL": [
+          0,
+          30,
+          -140
+        ],
+        "RR": [
+          0,
+          30,
+          -140
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 76.76666430187454,
+      "nearest_knee_hardware_pair": [
+        "FL_bearing_inner",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "sample_0_30_-90",
+      "angles": {
+        "FL": [
+          0,
+          30,
+          -90
+        ],
+        "FR": [
+          0,
+          30,
+          -90
+        ],
+        "RL": [
+          0,
+          30,
+          -90
+        ],
+        "RR": [
+          0,
+          30,
+          -90
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 68.1874454911352,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "sample_0_30_-60",
+      "angles": {
+        "FL": [
+          0,
+          30,
+          -60
+        ],
+        "FR": [
+          0,
+          30,
+          -60
+        ],
+        "RL": [
+          0,
+          30,
+          -60
+        ],
+        "RR": [
+          0,
+          30,
+          -60
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 66.97985696484615,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "battery_skid"
+      ]
+    },
+    {
+      "pose": "sample_0_65_-140",
+      "angles": {
+        "FL": [
+          0,
+          65,
+          -140
+        ],
+        "FR": [
+          0,
+          65,
+          -140
+        ],
+        "RL": [
+          0,
+          65,
+          -140
+        ],
+        "RR": [
+          0,
+          65,
+          -140
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 14.200000000000003,
+      "nearest_knee_hardware_pair": [
+        "FL_axle_bolt",
+        "battery_side_panel_1"
+      ]
+    },
+    {
+      "pose": "sample_0_65_-90",
+      "angles": {
+        "FL": [
+          0,
+          65,
+          -90
+        ],
+        "FR": [
+          0,
+          65,
+          -90
+        ],
+        "RL": [
+          0,
+          65,
+          -90
+        ],
+        "RR": [
+          0,
+          65,
+          -90
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 14.200000000000003,
+      "nearest_knee_hardware_pair": [
+        "FL_axle_bolt",
+        "battery_side_panel_1"
+      ]
+    },
+    {
+      "pose": "sample_0_65_-60",
+      "angles": {
+        "FL": [
+          0,
+          65,
+          -60
+        ],
+        "FR": [
+          0,
+          65,
+          -60
+        ],
+        "RL": [
+          0,
+          65,
+          -60
+        ],
+        "RR": [
+          0,
+          65,
+          -60
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 14.200000000000003,
+      "nearest_knee_hardware_pair": [
+        "FL_axle_bolt",
+        "battery_side_panel_1"
+      ]
+    },
+    {
+      "pose": "sample_45_0_-140",
+      "angles": {
+        "FL": [
+          45,
+          0,
+          -140
+        ],
+        "FR": [
+          45,
+          0,
+          -140
+        ],
+        "RL": [
+          45,
+          0,
+          -140
+        ],
+        "RR": [
+          45,
+          0,
+          -140
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 64.68570622424663,
+      "nearest_knee_hardware_pair": [
+        "FL_shin_clamp_bolt_105",
+        "body_nose_surround"
+      ]
+    },
+    {
+      "pose": "sample_45_0_-90",
+      "angles": {
+        "FL": [
+          45,
+          0,
+          -90
+        ],
+        "FR": [
+          45,
+          0,
+          -90
+        ],
+        "RL": [
+          45,
+          0,
+          -90
+        ],
+        "RR": [
+          45,
+          0,
+          -90
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 124.85489919202804,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "belly_center_0"
+      ]
+    },
+    {
+      "pose": "sample_45_0_-60",
+      "angles": {
+        "FL": [
+          45,
+          0,
+          -60
+        ],
+        "FR": [
+          45,
+          0,
+          -60
+        ],
+        "RL": [
+          45,
+          0,
+          -60
+        ],
+        "RR": [
+          45,
+          0,
+          -60
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 117.58210957505632,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "belly_center_0"
+      ]
+    },
+    {
+      "pose": "sample_45_30_-140",
+      "angles": {
+        "FL": [
+          45,
+          30,
+          -140
+        ],
+        "FR": [
+          45,
+          30,
+          -140
+        ],
+        "RL": [
+          45,
+          30,
+          -140
+        ],
+        "RR": [
+          45,
+          30,
+          -140
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 90.50628343530077,
+      "nearest_knee_hardware_pair": [
+        "FL_shin_clamp_bolt_105",
+        "body_nose_surround"
+      ]
+    },
+    {
+      "pose": "sample_45_30_-90",
+      "angles": {
+        "FL": [
+          45,
+          30,
+          -90
+        ],
+        "FR": [
+          45,
+          30,
+          -90
+        ],
+        "RL": [
+          45,
+          30,
+          -90
+        ],
+        "RR": [
+          45,
+          30,
+          -90
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 90.10869976723761,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "belly_center_0"
+      ]
+    },
+    {
+      "pose": "sample_45_30_-60",
+      "angles": {
+        "FL": [
+          45,
+          30,
+          -60
+        ],
+        "FR": [
+          45,
+          30,
+          -60
+        ],
+        "RL": [
+          45,
+          30,
+          -60
+        ],
+        "RR": [
+          45,
+          30,
+          -60
+        ]
+      },
+      "hits": [],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 84.3206724994283,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "belly_center_0"
+      ]
+    },
+    {
+      "pose": "sample_45_65_-140",
+      "angles": {
+        "FL": [
+          45,
+          65,
+          -140
+        ],
+        "FR": [
+          45,
+          65,
+          -140
+        ],
+        "RL": [
+          45,
+          65,
+          -140
+        ],
+        "RR": [
+          45,
+          65,
+          -140
+        ]
+      },
+      "hits": [
+        [
+          "FL_bolt_0",
+          "body_center_0"
+        ],
+        [
+          "FL_thigh_inner",
+          "body_center_0"
+        ],
+        [
+          "FL_thigh_inner",
+          "body_service_screw_1_112_22"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_beam_102"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_bolt_1_125.5_24"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_crossmember_121"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_tie_bolt_121_1_-3"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_tie_bolt_121_1_3"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_tie_nut_121_1_-3"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_tie_nut_121_1_3"
+        ],
+        [
+          "FR_bolt_0",
+          "body_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "body_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "body_service_screw_-1_112_22"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_beam_-102"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_bolt_-1_125.5_24"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_crossmember_121"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_tie_bolt_121_-1_-3"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_tie_bolt_121_-1_3"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_tie_nut_121_-1_-3"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_tie_nut_121_-1_3"
+        ]
+      ],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 34.47481958843079,
+      "nearest_knee_hardware_pair": [
+        "FR_axle_bolt",
+        "belly_center_0"
+      ]
+    },
+    {
+      "pose": "sample_45_65_-90",
+      "angles": {
+        "FL": [
+          45,
+          65,
+          -90
+        ],
+        "FR": [
+          45,
+          65,
+          -90
+        ],
+        "RL": [
+          45,
+          65,
+          -90
+        ],
+        "RR": [
+          45,
+          65,
+          -90
+        ]
+      },
+      "hits": [
+        [
+          "FL_bolt_0",
+          "body_center_0"
+        ],
+        [
+          "FL_thigh_inner",
+          "body_center_0"
+        ],
+        [
+          "FL_thigh_inner",
+          "body_service_screw_1_112_22"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_beam_102"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_bolt_1_125.5_24"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_crossmember_121"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_tie_bolt_121_1_-3"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_tie_bolt_121_1_3"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_tie_nut_121_1_-3"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_tie_nut_121_1_3"
+        ],
+        [
+          "FR_bolt_0",
+          "body_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "body_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "body_service_screw_-1_112_22"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_beam_-102"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_bolt_-1_125.5_24"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_crossmember_121"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_tie_bolt_121_-1_-3"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_tie_bolt_121_-1_3"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_tie_nut_121_-1_-3"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_tie_nut_121_-1_3"
+        ]
+      ],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 28.6475174507033,
+      "nearest_knee_hardware_pair": [
+        "FR_output_pivot_nut",
+        "body_center_0"
+      ]
+    },
+    {
+      "pose": "sample_45_65_-60",
+      "angles": {
+        "FL": [
+          45,
+          65,
+          -60
+        ],
+        "FR": [
+          45,
+          65,
+          -60
+        ],
+        "RL": [
+          45,
+          65,
+          -60
+        ],
+        "RR": [
+          45,
+          65,
+          -60
+        ]
+      },
+      "hits": [
+        [
+          "FL_bolt_0",
+          "body_center_0"
+        ],
+        [
+          "FL_thigh_inner",
+          "body_center_0"
+        ],
+        [
+          "FL_thigh_inner",
+          "body_service_screw_1_112_22"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_beam_102"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_bolt_1_125.5_24"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_crossmember_121"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_tie_bolt_121_1_-3"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_tie_bolt_121_1_3"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_tie_nut_121_1_-3"
+        ],
+        [
+          "FL_thigh_inner",
+          "chassis_tie_nut_121_1_3"
+        ],
+        [
+          "FR_bolt_0",
+          "body_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "body_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "body_service_screw_-1_112_22"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_beam_-102"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_bolt_-1_125.5_24"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_crossmember_121"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_tie_bolt_121_-1_-3"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_tie_bolt_121_-1_3"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_tie_nut_121_-1_-3"
+        ],
+        [
+          "FR_thigh_inner",
+          "chassis_tie_nut_121_-1_3"
+        ]
+      ],
+      "knee_hardware_hits": [],
+      "knee_hardware_gap_mm": 29.22211770275167,
+      "nearest_knee_hardware_pair": [
+        "FL_output_pivot_nut",
+        "body_center_0"
+      ]
+    }
+  ],
+  "sweeps": {
+    "hip_pitch_knee_60": {
+      "fixed_angles_roll_hip_knee_deg": [
+        0,
+        30,
+        -60
+      ],
+      "axis_index": 1,
+      "step_deg": 1,
+      "samples": [
+        {
+          "angle_deg": -90,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -89,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -88,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -87,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -86,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -85,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -84,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -83,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -82,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -81,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -80,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -79,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -78,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -77,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -76,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -75,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -74,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -73,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -72,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -71,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -70,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -69,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -68,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -67,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -66,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -65,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -64,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -63,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -62,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -61,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -60,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -59,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -58,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -57,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -56,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -55,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -54,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -53,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -52,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -51,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -50,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -49,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -48,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -47,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -46,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -45,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -44,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -43,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -42,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -41,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -40,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -39,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -38,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -37,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -36,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -35,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -34,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -33,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -32,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -31,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -30,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -29,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -28,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -27,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -26,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -25,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -24,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -23,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -22,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -21,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -20,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -19,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -18,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -17,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -16,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -15,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -14,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -13,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -12,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -11,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -10,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -9,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -8,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -7,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -6,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -5,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -4,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -3,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -2,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -1,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 0,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 1,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 2,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 3,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 4,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 5,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 6,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 7,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 8,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 9,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 10,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 11,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 12,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 13,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 14,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 15,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 16,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 17,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 18,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 19,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 20,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 21,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 22,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 23,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 24,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 25,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 26,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 27,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 28,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 29,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 30,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 31,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 32,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 33,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 34,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 35,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 36,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 37,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 38,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 39,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 40,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 41,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 42,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 43,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 44,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 45,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 46,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 47,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 48,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 49,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 50,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 51,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 52,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 53,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 54,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 55,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 56,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 57,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 58,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 59,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 60,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 61,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 62,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 63,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 64,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 65,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 66,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 67,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 68,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 69,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 70,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 71,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 72,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 73,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 74,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 75,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 76,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 77,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 78,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 79,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 80,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 81,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 82,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 83,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 84,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 85,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 86,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 87,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 88,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 89,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 90,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 91,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 92,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 93,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 94,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 95,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 96,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 97,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 98,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 99,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 100,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 101,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 102,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 103,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 104,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 105,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 106,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 107,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 108,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 109,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 110,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 111,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 112,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 113,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 114,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 115,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 116,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 117,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 118,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 119,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 120,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 121,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 122,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 123,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 124,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 125,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 126,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 127,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 128,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 129,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 130,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 131,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 132,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 133,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 134,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 135,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 136,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 137,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 138,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 139,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 140,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 141,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 142,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 143,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 144,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 145,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 146,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 147,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 148,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 149,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 150,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 151,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 152,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 153,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 154,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 155,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 156,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 157,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 158,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 159,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 160,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 161,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 162,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 163,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 164,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 165,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 166,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 167,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 168,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 169,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 170,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 171,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 172,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 173,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 174,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 175,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 176,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 177,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 178,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 179,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 180,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 181,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 182,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 183,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 184,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 185,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 186,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 187,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 188,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 189,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 190,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 191,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 192,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 193,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 194,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 195,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 196,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 197,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 198,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 199,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 200,
+          "hits": [],
+          "knee_hardware_hits": []
+        }
+      ]
+    },
+    "hip_pitch_knee_130": {
+      "fixed_angles_roll_hip_knee_deg": [
+        0,
+        30,
+        -130
+      ],
+      "axis_index": 1,
+      "step_deg": 1,
+      "samples": [
+        {
+          "angle_deg": -90,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -89,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -88,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -87,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -86,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -85,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -84,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -83,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -82,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -81,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -80,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -79,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -78,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -77,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -76,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -75,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -74,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -73,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -72,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -71,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -70,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -69,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -68,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -67,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -66,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -65,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -64,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -63,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -62,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -61,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -60,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -59,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -58,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -57,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -56,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -55,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -54,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -53,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -52,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -51,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -50,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -49,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -48,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -47,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -46,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -45,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -44,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -43,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -42,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -41,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -40,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -39,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -38,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -37,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -36,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -35,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -34,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -33,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -32,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -31,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -30,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -29,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -28,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -27,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -26,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -25,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -24,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -23,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -22,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -21,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -20,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -19,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -18,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -17,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -16,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -15,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -14,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -13,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -12,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -11,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -10,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -9,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -8,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -7,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -6,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -5,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -4,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -3,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -2,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -1,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 0,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 1,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 2,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 3,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 4,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 5,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 6,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 7,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 8,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 9,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 10,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 11,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 12,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 13,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 14,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 15,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 16,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 17,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 18,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 19,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 20,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 21,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 22,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 23,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 24,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 25,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 26,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 27,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 28,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 29,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 30,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 31,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 32,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 33,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 34,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 35,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 36,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 37,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 38,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 39,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 40,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 41,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 42,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 43,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 44,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 45,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 46,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 47,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 48,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 49,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 50,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 51,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 52,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 53,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 54,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 55,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 56,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 57,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 58,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 59,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 60,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 61,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 62,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 63,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 64,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 65,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 66,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 67,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 68,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 69,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 70,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 71,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 72,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 73,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 74,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 75,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 76,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 77,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 78,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 79,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 80,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 81,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 82,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 83,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 84,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 85,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 86,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 87,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 88,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 89,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 90,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 91,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "belly_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 92,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 93,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 94,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 95,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 96,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 97,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 98,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 99,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 100,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 101,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 102,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 103,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 104,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 105,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 106,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 107,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 108,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 109,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 110,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 111,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 112,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 113,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 114,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 115,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 116,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 117,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 118,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 119,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 120,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 121,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 122,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 123,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 124,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 125,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 126,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 127,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 128,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 129,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 130,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 131,
+          "hits": [
+            [
+              "FL_thigh_inner",
+              "body_center_0"
+            ],
+            [
+              "FR_thigh_inner",
+              "body_center_0"
+            ]
+          ],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 132,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 133,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 134,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 135,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 136,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 137,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 138,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 139,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 140,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 141,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 142,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 143,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 144,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 145,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 146,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 147,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 148,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 149,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 150,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 151,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 152,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 153,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 154,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 155,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 156,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 157,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 158,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 159,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 160,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 161,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 162,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 163,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 164,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 165,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 166,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 167,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 168,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 169,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 170,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 171,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 172,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 173,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 174,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 175,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 176,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 177,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 178,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 179,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 180,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 181,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 182,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 183,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 184,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 185,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 186,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 187,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 188,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 189,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 190,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 191,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 192,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 193,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 194,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 195,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 196,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 197,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 198,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 199,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 200,
+          "hits": [],
+          "knee_hardware_hits": []
+        }
+      ]
+    },
+    "hip_roll_stand": {
+      "fixed_angles_roll_hip_knee_deg": [
+        0,
+        30,
+        -60
+      ],
+      "axis_index": 0,
+      "step_deg": 1,
+      "samples": [
+        {
+          "angle_deg": -60,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -59,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -58,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -57,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -56,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -55,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -54,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -53,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -52,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -51,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -50,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -49,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -48,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -47,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -46,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -45,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -44,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -43,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -42,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -41,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -40,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -39,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -38,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -37,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -36,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -35,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -34,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -33,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -32,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -31,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -30,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -29,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -28,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -27,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -26,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -25,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -24,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -23,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -22,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -21,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -20,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -19,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -18,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -17,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -16,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -15,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -14,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -13,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -12,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -11,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -10,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -9,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -8,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -7,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -6,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -5,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -4,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -3,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -2,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": -1,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 0,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 1,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 2,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 3,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 4,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 5,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 6,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 7,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 8,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 9,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 10,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 11,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 12,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 13,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 14,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 15,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 16,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 17,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 18,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 19,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 20,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 21,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 22,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 23,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 24,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 25,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 26,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 27,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 28,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 29,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 30,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 31,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 32,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 33,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 34,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 35,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 36,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 37,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 38,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 39,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 40,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 41,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 42,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 43,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 44,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 45,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 46,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 47,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 48,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 49,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 50,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 51,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 52,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 53,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 54,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 55,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 56,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 57,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 58,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 59,
+          "hits": [],
+          "knee_hardware_hits": []
+        },
+        {
+          "angle_deg": 60,
+          "hits": [],
+          "knee_hardware_hits": []
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 4.243663191999076,
+  "scope": "All modeled front thigh, crank, rod and shin components versus the complete fixed body/frame, including modeled fasteners and purchased-part envelopes regardless of prior check flags. Fixed roll motors and cartridges are obstacles. Hip-roll carriers are outside this targeted check. Rigid triangle meshes at sampled positions; no continuous-motion, tolerance, cable-flex, ground or loaded-deflection qualification. The active 22 mm linkage is checked; the proposed 28 mm closed-thigh study is not installed."
+}

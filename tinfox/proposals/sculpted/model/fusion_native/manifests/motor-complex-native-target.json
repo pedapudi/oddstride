@@ -1,0 +1,76 @@
+{
+  "name": "Detached three-RS02 motor complex",
+  "frozen_source_model_sha256": "b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6",
+  "explicit_corrections": "snapshots/motor-complex-20261029T050757Z/geometry-corrections.json",
+  "parts": {
+    "hip_hub": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/hip_hub.step",
+      "sha256": "983f8f512e35e94e67cb1a17e81d3e2910b7816a85bda1c39eadb7de3151450e"
+    },
+    "hip_stator_closure_1": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/hip_stator_closure_1.step",
+      "sha256": "75173edfdeb3b60dbc173367b3ffac71d30589349719d9cae31699f6ddccc832"
+    },
+    "input_crank": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/input_crank.step",
+      "sha256": "dd3324222cfd270d35d6ce4497abd78b69aff1240762aca6465ea7f356763e9e"
+    },
+    "motor_carrier_1": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/motor_carrier_1.step",
+      "sha256": "822550fccd463ac9948ef0dd7786dc64ad93b2fd3c238b143c8d28ee8223ada8"
+    },
+    "motor_mount_ring": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/motor_mount_ring.step",
+      "sha256": "72b1f1c3bc6e89d66e37ee4f264c4c6813617ed7d4070d315771abe944ef897e"
+    },
+    "roll_cartridge_1": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/roll_cartridge_1.step",
+      "sha256": "cad2ccf70480917488e0964864c93f3ebd6ae245ad3cd80e66956ce1b58bca9e"
+    },
+    "roll_inner_backplate_1": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/roll_inner_backplate_1.step",
+      "sha256": "b1e6c4de5a61e8643c7020963c896ad71e7c4df703878dcb5ba834954ebf9d7e"
+    },
+    "roll_inner_spacer_1": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/roll_inner_spacer_1.step",
+      "sha256": "c78fbc879408c9fa400fceb36c55f90d554eae20e91a2127165f117a29e9ea34"
+    },
+    "roll_outer_retainer_1": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/roll_outer_retainer_1.step",
+      "sha256": "246f8fa19dd728da1309dc5251df8632da584d1412953dfa1af9b685b55f0dd4"
+    },
+    "roll_outer_spacer_1": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/roll_outer_spacer_1.step",
+      "sha256": "181254600721c7fd10af11039c20ef58f3d31ed06138b2244f8c382b0ca6af72"
+    },
+    "roll_stator_backplate_1": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/roll_stator_backplate_1.step",
+      "sha256": "8418d56a548b12916008d25e38a7d96fc695a2a68d63fc6341ff749f6baa8ee2"
+    },
+    "thigh_inner": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/thigh_inner.step",
+      "sha256": "b8cb7f644e92119b329e3cffac039385b432150365d77b4b92fcc5c929fefa7a"
+    },
+    "thigh_outer": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/thigh_outer.step",
+      "sha256": "5371a23c585301b15cc4a8a1a991a10e513a9479e20a572b150ba1b0a584683e"
+    }
+  },
+  "optional_fit_stock": {
+    "fit-only-pod-long-sleeve": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/fit-only-pod-long-sleeve.step",
+      "sha256": "639effc5e46f2210d795b1fddd7b5b35442ef839636a667d78ff241b0a2904cd"
+    },
+    "fit-only-pod-short-sleeve": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/fit-only-pod-short-sleeve.step",
+      "sha256": "f8901383a820e6f8b8969efe0ace2a4b84ed08ec6d6d7997cd0a9a5db73c99f7"
+    },
+    "fit-only-thigh-clamp-sleeve": {
+      "source_step": "snapshots/motor-complex-20261029T050757Z/fit-only-thigh-clamp-sleeve.step",
+      "sha256": "2e09ed7033b8f15f491502ba063fffc7cb536ab7e351f2eeca5457fdf165b354"
+    }
+  },
+  "generated_dfma_report": "snapshots/motor-complex-20261029T050757Z/generated-release-report.json",
+  "native_source_of_truth": false,
+  "generated_dfma_report_sha256": "b5b61a0acc22cdfcd330b436eef936ed6470852b048deddd4b595ce065dc87eb"
+}

@@ -1,0 +1,196 @@
+{
+  "scope": "Only final cap-hole and cup-window deltas. Earlier focused interface results are retained, not repeated.",
+  "native_checkpoint": 32,
+  "inputs": {
+    "cap": {
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/dfma-architecture-v1/dfma_shared_roll_cap_fl-3p8.step",
+      "sha256": "de32b0b44a2894d6479e66440d40d94722a9e997be7e3a867765c55c0bb618c8",
+      "valid_one_solid": true
+    },
+    "cup": {
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/dfma-architecture-v1/dfma-rear-loaded-cup-rounded-ports.step",
+      "sha256": "b21e01396098de066a11cf2a2832a61952ae8003e5ff3532d7d000ddff6f1747",
+      "valid_one_solid": true
+    }
+  },
+  "cap_delta": {
+    "nine_final_holes": 9,
+    "unchanged_other_cylinders": true,
+    "bounds_error_mm": 0.0,
+    "expected_removed_mm3": 31.384510609362007,
+    "actual_removed_mm3": 31.384510609363133,
+    "passed": true
+  },
+  "cup_material_addition_check": {
+    "valid_result": false,
+    "added_material_mm3": null,
+    "added_solids": 2,
+    "passed": false,
+    "used_as_gate": false,
+    "note": "Invalid coincident subtraction is preserved and supplies no volume verdict."
+  },
+  "changed_port_fan_sections": [
+    {
+      "bench_x_mm": -54,
+      "prior": {
+        "area_mm2": 944.9219997618954,
+        "Iyy_mm4": 212992.6285363012,
+        "Izz_mm4": 40523.166932428256
+      },
+      "rounded": {
+        "area_mm2": 944.9219997618961,
+        "Iyy_mm4": 212992.6285363012,
+        "Izz_mm4": 40523.166932428256
+      }
+    },
+    {
+      "bench_x_mm": -52,
+      "prior": {
+        "area_mm2": 898.6659201204536,
+        "Iyy_mm4": 180177.59157095663,
+        "Izz_mm4": 36780.678152907174
+      },
+      "rounded": {
+        "area_mm2": 898.6659201204538,
+        "Iyy_mm4": 180177.59157095756,
+        "Izz_mm4": 36780.67815290764
+      }
+    },
+    {
+      "bench_x_mm": -40.9,
+      "prior": {
+        "area_mm2": 1464.0579006198811,
+        "Iyy_mm4": 231487.2076938469,
+        "Izz_mm4": 191755.45158046996
+      },
+      "rounded": {
+        "area_mm2": 1464.0579006198807,
+        "Iyy_mm4": 231487.2076938469,
+        "Izz_mm4": 191755.45158046903
+      }
+    }
+  ],
+  "previous_cap_review_sha256": "e1b5f4450299698fcdb7b44a2084c21b99d89edc6a6a80603a82079ee3cae12f",
+  "previous_cup_review_sha256": "553c54c33bc231199b048429830d55e7ab654056bea8d5c3a2a99903493883ea",
+  "assembly_order": "Seat shared-cap stator screws before inserting the cup/journal. Install the six output couplings through the empty cup; then rear-insert hip motor and install its front stator screws. Bearing service removes carrier before releasing shared stator/cap stack.",
+  "qualification": "Shape/support/clearance review only; no preload, printed strength, global stiffness or operating qualification. No baseline/source-authority change.",
+  "passed": true,
+  "cup_delta_resolution": {
+    "basis": "Executed native constructor adds exactly two CutFeatureOperation extrusions to the unchanged v1 cup; material removal preserves earlier insertion/driver clearances. Native author confirms no parent feature or baseline parameter was edited.",
+    "constructor": "tinfox/proposals/sculpted/model/fusion_native/source/dfma_rear_loaded_cup_intent.py",
+    "constructor_sha256": "502f29234648b6f2e427dc2899fb8eb48e4b7ce0bac8d096af05fa93cccc7fc9",
+    "native_edit_audit": "tinfox/proposals/sculpted/model/fusion_native/audits/dfma-rounded-cup-windows.json",
+    "native_edit_audit_sha256": "ef860ac0114f452dc6111b3c3504071793e5a774704c55fd9381169ab21977e6",
+    "corner_cylinders": {
+      "prior": [],
+      "rounded": [
+        {
+          "radius_mm": 3.0,
+          "axis": [
+            -0.5906056676199251,
+            0.0,
+            -0.8069603121438023
+          ],
+          "axis_point_mm": [
+            -20.039873404654,
+            -41.2,
+            -18.9740543869491
+          ]
+        },
+        {
+          "radius_mm": 3.0,
+          "axis": [
+            -0.5906056676199251,
+            0.0,
+            -0.8069603121438023
+          ],
+          "axis_point_mm": [
+            -20.039873404654,
+            -7.20000000000001,
+            -18.9740543869491
+          ]
+        },
+        {
+          "radius_mm": 3.0,
+          "axis": [
+            -0.5906056676199251,
+            0.0,
+            -0.8069603121438023
+          ],
+          "axis_point_mm": [
+            -5.51458778606554,
+            -41.2,
+            -29.6049564041078
+          ]
+        },
+        {
+          "radius_mm": 3.0,
+          "axis": [
+            -0.5906056676199251,
+            0.0,
+            -0.8069603121438023
+          ],
+          "axis_point_mm": [
+            -5.51458778606554,
+            -7.20000000000001,
+            -29.6049564041078
+          ]
+        },
+        {
+          "radius_mm": 3.0,
+          "axis": [
+            0.5906056676199251,
+            0.0,
+            0.8069603121438023
+          ],
+          "axis_point_mm": [
+            30.039873404654,
+            -41.2,
+            18.9740543869491
+          ]
+        },
+        {
+          "radius_mm": 3.0,
+          "axis": [
+            0.5906056676199251,
+            0.0,
+            0.8069603121438023
+          ],
+          "axis_point_mm": [
+            30.039873404654,
+            -7.20000000000001,
+            18.9740543869491
+          ]
+        },
+        {
+          "radius_mm": 3.0,
+          "axis": [
+            0.5906056676199251,
+            0.0,
+            0.8069603121438023
+          ],
+          "axis_point_mm": [
+            15.5145877860655,
+            -41.2,
+            29.6049564041078
+          ]
+        },
+        {
+          "radius_mm": 3.0,
+          "axis": [
+            0.5906056676199251,
+            0.0,
+            0.8069603121438023
+          ],
+          "axis_point_mm": [
+            15.5145877860655,
+            -7.20000000000001,
+            29.6049564041078
+          ]
+        }
+      ]
+    },
+    "new_native_rounded_corners_verified": true,
+    "passed": true
+  }
+}

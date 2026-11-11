@@ -1,0 +1,108 @@
+{
+  "hip_checks": [
+    {
+      "part": "DFMA_THIGH_PRIMARY_FL",
+      "y_rotation_deg": -60,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "part": "DFMA_THIGH_PRIMARY_FL",
+      "y_rotation_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "part": "DFMA_THIGH_PRIMARY_FL",
+      "y_rotation_deg": 30,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "part": "DFMA_THIGH_PRIMARY_FL",
+      "y_rotation_deg": 90,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "part": "DFMA_THIGH_SECONDARY_FL",
+      "y_rotation_deg": -60,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "part": "DFMA_THIGH_SECONDARY_FL",
+      "y_rotation_deg": 0,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "part": "DFMA_THIGH_SECONDARY_FL",
+      "y_rotation_deg": 30,
+      "intersection_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "part": "DFMA_THIGH_SECONDARY_FL",
+      "y_rotation_deg": 90,
+      "intersection_mm3": 0.0,
+      "passed": true
+    }
+  ],
+  "washer_floors": [
+    {
+      "clock_deg": 20,
+      "floor_y_mm": 84.4,
+      "material_contact_area_mm2": 82.90663012804497,
+      "expected_full_annulus_mm2": 82.90663012823464,
+      "passed": true
+    },
+    {
+      "clock_deg": 60,
+      "floor_y_mm": 84.4,
+      "material_contact_area_mm2": 82.906630128045,
+      "expected_full_annulus_mm2": 82.90663012823464,
+      "passed": true
+    },
+    {
+      "clock_deg": 300,
+      "floor_y_mm": 84.4,
+      "material_contact_area_mm2": 82.906630128045,
+      "expected_full_annulus_mm2": 82.90663012823464,
+      "passed": true
+    },
+    {
+      "clock_deg": 340,
+      "floor_y_mm": 84.4,
+      "material_contact_area_mm2": 82.90663012804497,
+      "expected_full_annulus_mm2": 82.90663012823464,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "exports": [
+    {
+      "part_number": "DFMA_THIGH_PRIMARY_FL",
+      "path": "/Users/sunil/Library/Caches/Tinfox/dfma-architecture-v1/dfma-thigh-primary-round-inboard.step",
+      "sha256": "26c3ca957379bd0637c8c8003af6e6f8b86d44465d6e1478593776136dc79723"
+    },
+    {
+      "part_number": "DFMA_THIGH_SECONDARY_FL",
+      "path": "/Users/sunil/Library/Caches/Tinfox/dfma-architecture-v1/dfma-thigh-secondary-round-inboard.step",
+      "sha256": "e761df44f36245dc9533dbe0c8a4c5bad5c5622be56b72db3230aedf215c52ae"
+    }
+  ],
+  "images": [
+    {
+      "path": "/Users/sunil/Library/Caches/Tinfox/dfma-architecture-v1/dfma-thigh-round-inboard-assembled.png",
+      "sha256": "f0aad813c25a80694d091b2744cfdce46b78d80b8238e98d354bb7bb65d8e610"
+    },
+    {
+      "path": "/Users/sunil/Library/Caches/Tinfox/dfma-architecture-v1/dfma-thigh-round-inboard-open.png",
+      "sha256": "5afe0217958fe7cd8c1ffc824f2fa121d4922946cd76b2dbd72f3139c9405e23"
+    }
+  ],
+  "saved_version": 33,
+  "working_modified": true,
+  "scope": "Focused current-native hip interfaces and actual washer-bearing floors. Other prior clearances preserved by the single material-removal feature; no strength release."
+}

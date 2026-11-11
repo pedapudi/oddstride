@@ -1,0 +1,892 @@
+{
+  "model_sha256": "beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8",
+  "input_sha256": {
+    "output/closed-thigh-work/step/thigh_inner.step": "321ca0ee49f1ebe4263d226259c7d332c03ed21117889f59c4d4d867d9d3d2a0",
+    "output/closed-thigh-work/step/thigh_outer.step": "1e11e410db92ffceb72d383bdd9e6114cf7a03fb8433f6303cdfed59b8692881",
+    "output/step-parts/foot.step": "ea6994176e2b085d1e0ebab009da2feca7f3f16fd3456b5fd0fd9e5e2397b102"
+  },
+  "checker": "OpenCascade BRepExtrema surface distance; nominal rigid boot versus both structural thigh halves",
+  "samples": [
+    {
+      "knee_deg": -156.0,
+      "distance_mm": 2.452577313608988
+    },
+    {
+      "knee_deg": -155.5,
+      "distance_mm": 3.7839007146155668
+    },
+    {
+      "knee_deg": -155.0,
+      "distance_mm": 5.113381114047425
+    },
+    {
+      "knee_deg": -154.5,
+      "distance_mm": 6.441021848041014
+    },
+    {
+      "knee_deg": -154.0,
+      "distance_mm": 7.766815189437435
+    },
+    {
+      "knee_deg": -153.5,
+      "distance_mm": 9.090743819639371
+    },
+    {
+      "knee_deg": -153.0,
+      "distance_mm": 10.412782032304287
+    },
+    {
+      "knee_deg": -152.5,
+      "distance_mm": 11.732896727961307
+    },
+    {
+      "knee_deg": -152.0,
+      "distance_mm": 13.051048243444448
+    },
+    {
+      "knee_deg": -151.5,
+      "distance_mm": 14.367191049250328
+    },
+    {
+      "knee_deg": -151.0,
+      "distance_mm": 15.681270272937104
+    },
+    {
+      "knee_deg": -150.5,
+      "distance_mm": 16.993173746174616
+    },
+    {
+      "knee_deg": -150.0,
+      "distance_mm": 18.30275000253434
+    },
+    {
+      "knee_deg": -149.5,
+      "distance_mm": 19.60984533033632
+    },
+    {
+      "knee_deg": -149.0,
+      "distance_mm": 20.91430450791014
+    },
+    {
+      "knee_deg": -148.5,
+      "distance_mm": 22.215970763299094
+    },
+    {
+      "knee_deg": -148.0,
+      "distance_mm": 23.514685732690374
+    },
+    {
+      "knee_deg": -147.5,
+      "distance_mm": 24.810289417611312
+    },
+    {
+      "knee_deg": -147.0,
+      "distance_mm": 26.102620140949192
+    },
+    {
+      "knee_deg": -146.5,
+      "distance_mm": 27.391514501866688
+    },
+    {
+      "knee_deg": -146.0,
+      "distance_mm": 28.67680732970631
+    },
+    {
+      "knee_deg": -145.5,
+      "distance_mm": 29.958331636998125
+    },
+    {
+      "knee_deg": -145.0,
+      "distance_mm": 31.23591857171316
+    },
+    {
+      "knee_deg": -144.5,
+      "distance_mm": 32.50939736893366
+    },
+    {
+      "knee_deg": -144.0,
+      "distance_mm": 33.778595302146286
+    },
+    {
+      "knee_deg": -143.5,
+      "distance_mm": 35.04333763440622
+    },
+    {
+      "knee_deg": -143.0,
+      "distance_mm": 36.30344756966266
+    },
+    {
+      "knee_deg": -142.5,
+      "distance_mm": 37.5587462045926
+    },
+    {
+      "knee_deg": -142.0,
+      "distance_mm": 38.80905248134726
+    },
+    {
+      "knee_deg": -141.5,
+      "distance_mm": 40.05418314168754
+    },
+    {
+      "knee_deg": -141.0,
+      "distance_mm": 41.293952683060766
+    },
+    {
+      "knee_deg": -140.5,
+      "distance_mm": 42.52817331726451
+    },
+    {
+      "knee_deg": -140.0,
+      "distance_mm": 43.75665493244402
+    },
+    {
+      "knee_deg": -139.5,
+      "distance_mm": 44.97920505928854
+    },
+    {
+      "knee_deg": -139.0,
+      "distance_mm": 46.19562884242556
+    },
+    {
+      "knee_deg": -138.5,
+      "distance_mm": 47.40572901816261
+    },
+    {
+      "knee_deg": -138.0,
+      "distance_mm": 48.609305899900434
+    },
+    {
+      "knee_deg": -137.5,
+      "distance_mm": 49.80615737273495
+    },
+    {
+      "knee_deg": -137.0,
+      "distance_mm": 50.99607889898856
+    },
+    {
+      "knee_deg": -136.5,
+      "distance_mm": 52.178863536656905
+    },
+    {
+      "knee_deg": -136.0,
+      "distance_mm": 53.35430197304103
+    },
+    {
+      "knee_deg": -135.5,
+      "distance_mm": 54.52218257614718
+    },
+    {
+      "knee_deg": -135.0,
+      "distance_mm": 55.68229146678813
+    },
+    {
+      "knee_deg": -134.5,
+      "distance_mm": 56.83441261471263
+    },
+    {
+      "knee_deg": -134.0,
+      "distance_mm": 57.97832796252108
+    },
+    {
+      "knee_deg": -133.5,
+      "distance_mm": 59.1138175816043
+    },
+    {
+      "knee_deg": -133.0,
+      "distance_mm": 60.24065986486449
+    },
+    {
+      "knee_deg": -132.5,
+      "distance_mm": 61.35863176154247
+    },
+    {
+      "knee_deg": -132.0,
+      "distance_mm": 62.46750906008197
+    },
+    {
+      "knee_deg": -131.5,
+      "distance_mm": 63.56706672560242
+    },
+    {
+      "knee_deg": -131.0,
+      "distance_mm": 64.65718530152277
+    },
+    {
+      "knee_deg": -130.5,
+      "distance_mm": 65.7426816198896
+    },
+    {
+      "knee_deg": -130.0,
+      "distance_mm": 66.82623000242702
+    },
+    {
+      "knee_deg": -129.5,
+      "distance_mm": 67.90778650970319
+    },
+    {
+      "knee_deg": -129.0,
+      "distance_mm": 68.9873077342299
+    },
+    {
+      "knee_deg": -128.5,
+      "distance_mm": 70.0647507796323
+    },
+    {
+      "knee_deg": -128.0,
+      "distance_mm": 71.14007324096835
+    },
+    {
+      "knee_deg": -127.5,
+      "distance_mm": 72.2132331861469
+    },
+    {
+      "knee_deg": -127.0,
+      "distance_mm": 73.28418913839602
+    },
+    {
+      "knee_deg": -126.5,
+      "distance_mm": 74.35290005973641
+    },
+    {
+      "knee_deg": -126.0,
+      "distance_mm": 75.41932533541608
+    },
+    {
+      "knee_deg": -125.5,
+      "distance_mm": 76.48342475926646
+    },
+    {
+      "knee_deg": -125.0,
+      "distance_mm": 77.54515851994121
+    },
+    {
+      "knee_deg": -124.5,
+      "distance_mm": 78.60448718800168
+    },
+    {
+      "knee_deg": -124.0,
+      "distance_mm": 79.66137170053004
+    },
+    {
+      "knee_deg": -123.5,
+      "distance_mm": 80.71577331858228
+    },
+    {
+      "knee_deg": -123.0,
+      "distance_mm": 81.7676535865726
+    },
+    {
+      "knee_deg": -122.5,
+      "distance_mm": 82.81697431243592
+    },
+    {
+      "knee_deg": -122.0,
+      "distance_mm": 83.86369754924924
+    },
+    {
+      "knee_deg": -121.5,
+      "distance_mm": 84.9077855771391
+    },
+    {
+      "knee_deg": -121.0,
+      "distance_mm": 85.94920088544276
+    },
+    {
+      "knee_deg": -120.5,
+      "distance_mm": 86.98790615508749
+    },
+    {
+      "knee_deg": -120.0,
+      "distance_mm": 88.02386424115603
+    },
+    {
+      "knee_deg": -119.5,
+      "distance_mm": 89.05703815560335
+    },
+    {
+      "knee_deg": -119.0,
+      "distance_mm": 90.08739105009211
+    },
+    {
+      "knee_deg": -118.5,
+      "distance_mm": 91.11488619891108
+    },
+    {
+      "knee_deg": -118.0,
+      "distance_mm": 92.13948698194335
+    },
+    {
+      "knee_deg": -117.5,
+      "distance_mm": 93.16115686764849
+    },
+    {
+      "knee_deg": -117.0,
+      "distance_mm": 94.17985939602227
+    },
+    {
+      "knee_deg": -116.5,
+      "distance_mm": 95.19555816149845
+    },
+    {
+      "knee_deg": -116.0,
+      "distance_mm": 96.20821679575315
+    },
+    {
+      "knee_deg": -115.5,
+      "distance_mm": 97.21779895037368
+    },
+    {
+      "knee_deg": -115.0,
+      "distance_mm": 98.22426827935061
+    },
+    {
+      "knee_deg": -114.5,
+      "distance_mm": 99.22758842135144
+    },
+    {
+      "knee_deg": -114.0,
+      "distance_mm": 100.22772298173082
+    },
+    {
+      "knee_deg": -113.5,
+      "distance_mm": 101.22463551423135
+    },
+    {
+      "knee_deg": -113.0,
+      "distance_mm": 102.2182895023264
+    },
+    {
+      "knee_deg": -112.5,
+      "distance_mm": 103.20864834015298
+    },
+    {
+      "knee_deg": -112.0,
+      "distance_mm": 104.19567531298
+    },
+    {
+      "knee_deg": -111.5,
+      "distance_mm": 105.17933357715461
+    },
+    {
+      "knee_deg": -111.0,
+      "distance_mm": 106.15958613946353
+    },
+    {
+      "knee_deg": -110.5,
+      "distance_mm": 106.26542769834225
+    },
+    {
+      "knee_deg": -110.0,
+      "distance_mm": 106.28503251767745
+    },
+    {
+      "knee_deg": -109.5,
+      "distance_mm": 106.304355995858
+    },
+    {
+      "knee_deg": -109.0,
+      "distance_mm": 106.32340062240344
+    },
+    {
+      "knee_deg": -108.5,
+      "distance_mm": 106.34216776263546
+    },
+    {
+      "knee_deg": -108.0,
+      "distance_mm": 106.36065769181077
+    },
+    {
+      "knee_deg": -107.5,
+      "distance_mm": 106.37886962522268
+    },
+    {
+      "knee_deg": -107.0,
+      "distance_mm": 106.39680174462863
+    },
+    {
+      "knee_deg": -106.5,
+      "distance_mm": 106.41445122131381
+    },
+    {
+      "knee_deg": -106.0,
+      "distance_mm": 106.43181423606167
+    },
+    {
+      "knee_deg": -105.5,
+      "distance_mm": 106.448885996268
+    },
+    {
+      "knee_deg": -105.0,
+      "distance_mm": 106.46566075040509
+    },
+    {
+      "knee_deg": -104.5,
+      "distance_mm": 106.48213180001649
+    },
+    {
+      "knee_deg": -104.0,
+      "distance_mm": 106.4982915094003
+    },
+    {
+      "knee_deg": -103.5,
+      "distance_mm": 106.51413131311874
+    },
+    {
+      "knee_deg": -103.0,
+      "distance_mm": 106.52964172145427
+    },
+    {
+      "knee_deg": -102.5,
+      "distance_mm": 106.54481232391723
+    },
+    {
+      "knee_deg": -102.0,
+      "distance_mm": 106.55963179089548
+    },
+    {
+      "knee_deg": -101.5,
+      "distance_mm": 106.57408787352537
+    },
+    {
+      "knee_deg": -101.0,
+      "distance_mm": 106.58816740185158
+    },
+    {
+      "knee_deg": -100.5,
+      "distance_mm": 106.60185628133387
+    },
+    {
+      "knee_deg": -100.0,
+      "distance_mm": 106.61513948775085
+    },
+    {
+      "knee_deg": -99.5,
+      "distance_mm": 106.62800106054496
+    },
+    {
+      "knee_deg": -99.0,
+      "distance_mm": 106.64042409480744
+    },
+    {
+      "knee_deg": -98.5,
+      "distance_mm": 106.65239073079358
+    },
+    {
+      "knee_deg": -98.0,
+      "distance_mm": 106.66388214229707
+    },
+    {
+      "knee_deg": -97.5,
+      "distance_mm": 106.67487852460746
+    },
+    {
+      "knee_deg": -97.0,
+      "distance_mm": 106.68535908081454
+    },
+    {
+      "knee_deg": -96.5,
+      "distance_mm": 106.69530200648445
+    },
+    {
+      "knee_deg": -96.0,
+      "distance_mm": 106.70468447274669
+    },
+    {
+      "knee_deg": -95.5,
+      "distance_mm": 106.71348260782767
+    },
+    {
+      "knee_deg": -95.0,
+      "distance_mm": 106.72167147706845
+    },
+    {
+      "knee_deg": -94.5,
+      "distance_mm": 106.7292250614656
+    },
+    {
+      "knee_deg": -94.0,
+      "distance_mm": 106.73611623477792
+    },
+    {
+      "knee_deg": -93.5,
+      "distance_mm": 106.74231673924913
+    },
+    {
+      "knee_deg": -93.0,
+      "distance_mm": 106.74779716000424
+    },
+    {
+      "knee_deg": -92.5,
+      "distance_mm": 106.7525268981905
+    },
+    {
+      "knee_deg": -92.0,
+      "distance_mm": 106.75647414294686
+    },
+    {
+      "knee_deg": -91.5,
+      "distance_mm": 106.75960584230685
+    },
+    {
+      "knee_deg": -91.0,
+      "distance_mm": 106.76188767316036
+    },
+    {
+      "knee_deg": -90.5,
+      "distance_mm": 106.76328401042936
+    },
+    {
+      "knee_deg": -90.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -89.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -89.0,
+      "distance_mm": 106.76375789564548
+    },
+    {
+      "knee_deg": -88.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -88.0,
+      "distance_mm": 106.76375789564548
+    },
+    {
+      "knee_deg": -87.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -87.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -86.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -86.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -85.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -85.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -84.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -84.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -83.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -83.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -82.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -82.0,
+      "distance_mm": 106.76375789564548
+    },
+    {
+      "knee_deg": -81.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -81.0,
+      "distance_mm": 106.76375789564548
+    },
+    {
+      "knee_deg": -80.5,
+      "distance_mm": 106.76375789564548
+    },
+    {
+      "knee_deg": -80.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -79.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -79.0,
+      "distance_mm": 106.76375789564548
+    },
+    {
+      "knee_deg": -78.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -78.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -77.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -77.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -76.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -76.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -75.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -75.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -74.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -74.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -73.5,
+      "distance_mm": 106.76375789564548
+    },
+    {
+      "knee_deg": -73.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -72.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -72.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -71.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -71.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -70.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -70.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -69.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -69.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -68.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -68.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -67.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -67.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -66.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -66.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -65.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -65.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -64.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -64.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -63.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -63.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -62.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -62.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -61.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -61.0,
+      "distance_mm": 106.76375789564548
+    },
+    {
+      "knee_deg": -60.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -60.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -59.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -59.0,
+      "distance_mm": 106.76375789564548
+    },
+    {
+      "knee_deg": -58.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -58.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -57.5,
+      "distance_mm": 106.76375789564548
+    },
+    {
+      "knee_deg": -57.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -56.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -56.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -55.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -55.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -54.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -54.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -53.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -53.0,
+      "distance_mm": 106.76375789564548
+    },
+    {
+      "knee_deg": -52.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -52.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -51.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -51.0,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -50.5,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -50.0,
+      "distance_mm": 106.76375789564544
+    },
+    {
+      "knee_deg": -49.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -49.0,
+      "distance_mm": 106.76375789564545
+    },
+    {
+      "knee_deg": -48.5,
+      "distance_mm": 106.76375789564547
+    },
+    {
+      "knee_deg": -48.0,
+      "distance_mm": 106.76375789564547
+    }
+  ],
+  "minimum": {
+    "knee_deg": -156.0,
+    "distance_mm": 2.452577313608988
+  },
+  "step_deg": 0.5,
+  "foot_reference_y_translation_mm": 0.0,
+  "foot_radius_about_knee_bound_mm": 171.41761869772895,
+  "nearest_sample_rotation_deg": 0.25,
+  "maximum_inter_sample_point_motion_mm": 0.7479498672209818,
+  "continuous_nominal_distance_lower_bound_mm": 1.704627446388006,
+  "required_nominal_gap_mm": 1.5,
+  "passed": true,
+  "scope": "Full modeled knee range. Subtracting maximum foot-point motion to the nearest sample bounds rigid clearance between samples. Common hip rotations preserve this relative distance. Actual boot deformation, manufacturing tolerances and loaded deflection remain unqualified."
+}

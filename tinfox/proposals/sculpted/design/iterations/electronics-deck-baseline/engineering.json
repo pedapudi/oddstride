@@ -1,0 +1,1228 @@
+{
+  "weight_comparison": {
+    "target_base_kg": 10,
+    "baseline_base_kg": 16.985069000000003,
+    "current_base_kg": 13.056097000000001,
+    "total_reduction_kg": 3.9289720000000017,
+    "battery_allowance_reduction_kg": 0.8000000000000003,
+    "electronics_allowance_reduction_kg": 0.5999999999999999,
+    "baseline_model_sha256": "ad15071d7445ac311aa4facdfe723fe11da37cfa35ca02e714dd653e170f4b6c",
+    "geometry_and_component_reduction_kg": 2.5289720000000013
+  },
+  "model_sha256": "bb0ea26ed2af5de9437e1a8c00529a5bee0c3da89a23d401bb27da3db53e0c6d",
+  "mass": {
+    "categories_kg": {
+      "steel": 1.246704,
+      "petg": 2.217410999999999,
+      "envelope": 0.008232000000000001,
+      "batteries": 1.4,
+      "aluminum": 1.9551820000000002,
+      "motors": 4.860000000000002,
+      "rubber": 0.168568,
+      "compute_sensors_wiring_allowance": 0.8,
+      "unmodeled_mounts_cables_fasteners_allowance": 0.4
+    },
+    "base_kg": 13.056097000000001,
+    "status": "CAD solid volumes at PETG/aluminum/steel density, nominal motors, assumed packs and electronics. Not a weighed robot."
+  },
+  "motion": {
+    "presets": {
+      "stand": {
+        "collision": false,
+        "pairs": [],
+        "checked_parts": 137,
+        "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+        "minimum_distance_mm": 1.5,
+        "pair": [
+          "body_aft_0",
+          "RL_motor_carrier"
+        ]
+      },
+      "studio": {
+        "collision": false,
+        "pairs": [],
+        "checked_parts": 137,
+        "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+        "minimum_distance_mm": 1.5,
+        "pair": [
+          "body_aft_0",
+          "RL_motor_carrier"
+        ]
+      },
+      "raised": {
+        "collision": false,
+        "pairs": [],
+        "checked_parts": 137,
+        "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+        "minimum_distance_mm": 1.5,
+        "pair": [
+          "body_aft_0",
+          "RL_motor_carrier"
+        ]
+      },
+      "crouch": {
+        "collision": false,
+        "pairs": [],
+        "checked_parts": 137,
+        "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+        "minimum_distance_mm": 1.5,
+        "pair": [
+          "body_aft_0",
+          "RL_motor_carrier"
+        ]
+      },
+      "reach": {
+        "collision": false,
+        "pairs": [],
+        "checked_parts": 137,
+        "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+        "minimum_distance_mm": 1.5,
+        "pair": [
+          "body_aft_0",
+          "RL_motor_carrier"
+        ]
+      },
+      "fold": {
+        "collision": false,
+        "pairs": [],
+        "checked_parts": 137,
+        "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+        "minimum_distance_mm": 1.5,
+        "pair": [
+          "body_aft_0",
+          "RL_motor_carrier"
+        ]
+      },
+      "splay": {
+        "collision": false,
+        "pairs": [],
+        "checked_parts": 137,
+        "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+        "minimum_distance_mm": 1.5,
+        "pair": [
+          "body_aft_0",
+          "RL_motor_carrier"
+        ]
+      },
+      "side_reach": {
+        "collision": false,
+        "pairs": [],
+        "checked_parts": 137,
+        "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+        "minimum_distance_mm": 1.5180461777473582,
+        "pair": [
+          "FL_motor_carrier",
+          "FL_hip_hub"
+        ]
+      }
+    },
+    "joint_sweeps": {
+      "FL": {
+        "roll": {
+          "samples": 121,
+          "clear_intervals_deg": [
+            [
+              -60,
+              -60
+            ],
+            [
+              -51,
+              60
+            ]
+          ],
+          "first_collision": {
+            "angle": -59,
+            "pairs": [
+              [
+                "FL_foot",
+                "FR_shin_outer"
+              ]
+            ]
+          }
+        },
+        "hip": {
+          "samples": 291,
+          "clear_intervals_deg": [
+            [
+              -90,
+              200
+            ]
+          ],
+          "first_collision": null
+        },
+        "knee": {
+          "samples": 109,
+          "clear_intervals_deg": [
+            [
+              -156,
+              -48
+            ]
+          ],
+          "first_collision": null
+        }
+      },
+      "FR": {
+        "roll": {
+          "samples": 121,
+          "clear_intervals_deg": [
+            [
+              -60,
+              -60
+            ],
+            [
+              -51,
+              60
+            ]
+          ],
+          "first_collision": {
+            "angle": -59,
+            "pairs": [
+              [
+                "FL_shin_outer",
+                "FR_foot"
+              ]
+            ]
+          }
+        },
+        "hip": {
+          "samples": 291,
+          "clear_intervals_deg": [
+            [
+              -90,
+              200
+            ]
+          ],
+          "first_collision": null
+        },
+        "knee": {
+          "samples": 109,
+          "clear_intervals_deg": [
+            [
+              -156,
+              -48
+            ]
+          ],
+          "first_collision": null
+        }
+      },
+      "RL": {
+        "roll": {
+          "samples": 121,
+          "clear_intervals_deg": [
+            [
+              -60,
+              -60
+            ],
+            [
+              -51,
+              60
+            ]
+          ],
+          "first_collision": {
+            "angle": -59,
+            "pairs": [
+              [
+                "RL_foot",
+                "RR_shin_outer"
+              ]
+            ]
+          }
+        },
+        "hip": {
+          "samples": 291,
+          "clear_intervals_deg": [
+            [
+              -30,
+              260
+            ]
+          ],
+          "first_collision": null
+        },
+        "knee": {
+          "samples": 109,
+          "clear_intervals_deg": [
+            [
+              -156,
+              -48
+            ]
+          ],
+          "first_collision": null
+        }
+      },
+      "RR": {
+        "roll": {
+          "samples": 121,
+          "clear_intervals_deg": [
+            [
+              -60,
+              -60
+            ],
+            [
+              -51,
+              60
+            ]
+          ],
+          "first_collision": {
+            "angle": -59,
+            "pairs": [
+              [
+                "RL_shin_outer",
+                "RR_foot"
+              ]
+            ]
+          }
+        },
+        "hip": {
+          "samples": 291,
+          "clear_intervals_deg": [
+            [
+              -30,
+              260
+            ]
+          ],
+          "first_collision": null
+        },
+        "knee": {
+          "samples": 109,
+          "clear_intervals_deg": [
+            [
+              -156,
+              -48
+            ]
+          ],
+          "first_collision": null
+        }
+      }
+    },
+    "transitions": {
+      "stand": {
+        "samples": 101,
+        "collision_samples": 0,
+        "first_collision": null
+      },
+      "studio": {
+        "samples": 101,
+        "collision_samples": 0,
+        "first_collision": null
+      },
+      "raised": {
+        "samples": 101,
+        "collision_samples": 0,
+        "first_collision": null
+      },
+      "crouch": {
+        "samples": 101,
+        "collision_samples": 0,
+        "first_collision": null
+      },
+      "reach": {
+        "samples": 101,
+        "collision_samples": 0,
+        "first_collision": null
+      },
+      "fold": {
+        "samples": 101,
+        "collision_samples": 0,
+        "first_collision": null
+      },
+      "splay": {
+        "samples": 101,
+        "collision_samples": 0,
+        "first_collision": null
+      },
+      "side_reach": {
+        "samples": 101,
+        "collision_samples": 0,
+        "first_collision": null
+      }
+    },
+    "step_deg": 1,
+    "coordinated_roll": {
+      "samples": 121,
+      "clear_intervals_deg": [
+        [
+          -60,
+          60
+        ]
+      ],
+      "pose_rule": "left roll = a, right roll = -a; front hip -35 degrees, rear hip 35 degrees, knee -70 degrees. Free-space motion, not a grounded gait."
+    },
+    "folded_hip_sweeps": {
+      "FL": {
+        "samples": 291,
+        "knee_deg": -130,
+        "clear_intervals_deg": [
+          [
+            -90,
+            200
+          ]
+        ]
+      },
+      "FR": {
+        "samples": 291,
+        "knee_deg": -130,
+        "clear_intervals_deg": [
+          [
+            -90,
+            200
+          ]
+        ]
+      },
+      "RL": {
+        "samples": 291,
+        "knee_deg": -130,
+        "clear_intervals_deg": [
+          [
+            -30,
+            260
+          ]
+        ]
+      },
+      "RR": {
+        "samples": 291,
+        "knee_deg": -130,
+        "clear_intervals_deg": [
+          [
+            -30,
+            260
+          ]
+        ]
+      }
+    },
+    "scope": "Rigid moving pairs, sampled poses. Static fits, pin interfaces, wires, tolerance stacks, ground and load deflection are not certified. Sampled clearance is not continuous collision proof."
+  },
+  "torque_cases": [
+    {
+      "case": "four_foot_stand",
+      "payload_kg": 0,
+      "total_kg": 13.056097000000001,
+      "q_deg": [
+        0,
+        30,
+        -60
+      ],
+      "force_N": [
+        0.0,
+        0.0,
+        32.020077892500005
+      ],
+      "joint_Nm": [
+        -1.707604087998193,
+        -0.116664140611491,
+        2.3168503391879938
+      ],
+      "limb_gravity_Nm": [
+        0.4377411307993073,
+        0.23555671620600904,
+        -0.05263542485700601
+      ],
+      "contact_Nm": [
+        2.1453452187975004,
+        0.35222085681750004,
+        -2.3694857640449998
+      ],
+      "motor_Nm": [
+        1.707604087998193,
+        0.116664140611491,
+        2.574278154653326
+      ],
+      "rod_force_N": 141.71043845504542,
+      "foot_mm": [
+        174.0,
+        135.0,
+        -297.3960784034515
+      ]
+    },
+    {
+      "case": "two_foot_stand",
+      "payload_kg": 0,
+      "total_kg": 13.056097000000001,
+      "q_deg": [
+        0,
+        30,
+        -60
+      ],
+      "force_N": [
+        0.0,
+        0.0,
+        64.04015578500001
+      ],
+      "joint_Nm": [
+        -3.8529493067956935,
+        -0.46888499742899103,
+        4.6863361032329935
+      ],
+      "limb_gravity_Nm": [
+        0.4377411307993073,
+        0.23555671620600904,
+        -0.05263542485700601
+      ],
+      "contact_Nm": [
+        4.290690437595001,
+        0.7044417136350001,
+        -4.7389715280899996
+      ],
+      "motor_Nm": [
+        3.8529493067956935,
+        0.46888499742899103,
+        5.207040114703326
+      ],
+      "rod_force_N": 286.6403292021056,
+      "foot_mm": [
+        174.0,
+        135.0,
+        -297.3960784034515
+      ]
+    },
+    {
+      "case": "three_foot_crouch",
+      "payload_kg": 0,
+      "total_kg": 13.056097000000001,
+      "q_deg": [
+        0,
+        65,
+        -130
+      ],
+      "force_N": [
+        0.0,
+        0.0,
+        42.693437190000004
+      ],
+      "joint_Nm": [
+        -2.422719160930138,
+        -0.41947068556441114,
+        5.637536912040219
+      ],
+      "limb_gravity_Nm": [
+        0.43774113079986243,
+        0.4317839952100444,
+        -0.08908548589703358
+      ],
+      "contact_Nm": [
+        2.8604602917300004,
+        0.8512546807744555,
+        -5.726622397937253
+      ],
+      "motor_Nm": [
+        2.422719160930138,
+        0.41947068556441114,
+        6.26392990226691
+      ],
+      "rod_force_N": 290.22297573776007,
+      "foot_mm": [
+        165.06122868519373,
+        135.0,
+        -156.3926072335424
+      ]
+    },
+    {
+      "case": "stair_reach_60_percent",
+      "payload_kg": 0,
+      "total_kg": 13.056097000000001,
+      "q_deg": [
+        8,
+        -10,
+        -75
+      ],
+      "force_N": [
+        0.0,
+        0.0,
+        76.84818694200001
+      ],
+      "joint_Nm": [
+        -6.514644661608578,
+        13.274137872051332,
+        11.125078356196962
+      ],
+      "limb_gravity_Nm": [
+        0.5125955231455315,
+        -0.1923443384255208,
+        -0.09490835638559236
+      ],
+      "contact_Nm": [
+        7.02724018475411,
+        -13.466482210476853,
+        -11.219986712582555
+      ],
+      "motor_Nm": [
+        6.514644661608578,
+        13.274137872051332,
+        12.361198173552179
+      ],
+      "rod_force_N": 567.5439697680907,
+      "foot_mm": [
+        361.9570055209565,
+        159.44314868557422,
+        -191.236943676855
+      ]
+    },
+    {
+      "case": "reach_with_braking",
+      "payload_kg": 0,
+      "total_kg": 13.056097000000001,
+      "q_deg": [
+        8,
+        -10,
+        -75
+      ],
+      "force_N": [
+        -19.212046735500003,
+        0.0,
+        76.84818694200001
+      ],
+      "joint_Nm": [
+        -6.514644661608578,
+        9.39133970285546,
+        10.458709524981149
+      ],
+      "limb_gravity_Nm": [
+        0.5125955231455315,
+        -0.1923443384255208,
+        -0.09490835638559236
+      ],
+      "contact_Nm": [
+        7.02724018475411,
+        -9.58368404128098,
+        -10.55361788136674
+      ],
+      "motor_Nm": [
+        6.514644661608578,
+        9.39133970285546,
+        11.620788361090165
+      ],
+      "rod_force_N": 533.5492778037612,
+      "foot_mm": [
+        361.9570055209565,
+        159.44314868557422,
+        -191.236943676855
+      ]
+    },
+    {
+      "case": "splayed_two_foot",
+      "payload_kg": 0,
+      "total_kg": 13.056097000000001,
+      "q_deg": [
+        25,
+        35,
+        -70
+      ],
+      "force_N": [
+        0.0,
+        12.808031157000002,
+        64.04015578500001
+      ],
+      "joint_Nm": [
+        -13.254667192213935,
+        -0.4185211451275961,
+        4.413632487273807
+      ],
+      "limb_gravity_Nm": [
+        0.6269589139759613,
+        0.2455645333479528,
+        -0.05385298610716127
+      ],
+      "contact_Nm": [
+        13.881626106189897,
+        0.6640856784755489,
+        -4.467485473380968
+      ],
+      "motor_Nm": [
+        13.254667192213935,
+        0.4185211451275961,
+        4.904036096970897
+      ],
+      "rod_force_N": 236.56636860775484,
+      "foot_mm": [
+        172.381318400277,
+        238.8106006841394,
+        -229.76900919231423
+      ]
+    },
+    {
+      "case": "four_foot_stand",
+      "payload_kg": 1,
+      "total_kg": 14.056097000000001,
+      "q_deg": [
+        0,
+        30,
+        -60
+      ],
+      "force_N": [
+        0.0,
+        0.0,
+        34.472577892500006
+      ],
+      "joint_Nm": [
+        -1.8719215879981932,
+        -0.14364164061149098,
+        2.4983353391879937
+      ],
+      "limb_gravity_Nm": [
+        0.4377411307993073,
+        0.23555671620600904,
+        -0.05263542485700601
+      ],
+      "contact_Nm": [
+        2.3096627187975005,
+        0.3791983568175,
+        -2.5509707640449997
+      ],
+      "motor_Nm": [
+        1.8719215879981932,
+        0.14364164061149098,
+        2.775928154653326
+      ],
+      "rod_force_N": 152.81099099743693,
+      "foot_mm": [
+        174.0,
+        135.0,
+        -297.3960784034515
+      ]
+    },
+    {
+      "case": "two_foot_stand",
+      "payload_kg": 1,
+      "total_kg": 14.056097000000001,
+      "q_deg": [
+        0,
+        30,
+        -60
+      ],
+      "force_N": [
+        0.0,
+        0.0,
+        68.94515578500001
+      ],
+      "joint_Nm": [
+        -4.181584306795694,
+        -0.522839997428991,
+        5.049306103232993
+      ],
+      "limb_gravity_Nm": [
+        0.4377411307993073,
+        0.23555671620600904,
+        -0.05263542485700601
+      ],
+      "contact_Nm": [
+        4.619325437595001,
+        0.758396713635,
+        -5.101941528089999
+      ],
+      "motor_Nm": [
+        4.181584306795694,
+        0.522839997428991,
+        5.610340114703326
+      ],
+      "rod_force_N": 308.8414342868886,
+      "foot_mm": [
+        174.0,
+        135.0,
+        -297.3960784034515
+      ]
+    },
+    {
+      "case": "three_foot_crouch",
+      "payload_kg": 1,
+      "total_kg": 14.056097000000001,
+      "q_deg": [
+        0,
+        65,
+        -130
+      ],
+      "force_N": [
+        0.0,
+        0.0,
+        45.96343719000001
+      ],
+      "joint_Nm": [
+        -2.6418091609301384,
+        -0.4846704677638277,
+        6.0761536286544775
+      ],
+      "limb_gravity_Nm": [
+        0.43774113079986243,
+        0.4317839952100444,
+        -0.08908548589703358
+      ],
+      "contact_Nm": [
+        3.079550291730001,
+        0.9164544629738721,
+        -6.165239114551511
+      ],
+      "motor_Nm": [
+        2.6418091609301384,
+        0.4846704677638277,
+        6.751281809616086
+      ],
+      "rod_force_N": 312.8031646908905,
+      "foot_mm": [
+        165.06122868519373,
+        135.0,
+        -156.3926072335424
+      ]
+    },
+    {
+      "case": "stair_reach_60_percent",
+      "payload_kg": 1,
+      "total_kg": 14.056097000000001,
+      "q_deg": [
+        8,
+        -10,
+        -75
+      ],
+      "force_N": [
+        0.0,
+        0.0,
+        82.73418694200001
+      ],
+      "joint_Nm": [
+        -7.052879034771868,
+        14.305570329276247,
+        11.98444595377092
+      ],
+      "limb_gravity_Nm": [
+        0.5125955231455315,
+        -0.1923443384255208,
+        -0.09490835638559236
+      ],
+      "contact_Nm": [
+        7.565474557917399,
+        -14.497914667701767,
+        -12.079354310156512
+      ],
+      "motor_Nm": [
+        7.052879034771868,
+        14.305570329276247,
+        13.316051059745465
+      ],
+      "rod_force_N": 611.3844607921843,
+      "foot_mm": [
+        361.9570055209565,
+        159.44314868557422,
+        -191.236943676855
+      ]
+    },
+    {
+      "case": "reach_with_braking",
+      "payload_kg": 1,
+      "total_kg": 14.056097000000001,
+      "q_deg": [
+        8,
+        -10,
+        -75
+      ],
+      "force_N": [
+        -20.683546735500002,
+        0.0,
+        82.73418694200001
+      ],
+      "joint_Nm": [
+        -7.052879034771868,
+        10.125378676469165,
+        11.267038222398664
+      ],
+      "limb_gravity_Nm": [
+        0.5125955231455315,
+        -0.1923443384255208,
+        -0.09490835638559236
+      ],
+      "contact_Nm": [
+        7.565474557917399,
+        -10.317723014894685,
+        -11.361946578784258
+      ],
+      "motor_Nm": [
+        7.052879034771868,
+        10.125378676469165,
+        12.518931358220737
+      ],
+      "rod_force_N": 574.7860280648741,
+      "foot_mm": [
+        361.9570055209565,
+        159.44314868557422,
+        -191.236943676855
+      ]
+    },
+    {
+      "case": "splayed_two_foot",
+      "payload_kg": 1,
+      "total_kg": 14.056097000000001,
+      "q_deg": [
+        25,
+        35,
+        -70
+      ],
+      "force_N": [
+        0.0,
+        13.789031157000004,
+        68.94515578500001
+      ],
+      "joint_Nm": [
+        -14.317896586587299,
+        -0.46938517275204994,
+        4.7558086731110425
+      ],
+      "limb_gravity_Nm": [
+        0.6269589139759613,
+        0.2455645333479528,
+        -0.05385298610716127
+      ],
+      "contact_Nm": [
+        14.94485550056326,
+        0.7149497061000027,
+        -4.809661659218204
+      ],
+      "motor_Nm": [
+        14.317896586587299,
+        0.46938517275204994,
+        5.284231859012269
+      ],
+      "rod_force_N": 254.90667626612228,
+      "foot_mm": [
+        172.381318400277,
+        238.8106006841394,
+        -229.76900919231423
+      ]
+    },
+    {
+      "case": "unloaded_2p5g_pulse",
+      "payload_kg": 0,
+      "total_kg": 13.056097000000001,
+      "q_deg": [
+        0,
+        30,
+        -60
+      ],
+      "force_N": [
+        0,
+        0,
+        160.10038946250003
+      ],
+      "joint_Nm": [
+        -10.288984963188195,
+        -1.5255475678814912,
+        11.794793395367993
+      ],
+      "limb_gravity_Nm": [
+        0.4377411307993073,
+        0.23555671620600904,
+        -0.05263542485700601
+      ],
+      "contact_Nm": [
+        10.726726093987503,
+        1.7611042840875002,
+        -11.847428820225
+      ],
+      "motor_Nm": [
+        10.288984963188195,
+        1.5255475678814912,
+        13.105325994853326
+      ],
+      "rod_force_N": 721.4300014432861,
+      "foot_mm": [
+        174.0,
+        135.0,
+        -297.3960784034515
+      ]
+    },
+    {
+      "case": "unloaded_3g_landing_screen",
+      "payload_kg": 0,
+      "total_kg": 13.056097000000001,
+      "q_deg": [
+        0,
+        30,
+        -60
+      ],
+      "force_N": [
+        0,
+        0,
+        192.12046735500002
+      ],
+      "joint_Nm": [
+        -12.434330181985693,
+        -1.8777684246989912,
+        14.164279159412992
+      ],
+      "limb_gravity_Nm": [
+        0.4377411307993073,
+        0.23555671620600904,
+        -0.05263542485700601
+      ],
+      "contact_Nm": [
+        12.872071312785001,
+        2.1133251409050002,
+        -14.216914584269999
+      ],
+      "motor_Nm": [
+        12.434330181985693,
+        1.8777684246989912,
+        15.738087954903325
+      ],
+      "rod_force_N": 866.3598921903462,
+      "foot_mm": [
+        174.0,
+        135.0,
+        -297.3960784034515
+      ]
+    }
+  ],
+  "structure": {
+    "shin_screen_section_mm": {
+      "z_mm": -75,
+      "area_mm2": 249.2070267200125,
+      "Iy_mm4": 14162.760873353538,
+      "Ix_mm4": 28260.654756946744,
+      "section_modulus_y_mm3": 1007.253485242227
+    },
+    "gross_Iy_mm4": 14162.760873353538,
+    "gross_Ix_mm4": 28260.654756946744,
+    "maximum_case_moment_Nm": 14.317896586587299,
+    "gross_bending_stress_MPa": 14.214789818418046,
+    "coupon_strength_needed_for_factor_2_MPa": 28.429579636836092,
+    "shaft_12x8_4mm_conservative_bending_MPa": 112.17605517801283,
+    "rod_force_at_17Nm_and_worst_transmission_angle_N": 1314.642158362244,
+    "rod_ideal_pinned_euler_N": 4345.1702614260985,
+    "ideal_buckling_ratio": 3.305211409650234,
+    "pin_6mm_double_shear_bending_MPa": 220.08085408777492,
+    "pin_6mm_nominal_vm_MPa": 223.73418986764375,
+    "pin_material_yield_needed_for_factor_2_MPa": 447.4683797352875,
+    "fixed_shaft_span_assumption_mm": 44,
+    "section_model": "Smallest sampled sagittal section modulus from the assembled CAD shin halves, at 5 mm intervals along the sampled member; 0.2 mm slice thickness. Applies the maximum case joint moment uniformly as a conservative bending screen.",
+    "limitations": "Gross-section linear screens omit holes, stress concentration, open-fork torsion, shaft retention, torsion/bending interaction, local buckling, layer anisotropy, creep, fatigue, fastener slip, bearing seats and impacts. Pin bending assumes a central load over a 14.2 mm support-centroid span in double shear. Thread-root stress, fit and fork flexibility require separate checks. Required coupon strength is not an assigned PETG allowable. Metal grade and joints also require qualification."
+  },
+  "printability": {
+    "parts": [
+      {
+        "part": "body_center_0",
+        "bounds_mm": [
+          250.8171322115266,
+          222.4171322115266,
+          59.50856620576336
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "belly_center_0",
+        "bounds_mm": [
+          250.8171322115266,
+          222.4171322115266,
+          37.70696500444717
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "body_aft_0",
+        "bounds_mm": [
+          118.06525162346465,
+          222.4171322115266,
+          105.44984259266954
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_side_panel_-1",
+        "bounds_mm": [
+          135.96225080704403,
+          1.6059339008753,
+          60.00565630809886
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_access_latch_-1",
+        "bounds_mm": [
+          22.003109130996304,
+          1.8031091309963188,
+          4.0031091309963
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_side_panel_1",
+        "bounds_mm": [
+          135.96225080704403,
+          1.6059339008753,
+          60.00565630809886
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_access_latch_1",
+        "bounds_mm": [
+          22.003109130996304,
+          1.8031091309963188,
+          4.0031091309963
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_latch_-1",
+        "bounds_mm": [
+          18.01243592398521,
+          5.012435923985208,
+          9.012435923985208
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_latch_1",
+        "bounds_mm": [
+          18.01243592398521,
+          5.012435923985208,
+          9.012435923985208
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_cassette",
+        "bounds_mm": [
+          140.09093425625753,
+          198.60435270339485,
+          69.54650251905024
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "body_nose_surround",
+        "bounds_mm": [
+          138.2313058282017,
+          222.4171322115266,
+          104.20315892930999
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "front_fascia",
+        "bounds_mm": [
+          19.0211502115892,
+          197.61363656363642,
+          84.65909110909092
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "sensor_bezel",
+        "bounds_mm": [
+          10.696771153599798,
+          174.162008385575,
+          46.16200838557499
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "power_button",
+        "bounds_mm": [
+          9.009062601128178,
+          9.00000020000001,
+          1.0090626011281785
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_thigh_inner",
+        "bounds_mm": [
+          98.27836562685002,
+          58.5454760322287,
+          238.00000020000004
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_thigh_outer",
+        "bounds_mm": [
+          99.05850087631214,
+          44.45283057551672,
+          238.4531549756589
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_shin_inner",
+        "bounds_mm": [
+          24.941412826641166,
+          34.07380290487764,
+          166.4015998726151
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_shin_outer",
+        "bounds_mm": [
+          24.955947567844877,
+          34.14867854299691,
+          166.43402135238918
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_thigh_inner",
+        "bounds_mm": [
+          98.27836562685002,
+          58.5454760322287,
+          238.00000020000004
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_thigh_outer",
+        "bounds_mm": [
+          99.05850087631214,
+          44.45283057551672,
+          238.4531549756589
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_shin_inner",
+        "bounds_mm": [
+          24.94141282664116,
+          34.07380290487764,
+          166.40159987261507
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_shin_outer",
+        "bounds_mm": [
+          24.955947567844877,
+          34.14867854299691,
+          166.43402135238915
+        ],
+        "fits_rotated_bounding_box": true
+      }
+    ],
+    "all_fit": true,
+    "scope": "Bounding boxes only; intended leg print orientation has shell joint plane on the bed. Slicer supports, overhangs and material setup not validated."
+  },
+  "battery_fit": {
+    "intersections": [],
+    "scope": "Battery envelope versus all checked rigid meshes, including fixed body parts. Adapter and electrical-contact fits remain unselected."
+  },
+  "fixed_packaging": {
+    "intersections": [],
+    "bolted_contact_checks": [
+      {
+        "parts": [
+          "body_nose_surround",
+          "chassis_crossmember_121"
+        ],
+        "exact_overlap_mm3": 0
+      },
+      {
+        "parts": [
+          "body_aft_0",
+          "chassis_crossmember_-121"
+        ],
+        "exact_overlap_mm3": 0
+      }
+    ],
+    "scope": "End-cap bolted contact faces use exact-solid overlap checks to distinguish contact from penetration. Torso covers versus fixed frame, shelf, cassette rails and roll assemblies; also frame versus roll motors. Intended bolted interfaces excluded."
+  },
+  "torque_scope": "Quasi-static generalized torques from prescribed foot loads plus gravity of modeled moving parts. Knee assumed 1:1 at 90% efficiency. Pulses are force screens, not simulated gaits or inverse dynamics. Thermal, velocity, joint acceleration and impact response are not predicted.",
+  "sources": {
+    "unitree": "https://github.com/unitreerobotics/unitree_ros/blob/master/robots/go2_description/urdf/go2_description.urdf",
+    "motor": "https://github.com/RobStride/Product_Information/blob/main/Product%20Literature/CAN2.0/RS02/RS02User%20Manual260713.pdf",
+    "printer": "https://cdn1.bambulab.com/documentation/h2d/en/H2D_Laser_Full_Combo_20250305.pdf"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "Preliminary geometry and contact-load screening; no validated gait or manufactured parts",
+  "gravity_m_s2": 9.81,
+  "thigh_m": 0.17,
+  "shank_to_contact_m": 0.17,
+  "hip_lateral_offset_m": 0.04,
+  "hip_to_skid_offsets_m": [0.05, 0.07, 0.10],
+  "stance_link_angles_deg": [0, 20, 25, 35, 45],
+  "total_mass_cases_kg": [12, 15, 18],
+  "transmission_comparisons": [
+    {"name": "Direct joint reference", "ratios": [1, 1, 1], "efficiencies": [1, 1, 1]},
+    {"name": "Knee reduction candidate", "ratios": [1, 1, 2], "efficiencies": [1, 1, 0.85]},
+    {"name": "Hip and knee reduction candidate", "ratios": [1, 2, 2], "efficiencies": [1, 0.85, 0.85]}
+  ],
+  "cases": [
+    {"name": "Four-foot vertical support", "q_deg": [0, -35, 70], "load_share": 0.25, "vertical_load_factor": 1, "fx_over_fz": 0, "fy_over_fz": 0},
+    {"name": "Two-foot vertical support", "q_deg": [0, -35, 70], "load_share": 0.5, "vertical_load_factor": 1, "fx_over_fz": 0, "fy_over_fz": 0},
+    {"name": "Forward reach, uneven support", "q_deg": [0, -55, 70], "load_share": 0.6, "vertical_load_factor": 1, "fx_over_fz": 0, "fy_over_fz": 0},
+    {"name": "Rearward reach, uneven support", "q_deg": [0, -15, 70], "load_share": 0.6, "vertical_load_factor": 1, "fx_over_fz": 0, "fy_over_fz": 0},
+    {"name": "Rearward reach with braking force", "q_deg": [0, -15, 70], "load_share": 0.6, "vertical_load_factor": 1, "fx_over_fz": -0.25, "fy_over_fz": 0},
+    {"name": "Splayed leg with lateral force", "q_deg": [15, -35, 70], "load_share": 0.5, "vertical_load_factor": 1, "fx_over_fz": 0, "fy_over_fz": 0.2},
+    {"name": "Two-foot vertical force pulse, 2.5 times weight", "q_deg": [0, -35, 70], "load_share": 0.5, "vertical_load_factor": 2.5, "fx_over_fz": 0, "fy_over_fz": 0}
+  ]
+}

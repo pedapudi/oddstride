@@ -1,0 +1,264 @@
+{
+  "parent_model_sha256": "144a84e88daed50139f890480e9f1a1740cfb20c773e740ba6b4e9c1b9eede5e",
+  "variants": [
+    {
+      "variant": "printed",
+      "printable_meshes_checked": [
+        "roll_cartridge_1",
+        "hip_hub",
+        "motor_mount_ring",
+        "thigh_inner",
+        "thigh_outer",
+        "input_crank",
+        "pushrod",
+        "shin_inner",
+        "shin_outer",
+        "roll_cartridge_1_right",
+        "hip_hub_right",
+        "motor_mount_ring_right",
+        "thigh_inner_right",
+        "thigh_outer_right",
+        "input_crank_right",
+        "pushrod_right",
+        "shin_inner_right",
+        "shin_outer_right",
+        "roll_cartridge_-1",
+        "roll_cartridge_-1_right",
+        "motor_carrier_1_trunnion",
+        "motor_carrier_1_flange",
+        "motor_carrier_1_right_trunnion",
+        "motor_carrier_1_right_flange",
+        "motor_carrier_-1_trunnion",
+        "motor_carrier_-1_flange",
+        "motor_carrier_-1_right_trunnion",
+        "motor_carrier_-1_right_flange"
+      ],
+      "presets": {
+        "stand": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 158,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "studio": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 158,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "raised": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 158,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "crouch": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 158,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "reach": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 158,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "fold": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 158,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "splay": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 158,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "side_reach": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 158,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        }
+      },
+      "fits": [
+        {
+          "parts": [
+            "shin_inner",
+            "shin_outer"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "motor_carrier_1_trunnion",
+            "roll_cartridge_1"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "motor_carrier_1_flange",
+            "hip_hub"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "motor_carrier_1_trunnion",
+            "motor_carrier_1_flange"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "motor_carrier_1_trunnion",
+            "motor_carrier_1_flange"
+          ],
+          "removal_axis": [
+            0,
+            1,
+            0
+          ],
+          "checked_travel_mm": 60
+        },
+        {
+          "parts": [
+            "motor_carrier_-1_trunnion",
+            "motor_carrier_-1_flange"
+          ],
+          "removal_axis": [
+            0,
+            1,
+            0
+          ],
+          "checked_travel_mm": 60
+        }
+      ],
+      "scope": "Eight rigid reference poses and selected static fits. No powered test, fatigue result or manufacturing acceptance."
+    },
+    {
+      "variant": "hybrid",
+      "printable_meshes_checked": [
+        "thigh_inner",
+        "thigh_outer",
+        "shin_inner",
+        "shin_outer",
+        "thigh_inner_right",
+        "thigh_outer_right",
+        "shin_inner_right",
+        "shin_outer_right"
+      ],
+      "presets": {
+        "stand": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "studio": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "raised": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "crouch": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "reach": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "fold": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "splay": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "side_reach": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        }
+      },
+      "fits": [],
+      "scope": "Eight rigid reference poses and selected static fits. No powered test, fatigue result or manufacturing acceptance."
+    },
+    {
+      "variant": "cnc",
+      "printable_meshes_checked": [],
+      "presets": {
+        "stand": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "studio": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "raised": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "crouch": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "reach": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "fold": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "splay": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        },
+        "side_reach": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 138,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation."
+        }
+      },
+      "fits": [],
+      "scope": "Eight rigid reference poses and selected static fits. No powered test, fatigue result or manufacturing acceptance."
+    }
+  ]
+}

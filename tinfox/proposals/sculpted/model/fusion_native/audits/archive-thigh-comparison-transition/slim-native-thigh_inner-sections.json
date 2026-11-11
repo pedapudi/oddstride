@@ -1,0 +1,623 @@
+{
+  "part": "thigh_inner",
+  "source_step_sha256": "b8cb7f644e92119b329e3cffac039385b432150365d77b4b92fcc5c929fefa7a",
+  "source_brep_sha256": null,
+  "source_reference_note": "Frozen paired-bearing/M5-retention prototype b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6; earlier V0 probe files belong to a different outer profile.",
+  "native_step_sha256": "79922810a33fccf82871c33f87dac8ee6184accc9d989dd42c1bf40800b1b71d",
+  "sections": [
+    {
+      "axis": "X",
+      "offset_mm": -27.682298910466848,
+      "source_edges": 30,
+      "native_edges": 29,
+      "source_perimeter_mm": 453.9801087255328,
+      "native_perimeter_mm": 453.97803712972404,
+      "relative_perimeter_error": 4.563186291454553e-06,
+      "symmetric_sampled_error_max_mm": 0.0020065022112163433,
+      "section_to_own_solid_max_mm": [
+        9.037768162560839e-07,
+        0.00047647845759694516
+      ],
+      "samples": 592,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            9.037768162560839e-07,
+            0.00047647845759694516
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "X",
+      "offset_mm": -9.77648641175923,
+      "source_edges": 31,
+      "native_edges": 31,
+      "source_perimeter_mm": 424.1668033460297,
+      "native_perimeter_mm": 424.1668030329479,
+      "relative_perimeter_error": 7.38110193610878e-10,
+      "symmetric_sampled_error_max_mm": 0.05129445092273954,
+      "section_to_own_solid_max_mm": [
+        1.749708640973809e-08,
+        1.1464605021072908e-08
+      ],
+      "samples": 606,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            6.297100309111343e-07,
+            9.002025739669273e-07
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 0.051294450922796386,
+            "perimeters_mm": [
+              424.1668027552522,
+              424.16680244213353
+            ],
+            "self_errors_mm": [
+              6.297100309111343e-07,
+              9.002025739669273e-07
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 1,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 3.552713678800501e-15
+            },
+            {
+              "face": 3,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 1.2434497875801753e-14
+            },
+            {
+              "face": 5,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 1.2434497875801753e-14
+            },
+            {
+              "face": 7,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.7763568394002505e-15
+            },
+            {
+              "face": 9,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 11,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.7763568394002505e-15
+            },
+            {
+              "face": 16,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 18,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 28,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 30,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 31,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 35,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 37,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 40,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 42,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 45,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 50,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 51,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 52,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 54,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 56,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 57,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 2.1316282072803006e-14
+            },
+            {
+              "face": 61,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 63,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 64,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 65,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 2.3566036520288945e-14
+            },
+            {
+              "face": 67,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 69,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 70,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 72,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 74,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 75,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 79,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 80,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 82,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 3,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 4,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 8,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 9,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 11,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 13,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 17,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 19,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 3.552713678800501e-15
+            },
+            {
+              "face": 21,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 8.881784197001252e-15
+            },
+            {
+              "face": 23,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 1.0658141036401503e-14
+            },
+            {
+              "face": 25,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 5.329070518200751e-15
+            },
+            {
+              "face": 26,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 27,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 28,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 29,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.0048591735576161e-14
+            },
+            {
+              "face": 30,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 31,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 32,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 33,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 41,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.7763568394002505e-15
+            },
+            {
+              "face": 43,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 1.7763568394002505e-15
+            },
+            {
+              "face": 44,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 46,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 48,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 49,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 50,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 54,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 61,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.7763568394002505e-15
+            },
+            {
+              "face": 63,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 64,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 73,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 75,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 76,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 77,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 78,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.0658141036401503e-14
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            1.749708640973809e-08,
+            1.1464605021072908e-08
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "X",
+      "offset_mm": 8.129326086948389,
+      "source_edges": 36,
+      "native_edges": 35,
+      "source_perimeter_mm": 248.79697303683426,
+      "native_perimeter_mm": 248.80239007203863,
+      "relative_perimeter_error": 2.1772914430000316e-05,
+      "symmetric_sampled_error_max_mm": 0.004814271307367335,
+      "section_to_own_solid_max_mm": [
+        2.682022424929835e-08,
+        0.00014790258728442516
+      ],
+      "samples": 449,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            2.682022424929835e-08,
+            0.00014790258728442516
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": 23.5,
+      "source_edges": 10,
+      "native_edges": 9,
+      "source_perimeter_mm": 240.64247262894864,
+      "native_perimeter_mm": 240.64486526919342,
+      "relative_perimeter_error": 9.942718002518764e-06,
+      "symmetric_sampled_error_max_mm": 0.0012140855236886846,
+      "section_to_own_solid_max_mm": [
+        6.981927997419556e-06,
+        0.00033003156387642027
+      ],
+      "samples": 275,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            6.981927997419556e-06,
+            0.00033003156387642027
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": 38.0,
+      "source_edges": 14,
+      "native_edges": 14,
+      "source_perimeter_mm": 255.8747783267608,
+      "native_perimeter_mm": 255.87477832981764,
+      "relative_perimeter_error": 1.1946625354627775e-11,
+      "symmetric_sampled_error_max_mm": 4.7730007459364495e-06,
+      "section_to_own_solid_max_mm": [
+        1.4425542438574081e-05,
+        1.4425542438629318e-05
+      ],
+      "samples": 318,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            1.4425542438574081e-05,
+            1.4425542438629318e-05
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": 52.5,
+      "source_edges": 9,
+      "native_edges": 9,
+      "source_perimeter_mm": 488.9664424184131,
+      "native_perimeter_mm": 488.9647105074983,
+      "relative_perimeter_error": 3.5419831804029663e-06,
+      "symmetric_sampled_error_max_mm": 6.641419754771505e-05,
+      "section_to_own_solid_max_mm": [
+        4.829020895323125e-05,
+        0.0017888285224505432
+      ],
+      "samples": 518,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            4.829020895323125e-05,
+            0.0017888285224505432
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -133.604379312227,
+      "source_edges": 8,
+      "native_edges": 7,
+      "source_perimeter_mm": 77.18162897918457,
+      "native_perimeter_mm": 77.1816021112235,
+      "relative_perimeter_error": 3.4811342315253755e-07,
+      "symmetric_sampled_error_max_mm": 2.5663500974104636e-05,
+      "section_to_own_solid_max_mm": [
+        3.1127815705660473e-07,
+        2.4867717033471532e-05
+      ],
+      "samples": 123,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            3.1127815705660473e-07,
+            2.4867717033471532e-05
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -75.70875862445399,
+      "source_edges": 12,
+      "native_edges": 12,
+      "source_perimeter_mm": 190.41373043284318,
+      "native_perimeter_mm": 190.41335112312356,
+      "relative_perimeter_error": 1.99202924472504e-06,
+      "symmetric_sampled_error_max_mm": 0.003941012165356028,
+      "section_to_own_solid_max_mm": [
+        4.436026923309054e-08,
+        0.0038829548278440933
+      ],
+      "samples": 228,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            4.436026923309054e-08,
+            0.0038829548278440933
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -17.813137936680988,
+      "source_edges": 8,
+      "native_edges": 8,
+      "source_perimeter_mm": 96.58665935815688,
+      "native_perimeter_mm": 96.5866890450272,
+      "relative_perimeter_error": 3.0735994512607025e-07,
+      "symmetric_sampled_error_max_mm": 4.802836069612699e-05,
+      "section_to_own_solid_max_mm": [
+        3.2885021688354516e-08,
+        7.461632480297837e-07
+      ],
+      "samples": 138,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            3.2885021688354516e-08,
+            7.461632480297837e-07
+          ]
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "periodic_surface_projection_recoveries": {
+    "source": [],
+    "native": []
+  },
+  "section_gate_passed": false,
+  "section_algorithm": {
+    "compute_parent_pcurves": true,
+    "primary_approximation": false,
+    "fallback_approximation": true,
+    "fallback_condition": "Retry approximation for off-parent curves. If discrepancy remains, independently reconstruct analytical planar-face intervals from trim roots and inside-face classification, retaining original results. Same sample planes and pass thresholds."
+  },
+  "tolerances": {
+    "sampled_distance_mm": 0.05,
+    "relative_perimeter": 0.002,
+    "section_to_own_solid_mm": 0.005
+  },
+  "scope": "Nine sampled planar cuts supplement the full-surface comparison. They do not replace functional datums, service-path or editability audits."
+}

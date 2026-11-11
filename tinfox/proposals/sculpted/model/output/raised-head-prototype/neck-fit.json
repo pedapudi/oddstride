@@ -1,0 +1,216 @@
+{
+  "model_sha256": "295fcc6656da7bdf9a699153604efd4f4cd505ffb9bf4eace9a7b5b6703d6ff5",
+  "pairs": [
+    {
+      "a": "neck_left",
+      "b": "body_center_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_right",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "chassis_crossmember_121",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_seam_screw_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_seam_nut_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_seam_screw_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_seam_nut_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_seam_screw_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_seam_nut_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_root_screw_-40",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_root_nut_-40",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_root_screw_40",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_root_nut_40",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_head_screw_-22",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_head_nut_-22",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_head_screw_22",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "neck_head_nut_22",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_left",
+      "b": "equipment_head_lower",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "body_center_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_left",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "chassis_crossmember_121",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_seam_screw_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_seam_nut_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_seam_screw_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_seam_nut_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_seam_screw_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_seam_nut_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_root_screw_-40",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_root_nut_-40",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_root_screw_40",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_root_nut_40",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_head_screw_-22",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_head_nut_-22",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_head_screw_22",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "neck_head_nut_22",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "neck_right",
+      "b": "equipment_head_lower",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "driver_access": [
+    {
+      "tool": "seam_0",
+      "hits": []
+    },
+    {
+      "tool": "seam_1",
+      "hits": []
+    },
+    {
+      "tool": "seam_2",
+      "hits": []
+    },
+    {
+      "tool": "root_-40",
+      "hits": []
+    },
+    {
+      "tool": "root_40",
+      "hits": []
+    },
+    {
+      "tool": "head_-22",
+      "hits": []
+    },
+    {
+      "tool": "head_22",
+      "hits": []
+    }
+  ],
+  "scope": "Solid interference in the neck mounting stack. Contact strength, fastener preload, fit tolerances and hand clearance require separate checks. A 4 mm diameter straight driver shaft is checked with the head lid and body cover removed; this does not model a driver handle."
+}

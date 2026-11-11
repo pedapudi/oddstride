@@ -1,0 +1,116 @@
+{
+  "scope": "Analysis rear-mouth proposal only; no native geometry edits. The section bandY[-25,-4],Z[-30,30] covers the direct journal/cup connection, but excludes the removed rear diaphragm.",
+  "removed_rear_material_mm3": 11911.05402177443,
+  "removed_rear_material_y_interval_mm": [
+    -48.4,
+    -45.9
+  ],
+  "direct_web_sections": [
+    {
+      "pitch_local_x_mm": -54,
+      "before": {
+        "area_mm2": 837.5934701712001,
+        "Iyy_mm4": 199711.6001102226,
+        "Izz_mm4": 28456.926415608265
+      },
+      "after": {
+        "area_mm2": 837.5934701712001,
+        "Iyy_mm4": 199711.6001102226,
+        "Izz_mm4": 28456.926415608265
+      }
+    },
+    {
+      "pitch_local_x_mm": -52,
+      "before": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "after": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      }
+    },
+    {
+      "pitch_local_x_mm": -50,
+      "before": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.986846335,
+        "Izz_mm4": 21654.7205570729
+      },
+      "after": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.986846335,
+        "Izz_mm4": 21654.7205570729
+      }
+    },
+    {
+      "pitch_local_x_mm": -48,
+      "before": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "after": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      }
+    },
+    {
+      "pitch_local_x_mm": -46,
+      "before": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.98684633453,
+        "Izz_mm4": 21654.7205570722
+      },
+      "after": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.98684633453,
+        "Izz_mm4": 21654.7205570722
+      }
+    },
+    {
+      "pitch_local_x_mm": -44,
+      "before": {
+        "area_mm2": 690.4519122247902,
+        "Iyy_mm4": 118721.25671611191,
+        "Izz_mm4": 23460.07128673466
+      },
+      "after": {
+        "area_mm2": 690.4519122247902,
+        "Iyy_mm4": 118721.25671611191,
+        "Izz_mm4": 23460.07128673466
+      }
+    },
+    {
+      "pitch_local_x_mm": -42,
+      "before": {
+        "area_mm2": 709.1623461739395,
+        "Iyy_mm4": 130837.30052598193,
+        "Izz_mm4": 24777.6227101197
+      },
+      "after": {
+        "area_mm2": 709.1623461739395,
+        "Iyy_mm4": 130837.30052598193,
+        "Izz_mm4": 24777.6227101197
+      }
+    },
+    {
+      "pitch_local_x_mm": -40.9,
+      "before": {
+        "area_mm2": 662.0944684560627,
+        "Iyy_mm4": 113674.06472788658,
+        "Izz_mm4": 22996.072498814203
+      },
+      "after": {
+        "area_mm2": 662.0944684560627,
+        "Iyy_mm4": 113674.06472788658,
+        "Izz_mm4": 22996.072498814203
+      }
+    }
+  ],
+  "direct_sections_unchanged": true,
+  "qualification": "Unchanged direct sections do not establish unchanged global torsional stiffness or cup ovalization. Future native design needs a broad continuous front flange/journal connection, integral fan-shaped gussets outside the motor insertion cylinder, and printed anisotropy/metal-face analysis. Do not retain thin former closure lug roots as the load path."
+}

@@ -1,0 +1,199 @@
+{
+  "source_model_sha256": "7a30dd8d92258b011e043f6fb43992ff9ac718232dd030ec2a7c79b33f68d63a",
+  "inputs": [
+    {
+      "part": "hip_hub",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "231863061c80f4d8204baf0395a54f30bc2761ac2ca760ff66bb37b136c2b71c"
+    },
+    {
+      "part": "motor_mount_ring",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "17ccd1aac5109e059c0cf9827cb362ce99e92f6036ba2800a3809768ded9cba9"
+    },
+    {
+      "part": "pod_sleeve_90",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "c387e88a064c9e182861c91826f60c63819ce24cfe14ae7efbcaa45de217fedc"
+    },
+    {
+      "part": "pod_sleeve_210",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "f4161c86a8df337a36a53b7ad67c3d2ce5f390cd4d889086d0b26a26f263b7ab"
+    },
+    {
+      "part": "pod_sleeve_330",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "79e5dd089e44acbb647773857af9bd14b30f14c0504d1a07d896db12dbb003ef"
+    },
+    {
+      "part": "pod_tie_90",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "e66a7690cdd1c98510afe11274092ac6d5691310bd8f24c6fa6d1ff234dd0453"
+    },
+    {
+      "part": "pod_tie_210",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "1d1b75cb3851690621357b3316704310844bae5043272a314d2e30fadcba330f"
+    },
+    {
+      "part": "pod_tie_330",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "5c1e44fc1fccd85e068d41694c6773975853a9ab6b2743782e2b961ed2fc2e83"
+    },
+    {
+      "part": "bolt_0",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "7f926745b6f49ed8524c54479cffa0258ce04c7aacc03f5c931ef0cadd98d439"
+    },
+    {
+      "part": "bolt_1",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "57242ab370d1eb488ae295fcbb095eb88410bc16d35469df2074873e913709b2"
+    },
+    {
+      "part": "thigh_clamp_nut_0",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "378d9ea379df3f161f9a53487d85924247761fa59854bf03d73b073c18309597"
+    },
+    {
+      "part": "axle_bolt",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "8f1fc8ba7d08dfb2b8b830ef7446cb98b4b5bde108317cc4a17b5a775d0ded2f"
+    },
+    {
+      "part": "axle_nut",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "45003155ea7c4cc28962b9954b4ebea009ffb284918a4317bb3e4685c61ea2d2"
+    },
+    {
+      "part": "bearing_inner",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "9d1d00b4f30df8b4078570b7c7265c5f54d9cff98c74f6b1dfc64a383b2c577f"
+    },
+    {
+      "part": "bearing_outer",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "e7274ca362e58c31d3e23d2ebf0f45d1310e9e3c65758bc1de5969b5b191bc05"
+    },
+    {
+      "part": "shin_clamp_bolt_37",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "f7db01c9e50299d1694b0ee8e97c73133cc04fbb25095fecf3006a2bff6b41bf"
+    },
+    {
+      "part": "shin_clamp_bolt_105",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "1eb681bec5881fdfbcde880325982ae30365682a065336d8680593b336ab2a8f"
+    },
+    {
+      "part": "shin_clamp_nut_37",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "78746fb998014b2a85e6170519b3faf1078a838c975e08996ee2598a98d61d53"
+    },
+    {
+      "part": "shin_clamp_nut_105",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "2f5617b68a9c18c60c7882fdc11612cb567976f14683c0e76ffa66fa541f3b32"
+    },
+    {
+      "part": "shin_clamp_sleeve_37",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "488aa92fc7df80bbf02505cba4b54a27464c48cee2a4a44debce6b7d7b3d446d"
+    },
+    {
+      "part": "shin_clamp_sleeve_105",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "3ccddb9db2d689c944ebf2ea5213fc38a7a34f36f3383f288020ccb49f8bb03e"
+    },
+    {
+      "part": "output_pin",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "4194a91782c8b143d565df5c21354b0b8fc85695061c0373c19be38da66f5cf9"
+    },
+    {
+      "part": "output_pivot_nut",
+      "source": "unchanged frozen hardware/reference",
+      "sha256": "ffa1c5a2c1511e11ee9c626368f187c5a87dab45dc96f6b92c8cef398e665fba"
+    },
+    {
+      "part": "shin_inner",
+      "source": "native Fusion shell",
+      "export": "cohesive-shin-inner-final.step",
+      "sha256": "733a6ae0cf954d0e9a024f48a9afe2b2871593e0e48068f25af15756a8cd0285"
+    },
+    {
+      "part": "shin_outer",
+      "source": "native Fusion shell",
+      "export": "cohesive-shin-outer-final.step",
+      "sha256": "0bbb2622f6ca5c4900658a1eb651e935bf33077a10dd3606a96410e144f6cdb9"
+    },
+    {
+      "part": "thigh_inner",
+      "source": "native Fusion shell",
+      "export": "cohesive-thigh-inner-final.step",
+      "sha256": "95f5c087a5650e6d0099327ffa593d8c4f3fae32d13ad1e449e0bb68df36faf9"
+    },
+    {
+      "part": "thigh_outer",
+      "source": "native Fusion shell",
+      "export": "cohesive-thigh-outer-final.step",
+      "sha256": "1f3d8943f6ed8ebdd0640a7bd63d8dd47d6099b0f6e365d5b4a557e678914dce"
+    },
+    {
+      "part": "input_crank",
+      "source": "native Fusion assembly-driven part",
+      "export": "cohesive-input-crank.step",
+      "sha256": "51a5b7f102cb58735c88e3ca9f54d81baf1cd93099d5587bdcd0b90dc10181c0"
+    },
+    {
+      "part": "motor_carrier_1",
+      "source": "native Fusion assembly-driven part",
+      "export": "cohesive-motor-carrier-1.step",
+      "sha256": "981262258c5dafd074f647545943a401768fbee67da01105f05b6033373b5bb7"
+    },
+    {
+      "part": "motor_carrier_-1",
+      "source": "native Fusion assembly-driven part",
+      "export": "cohesive-motor-carrier--1.step",
+      "sha256": "73d46c9335330f449319704294b30180f10ab94583d09ae73df81b84ee6fe9ad"
+    },
+    {
+      "part": "knee_inner_spacer",
+      "source": "native Fusion assembly-driven part",
+      "export": "cohesive-knee-inner-spacer.step",
+      "sha256": "c4cd61a3ef977b5fdc7bdeebb459675c71c968b1e6221d5c47c2c753faaf6e49"
+    },
+    {
+      "part": "pushrod",
+      "source": "native Fusion assembly-driven part",
+      "export": "cohesive-pushrod.step",
+      "sha256": "ce473e6158d140711510ebeb45051f5cdedb4061cdeb13a7f2e5ac8bb4e85d02"
+    },
+    {
+      "part": "sleeve_0",
+      "source": "native Fusion assembly-driven part",
+      "export": "cohesive-sleeve-0.step",
+      "sha256": "1507e1ce05b5bb62472baf2c97042a057a9a08958607e953135c69b0072aa201"
+    },
+    {
+      "part": "sleeve_1",
+      "source": "native Fusion assembly-driven part",
+      "export": "cohesive-sleeve-1.step",
+      "sha256": "afefa316800abc7daf864a8206bd20ad567e5f3ec0c86148628f6e4ff52b181c"
+    },
+    {
+      "part": "knee_axle",
+      "source": "native Fusion assembly-driven part",
+      "export": "cohesive-knee-axle.step",
+      "sha256": "594f8d7627bbb68e76498b426eb50a052f9d0d0f7c2d2509cf927c3fd7f0455e"
+    },
+    {
+      "part": "foot",
+      "source": "native Fusion assembly-driven part",
+      "export": "cohesive-foot.step",
+      "sha256": "d4e0c4d45430380abefaac8f3f611a36c34d15de952d1af374e5f0f5521c53ee"
+    }
+  ],
+  "scope": "Four native manufacturing shells plus current crank, carriers, linkage, spacers, axle and foot; remaining hardware references frozen."
+}

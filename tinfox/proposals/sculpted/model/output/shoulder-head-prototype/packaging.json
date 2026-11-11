@@ -1,0 +1,31 @@
+{
+  "model_sha256": "3328862a37b6dc13904029fbbb848f4aafb631c25569cb72e931a900ed265f00",
+  "head_center_x_mm": 185,
+  "shoulder_axis_x_mm": 185,
+  "head_roof_z_mm": 162,
+  "lidar_scan_band_z_mm": [
+    166,
+    184
+  ],
+  "gross_cavity_litres": 0.8093812402141798,
+  "load_path": [
+    "Head shell and thick lower flange",
+    "Four M4 head screws",
+    "Two structural plinth halves with upper and root diaphragms",
+    "Four M4 root screws",
+    "4 mm aluminum saddle and four metal spacers",
+    "Four M4 through-bolts and integral side-rail ears"
+  ],
+  "assembly_sequence": [
+    "Attach saddle and spacers to the modified rails.",
+    "Attach plinth halves with the head absent, lay in wiring, and close the seam.",
+    "Attach the head from inside the open enclosure, then fit sensors and lid."
+  ],
+  "fall_limitations": [
+    "No drop-test or strength qualification.",
+    "Head-first impacts can involve whole-robot inertia.",
+    "The top-mounted lidar remains exposed in an inverted fall.",
+    "Elastomer bumper is not a certified energy absorber."
+  ],
+  "manufacturing_note": "Plinth halves print on their center split planes. Saddle is a flat 4 mm metal plate. Rail ears require revised rails; they are not supported by the removable body shell."
+}

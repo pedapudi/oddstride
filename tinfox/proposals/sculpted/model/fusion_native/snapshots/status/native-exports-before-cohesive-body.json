@@ -1,0 +1,1387 @@
+{
+  "updated_utc": "2026-10-28T23:53:54.250325+00:00",
+  "root": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native",
+  "source_model_sha256": {
+    "low": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+    "high": "34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2"
+  },
+  "parts": {
+    "battery_access_latch_-1": {
+      "path": "exports/battery_access_latch_-1.step",
+      "sha256": "0f76e046fd6bedfa49d413b978a9e355888f1917dbe3a65a2482076dd6bc85ff",
+      "cloud_component": "battery_access_latch_-1",
+      "state": "legacy_saved_export",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/battery_access_latch_-1-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "battery_access_latch_1": {
+      "path": "exports/battery_access_latch_1.step",
+      "sha256": "39ede371417ca9f778ea899dd15a4b3d969202fe932fcdaccf354b579c96b1a6",
+      "cloud_component": "battery_access_latch_1",
+      "state": "legacy_saved_export",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/battery_access_latch_1-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "battery_cassette": {
+      "path": "exports/frame-checkpoint-battery_cassette.step",
+      "sha256": "5183c4ead165fc388e0fd17b6f4d8076de2d61b458f1a09093ce1fa62c91eeed",
+      "cloud_component": "battery_cassette",
+      "state": "saved_chassis_v16",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-checkpoint-battery_cassette-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "qualified_boundary_and_sections",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "not_rechecked_against_this_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "section_audit": "audits/frame-checkpoint-battery_cassette-sections.json",
+      "family_audit": "audits/frame-cassette-family-edit-restore.json"
+    },
+    "battery_latch_-1": {
+      "path": "exports/battery_latch_-1.step",
+      "sha256": "dd68d341e8ce747d895d34a3aeefc27ce95d9472a0bd473437983a6ceaf1e930",
+      "cloud_component": "battery_latch_-1",
+      "state": "legacy_saved_export",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/battery_latch_-1-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "battery_latch_1": {
+      "path": "exports/battery_latch_1.step",
+      "sha256": "6801d9f6f81631626b175198b5520efc4737d69f30090063ecf66e385ec8b415",
+      "cloud_component": "battery_latch_1",
+      "state": "legacy_saved_export",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/battery_latch_1-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "battery_side_panel_-1": {
+      "path": "exports/battery_side_panel_-1.step",
+      "sha256": "a84868847dfae64f7444a5e6a7b6de5942bab73c5ee62aa25189e1030f89bf1a",
+      "cloud_component": "battery_side_panel_-1",
+      "state": "legacy_saved_export",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/battery_side_panel_-1-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "battery_side_panel_1": {
+      "path": "exports/battery_side_panel_1.step",
+      "sha256": "8077657459fd68c1a0c4c77b4eb3d19d0fe9ffbe1c997eae7426bb2b33a6eef0",
+      "cloud_component": "battery_side_panel_1",
+      "state": "legacy_saved_export",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/battery_side_panel_1-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "battery_skid": {
+      "path": "exports/frame-checkpoint-battery_skid.step",
+      "sha256": "6679ba197052708bf40dc1a7d9302fea3786e4b01336c47a42a4559bf39788af",
+      "cloud_component": "battery_skid",
+      "state": "saved_chassis_v16",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-checkpoint-battery_skid-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "qualified_boundary_and_sections",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "not_rechecked_against_this_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "section_audit": "audits/frame-checkpoint-battery_skid-sections.json",
+      "family_audit": "audits/frame-process-family-edit-restore.json"
+    },
+    "belly_center_0": {
+      "path": "exports/frame-checkpoint-belly_center_0.step",
+      "sha256": "984161825bc294f79d0dac76b60f9cd56a8b206275320daa5661f778ae64bfb8",
+      "cloud_component": "belly_center_0",
+      "state": "saved_chassis_v16",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-checkpoint-belly_center_0-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "qualified_boundary_and_sections",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "not_rechecked_against_this_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "section_audit": "audits/frame-checkpoint-belly_center_0-sections.json",
+      "family_audit": "audits/frame-process-family-edit-restore.json"
+    },
+    "body_center_0": {
+      "path": "exports/current-body-cover-native.step",
+      "sha256": "cd7e2cd07ee02efe1433fb60096a0b0fa55e753c27ba0afd7ddd878dcc50ec7e",
+      "cloud_component": "body_center_0",
+      "state": "saved_chassis_v5",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/current-body-cover-native-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "body_nose_surround": {
+      "path": "exports/current-sensor-cradle-family-restored.step",
+      "sha256": "d33c253ed1e95194010597928c1c92f9810d80b0c265f1be53857f86918614cb",
+      "cloud_component": "body_nose_surround",
+      "state": "saved_head_v22",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/current-sensor-cradle-family-restored-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "native_export_missing",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": null,
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "chassis_beam_-102": {
+      "path": "exports/frame-intent-left-rail-final.step",
+      "sha256": "38d2aaf4139833774a7bfb81e8434ae819e09d41772f2e6d8bc8068d1a773957",
+      "cloud_component": "chassis_beam_-102",
+      "state": "saved_native_parametric",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-intent-left-rail-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "full_geometry_and_section_gate_passed",
+          "passed": true,
+          "screen_export_hash_matches": false,
+          "basis": "audits/frame-intent-left-rail-final-geometry.json"
+        },
+        "high": {
+          "state": "not_rechecked_for_new_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "saved_subsystem": "chassis",
+      "saved_version": 14,
+      "sections_audit": "audits/frame-intent-left-rail-final-sections.json",
+      "family_edit_audit": "audits/frame-rail-family-edit-restore.json"
+    },
+    "chassis_beam_102": {
+      "path": "exports/frame-intent-right-rail-final.step",
+      "sha256": "6e7039c958cd2e7bbe2e9c58254048e7de43b184af98710a1d6e74d8b1c19c47",
+      "cloud_component": "chassis_beam_102",
+      "state": "saved_native_parametric",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-intent-right-rail-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "full_geometry_and_section_gate_passed",
+          "passed": true,
+          "screen_export_hash_matches": false,
+          "basis": "audits/frame-intent-right-rail-final-geometry.json"
+        },
+        "high": {
+          "state": "not_rechecked_for_new_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "saved_subsystem": "chassis",
+      "saved_version": 14,
+      "sections_audit": "audits/frame-intent-right-rail-final-sections.json",
+      "family_edit_audit": "audits/frame-rail-family-edit-restore.json"
+    },
+    "chassis_crossmember_-121": {
+      "path": "exports/frame-intent-rear-tie-final.step",
+      "sha256": "922ff28016a6b6c6b5bec7af279e0db2b0cdf27743a97036314b98d2136dc0cb",
+      "cloud_component": "chassis_crossmember_-121",
+      "state": "saved_chassis_v15",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-intent-rear-tie-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "qualified_boundary_and_sections",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false,
+      "section_audit": "audits/frame-intent-rear-tie-final-sections.json",
+      "family_audit": "audits/frame-tie-family-edit-restore.json"
+    },
+    "chassis_crossmember_121": {
+      "path": "exports/frame-intent-front-tie-final.step",
+      "sha256": "28e50b5f48c05115ebf1a40b234c2e0f0dc8f47c5d10657e3b8642114dc682c8",
+      "cloud_component": "chassis_crossmember_121",
+      "state": "saved_chassis_v15",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-intent-front-tie-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "qualified_boundary_and_sections",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "section_audit": "audits/frame-intent-front-tie-final-sections.json",
+      "family_audit": "audits/frame-tie-family-edit-restore.json"
+    },
+    "chassis_lower_brace": {
+      "path": "exports/frame-checkpoint-chassis_lower_brace.step",
+      "sha256": "e524c15c5206769ee436f99f8fc82e116ae409dc818ba9fa325d881f93059eb0",
+      "cloud_component": "chassis_lower_brace",
+      "state": "saved_chassis_v16",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-checkpoint-chassis_lower_brace-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "qualified_boundary_and_sections",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "not_rechecked_against_this_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "saved_subsystem": "chassis",
+      "saved_version": 13,
+      "sections_audit": "audits/frame-intent-chassis_lower_brace-final-sections.json",
+      "family_edit_audit": "audits/frame-deck-family-edit-restore.json",
+      "section_audit": "audits/frame-checkpoint-chassis_lower_brace-sections.json",
+      "family_audit": "audits/frame-process-family-edit-restore.json"
+    },
+    "electronics_shelf": {
+      "path": "exports/frame-checkpoint-electronics_shelf.step",
+      "sha256": "784fdbbc2788e44d69b1f8b61e6054e6d7b871d402c9df96a07eac665cb93070",
+      "cloud_component": "electronics_shelf",
+      "state": "saved_chassis_v16",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/frame-checkpoint-electronics_shelf-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "qualified_boundary_and_sections",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "not_rechecked_against_this_export",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false,
+      "saved_subsystem": "chassis",
+      "saved_version": 13,
+      "sections_audit": "audits/frame-intent-electronics_shelf-final-sections.json",
+      "family_edit_audit": "audits/frame-deck-family-edit-restore.json",
+      "section_audit": "audits/frame-checkpoint-electronics_shelf-sections.json",
+      "family_audit": "audits/frame-process-family-edit-restore.json"
+    },
+    "foot": {
+      "path": "exports/cohesive-foot.step",
+      "sha256": "d4e0c4d45430380abefaac8f3f611a36c34d15de952d1af374e5f0f5521c53ee",
+      "cloud_component": "foot",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-foot-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "foot_right": {
+      "path": "exports/cohesive-foot-right.step",
+      "sha256": "82d4de10ec0b140b295a8eefb0b2acb03a3d7bddb871a42b909a118424d0a8fb",
+      "cloud_component": "foot_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-foot-right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "front_fascia": {
+      "path": "exports/current-sensor-hood-family-restored.step",
+      "sha256": "d26c33b60a82110edc061c2a3836d38c7c29bca69aeb2cd29bea68afb6819ac9",
+      "cloud_component": "front_fascia",
+      "state": "saved_head_v22",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/current-sensor-hood-family-restored-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": null,
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "hip_hub": {
+      "path": "exports/hip_hub.step",
+      "sha256": "8619a49f395f8a593f5a4be9c4911152cd8d87826e9b2507b1a09cac9bf21aca",
+      "cloud_component": "hip_hub",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/hip_hub-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "hip_hub_right": {
+      "path": "exports/hip_hub_right.step",
+      "sha256": "db0b0d50d18ba80d77d2c20420f84faa16208ffda859373147da69f45ad4081a",
+      "cloud_component": "hip_hub_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/hip_hub_right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "input_crank": {
+      "path": "exports/cohesive-input-crank.step",
+      "sha256": "51a5b7f102cb58735c88e3ca9f54d81baf1cd93099d5587bdcd0b90dc10181c0",
+      "cloud_component": "input_crank",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-input-crank-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "input_crank_right": {
+      "path": "exports/cohesive-input-crank-right.step",
+      "sha256": "93b9d6665e27caf62943cef9857ab3692f497be7a4a46a84f053365ec77a48be",
+      "cloud_component": "input_crank_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-input-crank-right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "knee_axle": {
+      "path": "exports/cohesive-knee-axle.step",
+      "sha256": "594f8d7627bbb68e76498b426eb50a052f9d0d0f7c2d2509cf927c3fd7f0455e",
+      "cloud_component": "knee_axle",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-knee-axle-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "knee_axle_right": {
+      "path": "exports/cohesive-knee-axle-right.step",
+      "sha256": "5a302f4e3e012c15c759310d12fd739dc723e1b9594fe38d763217c90e44a9a4",
+      "cloud_component": "knee_axle_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-knee-axle-right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "knee_inner_spacer": {
+      "path": "exports/cohesive-knee-inner-spacer.step",
+      "sha256": "c4cd61a3ef977b5fdc7bdeebb459675c71c968b1e6221d5c47c2c753faaf6e49",
+      "cloud_component": "knee_inner_spacer",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-knee-inner-spacer-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "knee_inner_spacer_right": {
+      "path": "exports/cohesive-knee-inner-spacer-right.step",
+      "sha256": "f05aa8a2c28fc5835bd384ae82edfd690d527b915ce0237ba03f5913c130fb2c",
+      "cloud_component": "knee_inner_spacer_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-knee-inner-spacer-right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "lidar_lid": {
+      "path": "exports/current-lidar-lid-native.step",
+      "sha256": "03cdcb8e41616866a21a24fbd78a8a826b029e9da65123ad98e482dbbe0ca2c4",
+      "cloud_component": "lidar_lid",
+      "state": "saved_chassis_v5",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/current-lidar-lid-native-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": null,
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "motor_carrier_-1": {
+      "path": "exports/cohesive-motor-carrier--1.step",
+      "sha256": "73d46c9335330f449319704294b30180f10ab94583d09ae73df81b84ee6fe9ad",
+      "cloud_component": "motor_carrier_-1",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-motor-carrier--1-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "motor_carrier_-1_right": {
+      "path": "exports/cohesive-motor-carrier--1-right.step",
+      "sha256": "9e82edd0441a2d739dcdfafee96fc83b32d62c2ce993df820c5b53220f505160",
+      "cloud_component": "motor_carrier_-1_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-motor-carrier--1-right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "motor_carrier_1": {
+      "path": "exports/cohesive-motor-carrier-1.step",
+      "sha256": "981262258c5dafd074f647545943a401768fbee67da01105f05b6033373b5bb7",
+      "cloud_component": "motor_carrier_1",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-motor-carrier-1-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "motor_carrier_1_right": {
+      "path": "exports/cohesive-motor-carrier-1-right.step",
+      "sha256": "894d37b688fa4c404befced8ce7e96c33b04e0599641e08e5e5ae430c705f4e2",
+      "cloud_component": "motor_carrier_1_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-motor-carrier-1-right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "motor_mount_ring": {
+      "path": "exports/motor_mount_ring.step",
+      "sha256": "2b81c8804494c6ba64aaa5f92041efbdfc5b37814002ff44642522ab6339d4e7",
+      "cloud_component": "motor_mount_ring",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/motor_mount_ring-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "motor_mount_ring_right": {
+      "path": "exports/motor_mount_ring_right.step",
+      "sha256": "af7b27fbb1a235ac7725b29886908a09abae0cc84f46bfb885bc8e4649d097d2",
+      "cloud_component": "motor_mount_ring_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/motor_mount_ring_right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "pod_sleeve_210": {
+      "path": "exports/pod_sleeve_210.step",
+      "sha256": "8196682c85c4b96448bfdd6d7f62bca0b35aa01ac90e8a9adb4ac8a12135a1c7",
+      "cloud_component": "pod_sleeve_210",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/pod_sleeve_210-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "pod_sleeve_210_right": {
+      "path": "exports/pod_sleeve_210_right.step",
+      "sha256": "16dc33f133a20563385a3b08fd732f12c431aa8f69982807c2263766c7b3473d",
+      "cloud_component": "pod_sleeve_210_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/pod_sleeve_210_right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "pod_sleeve_330": {
+      "path": "exports/pod_sleeve_330.step",
+      "sha256": "41220edcbd045c1cfdaccb0f7772cf460fcbdf98780fa05562f25ef6631e2a10",
+      "cloud_component": "pod_sleeve_330",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/pod_sleeve_330-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "pod_sleeve_330_right": {
+      "path": "exports/pod_sleeve_330_right.step",
+      "sha256": "7fcf3d6db07446319e23c142baa07f2e29790ca76748b55e7304873b23c320f3",
+      "cloud_component": "pod_sleeve_330_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/pod_sleeve_330_right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "pod_sleeve_90": {
+      "path": "exports/pod_sleeve_90.step",
+      "sha256": "7175dd051ecc023c1184cf7c03deb9b96c029e533b52edf5765148495a17439e",
+      "cloud_component": "pod_sleeve_90",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/pod_sleeve_90-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "pod_sleeve_90_right": {
+      "path": "exports/pod_sleeve_90_right.step",
+      "sha256": "b43b2ddda8b3aaca39d1e4818b5763221947fb1b41859637e8f6cfae12167708",
+      "cloud_component": "pod_sleeve_90_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/pod_sleeve_90_right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "power_button": {
+      "path": "exports/power_button.step",
+      "sha256": "b648a205ce503f65426cc7e496ff9eee4d124a881c05da6b25fdbd19661219b5",
+      "cloud_component": "power_button",
+      "state": "legacy_saved_export",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/power_button-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "pushrod": {
+      "path": "exports/cohesive-pushrod.step",
+      "sha256": "ce473e6158d140711510ebeb45051f5cdedb4061cdeb13a7f2e5ac8bb4e85d02",
+      "cloud_component": "pushrod",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-pushrod-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "pushrod_right": {
+      "path": "exports/cohesive-pushrod-right.step",
+      "sha256": "3bdc4a72f356327f5e6b4d2f19ff80a292c1bb7732f25b009e0956f96f5b5ea3",
+      "cloud_component": "pushrod_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-pushrod-right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "roll_cartridge_-1": {
+      "path": "exports/roll_cartridge_-1.step",
+      "sha256": "a7e18e632c9c1d8b194589d7f2a0e04ee5ce079b511e422edd7ea56e8bef1e59",
+      "cloud_component": "roll_cartridge_-1",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/roll_cartridge_-1-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "roll_cartridge_-1_right": {
+      "path": "exports/roll_cartridge_-1_right.step",
+      "sha256": "b1990a389ad00f8e63b700050abf49d4516ecd2d007325365e282cd1a9ef5513",
+      "cloud_component": "roll_cartridge_-1_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/roll_cartridge_-1_right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "roll_cartridge_1": {
+      "path": "exports/roll_cartridge_1.step",
+      "sha256": "6b202fb0bb4da9e953a62e5cbbc9285c03eec932121b44a5f4693b58eef0a226",
+      "cloud_component": "roll_cartridge_1",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/roll_cartridge_1-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "roll_cartridge_1_right": {
+      "path": "exports/roll_cartridge_1_right.step",
+      "sha256": "6bfab07f913efef3fb78d2b8f2216a5cbf0b0747854da939c98f6ab3f8f7ce86",
+      "cloud_component": "roll_cartridge_1_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/roll_cartridge_1_right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "shin_clamp_sleeve_105": {
+      "path": "exports/shin_clamp_sleeve_105.step",
+      "sha256": "29883126bafcd835d22c7dcaa9bd510fe149e25d47753118c0b51ee78bd8b272",
+      "cloud_component": "shin_clamp_sleeve_105",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/shin_clamp_sleeve_105-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "shin_clamp_sleeve_105_right": {
+      "path": "exports/shin_clamp_sleeve_105_right.step",
+      "sha256": "fa74bc4ac10d9d5d23437f3a2cd26468616c911d44d634eb2a3a0d49ea5b1c6f",
+      "cloud_component": "shin_clamp_sleeve_105_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/shin_clamp_sleeve_105_right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "shin_clamp_sleeve_37": {
+      "path": "exports/shin_clamp_sleeve_37.step",
+      "sha256": "0bb49fdc8fe7bd16a792ac3458337b826173354cb39c42914c4a20a113aaa919",
+      "cloud_component": "shin_clamp_sleeve_37",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/shin_clamp_sleeve_37-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "shin_clamp_sleeve_37_right": {
+      "path": "exports/shin_clamp_sleeve_37_right.step",
+      "sha256": "60adf59904b1f7ec59e76b9ee3a5431693fcbbba6375175f34e1b2e495649284",
+      "cloud_component": "shin_clamp_sleeve_37_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/shin_clamp_sleeve_37_right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "shin_inner": {
+      "path": "exports/cohesive-shin-inner-final.step",
+      "sha256": "733a6ae0cf954d0e9a024f48a9afe2b2871593e0e48068f25af15756a8cd0285",
+      "cloud_component": "shin_inner",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-shin-inner-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "shin_inner_right": {
+      "path": "exports/cohesive-shin-inner-right-final.step",
+      "sha256": "03f8716426593a842f69a0677ac1b734b7e62c52adc930125ac98918c8df43b0",
+      "cloud_component": "shin_inner_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-shin-inner-right-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "shin_outer": {
+      "path": "exports/cohesive-shin-outer-final.step",
+      "sha256": "0bbb2622f6ca5c4900658a1eb651e935bf33077a10dd3606a96410e144f6cdb9",
+      "cloud_component": "shin_outer",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-shin-outer-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "shin_outer_right": {
+      "path": "exports/cohesive-shin-outer-right-final.step",
+      "sha256": "ba3c477b0bf671ce616e5ddb6854dd3e75302c3582f3efc3dbf5a3ef83c181a1",
+      "cloud_component": "shin_outer_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-shin-outer-right-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "sleeve_0": {
+      "path": "exports/cohesive-sleeve-0.step",
+      "sha256": "1507e1ce05b5bb62472baf2c97042a057a9a08958607e953135c69b0072aa201",
+      "cloud_component": "sleeve_0",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-sleeve-0-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "sleeve_0_right": {
+      "path": "exports/cohesive-sleeve-0-right.step",
+      "sha256": "5ef315dc7dbe652d7a3f0560560ef2849de4b0f32164d70e6e909067322bc774",
+      "cloud_component": "sleeve_0_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-sleeve-0-right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "sleeve_1": {
+      "path": "exports/cohesive-sleeve-1.step",
+      "sha256": "afefa316800abc7daf864a8206bd20ad567e5f3ec0c86148628f6e4ff52b181c",
+      "cloud_component": "sleeve_1",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-sleeve-1-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "sleeve_1_right": {
+      "path": "exports/cohesive-sleeve-1-right.step",
+      "sha256": "4d8bba2797ef076902c7f7b017bc1780f1725cd2977a62b0636d34b009c88122",
+      "cloud_component": "sleeve_1_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-sleeve-1-right-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        },
+        "high": {
+          "state": "geometry_screen_passed",
+          "passed": true,
+          "screen_export_hash_matches": false
+        }
+      },
+      "source_of_truth": false
+    },
+    "thigh_inner": {
+      "path": "exports/cohesive-thigh-inner-final.step",
+      "sha256": "95f5c087a5650e6d0099327ffa593d8c4f3fae32d13ad1e449e0bb68df36faf9",
+      "cloud_component": "thigh_inner",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-thigh-inner-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "thigh_inner_right": {
+      "path": "exports/cohesive-thigh-inner-right-final.step",
+      "sha256": "6400f6b14303ff01ea0446574838c777da5abd000d1ad738e49fb520af2de0d1",
+      "cloud_component": "thigh_inner_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-thigh-inner-right-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "thigh_outer": {
+      "path": "exports/cohesive-thigh-outer-final.step",
+      "sha256": "1f3d8943f6ed8ebdd0640a7bd63d8dd47d6099b0f6e365d5b4a557e678914dce",
+      "cloud_component": "thigh_outer",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-thigh-outer-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    },
+    "thigh_outer_right": {
+      "path": "exports/cohesive-thigh-outer-right-final.step",
+      "sha256": "ec0d9ff7269b5f2325b374f313359a62d6f549046a49c90c999460c2a64d3744",
+      "cloud_component": "thigh_outer_right",
+      "state": "saved_leg_v13",
+      "shape_gate_passed_for_matching_export": true,
+      "geometry_audit": "audits/cohesive-thigh-outer-right-final-geometry.json",
+      "target_screen": {
+        "low": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": true
+        },
+        "high": {
+          "state": "geometry_differs",
+          "passed": false,
+          "screen_export_hash_matches": true
+        }
+      },
+      "source_of_truth": false
+    }
+  },
+  "scope": "Local export inventory. Candidate and legacy states remain explicit; geometry evidence only applies to the recorded matching hash. The linked robot assembly maps all source items and the Leg includes qualified hardware placements. Cross-document family propagation, full robot motion/service and manufacturing qualification remain separate gates."
+}

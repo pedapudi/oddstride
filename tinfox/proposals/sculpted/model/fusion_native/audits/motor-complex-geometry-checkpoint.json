@@ -1,0 +1,161 @@
+{
+  "previous_version": 17,
+  "version_at_return": 17,
+  "complete_at_return": false,
+  "modified_at_return": false,
+  "parts": [
+    {
+      "part": "hip_hub",
+      "component": "CANDIDATE_sl_hip_hub",
+      "features": 17,
+      "sketches": 9,
+      "bodies": 1
+    },
+    {
+      "part": "motor_mount_ring",
+      "component": "CANDIDATE_sl_motor_mount_ring",
+      "features": 8,
+      "sketches": 5,
+      "bodies": 1
+    },
+    {
+      "part": "thigh_inner",
+      "component": "CANDIDATE_sl_thigh_inner",
+      "features": 9,
+      "sketches": 8,
+      "bodies": 1
+    },
+    {
+      "part": "thigh_outer",
+      "component": "CANDIDATE_mc_thigh_outer",
+      "features": 3,
+      "sketches": 2,
+      "bodies": 1
+    },
+    {
+      "part": "input_crank",
+      "component": "CANDIDATE_mc_input_crank",
+      "features": 18,
+      "sketches": 12,
+      "bodies": 1
+    },
+    {
+      "part": "roll_cartridge_1",
+      "component": "CANDIDATE_pr_roll_cartridge_1",
+      "features": 18,
+      "sketches": 11,
+      "bodies": 1
+    },
+    {
+      "part": "roll_stator_backplate_1",
+      "component": "CANDIDATE_pr_roll_stator_backplate_1",
+      "features": 8,
+      "sketches": 5,
+      "bodies": 1
+    },
+    {
+      "part": "roll_inner_spacer_1",
+      "component": "CANDIDATE_pr_roll_inner_spacer_1",
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1
+    },
+    {
+      "part": "roll_outer_spacer_1",
+      "component": "CANDIDATE_pr_roll_outer_spacer_1",
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1
+    },
+    {
+      "part": "roll_inner_backplate_1",
+      "component": "CANDIDATE_pr_roll_inner_backplate_1",
+      "features": 3,
+      "sketches": 2,
+      "bodies": 1
+    },
+    {
+      "part": "roll_outer_retainer_1",
+      "component": "CANDIDATE_pr_roll_outer_retainer_1",
+      "features": 7,
+      "sketches": 4,
+      "bodies": 1
+    },
+    {
+      "part": "motor_carrier_1",
+      "component": "CANDIDATE_pr_motor_carrier_1",
+      "features": 21,
+      "sketches": 15,
+      "bodies": 1
+    },
+    {
+      "part": "hip_stator_closure_1",
+      "component": "CANDIDATE_pr_hip_stator_closure_1",
+      "features": 8,
+      "sketches": 8,
+      "bodies": 1
+    }
+  ],
+  "capacity": {
+    "personal_plan": true,
+    "editable_file_count": 4,
+    "max_editable_file_count": 10,
+    "available_slots": 6,
+    "known_tinfox_editable_files": [
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:cwZZGJRSR5aVlwkk9TcEUA",
+        "name": "Tinfox - Head",
+        "part": "subsystem_head",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+        "name": "Tinfox - Native Master Assembly",
+        "part": "native_master",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:R7U8KNNBSA6o3YwVNF2ZQQ",
+        "name": "Tinfox - Chassis",
+        "part": "subsystem_chassis",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+        "name": "Tinfox - Leg module",
+        "part": "subsystem_leg",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": true,
+        "protected": true,
+        "manual_read_only_candidate": false
+      }
+    ],
+    "unmanaged_editable_file_count": 0,
+    "manual_read_only_candidates": [],
+    "unsaved_open_documents": 0,
+    "status_change_api_supported": false,
+    "status_note": "isReadOnly has no setter. The separately guarded set_document_editability.py invokes Fusion Make Editable/Make Read-Only commands and independently verifies status. Read-only can also reflect permissions or another editor.",
+    "new_cloud_files": 0,
+    "reserved_free_slots": 1,
+    "required_available_slots": 1,
+    "master_file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ"
+  },
+  "native_source_of_truth": false
+}

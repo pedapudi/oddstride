@@ -1,0 +1,876 @@
+{
+  "model_sha256": "beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8",
+  "part_families": [
+    {
+      "key": "battery_access_latch_-1",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.000194,
+      "bounds_mm": [
+        22.003109130996304,
+        1.8031091309963188,
+        4.0031091309963
+      ],
+      "note": "",
+      "fdm_plan": "Envelope only until retention geometry is defined.",
+      "cnc_plan": "Functional latch definition required before setup selection.",
+      "status": "Retention unmodeled."
+    },
+    {
+      "key": "battery_access_latch_1",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.000194,
+      "bounds_mm": [
+        22.003109130996304,
+        1.8031091309963188,
+        4.0031091309963
+      ],
+      "note": "",
+      "fdm_plan": "Envelope only until retention geometry is defined.",
+      "cnc_plan": "Functional latch definition required before setup selection.",
+      "status": "Retention unmodeled."
+    },
+    {
+      "key": "battery_cassette",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.216332,
+      "bounds_mm": [
+        140.09093425625753,
+        198.60435270339485,
+        69.54650251905024
+      ],
+      "note": "One-piece underside cassette with integral pack guides and four captive-nut pockets. Four side-access M3 screws attach the cassette independently to the frame. Pack adapters and contacts remain unselected.",
+      "fdm_plan": "Open top up candidate; prove guide/gusset support removal.",
+      "cnc_plan": "Document standard-cutter access to internal guide windows.",
+      "status": "Cutter access and selected battery hardware incomplete."
+    },
+    {
+      "key": "battery_latch_-1",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.000903,
+      "bounds_mm": [
+        18.01243592398521,
+        5.012435923985208,
+        9.012435923985208
+      ],
+      "note": "",
+      "fdm_plan": "Envelope only until retention geometry is defined.",
+      "cnc_plan": "Functional latch definition required before setup selection.",
+      "status": "Retention unmodeled."
+    },
+    {
+      "key": "battery_latch_1",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.000903,
+      "bounds_mm": [
+        18.01243592398521,
+        5.012435923985208,
+        9.012435923985208
+      ],
+      "note": "",
+      "fdm_plan": "Envelope only until retention geometry is defined.",
+      "cnc_plan": "Functional latch definition required before setup selection.",
+      "status": "Retention unmodeled."
+    },
+    {
+      "key": "battery_side_panel_-1",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.015441,
+      "bounds_mm": [
+        135.96225080704403,
+        1.6059339008753,
+        60.00565630809886
+      ],
+      "note": "Compact lower trim panel stays within the cassette withdrawal envelope. Two M3 clearance holes align with integral cassette pilot bosses; screw specification remains provisional.",
+      "fdm_plan": "Flat panel face down.",
+      "cnc_plan": "Profile from sheet; drill normal to panel.",
+      "status": "Cassette interface and process tolerances provisional."
+    },
+    {
+      "key": "battery_side_panel_1",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.015441,
+      "bounds_mm": [
+        135.96225080704403,
+        1.6059339008753,
+        60.00565630809886
+      ],
+      "note": "Compact lower trim panel stays within the cassette withdrawal envelope. Two M3 clearance holes align with integral cassette pilot bosses; screw specification remains provisional.",
+      "fdm_plan": "Flat panel face down.",
+      "cnc_plan": "Profile from sheet; drill normal to panel.",
+      "status": "Cassette interface and process tolerances provisional."
+    },
+    {
+      "key": "battery_skid",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.105409,
+      "bounds_mm": [
+        138.02855355254428,
+        190.02855355254428,
+        1.5285535525443095
+      ],
+      "note": "",
+      "fdm_plan": "Intended metal protective plate.",
+      "cnc_plan": "Flat profile and finished attachment holes.",
+      "status": "Retaining interface unfinished."
+    },
+    {
+      "key": "belly_center_0",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.04532220241853601,
+      "bounds_mm": [
+        174.01277623943201,
+        220.01277623943201,
+        37.70889889298199
+      ],
+      "note": "Lower protective shell ends inside a rounded cassette perimeter. Thin motor-facing end crescents removed; actuator loads bypass this enclosure.",
+      "fdm_plan": "Open protective shell; orient for support removal.",
+      "cnc_plan": "Supported thin-wall surfacing/profile.",
+      "status": "Attachment and sealing unfinished."
+    },
+    {
+      "key": "body_center_0",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.22616469111627618,
+      "bounds_mm": [
+        250.829699510534,
+        222.4328816801443,
+        59.52644910539874
+      ],
+      "note": "Continuous tangent shoulder opening with four lateral M3 x 10 screws into integral metal frame bosses at X +/-64, Z18. No cover tabs surround the fixed roll motor. Cover lifts upward after four screws are removed; motor frame remains assembled. Printed fit and strength unqualified.",
+      "fdm_plan": "Roof-down candidate; open underside and inspect local supports.",
+      "cnc_plan": "Outer/inner surfacing and lateral screw holes.",
+      "status": "Thin-wall fixture and print process review pending."
+    },
+    {
+      "key": "body_nose_surround",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.028454330822426214,
+      "bounds_mm": [
+        89.00216717072502,
+        64.00201853494463,
+        17.204087539081073
+      ],
+      "note": "Short cradle with two direct crossmember feet, four open-bottom M3 nut pockets and two recessed M4 mounting screws. Print top clamping lands down.",
+      "fdm_plan": "Flat mounting lands; accessible open underside; inspect curved supports.",
+      "cnc_plan": "Surfacing and multiple hole directions; direct nut insertion.",
+      "status": "Selected sensor retention and CAM setup incomplete."
+    },
+    {
+      "key": "chassis_beam_-102",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.05249396638831984,
+      "bounds_mm": [
+        262.0000002,
+        15.5,
+        54.0000001
+      ],
+      "note": "Tapped metal motor rail with open rounded motor windows. Retired cover-boss roots, their pilot holes and obsolete top-flange tie holes are removed. Current cover and tie mounting datums retained. Frame strength and machining access remain unqualified.",
+      "fdm_plan": "Unloaded frame fit mockup.",
+      "cnc_plan": "Opposed Y web/interfaces and top Z drilled/tapped pads.",
+      "status": "Frame load and machining qualification pending."
+    },
+    {
+      "key": "chassis_beam_102",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.052493966389289735,
+      "bounds_mm": [
+        262.0000002,
+        15.5,
+        54.0000001
+      ],
+      "note": "Tapped metal motor rail with open rounded motor windows. Retired cover-boss roots, their pilot holes and obsolete top-flange tie holes are removed. Current cover and tie mounting datums retained. Frame strength and machining access remain unqualified.",
+      "fdm_plan": "Unloaded frame fit mockup.",
+      "cnc_plan": "Opposed Y web/interfaces and top Z drilled/tapped pads.",
+      "status": "Frame load and machining qualification pending."
+    },
+    {
+      "key": "chassis_crossmember_-121",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.014566199341593358,
+      "bounds_mm": [
+        21.000301381303842,
+        219.00060256260764,
+        8.801056981197249
+      ],
+      "note": "Removable transverse tie with fastener feet at X +/-115, Y +/-104 and M3 x 8 countersunk screws seating at Z36. Two screws per rail thread into integral metal pads. Front tie has two integral 6.8 mm M4 tapped sensor pads; sensor mounting remains independently removable.",
+      "fdm_plan": "Unloaded fit mockup; preserve flat seats.",
+      "cnc_plan": "Folded profile, top countersinks; front underside M4 bosses.",
+      "status": "Purchased screw seat and frame strength pending."
+    },
+    {
+      "key": "chassis_crossmember_121",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.016971898420505404,
+      "bounds_mm": [
+        21.000301381303856,
+        219.00060256260764,
+        8.802219267384338
+      ],
+      "note": "Removable transverse tie with fastener feet at X +/-115, Y +/-104 and M3 x 8 countersunk screws seating at Z36. Two screws per rail thread into integral metal pads. Front tie has two integral 6.8 mm M4 tapped sensor pads; sensor mounting remains independently removable.",
+      "fdm_plan": "Unloaded fit mockup; preserve flat seats.",
+      "cnc_plan": "Folded profile, top countersinks; front underside M4 bosses.",
+      "status": "Purchased screw seat and frame strength pending."
+    },
+    {
+      "key": "chassis_lower_brace",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.081635,
+      "bounds_mm": [
+        134.00218853612347,
+        202.00218853612347,
+        3.003423773759555
+      ],
+      "note": "Flat 3 mm aluminum frame diaphragm with four rail attachments and four tapped deck mounts. Carries the lower rail connection independently of the deck. Plastic copy is an unloaded fit mockup; frame stiffness and joints require qualification.",
+      "fdm_plan": "Unloaded metal-frame reference if printed.",
+      "cnc_plan": "Flat profile/drill/tap from Z; inspect 3mm thread engagement.",
+      "status": "Repeated-service torque and frame strength unqualified."
+    },
+    {
+      "key": "electronics_shelf",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.088426,
+      "bounds_mm": [
+        134.01142154101774,
+        186.01142154101774,
+        4.011421541017725
+      ],
+      "note": "Flat 134 x 186 x 4 mm PETG electronics deck. Six rounded openings, four top-access M3 holes and four adapter slots. Print broad face down without designed supports. Computer standoffs and wiring remain component-specific; the fixed metal brace carries frame loads.",
+      "fdm_plan": "Broad face down; slots and holes vertical.",
+      "cnc_plan": "Flat profile/drill; do not mirror metal frame load assumptions.",
+      "status": "Computer standoffs and connectors unselected."
+    },
+    {
+      "key": "foot",
+      "quantity": 2,
+      "material": "rubber",
+      "mass_one_kg": 0.042142,
+      "bounds_mm": [
+        41.79118640762644,
+        45.391180887508604,
+        42.789759056716235
+      ],
+      "note": "Rounded boot envelope with a shin-aligned neck. Attachment cavity and retaining fastener remain to be detailed.",
+      "fdm_plan": "Flexible material and retention design required.",
+      "cnc_plan": "Manufacturing route depends on selected boot or mold.",
+      "status": "Envelope, not release geometry."
+    },
+    {
+      "key": "foot_right",
+      "quantity": 2,
+      "material": "rubber",
+      "mass_one_kg": 0.042142,
+      "bounds_mm": [
+        41.68036848541669,
+        45.16954504308911,
+        42.67894113450649
+      ],
+      "note": "Rounded boot envelope with a shin-aligned neck. Attachment cavity and retaining fastener remain to be detailed.",
+      "fdm_plan": "Flexible material and retention design required.",
+      "cnc_plan": "Manufacturing route depends on selected boot or mold.",
+      "status": "Envelope, not release geometry."
+    },
+    {
+      "key": "front_fascia",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 0.14401028670081184,
+      "bounds_mm": [
+        189.21073287163819,
+        196.58991267522265,
+        125.88393710319406
+      ],
+      "note": "Low continuous hood with integral lidar seat and four top-access M3 screws. Straight upward release. The retained face mounting holes are available for the sensor cartridge; selected sensor retention remains to be detailed.",
+      "fdm_plan": "Flat mounting lands; accessible open underside; inspect curved supports.",
+      "cnc_plan": "Surfacing and multiple hole directions; direct nut insertion.",
+      "status": "Selected sensor retention and CAM setup incomplete."
+    },
+    {
+      "key": "hip_hub",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.04934551595423548,
+      "bounds_mm": [
+        87.02204562579425,
+        9.523812516693086,
+        75.76730948380703
+      ],
+      "note": "Rounded three-point aluminum mounting structure retaining the actuator bolt pattern. Tie circle radius 43.5 mm. Integral hub ribs and locally thickened tie pads support overturning loads; strength/fatigue remain unqualified.",
+      "fdm_plan": "Polymer fit reference; intended route is metal.",
+      "cnc_plan": "Axial face/plate and reverse rib/pad setups.",
+      "status": "Local mounting and preload strength unqualified."
+    },
+    {
+      "key": "hip_hub_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.04934551595423548,
+      "bounds_mm": [
+        87.02204562579425,
+        9.523812516693086,
+        75.76730948380703
+      ],
+      "note": "Rounded three-point aluminum mounting structure retaining the actuator bolt pattern. Tie circle radius 43.5 mm. Integral hub ribs and locally thickened tie pads support overturning loads; strength/fatigue remain unqualified.",
+      "fdm_plan": "Polymer fit reference; intended route is metal.",
+      "cnc_plan": "Axial face/plate and reverse rib/pad setups.",
+      "status": "Local mounting and preload strength unqualified."
+    },
+    {
+      "key": "input_crank",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0398533972303381,
+      "bounds_mm": [
+        56.5000001,
+        31.600000099999995,
+        36.0
+      ],
+      "note": "Integrated 28 mm input crank; motor bolt pattern retained. Structural and fatigue qualification pending.",
+      "fdm_plan": "Shape prototype only for current metal route.",
+      "cnc_plan": "Opposed faces and fork access with standard tools.",
+      "status": "Loads, finish and fasteners unqualified."
+    },
+    {
+      "key": "input_crank_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.03985340246116145,
+      "bounds_mm": [
+        56.5000001,
+        31.600000099999995,
+        36.0
+      ],
+      "note": "Integrated 28 mm input crank; motor bolt pattern retained. Structural and fatigue qualification pending.",
+      "fdm_plan": "Shape prototype only for current metal route.",
+      "cnc_plan": "Opposed faces and fork access with standard tools.",
+      "status": "Loads, finish and fasteners unqualified."
+    },
+    {
+      "key": "lidar_lid",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.012367193640121576,
+      "bounds_mm": [
+        54.01678437195598,
+        54.00000020000006,
+        2.0167843719559926
+      ],
+      "note": "Provisional lidar envelope. Seat Z80, horizontal optical band Z84\u2013102; actual model, mounting pattern and beam angles remain unselected.",
+      "fdm_plan": "Selected equipment interface required.",
+      "cnc_plan": "Purchased device or custom part must be specified.",
+      "status": "Reference/device envelope."
+    },
+    {
+      "key": "motor_carrier_-1",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.21225843675623673,
+      "bounds_mm": [
+        111.32161812151503,
+        77.4387774062542,
+        88.0269934680015
+      ],
+      "note": "Shallow rounded bridge relief gives the rotating pod-tie screw tips nominal clearance without changing fastener length or motor datums.",
+      "fdm_plan": "Current metal shape is unloaded fit reference when printed.",
+      "cnc_plan": "Orthogonal X/Y interfaces, side relief setups; preserve datums.",
+      "status": "Printed load route and finite cutter/holder access unqualified."
+    },
+    {
+      "key": "motor_carrier_-1_right",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.21225843675623673,
+      "bounds_mm": [
+        111.32161812151503,
+        77.4387774062542,
+        88.0269934680015
+      ],
+      "note": "Shallow rounded bridge relief gives the rotating pod-tie screw tips nominal clearance without changing fastener length or motor datums.",
+      "fdm_plan": "Current metal shape is unloaded fit reference when printed.",
+      "cnc_plan": "Orthogonal X/Y interfaces, side relief setups; preserve datums.",
+      "status": "Printed load route and finite cutter/holder access unqualified."
+    },
+    {
+      "key": "motor_carrier_1",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.21226030737075713,
+      "bounds_mm": [
+        111.3216181215146,
+        77.43877740625672,
+        88.02699346800321
+      ],
+      "note": "Shallow rounded bridge relief gives the rotating pod-tie screw tips nominal clearance without changing fastener length or motor datums.",
+      "fdm_plan": "Current metal shape is unloaded fit reference when printed.",
+      "cnc_plan": "Orthogonal X/Y interfaces, side relief setups; preserve datums.",
+      "status": "Printed load route and finite cutter/holder access unqualified."
+    },
+    {
+      "key": "motor_carrier_1_right",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.21226030737075713,
+      "bounds_mm": [
+        111.3216181215146,
+        77.43877740625672,
+        88.02699346800321
+      ],
+      "note": "Shallow rounded bridge relief gives the rotating pod-tie screw tips nominal clearance without changing fastener length or motor datums.",
+      "fdm_plan": "Current metal shape is unloaded fit reference when printed.",
+      "cnc_plan": "Orthogonal X/Y interfaces, side relief setups; preserve datums.",
+      "status": "Printed load route and finite cutter/holder access unqualified."
+    },
+    {
+      "key": "motor_mount_ring",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.021856310332168782,
+      "bounds_mm": [
+        84.34576485451878,
+        4.50868234861823,
+        88.50088971603473
+      ],
+      "note": "Rounded three-point aluminum mounting structure retaining the actuator bolt pattern. Tie circle radius 43.5 mm. Integral hub ribs and locally thickened tie pads support overturning loads; strength/fatigue remain unqualified.",
+      "fdm_plan": "Polymer fit reference; intended route is metal.",
+      "cnc_plan": "Axial face/plate and reverse rib/pad setups.",
+      "status": "Local mounting and preload strength unqualified."
+    },
+    {
+      "key": "motor_mount_ring_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.021856310332168782,
+      "bounds_mm": [
+        84.34576485451878,
+        4.50868234861823,
+        88.50088971603473
+      ],
+      "note": "Rounded three-point aluminum mounting structure retaining the actuator bolt pattern. Tie circle radius 43.5 mm. Integral hub ribs and locally thickened tie pads support overturning loads; strength/fatigue remain unqualified.",
+      "fdm_plan": "Polymer fit reference; intended route is metal.",
+      "cnc_plan": "Axial face/plate and reverse rib/pad setups.",
+      "status": "Local mounting and preload strength unqualified."
+    },
+    {
+      "key": "pod_sleeve_210",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0013395248420082267,
+      "bounds_mm": [
+        5.0000002000000165,
+        51.50098855114969,
+        5.000988551149689
+      ],
+      "note": "5 mm OD / 3.4 mm ID metal tube segments, cut to 41 and 6 mm. The complete tie compression stack spans hub pad to stator pad to screw head; tie radius 43.5 mm. Two separately cut sleeves per tie.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "pod_sleeve_210_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0013395248420082267,
+      "bounds_mm": [
+        5.0000002000000165,
+        51.50098855114969,
+        5.000988551149689
+      ],
+      "note": "5 mm OD / 3.4 mm ID metal tube segments, cut to 41 and 6 mm. The complete tie compression stack spans hub pad to stator pad to screw head; tie radius 43.5 mm. Two separately cut sleeves per tie.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "pod_sleeve_330",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0013395248420082272,
+      "bounds_mm": [
+        5.0000002000000165,
+        51.50098855114969,
+        5.000988551149689
+      ],
+      "note": "5 mm OD / 3.4 mm ID metal tube segments, cut to 41 and 6 mm. The complete tie compression stack spans hub pad to stator pad to screw head; tie radius 43.5 mm. Two separately cut sleeves per tie.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "pod_sleeve_330_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0013395248420082272,
+      "bounds_mm": [
+        5.0000002000000165,
+        51.50098855114969,
+        5.000988551149689
+      ],
+      "note": "5 mm OD / 3.4 mm ID metal tube segments, cut to 41 and 6 mm. The complete tie compression stack spans hub pad to stator pad to screw head; tie radius 43.5 mm. Two separately cut sleeves per tie.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "pod_sleeve_90",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0013395248420082272,
+      "bounds_mm": [
+        5.000000200000013,
+        51.50098855114969,
+        5.000988551149689
+      ],
+      "note": "5 mm OD / 3.4 mm ID metal tube segments, cut to 41 and 6 mm. The complete tie compression stack spans hub pad to stator pad to screw head; tie radius 43.5 mm. Two separately cut sleeves per tie.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "pod_sleeve_90_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0013395248420082259,
+      "bounds_mm": [
+        5.000000200000013,
+        51.50098855114969,
+        5.000988551149689
+      ],
+      "note": "5 mm OD / 3.4 mm ID metal tube segments, cut to 41 and 6 mm. The complete tie compression stack spans hub pad to stator pad to screw head; tie radius 43.5 mm. Two separately cut sleeves per tie.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "power_button",
+      "quantity": 1,
+      "material": "petg",
+      "mass_one_kg": 8.1e-05,
+      "bounds_mm": [
+        9.009062601128178,
+        9.00000020000001,
+        1.0090626011281785
+      ],
+      "note": "",
+      "fdm_plan": "Selected equipment interface required.",
+      "cnc_plan": "Purchased device or custom part must be specified.",
+      "status": "Reference/device envelope."
+    },
+    {
+      "key": "roll_cartridge_-1",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.045914,
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "note": "50 x 66 x 8 RA5008-size crossed-roller bearing envelope; preload, retention and moment capacity require supplier review.",
+      "fdm_plan": "Unloaded bearing fit mockup.",
+      "cnc_plan": "Bore/face operations with selected bearing retention and preload.",
+      "status": "Bearing and fit specification unfinished."
+    },
+    {
+      "key": "roll_cartridge_-1_right",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.045914,
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "note": "50 x 66 x 8 RA5008-size crossed-roller bearing envelope; preload, retention and moment capacity require supplier review.",
+      "fdm_plan": "Unloaded bearing fit mockup.",
+      "cnc_plan": "Bore/face operations with selected bearing retention and preload.",
+      "status": "Bearing and fit specification unfinished."
+    },
+    {
+      "key": "roll_cartridge_1",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.045914,
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "note": "50 x 66 x 8 RA5008-size crossed-roller bearing envelope; preload, retention and moment capacity require supplier review.",
+      "fdm_plan": "Unloaded bearing fit mockup.",
+      "cnc_plan": "Bore/face operations with selected bearing retention and preload.",
+      "status": "Bearing and fit specification unfinished."
+    },
+    {
+      "key": "roll_cartridge_1_right",
+      "quantity": 1,
+      "material": "aluminum",
+      "mass_one_kg": 0.045914,
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "note": "50 x 66 x 8 RA5008-size crossed-roller bearing envelope; preload, retention and moment capacity require supplier review.",
+      "fdm_plan": "Unloaded bearing fit mockup.",
+      "cnc_plan": "Bore/face operations with selected bearing retention and preload.",
+      "status": "Bearing and fit specification unfinished."
+    },
+    {
+      "key": "shin_clamp_sleeve_105",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0017371326622281893,
+      "bounds_mm": [
+        8.002685556214189,
+        18.003580741732,
+        8.001790470866027
+      ],
+      "note": "8 OD x 4.3 ID x 18 mm metal compression sleeve.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "shin_clamp_sleeve_105_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.001737132662228188,
+      "bounds_mm": [
+        8.002685556214189,
+        18.003580741732,
+        8.001790470866027
+      ],
+      "note": "8 OD x 4.3 ID x 18 mm metal compression sleeve.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "shin_clamp_sleeve_37",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.001737132662228188,
+      "bounds_mm": [
+        8.002685556214175,
+        18.00358074173198,
+        8.001790470865995
+      ],
+      "note": "8 OD x 4.3 ID x 18 mm metal compression sleeve.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "shin_clamp_sleeve_37_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.001737132662228188,
+      "bounds_mm": [
+        8.002685556214175,
+        18.00358074173198,
+        8.001790470865995
+      ],
+      "note": "8 OD x 4.3 ID x 18 mm metal compression sleeve.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "shin_inner",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.060578568031121695,
+      "bounds_mm": [
+        42.473513150711305,
+        16.72291688700259,
+        174.2963964941688
+      ],
+      "note": "Coordinated rounded structural limb. Thigh motor cup and crowned face; shin rounded crosssection with integral cam and complete bearing seats. Original linkage and foot planes retained. Nominal fit/motion checks do not establish printed strength.",
+      "fdm_plan": "Length in bed plane; split face upward; Y bearing axis vertical.",
+      "cnc_plan": "Split-face cavity plus opposed outer bearing-seat setups.",
+      "status": "Clamp footprint unresolved; fit/holder reach unqualified."
+    },
+    {
+      "key": "shin_inner_right",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.060578568031121695,
+      "bounds_mm": [
+        42.473513150711305,
+        16.72291688700259,
+        174.2963964941688
+      ],
+      "note": "Coordinated rounded structural limb. Thigh motor cup and crowned face; shin rounded crosssection with integral cam and complete bearing seats. Original linkage and foot planes retained. Nominal fit/motion checks do not establish printed strength.",
+      "fdm_plan": "Length in bed plane; split face upward; Y bearing axis vertical.",
+      "cnc_plan": "Split-face cavity plus opposed outer bearing-seat setups.",
+      "status": "Clamp footprint unresolved; fit/holder reach unqualified."
+    },
+    {
+      "key": "shin_outer",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.06547731537261615,
+      "bounds_mm": [
+        42.36490756653319,
+        18.37686712867533,
+        174.17915063964728
+      ],
+      "note": "Coordinated rounded structural limb. Thigh motor cup and crowned face; shin rounded crosssection with integral cam and complete bearing seats. Original linkage and foot planes retained. Nominal fit/motion checks do not establish printed strength.",
+      "fdm_plan": "Length in bed plane; split face upward; Y bearing axis vertical.",
+      "cnc_plan": "Split-face cavity plus opposed outer bearing-seat setups.",
+      "status": "Clamp footprint unresolved; fit/holder reach unqualified."
+    },
+    {
+      "key": "shin_outer_right",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.06547731537261615,
+      "bounds_mm": [
+        42.36490756653319,
+        18.37686712867533,
+        174.17915063964728
+      ],
+      "note": "Coordinated rounded structural limb. Thigh motor cup and crowned face; shin rounded crosssection with integral cam and complete bearing seats. Original linkage and foot planes retained. Nominal fit/motion checks do not establish printed strength.",
+      "fdm_plan": "Length in bed plane; split face upward; Y bearing axis vertical.",
+      "cnc_plan": "Split-face cavity plus opposed outer bearing-seat setups.",
+      "status": "Clamp footprint unresolved; fit/holder reach unqualified."
+    },
+    {
+      "key": "sleeve_0",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0017371326622282234,
+      "bounds_mm": [
+        8.00000020000003,
+        18.001581561839494,
+        8.001581561839494
+      ],
+      "note": "Common M4 x 25 screw, 18 mm compression sleeve and M4 nut stack. Both thigh clamps use the same dimensions; circular recesses expose the nuts. One standard nut is added at the previously incomplete front clamp.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "sleeve_0_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0017371326622282234,
+      "bounds_mm": [
+        8.00000020000003,
+        18.001581561839494,
+        8.001581561839494
+      ],
+      "note": "Common M4 x 25 screw, 18 mm compression sleeve and M4 nut stack. Both thigh clamps use the same dimensions; circular recesses expose the nuts. One standard nut is added at the previously incomplete front clamp.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "sleeve_1",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0017371326622282214,
+      "bounds_mm": [
+        8.000000200000036,
+        18.001581561839515,
+        8.001581561839515
+      ],
+      "note": "Common M4 x 25 screw, 18 mm compression sleeve and M4 nut stack. Both thigh clamps use the same dimensions; circular recesses expose the nuts. One standard nut is added at the previously incomplete front clamp.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "sleeve_1_right",
+      "quantity": 2,
+      "material": "aluminum",
+      "mass_one_kg": 0.0017371326622282214,
+      "bounds_mm": [
+        8.000000200000036,
+        18.001581561839515,
+        8.001581561839515
+      ],
+      "note": "Common M4 x 25 screw, 18 mm compression sleeve and M4 nut stack. Both thigh clamps use the same dimensions; circular recesses expose the nuts. One standard nut is added at the previously incomplete front clamp.",
+      "fdm_plan": "Retain metal for intended compression path.",
+      "cnc_plan": "Cut/face tubing; turn if required; inspect length and square ends.",
+      "status": "Metal stock and stack tolerances require selection."
+    },
+    {
+      "key": "thigh_inner",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.09033390302030334,
+      "bounds_mm": [
+        71.38241093486377,
+        58.51102161232204,
+        231.858197940427
+      ],
+      "note": "Continuous outer thigh face without the cosmetic waist depression. Six-millimetre outer waist skin, eight-millimetre sidewalls, original motor/crank/bearing datums and two structural halves. Strength remains unqualified.",
+      "fdm_plan": "Length near bed plane; exposed cavity upward; support accessible exterior.",
+      "cnc_plan": "Opposed Y faces and demonstrated motor-pocket access.",
+      "status": "Clamp footprint and pocket access unresolved."
+    },
+    {
+      "key": "thigh_inner_right",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.09033390302030334,
+      "bounds_mm": [
+        71.38241093486377,
+        58.51102161232204,
+        231.858197940427
+      ],
+      "note": "Continuous outer thigh face without the cosmetic waist depression. Six-millimetre outer waist skin, eight-millimetre sidewalls, original motor/crank/bearing datums and two structural halves. Strength remains unqualified.",
+      "fdm_plan": "Length near bed plane; exposed cavity upward; support accessible exterior.",
+      "cnc_plan": "Opposed Y faces and demonstrated motor-pocket access.",
+      "status": "Clamp footprint and pocket access unresolved."
+    },
+    {
+      "key": "thigh_outer",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.23305609291782992,
+      "bounds_mm": [
+        89.77044941374912,
+        88.6000001,
+        242.50000020000098
+      ],
+      "note": "Continuous front wall and smooth outer face. The conservative full-sphere foot cut is omitted; validate against the modeled boot over the complete knee range. Original motor, crank, pushrod and bearing interfaces; two structural halves. Strength and production fits remain unqualified.",
+      "fdm_plan": "Length near bed plane; exposed cavity upward; support accessible exterior.",
+      "cnc_plan": "Opposed Y faces and demonstrated motor-pocket access.",
+      "status": "Clamp footprint and pocket access unresolved."
+    },
+    {
+      "key": "thigh_outer_right",
+      "quantity": 2,
+      "material": "petg",
+      "mass_one_kg": 0.23305609291782994,
+      "bounds_mm": [
+        89.77044941374912,
+        88.6000001,
+        242.50000020000098
+      ],
+      "note": "Continuous front wall and smooth outer face. The conservative full-sphere foot cut is omitted; validate against the modeled boot over the complete knee range. Original motor, crank, pushrod and bearing interfaces; two structural halves. Strength and production fits remain unqualified.",
+      "fdm_plan": "Length near bed plane; exposed cavity upward; support accessible exterior.",
+      "cnc_plan": "Opposed Y faces and demonstrated motor-pocket access.",
+      "status": "Clamp footprint and pocket access unresolved."
+    }
+  ],
+  "scope": "Proposed setups and part-specific review status; no CAM or sliced-print qualification."
+}

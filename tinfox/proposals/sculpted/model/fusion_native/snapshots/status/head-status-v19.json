@@ -1,0 +1,55 @@
+{
+  "updated_utc": "2026-10-26T06:09:55.748597+00:00",
+  "cloud_file_id": "urn:adsk.wipprod:dm.lineage:cwZZGJRSR5aVlwkk9TcEUA",
+  "saved_version": 19,
+  "save_verified": true,
+  "editable_files": 4,
+  "native_checkpoint": "exports/Tinfox-Head-native-checkpoint.f3d",
+  "components": [
+    {
+      "id": "sensor_bezel",
+      "features": 9,
+      "sketches": 8,
+      "surface_gate": "pass",
+      "section_gate": "pass"
+    },
+    {
+      "id": "front_fascia",
+      "features": 16,
+      "sketches": 15,
+      "surface_gate": "pass",
+      "section_gate": "pass"
+    },
+    {
+      "id": "body_nose_surround",
+      "features": 39,
+      "sketches": 34,
+      "surface_gate": "pass",
+      "section_gate": "blocked_by_export_trim_inconsistency"
+    }
+  ],
+  "family_edits": {
+    "passed": true,
+    "parameters": [
+      "body_hip_x",
+      "body_envelope_width",
+      "nose_bridge_depth",
+      "nose_wall",
+      "nose_fascia_fit_gap"
+    ],
+    "report": "audits/head-family-edit-restore.json"
+  },
+  "interface_removal_translation_passed": true,
+  "report": "audits/head-interface-service.json",
+  "source_of_truth_changed": false,
+  "manufacturing_ready": false,
+  "remaining": [
+    "Native Head geometry is qualified against frozen V0; STEP nose planar-trim self-consistency still fails diagnostic and is not waived.",
+    "Frozen source fascia/bezel overlap about 1744.72 mm3 blocks fabrication.",
+    "Whole robot family dependencies, physical assembly and motion/service migration remain incomplete."
+  ],
+  "later_source_revisions": "Parent current generated limbs, camera neck and lidar updates remain outside this frozen V0 translation checkpoint.",
+  "native_geometry_passed": true,
+  "native_direct_section_report": "audits/nose-direct-native-section-comparison.json",
+  "silhouettes_passed": true
+}

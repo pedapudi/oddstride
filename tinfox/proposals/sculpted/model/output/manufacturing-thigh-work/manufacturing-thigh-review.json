@@ -1,0 +1,31 @@
+{
+  "model_sha256": "cef9a90c7bd6c74c486f7393ecea85527adad04bf0ff09ae7ad54913e1a4ec2e",
+  "source_model_sha256": "2b2acb9502af31591117f85635a9aa326cc1e15a72f86ebee7384ad9d99175a3",
+  "part_changes": [
+    {
+      "part": "thigh_inner",
+      "source_volume_mm3": 89419.63648173554,
+      "candidate_volume_mm3": 89749.7783095772
+    },
+    {
+      "part": "thigh_outer",
+      "source_volume_mm3": 111792.92807060793,
+      "candidate_volume_mm3": 110749.64998498885
+    }
+  ],
+  "clear_named_poses": [
+    "stand",
+    "studio",
+    "raised",
+    "crouch",
+    "reach",
+    "fold",
+    "splay",
+    "side_reach"
+  ],
+  "previously_clear_poses_lost": [],
+  "added_collision_pairs": [],
+  "mass_change_whole_robot_kg": -0.0036227321895092555,
+  "finished_thigh_halves_per_leg": 2,
+  "scope": "Machining reliefs and print preparation reduce specific manufacturing difficulties. No supplier quote, CAM/holder verification, sliced supports, tolerance or strength qualification."
+}

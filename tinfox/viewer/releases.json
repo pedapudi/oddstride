@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "releases": [
+    {
+      "id": "Tinfox-Motor-Interface-Fit-20261029T233900Z",
+      "title": "Integrated motor fit plate \u00b7 three objects",
+      "source_kind": "native-interfaces-with-generated-gauges",
+      "source_label": "Native primary motor cradle + two auxiliary generated case gauges",
+      "archive": "../proposals/sculpted/model/output/print-handoff/Tinfox-Motor-Interface-Fit-20261029T233900Z.zip",
+      "archive_sha256": "3dd1529eb37523390689f410feb2e626fe2bde520cc34531b185bf8f098d553d",
+      "guide": "../design/integrated-motor-complex-fit.md",
+      "first_plate": "../proposals/sculpted/model/output/print-handoff/Tinfox-Motor-Interface-Fit-20261029T233900Z/00-RS02-motor-fit.3mf",
+      "mac_directory": "~/Downloads/Tinfox/Current-Motor-Fit/"
+    },
+    {
+      "id": "Tinfox-Native-Motor-Complex-20261029T233805Z",
+      "title": "Integrated three-motor fit assembly",
+      "source_kind": "fusion-native",
+      "source_label": "Native Fusion \u00b7 saved Leg37 \u00b7 ten custom pieces \u00b7 unpowered fit only",
+      "archive": "../proposals/sculpted/model/output/print-handoff/Tinfox-Native-Motor-Complex-20261029T233805Z.zip",
+      "archive_sha256": "da38236db6939b19ea6ee135c75b74baa1dd8ddc78b13ecc36daa7a345a69407",
+      "guide": "../design/integrated-motor-complex-fit.md",
+      "first_plate": "../proposals/sculpted/model/output/print-handoff/Tinfox-Native-Motor-Complex-20261029T233805Z/plates/01-roll-and-hip-carrier.3mf",
+      "mac_directory": "~/Downloads/Tinfox/Current-Motor-Complex/"
+    }
+  ],
+  "withdrawn_releases": [
+    {
+      "id": "Tinfox-Native-Motor-Complex-20261029T073148Z",
+      "title": "Three-motor bench assembly",
+      "source_kind": "fusion-native",
+      "source_label": "Native Fusion \u00b7 static fit; knee fastener revision pending",
+      "archive": "../proposals/sculpted/model/output/print-handoff/Tinfox-Native-Motor-Complex-20261029T073148Z.zip",
+      "archive_sha256": "6caad9827378d7effb5f4fc66c97bf21d2186ef489cb971853904a4314824bab",
+      "guide": "../design/motor-complex-fit.md",
+      "first_plate": "../proposals/sculpted/model/output/print-handoff/Tinfox-Native-Motor-Complex-20261029T073148Z/plates/01-roll-and-hip-carrier.3mf",
+      "mac_directory": "~/Downloads/Tinfox/Tinfox-Native-Motor-Complex-20261029T073148Z/",
+      "withdrawn_reason": "Confirmed pod-tie/hip-closure screw-head collisions at neutral hip. Complete assembly release withheld pending native revision."
+    }
+  ],
+  "superseded_releases": [
+    {
+      "id": "Tinfox-Motor-Interface-Fit-20261029T102551Z",
+      "title": "Motor fit plate \u00b7 five objects",
+      "source_kind": "native-interfaces-with-generated-gauges",
+      "source_label": "Three native interfaces + two auxiliary generated gauges",
+      "archive": "../proposals/sculpted/model/output/print-handoff/Tinfox-Motor-Interface-Fit-20261029T102551Z.zip",
+      "archive_sha256": "a00d8f5d5e92707f43ec96a76e246a3109606b49e41c419ca1a3359489771b48",
+      "guide": "../design/motor-complex-fit.md",
+      "first_plate": "../proposals/sculpted/model/output/print-handoff/Tinfox-Motor-Interface-Fit-20261029T102551Z/00-RS02-motor-fit.3mf",
+      "mac_directory": "~/Downloads/Tinfox/Tinfox-Motor-Interface-Fit-20261029T102551Z/",
+      "superseded_reason": "Replaced by the integrated native Leg37 motor complex with ten custom pieces and standard socket heads. Earlier separate hubs, plates and closures are not current prototype parts."
+    },
+    {
+      "id": "Tinfox-Native-Motor-Complex-20261029T102437Z",
+      "title": "Corrected three-motor fit assembly",
+      "source_kind": "fusion-native",
+      "source_label": "Native Fusion \u00b7 saved Leg24 \u00b7 unpowered fit only",
+      "archive": "../proposals/sculpted/model/output/print-handoff/Tinfox-Native-Motor-Complex-20261029T102437Z.zip",
+      "archive_sha256": "e6a4df94d3771698bdf19cc4fa1bf3c6685e86c6cfa68f3d6edfd1830abb3f1e",
+      "guide": "../design/motor-complex-fit.md",
+      "first_plate": "../proposals/sculpted/model/output/print-handoff/Tinfox-Native-Motor-Complex-20261029T102437Z/plates/01-roll-and-hip-carrier.3mf",
+      "mac_directory": "~/Downloads/Tinfox/Tinfox-Native-Motor-Complex-20261029T102437Z/",
+      "superseded_reason": "Replaced by the integrated native Leg37 motor complex with ten custom pieces and standard socket heads. Earlier separate hubs, plates and closures are not current prototype parts."
+    },
+    {
+      "id": "Tinfox-Motor-Interface-Fit-20261029T094548Z",
+      "title": "Motor fit plate \u00b7 five objects",
+      "source_kind": "native-interfaces-with-generated-gauges",
+      "source_label": "Three native interfaces + two auxiliary generated gauges",
+      "archive": "../proposals/sculpted/model/output/print-handoff/Tinfox-Motor-Interface-Fit-20261029T094548Z.zip",
+      "archive_sha256": "6083943bddae06e19f65475db7271c6bee043223c98f760b89aca1b9812abc28",
+      "guide": "../design/motor-complex-fit.md",
+      "first_plate": "../proposals/sculpted/model/output/print-handoff/Tinfox-Motor-Interface-Fit-20261029T094548Z/00-RS02-motor-fit.3mf",
+      "mac_directory": "~/Downloads/Tinfox/Tinfox-Motor-Interface-Fit-20261029T094548Z/",
+      "superseded_reason": "Current paired release includes corrected standalone assembly evidence and a consistent 4.3 mm clamp-tube bore specification. Native part geometry is unchanged."
+    },
+    {
+      "id": "Tinfox-Native-Motor-Complex-20261029T094254Z",
+      "title": "Corrected three-motor fit assembly",
+      "source_kind": "fusion-native",
+      "source_label": "Native Fusion \u00b7 saved Leg24 \u00b7 unpowered fit only",
+      "archive": "../proposals/sculpted/model/output/print-handoff/Tinfox-Native-Motor-Complex-20261029T094254Z.zip",
+      "archive_sha256": "271c4f7c20d87027a9ce7504a9c6618edcc3619817c5aa6777d745e4d2859f86",
+      "guide": "../design/motor-complex-fit.md",
+      "first_plate": "../proposals/sculpted/model/output/print-handoff/Tinfox-Native-Motor-Complex-20261029T094254Z/plates/01-roll-and-hip-carrier.3mf",
+      "mac_directory": "~/Downloads/Tinfox/Tinfox-Native-Motor-Complex-20261029T094254Z/",
+      "superseded_reason": "Current paired release includes corrected standalone assembly evidence and a consistent 4.3 mm clamp-tube bore specification. Native part geometry is unchanged."
+    }
+  ]
+}

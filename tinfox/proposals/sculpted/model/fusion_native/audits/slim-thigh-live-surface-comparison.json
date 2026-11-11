@@ -1,0 +1,79 @@
+{
+  "saved_document": "Tinfox - Leg module v17",
+  "saved_version": 17,
+  "working_modified": false,
+  "capture_sha256": "e46b7686770781e84c439c3951c2c794b662486adcaf903a071d57ba5d6bf6d9",
+  "parts": [
+    {
+      "part": "thigh_inner",
+      "source_sha256": "b8cb7f644e92119b329e3cffac039385b432150365d77b4b92fcc5c929fefa7a",
+      "live_mesh_capture_sha256": "e46b7686770781e84c439c3951c2c794b662486adcaf903a071d57ba5d6bf6d9",
+      "source_to_native_samples": 850,
+      "source_to_native_max_mm": 1.7350141407681437e-05,
+      "native_to_source_samples": 7000,
+      "native_to_source_max_mm": 0.007715104407545778,
+      "native_to_source_p99_mm": 0.0017232761675184745,
+      "worst_native_point_mm": [
+        -37.20552682876587,
+        60.3333314259847,
+        -100.97668965657552
+      ],
+      "mesh_tolerance_mm": 0.005,
+      "passed": true
+    },
+    {
+      "part": "thigh_outer",
+      "source_sha256": "444e1937618b2f33438fbc0684d8eedcad4b366b791220c9fcfe778d1a02c0e2",
+      "live_mesh_capture_sha256": "e46b7686770781e84c439c3951c2c794b662486adcaf903a071d57ba5d6bf6d9",
+      "source_to_native_samples": 2410,
+      "source_to_native_max_mm": 0.000733016703826844,
+      "native_to_source_samples": 7000,
+      "native_to_source_max_mm": 0.008571916473086352,
+      "native_to_source_p99_mm": 0.003277951685699712,
+      "worst_native_point_mm": [
+        -17.28166699409485,
+        89.69918251037598,
+        -147.17748641967773
+      ],
+      "mesh_tolerance_mm": 0.005,
+      "passed": true
+    },
+    {
+      "part": "thigh_inner_right",
+      "source_sha256": "70eb462bc64ce9dbfd2ad3f53a0ec5adeb1348e6f92f251e1c7e3b5646379607",
+      "live_mesh_capture_sha256": "e46b7686770781e84c439c3951c2c794b662486adcaf903a071d57ba5d6bf6d9",
+      "source_to_native_samples": 850,
+      "source_to_native_max_mm": 1.735014140970279e-05,
+      "native_to_source_samples": 7000,
+      "native_to_source_max_mm": 0.008870563983511761,
+      "native_to_source_p99_mm": 0.0016937647428474174,
+      "worst_native_point_mm": [
+        -45.27307987213135,
+        -49.79748566945394,
+        -39.81010437011719
+      ],
+      "mesh_tolerance_mm": 0.005,
+      "passed": true
+    },
+    {
+      "part": "thigh_outer_right",
+      "source_sha256": "51a5bb3ad02eb67bb273cd95b421fbcfa25a7ada8af44d89d63b0d52499a3633",
+      "live_mesh_capture_sha256": "e46b7686770781e84c439c3951c2c794b662486adcaf903a071d57ba5d6bf6d9",
+      "source_to_native_samples": 2280,
+      "source_to_native_max_mm": 0.0007330167038391674,
+      "native_to_source_samples": 7000,
+      "native_to_source_max_mm": 0.004787724845493339,
+      "native_to_source_p99_mm": 0.0031823487273858592,
+      "worst_native_point_mm": [
+        11.545643409093222,
+        -89.39663887023926,
+        49.07591183980306
+      ],
+      "mesh_tolerance_mm": 0.005,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "serialization_recovery": "Four completed measurement rows recovered from the process log after numpy.bool_ JSON serialization failed; no geometric checks were rerun or changed.",
+  "scope": "Finite bidirectional surface witnesses using live native trimmed-face distances and native mesh nodes/centroids. Native mesh tolerance is included in the unchanged 0.05 mm bound. Sections, silhouettes, interfaces and physical qualification remain independent gates."
+}

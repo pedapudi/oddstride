@@ -1,0 +1,1110 @@
+{
+  "part": "thigh_outer_right",
+  "source_step_sha256": "51a5bb3ad02eb67bb273cd95b421fbcfa25a7ada8af44d89d63b0d52499a3633",
+  "source_brep_sha256": null,
+  "source_reference_note": "Frozen paired-bearing/M5-retention prototype b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6; earlier V0 probe files belong to a different outer profile.",
+  "native_step_sha256": "f4dad11a88462e913ecc4f7350bf3c3f75e23984d9d7722e7b596fe58a6aeb1e",
+  "sections": [
+    {
+      "axis": "X",
+      "offset_mm": -23.012275669204662,
+      "source_edges": 25,
+      "native_edges": 25,
+      "source_perimeter_mm": 503.5975623479152,
+      "native_perimeter_mm": 503.5943067179323,
+      "relative_perimeter_error": 6.464745317121564e-06,
+      "symmetric_sampled_error_max_mm": 0.005894524760797992,
+      "section_to_own_solid_max_mm": [
+        5.911070627771052e-06,
+        0.001225750227980469
+      ],
+      "samples": 624,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            5.911070627771052e-06,
+            0.001225750227980469
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "X",
+      "offset_mm": -0.43753224404360935,
+      "source_edges": 94,
+      "native_edges": 87,
+      "source_perimeter_mm": 802.1959914030459,
+      "native_perimeter_mm": 802.1987256720339,
+      "relative_perimeter_error": 3.4084799940180953e-06,
+      "symmetric_sampled_error_max_mm": 0.011573263860498173,
+      "section_to_own_solid_max_mm": [
+        7.4206102032504986e-06,
+        0.0031078092842520824
+      ],
+      "samples": 1366,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            7.4206102032504986e-06,
+            0.0031078092842520824
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "X",
+      "offset_mm": 22.13721118111745,
+      "source_edges": 22,
+      "native_edges": 21,
+      "source_perimeter_mm": 444.00028197679575,
+      "native_perimeter_mm": 444.0007062312029,
+      "relative_perimeter_error": 9.55527337224976e-07,
+      "symmetric_sampled_error_max_mm": 0.00657929237186039,
+      "section_to_own_solid_max_mm": [
+        2.0371088201274147e-06,
+        0.004895747455831891
+      ],
+      "samples": 546,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            2.0371088201274147e-06,
+            0.004895747455831891
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -75.0,
+      "source_edges": 27,
+      "native_edges": 20,
+      "source_perimeter_mm": 886.8930694319849,
+      "native_perimeter_mm": 886.888062138486,
+      "relative_perimeter_error": 5.645881867277651e-06,
+      "symmetric_sampled_error_max_mm": 0.007936317774797341,
+      "section_to_own_solid_max_mm": [
+        3.9509834913470786e-07,
+        0.007948630587893576
+      ],
+      "samples": 963,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            0.00014311817636275228,
+            0.007948630587898462
+          ]
+        },
+        {
+          "approximation": true,
+          "section_to_own_solid_max_mm": [
+            3.9509834913470786e-07,
+            0.007948630587893576
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 0.007936317774797341,
+            "perimeters_mm": [
+              886.8930694700389,
+              886.8880621396714
+            ],
+            "self_errors_mm": [
+              3.9509834913470786e-07,
+              0.007948630587893576
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 5,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 7,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 9,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 11,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 13,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 15,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 21,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 1
+            },
+            {
+              "face": 24,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 26,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 28,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 33,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 51,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 53,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 3
+            },
+            {
+              "face": 54,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 55,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 58,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 60,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 61,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 62,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 63,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 64,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 65,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 66,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 67,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 68,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 69,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 73,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 75,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 76,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 78,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 80,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 84,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 86,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 88,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 90,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 92,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 96,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 97,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 98,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 102,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 104,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 107,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 109,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 115,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 116,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 117,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 118,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 119,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 120,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 124,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 125,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 126,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 128,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 131,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 134,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 1
+            },
+            {
+              "face": 138,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 140,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 142,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 143,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 147,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 148,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 150,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 1
+            },
+            {
+              "face": 152,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 154,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 156,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 158,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 159,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 164,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 166,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 168,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 169,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 171,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 172,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 173,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 174,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 177,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 179,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 182,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 2
+            },
+            {
+              "face": 185,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 1
+            },
+            {
+              "face": 187,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 204,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 206,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 2
+            },
+            {
+              "face": 207,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 208,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 3
+            },
+            {
+              "face": 210,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 212,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 214,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 226,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 1,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 3,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 6,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 2
+            },
+            {
+              "face": 7,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 2
+            },
+            {
+              "face": 9,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 10,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 12,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 14,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 19,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 20,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 21,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 28,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 31,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 36,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 41,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 42,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 45,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 47,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 50,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 52,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 53,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 54,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 62,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 68,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 69,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 70,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 73,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 82,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 83,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 84,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 1
+            },
+            {
+              "face": 85,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 87,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 88,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 92,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 1
+            },
+            {
+              "face": 95,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 97,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 98,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 1
+            },
+            {
+              "face": 99,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 1
+            },
+            {
+              "face": 100,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 101,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 107,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 111,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 112,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 113,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 114,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 115,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 116,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 117,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 118,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 122,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 124,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 125,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 127,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 128,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 129,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 130,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 131,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 133,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 134,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 136,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 138,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 141,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 143,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 145,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 148,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 150,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 151,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 154,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 156,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 159,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 160,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 161,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 163,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 166,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 174,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 175,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 0
+            },
+            {
+              "face": 176,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 2
+            },
+            {
+              "face": 177,
+              "method": "Analytic perpendicular cylinder with classified UV trim intervals",
+              "intervals": 2
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            3.9509834913470786e-07,
+            0.007948630587893576
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -53.0,
+      "source_edges": 31,
+      "native_edges": 30,
+      "source_perimeter_mm": 565.3251888886599,
+      "native_perimeter_mm": 565.3184494420981,
+      "relative_perimeter_error": 1.1921362596760031e-05,
+      "symmetric_sampled_error_max_mm": 0.006805970026472118,
+      "section_to_own_solid_max_mm": [
+        8.916091833498704e-05,
+        0.00455025468585925
+      ],
+      "samples": 680,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            8.916091833498704e-05,
+            0.00455025468585925
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -31.0,
+      "source_edges": 12,
+      "native_edges": 13,
+      "source_perimeter_mm": 248.0633987658306,
+      "native_perimeter_mm": 248.06339922666413,
+      "relative_perimeter_error": 1.8577247638838257e-09,
+      "symmetric_sampled_error_max_mm": 5.387440257364919e-05,
+      "section_to_own_solid_max_mm": [
+        5.448203492220048e-05,
+        5.387440257721819e-05
+      ],
+      "samples": 295,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            5.448203492220048e-05,
+            5.387440257721819e-05
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -130.87500134811313,
+      "source_edges": 12,
+      "native_edges": 12,
+      "source_perimeter_mm": 82.11073871199807,
+      "native_perimeter_mm": 82.1140695722058,
+      "relative_perimeter_error": 4.056546390871836e-05,
+      "symmetric_sampled_error_max_mm": 0.005588234412329918,
+      "section_to_own_solid_max_mm": [
+        1.9228303619393637e-06,
+        0.0006918071995769561
+      ],
+      "samples": 152,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            1.9228303619393637e-06,
+            0.0006918071995769561
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -70.25000269622625,
+      "source_edges": 28,
+      "native_edges": 25,
+      "source_perimeter_mm": 309.82705583436547,
+      "native_perimeter_mm": 309.82068583432056,
+      "relative_perimeter_error": 2.055985726538907e-05,
+      "symmetric_sampled_error_max_mm": 0.003450859671343261,
+      "section_to_own_solid_max_mm": [
+        2.7196346948096564e-06,
+        0.0015759070461270745
+      ],
+      "samples": 426,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            2.7196346948096564e-06,
+            0.0015759070461270745
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -9.625004044339363,
+      "source_edges": 19,
+      "native_edges": 18,
+      "source_perimeter_mm": 426.59236881787916,
+      "native_perimeter_mm": 426.58980901923445,
+      "relative_perimeter_error": 6.000572986817395e-06,
+      "symmetric_sampled_error_max_mm": 0.003259084094023373,
+      "section_to_own_solid_max_mm": [
+        9.048297874710959e-07,
+        0.0028803057226950246
+      ],
+      "samples": 519,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            9.048297874710959e-07,
+            0.0028803057226950246
+          ]
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "periodic_surface_projection_recoveries": {
+    "source": [],
+    "native": []
+  },
+  "section_gate_passed": false,
+  "section_algorithm": {
+    "compute_parent_pcurves": true,
+    "primary_approximation": false,
+    "fallback_approximation": true,
+    "fallback_condition": "Retry approximation for off-parent curves. If discrepancy remains, independently reconstruct analytical planar-face intervals from trim roots and inside-face classification, retaining original results. Same sample planes and pass thresholds."
+  },
+  "tolerances": {
+    "sampled_distance_mm": 0.05,
+    "relative_perimeter": 0.002,
+    "section_to_own_solid_mm": 0.005
+  },
+  "scope": "Nine sampled planar cuts supplement the full-surface comparison. They do not replace functional datums, service-path or editability audits."
+}

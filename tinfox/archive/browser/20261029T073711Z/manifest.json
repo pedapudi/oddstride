@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "scope": "Obsolete browser reviews, captures and historical render iterations; CAD migration evidence stays in place.",
+  "files": [
+    {
+      "path": "viewer/captures/paired-prototype-limb.png",
+      "sha256": "10758985d4110b9655dba1200834e49109ec7f488b6c59fc94c2b23944871efc",
+      "bytes": 200933,
+      "object": "objects/10758985d4110b9655dba1200834e49109ec7f488b6c59fc94c2b23944871efc"
+    },
+    {
+      "path": "viewer/captures/removable-bearing-backplate.png",
+      "sha256": "7b5a59cb8ad3f3f444fc90f4c70e8e1d91caae13995d74390cd07b8a5ca8c3cb",
+      "bytes": 166206,
+      "object": "objects/7b5a59cb8ad3f3f444fc90f4c70e8e1d91caae13995d74390cd07b8a5ca8c3cb"
+    },
+    {
+      "path": "viewer/captures/three-actuators.png",
+      "sha256": "1942a1e3997065db33d49478a5543f9d881e2b2334be474442630275035b18ae",
+      "bytes": 193542,
+      "object": "objects/1942a1e3997065db33d49478a5543f9d881e2b2334be474442630275035b18ae"
+    }
+  ],
+  "original_bytes": 560681,
+  "unique_objects": 3,
+  "restore": "python3 tinfox/viewer/archive_artifacts.py --restore ARCHIVE --file TINFOX_RELATIVE_PATH --overwrite",
+  "result": {
+    "archive": "archive/browser/20261029T073711Z/browser-history.zip",
+    "archive_sha256": "32e5f1bc94ca0696d5790a4950f42850e8ebbc9720aa7e99953b3029f97f3808",
+    "original_files": 3,
+    "original_bytes": 560681,
+    "unique_objects": 3,
+    "archive_bytes": 544148,
+    "legacy_html_notices": 0,
+    "active_payload_bytes_removed": 560681
+  }
+}

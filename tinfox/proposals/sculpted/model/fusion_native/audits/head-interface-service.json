@@ -1,0 +1,183 @@
+{
+  "reference_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59",
+  "native_exports": {
+    "body_nose_surround": {
+      "file": "body_nose_surround-tangent.step",
+      "sha256": "030335a931396c838667f04c7b6db8dace804979cdf46ea8c933fb3f7a2c8464"
+    },
+    "front_fascia": {
+      "file": "front_fascia-intent.step",
+      "sha256": "872fccf041130c10b34505038c43fdd911f92cd684d324e1d3b6eea6fc17f056"
+    },
+    "sensor_bezel": {
+      "file": "sensor_bezel-intent.step",
+      "sha256": "c59c6de4bf2d6319b795aaadebb340ba6c6f96bd5678272c88e0ec0dc2280526"
+    }
+  },
+  "fixed_interfaces": [
+    {
+      "parts": [
+        "body_nose_surround",
+        "chassis_crossmember_121"
+      ],
+      "source_overlap_mm3": 0,
+      "native_overlap_mm3": 0,
+      "source_has_interference": false,
+      "translation_added_overlap_mm3": 0,
+      "translation_fit_passed": true
+    },
+    {
+      "parts": [
+        "body_nose_surround",
+        "front_fascia"
+      ],
+      "source_overlap_mm3": 0,
+      "native_overlap_mm3": 0,
+      "source_has_interference": false,
+      "translation_added_overlap_mm3": 0,
+      "translation_fit_passed": true
+    },
+    {
+      "parts": [
+        "body_nose_surround",
+        "sensor_bezel"
+      ],
+      "source_overlap_mm3": 0,
+      "native_overlap_mm3": 0,
+      "source_has_interference": false,
+      "translation_added_overlap_mm3": 0,
+      "translation_fit_passed": true
+    },
+    {
+      "parts": [
+        "body_nose_surround",
+        "lidar_base"
+      ],
+      "source_overlap_mm3": 0,
+      "native_overlap_mm3": 0,
+      "source_has_interference": false,
+      "translation_added_overlap_mm3": 0,
+      "translation_fit_passed": true
+    },
+    {
+      "parts": [
+        "body_nose_surround",
+        "lidar"
+      ],
+      "source_overlap_mm3": 0,
+      "native_overlap_mm3": 0,
+      "source_has_interference": false,
+      "translation_added_overlap_mm3": 0,
+      "translation_fit_passed": true
+    },
+    {
+      "parts": [
+        "front_fascia",
+        "sensor_bezel"
+      ],
+      "source_overlap_mm3": 1744.7219035626918,
+      "native_overlap_mm3": 1744.710122329674,
+      "source_has_interference": true,
+      "translation_added_overlap_mm3": -0.011781233017700288,
+      "translation_fit_passed": true
+    },
+    {
+      "parts": [
+        "end_cap_nut_1_-18",
+        "body_nose_surround"
+      ],
+      "source_overlap_mm3": 0,
+      "native_overlap_mm3": 0,
+      "source_has_interference": false,
+      "translation_added_overlap_mm3": 0,
+      "translation_fit_passed": true
+    },
+    {
+      "parts": [
+        "end_cap_nut_1_-18",
+        "chassis_crossmember_121"
+      ],
+      "source_overlap_mm3": 0,
+      "native_overlap_mm3": 0,
+      "source_has_interference": false,
+      "translation_added_overlap_mm3": 0,
+      "translation_fit_passed": true
+    },
+    {
+      "parts": [
+        "end_cap_nut_1_18",
+        "body_nose_surround"
+      ],
+      "source_overlap_mm3": 0,
+      "native_overlap_mm3": 0,
+      "source_has_interference": false,
+      "translation_added_overlap_mm3": 0,
+      "translation_fit_passed": true
+    },
+    {
+      "parts": [
+        "end_cap_nut_1_18",
+        "chassis_crossmember_121"
+      ],
+      "source_overlap_mm3": 0,
+      "native_overlap_mm3": 0,
+      "source_has_interference": false,
+      "translation_added_overlap_mm3": 0,
+      "translation_fit_passed": true
+    }
+  ],
+  "removal_path": [
+    {
+      "lift_mm": 1,
+      "source": [],
+      "native": [],
+      "no_new_collisions": true
+    },
+    {
+      "lift_mm": 3,
+      "source": [],
+      "native": [],
+      "no_new_collisions": true
+    },
+    {
+      "lift_mm": 8,
+      "source": [],
+      "native": [],
+      "no_new_collisions": true
+    },
+    {
+      "lift_mm": 15,
+      "source": [],
+      "native": [],
+      "no_new_collisions": true
+    },
+    {
+      "lift_mm": 30,
+      "source": [],
+      "native": [],
+      "no_new_collisions": true
+    },
+    {
+      "lift_mm": 50,
+      "source": [],
+      "native": [],
+      "no_new_collisions": true
+    },
+    {
+      "lift_mm": 80,
+      "source": [],
+      "native": [],
+      "no_new_collisions": true
+    },
+    {
+      "lift_mm": 120,
+      "source": [],
+      "native": [],
+      "no_new_collisions": true
+    }
+  ],
+  "translation_gate_passed": true,
+  "manufacturing_ready": false,
+  "known_source_defect": "The frozen fascia and bezel overlap. Translation fidelity does not authorize fabrication.",
+  "service_sequence": "Remove upper shell and two cap screws, disconnect harness, lift complete front sensor module. Eight sampled positions, not swept-volume proof."
+}

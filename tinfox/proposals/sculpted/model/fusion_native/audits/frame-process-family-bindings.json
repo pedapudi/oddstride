@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "saved": false,
+  "changes": [
+    {
+      "parameter": "frame_brace_center_z",
+      "before": "2 mm",
+      "after": "frame_brace_bottom_z+frame_brace_thickness/2"
+    },
+    {
+      "parameter": "frame_m3_tap_drill",
+      "before": "2.5 mm",
+      "after": "frame_m3_tap_drill_nominal+frame_tap_hole_process_compensation"
+    },
+    {
+      "parameter": "frame_m3_clearance",
+      "before": "frame_m3_nominal + robot_fastener_diametral_allowance",
+      "after": "frame_m3_nominal+robot_fastener_diametral_allowance+frame_hole_process_compensation"
+    },
+    {
+      "parameter": "belly_battery_aperture_depth",
+      "before": "202 mm",
+      "after": "2*frame_half_y-2 mm"
+    },
+    {
+      "parameter": "d1459",
+      "owner": "Shared deck-to-frame screw pattern",
+      "before": "frame_m3_clearance",
+      "after": "deck_m3_clearance"
+    },
+    {
+      "parameter": "d1464",
+      "owner": "Standard M3 adjustable adapter slot",
+      "before": "deck_adapter_y + ( deck_adapter_slot_length - frame_m3_clearance ) / 2",
+      "after": "deck_adapter_y + ( deck_adapter_slot_length - deck_m3_clearance ) / 2"
+    },
+    {
+      "parameter": "d1466",
+      "owner": "Standard M3 adjustable adapter slot",
+      "before": "deck_adapter_y - ( deck_adapter_slot_length - frame_m3_clearance ) / 2",
+      "after": "deck_adapter_y - ( deck_adapter_slot_length - deck_m3_clearance ) / 2"
+    },
+    {
+      "parameter": "d1467",
+      "owner": "Standard M3 adjustable adapter slot",
+      "before": "frame_m3_clearance / 2",
+      "after": "deck_m3_clearance / 2"
+    },
+    {
+      "parameter": "d1468",
+      "owner": "Standard M3 adjustable adapter slot",
+      "before": "frame_m3_clearance / 2",
+      "after": "deck_m3_clearance / 2"
+    }
+  ],
+  "baseline_max_bounds_error_mm": 0,
+  "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/frame-intent-battery-skid.step",
+  "skid_features": 1,
+  "skid_sketches": 1,
+  "elapsed_seconds": 37.12096712499624,
+  "scope": "Baseline-preserving parameter bindings. Separate process compensation defaults to zero; no print or machining fit has been qualified."
+}

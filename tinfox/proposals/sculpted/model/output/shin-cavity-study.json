@@ -1,0 +1,27 @@
+{
+  "scope": "Nominal paired CAD shin halves only, PETG density; exact solid volume and inertia. Outer geometry and bolt bosses held fixed. No printed-strength qualification.",
+  "candidates": [
+    {
+      "cavity_width_mm": 10,
+      "two_half_mass_kg": 0.0727414376394386,
+      "knee_axis_inertia_kg_m2": 0.00047863380461645827,
+      "minimum_section_modulus_y_mm3": 1082.495112893039
+    },
+    {
+      "cavity_width_mm": 14,
+      "two_half_mass_kg": 0.0694646231239731,
+      "knee_axis_inertia_kg_m2": 0.0004423423098046722,
+      "minimum_section_modulus_y_mm3": 1082.495112893039
+    },
+    {
+      "cavity_width_mm": 16,
+      "two_half_mass_kg": 0.06778035147459936,
+      "knee_axis_inertia_kg_m2": 0.00042378990339510296,
+      "minimum_section_modulus_y_mm3": 1082.495112893039
+    }
+  ],
+  "model_sha256": "d289382312c67d607ae42eb40229edd7500df32403f1ffbc8be0dc520688b409",
+  "selected_cavity_width_mm": 16,
+  "historical_scope": "Records the preceding limb revision, before the later body-only revision. See body-revision-comparison.json for the current body and unchanged-limb check.",
+  "status": "Historical geometry study; model_sha256 identifies the studied revision. Consult current mounting-audit.json and print-strength-audit.json for the continuous shin shell."
+}

@@ -1,0 +1,230 @@
+{
+  "model_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "seat_z_mm": 80,
+  "lidar_center_x_mm": 121,
+  "scan_band_z_mm": [
+    84,
+    102
+  ],
+  "lower_than_previous_mm": 14,
+  "optical_plane_checks": [
+    {
+      "pose": "stand",
+      "scan_height_z_mm": 84,
+      "obstructions": []
+    },
+    {
+      "pose": "stand",
+      "scan_height_z_mm": 93,
+      "obstructions": []
+    },
+    {
+      "pose": "stand",
+      "scan_height_z_mm": 102,
+      "obstructions": []
+    },
+    {
+      "pose": "studio",
+      "scan_height_z_mm": 84,
+      "obstructions": []
+    },
+    {
+      "pose": "studio",
+      "scan_height_z_mm": 93,
+      "obstructions": []
+    },
+    {
+      "pose": "studio",
+      "scan_height_z_mm": 102,
+      "obstructions": []
+    },
+    {
+      "pose": "raised",
+      "scan_height_z_mm": 84,
+      "obstructions": []
+    },
+    {
+      "pose": "raised",
+      "scan_height_z_mm": 93,
+      "obstructions": []
+    },
+    {
+      "pose": "raised",
+      "scan_height_z_mm": 102,
+      "obstructions": []
+    },
+    {
+      "pose": "crouch",
+      "scan_height_z_mm": 84,
+      "obstructions": []
+    },
+    {
+      "pose": "crouch",
+      "scan_height_z_mm": 93,
+      "obstructions": []
+    },
+    {
+      "pose": "crouch",
+      "scan_height_z_mm": 102,
+      "obstructions": []
+    }
+  ],
+  "step_exports": [
+    {
+      "part": "front_fascia",
+      "closed_solids": 1,
+      "volume_error_mm3": 1.816845906432718e-05
+    },
+    {
+      "part": "body_nose_surround",
+      "closed_solids": 1,
+      "volume_error_mm3": 3.5797711461782455e-09
+    },
+    {
+      "part": "body_center_0",
+      "closed_solids": 1,
+      "volume_error_mm3": 6.953981937840581e-06
+    },
+    {
+      "part": "chassis_crossmember_121",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "lidar_base",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "lidar",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "lidar_lid",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "sensor_hood_screw_0",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "sensor_hood_nut_0",
+      "closed_solids": 1,
+      "volume_error_mm3": 4.526157226791838e-12
+    },
+    {
+      "part": "sensor_hood_screw_1",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "sensor_hood_nut_1",
+      "closed_solids": 1,
+      "volume_error_mm3": 4.526157226791838e-12
+    },
+    {
+      "part": "sensor_hood_screw_2",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "sensor_hood_nut_2",
+      "closed_solids": 1,
+      "volume_error_mm3": 8.141398666339228e-11
+    },
+    {
+      "part": "sensor_hood_screw_3",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "sensor_hood_nut_3",
+      "closed_solids": 1,
+      "volume_error_mm3": 8.141398666339228e-11
+    },
+    {
+      "part": "sensor_root_screw_0",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "sensor_root_washer_0",
+      "closed_solids": 1,
+      "volume_error_mm3": 1.3500311979441904e-13
+    },
+    {
+      "part": "sensor_root_nut_0",
+      "closed_solids": 1,
+      "volume_error_mm3": 2.1032064978498966e-12
+    },
+    {
+      "part": "sensor_root_screw_1",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "sensor_root_washer_1",
+      "closed_solids": 1,
+      "volume_error_mm3": 1.3500311979441904e-13
+    },
+    {
+      "part": "sensor_root_nut_1",
+      "closed_solids": 1,
+      "volume_error_mm3": 2.1032064978498966e-12
+    }
+  ],
+  "print_parts": [
+    {
+      "part": "body_nose_surround",
+      "orientation": "Top clamping lands down; mounting feet up.",
+      "size_mm": [
+        89.0,
+        64.0,
+        17.200000000000017
+      ]
+    },
+    {
+      "part": "front_fascia",
+      "orientation": "Camera face toward the bed; neck rises in the build direction. Use a brim and local supports under the curved face and recessed features.",
+      "size_mm": [
+        119.61538481969335,
+        196.1923078923077,
+        185.7616781575894
+      ]
+    },
+    {
+      "part": "body_center_0",
+      "orientation": "Roof toward the bed; inspect local supports beneath the curved roof.",
+      "size_mm": [
+        258.36000937360177,
+        229.75372012619317,
+        65.50000010000021
+      ]
+    }
+  ],
+  "removed_hardware": [
+    "front_fascia_screw_-89_-27",
+    "front_fascia_screw_-89_27",
+    "front_fascia_screw_89_-27",
+    "front_fascia_screw_89_27",
+    "camera_hood_screw_-16",
+    "camera_hood_nut_-16",
+    "camera_hood_screw_16",
+    "camera_hood_nut_16"
+  ],
+  "assembly": [
+    "Drill and deburr the two 4.4 mm crossmember holes, or manufacture the revised metal part.",
+    "Fit the cradle with two M4 x20 socket-head screws, flat washers and accessible nuts below the crossmember.",
+    "Insert four M3 nuts through the open underside of the cradle. Route cables aft around the crossmember, with a disconnect and service slack.",
+    "Lower the hood onto its four lands and fit four M3 x20 socket-head screws from above. The lidar does not cover these access holes.",
+    "The main body cover and sensor hood lift independently. Remove the hood before accessing the two cradle mounting screws."
+  ],
+  "limits": [
+    "The selected lidar mounting pattern and camera cartridge retention remain to be detailed. Retained face holes are not counted as chassis fasteners.",
+    "Actual 3D sensor beam angles, printed strength, fastener preload, impact survival and cable bend radii remain unqualified.",
+    "The cradle is suitable for a simple flat print orientation; the compound-curved hood needs localized supports and is not claimed to be support-free or a simple two-setup CNC part."
+  ]
+}

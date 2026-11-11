@@ -1,0 +1,4187 @@
+{
+  "part": "chassis_beam_-102",
+  "source_step_sha256": "0104f529d41580a4189c58137df29df97afa1d6c4828eb0a79209959f8141a9e",
+  "source_brep_sha256": null,
+  "source_reference_note": "Authorized cleaned body revision beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8",
+  "native_step_sha256": "1187f433bf59cbf39842b054a6a736db2e93ebf820f3295ab5275b5d89d34850",
+  "sections": [
+    {
+      "axis": "X",
+      "offset_mm": -65.5,
+      "source_edges": 22,
+      "native_edges": 27,
+      "source_perimeter_mm": 79.64961035076958,
+      "native_perimeter_mm": 87.53095899424252,
+      "relative_perimeter_error": 0.09895024732405105,
+      "symmetric_sampled_error_max_mm": 4.0,
+      "section_to_own_solid_max_mm": [
+        6.907224527628777e-11,
+        5.62721137192265e-13
+      ],
+      "samples": 254,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            6.907407303834197e-11,
+            5.62721137192265e-13
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 4.0,
+            "perimeters_mm": [
+              79.6496103507705,
+              87.53095899424252
+            ],
+            "self_errors_mm": [
+              6.907407303834197e-11,
+              5.62721137192265e-13
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 2,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 5,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 9,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 13,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 14,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 17,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 19,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 21,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 31,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 36,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 45,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 50,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.4210854715202004e-14
+            },
+            {
+              "face": 55,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 56,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 67,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 70,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 71,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 77,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.464821375527116e-14
+            },
+            {
+              "face": 83,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 88,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 95,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 99,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 101,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 105,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 109,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 116,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 118,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 121,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 123,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 127,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 134,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 138,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 145,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 147,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 149,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 159,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 165,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 166,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 170,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 172,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 175,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 177,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 179,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 186,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 188,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 209,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 213,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 224,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 226,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 228,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 238,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 248,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 249,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 251,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 254,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 256,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 257,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 259,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 265,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 267,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 269,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 275,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 276,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 279,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 280,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 282,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 283,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 284,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 285,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 289,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 302,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 305,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 312,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 318,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 319,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 2,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 5,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 6,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 7,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 9,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 10,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 11,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 12,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 13,
+              "intervals": 3,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 15,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 16,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 17,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 20,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 41,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 43,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 44,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 45,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 46,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 47,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 49,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 50,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 57,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 74,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 77,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 80,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 81,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 82,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 84,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 88,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 89,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 3.1776437161565096e-14
+            },
+            {
+              "face": 92,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 93,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 97,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 100,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 122,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 124,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 126,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 147,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 149,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 151,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 152,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 153,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 161,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 163,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 177,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 178,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 183,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 185,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 188,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 200,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 206,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 211,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 219,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 227,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 232,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 243,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 256,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 258,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 267,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 270,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 279,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 282,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 286,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 291,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 312,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            6.907224527628777e-11,
+            5.62721137192265e-13
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "X",
+      "offset_mm": 0.0,
+      "source_edges": 16,
+      "native_edges": 16,
+      "source_perimeter_mm": 63.410004615573804,
+      "native_perimeter_mm": 63.41000461563392,
+      "relative_perimeter_error": 9.480999289802377e-13,
+      "symmetric_sampled_error_max_mm": 4.3644878024549424e-11,
+      "section_to_own_solid_max_mm": [
+        1.5551746752901636e-11,
+        5.62721137192265e-13
+      ],
+      "samples": 178,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            1.5551746752901636e-11,
+            5.62721137192265e-13
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "X",
+      "offset_mm": 65.5,
+      "source_edges": 22,
+      "native_edges": 27,
+      "source_perimeter_mm": 79.64961035076956,
+      "native_perimeter_mm": 87.53095899424251,
+      "relative_perimeter_error": 0.09895024732405108,
+      "symmetric_sampled_error_max_mm": 4.0,
+      "section_to_own_solid_max_mm": [
+        6.907224527628777e-11,
+        5.62721137192265e-13
+      ],
+      "samples": 254,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            6.907407303834197e-11,
+            5.62721137192265e-13
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 4.0,
+            "perimeters_mm": [
+              79.6496103507705,
+              87.53095899424254
+            ],
+            "self_errors_mm": [
+              6.907407303834197e-11,
+              5.62721137192265e-13
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 2,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 5,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 9,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 13,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 14,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 17,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 19,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 21,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 31,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 36,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 45,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 50,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 55,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 56,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 67,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 70,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 71,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 77,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 83,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 88,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 95,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 99,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 101,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 105,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 109,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 116,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 118,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 121,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 123,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 127,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 134,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 138,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 145,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 147,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.464821375527116e-14
+            },
+            {
+              "face": 149,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 159,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 165,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 166,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 170,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 172,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 175,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 177,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 179,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 186,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 188,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 209,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 213,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 224,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 226,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 228,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 238,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 248,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 249,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 251,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 254,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 256,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 257,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 259,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 265,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 267,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 269,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 275,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 276,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 279,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 280,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 282,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 283,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 284,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 285,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 289,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 302,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 305,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 312,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 318,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 319,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 2,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 5,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 6,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 7,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 9,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 10,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 11,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 12,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 13,
+              "intervals": 3,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 15,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 16,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 17,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 20,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 41,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 43,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 44,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 45,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 46,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 47,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 49,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 50,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 57,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 74,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 77,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 80,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 81,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 3.1776437161565096e-14
+            },
+            {
+              "face": 82,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 84,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 88,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 89,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 92,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 93,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 97,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 100,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 122,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 124,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 126,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 147,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 149,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 151,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 152,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 153,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 161,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 163,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 177,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 178,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 183,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 185,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 188,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 200,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 206,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 211,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 219,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 227,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 232,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 243,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 256,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 258,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 267,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 270,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 279,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 282,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 286,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 291,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 312,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            6.907224527628777e-11,
+            5.62721137192265e-13
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -104.625,
+      "source_edges": 70,
+      "native_edges": 70,
+      "source_perimeter_mm": 676.8334697053717,
+      "native_perimeter_mm": 701.1823347758011,
+      "relative_perimeter_error": 0.03597467643115897,
+      "symmetric_sampled_error_max_mm": 7.0,
+      "section_to_own_solid_max_mm": [
+        2.970363717036313e-11,
+        3.4165211900958944e-13
+      ],
+      "samples": 1088,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            2.969861329949076e-11,
+            3.4165211900958944e-13
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 7.0,
+            "perimeters_mm": [
+              676.8334697053716,
+              701.182334775801
+            ],
+            "self_errors_mm": [
+              2.969861329949076e-11,
+              3.4165211900958944e-13
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 0,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 13,
+              "intervals": 3,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 17,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 25,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 31,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 44,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 49,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 52,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 55,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 56,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 59,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 61,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 71,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 77,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.4210854715202004e-14
+            },
+            {
+              "face": 78,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 83,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 87,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 93,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 95,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 96,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 97,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 99,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 108,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 110,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 114,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 116,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 117,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 118,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 121,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 130,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 133,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 136,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 138,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 139,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 145,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 147,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.4210854715202004e-14
+            },
+            {
+              "face": 148,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 149,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 151,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 160,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 163,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 165,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 168,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 170,
+              "intervals": 4,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 175,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 181,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 210,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 211,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 217,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 224,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 230,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 232,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 235,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 238,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 244,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 246,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 248,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 254,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 264,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 265,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 266,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 267,
+              "intervals": 3,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 268,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 269,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 272,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 276,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 279,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 284,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 285,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 287,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 289,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 291,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 295,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 299,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 302,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 303,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 305,
+              "intervals": 4,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 307,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 309,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 312,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 316,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 2,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 5,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 16,
+              "intervals": 3,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 20,
+              "intervals": 3,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 21,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 23,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 40,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 42,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 43,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 47,
+              "intervals": 3,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 50,
+              "intervals": 3,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 53,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 56,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 73,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 75,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 81,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 83,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 85,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 86,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 87,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 88,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.4210854715202004e-14
+            },
+            {
+              "face": 89,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 90,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 93,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 95,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 96,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 97,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.4210854715202004e-14
+            },
+            {
+              "face": 98,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 100,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 122,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 123,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 125,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 126,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 147,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 148,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 150,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 151,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 152,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 2.1316282072803006e-14
+            },
+            {
+              "face": 153,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 155,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 159,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 161,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 164,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 178,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 179,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 180,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 181,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 183,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 186,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 188,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 201,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 202,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 203,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 206,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 208,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 211,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 222,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 223,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 229,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 234,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 238,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 241,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 243,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 258,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 260,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 264,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 267,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 270,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 282,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 284,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 286,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 288,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 289,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 291,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 293,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 311,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 312,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            2.970363717036313e-11,
+            3.4165211900958944e-13
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -100.75,
+      "source_edges": 36,
+      "native_edges": 40,
+      "source_perimeter_mm": 312.73805208364433,
+      "native_perimeter_mm": 336.05132620651307,
+      "relative_perimeter_error": 0.07454569077073298,
+      "symmetric_sampled_error_max_mm": 6.0,
+      "section_to_own_solid_max_mm": [
+        4.121147867408581e-13,
+        7.127078414416858e-15
+      ],
+      "samples": 568,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            4.121147867408581e-13,
+            7.127078414416858e-15
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 6.0,
+            "perimeters_mm": [
+              312.73805208364433,
+              336.05132620651307
+            ],
+            "self_errors_mm": [
+              4.121147867408581e-13,
+              7.127078414416858e-15
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 0,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 13,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 17,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 25,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 31,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 44,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 49,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 52,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 55,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 56,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 59,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 61,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 71,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 77,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 78,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 83,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 87,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 93,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 95,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 96,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 97,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 99,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 108,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 110,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 114,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 116,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 117,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 118,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 121,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 130,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 133,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 136,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 138,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 139,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 145,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 147,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 148,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 149,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 151,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 160,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 163,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 165,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 168,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 170,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 175,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 181,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 210,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 211,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 217,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 224,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 230,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 232,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 235,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 238,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 244,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 246,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 248,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 254,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 264,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 265,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 266,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 267,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 268,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 269,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 272,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 276,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 279,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 284,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 285,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 287,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 289,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 291,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 295,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 299,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 302,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 303,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 305,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 307,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 309,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 312,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 316,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 2,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 5,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 16,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 20,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 21,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 23,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 40,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 42,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 43,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 47,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 50,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 53,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 56,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 73,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 75,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 81,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 83,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 85,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 86,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 87,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 88,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 89,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 90,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 93,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 95,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 96,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 97,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 98,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 100,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 122,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 123,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 125,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 126,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 147,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 148,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 150,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 151,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 152,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 153,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 155,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 159,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 161,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 164,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 178,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 179,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 180,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 181,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 183,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 186,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 188,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 201,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 202,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 203,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 206,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 208,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 211,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 222,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 223,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 229,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 234,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 238,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 241,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 243,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 258,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 260,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 264,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 267,
+              "intervals": 2,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 270,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 282,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 284,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 286,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 288,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 289,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 291,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 293,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 311,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 312,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            4.121147867408581e-13,
+            7.127078414416858e-15
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -96.875,
+      "source_edges": 32,
+      "native_edges": 32,
+      "source_perimeter_mm": 314.5049924053969,
+      "native_perimeter_mm": 314.5049924053954,
+      "relative_perimeter_error": 4.699222352807546e-15,
+      "symmetric_sampled_error_max_mm": 2.0605739337042905e-13,
+      "section_to_own_solid_max_mm": [
+        2.0605739337042905e-13,
+        7.105427357601002e-15
+      ],
+      "samples": 536,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            2.0605739337042905e-13,
+            7.105427357601002e-15
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -5.5,
+      "source_edges": 28,
+      "native_edges": 28,
+      "source_perimeter_mm": 145.18234403834202,
+      "native_perimeter_mm": 145.18234403833688,
+      "relative_perimeter_error": 3.5433574522977326e-14,
+      "symmetric_sampled_error_max_mm": 2.1032064978498966e-12,
+      "section_to_own_solid_max_mm": [
+        2.1032064978498966e-12,
+        2.842170943040401e-14
+      ],
+      "samples": 312,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            2.1032064978498966e-12,
+            2.842170943040401e-14
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": 8.0,
+      "source_edges": 20,
+      "native_edges": 20,
+      "source_perimeter_mm": 147.99822971503096,
+      "native_perimeter_mm": 147.99822971502581,
+      "relative_perimeter_error": 3.475939824961743e-14,
+      "symmetric_sampled_error_max_mm": 2.1032064978498966e-12,
+      "section_to_own_solid_max_mm": [
+        2.1032064978498966e-12,
+        2.842170943040401e-14
+      ],
+      "samples": 272,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            2.1032064978498966e-12,
+            2.842170943040401e-14
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": 21.5,
+      "source_edges": 34,
+      "native_edges": 40,
+      "source_perimeter_mm": 371.73308488342144,
+      "native_perimeter_mm": 370.4454738638043,
+      "relative_perimeter_error": 0.0034638052731328734,
+      "symmetric_sampled_error_max_mm": 3.0,
+      "section_to_own_solid_max_mm": [
+        6.181721801112872e-13,
+        2.0097183471152322e-14
+      ],
+      "samples": 616,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            6.181721801112872e-13,
+            2.842170943040401e-14
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 3.0,
+            "perimeters_mm": [
+              371.7330848834221,
+              370.44547386380435
+            ],
+            "self_errors_mm": [
+              6.181721801112872e-13,
+              2.842170943040401e-14
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 0,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 2,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 5,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 9,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 14,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 19,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 21,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 25,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 36,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 44,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 45,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 49,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 50,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 52,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 59,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 61,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 67,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 70,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 77,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 78,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 87,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 88,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 93,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 96,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 97,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 101,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 105,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 108,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 109,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 110,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 114,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 117,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 123,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 127,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 130,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 133,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 134,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 136,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 139,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 147,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 148,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 151,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 159,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 160,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 163,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 166,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 168,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 172,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 177,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 179,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 181,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 186,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 188,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 209,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 210,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 211,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 213,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 217,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 226,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 228,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 230,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 232,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 235,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 244,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 246,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 249,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 251,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 256,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 257,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.4210854715202004e-14
+            },
+            {
+              "face": 259,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 264,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 266,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 268,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 272,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 275,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 280,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 282,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 283,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 285,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 287,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 291,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 295,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 299,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 303,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 307,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 309,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 316,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 318,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.4210854715202004e-14
+            },
+            {
+              "face": 319,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 6,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 7,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 9,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 10,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 11,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 12,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 13,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 15,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 17,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 21,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 23,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 40,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 41,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 42,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 44,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 45,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 46,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 49,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.4210854715202004e-14
+            },
+            {
+              "face": 53,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 56,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 57,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 73,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 74,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 75,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 77,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 80,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 81,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 82,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 83,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 84,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 85,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 86,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 87,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 88,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 89,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 90,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 92,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 95,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 96,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 97,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 98,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 123,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 124,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 125,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 148,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 149,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 150,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 152,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 155,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 159,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 163,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 164,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 177,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 179,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 180,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 181,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 185,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 186,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 200,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 201,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 202,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 203,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 208,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 219,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 222,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 223,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 227,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 229,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 232,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 234,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 238,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 241,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 256,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 260,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 264,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 279,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 284,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 288,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 289,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.7763568394002505e-14
+            },
+            {
+              "face": 293,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 7.105427357601002e-15
+            },
+            {
+              "face": 311,
+              "intervals": 0,
+              "maximum_trim_projection_mm": 0
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            6.181721801112872e-13,
+            2.0097183471152322e-14
+          ]
+        }
+      ],
+      "pass": false
+    }
+  ],
+  "section_gate_passed": false,
+  "section_algorithm": {
+    "compute_parent_pcurves": true,
+    "primary_approximation": false,
+    "fallback_approximation": true,
+    "fallback_condition": "Retry approximation for off-parent curves. If discrepancy remains, independently reconstruct analytical planar-face intervals from trim roots and inside-face classification, retaining original results. Same sample planes and pass thresholds."
+  },
+  "tolerances": {
+    "sampled_distance_mm": 0.05,
+    "relative_perimeter": 0.002,
+    "section_to_own_solid_mm": 0.005
+  },
+  "scope": "Nine sampled planar cuts supplement the full-surface comparison. They do not replace functional datums, service-path or editability audits."
+}

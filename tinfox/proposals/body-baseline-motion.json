@@ -1,0 +1,756 @@
+{
+  "compact": {
+    "model_sha256": "3cf92b464b15bda6a43c7bd99891539db4de54dd5f9791cf2ef818de00aedce0",
+    "motion": {
+      "presets": {
+        "stand": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 93,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5214772778511119,
+          "pair": [
+            "FL_motor_carrier",
+            "FL_hip_hub"
+          ]
+        },
+        "studio_comparison": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 93,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5120851576899597,
+          "pair": [
+            "FL_motor_carrier",
+            "FL_hip_hub"
+          ]
+        },
+        "raised": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 93,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.505374547073913,
+          "pair": [
+            "FL_motor_carrier",
+            "FL_hip_hub"
+          ]
+        },
+        "crouch": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 93,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5037258061599132,
+          "pair": [
+            "FL_motor_carrier",
+            "FL_hip_hub"
+          ]
+        },
+        "reach": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 93,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5023884001913785,
+          "pair": [
+            "FR_motor_carrier",
+            "FR_hip_hub"
+          ]
+        },
+        "fold": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 93,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5431095157442556,
+          "pair": [
+            "FL_motor_carrier",
+            "FL_hip_hub"
+          ]
+        },
+        "splay": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 93,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5180461777473582,
+          "pair": [
+            "FL_motor_carrier",
+            "FL_hip_hub"
+          ]
+        },
+        "side_reach": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 93,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5180461777473582,
+          "pair": [
+            "FL_motor_carrier",
+            "FL_hip_hub"
+          ]
+        }
+      },
+      "joint_sweeps": {
+        "FL": {
+          "roll": {
+            "samples": 121,
+            "clear_intervals_deg": [
+              [
+                -60,
+                -54
+              ],
+              [
+                -49,
+                55
+              ]
+            ],
+            "first_collision": {
+              "angle": -53,
+              "pairs": [
+                [
+                  "FL_foot",
+                  "FR_shin_inner"
+                ]
+              ]
+            }
+          },
+          "hip": {
+            "samples": 291,
+            "clear_intervals_deg": [
+              [
+                -90,
+                200
+              ]
+            ],
+            "first_collision": null
+          },
+          "knee": {
+            "samples": 109,
+            "clear_intervals_deg": [
+              [
+                -156,
+                -48
+              ]
+            ],
+            "first_collision": null
+          }
+        },
+        "FR": {
+          "roll": {
+            "samples": 121,
+            "clear_intervals_deg": [
+              [
+                -60,
+                -54
+              ],
+              [
+                -49,
+                55
+              ]
+            ],
+            "first_collision": {
+              "angle": -53,
+              "pairs": [
+                [
+                  "FL_shin_inner",
+                  "FR_foot"
+                ]
+              ]
+            }
+          },
+          "hip": {
+            "samples": 291,
+            "clear_intervals_deg": [
+              [
+                -90,
+                200
+              ]
+            ],
+            "first_collision": null
+          },
+          "knee": {
+            "samples": 109,
+            "clear_intervals_deg": [
+              [
+                -156,
+                -48
+              ]
+            ],
+            "first_collision": null
+          }
+        },
+        "RL": {
+          "roll": {
+            "samples": 121,
+            "clear_intervals_deg": [
+              [
+                -60,
+                -54
+              ],
+              [
+                -49,
+                60
+              ]
+            ],
+            "first_collision": {
+              "angle": -53,
+              "pairs": [
+                [
+                  "RL_foot",
+                  "RR_shin_inner"
+                ]
+              ]
+            }
+          },
+          "hip": {
+            "samples": 291,
+            "clear_intervals_deg": [
+              [
+                -30,
+                260
+              ]
+            ],
+            "first_collision": null
+          },
+          "knee": {
+            "samples": 109,
+            "clear_intervals_deg": [
+              [
+                -156,
+                -48
+              ]
+            ],
+            "first_collision": null
+          }
+        },
+        "RR": {
+          "roll": {
+            "samples": 121,
+            "clear_intervals_deg": [
+              [
+                -60,
+                -54
+              ],
+              [
+                -49,
+                60
+              ]
+            ],
+            "first_collision": {
+              "angle": -53,
+              "pairs": [
+                [
+                  "RL_shin_inner",
+                  "RR_foot"
+                ]
+              ]
+            }
+          },
+          "hip": {
+            "samples": 291,
+            "clear_intervals_deg": [
+              [
+                -30,
+                260
+              ]
+            ],
+            "first_collision": null
+          },
+          "knee": {
+            "samples": 109,
+            "clear_intervals_deg": [
+              [
+                -156,
+                -48
+              ]
+            ],
+            "first_collision": null
+          }
+        }
+      },
+      "transitions": {
+        "stand": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "studio_comparison": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "raised": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "crouch": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "reach": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "fold": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "splay": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "side_reach": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        }
+      },
+      "step_deg": 1,
+      "coordinated_roll": {
+        "samples": 121,
+        "clear_intervals_deg": [
+          [
+            -60,
+            60
+          ]
+        ],
+        "pose_rule": "left roll = a, right roll = -a; front hip -35 degrees, rear hip 35 degrees, knee -70 degrees. Free-space motion, not a grounded gait."
+      },
+      "folded_hip_sweeps": {
+        "FL": {
+          "samples": 291,
+          "knee_deg": -130,
+          "clear_intervals_deg": [
+            [
+              -90,
+              200
+            ]
+          ]
+        },
+        "FR": {
+          "samples": 291,
+          "knee_deg": -130,
+          "clear_intervals_deg": [
+            [
+              -90,
+              200
+            ]
+          ]
+        },
+        "RL": {
+          "samples": 291,
+          "knee_deg": -130,
+          "clear_intervals_deg": [
+            [
+              -30,
+              260
+            ]
+          ]
+        },
+        "RR": {
+          "samples": 291,
+          "knee_deg": -130,
+          "clear_intervals_deg": [
+            [
+              -30,
+              260
+            ]
+          ]
+        }
+      },
+      "scope": "Rigid moving pairs, sampled poses. Static fits, pin interfaces, wires, tolerance stacks, ground and load deflection are not certified. Sampled clearance is not continuous collision proof."
+    }
+  },
+  "sculpted": {
+    "model_sha256": "d289382312c67d607ae42eb40229edd7500df32403f1ffbc8be0dc520688b409",
+    "motion": {
+      "presets": {
+        "stand": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 88,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5,
+          "pair": [
+            "body_aft_0",
+            "RL_shoulder_cover"
+          ]
+        },
+        "studio": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 88,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5,
+          "pair": [
+            "body_aft_0",
+            "RL_shoulder_cover"
+          ]
+        },
+        "raised": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 88,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5,
+          "pair": [
+            "body_aft_0",
+            "RL_shoulder_cover"
+          ]
+        },
+        "crouch": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 88,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5,
+          "pair": [
+            "body_aft_0",
+            "RL_shoulder_cover"
+          ]
+        },
+        "reach": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 88,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5,
+          "pair": [
+            "body_aft_0",
+            "RL_shoulder_cover"
+          ]
+        },
+        "fold": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 88,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5,
+          "pair": [
+            "body_aft_0",
+            "RL_shoulder_cover"
+          ]
+        },
+        "splay": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 88,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5,
+          "pair": [
+            "belly_aft_0",
+            "RL_shoulder_cover"
+          ]
+        },
+        "side_reach": {
+          "collision": false,
+          "pairs": [],
+          "checked_parts": 88,
+          "scope": "Nominal rigid meshes; designed pin interfaces excluded. No cables, tolerances or deformation.",
+          "minimum_distance_mm": 1.5180461777473582,
+          "pair": [
+            "FL_motor_carrier",
+            "FL_hip_hub"
+          ]
+        }
+      },
+      "joint_sweeps": {
+        "FL": {
+          "roll": {
+            "samples": 121,
+            "clear_intervals_deg": [
+              [
+                -60,
+                -60
+              ],
+              [
+                -51,
+                60
+              ]
+            ],
+            "first_collision": {
+              "angle": -59,
+              "pairs": [
+                [
+                  "FL_foot",
+                  "FR_shin_inner"
+                ],
+                [
+                  "FL_foot",
+                  "FR_shin_outer"
+                ]
+              ]
+            }
+          },
+          "hip": {
+            "samples": 291,
+            "clear_intervals_deg": [
+              [
+                -90,
+                200
+              ]
+            ],
+            "first_collision": null
+          },
+          "knee": {
+            "samples": 109,
+            "clear_intervals_deg": [
+              [
+                -156,
+                -48
+              ]
+            ],
+            "first_collision": null
+          }
+        },
+        "FR": {
+          "roll": {
+            "samples": 121,
+            "clear_intervals_deg": [
+              [
+                -60,
+                -60
+              ],
+              [
+                -51,
+                60
+              ]
+            ],
+            "first_collision": {
+              "angle": -59,
+              "pairs": [
+                [
+                  "FL_shin_inner",
+                  "FR_foot"
+                ],
+                [
+                  "FL_shin_outer",
+                  "FR_foot"
+                ]
+              ]
+            }
+          },
+          "hip": {
+            "samples": 291,
+            "clear_intervals_deg": [
+              [
+                -90,
+                200
+              ]
+            ],
+            "first_collision": null
+          },
+          "knee": {
+            "samples": 109,
+            "clear_intervals_deg": [
+              [
+                -156,
+                -48
+              ]
+            ],
+            "first_collision": null
+          }
+        },
+        "RL": {
+          "roll": {
+            "samples": 121,
+            "clear_intervals_deg": [
+              [
+                -60,
+                -60
+              ],
+              [
+                -51,
+                60
+              ]
+            ],
+            "first_collision": {
+              "angle": -59,
+              "pairs": [
+                [
+                  "RL_foot",
+                  "RR_shin_inner"
+                ],
+                [
+                  "RL_foot",
+                  "RR_shin_outer"
+                ]
+              ]
+            }
+          },
+          "hip": {
+            "samples": 291,
+            "clear_intervals_deg": [
+              [
+                -30,
+                260
+              ]
+            ],
+            "first_collision": null
+          },
+          "knee": {
+            "samples": 109,
+            "clear_intervals_deg": [
+              [
+                -156,
+                -48
+              ]
+            ],
+            "first_collision": null
+          }
+        },
+        "RR": {
+          "roll": {
+            "samples": 121,
+            "clear_intervals_deg": [
+              [
+                -60,
+                -60
+              ],
+              [
+                -51,
+                60
+              ]
+            ],
+            "first_collision": {
+              "angle": -59,
+              "pairs": [
+                [
+                  "RL_shin_inner",
+                  "RR_foot"
+                ],
+                [
+                  "RL_shin_outer",
+                  "RR_foot"
+                ]
+              ]
+            }
+          },
+          "hip": {
+            "samples": 291,
+            "clear_intervals_deg": [
+              [
+                -30,
+                260
+              ]
+            ],
+            "first_collision": null
+          },
+          "knee": {
+            "samples": 109,
+            "clear_intervals_deg": [
+              [
+                -156,
+                -48
+              ]
+            ],
+            "first_collision": null
+          }
+        }
+      },
+      "transitions": {
+        "stand": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "studio": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "raised": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "crouch": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "reach": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "fold": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "splay": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        },
+        "side_reach": {
+          "samples": 101,
+          "collision_samples": 0,
+          "first_collision": null
+        }
+      },
+      "step_deg": 1,
+      "coordinated_roll": {
+        "samples": 121,
+        "clear_intervals_deg": [
+          [
+            -60,
+            60
+          ]
+        ],
+        "pose_rule": "left roll = a, right roll = -a; front hip -35 degrees, rear hip 35 degrees, knee -70 degrees. Free-space motion, not a grounded gait."
+      },
+      "folded_hip_sweeps": {
+        "FL": {
+          "samples": 291,
+          "knee_deg": -130,
+          "clear_intervals_deg": [
+            [
+              -90,
+              200
+            ]
+          ]
+        },
+        "FR": {
+          "samples": 291,
+          "knee_deg": -130,
+          "clear_intervals_deg": [
+            [
+              -90,
+              200
+            ]
+          ]
+        },
+        "RL": {
+          "samples": 291,
+          "knee_deg": -130,
+          "clear_intervals_deg": [
+            [
+              -30,
+              260
+            ]
+          ]
+        },
+        "RR": {
+          "samples": 291,
+          "knee_deg": -130,
+          "clear_intervals_deg": [
+            [
+              -30,
+              260
+            ]
+          ]
+        }
+      },
+      "scope": "Rigid moving pairs, sampled poses. Static fits, pin interfaces, wires, tolerance stacks, ground and load deflection are not certified. Sampled clearance is not continuous collision proof."
+    }
+  }
+}

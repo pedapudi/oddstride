@@ -1,0 +1,349 @@
+{
+  "passed": true,
+  "saved": false,
+  "tests": [
+    {
+      "parameter": "lc_thigh_length",
+      "value": "175 mm",
+      "healthy": true,
+      "axle_clearance_radius_mm": 6.1,
+      "geometry": {
+        "CANDIDATE_sl_thigh_inner_right": {
+          "bounds_mm": [
+            -45.58933669274409,
+            -67.00000000000001,
+            -196.5,
+            26.523381369335688,
+            -9.000000000000004,
+            40.08248273791217
+          ],
+          "volume_mm3": 72837.6506979527
+        },
+        "CANDIDATE_sl_thigh_outer": {
+          "bounds_mm": [
+            -45.5893366927441,
+            9.0,
+            -196.5,
+            44.71220316700587,
+            97.00000000000001,
+            51.000000000000014
+          ],
+          "volume_mm3": 188259.4952477554
+        },
+        "CANDIDATE_sl_thigh_inner": {
+          "bounds_mm": [
+            -45.58933669274409,
+            9.0,
+            -196.5,
+            26.523381369335688,
+            67.00000000000001,
+            40.08248273791217
+          ],
+          "volume_mm3": 72837.9651432478
+        },
+        "CANDIDATE_sl_thigh_outer_right": {
+          "bounds_mm": [
+            -45.5893366927441,
+            -97.00000000000001,
+            -196.5,
+            44.71220316700587,
+            -9.000000000000004,
+            51.000000000000014
+          ],
+          "volume_mm3": 188261.8533741266
+        },
+        "CANDIDATE_sl_thigh_master": {
+          "bounds_mm": [
+            -45.58933669274409,
+            9.0,
+            -196.5,
+            44.71220316700585,
+            93.99999999999999,
+            51.000000000000014
+          ],
+          "volume_mm3": 266204.816452757
+        }
+      },
+      "restore_errors": {
+        "CANDIDATE_sl_thigh_inner_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 3.055902197957039e-10
+        },
+        "CANDIDATE_sl_thigh_outer": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 1.6023579519242048e-05
+        },
+        "CANDIDATE_sl_thigh_inner": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 3.4924596548080444e-10
+        },
+        "CANDIDATE_sl_thigh_outer_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 2.3338361643254757e-07
+        },
+        "CANDIDATE_sl_thigh_master": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 1.793875708244741e-05
+        }
+      }
+    },
+    {
+      "parameter": "st_wall",
+      "value": "8.5 mm",
+      "healthy": true,
+      "axle_clearance_radius_mm": 6.1,
+      "geometry": {
+        "CANDIDATE_sl_thigh_inner_right": {
+          "bounds_mm": [
+            -45.58933669274409,
+            -67.00000000000001,
+            -191.5,
+            26.035138585656277,
+            -9.000000000000004,
+            40.08248273791217
+          ],
+          "volume_mm3": 71492.89391740234
+        },
+        "CANDIDATE_sl_thigh_outer": {
+          "bounds_mm": [
+            -45.58933669274409,
+            9.0,
+            -191.5,
+            44.71220316700585,
+            97.00000000000001,
+            51.000000000000014
+          ],
+          "volume_mm3": 187786.39086223097
+        },
+        "CANDIDATE_sl_thigh_inner": {
+          "bounds_mm": [
+            -45.58933669274409,
+            9.0,
+            -191.5,
+            26.035138585656277,
+            67.00000000000001,
+            40.08248273791217
+          ],
+          "volume_mm3": 71495.63180713925
+        },
+        "CANDIDATE_sl_thigh_outer_right": {
+          "bounds_mm": [
+            -45.58933669274409,
+            -97.00000000000001,
+            -191.5,
+            44.71220316700585,
+            -9.000000000000004,
+            51.000000000000014
+          ],
+          "volume_mm3": 187773.94978654297
+        },
+        "CANDIDATE_sl_thigh_master": {
+          "bounds_mm": [
+            -45.5893366927441,
+            9.0,
+            -191.5,
+            44.71220316700587,
+            94.0,
+            51.000000000000014
+          ],
+          "volume_mm3": 264477.9889713791
+        }
+      },
+      "restore_errors": {
+        "CANDIDATE_sl_thigh_inner_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_sl_thigh_outer": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_sl_thigh_inner": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_sl_thigh_outer_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_sl_thigh_master": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        }
+      }
+    },
+    {
+      "parameter": "st_clamp_washer_diametral_allowance",
+      "value": "0.6 mm",
+      "healthy": true,
+      "axle_clearance_radius_mm": 6.1,
+      "geometry": {
+        "CANDIDATE_sl_thigh_inner_right": {
+          "bounds_mm": [
+            -45.58933669274409,
+            -67.00000000000001,
+            -191.5,
+            26.035138585656277,
+            -9.000000000000004,
+            40.08248273791217
+          ],
+          "volume_mm3": 70773.74579729504
+        },
+        "CANDIDATE_sl_thigh_outer": {
+          "bounds_mm": [
+            -45.58933669274409,
+            9.0,
+            -191.5,
+            44.71220316700585,
+            97.00000000000001,
+            51.000000000000014
+          ],
+          "volume_mm3": 184543.09579213112
+        },
+        "CANDIDATE_sl_thigh_inner": {
+          "bounds_mm": [
+            -45.58933669274409,
+            9.0,
+            -191.5,
+            26.035138585656277,
+            67.00000000000001,
+            40.08248273791217
+          ],
+          "volume_mm3": 70775.5013138481
+        },
+        "CANDIDATE_sl_thigh_outer_right": {
+          "bounds_mm": [
+            -45.58933669274409,
+            -97.00000000000001,
+            -191.5,
+            44.71220316700585,
+            -9.000000000000004,
+            51.000000000000014
+          ],
+          "volume_mm3": 184530.6075007803
+        },
+        "CANDIDATE_sl_thigh_master": {
+          "bounds_mm": [
+            -45.5893366927441,
+            9.0,
+            -191.5,
+            44.71220316700587,
+            94.0,
+            51.000000000000014
+          ],
+          "volume_mm3": 260645.37664363685
+        }
+      },
+      "restore_errors": {
+        "CANDIDATE_sl_thigh_inner_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_sl_thigh_outer": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_sl_thigh_inner": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_sl_thigh_outer_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_sl_thigh_master": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        }
+      }
+    },
+    {
+      "parameter": "st_axle_diametral_allowance",
+      "value": "0.3 mm",
+      "healthy": true,
+      "axle_clearance_radius_mm": 6.15,
+      "geometry": {
+        "CANDIDATE_sl_thigh_inner_right": {
+          "bounds_mm": [
+            -45.58933669274409,
+            -67.00000000000001,
+            -191.5,
+            26.035138585656277,
+            -9.000000000000004,
+            40.08248273791217
+          ],
+          "volume_mm3": 70854.36691876779
+        },
+        "CANDIDATE_sl_thigh_outer": {
+          "bounds_mm": [
+            -45.58933669274409,
+            9.0,
+            -191.5,
+            44.71220316700585,
+            97.00000000000001,
+            51.000000000000014
+          ],
+          "volume_mm3": 184670.4616386743
+        },
+        "CANDIDATE_sl_thigh_inner": {
+          "bounds_mm": [
+            -45.58933669274409,
+            9.0,
+            -191.5,
+            26.035138585656277,
+            67.00000000000001,
+            40.08248273791217
+          ],
+          "volume_mm3": 70856.12243532078
+        },
+        "CANDIDATE_sl_thigh_outer_right": {
+          "bounds_mm": [
+            -45.58933669274409,
+            -97.00000000000001,
+            -191.5,
+            44.71220316700585,
+            -9.000000000000004,
+            51.000000000000014
+          ],
+          "volume_mm3": 184658.13664412583
+        },
+        "CANDIDATE_sl_thigh_master": {
+          "bounds_mm": [
+            -45.5893366927441,
+            9.0,
+            -191.5,
+            44.71220316700587,
+            94.0,
+            51.000000000000014
+          ],
+          "volume_mm3": 260645.37664363685
+        }
+      },
+      "restore_errors": {
+        "CANDIDATE_sl_thigh_inner_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_sl_thigh_outer": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_sl_thigh_inner": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_sl_thigh_outer_right": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        },
+        "CANDIDATE_sl_thigh_master": {
+          "bounds_mm": 0.0,
+          "volume_mm3": 0.0
+        }
+      }
+    }
+  ],
+  "paths": [],
+  "elapsed_seconds": 115.75170187500771,
+  "scope": "Four meaningful edit/restore tests in the five-component thigh family. Hardware remains nominal; the diametral axle allowance is intentionally separate from nominal shaft OD. Process fits, preload, strength and CNC access are not qualified by this test."
+}

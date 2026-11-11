@@ -1,0 +1,1133 @@
+{
+  "version": 35,
+  "complete": true,
+  "modified": false,
+  "parts": [
+    {
+      "pn": "DFMA_THIGH_PRIMARY_FL",
+      "name": "Integrated primary motor cradle and thigh",
+      "features": [
+        {
+          "name": "Shared native proximal structure",
+          "type": "adsk::fusion::CopyPasteBody",
+          "index": 1957
+        },
+        {
+          "name": "Shared manufacturing split",
+          "type": "adsk::fusion::CopyPasteBody",
+          "index": 1958
+        },
+        {
+          "name": "Unchanged native knee and lower limb",
+          "type": "adsk::fusion::CopyPasteBody",
+          "index": 1959
+        },
+        {
+          "name": "Open primary cradle and inner structural wall",
+          "type": "adsk::fusion::CombineFeature",
+          "index": 1960
+        },
+        {
+          "name": "Preserve accepted lower limb and knee interfaces stock",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 1963
+        },
+        {
+          "name": "Preserve accepted lower limb and knee interfaces",
+          "type": "adsk::fusion::CombineFeature",
+          "index": 1964
+        },
+        {
+          "name": "Continuous native limb with unchanged distal bearing support",
+          "type": "adsk::fusion::CombineFeature",
+          "index": 1965
+        },
+        {
+          "name": "Continuous hip-output flange",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 1968
+        },
+        {
+          "name": "Continuous flange-to-cradle web",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 1971
+        },
+        {
+          "name": "Supported output flange integrated with the primary cradle",
+          "type": "adsk::fusion::CombineFeature",
+          "index": 1972
+        },
+        {
+          "name": "Motor rear-case axial clearance (1)",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 1975
+        },
+        {
+          "name": "Open hip shaft passage (1)",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 1978
+        },
+        {
+          "name": "Hip-output through-bore seed (1)",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 1981
+        },
+        {
+          "name": "Straight hip-output driver recess seed (1)",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 1984
+        },
+        {
+          "name": "All six original hip-output screw interfaces",
+          "type": "adsk::fusion::CircularPatternFeature",
+          "index": 1985
+        },
+        {
+          "name": "Primary stator through-hole seed (1)",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 1988
+        },
+        {
+          "name": "Ordinary M3x8 DIN7991 stator seat",
+          "type": "adsk::fusion::LoftFeature",
+          "index": 1993
+        },
+        {
+          "name": "Five short primary stator screws on the original factory clock",
+          "type": "adsk::fusion::CircularPatternFeature",
+          "index": 1994
+        },
+        {
+          "name": "Retained two structural compression-sleeve fits (1)",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 1997
+        },
+        {
+          "name": "Retained accessible M4 washer floors (1)",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 2000
+        }
+      ],
+      "parameters": [
+        {
+          "name": "d6647",
+          "role": "AlongDistance",
+          "expression": "( ( ( dfma_thigh_lower_join_z ) + ( -250 mm ) ) / 2 ) - ( ( dfma_thigh_lower_join_z ) - ( -250 mm ) ) / 2",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock datum"
+        },
+        {
+          "name": "d6648",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock datum"
+        },
+        {
+          "name": "d6649",
+          "role": "Linear Dimension-2",
+          "expression": "-( ( 40 mm ) - ( 300 mm ) / 2 )",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock rectangle"
+        },
+        {
+          "name": "d6650",
+          "role": "Linear Dimension-3",
+          "expression": "-( ( 0 mm ) - ( 300 mm ) / 2 )",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock rectangle"
+        },
+        {
+          "name": "d6651",
+          "role": "Linear Dimension-4",
+          "expression": "( 40 mm ) + ( 300 mm ) / 2",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock rectangle"
+        },
+        {
+          "name": "d6652",
+          "role": "Linear Dimension-5",
+          "expression": "( 0 mm ) + ( 300 mm ) / 2",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock rectangle"
+        },
+        {
+          "name": "d6653",
+          "role": "AlongDistance",
+          "expression": "( dfma_thigh_lower_join_z ) - ( -250 mm )",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock"
+        },
+        {
+          "name": "d6654",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock"
+        },
+        {
+          "name": "d6655",
+          "role": "AlongDistance",
+          "expression": "0 mm",
+          "created_by": "Complete six-hole hip-output flange plane"
+        },
+        {
+          "name": "d6656",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Complete six-hole hip-output flange plane"
+        },
+        {
+          "name": "d6657",
+          "role": "Radial Dimension-2",
+          "expression": "dfma_thigh_hub_radius",
+          "created_by": "Complete six-hole hip-output flange"
+        },
+        {
+          "name": "d6658",
+          "role": "AlongDistance",
+          "expression": "dfma_thigh_case_back_y - dfma_thigh_case_axial_gap",
+          "created_by": "Continuous hip-output flange"
+        },
+        {
+          "name": "d6659",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Continuous hip-output flange"
+        },
+        {
+          "name": "d6660",
+          "role": "AlongDistance",
+          "expression": "dfma_thigh_hub_bridge_start_y",
+          "created_by": "Broad half-disc cradle web plane"
+        },
+        {
+          "name": "d6661",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Broad half-disc cradle web plane"
+        },
+        {
+          "name": "d6662",
+          "role": "Radial Dimension-2",
+          "expression": "dfma_thigh_hub_bridge_radius",
+          "created_by": "Broad half-disc cradle web"
+        },
+        {
+          "name": "d6663",
+          "role": "AlongDistance",
+          "expression": "dfma_thigh_case_back_y - dfma_thigh_hub_bridge_start_y",
+          "created_by": "Continuous flange-to-cradle web"
+        },
+        {
+          "name": "d6664",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Continuous flange-to-cradle web"
+        },
+        {
+          "name": "d6665",
+          "role": "AlongDistance",
+          "expression": "dfma_thigh_case_back_y - dfma_thigh_case_axial_gap",
+          "created_by": "Motor rear-case axial clearance plane"
+        },
+        {
+          "name": "d6666",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Motor rear-case axial clearance plane"
+        },
+        {
+          "name": "d6667",
+          "role": "Radial Dimension-2",
+          "expression": "dfma_thigh_case_radius + dfma_thigh_case_radial_gap",
+          "created_by": "Motor rear-case axial clearance"
+        },
+        {
+          "name": "d6668",
+          "role": "AlongDistance",
+          "expression": "2 mm",
+          "created_by": "Motor rear-case axial clearance (1)"
+        },
+        {
+          "name": "d6669",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Motor rear-case axial clearance (1)"
+        },
+        {
+          "name": "d6670",
+          "role": "AlongDistance",
+          "expression": "-1 mm",
+          "created_by": "Open hip shaft passage plane"
+        },
+        {
+          "name": "d6671",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Open hip shaft passage plane"
+        },
+        {
+          "name": "d6672",
+          "role": "Radial Dimension-2",
+          "expression": "sm_hub_shaft_radius",
+          "created_by": "Open hip shaft passage"
+        },
+        {
+          "name": "d6673",
+          "role": "AlongDistance",
+          "expression": "12 mm",
+          "created_by": "Open hip shaft passage (1)"
+        },
+        {
+          "name": "d6674",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Open hip shaft passage (1)"
+        },
+        {
+          "name": "d6675",
+          "role": "AlongDistance",
+          "expression": "-1 mm",
+          "created_by": "Hip-output through-bore seed plane"
+        },
+        {
+          "name": "d6676",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Hip-output through-bore seed plane"
+        },
+        {
+          "name": "d6677",
+          "role": "Linear Dimension-2",
+          "expression": "lc_rs02_output_pcd_radius",
+          "created_by": "Hip-output through-bore seed"
+        },
+        {
+          "name": "d6678",
+          "role": "Radial Dimension-2",
+          "expression": "lc_rs02_output_hole_radius",
+          "created_by": "Hip-output through-bore seed"
+        },
+        {
+          "name": "d6679",
+          "role": "AlongDistance",
+          "expression": "12 mm",
+          "created_by": "Hip-output through-bore seed (1)"
+        },
+        {
+          "name": "d6680",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Hip-output through-bore seed (1)"
+        },
+        {
+          "name": "d6681",
+          "role": "AlongDistance",
+          "expression": "dfma_thigh_hub_floor_y",
+          "created_by": "Straight hip-output driver recess seed plane"
+        },
+        {
+          "name": "d6682",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Straight hip-output driver recess seed plane"
+        },
+        {
+          "name": "d6683",
+          "role": "Linear Dimension-2",
+          "expression": "lc_rs02_output_pcd_radius",
+          "created_by": "Straight hip-output driver recess seed"
+        },
+        {
+          "name": "d6684",
+          "role": "Radial Dimension-2",
+          "expression": "sm_hub_head_radius",
+          "created_by": "Straight hip-output driver recess seed"
+        },
+        {
+          "name": "d6685",
+          "role": "AlongDistance",
+          "expression": "12 mm",
+          "created_by": "Straight hip-output driver recess seed (1)"
+        },
+        {
+          "name": "d6686",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Straight hip-output driver recess seed (1)"
+        },
+        {
+          "name": "d6687",
+          "role": "countU",
+          "expression": "6",
+          "created_by": "All six original hip-output screw interfaces"
+        },
+        {
+          "name": "d6688",
+          "role": "TotalAngle",
+          "expression": "360 deg",
+          "created_by": "All six original hip-output screw interfaces"
+        },
+        {
+          "name": "d6689",
+          "role": "AlongDistance",
+          "expression": "dfma_thigh_stator_base_y - 1 mm",
+          "created_by": "Primary stator through-hole seed plane"
+        },
+        {
+          "name": "d6690",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Primary stator through-hole seed plane"
+        },
+        {
+          "name": "d6691",
+          "role": "Linear Dimension-2",
+          "expression": "-( lc_carrier_stator_pcd * sin(260 deg) )",
+          "created_by": "Primary stator through-hole seed"
+        },
+        {
+          "name": "d6692",
+          "role": "Linear Dimension-3",
+          "expression": "-( lc_carrier_stator_pcd * cos(260 deg) )",
+          "created_by": "Primary stator through-hole seed"
+        },
+        {
+          "name": "d6693",
+          "role": "Radial Dimension-2",
+          "expression": "lc_carrier_stator_hole",
+          "created_by": "Primary stator through-hole seed"
+        },
+        {
+          "name": "d6694",
+          "role": "AlongDistance",
+          "expression": "6 mm",
+          "created_by": "Primary stator through-hole seed (1)"
+        },
+        {
+          "name": "d6695",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Primary stator through-hole seed (1)"
+        },
+        {
+          "name": "d6696",
+          "role": "AlongDistance",
+          "expression": "dfma_thigh_stator_face_y - 1.25 mm",
+          "created_by": "Open standard stator seat section plane"
+        },
+        {
+          "name": "d6697",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Open standard stator seat section plane"
+        },
+        {
+          "name": "d6698",
+          "role": "Linear Dimension-2",
+          "expression": "-( lc_carrier_stator_pcd * sin(260 deg) )",
+          "created_by": "Open standard stator seat section"
+        },
+        {
+          "name": "d6699",
+          "role": "Linear Dimension-3",
+          "expression": "-( lc_carrier_stator_pcd * cos(260 deg) )",
+          "created_by": "Open standard stator seat section"
+        },
+        {
+          "name": "d6700",
+          "role": "Radial Dimension-2",
+          "expression": "1.7 mm",
+          "created_by": "Open standard stator seat section"
+        },
+        {
+          "name": "d6701",
+          "role": "AlongDistance",
+          "expression": "dfma_thigh_stator_face_y",
+          "created_by": "Open standard stator seat section plane (1)"
+        },
+        {
+          "name": "d6702",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Open standard stator seat section plane (1)"
+        },
+        {
+          "name": "d6703",
+          "role": "Linear Dimension-2",
+          "expression": "-( lc_carrier_stator_pcd * sin(260 deg) )",
+          "created_by": "Open standard stator seat section (1)"
+        },
+        {
+          "name": "d6704",
+          "role": "Linear Dimension-3",
+          "expression": "-( lc_carrier_stator_pcd * cos(260 deg) )",
+          "created_by": "Open standard stator seat section (1)"
+        },
+        {
+          "name": "d6705",
+          "role": "Radial Dimension-2",
+          "expression": "2.95 mm",
+          "created_by": "Open standard stator seat section (1)"
+        },
+        {
+          "name": "d6706",
+          "role": "countU",
+          "expression": "5",
+          "created_by": "Five short primary stator screws on the original factory clock"
+        },
+        {
+          "name": "d6707",
+          "role": "TotalAngle",
+          "expression": "160 deg",
+          "created_by": "Five short primary stator screws on the original factory clock"
+        },
+        {
+          "name": "d6708",
+          "role": "AlongDistance",
+          "expression": "st_clamp_sleeve_start_y",
+          "created_by": "Retained two structural compression-sleeve fits plane"
+        },
+        {
+          "name": "d6709",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Retained two structural compression-sleeve fits plane"
+        },
+        {
+          "name": "d6710",
+          "role": "Linear Dimension-2",
+          "expression": "-( st_rear_clamp_z )",
+          "created_by": "Retained two structural compression-sleeve fits"
+        },
+        {
+          "name": "d6711",
+          "role": "Linear Dimension-3",
+          "expression": "-( st_rear_clamp_x )",
+          "created_by": "Retained two structural compression-sleeve fits"
+        },
+        {
+          "name": "d6712",
+          "role": "Radial Dimension-2",
+          "expression": "st_clamp_sleeve_radius",
+          "created_by": "Retained two structural compression-sleeve fits"
+        },
+        {
+          "name": "d6713",
+          "role": "Linear Dimension-4",
+          "expression": "-( st_front_clamp_z )",
+          "created_by": "Retained two structural compression-sleeve fits"
+        },
+        {
+          "name": "d6714",
+          "role": "Linear Dimension-5",
+          "expression": "st_front_clamp_x",
+          "created_by": "Retained two structural compression-sleeve fits"
+        },
+        {
+          "name": "d6715",
+          "role": "Radial Dimension-3",
+          "expression": "st_clamp_sleeve_radius",
+          "created_by": "Retained two structural compression-sleeve fits"
+        },
+        {
+          "name": "d6716",
+          "role": "AlongDistance",
+          "expression": "st_clamp_sleeve_length",
+          "created_by": "Retained two structural compression-sleeve fits (1)"
+        },
+        {
+          "name": "d6717",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Retained two structural compression-sleeve fits (1)"
+        },
+        {
+          "name": "d6718",
+          "role": "AlongDistance",
+          "expression": "st_clamp_sleeve_start_y - 15 mm",
+          "created_by": "Retained accessible M4 washer floors plane"
+        },
+        {
+          "name": "d6719",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Retained accessible M4 washer floors plane"
+        },
+        {
+          "name": "d6720",
+          "role": "Linear Dimension-2",
+          "expression": "-( st_rear_clamp_z )",
+          "created_by": "Retained accessible M4 washer floors"
+        },
+        {
+          "name": "d6721",
+          "role": "Linear Dimension-3",
+          "expression": "-( st_rear_clamp_x )",
+          "created_by": "Retained accessible M4 washer floors"
+        },
+        {
+          "name": "d6722",
+          "role": "Radial Dimension-2",
+          "expression": "st_clamp_washer_access_radius",
+          "created_by": "Retained accessible M4 washer floors"
+        },
+        {
+          "name": "d6723",
+          "role": "Linear Dimension-4",
+          "expression": "-( st_front_clamp_z )",
+          "created_by": "Retained accessible M4 washer floors"
+        },
+        {
+          "name": "d6724",
+          "role": "Linear Dimension-5",
+          "expression": "st_front_clamp_x",
+          "created_by": "Retained accessible M4 washer floors"
+        },
+        {
+          "name": "d6725",
+          "role": "Radial Dimension-3",
+          "expression": "st_clamp_washer_access_radius",
+          "created_by": "Retained accessible M4 washer floors"
+        },
+        {
+          "name": "d6726",
+          "role": "AlongDistance",
+          "expression": "15 mm",
+          "created_by": "Retained accessible M4 washer floors (1)"
+        },
+        {
+          "name": "d6727",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Retained accessible M4 washer floors (1)"
+        }
+      ]
+    },
+    {
+      "pn": "DFMA_THIGH_SECONDARY_FL",
+      "name": "Integrated secondary motor cover and thigh",
+      "features": [
+        {
+          "name": "Shared native proximal structure",
+          "type": "adsk::fusion::CopyPasteBody",
+          "index": 2002
+        },
+        {
+          "name": "Shared manufacturing split",
+          "type": "adsk::fusion::CopyPasteBody",
+          "index": 2003
+        },
+        {
+          "name": "Unchanged native knee and lower limb",
+          "type": "adsk::fusion::CopyPasteBody",
+          "index": 2004
+        },
+        {
+          "name": "Secondary cradle and complete cover",
+          "type": "adsk::fusion::CombineFeature",
+          "index": 2005
+        },
+        {
+          "name": "Preserve accepted lower limb and knee interfaces stock",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 2008
+        },
+        {
+          "name": "Preserve accepted lower limb and knee interfaces",
+          "type": "adsk::fusion::CombineFeature",
+          "index": 2009
+        },
+        {
+          "name": "Continuous native limb with unchanged distal bearing support",
+          "type": "adsk::fusion::CombineFeature",
+          "index": 2010
+        },
+        {
+          "name": "Four straight removable compression-tube fits (1)",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 2013
+        },
+        {
+          "name": "Four open standard washer and M3x40 driver approaches (1)",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 2016
+        },
+        {
+          "name": "Retained two structural compression-sleeve fits (1)",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 2019
+        },
+        {
+          "name": "Retained accessible M4 washer floors (1)",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 2022
+        }
+      ],
+      "parameters": [
+        {
+          "name": "d6728",
+          "role": "AlongDistance",
+          "expression": "( ( ( dfma_thigh_lower_join_z ) + ( -250 mm ) ) / 2 ) - ( ( dfma_thigh_lower_join_z ) - ( -250 mm ) ) / 2",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock datum"
+        },
+        {
+          "name": "d6729",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock datum"
+        },
+        {
+          "name": "d6730",
+          "role": "Linear Dimension-2",
+          "expression": "-( ( 40 mm ) - ( 300 mm ) / 2 )",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock rectangle"
+        },
+        {
+          "name": "d6731",
+          "role": "Linear Dimension-3",
+          "expression": "-( ( 0 mm ) - ( 300 mm ) / 2 )",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock rectangle"
+        },
+        {
+          "name": "d6732",
+          "role": "Linear Dimension-4",
+          "expression": "( 40 mm ) + ( 300 mm ) / 2",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock rectangle"
+        },
+        {
+          "name": "d6733",
+          "role": "Linear Dimension-5",
+          "expression": "( 0 mm ) + ( 300 mm ) / 2",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock rectangle"
+        },
+        {
+          "name": "d6734",
+          "role": "AlongDistance",
+          "expression": "( dfma_thigh_lower_join_z ) - ( -250 mm )",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock"
+        },
+        {
+          "name": "d6735",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Preserve accepted lower limb and knee interfaces stock"
+        },
+        {
+          "name": "d6736",
+          "role": "AlongDistance",
+          "expression": "dfma_thigh_motor_front_y",
+          "created_by": "Four straight removable compression-tube fits plane"
+        },
+        {
+          "name": "d6737",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Four straight removable compression-tube fits plane"
+        },
+        {
+          "name": "d6738",
+          "role": "Linear Dimension-2",
+          "expression": "-( -( lc_carrier_stator_pcd * sin(20 deg) ) )",
+          "created_by": "Four straight removable compression-tube fits"
+        },
+        {
+          "name": "d6739",
+          "role": "Linear Dimension-3",
+          "expression": "lc_carrier_stator_pcd * cos(20 deg)",
+          "created_by": "Four straight removable compression-tube fits"
+        },
+        {
+          "name": "d6740",
+          "role": "Radial Dimension-2",
+          "expression": "( dfma_thigh_tube_od + dfma_thigh_tube_diametral_gap ) / 2",
+          "created_by": "Four straight removable compression-tube fits"
+        },
+        {
+          "name": "d6741",
+          "role": "Linear Dimension-4",
+          "expression": "-( -( lc_carrier_stator_pcd * sin(60 deg) ) )",
+          "created_by": "Four straight removable compression-tube fits"
+        },
+        {
+          "name": "d6742",
+          "role": "Linear Dimension-5",
+          "expression": "lc_carrier_stator_pcd * cos(60 deg)",
+          "created_by": "Four straight removable compression-tube fits"
+        },
+        {
+          "name": "d6743",
+          "role": "Radial Dimension-3",
+          "expression": "( dfma_thigh_tube_od + dfma_thigh_tube_diametral_gap ) / 2",
+          "created_by": "Four straight removable compression-tube fits"
+        },
+        {
+          "name": "d6744",
+          "role": "Linear Dimension-6",
+          "expression": "-( lc_carrier_stator_pcd * sin(300 deg) )",
+          "created_by": "Four straight removable compression-tube fits"
+        },
+        {
+          "name": "d6745",
+          "role": "Radial Dimension-4",
+          "expression": "( dfma_thigh_tube_od + dfma_thigh_tube_diametral_gap ) / 2",
+          "created_by": "Four straight removable compression-tube fits"
+        },
+        {
+          "name": "d6746",
+          "role": "Linear Dimension-7",
+          "expression": "-( lc_carrier_stator_pcd * sin(340 deg) )",
+          "created_by": "Four straight removable compression-tube fits"
+        },
+        {
+          "name": "d6747",
+          "role": "Radial Dimension-5",
+          "expression": "( dfma_thigh_tube_od + dfma_thigh_tube_diametral_gap ) / 2",
+          "created_by": "Four straight removable compression-tube fits"
+        },
+        {
+          "name": "d6748",
+          "role": "AlongDistance",
+          "expression": "dfma_thigh_tube_length",
+          "created_by": "Four straight removable compression-tube fits (1)"
+        },
+        {
+          "name": "d6749",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Four straight removable compression-tube fits (1)"
+        },
+        {
+          "name": "d6750",
+          "role": "AlongDistance",
+          "expression": "dfma_thigh_washer_floor_y",
+          "created_by": "Four open standard washer and M3x40 driver approaches plane"
+        },
+        {
+          "name": "d6751",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Four open standard washer and M3x40 driver approaches plane"
+        },
+        {
+          "name": "d6752",
+          "role": "Linear Dimension-2",
+          "expression": "-( -( lc_carrier_stator_pcd * sin(20 deg) ) )",
+          "created_by": "Four open standard washer and M3x40 driver approaches"
+        },
+        {
+          "name": "d6753",
+          "role": "Linear Dimension-3",
+          "expression": "lc_carrier_stator_pcd * cos(20 deg)",
+          "created_by": "Four open standard washer and M3x40 driver approaches"
+        },
+        {
+          "name": "d6754",
+          "role": "Radial Dimension-2",
+          "expression": "dfma_thigh_washer_access_radius",
+          "created_by": "Four open standard washer and M3x40 driver approaches"
+        },
+        {
+          "name": "d6755",
+          "role": "Linear Dimension-4",
+          "expression": "-( -( lc_carrier_stator_pcd * sin(60 deg) ) )",
+          "created_by": "Four open standard washer and M3x40 driver approaches"
+        },
+        {
+          "name": "d6756",
+          "role": "Linear Dimension-5",
+          "expression": "lc_carrier_stator_pcd * cos(60 deg)",
+          "created_by": "Four open standard washer and M3x40 driver approaches"
+        },
+        {
+          "name": "d6757",
+          "role": "Radial Dimension-3",
+          "expression": "dfma_thigh_washer_access_radius",
+          "created_by": "Four open standard washer and M3x40 driver approaches"
+        },
+        {
+          "name": "d6758",
+          "role": "Linear Dimension-6",
+          "expression": "-( lc_carrier_stator_pcd * sin(300 deg) )",
+          "created_by": "Four open standard washer and M3x40 driver approaches"
+        },
+        {
+          "name": "d6759",
+          "role": "Radial Dimension-4",
+          "expression": "dfma_thigh_washer_access_radius",
+          "created_by": "Four open standard washer and M3x40 driver approaches"
+        },
+        {
+          "name": "d6760",
+          "role": "Linear Dimension-7",
+          "expression": "-( lc_carrier_stator_pcd * sin(340 deg) )",
+          "created_by": "Four open standard washer and M3x40 driver approaches"
+        },
+        {
+          "name": "d6761",
+          "role": "Radial Dimension-5",
+          "expression": "dfma_thigh_washer_access_radius",
+          "created_by": "Four open standard washer and M3x40 driver approaches"
+        },
+        {
+          "name": "d6762",
+          "role": "AlongDistance",
+          "expression": "30 mm",
+          "created_by": "Four open standard washer and M3x40 driver approaches (1)"
+        },
+        {
+          "name": "d6763",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Four open standard washer and M3x40 driver approaches (1)"
+        },
+        {
+          "name": "d6764",
+          "role": "AlongDistance",
+          "expression": "st_clamp_sleeve_start_y",
+          "created_by": "Retained two structural compression-sleeve fits plane"
+        },
+        {
+          "name": "d6765",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Retained two structural compression-sleeve fits plane"
+        },
+        {
+          "name": "d6766",
+          "role": "Linear Dimension-2",
+          "expression": "-( st_rear_clamp_z )",
+          "created_by": "Retained two structural compression-sleeve fits"
+        },
+        {
+          "name": "d6767",
+          "role": "Linear Dimension-3",
+          "expression": "-( st_rear_clamp_x )",
+          "created_by": "Retained two structural compression-sleeve fits"
+        },
+        {
+          "name": "d6768",
+          "role": "Radial Dimension-2",
+          "expression": "st_clamp_sleeve_radius",
+          "created_by": "Retained two structural compression-sleeve fits"
+        },
+        {
+          "name": "d6769",
+          "role": "Linear Dimension-4",
+          "expression": "-( st_front_clamp_z )",
+          "created_by": "Retained two structural compression-sleeve fits"
+        },
+        {
+          "name": "d6770",
+          "role": "Linear Dimension-5",
+          "expression": "st_front_clamp_x",
+          "created_by": "Retained two structural compression-sleeve fits"
+        },
+        {
+          "name": "d6771",
+          "role": "Radial Dimension-3",
+          "expression": "st_clamp_sleeve_radius",
+          "created_by": "Retained two structural compression-sleeve fits"
+        },
+        {
+          "name": "d6772",
+          "role": "AlongDistance",
+          "expression": "st_clamp_sleeve_length",
+          "created_by": "Retained two structural compression-sleeve fits (1)"
+        },
+        {
+          "name": "d6773",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Retained two structural compression-sleeve fits (1)"
+        },
+        {
+          "name": "d6774",
+          "role": "AlongDistance",
+          "expression": "st_clamp_outer_floor_y",
+          "created_by": "Retained accessible M4 washer floors plane"
+        },
+        {
+          "name": "d6775",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Retained accessible M4 washer floors plane"
+        },
+        {
+          "name": "d6776",
+          "role": "Linear Dimension-2",
+          "expression": "-( st_rear_clamp_z )",
+          "created_by": "Retained accessible M4 washer floors"
+        },
+        {
+          "name": "d6777",
+          "role": "Linear Dimension-3",
+          "expression": "-( st_rear_clamp_x )",
+          "created_by": "Retained accessible M4 washer floors"
+        },
+        {
+          "name": "d6778",
+          "role": "Radial Dimension-2",
+          "expression": "st_clamp_washer_access_radius",
+          "created_by": "Retained accessible M4 washer floors"
+        },
+        {
+          "name": "d6779",
+          "role": "Linear Dimension-4",
+          "expression": "-( st_front_clamp_z )",
+          "created_by": "Retained accessible M4 washer floors"
+        },
+        {
+          "name": "d6780",
+          "role": "Linear Dimension-5",
+          "expression": "st_front_clamp_x",
+          "created_by": "Retained accessible M4 washer floors"
+        },
+        {
+          "name": "d6781",
+          "role": "Radial Dimension-3",
+          "expression": "st_clamp_washer_access_radius",
+          "created_by": "Retained accessible M4 washer floors"
+        },
+        {
+          "name": "d6782",
+          "role": "AlongDistance",
+          "expression": "40 mm",
+          "created_by": "Retained accessible M4 washer floors (1)"
+        },
+        {
+          "name": "d6783",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Retained accessible M4 washer floors (1)"
+        }
+      ]
+    },
+    {
+      "pn": "DFMA_REFERENCE_M3X40_SOCKET",
+      "name": "M3x40 socket screw reference",
+      "features": [
+        {
+          "name": "Unchanged standard screw head and shaft reference",
+          "type": "adsk::fusion::CopyPasteBody",
+          "index": 2029
+        },
+        {
+          "name": "Standard reference shaft shortened to M3x40",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 2032
+        }
+      ],
+      "parameters": [
+        {
+          "name": "d6800",
+          "role": "AlongDistance",
+          "expression": "-1 mm",
+          "created_by": "Standard M3 reference length trim datum"
+        },
+        {
+          "name": "d6801",
+          "role": "ExtraOffset",
+          "expression": "0.00 mm",
+          "created_by": "Standard M3 reference length trim datum"
+        },
+        {
+          "name": "d6802",
+          "role": "Linear Dimension-2",
+          "expression": "-( -( 43.5 mm ) )",
+          "created_by": "Standard M3 reference length trim"
+        },
+        {
+          "name": "d6803",
+          "role": "Radial Dimension-2",
+          "expression": "1.6 mm",
+          "created_by": "Standard M3 reference length trim"
+        },
+        {
+          "name": "d6804",
+          "role": "AlongDistance",
+          "expression": "62 mm - dfma_thigh_long_screw_length",
+          "created_by": "Standard reference shaft shortened to M3x40"
+        },
+        {
+          "name": "d6805",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "Standard reference shaft shortened to M3x40"
+        }
+      ]
+    },
+    {
+      "pn": "DFMA_STATOR_TUBE_34",
+      "name": "34 mm cut tube, 6 OD and 4 ID",
+      "features": [
+        {
+          "name": "34 mm compression tube",
+          "type": "adsk::fusion::ExtrudeFeature",
+          "index": 2035
+        }
+      ],
+      "parameters": [
+        {
+          "name": "d6806",
+          "role": "Radial Dimension-2",
+          "expression": "dfma_thigh_tube_od / 2",
+          "created_by": "Cut-stock annulus: independent OD and ID"
+        },
+        {
+          "name": "d6807",
+          "role": "Radial Dimension-3",
+          "expression": "dfma_thigh_tube_id / 2",
+          "created_by": "Cut-stock annulus: independent OD and ID"
+        },
+        {
+          "name": "d6808",
+          "role": "AlongDistance",
+          "expression": "dfma_thigh_tube_length",
+          "created_by": "34 mm compression tube"
+        },
+        {
+          "name": "d6809",
+          "role": "TaperAngle",
+          "expression": "0.0 deg",
+          "created_by": "34 mm compression tube"
+        }
+      ]
+    }
+  ],
+  "button_refs": [
+    {
+      "pn": "BENCH_REFERENCE_FL_thigh_clamp_nut_0",
+      "name": "Bench FL_thigh_clamp_nut_0"
+    },
+    {
+      "pn": "BENCH_REFERENCE_FL_thigh_clamp_nut_1",
+      "name": "Bench FL_thigh_clamp_nut_1"
+    },
+    {
+      "pn": "BENCH_REFERENCE_FL_thigh_clamp_washer_0_inner",
+      "name": "Bench FL_thigh_clamp_washer_0_inner"
+    },
+    {
+      "pn": "BENCH_REFERENCE_FL_bolt_0",
+      "name": "Bench FL_bolt_0"
+    },
+    {
+      "pn": "BENCH_REFERENCE_FL_roll_output_bolt_0",
+      "name": "Bench FL_roll_output_bolt_0"
+    },
+    {
+      "pn": "BENCH_REFERENCE_FL_hip_stator_bolt_0",
+      "name": "Bench FL_hip_stator_bolt_0"
+    },
+    {
+      "pn": "BENCH_REFERENCE_FL_thigh_clamp_washer_0_outer",
+      "name": "Bench FL_thigh_clamp_washer_0_outer"
+    },
+    {
+      "pn": "BENCH_REFERENCE_FL_thigh_clamp_washer_1_inner",
+      "name": "Bench FL_thigh_clamp_washer_1_inner"
+    },
+    {
+      "pn": "BENCH_REFERENCE_FL_thigh_clamp_washer_1_outer",
+      "name": "Bench FL_thigh_clamp_washer_1_outer"
+    },
+    {
+      "pn": "BENCH_REFERENCE_FL_roll_stator_bolt_0",
+      "name": "Bench FL_roll_stator_bolt_0"
+    }
+  ]
+}

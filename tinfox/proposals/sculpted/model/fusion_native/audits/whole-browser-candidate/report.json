@@ -1,0 +1,579 @@
+{
+  "candidate_only": true,
+  "model_sha256": "5e59b0a40ff79bc041cb612364339a35187485ed29d2998e8b923f45e6c50d96",
+  "model_items": 684,
+  "solid_bodies": 703,
+  "physical_items": 683,
+  "physical_solids": 702,
+  "auxiliary_keepouts": 1,
+  "native_definitions": 88,
+  "motors": 12,
+  "motor_connector_bodies": 96,
+  "browser_errors": [],
+  "missing_assets": [],
+  "renderer": "ANGLE (Intel, Mesa Intel(R) Graphics (ARL), OpenGL ES 3.2)",
+  "browser_passed": true,
+  "all_native_parts_isolated": true,
+  "native_step_links": true,
+  "section_view": true,
+  "pose_previews": true,
+  "current_catalog_unchanged": true,
+  "comparison_screen_sha256": "723c366488e3f1440abb313a70fac1f3d45eaa90148312cc93849e043377b4d5",
+  "classification_sha256": "85e624a15953a266008cff12aa977a73d01b154a990b9829ea68339e85844f42",
+  "motion_samples": [
+    {
+      "pose": "stand",
+      "angles": {
+        "FL": [
+          0,
+          30,
+          -60
+        ],
+        "FR": [
+          0,
+          30,
+          -60
+        ],
+        "RL": [
+          0,
+          30,
+          -60
+        ],
+        "RR": [
+          0,
+          30,
+          -60
+        ]
+      },
+      "material_pairs": [],
+      "new_material_pairs": [],
+      "missing_source_pairs": [],
+      "classified_thread_contacts": 48
+    },
+    {
+      "pose": "studio",
+      "angles": {
+        "FL": [
+          0,
+          45,
+          -75
+        ],
+        "FR": [
+          0,
+          45,
+          -75
+        ],
+        "RL": [
+          0,
+          45,
+          -75
+        ],
+        "RR": [
+          0,
+          45,
+          -75
+        ]
+      },
+      "material_pairs": [],
+      "new_material_pairs": [],
+      "missing_source_pairs": [],
+      "classified_thread_contacts": 48
+    },
+    {
+      "pose": "raised",
+      "angles": {
+        "FL": [
+          0,
+          24,
+          -48
+        ],
+        "FR": [
+          0,
+          24,
+          -48
+        ],
+        "RL": [
+          0,
+          24,
+          -48
+        ],
+        "RR": [
+          0,
+          24,
+          -48
+        ]
+      },
+      "material_pairs": [],
+      "new_material_pairs": [],
+      "missing_source_pairs": [],
+      "classified_thread_contacts": 48
+    },
+    {
+      "pose": "crouch",
+      "angles": {
+        "FL": [
+          0,
+          65,
+          -130
+        ],
+        "FR": [
+          0,
+          65,
+          -130
+        ],
+        "RL": [
+          0,
+          65,
+          -130
+        ],
+        "RR": [
+          0,
+          65,
+          -130
+        ]
+      },
+      "material_pairs": [],
+      "new_material_pairs": [],
+      "missing_source_pairs": [],
+      "classified_thread_contacts": 48
+    },
+    {
+      "pose": "reach",
+      "angles": {
+        "FL": [
+          8,
+          -10,
+          -75
+        ],
+        "FR": [
+          8,
+          38,
+          -76
+        ],
+        "RL": [
+          8,
+          38,
+          -76
+        ],
+        "RR": [
+          8,
+          38,
+          -76
+        ]
+      },
+      "material_pairs": [],
+      "new_material_pairs": [],
+      "missing_source_pairs": [],
+      "classified_thread_contacts": 48
+    },
+    {
+      "pose": "fold",
+      "angles": {
+        "FL": [
+          0,
+          77,
+          -154
+        ],
+        "FR": [
+          0,
+          77,
+          -154
+        ],
+        "RL": [
+          0,
+          77,
+          -154
+        ],
+        "RR": [
+          0,
+          77,
+          -154
+        ]
+      },
+      "material_pairs": [],
+      "new_material_pairs": [],
+      "missing_source_pairs": [],
+      "classified_thread_contacts": 48
+    },
+    {
+      "pose": "splay",
+      "angles": {
+        "FL": [
+          25,
+          35,
+          -70
+        ],
+        "FR": [
+          25,
+          35,
+          -70
+        ],
+        "RL": [
+          25,
+          35,
+          -70
+        ],
+        "RR": [
+          25,
+          35,
+          -70
+        ]
+      },
+      "material_pairs": [],
+      "new_material_pairs": [],
+      "missing_source_pairs": [],
+      "classified_thread_contacts": 48
+    },
+    {
+      "pose": "side_reach",
+      "angles": {
+        "FL": [
+          -60,
+          -35,
+          -70
+        ],
+        "FR": [
+          60,
+          -35,
+          -70
+        ],
+        "RL": [
+          -60,
+          35,
+          -70
+        ],
+        "RR": [
+          60,
+          35,
+          -70
+        ]
+      },
+      "material_pairs": [],
+      "new_material_pairs": [],
+      "missing_source_pairs": [],
+      "classified_thread_contacts": 48
+    },
+    {
+      "pose": "combined_0",
+      "angles": {
+        "FL": [
+          -60,
+          -30,
+          -60
+        ],
+        "FR": [
+          -60,
+          -30,
+          -60
+        ],
+        "RL": [
+          -60,
+          -30,
+          -60
+        ],
+        "RR": [
+          -60,
+          -30,
+          -60
+        ]
+      },
+      "material_pairs": [
+        [
+          "FL_bearing_outer",
+          "FR_thigh_outer"
+        ],
+        [
+          "FL_output_pin",
+          "FR_thigh_outer"
+        ],
+        [
+          "FL_output_pivot_nut",
+          "FR_thigh_outer"
+        ],
+        [
+          "FL_pushrod",
+          "FR_pushrod"
+        ],
+        [
+          "FL_pushrod",
+          "FR_thigh_inner"
+        ],
+        [
+          "FL_pushrod",
+          "FR_thigh_outer"
+        ],
+        [
+          "FL_rod_bush_output_0",
+          "FR_thigh_outer"
+        ],
+        [
+          "FL_rod_bush_output_1",
+          "FR_thigh_outer"
+        ],
+        [
+          "FL_shin_inner",
+          "FR_thigh_outer"
+        ],
+        [
+          "FL_shin_outer",
+          "FR_shin_outer"
+        ],
+        [
+          "FL_shin_outer",
+          "FR_thigh_outer"
+        ],
+        [
+          "FL_thigh_inner",
+          "FR_pushrod"
+        ],
+        [
+          "FL_thigh_inner",
+          "FR_thigh_inner"
+        ],
+        [
+          "FL_thigh_inner",
+          "FR_thigh_outer"
+        ],
+        [
+          "FL_thigh_outer",
+          "FR_bearing_outer"
+        ],
+        [
+          "FL_thigh_outer",
+          "FR_output_pin"
+        ],
+        [
+          "FL_thigh_outer",
+          "FR_output_pivot_nut"
+        ],
+        [
+          "FL_thigh_outer",
+          "FR_pushrod"
+        ],
+        [
+          "FL_thigh_outer",
+          "FR_rod_bush_output_0"
+        ],
+        [
+          "FL_thigh_outer",
+          "FR_rod_bush_output_1"
+        ],
+        [
+          "FL_thigh_outer",
+          "FR_shin_inner"
+        ],
+        [
+          "FL_thigh_outer",
+          "FR_shin_outer"
+        ],
+        [
+          "FL_thigh_outer",
+          "FR_thigh_inner"
+        ],
+        [
+          "FL_thigh_outer",
+          "FR_thigh_outer"
+        ],
+        [
+          "RL_bearing_outer",
+          "RR_thigh_outer"
+        ],
+        [
+          "RL_output_pin",
+          "RR_thigh_outer"
+        ],
+        [
+          "RL_output_pivot_nut",
+          "RR_thigh_outer"
+        ],
+        [
+          "RL_pushrod",
+          "RR_pushrod"
+        ],
+        [
+          "RL_pushrod",
+          "RR_thigh_inner"
+        ],
+        [
+          "RL_pushrod",
+          "RR_thigh_outer"
+        ],
+        [
+          "RL_rod_bush_output_0",
+          "RR_thigh_outer"
+        ],
+        [
+          "RL_rod_bush_output_1",
+          "RR_thigh_outer"
+        ],
+        [
+          "RL_shin_inner",
+          "RR_thigh_outer"
+        ],
+        [
+          "RL_shin_outer",
+          "RR_shin_outer"
+        ],
+        [
+          "RL_shin_outer",
+          "RR_thigh_outer"
+        ],
+        [
+          "RL_thigh_inner",
+          "RR_pushrod"
+        ],
+        [
+          "RL_thigh_inner",
+          "RR_thigh_inner"
+        ],
+        [
+          "RL_thigh_inner",
+          "RR_thigh_outer"
+        ],
+        [
+          "RL_thigh_outer",
+          "RR_bearing_outer"
+        ],
+        [
+          "RL_thigh_outer",
+          "RR_output_pin"
+        ],
+        [
+          "RL_thigh_outer",
+          "RR_output_pivot_nut"
+        ],
+        [
+          "RL_thigh_outer",
+          "RR_pushrod"
+        ],
+        [
+          "RL_thigh_outer",
+          "RR_rod_bush_output_0"
+        ],
+        [
+          "RL_thigh_outer",
+          "RR_rod_bush_output_1"
+        ],
+        [
+          "RL_thigh_outer",
+          "RR_shin_inner"
+        ],
+        [
+          "RL_thigh_outer",
+          "RR_shin_outer"
+        ],
+        [
+          "RL_thigh_outer",
+          "RR_thigh_inner"
+        ],
+        [
+          "RL_thigh_outer",
+          "RR_thigh_outer"
+        ]
+      ],
+      "new_material_pairs": [],
+      "missing_source_pairs": [],
+      "classified_thread_contacts": 48
+    },
+    {
+      "pose": "combined_1",
+      "angles": {
+        "FL": [
+          0,
+          -60,
+          -60
+        ],
+        "FR": [
+          0,
+          -60,
+          -60
+        ],
+        "RL": [
+          0,
+          -60,
+          -60
+        ],
+        "RR": [
+          0,
+          -60,
+          -60
+        ]
+      },
+      "material_pairs": [],
+      "new_material_pairs": [],
+      "missing_source_pairs": [],
+      "classified_thread_contacts": 48
+    },
+    {
+      "pose": "combined_2",
+      "angles": {
+        "FL": [
+          0,
+          90,
+          -60
+        ],
+        "FR": [
+          0,
+          90,
+          -60
+        ],
+        "RL": [
+          0,
+          90,
+          -60
+        ],
+        "RR": [
+          0,
+          90,
+          -60
+        ]
+      },
+      "material_pairs": [
+        [
+          "FL_thigh_inner",
+          "body_service_screw_1_64_18"
+        ],
+        [
+          "FR_thigh_inner",
+          "body_service_screw_-1_64_18"
+        ]
+      ],
+      "new_material_pairs": [],
+      "missing_source_pairs": [],
+      "classified_thread_contacts": 48
+    },
+    {
+      "pose": "combined_3",
+      "angles": {
+        "FL": [
+          60,
+          -30,
+          -60
+        ],
+        "FR": [
+          60,
+          -30,
+          -60
+        ],
+        "RL": [
+          60,
+          -30,
+          -60
+        ],
+        "RR": [
+          60,
+          -30,
+          -60
+        ]
+      },
+      "material_pairs": [],
+      "new_material_pairs": [],
+      "missing_source_pairs": [],
+      "classified_thread_contacts": 48
+    }
+  ],
+  "new_motion_pairs_require_review": false,
+  "sampled_motion_pair_parity": true,
+  "sampled_reference_contacts_complete": true,
+  "scope": "Private browser and sampled mesh-motion checks. New or missing source contacts require interpretation; this report does not promote native authority or qualify manufacture, strength or continuous motion."
+}

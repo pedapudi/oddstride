@@ -1,0 +1,31 @@
+{
+  "model_sha256": "8f781a5487185a13f330d2838e8918c01c34ef13d87c52db980e227ed5853969",
+  "checks": [
+    {
+      "part": "thigh_inner",
+      "proper_rotation": true,
+      "oriented_stl_matches": true,
+      "plate_reopened": true,
+      "plate_meshes": 2
+    },
+    {
+      "part": "thigh_inner_right",
+      "proper_rotation": true,
+      "oriented_stl_matches": true
+    },
+    {
+      "part": "thigh_outer",
+      "proper_rotation": true,
+      "oriented_stl_matches": true,
+      "plate_reopened": true,
+      "plate_meshes": 2
+    },
+    {
+      "part": "thigh_outer_right",
+      "proper_rotation": true,
+      "oriented_stl_matches": true
+    }
+  ],
+  "passed": true,
+  "scope": "Export integrity only. Unsliced files require slicer review; print strength and process fit remain unqualified."
+}

@@ -1,0 +1,946 @@
+{
+  "model_sha256": "144a84e88daed50139f890480e9f1a1740cfb20c773e740ba6b4e9c1b9eede5e",
+  "counts": {
+    "old_total_instances": 345,
+    "new_total_instances": 326,
+    "custom_leg_components_removed_net": 8,
+    "previous_two_piece_total_instances": 361,
+    "parts_removed_since_two_piece": 35,
+    "main_shell_parts_per_leg": 4,
+    "separate_knee_heads": 0,
+    "separate_shoulder_covers": 0,
+    "shin_clamp_bolts_per_leg": 2,
+    "reason": "Two thigh halves and two fore/aft shin halves carry the joint interfaces. The shin halves contain the rocker and split bearing seats; the hip shroud is integral with its carrier."
+  },
+  "fits": [
+    {
+      "parts": [
+        "rear",
+        "front"
+      ],
+      "overlap_mm3": 0
+    },
+    {
+      "parts": [
+        "rear",
+        "bearing_0"
+      ],
+      "overlap_mm3": 0
+    },
+    {
+      "parts": [
+        "rear",
+        "bearing_1"
+      ],
+      "overlap_mm3": 0
+    },
+    {
+      "parts": [
+        "front",
+        "bearing_0"
+      ],
+      "overlap_mm3": 0
+    },
+    {
+      "parts": [
+        "front",
+        "bearing_1"
+      ],
+      "overlap_mm3": 0
+    },
+    {
+      "parts": [
+        "knee_axle",
+        "structural shin"
+      ],
+      "overlap_mm3": 0,
+      "nominal_distance_mm": 2.199999963464473
+    },
+    {
+      "parts": [
+        "knee_inner_spacer",
+        "structural shin"
+      ],
+      "overlap_mm3": 0,
+      "nominal_distance_mm": 0.4499999634644838
+    }
+  ],
+  "paths": [
+    {
+      "name": "Open rear structural half after releasing clamps and pivot bolt",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Open front structural half after releasing clamps and pivot bolt",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Release bearing 0 from rear semicircular seat",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Release bearing 0 from front semicircular seat",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Release bearing 1 from rear semicircular seat",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Release bearing 1 from front semicircular seat",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Insert M4 nut at 37 mm with sleeve removed",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Withdraw captive sleeve at 37 mm from rear half",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Insert M4 nut at 105 mm with sleeve removed",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Withdraw captive sleeve at 105 mm from rear half",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Side-load the M5 output pivot nut",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Withdraw axle sleeve outboard with retention removed",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Withdraw recessed axle bolt inward after removing nut",
+      "axis": [
+        0,
+        -1,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Slide axle out of assembled structural bearing housing",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "bearing_retention": [
+    {
+      "bearing": 0,
+      "displacement_mm": -0.5,
+      "retaining_lip_overlap_mm3": 50.51680986971144,
+      "retainer": "Integral semicircular shoulder in the structural shells"
+    },
+    {
+      "bearing": 0,
+      "displacement_mm": 0.5,
+      "retaining_lip_overlap_mm3": 202.25573503811208,
+      "retainer": "Integral semicircular shoulder in the structural shells"
+    },
+    {
+      "bearing": 1,
+      "displacement_mm": -0.5,
+      "retaining_lip_overlap_mm3": 68.64314657039088,
+      "retainer": "Integral semicircular shoulder in the structural shells"
+    },
+    {
+      "bearing": 1,
+      "displacement_mm": 0.5,
+      "retaining_lip_overlap_mm3": 50.51680986971145,
+      "retainer": "Integral semicircular shoulder in the structural shells"
+    }
+  ],
+  "clamp_fits": [
+    {
+      "part": "nut_37",
+      "shell": "rear",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "nut_37",
+      "shell": "front",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "sleeve_37",
+      "shell": "rear",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "sleeve_37",
+      "shell": "front",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "bolt_37",
+      "shell": "rear",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "bolt_37",
+      "shell": "front",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "nut_105",
+      "shell": "rear",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "nut_105",
+      "shell": "front",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "sleeve_105",
+      "shell": "rear",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "sleeve_105",
+      "shell": "front",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "bolt_105",
+      "shell": "rear",
+      "overlap_mm3": 0
+    },
+    {
+      "part": "bolt_105",
+      "shell": "front",
+      "overlap_mm3": 0
+    }
+  ],
+  "bearing_center_spacing_mm": 20,
+  "pin_screen": {
+    "rod_force_N": 1314.642158362244,
+    "support_centroid_span_mm": 14.2,
+    "nominal_bending_MPa": 220.08085408777492,
+    "average_double_shear_MPa": 23.247977544483266,
+    "nominal_vm_MPa": 223.73418986764375,
+    "scope": "Nominal 6 mm shoulder screw, simply supported; excludes fatigue, stress concentration and printed ear compliance."
+  },
+  "retaining_shoulder_thickness_mm": 3,
+  "remaining": [
+    "Axle clamp preload and selected bearing fits",
+    "Roll-bearing retaining flanges/preload",
+    "Motor axial tie stack",
+    "Foot retention and cable routing",
+    "Printed fork, carrier, clamp creep and fatigue qualification"
+  ],
+  "scope": "Exact-solid bench service paths. Opening the structural split replaces blind-pocket pressing; bearings need not be driven through a retaining shoulder. Actual fit, roundness and free running require physical checks."
+}

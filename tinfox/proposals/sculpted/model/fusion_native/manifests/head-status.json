@@ -1,0 +1,68 @@
+{
+  "updated_utc": "2026-10-29T00:22:41.777267+00:00",
+  "cloud_file_id": "urn:adsk.wipprod:dm.lineage:cwZZGJRSR5aVlwkk9TcEUA",
+  "saved_version": 22,
+  "save_verified": true,
+  "editable_files": 4,
+  "native_checkpoint": "exports/Tinfox-Head-family-linked-checkpoint.f3d",
+  "source_model_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "physical_components": [
+    {
+      "id": "front_fascia",
+      "features": 26,
+      "sketches": 53,
+      "bodies": 1,
+      "geometry_report": "audits/current-sensor-hood-family-restored-geometry.json",
+      "section_report": "audits/current-sensor-hood-family-restored-sections.json",
+      "native_step_sha256": "d26c33b60a82110edc061c2a3836d38c7c29bca69aeb2cd29bea68afb6819ac9"
+    },
+    {
+      "id": "body_nose_surround",
+      "features": 13,
+      "sketches": 10,
+      "bodies": 1,
+      "geometry_report": "audits/current-sensor-cradle-family-restored-geometry.json",
+      "section_report": "audits/current-sensor-cradle-family-restored-sections.json",
+      "native_step_sha256": "d33c253ed1e95194010597928c1c92f9810d80b0c265f1be53857f86918614cb"
+    }
+  ],
+  "construction_components": [
+    {
+      "id": "DESIGN_MASTER_integrated_front_face",
+      "features": 8,
+      "sketches": 1,
+      "bodies": 0
+    },
+    {
+      "id": "DESIGN_MASTER_front_fascia",
+      "features": 17,
+      "sketches": 15,
+      "bodies": 0
+    },
+    {
+      "id": "DESIGN_MASTER_sensor_bezel",
+      "features": 10,
+      "sketches": 8,
+      "bodies": 0
+    }
+  ],
+  "family_parameters": {
+    "shared_edit_and_restore_passed": true,
+    "edited_report": "audits/head-datum-propagation-edited.json",
+    "restored_report": "audits/head-datum-propagation-restored.json",
+    "refresh_function": "source/refresh_native_family.py",
+    "refresh_requirement": "Reapply the existing native datum selection and verify every derived parameter. Fusion can report a current reference while retaining stale values."
+  },
+  "interface_and_removal_evidence": [
+    "audits/current-native-sensor-fixed-fit.json",
+    "audits/current-sensor-fit-input/sensor-service.json",
+    "audits/whole-native-robot-motion-service.json"
+  ],
+  "source_of_truth_changed": false,
+  "manufacturing_ready": false,
+  "remaining": [
+    "Frame dimensions and fixed reference placements need additional family bindings.",
+    "Physical print fits, strength and loaded performance remain unqualified."
+  ],
+  "historical_status": "snapshots/status/head-status-v19.json"
+}

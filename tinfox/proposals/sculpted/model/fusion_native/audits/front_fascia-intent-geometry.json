@@ -1,0 +1,365 @@
+{
+  "surface_distance_algorithm": "boundary_faces_v2: distance to face compound, never solid containment",
+  "part": "front_fascia",
+  "source_step_sha256": "f6a5225092e99282b9dec9a8cdf42ab06f9dabef9d8084cb33cc7a2ef7694a9a",
+  "source_brep_sha256": null,
+  "source_reference_note": null,
+  "native_step_sha256": "872fccf041130c10b34505038c43fdd911f92cd684d324e1d3b6eea6fc17f056",
+  "source_volume_mm3": 27232.177539887383,
+  "native_volume_mm3": 27232.66733844108,
+  "relative_volume_error": 1.79860223435317e-05,
+  "volume_integration": {
+    "method": "Adaptive Gauss integration of exact BRep surfaces",
+    "requested_relative_error": 1e-09,
+    "estimated_source_error": 3.305764142846518e-11,
+    "estimated_native_error": 8.915961593300317e-10
+  },
+  "source_area_mm2": 29222.4183661418,
+  "native_area_mm2": 29222.303452535787,
+  "relative_area_error": 3.9323783737648115e-06,
+  "area_integration": {
+    "requested_relative_error": 1e-09,
+    "estimated_source_error": 8.159888094148103e-13,
+    "estimated_native_error": 2.5611669227913827e-10
+  },
+  "conservative_brep_bounds_error_max_mm": 0.35563803119573834,
+  "sampled_boundary_bounds_error_max_mm": 0.00012137268211631635,
+  "surface_deviation": {
+    "native_to_source": {
+      "samples": 1000,
+      "max_mm": 0.0029712254158035384,
+      "rms_mm": 0.0003299925391155549,
+      "worst_samples": [
+        {
+          "point_mm": [
+            249.8359907469351,
+            -95.69530763475558,
+            -24.01400169583434
+          ],
+          "distance_mm": 0.0029712254158035384
+        },
+        {
+          "point_mm": [
+            249.93347434875338,
+            95.71803104259591,
+            27.668749379312448
+          ],
+          "distance_mm": 0.002710029042661195
+        },
+        {
+          "point_mm": [
+            255.1173364442227,
+            -97.53508698804784,
+            -5.9741296367554595
+          ],
+          "distance_mm": 0.001999615105968406
+        },
+        {
+          "point_mm": [
+            247.49305333163963,
+            93.0436314526983,
+            -34.61196855433228
+          ],
+          "distance_mm": 0.0019501350800592435
+        },
+        {
+          "point_mm": [
+            250.02391513928166,
+            -95.731226790138,
+            -23.348277289606134
+          ],
+          "distance_mm": 0.0017790062701836416
+        }
+      ]
+    },
+    "source_to_native": {
+      "samples": 1000,
+      "max_mm": 0.002020414719426716,
+      "rms_mm": 0.00029073285188051565,
+      "worst_samples": [
+        {
+          "point_mm": [
+            247.56578500850785,
+            92.432614354702,
+            36.16581196698626
+          ],
+          "distance_mm": 0.002020414719426716
+        },
+        {
+          "point_mm": [
+            243.5,
+            -93.41973643741521,
+            38.620025907463244
+          ],
+          "distance_mm": 0.001915703041907411
+        },
+        {
+          "point_mm": [
+            243.5,
+            -93.41973643741521,
+            38.620025907463244
+          ],
+          "distance_mm": 0.001915703041907411
+        },
+        {
+          "point_mm": [
+            247.50444977459296,
+            92.23577406097799,
+            36.40150047272668
+          ],
+          "distance_mm": 0.0018751628851138558
+        },
+        {
+          "point_mm": [
+            243.5,
+            91.91641605396978,
+            37.15372858948251
+          ],
+          "distance_mm": 0.0017864867290084843
+        }
+      ]
+    }
+  },
+  "source_cylinders": [
+    [
+      1.7,
+      0.0,
+      -89.0,
+      -27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.7,
+      0.0,
+      -89.0,
+      27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.7,
+      0.0,
+      89.0,
+      -27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.7,
+      0.0,
+      89.0,
+      27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.7,
+      0.0,
+      -89.0,
+      -27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.7,
+      0.0,
+      -89.0,
+      27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.7,
+      0.0,
+      89.0,
+      -27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.7,
+      0.0,
+      89.0,
+      27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      -74.0,
+      -5.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      -74.0,
+      15.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      74.0,
+      -5.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      74.0,
+      15.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_cylinders": [
+    [
+      1.7,
+      0.0,
+      -89.0,
+      -27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.7,
+      0.0,
+      -89.0,
+      27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.7,
+      0.0,
+      89.0,
+      -27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.7,
+      0.0,
+      89.0,
+      27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.7,
+      0.0,
+      -89.0,
+      -27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.7,
+      0.0,
+      -89.0,
+      27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.7,
+      0.0,
+      89.0,
+      -27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      2.7,
+      0.0,
+      89.0,
+      27.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      -74.0,
+      -5.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      -74.0,
+      15.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      74.0,
+      -5.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      74.0,
+      15.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "cylinder_position_radius_error_max_mm": 0.0,
+  "cylinder_axis_component_error_max": 0.0,
+  "native_solid_count": 1,
+  "source_solid_count": 1,
+  "critical_cylinder_gate_passed": true,
+  "clearance_cylinder_mapping": {
+    "source": [],
+    "native": []
+  },
+  "additional_source_curve_analytic_cylinders": [],
+  "unexplained_native_cylinders": [],
+  "cylinder_matching_method": "Source hole, shaft, seat and unchanged fillet cylinders match native radii, axes and locations within 0.0001 mm. Explicitly recorded sampled-clearance replacements and recovered sketch arcs are checked by the unchanged full-surface and section gates.",
+  "geometric_gate_passed": true,
+  "tolerances": {
+    "sampled_surface_mm": 0.05,
+    "relative_volume": 0.001,
+    "relative_area": 0.001,
+    "cylinder_position_radius_mm": 0.0001,
+    "cylinder_axis_component": 0.0001
+  },
+  "bounds_note": "Conservative BRep bounds can include untrimmed NURBS surface extents. Sampled boundary bounds use a 0.02 mm tessellation and describe the trimmed physical boundary.",
+  "scope": "Exact native STEP geometry. Sampled symmetric surface checks are finite, not a mathematical Hausdorff proof. Native editability and assembly migration gates are separate."
+}

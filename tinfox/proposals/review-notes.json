@@ -1,0 +1,290 @@
+{
+  "compact": {
+    "label": "PROPOSAL A",
+    "title": "Compact package",
+    "image": "compact/design/12-studio-view.png",
+    "description": "A narrower chassis and inward hip placement reduce the shoulder span. Controlled roof bevels, fine service-panel seams and recessed joint details give the body and limbs a common visual language.",
+    "changes": [
+      "Hip roll axes move inward by 5 mm per side; the frame and body are repackaged around them.",
+      "Broad center panels blend into smoother end transitions. Rounded shoulder openings and fine panel seams frame the moving joints.",
+      "The nose face sits inside a continuous rounded wrap, with recessed optics. Metal caps have dark rim details and diagonal engraving.",
+      "A clean circular knee transition replaces the cosmetic inserts. The single pushrod and structural thigh halves remain accessible.",
+      "The whole limb uses a continuous taper and a shallow shin sweep, preserving motor mounts, joint centers and the single pushrod.",
+      "A wider recessed sensor face and rounded nose wrap soften the front while preserving service access and articulated shoulders."
+    ],
+    "links": [
+      {
+        "label": "Open interactive CAD",
+        "href": "http://127.0.0.1:8767/review/"
+      },
+      {
+        "label": "Individual parts",
+        "href": "http://127.0.0.1:8767/review/parts.html"
+      },
+      {
+        "label": "STEP assembly ↓",
+        "href": "compact/model/output/tinfox-assembly.step"
+      },
+      {
+        "label": "Full-size render ↗",
+        "href": "compact/design/12-studio-view.png"
+      },
+      {
+        "label": "Whole-limb profile comparison ↗",
+        "href": "compact/design/14-limb-profile.svg"
+      },
+      {
+        "label": "Movement and section comparison ↗",
+        "href": "compact/model/output/limb-profile-comparison.json"
+      },
+      {
+        "label": "Front detail ↗",
+        "href": "compact/design/15-body-detail.png"
+      },
+      {
+        "label": "Body revision measurements ↗",
+        "href": "compact/model/output/body-revision-comparison.json"
+      }
+    ],
+    "iterations": [
+      {
+        "image": "compact/design/iterations/01-studio.png",
+        "title": "First geometry pass · nominal stance",
+        "correction": "Introduced the narrower package, faceted body and initial service details.",
+        "remaining": "Review found tilted flat soles, square shoulder openings and an underdeveloped sensor face."
+      },
+      {
+        "image": "compact/design/iterations/02-studio.png",
+        "title": "Rounded joints and contact soles",
+        "correction": "Replaced the flat foot with a rounded sole, shaped the shoulder reliefs and added limb detailing.",
+        "remaining": "The panel seams were too wide, the nose face stood proud and the knee insert ended abruptly."
+      },
+      {
+        "image": "compact/design/iterations/03-studio.png",
+        "title": "Integrated nose · studio stance",
+        "correction": "Recessed the nose panel within a continuous rim, rounded the knee insert and added cap rim detail.",
+        "remaining": "A stale neutral-cover clipping boundary still left a wide seam; the final pass corrected that boundary."
+      },
+      {
+        "image": "compact/design/iterations/05-studio.png",
+        "title": "Exterior refinement · before shin correction",
+        "correction": "Fine panel seams, a seated nose face and coherent shoulder-to-knee detailing complete the exterior pass. Motion-driven motor-cover corrections are included in the final solid assembly.",
+        "remaining": "The shin still bowed opposite to the studio reference. The next pass corrects that direction and the ankle transition."
+      },
+      {
+        "image": "compact/design/iterations/07-studio.png",
+        "title": "Forward sweep · previous limb",
+        "correction": "The structural shin now sweeps forward from the knee, narrows through the middle and returns toward the ankle. Its cavity, fastening bosses and surface channel follow the curve; knee and foot centers stay fixed.",
+        "remaining": "The pronounced sweep and lower return made the shin visually complex and required local folding relief. The following pass simplifies the whole limb."
+      },
+      {
+        "image": "compact/design/iterations/09-studio.png",
+        "title": "Continuous taper · limb refinement",
+        "correction": "A smoother thigh transition, compact knee surround and restrained shin profile replace the deep waist and ankle return. Structural halves and their internal features are revised together.",
+        "remaining": "The design is compared through sampled clearances, moving mass and section properties. Printed strength and dynamic locomotion still require physical validation."
+      },
+      {
+        "image": "compact/design/12-studio-view.png",
+        "title": "Integrated nose · current body",
+        "correction": "The front surround, sensor face and shoulder crown are shaped together. Rounded edges and smoother body transitions replace the sharp station breaks and projecting nose rim.",
+        "remaining": "The approved limb geometry is retained. Final camera modules, seals and manufacturing tolerances still require detail design."
+      }
+    ],
+    "previous_image": "compact/design/iterations/09-studio.png",
+    "detail_image": "compact/design/15-body-detail.png"
+  },
+  "sculpted": {
+    "label": "PROPOSAL B",
+    "title": "Panelled body",
+    "image": "sculpted/design/12-studio-view.png",
+    "description": "A curved removable body clamshell surrounds an independent motor frame. Two structural halves form each thigh and shin. Integral shin rockers and direct split bearing seats remove the separate knee head.",
+    "changes": [
+      "The two shin halves directly contain the bearing seats, axial retaining shoulders and pushrod rocker. Opening the fore/aft split releases the bearings radially.",
+      "Two M4 clamps, captive nuts and compression sleeves close each shin. A recessed M8 axle bolt and outboard nut retain the removable sleeve.",
+      "The printed perpendicular motor carrier has two keyed parts with a 5 mm hip flange. The hip shroud is integral with that flange.",
+      "US hardware research prioritizes Amazon for ordinary hardware and precision suppliers for fitted parts; Lowe’s is a local fallback.",
+      "A flat 4 mm PETG electronics deck lifts on four top-access screws. A separate flat lower brace stays in the frame, and the battery cassette has independent retention."
+    ],
+    "links": [
+      {
+        "label": "Open interactive CAD",
+        "href": "http://127.0.0.1:8768/review/"
+      },
+      {
+        "label": "Flat electronics deck",
+        "href": "http://127.0.0.1:8768/review/parts.html#electronics_shelf"
+      },
+      {
+        "label": "Printed, hybrid and CNC limbs",
+        "href": "http://127.0.0.1:8768/review/variants.html"
+      },
+      {
+        "label": "Interactive assembly access",
+        "href": "http://127.0.0.1:8768/review/assembly.html"
+      },
+      {
+        "label": "Hardware research and limb assembly",
+        "href": "http://127.0.0.1:8768/review/hardware.html"
+      },
+      {
+        "label": "Print plates and fabrication kit",
+        "href": "http://127.0.0.1:8768/review/manufacturing.html"
+      },
+      {
+        "label": "Individual parts",
+        "href": "http://127.0.0.1:8768/review/parts.html"
+      },
+      {
+        "label": "STEP assembly ↓",
+        "href": "sculpted/model/output/tinfox-assembly.step"
+      },
+      {
+        "label": "Full-size render ↗",
+        "href": "sculpted/design/12-studio-view.png"
+      },
+      {
+        "label": "Whole-limb profile comparison ↗",
+        "href": "sculpted/design/14-limb-profile.svg"
+      },
+      {
+        "label": "Movement and section comparison ↗",
+        "href": "sculpted/model/output/limb-revision-comparison.json"
+      },
+      {
+        "label": "Front detail ↗",
+        "href": "sculpted/design/15-body-detail.png"
+      },
+      {
+        "label": "Body revision measurements ↗",
+        "href": "sculpted/model/output/body-revision-comparison.json"
+      },
+      {
+        "label": "Measured face curvature ↗",
+        "href": "sculpted/design/17-face-curvature.svg"
+      },
+      {
+        "label": "Frame and assembly stages",
+        "href": "http://127.0.0.1:8768/review/assembly.html"
+      },
+      {
+        "label": "Print direction and knee strength",
+        "href": "http://127.0.0.1:8768/review/strength.html"
+      }
+    ],
+    "iterations": [
+      {
+        "image": "sculpted/design/iterations/01-studio.png",
+        "title": "First panel construction · nominal stance",
+        "correction": "Built the planar/chamfered torso, service fascia, fasteners and shin channels.",
+        "remaining": "Review exposed an inverted battery panel on the roof, flat tilted soles and a proud nose plate."
+      },
+      {
+        "image": "sculpted/design/iterations/02-studio.png",
+        "title": "Battery panel and rounded soles",
+        "correction": "Corrected the battery-panel placement, introduced rounded contact soles and added the knee-edge insert.",
+        "remaining": "The nose still needed integration; shoulder framing and foot proportions remained too close to the old CAD."
+      },
+      {
+        "image": "sculpted/design/iterations/03-studio.png",
+        "title": "Recessed fascia and curved detail",
+        "correction": "Set the fascia into a rounded surround, corrected the cap engraving and radiused the shin-channel ends.",
+        "remaining": "The following pass broadened the fascia, raised the local shoulder crowns and redesigned the rotating cowling."
+      },
+      {
+        "image": "sculpted/design/iterations/06-studio.png",
+        "title": "Exterior refinement · before shin correction",
+        "correction": "A wider inset face, raised shoulder crowns, real wraparound cowlings and larger rounded boots establish the final design. Rail and cowling clearances are checked in the final geometry.",
+        "remaining": "The shin still bowed opposite to the studio reference. The next pass corrects that direction and the ankle transition."
+      },
+      {
+        "image": "sculpted/design/iterations/07-studio.png",
+        "title": "Forward sweep · previous limb",
+        "correction": "The structural shin now sweeps forward from the knee, narrows through the middle and returns toward the ankle. Its cavity, fastening bosses and surface channel follow the curve; knee and foot centers stay fixed.",
+        "remaining": "The pronounced sweep and lower return made the shin visually complex and required local folding relief. The following pass simplifies the whole limb."
+      },
+      {
+        "image": "sculpted/design/iterations/08-studio.png",
+        "title": "Continuous taper · limb refinement",
+        "correction": "A smoother thigh transition, compact knee surround and restrained shin profile replace the deep waist and ankle return. Structural halves and their internal features are revised together.",
+        "remaining": "The design is compared through sampled clearances, moving mass and section properties. Printed strength and dynamic locomotion still require physical validation."
+      },
+      {
+        "image": "sculpted/design/iterations/refinement-baseline/12-studio-view.png",
+        "title": "Rounded body · previous face",
+        "correction": "The front surround, sensor face and shoulder crown are shaped together. Rounded edges and smoother body transitions replace the sharp station breaks and projecting nose rim.",
+        "remaining": "The approved limb geometry is retained. Final camera modules, seals and manufacturing tolerances still require detail design."
+      },
+      {
+        "image": "sculpted/design/iterations/vertical-face-baseline/12-studio-view.png",
+        "title": "Convex face · print preparation",
+        "correction": "The fascia and sensor bezel now bow together. The center roof separates from its side panels. Thigh edges are rounder and the shin keeps one shallow arc.",
+        "remaining": "Unsliced plate files still need support and filament setup. Loaded performance, foot retention and final electronics interfaces remain unqualified."
+      },
+      {
+        "image": "sculpted/design/12-studio-view.png",
+        "title": "Two-axis convex face and accessible motor cradle",
+        "correction": "An independent 10 mm vertical crown adds top-to-bottom curvature while retaining the 8 mm horizontal bow. Revised roof bosses clear the panels during lifting; the battery module withdraws through a wider belly opening.",
+        "remaining": "The shared tray/cassette screws require supporting the battery module during service. Wiring, final purchased components and retention details remain unqualified."
+      },
+      {
+        "image": "sculpted/design/12-studio-view.png",
+        "title": "Integrated joints and service shell",
+        "correction": "Consolidated joint components and body shells, with measured removal paths and an isolated frame view.",
+        "remaining": "Frame strength, printed lip fatigue, fixed shaft retention, motor tie stacks and real wiring remain unqualified."
+      },
+      {
+        "image": "sculpted/design/iterations/broad-root-baseline/12-studio-view.png",
+        "title": "Continuous limb shells and roll openings",
+        "correction": "Integrated the thigh service ring and shin walls, retained a metal knee head, and removed disappearing shoulder skins.",
+        "remaining": "Open-shin torsion, printed clamp creep, bearing-lip strength and loaded locomotion remain unqualified."
+      },
+      {
+        "image": "sculpted/design/iterations/integrated-rocker-baseline/12-studio-view.png",
+        "title": "Two-piece limbs and broad joint roots",
+        "correction": "Split each shin into two structural halves, widened the fork and clamp roots, and integrated the motor face into the outer thigh.",
+        "remaining": "The printed set is for unloaded fit checks. Bearing tolerances, fixed shaft retention, motor clamp hardware and load qualification remain unresolved."
+      },
+      {
+        "image": "sculpted/design/iterations/electronics-deck-baseline/12-studio-view.png",
+        "title": "Direct bearing seats and integrated rockers",
+        "correction": "Removed the separate knee head and shoulder cover. Added two-part printed carriers and accessible axle retention.",
+        "remaining": "Printed parts are unloaded prototypes. Fits, preload, exact screw engagement, roll retention, motor ties and fatigue require qualification."
+      },
+      {
+        "image": "sculpted/design/12-studio-view.png",
+        "title": "Flat electronics deck and independent battery service",
+        "correction": "Replaced the thin tray and downward ears with a flat printed deck, top screws and a fixed lower frame brace.",
+        "remaining": "Actual computer standoffs, cooling, connectors and frame stiffness remain unqualified."
+      }
+    ],
+    "previous_image": "sculpted/design/iterations/integration-baseline/12-studio-view.png",
+    "detail_image": "sculpted/design/15-body-detail.png"
+  },
+  "baseline": {
+    "label": "PREVIOUS CAD",
+    "title": "Previous assembly",
+    "image": "baseline-studio-view.png",
+    "description": "The preceding solid assembly, rendered from the same camera and at the same studio stance as both proposals. This isolates geometry changes from pose and framing changes.",
+    "changes": [
+      "Continuous rounded torso with largely undecorated side surfaces.",
+      "Exposed cylindrical shoulder stacks and a narrow front sensor face.",
+      "Plain shin surfaces and small rounded feet.",
+      "The mechanical core provides the baseline for both proposals."
+    ],
+    "links": [
+      {
+        "label": "Open previous CAD",
+        "href": "http://127.0.0.1:8765/review/"
+      },
+      {
+        "label": "Previous STEP ↓",
+        "href": "../model/output/tinfox-assembly.step"
+      },
+      {
+        "label": "Full-size render ↗",
+        "href": "baseline-studio-view.png"
+      }
+    ],
+    "iterations": []
+  }
+}

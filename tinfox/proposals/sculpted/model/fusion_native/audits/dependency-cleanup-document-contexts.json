@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Tinfox - Leg module v39",
+    "version": 39,
+    "modified": false,
+    "active": false,
+    "top_level": true,
+    "references": [
+      {
+        "name": "Tinfox - Chassis",
+        "version": 18
+      }
+    ],
+    "root_component_id": "d5a18cd6-3c63-459c-be60-8e661a48c465",
+    "timeline_count": 2823
+  },
+  {
+    "name": "Tinfox - Chassis v18",
+    "version": 18,
+    "modified": false,
+    "active": false,
+    "top_level": false,
+    "context_diagnostic": "3 : Cannot get allDocumentReferences of a non-top-level document.",
+    "root_component_id": "34554a9d-95ee-4bcb-98c7-b1653b5e9b40",
+    "timeline_count": 534
+  },
+  {
+    "name": "Tinfox - Leg module v30",
+    "version": 30,
+    "modified": false,
+    "active": false,
+    "top_level": false,
+    "context_diagnostic": "3 : Cannot get allDocumentReferences of a non-top-level document.",
+    "root_component_id": "d5a18cd6-3c63-459c-be60-8e661a48c465",
+    "timeline_count": 2138
+  },
+  {
+    "name": "Tinfox - Native Master Assembly v64",
+    "version": 64,
+    "modified": false,
+    "active": true,
+    "top_level": true,
+    "references": [
+      {
+        "name": "Tinfox - Leg module",
+        "version": 39
+      },
+      {
+        "name": "Tinfox - Chassis",
+        "version": 18
+      },
+      {
+        "name": "Tinfox - Head",
+        "version": 22
+      },
+      {
+        "name": "Tinfox - Chassis",
+        "version": 18
+      }
+    ],
+    "root_component_id": "7440ac5c-7017-4508-8e97-f5f94d1366e8",
+    "timeline_count": 6
+  },
+  {
+    "name": "Tinfox - Leg module v39",
+    "version": 39,
+    "modified": true,
+    "active": false,
+    "top_level": false,
+    "context_diagnostic": "3 : Cannot get allDocumentReferences of a non-top-level document.",
+    "root_component_id": "d5a18cd6-3c63-459c-be60-8e661a48c465",
+    "timeline_count": 2823
+  },
+  {
+    "name": "Tinfox - Head v22",
+    "version": 22,
+    "modified": false,
+    "active": false,
+    "top_level": false,
+    "context_diagnostic": "3 : Cannot get allDocumentReferences of a non-top-level document.",
+    "root_component_id": "70fcf7a7-4331-43f2-99ed-70da422b6e9d",
+    "timeline_count": 225
+  }
+]

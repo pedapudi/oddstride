@@ -1,0 +1,175 @@
+{
+  "manifest_sha256": "104798de52453ab223a1e9c642b39dedea387fc1cbcd83b5fc00fcb6acf0b8c4",
+  "saved_leg_version": 19,
+  "scope": "Read-only direct native 3MF stock reference validation. Three unique types, eight optional printed copies. No release preparation or authority change.",
+  "overall_passed": true,
+  "quantity_total": 8,
+  "parts": [
+    {
+      "part": "fit-only-pod-long-sleeve",
+      "quantity": 3,
+      "saved_version": 19,
+      "native_3mf": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/fit-only-pod-long-sleeve.3mf",
+      "sha256": "30436d6295625b7781e3c1627e9cf89a51c090ee1d42b4dcaa142a455dd2ebac",
+      "bytes": 839773,
+      "units": "millimeter",
+      "nominal_od_id_length_mm": [
+        5,
+        3.4,
+        41
+      ],
+      "measured_bounds_mm": [
+        [
+          -2.5,
+          9.5,
+          41.0
+        ],
+        [
+          2.5,
+          50.5,
+          46.0
+        ]
+      ],
+      "measured_inner_outer_radius_mm": [
+        1.699996860100923,
+        2.5000023650548804
+      ],
+      "measured_volume_mm3": 432.76380907927205,
+      "analytic_volume_mm3": 432.7858039585299,
+      "relative_volume_error": 5.0821628289781834e-05,
+      "vertices": 39960,
+      "triangles": 79920,
+      "connected_components": 1,
+      "euler_number": 0,
+      "checks": {
+        "sha256_matches": true,
+        "zip_integrity": true,
+        "units_declared_millimeter": true,
+        "one_connected_surface": true,
+        "closed": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "no_degenerate_faces": true,
+        "no_duplicate_faces": true,
+        "annular_topology": true,
+        "extents_match_nominal": true,
+        "bounds_match_native_manifest": true,
+        "inner_radius_matches": true,
+        "outer_radius_matches": true,
+        "volume_matches_annular_stock": true
+      },
+      "passed": true
+    },
+    {
+      "part": "fit-only-pod-short-sleeve",
+      "quantity": 3,
+      "saved_version": 19,
+      "native_3mf": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/fit-only-pod-short-sleeve.3mf",
+      "sha256": "2fc005e5975da86f183d23fc15aeb4d073d246ccec2668f3cbad02a31cce5777",
+      "bytes": 151101,
+      "units": "millimeter",
+      "nominal_od_id_length_mm": [
+        5,
+        3.4,
+        6
+      ],
+      "measured_bounds_mm": [
+        [
+          -2.5,
+          55.0,
+          41.0
+        ],
+        [
+          2.5,
+          61.0,
+          46.0
+        ]
+      ],
+      "measured_inner_outer_radius_mm": [
+        1.699996860100923,
+        2.5000023650548804
+      ],
+      "measured_volume_mm3": 63.33128913355199,
+      "analytic_volume_mm3": 63.33450789637023,
+      "relative_volume_error": 5.082162829005273e-05,
+      "vertices": 6840,
+      "triangles": 13680,
+      "connected_components": 1,
+      "euler_number": 0,
+      "checks": {
+        "sha256_matches": true,
+        "zip_integrity": true,
+        "units_declared_millimeter": true,
+        "one_connected_surface": true,
+        "closed": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "no_degenerate_faces": true,
+        "no_duplicate_faces": true,
+        "annular_topology": true,
+        "extents_match_nominal": true,
+        "bounds_match_native_manifest": true,
+        "inner_radius_matches": true,
+        "outer_radius_matches": true,
+        "volume_matches_annular_stock": true
+      },
+      "passed": true
+    },
+    {
+      "part": "fit-only-thigh-clamp-sleeve",
+      "quantity": 2,
+      "saved_version": 19,
+      "native_3mf": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native/fit-only-thigh-clamp-sleeve.3mf",
+      "sha256": "8d161ea0a8d529c9d8b2239edd95d96b2e499beb814a80a7d555decf8322b307",
+      "bytes": 275976,
+      "units": "millimeter",
+      "nominal_od_id_length_mm": [
+        8,
+        4.3,
+        18
+      ],
+      "measured_bounds_mm": [
+        [
+          -40.0,
+          58.0,
+          -70.0
+        ],
+        [
+          -32.0,
+          76.0,
+          -62.0
+        ]
+      ],
+      "measured_inner_outer_radius_mm": [
+        2.149992667433078,
+        4.000005651302008
+      ],
+      "measured_volume_mm3": 643.3498168446238,
+      "analytic_volume_mm3": 643.3824674919217,
+      "relative_volume_error": 5.074842562188986e-05,
+      "vertices": 13320,
+      "triangles": 26640,
+      "connected_components": 1,
+      "euler_number": 0,
+      "checks": {
+        "sha256_matches": true,
+        "zip_integrity": true,
+        "units_declared_millimeter": true,
+        "one_connected_surface": true,
+        "closed": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "no_degenerate_faces": true,
+        "no_duplicate_faces": true,
+        "annular_topology": true,
+        "extents_match_nominal": true,
+        "bounds_match_native_manifest": true,
+        "inner_radius_matches": true,
+        "outer_radius_matches": true,
+        "volume_matches_annular_stock": true
+      },
+      "passed": true
+    }
+  ],
+  "note": "The intended native thigh-clamp sleeve is 8 mm OD, 4.3 mm ID, 18 mm long. The current native body, guide and print builder agree. Earlier 4.4 mm table wording is a reconciled documentation discrepancy, not an export defect. Historical released package hashes remain unchanged. Optional printed sleeves are finger-tight dimensional surrogates only."
+}

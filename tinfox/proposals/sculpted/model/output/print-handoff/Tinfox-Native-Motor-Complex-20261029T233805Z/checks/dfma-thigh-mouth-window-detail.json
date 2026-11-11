@@ -1,0 +1,45 @@
+{
+  "before": {
+    "dfma_thigh_split_top_z": "-40 mm",
+    "dfma_thigh_port_length": "38.5 mm"
+  },
+  "after": {
+    "dfma_thigh_split_top_z": "-50 mm",
+    "dfma_thigh_port_length": "36 mm"
+  },
+  "timeline_rollback_index": 1191,
+  "elapsed_seconds": 31.984058000030927,
+  "parts": [
+    {
+      "part_number": "DFMA_THIGH_PRIMARY_FL",
+      "features": 20,
+      "faces": 98,
+      "edges": 230,
+      "bounds_mm": [
+        -45.58933669274409,
+        0.0,
+        -191.5,
+        28.616214065524083,
+        67.0,
+        51.000000000000014
+      ]
+    },
+    {
+      "part_number": "DFMA_THIGH_SECONDARY_FL",
+      "features": 11,
+      "faces": 125,
+      "edges": 348,
+      "bounds_mm": [
+        -45.58933669274409,
+        9.000000000000004,
+        -191.5,
+        44.71220316700585,
+        97.00000000000001,
+        51.000000000000014
+      ]
+    }
+  ],
+  "saved_version": 34,
+  "modified": true,
+  "scope": "Two isolated DFMA detailing parameters; motor, bearing, screw, tube and primary mounting datums unchanged."
+}

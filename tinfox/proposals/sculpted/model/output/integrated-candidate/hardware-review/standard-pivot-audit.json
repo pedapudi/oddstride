@@ -1,0 +1,133 @@
+{
+  "source_model_sha256": "f87c8396363cef5e28a767c537dd5b189c094fa26e297bb1367113247b6f839e",
+  "specification": {
+    "supplier_reference": "Bolt Depot 14232",
+    "shoulder_diameter_mm": 6,
+    "shoulder_length_mm": 20,
+    "thread_length_mm": 9.75,
+    "head_diameter_mm": 10,
+    "head_height_mm": 4.5
+  },
+  "change_from_modeled_pin_mm": {
+    "inboard_extension": 3.75,
+    "outboard_extension": 3.5
+  },
+  "samples": [
+    {
+      "pin": "input_pin",
+      "pose": "stand",
+      "reported_contacts": [
+        "FL_motor_mount_ring"
+      ]
+    },
+    {
+      "pin": "input_pin",
+      "pose": "studio",
+      "reported_contacts": [
+        "FL_motor_mount_ring"
+      ]
+    },
+    {
+      "pin": "input_pin",
+      "pose": "raised",
+      "reported_contacts": [
+        "FL_motor_mount_ring"
+      ]
+    },
+    {
+      "pin": "input_pin",
+      "pose": "crouch",
+      "reported_contacts": [
+        "FL_motor_mount_ring"
+      ]
+    },
+    {
+      "pin": "input_pin",
+      "pose": "reach",
+      "reported_contacts": [
+        "FL_motor_mount_ring"
+      ]
+    },
+    {
+      "pin": "input_pin",
+      "pose": "fold",
+      "reported_contacts": [
+        "FL_motor_mount_ring"
+      ]
+    },
+    {
+      "pin": "input_pin",
+      "pose": "splay",
+      "reported_contacts": [
+        "FL_motor_mount_ring"
+      ]
+    },
+    {
+      "pin": "input_pin",
+      "pose": "side_reach",
+      "reported_contacts": [
+        "FL_motor_mount_ring"
+      ]
+    },
+    {
+      "pin": "output_pin",
+      "pose": "stand",
+      "reported_contacts": [
+        "FL_output_pivot_nut",
+        "FL_thigh_outer"
+      ]
+    },
+    {
+      "pin": "output_pin",
+      "pose": "studio",
+      "reported_contacts": [
+        "FL_output_pivot_nut"
+      ]
+    },
+    {
+      "pin": "output_pin",
+      "pose": "raised",
+      "reported_contacts": [
+        "FL_output_pivot_nut",
+        "FL_thigh_inner",
+        "FL_thigh_outer"
+      ]
+    },
+    {
+      "pin": "output_pin",
+      "pose": "crouch",
+      "reported_contacts": [
+        "FL_output_pivot_nut"
+      ]
+    },
+    {
+      "pin": "output_pin",
+      "pose": "reach",
+      "reported_contacts": [
+        "FL_output_pivot_nut"
+      ]
+    },
+    {
+      "pin": "output_pin",
+      "pose": "fold",
+      "reported_contacts": [
+        "FL_output_pivot_nut"
+      ]
+    },
+    {
+      "pin": "output_pin",
+      "pose": "splay",
+      "reported_contacts": [
+        "FL_output_pivot_nut"
+      ]
+    },
+    {
+      "pin": "output_pin",
+      "pose": "side_reach",
+      "reported_contacts": [
+        "FL_output_pivot_nut"
+      ]
+    }
+  ],
+  "status": "Dimensional substitution study only. Mating contacts included. Not a drop-in replacement or procurement approval."
+}

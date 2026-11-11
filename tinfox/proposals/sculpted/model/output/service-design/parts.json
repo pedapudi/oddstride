@@ -1,0 +1,1517 @@
+{
+  "model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59",
+  "parts": [
+    {
+      "id": "shin_inner",
+      "step": "step/shin_inner.step",
+      "stl": "stl/shin_inner.stl",
+      "volume_mm3": 44361.08497988747,
+      "step_volume_error_fraction": 2.6292976496711287e-07,
+      "mass_g": 56.338577924457084,
+      "print_stl": "print-stl/shin_inner.stl",
+      "print_bounds_mm": [
+        49.02521173170861,
+        168.66375005055698,
+        18.63622955402837
+      ],
+      "orientation": "Exterior down, open cavity up; bearing axis vertical, long limb axis in bed plane. Local supports need slicer review."
+    },
+    {
+      "id": "shin_inner_right",
+      "step": "step/shin_inner_right.step",
+      "stl": "stl/shin_inner_right.stl",
+      "volume_mm3": 44361.08497988747,
+      "step_volume_error_fraction": 1.0416164223252774e-07,
+      "mass_g": 56.338577924457084,
+      "print_stl": "print-stl/shin_inner_right.stl",
+      "print_bounds_mm": [
+        49.02521173170861,
+        168.66375005055698,
+        18.63622955402837
+      ],
+      "orientation": "Exterior down, open cavity up; bearing axis vertical, long limb axis in bed plane. Local supports need slicer review."
+    },
+    {
+      "id": "shin_outer",
+      "step": "step/shin_outer.step",
+      "stl": "stl/shin_outer.stl",
+      "volume_mm3": 42032.13931468895,
+      "step_volume_error_fraction": 8.193978584018226e-05,
+      "mass_g": 53.38081692965497,
+      "print_stl": "print-stl/shin_outer.stl",
+      "print_bounds_mm": [
+        49.01814008696763,
+        168.66348974169296,
+        18.319228182411404
+      ],
+      "orientation": "Exterior down, open cavity up; bearing axis vertical, long limb axis in bed plane. Local supports need slicer review."
+    },
+    {
+      "id": "shin_outer_right",
+      "step": "step/shin_outer_right.step",
+      "stl": "stl/shin_outer_right.stl",
+      "volume_mm3": 42032.13931468895,
+      "step_volume_error_fraction": 1.6590459457411033e-05,
+      "mass_g": 53.38081692965497,
+      "print_stl": "print-stl/shin_outer_right.stl",
+      "print_bounds_mm": [
+        49.01814008696763,
+        168.66348974169296,
+        18.319228182411404
+      ],
+      "orientation": "Exterior down, open cavity up; bearing axis vertical, long limb axis in bed plane. Local supports need slicer review."
+    },
+    {
+      "id": "shin_clamp_sleeve_37",
+      "step": "step/shin_clamp_sleeve_37.step",
+      "stl": "stl/shin_clamp_sleeve_37.stl",
+      "volume_mm3": 643.3824674919215,
+      "step_volume_error_fraction": 2.2264426335340703e-14,
+      "mass_g": 1.737132662228188
+    },
+    {
+      "id": "shin_clamp_sleeve_37_right",
+      "step": "step/shin_clamp_sleeve_37_right.step",
+      "stl": "stl/shin_clamp_sleeve_37_right.stl",
+      "volume_mm3": 643.3824674919215,
+      "step_volume_error_fraction": 2.1204215557467336e-14,
+      "mass_g": 1.737132662228188
+    },
+    {
+      "id": "shin_clamp_bolt_37",
+      "step": "step/shin_clamp_bolt_37.step",
+      "stl": "stl/shin_clamp_bolt_37.stl",
+      "volume_mm3": 468.0973053848792,
+      "step_volume_error_fraction": 7.771843087412119e-15,
+      "mass_g": 3.674563847271301
+    },
+    {
+      "id": "shin_clamp_bolt_37_right",
+      "step": "step/shin_clamp_bolt_37_right.step",
+      "stl": "stl/shin_clamp_bolt_37_right.stl",
+      "volume_mm3": 468.0973053848792,
+      "step_volume_error_fraction": 8.014713183893747e-15,
+      "mass_g": 3.674563847271301
+    },
+    {
+      "id": "shin_clamp_nut_37",
+      "step": "step/shin_clamp_nut_37.step",
+      "stl": "stl/shin_clamp_nut_37.stl",
+      "volume_mm3": 95.58039734745064,
+      "step_volume_error_fraction": 2.378873511235687e-14,
+      "mass_g": 0.7503061191774875
+    },
+    {
+      "id": "shin_clamp_nut_37_right",
+      "step": "step/shin_clamp_nut_37_right.step",
+      "stl": "stl/shin_clamp_nut_37_right.stl",
+      "volume_mm3": 95.58039734745064,
+      "step_volume_error_fraction": 5.530880913622973e-14,
+      "mass_g": 0.7503061191774875
+    },
+    {
+      "id": "shin_clamp_sleeve_105",
+      "step": "step/shin_clamp_sleeve_105.step",
+      "stl": "stl/shin_clamp_sleeve_105.stl",
+      "volume_mm3": 643.382467491922,
+      "step_volume_error_fraction": 2.120421555746732e-14,
+      "mass_g": 1.7371326622281893
+    },
+    {
+      "id": "shin_clamp_sleeve_105_right",
+      "step": "step/shin_clamp_sleeve_105_right.step",
+      "stl": "stl/shin_clamp_sleeve_105_right.stl",
+      "volume_mm3": 643.3824674919215,
+      "step_volume_error_fraction": 2.1911022742716247e-14,
+      "mass_g": 1.737132662228188
+    },
+    {
+      "id": "shin_clamp_bolt_105",
+      "step": "step/shin_clamp_bolt_105.step",
+      "stl": "stl/shin_clamp_bolt_105.stl",
+      "volume_mm3": 468.0973053848793,
+      "step_volume_error_fraction": 8.257583280375375e-15,
+      "mass_g": 3.674563847271302
+    },
+    {
+      "id": "shin_clamp_bolt_105_right",
+      "step": "step/shin_clamp_bolt_105_right.step",
+      "stl": "stl/shin_clamp_bolt_105_right.stl",
+      "volume_mm3": 468.0973053848793,
+      "step_volume_error_fraction": 7.771843087412117e-15,
+      "mass_g": 3.674563847271302
+    },
+    {
+      "id": "shin_clamp_nut_105",
+      "step": "step/shin_clamp_nut_105.step",
+      "stl": "stl/shin_clamp_nut_105.stl",
+      "volume_mm3": 95.58039734745064,
+      "step_volume_error_fraction": 2.364005551790464e-14,
+      "mass_g": 0.7503061191774875
+    },
+    {
+      "id": "shin_clamp_nut_105_right",
+      "step": "step/shin_clamp_nut_105_right.step",
+      "stl": "stl/shin_clamp_nut_105_right.stl",
+      "volume_mm3": 95.58039734745064,
+      "step_volume_error_fraction": 5.5160129541777493e-14,
+      "mass_g": 0.7503061191774875
+    },
+    {
+      "id": "thigh_inner",
+      "step": "step/thigh_inner.step",
+      "stl": "stl/thigh_inner.stl",
+      "volume_mm3": 91591.16756814532,
+      "step_volume_error_fraction": 4.823544235910053e-07,
+      "mass_g": 116.32078281154455,
+      "print_stl": "print-stl/thigh_inner.stl",
+      "print_bounds_mm": [
+        98.19816667851887,
+        238.00057165492768,
+        58.34948038821961
+      ],
+      "orientation": "Exterior down, open cavity up; bearing axis vertical, long limb axis in bed plane. Local supports need slicer review."
+    },
+    {
+      "id": "thigh_inner_right",
+      "step": "step/thigh_inner_right.step",
+      "stl": "stl/thigh_inner_right.stl",
+      "volume_mm3": 91591.16756814532,
+      "step_volume_error_fraction": 1.0060614916512296e-06,
+      "mass_g": 116.32078281154455,
+      "print_stl": "print-stl/thigh_inner_right.stl",
+      "print_bounds_mm": [
+        98.19816667851887,
+        238.00057165492768,
+        58.34948038821961
+      ],
+      "orientation": "Exterior down, open cavity up; bearing axis vertical, long limb axis in bed plane. Local supports need slicer review."
+    },
+    {
+      "id": "thigh_outer",
+      "step": "step/thigh_outer.step",
+      "stl": "stl/thigh_outer.stl",
+      "volume_mm3": 99139.9760675404,
+      "step_volume_error_fraction": 1.2687913945566935e-09,
+      "mass_g": 125.9077696057763,
+      "print_stl": "print-stl/thigh_outer.stl",
+      "print_bounds_mm": [
+        99.02906357214914,
+        238.30435762096081,
+        44.37992178895324
+      ],
+      "orientation": "Exterior down, open cavity up; bearing axis vertical, long limb axis in bed plane. Local supports need slicer review."
+    },
+    {
+      "id": "thigh_outer_right",
+      "step": "step/thigh_outer_right.step",
+      "stl": "stl/thigh_outer_right.stl",
+      "volume_mm3": 99139.9760675404,
+      "step_volume_error_fraction": 3.7378322554749943e-06,
+      "mass_g": 125.9077696057763,
+      "print_stl": "print-stl/thigh_outer_right.stl",
+      "print_bounds_mm": [
+        99.02906357214914,
+        238.30435762096081,
+        44.37992178895324
+      ],
+      "orientation": "Exterior down, open cavity up; bearing axis vertical, long limb axis in bed plane. Local supports need slicer review."
+    },
+    {
+      "id": "motor_mount_ring",
+      "step": "step/motor_mount_ring.step",
+      "stl": "stl/motor_mount_ring.stl",
+      "volume_mm3": 12905.536957240713,
+      "step_volume_error_fraction": 4.496191221284845e-14,
+      "mass_g": 34.844949784549925
+    },
+    {
+      "id": "motor_mount_ring_right",
+      "step": "step/motor_mount_ring_right.step",
+      "stl": "stl/motor_mount_ring_right.stl",
+      "volume_mm3": 12905.536957240713,
+      "step_volume_error_fraction": 4.369339431342639e-14,
+      "mass_g": 34.844949784549925
+    },
+    {
+      "id": "motor_carrier_-1",
+      "step": "step/motor_carrier_-1.step",
+      "stl": "stl/motor_carrier_-1.stl",
+      "volume_mm3": 79451.81553555914,
+      "step_volume_error_fraction": 8.113171291629818e-12,
+      "mass_g": 214.5199019460097
+    },
+    {
+      "id": "motor_carrier_-1_right",
+      "step": "step/motor_carrier_-1_right.step",
+      "stl": "stl/motor_carrier_-1_right.stl",
+      "volume_mm3": 79451.81553555914,
+      "step_volume_error_fraction": 8.732613312631676e-06,
+      "mass_g": 214.5199019460097
+    },
+    {
+      "id": "motor_carrier_1",
+      "step": "step/motor_carrier_1.step",
+      "stl": "stl/motor_carrier_1.stl",
+      "volume_mm3": 79452.50755927806,
+      "step_volume_error_fraction": 1.0110010939636466e-13,
+      "mass_g": 214.52177041005078
+    },
+    {
+      "id": "motor_carrier_1_right",
+      "step": "step/motor_carrier_1_right.step",
+      "stl": "stl/motor_carrier_1_right.stl",
+      "volume_mm3": 79452.50755927806,
+      "step_volume_error_fraction": 8.731993235466072e-06,
+      "mass_g": 214.52177041005078
+    },
+    {
+      "id": "belly_center_0",
+      "step": "step/belly_center_0.step",
+      "stl": "stl/belly_center_0.stl",
+      "volume_mm3": 104303.84172782318,
+      "step_volume_error_fraction": 7.896529871592038e-14,
+      "mass_g": 132.46587899433544,
+      "print_stl": "print-stl/belly_center_0.stl",
+      "print_bounds_mm": [
+        250.80542146352346,
+        37.7030287138656,
+        222.4054214634987
+      ],
+      "orientation": "Exterior down, open cavity up; bearing axis vertical, long limb axis in bed plane. Local supports need slicer review."
+    },
+    {
+      "id": "body_nose_surround",
+      "step": "step/body_nose_surround.step",
+      "stl": "stl/body_nose_surround.stl",
+      "volume_mm3": 107791.20750779437,
+      "step_volume_error_fraction": 1.5816510440269267e-06,
+      "mass_g": 136.89483353489885,
+      "print_stl": "print-stl/body_nose_surround.stl",
+      "print_bounds_mm": [
+        137.87763260101013,
+        202.3084377982923,
+        113.49510256140495
+      ],
+      "orientation": "Curved roof downward, channel open upward. Local removable support beneath the curved roof and end return; inspect in slicer. Supports must not fill screw holes."
+    },
+    {
+      "id": "end_cap_nut_1_-18",
+      "step": "step/end_cap_nut_1_-18.step",
+      "stl": "stl/end_cap_nut_1_-18.stl",
+      "volume_mm3": 45.90884398536531,
+      "step_volume_error_fraction": 1.7574419358343896e-12,
+      "mass_g": 0.36038442528511766
+    },
+    {
+      "id": "end_cap_nut_1_18",
+      "step": "step/end_cap_nut_1_18.step",
+      "stl": "stl/end_cap_nut_1_18.stl",
+      "volume_mm3": 45.908843985365316,
+      "step_volume_error_fraction": 1.7574419358343892e-12,
+      "mass_g": 0.3603844252851177
+    },
+    {
+      "id": "lidar_base",
+      "step": "step/lidar_base.step",
+      "stl": "stl/lidar_base.stl",
+      "volume_mm3": 12076.282160399163,
+      "step_volume_error_fraction": 3.012499011509901e-16,
+      "mass_g": 40.0
+    },
+    {
+      "id": "lidar",
+      "step": "step/lidar.step",
+      "stl": "stl/lidar.stl",
+      "volume_mm3": 41223.97880040527,
+      "step_volume_error_fraction": 0.0,
+      "mass_g": 150.0
+    },
+    {
+      "id": "lidar_lid",
+      "step": "step/lidar_lid.step",
+      "stl": "stl/lidar_lid.stl",
+      "volume_mm3": 4580.442088933919,
+      "step_volume_error_fraction": 0.0,
+      "mass_g": 12.366999999999999
+    },
+    {
+      "id": "FL_hip_port_-1_socket",
+      "step": "step/FL_hip_port_-1_socket.step",
+      "stl": "stl/FL_hip_port_-1_socket.stl",
+      "volume_mm3": 245.96000000000032,
+      "step_volume_error_fraction": 5.762687629265922e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_hip_port_-1_plug",
+      "step": "step/FL_hip_port_-1_plug.step",
+      "stl": "stl/FL_hip_port_-1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.0499827693010653e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_hip_port_-1_boot",
+      "step": "step/FL_hip_port_-1_boot.step",
+      "stl": "stl/FL_hip_port_-1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 2.065310885276025e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_hip_port_-1_cable",
+      "step": "step/FL_hip_port_-1_cable.step",
+      "stl": "stl/FL_hip_port_-1_cable.stl",
+      "volume_mm3": 846.6592201424493,
+      "step_volume_error_fraction": 1.342769735649821e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_hip_port_1_socket",
+      "step": "step/FL_hip_port_1_socket.step",
+      "stl": "stl/FL_hip_port_1_socket.stl",
+      "volume_mm3": 245.96000000000032,
+      "step_volume_error_fraction": 8.15812606028021e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_hip_port_1_plug",
+      "step": "step/FL_hip_port_1_plug.step",
+      "stl": "stl/FL_hip_port_1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.510632403434925e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_hip_port_1_boot",
+      "step": "step/FL_hip_port_1_boot.step",
+      "stl": "stl/FL_hip_port_1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 1.4316120305684983e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_hip_port_1_cable",
+      "step": "step/FL_hip_port_1_cable.step",
+      "stl": "stl/FL_hip_port_1_cable.stl",
+      "volume_mm3": 846.6592201424493,
+      "step_volume_error_fraction": 1.342769735649821e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_knee_port_-1_socket",
+      "step": "step/FL_knee_port_-1_socket.step",
+      "stl": "stl/FL_knee_port_-1_socket.stl",
+      "volume_mm3": 245.96000000000012,
+      "step_volume_error_fraction": 2.2995284504189276e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_knee_port_-1_plug",
+      "step": "step/FL_knee_port_-1_plug.step",
+      "stl": "stl/FL_knee_port_-1_plug.stl",
+      "volume_mm3": 609.5880000000002,
+      "step_volume_error_fraction": 3.4819144410037115e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_knee_port_-1_boot",
+      "step": "step/FL_knee_port_-1_boot.step",
+      "stl": "stl/FL_knee_port_-1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 3.0084905760035063e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_knee_port_-1_cable",
+      "step": "step/FL_knee_port_-1_cable.step",
+      "stl": "stl/FL_knee_port_-1_cable.stl",
+      "volume_mm3": 846.6592201424495,
+      "step_volume_error_fraction": 1.3427697356498208e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_knee_port_1_socket",
+      "step": "step/FL_knee_port_1_socket.step",
+      "stl": "stl/FL_knee_port_1_socket.stl",
+      "volume_mm3": 245.96000000000012,
+      "step_volume_error_fraction": 3.4215596691911783e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_knee_port_1_plug",
+      "step": "step/FL_knee_port_1_plug.step",
+      "stl": "stl/FL_knee_port_1_plug.stl",
+      "volume_mm3": 609.5880000000002,
+      "step_volume_error_fraction": 1.337189423781286e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_knee_port_1_boot",
+      "step": "step/FL_knee_port_1_boot.step",
+      "stl": "stl/FL_knee_port_1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 1.9768877892703235e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_knee_port_1_cable",
+      "step": "step/FL_knee_port_1_cable.step",
+      "stl": "stl/FL_knee_port_1_cable.stl",
+      "volume_mm3": 846.6592201424495,
+      "step_volume_error_fraction": 2.6855394712996416e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_roll_port_-1_socket",
+      "step": "step/FL_roll_port_-1_socket.step",
+      "stl": "stl/FL_roll_port_-1_socket.stl",
+      "volume_mm3": 245.9600000000002,
+      "step_volume_error_fraction": 3.243606211219059e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_roll_port_-1_plug",
+      "step": "step/FL_roll_port_-1_plug.step",
+      "stl": "stl/FL_roll_port_-1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 2.321897953427755e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_roll_port_-1_boot",
+      "step": "step/FL_roll_port_-1_boot.step",
+      "stl": "stl/FL_roll_port_-1_boot.stl",
+      "volume_mm3": 1080.0,
+      "step_volume_error_fraction": 2.021099337273174e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_roll_port_-1_cable",
+      "step": "step/FL_roll_port_-1_cable.step",
+      "stl": "stl/FL_roll_port_-1_cable.stl",
+      "volume_mm3": 846.6592201424493,
+      "step_volume_error_fraction": 0.0,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_roll_port_1_socket",
+      "step": "step/FL_roll_port_1_socket.step",
+      "stl": "stl/FL_roll_port_1_socket.stl",
+      "volume_mm3": 245.96000000000015,
+      "step_volume_error_fraction": 1.6489583410793012e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_roll_port_1_plug",
+      "step": "step/FL_roll_port_1_plug.step",
+      "stl": "stl/FL_roll_port_1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.1227169220590432e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_roll_port_1_boot",
+      "step": "step/FL_roll_port_1_boot.step",
+      "stl": "stl/FL_roll_port_1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 2.0042568427958978e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FL_roll_port_1_cable",
+      "step": "step/FL_roll_port_1_cable.step",
+      "stl": "stl/FL_roll_port_1_cable.stl",
+      "volume_mm3": 846.6592201424495,
+      "step_volume_error_fraction": 2.6855394712996416e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_hip_port_-1_socket",
+      "step": "step/FR_hip_port_-1_socket.step",
+      "stl": "stl/FR_hip_port_-1_socket.stl",
+      "volume_mm3": 245.9600000000002,
+      "step_volume_error_fraction": 5.75575437765662e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_hip_port_-1_plug",
+      "step": "step/FR_hip_port_-1_plug.step",
+      "stl": "stl/FR_hip_port_-1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.0518477475769109e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_hip_port_-1_boot",
+      "step": "step/FR_hip_port_-1_boot.step",
+      "stl": "stl/FR_hip_port_-1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 2.065310885276025e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_hip_port_-1_cable",
+      "step": "step/FR_hip_port_-1_cable.step",
+      "stl": "stl/FR_hip_port_-1_cable.stl",
+      "volume_mm3": 846.6592201424493,
+      "step_volume_error_fraction": 1.342769735649821e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_hip_port_1_socket",
+      "step": "step/FR_hip_port_1_socket.step",
+      "stl": "stl/FR_hip_port_1_socket.stl",
+      "volume_mm3": 245.9600000000002,
+      "step_volume_error_fraction": 8.204347737675569e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_hip_port_1_plug",
+      "step": "step/FR_hip_port_1_plug.step",
+      "stl": "stl/FR_hip_port_1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.510632403434925e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_hip_port_1_boot",
+      "step": "step/FR_hip_port_1_boot.step",
+      "stl": "stl/FR_hip_port_1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 1.4316120305684983e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_hip_port_1_cable",
+      "step": "step/FR_hip_port_1_cable.step",
+      "stl": "stl/FR_hip_port_1_cable.stl",
+      "volume_mm3": 846.6592201424493,
+      "step_volume_error_fraction": 1.342769735649821e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_knee_port_-1_socket",
+      "step": "step/FR_knee_port_-1_socket.step",
+      "stl": "stl/FR_knee_port_-1_socket.stl",
+      "volume_mm3": 245.96000000000012,
+      "step_volume_error_fraction": 2.29721736654916e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_knee_port_-1_plug",
+      "step": "step/FR_knee_port_-1_plug.step",
+      "stl": "stl/FR_knee_port_-1_plug.stl",
+      "volume_mm3": 609.5880000000002,
+      "step_volume_error_fraction": 3.4819144410037115e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_knee_port_-1_boot",
+      "step": "step/FR_knee_port_-1_boot.step",
+      "stl": "stl/FR_knee_port_-1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 3.0063852641938465e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_knee_port_-1_cable",
+      "step": "step/FR_knee_port_-1_cable.step",
+      "stl": "stl/FR_knee_port_-1_cable.stl",
+      "volume_mm3": 846.6592201424495,
+      "step_volume_error_fraction": 5.371078942599283e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_knee_port_1_socket",
+      "step": "step/FR_knee_port_1_socket.step",
+      "stl": "stl/FR_knee_port_1_socket.stl",
+      "volume_mm3": 245.96000000000012,
+      "step_volume_error_fraction": 3.4238707530609464e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_knee_port_1_plug",
+      "step": "step/FR_knee_port_1_plug.step",
+      "stl": "stl/FR_knee_port_1_plug.stl",
+      "volume_mm3": 609.5880000000002,
+      "step_volume_error_fraction": 1.337189423781286e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_knee_port_1_boot",
+      "step": "step/FR_knee_port_1_boot.step",
+      "stl": "stl/FR_knee_port_1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 1.9768877892703235e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_knee_port_1_cable",
+      "step": "step/FR_knee_port_1_cable.step",
+      "stl": "stl/FR_knee_port_1_cable.stl",
+      "volume_mm3": 846.6592201424495,
+      "step_volume_error_fraction": 5.371078942599283e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_roll_port_-1_socket",
+      "step": "step/FR_roll_port_-1_socket.step",
+      "stl": "stl/FR_roll_port_-1_socket.stl",
+      "volume_mm3": 245.9600000000002,
+      "step_volume_error_fraction": 5.736110164763595e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_roll_port_-1_plug",
+      "step": "step/FR_roll_port_-1_plug.step",
+      "stl": "stl/FR_roll_port_-1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.0518477475769109e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_roll_port_-1_boot",
+      "step": "step/FR_roll_port_-1_boot.step",
+      "stl": "stl/FR_roll_port_-1_boot.stl",
+      "volume_mm3": 1080.0,
+      "step_volume_error_fraction": 2.0653108852760245e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_roll_port_-1_cable",
+      "step": "step/FR_roll_port_-1_cable.step",
+      "stl": "stl/FR_roll_port_-1_cable.stl",
+      "volume_mm3": 846.6592201424493,
+      "step_volume_error_fraction": 1.342769735649821e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_roll_port_1_socket",
+      "step": "step/FR_roll_port_1_socket.step",
+      "stl": "stl/FR_roll_port_1_socket.stl",
+      "volume_mm3": 245.96000000000015,
+      "step_volume_error_fraction": 8.435456124652347e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_roll_port_1_plug",
+      "step": "step/FR_roll_port_1_plug.step",
+      "stl": "stl/FR_roll_port_1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.4919826206764694e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_roll_port_1_boot",
+      "step": "step/FR_roll_port_1_boot.step",
+      "stl": "stl/FR_roll_port_1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 1.452665148665094e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "FR_roll_port_1_cable",
+      "step": "step/FR_roll_port_1_cable.step",
+      "stl": "stl/FR_roll_port_1_cable.stl",
+      "volume_mm3": 846.6592201424495,
+      "step_volume_error_fraction": 1.3427697356498208e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_hip_port_-1_socket",
+      "step": "step/RL_hip_port_-1_socket.step",
+      "stl": "stl/RL_hip_port_-1_socket.stl",
+      "volume_mm3": 245.96000000000032,
+      "step_volume_error_fraction": 5.762687629265922e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_hip_port_-1_plug",
+      "step": "step/RL_hip_port_-1_plug.step",
+      "stl": "stl/RL_hip_port_-1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.0499827693010653e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_hip_port_-1_boot",
+      "step": "step/RL_hip_port_-1_boot.step",
+      "stl": "stl/RL_hip_port_-1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 2.065310885276025e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_hip_port_-1_cable",
+      "step": "step/RL_hip_port_-1_cable.step",
+      "stl": "stl/RL_hip_port_-1_cable.stl",
+      "volume_mm3": 846.6592201424493,
+      "step_volume_error_fraction": 1.342769735649821e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_hip_port_1_socket",
+      "step": "step/RL_hip_port_1_socket.step",
+      "stl": "stl/RL_hip_port_1_socket.stl",
+      "volume_mm3": 245.96000000000032,
+      "step_volume_error_fraction": 8.15812606028021e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_hip_port_1_plug",
+      "step": "step/RL_hip_port_1_plug.step",
+      "stl": "stl/RL_hip_port_1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.510632403434925e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_hip_port_1_boot",
+      "step": "step/RL_hip_port_1_boot.step",
+      "stl": "stl/RL_hip_port_1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 1.4316120305684983e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_hip_port_1_cable",
+      "step": "step/RL_hip_port_1_cable.step",
+      "stl": "stl/RL_hip_port_1_cable.stl",
+      "volume_mm3": 846.6592201424493,
+      "step_volume_error_fraction": 1.342769735649821e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_knee_port_-1_socket",
+      "step": "step/RL_knee_port_-1_socket.step",
+      "stl": "stl/RL_knee_port_-1_socket.stl",
+      "volume_mm3": 245.96000000000012,
+      "step_volume_error_fraction": 2.2995284504189276e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_knee_port_-1_plug",
+      "step": "step/RL_knee_port_-1_plug.step",
+      "stl": "stl/RL_knee_port_-1_plug.stl",
+      "volume_mm3": 609.5880000000002,
+      "step_volume_error_fraction": 3.4819144410037115e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_knee_port_-1_boot",
+      "step": "step/RL_knee_port_-1_boot.step",
+      "stl": "stl/RL_knee_port_-1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 3.0084905760035063e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_knee_port_-1_cable",
+      "step": "step/RL_knee_port_-1_cable.step",
+      "stl": "stl/RL_knee_port_-1_cable.stl",
+      "volume_mm3": 846.6592201424495,
+      "step_volume_error_fraction": 1.3427697356498208e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_knee_port_1_socket",
+      "step": "step/RL_knee_port_1_socket.step",
+      "stl": "stl/RL_knee_port_1_socket.stl",
+      "volume_mm3": 245.96000000000012,
+      "step_volume_error_fraction": 3.4215596691911783e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_knee_port_1_plug",
+      "step": "step/RL_knee_port_1_plug.step",
+      "stl": "stl/RL_knee_port_1_plug.stl",
+      "volume_mm3": 609.5880000000002,
+      "step_volume_error_fraction": 1.337189423781286e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_knee_port_1_boot",
+      "step": "step/RL_knee_port_1_boot.step",
+      "stl": "stl/RL_knee_port_1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 1.9768877892703235e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_knee_port_1_cable",
+      "step": "step/RL_knee_port_1_cable.step",
+      "stl": "stl/RL_knee_port_1_cable.stl",
+      "volume_mm3": 846.6592201424495,
+      "step_volume_error_fraction": 2.6855394712996416e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_roll_port_-1_socket",
+      "step": "step/RL_roll_port_-1_socket.step",
+      "stl": "stl/RL_roll_port_-1_socket.stl",
+      "volume_mm3": 245.9600000000002,
+      "step_volume_error_fraction": 3.2459172950888273e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_roll_port_-1_plug",
+      "step": "step/RL_roll_port_-1_plug.step",
+      "stl": "stl/RL_roll_port_-1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 2.321897953427755e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_roll_port_-1_boot",
+      "step": "step/RL_roll_port_-1_boot.step",
+      "stl": "stl/RL_roll_port_-1_boot.stl",
+      "volume_mm3": 1080.0,
+      "step_volume_error_fraction": 2.021099337273174e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_roll_port_-1_cable",
+      "step": "step/RL_roll_port_-1_cable.step",
+      "stl": "stl/RL_roll_port_-1_cable.stl",
+      "volume_mm3": 846.6592201424493,
+      "step_volume_error_fraction": 0.0,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_roll_port_1_socket",
+      "step": "step/RL_roll_port_1_socket.step",
+      "stl": "stl/RL_roll_port_1_socket.stl",
+      "volume_mm3": 245.96000000000015,
+      "step_volume_error_fraction": 1.6431806314048818e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_roll_port_1_plug",
+      "step": "step/RL_roll_port_1_plug.step",
+      "stl": "stl/RL_roll_port_1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.1227169220590432e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_roll_port_1_boot",
+      "step": "step/RL_roll_port_1_boot.step",
+      "stl": "stl/RL_roll_port_1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 2.0063621546055575e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RL_roll_port_1_cable",
+      "step": "step/RL_roll_port_1_cable.step",
+      "stl": "stl/RL_roll_port_1_cable.stl",
+      "volume_mm3": 846.6592201424495,
+      "step_volume_error_fraction": 1.3427697356498208e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_hip_port_-1_socket",
+      "step": "step/RR_hip_port_-1_socket.step",
+      "stl": "stl/RR_hip_port_-1_socket.stl",
+      "volume_mm3": 245.9600000000002,
+      "step_volume_error_fraction": 5.75575437765662e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_hip_port_-1_plug",
+      "step": "step/RR_hip_port_-1_plug.step",
+      "stl": "stl/RR_hip_port_-1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.0518477475769109e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_hip_port_-1_boot",
+      "step": "step/RR_hip_port_-1_boot.step",
+      "stl": "stl/RR_hip_port_-1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 2.065310885276025e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_hip_port_-1_cable",
+      "step": "step/RR_hip_port_-1_cable.step",
+      "stl": "stl/RR_hip_port_-1_cable.stl",
+      "volume_mm3": 846.6592201424493,
+      "step_volume_error_fraction": 1.342769735649821e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_hip_port_1_socket",
+      "step": "step/RR_hip_port_1_socket.step",
+      "stl": "stl/RR_hip_port_1_socket.stl",
+      "volume_mm3": 245.9600000000002,
+      "step_volume_error_fraction": 8.204347737675569e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_hip_port_1_plug",
+      "step": "step/RR_hip_port_1_plug.step",
+      "stl": "stl/RR_hip_port_1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.510632403434925e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_hip_port_1_boot",
+      "step": "step/RR_hip_port_1_boot.step",
+      "stl": "stl/RR_hip_port_1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 1.4316120305684983e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_hip_port_1_cable",
+      "step": "step/RR_hip_port_1_cable.step",
+      "stl": "stl/RR_hip_port_1_cable.stl",
+      "volume_mm3": 846.6592201424493,
+      "step_volume_error_fraction": 1.342769735649821e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_knee_port_-1_socket",
+      "step": "step/RR_knee_port_-1_socket.step",
+      "stl": "stl/RR_knee_port_-1_socket.stl",
+      "volume_mm3": 245.96000000000012,
+      "step_volume_error_fraction": 2.29721736654916e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_knee_port_-1_plug",
+      "step": "step/RR_knee_port_-1_plug.step",
+      "stl": "stl/RR_knee_port_-1_plug.stl",
+      "volume_mm3": 609.5880000000002,
+      "step_volume_error_fraction": 3.4819144410037115e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_knee_port_-1_boot",
+      "step": "step/RR_knee_port_-1_boot.step",
+      "stl": "stl/RR_knee_port_-1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 3.0063852641938465e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_knee_port_-1_cable",
+      "step": "step/RR_knee_port_-1_cable.step",
+      "stl": "stl/RR_knee_port_-1_cable.stl",
+      "volume_mm3": 846.6592201424495,
+      "step_volume_error_fraction": 5.371078942599283e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_knee_port_1_socket",
+      "step": "step/RR_knee_port_1_socket.step",
+      "stl": "stl/RR_knee_port_1_socket.stl",
+      "volume_mm3": 245.96000000000012,
+      "step_volume_error_fraction": 3.4238707530609464e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_knee_port_1_plug",
+      "step": "step/RR_knee_port_1_plug.step",
+      "stl": "stl/RR_knee_port_1_plug.stl",
+      "volume_mm3": 609.5880000000002,
+      "step_volume_error_fraction": 1.337189423781286e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_knee_port_1_boot",
+      "step": "step/RR_knee_port_1_boot.step",
+      "stl": "stl/RR_knee_port_1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 1.9768877892703235e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_knee_port_1_cable",
+      "step": "step/RR_knee_port_1_cable.step",
+      "stl": "stl/RR_knee_port_1_cable.stl",
+      "volume_mm3": 846.6592201424495,
+      "step_volume_error_fraction": 5.371078942599283e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_roll_port_-1_socket",
+      "step": "step/RR_roll_port_-1_socket.step",
+      "stl": "stl/RR_roll_port_-1_socket.stl",
+      "volume_mm3": 245.9600000000002,
+      "step_volume_error_fraction": 5.732643538958943e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_roll_port_-1_plug",
+      "step": "step/RR_roll_port_-1_plug.step",
+      "stl": "stl/RR_roll_port_-1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.0518477475769109e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_roll_port_-1_boot",
+      "step": "step/RR_roll_port_-1_boot.step",
+      "stl": "stl/RR_roll_port_-1_boot.stl",
+      "volume_mm3": 1080.0,
+      "step_volume_error_fraction": 2.063205573466365e-13,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_roll_port_-1_cable",
+      "step": "step/RR_roll_port_-1_cable.step",
+      "stl": "stl/RR_roll_port_-1_cable.stl",
+      "volume_mm3": 846.6592201424493,
+      "step_volume_error_fraction": 1.342769735649821e-16,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_roll_port_1_socket",
+      "step": "step/RR_roll_port_1_socket.step",
+      "stl": "stl/RR_roll_port_1_socket.stl",
+      "volume_mm3": 245.96000000000015,
+      "step_volume_error_fraction": 8.435456124652347e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_roll_port_1_plug",
+      "step": "step/RR_roll_port_1_plug.step",
+      "stl": "stl/RR_roll_port_1_plug.stl",
+      "volume_mm3": 609.5880000000004,
+      "step_volume_error_fraction": 1.510632403434925e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_roll_port_1_boot",
+      "step": "step/RR_roll_port_1_boot.step",
+      "stl": "stl/RR_roll_port_1_boot.stl",
+      "volume_mm3": 1079.9999999999998,
+      "step_volume_error_fraction": 1.4316120305684983e-14,
+      "mass_g": 0
+    },
+    {
+      "id": "RR_roll_port_1_cable",
+      "step": "step/RR_roll_port_1_cable.step",
+      "stl": "stl/RR_roll_port_1_cable.stl",
+      "volume_mm3": 846.6592201424495,
+      "step_volume_error_fraction": 2.6855394712996416e-16,
+      "mass_g": 0
+    }
+  ],
+  "connectors": [
+    {
+      "prefix": "FL_hip_port_-1",
+      "motor": "FL_hip_motor",
+      "group": "roll",
+      "leg": "FL",
+      "sign": -1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "FL_hip_port_1",
+      "motor": "FL_hip_motor",
+      "group": "roll",
+      "leg": "FL",
+      "sign": 1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "FL_knee_port_-1",
+      "motor": "FL_knee_motor",
+      "group": "thigh",
+      "leg": "FL",
+      "sign": -1,
+      "clock_deg": -20.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "FL_knee_port_1",
+      "motor": "FL_knee_motor",
+      "group": "thigh",
+      "leg": "FL",
+      "sign": 1,
+      "clock_deg": -20.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "FL_roll_port_-1",
+      "motor": "FL_roll_motor",
+      "group": "mount",
+      "leg": "FL",
+      "sign": -1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "FL_roll_port_1",
+      "motor": "FL_roll_motor",
+      "group": "mount",
+      "leg": "FL",
+      "sign": 1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "FR_hip_port_-1",
+      "motor": "FR_hip_motor",
+      "group": "roll",
+      "leg": "FR",
+      "sign": -1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "FR_hip_port_1",
+      "motor": "FR_hip_motor",
+      "group": "roll",
+      "leg": "FR",
+      "sign": 1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "FR_knee_port_-1",
+      "motor": "FR_knee_motor",
+      "group": "thigh",
+      "leg": "FR",
+      "sign": -1,
+      "clock_deg": -20.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "FR_knee_port_1",
+      "motor": "FR_knee_motor",
+      "group": "thigh",
+      "leg": "FR",
+      "sign": 1,
+      "clock_deg": -20.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "FR_roll_port_-1",
+      "motor": "FR_roll_motor",
+      "group": "mount",
+      "leg": "FR",
+      "sign": -1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "FR_roll_port_1",
+      "motor": "FR_roll_motor",
+      "group": "mount",
+      "leg": "FR",
+      "sign": 1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "RL_hip_port_-1",
+      "motor": "RL_hip_motor",
+      "group": "roll",
+      "leg": "RL",
+      "sign": -1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "RL_hip_port_1",
+      "motor": "RL_hip_motor",
+      "group": "roll",
+      "leg": "RL",
+      "sign": 1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "RL_knee_port_-1",
+      "motor": "RL_knee_motor",
+      "group": "thigh",
+      "leg": "RL",
+      "sign": -1,
+      "clock_deg": -20.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "RL_knee_port_1",
+      "motor": "RL_knee_motor",
+      "group": "thigh",
+      "leg": "RL",
+      "sign": 1,
+      "clock_deg": -20.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "RL_roll_port_-1",
+      "motor": "RL_roll_motor",
+      "group": "mount",
+      "leg": "RL",
+      "sign": -1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "RL_roll_port_1",
+      "motor": "RL_roll_motor",
+      "group": "mount",
+      "leg": "RL",
+      "sign": 1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "RR_hip_port_-1",
+      "motor": "RR_hip_motor",
+      "group": "roll",
+      "leg": "RR",
+      "sign": -1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "RR_hip_port_1",
+      "motor": "RR_hip_motor",
+      "group": "roll",
+      "leg": "RR",
+      "sign": 1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "RR_knee_port_-1",
+      "motor": "RR_knee_motor",
+      "group": "thigh",
+      "leg": "RR",
+      "sign": -1,
+      "clock_deg": -20.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "RR_knee_port_1",
+      "motor": "RR_knee_motor",
+      "group": "thigh",
+      "leg": "RR",
+      "sign": 1,
+      "clock_deg": -20.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "RR_roll_port_-1",
+      "motor": "RR_roll_motor",
+      "group": "mount",
+      "leg": "RR",
+      "sign": -1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    },
+    {
+      "prefix": "RR_roll_port_1",
+      "motor": "RR_roll_motor",
+      "group": "mount",
+      "leg": "RR",
+      "sign": 1,
+      "clock_deg": 40.0,
+      "socket_reference": "Two opposed ports in cached vendor STEP; approximate mouth radius 35.6 mm, rear axial station 37.6 mm behind output tip.",
+      "plug_outline_mm": [
+        12.3,
+        4.2,
+        11.8
+      ],
+      "insertion_overlap_mm_assumed": 5,
+      "cable_envelope_diameter_mm_assumed": 7,
+      "withdrawal_mm_reserved": 24.2
+    }
+  ]
+}

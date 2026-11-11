@@ -1,0 +1,92 @@
+{
+  "source_model_sha256": "5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873",
+  "native_sha256": {
+    "shin_inner": "399f88ec9ca871da6d2f3f2a8f3b24796fe62736e3bdfc4823c61965b7bdbfc2",
+    "shin_outer": "c55ff3160a01092a545e8a6247083a58837d2cba6b8e453869b562b1c3079024"
+  },
+  "views": [
+    {
+      "view": "side",
+      "source_area_mm2": 5189.030124720549,
+      "native_area_mm2": 5189.077316999606,
+      "symmetric_difference_area_mm2": 0.29723043723278253,
+      "relative_difference_area": 5.728053799818509e-05,
+      "boundary_hausdorff_mm": 0.01238167374981306,
+      "pass": true
+    },
+    {
+      "view": "front",
+      "source_area_mm2": 5910.952450223675,
+      "native_area_mm2": 5910.954509695148,
+      "symmetric_difference_area_mm2": 0.002213865369668431,
+      "relative_difference_area": 3.7453614934504445e-07,
+      "boundary_hausdorff_mm": 0.00034104813585118695,
+      "pass": true
+    },
+    {
+      "view": "isometric",
+      "source_area_mm2": 6200.678674104694,
+      "native_area_mm2": 6200.357362163083,
+      "symmetric_difference_area_mm2": 0.45972149257224754,
+      "relative_difference_area": 7.414051214944241e-05,
+      "boundary_hausdorff_mm": 0.028997691899497757,
+      "pass": true
+    }
+  ],
+  "passed": true,
+  "mesh_checks": [
+    {
+      "native": false,
+      "part": "shin_inner",
+      "linear_deflection_mm": 0.005,
+      "angular_deflection_rad": 0.03,
+      "relative_deflection": false,
+      "faces": 58,
+      "vertices": 158241,
+      "triangles": 286290,
+      "sampled_vertices_to_own_face": 5108,
+      "maximum_own_face_deviation_mm": 7.671311721569361e-14,
+      "own_face_gate_passed": true
+    },
+    {
+      "native": false,
+      "part": "shin_outer",
+      "linear_deflection_mm": 0.005,
+      "angular_deflection_rad": 0.03,
+      "relative_deflection": false,
+      "faces": 63,
+      "vertices": 160462,
+      "triangles": 292368,
+      "sampled_vertices_to_own_face": 5032,
+      "maximum_own_face_deviation_mm": 3.1776437161565096e-14,
+      "own_face_gate_passed": true
+    },
+    {
+      "native": true,
+      "part": "shin_inner",
+      "linear_deflection_mm": 0.005,
+      "angular_deflection_rad": 0.03,
+      "relative_deflection": false,
+      "faces": 61,
+      "vertices": 143721,
+      "triangles": 256954,
+      "sampled_vertices_to_own_face": 5191,
+      "maximum_own_face_deviation_mm": 2.847716647714797e-14,
+      "own_face_gate_passed": true
+    },
+    {
+      "native": true,
+      "part": "shin_outer",
+      "linear_deflection_mm": 0.005,
+      "angular_deflection_rad": 0.03,
+      "relative_deflection": false,
+      "faces": 66,
+      "vertices": 147654,
+      "triangles": 266503,
+      "sampled_vertices_to_own_face": 5192,
+      "maximum_own_face_deviation_mm": 1.0605088366315467e-13,
+      "own_face_gate_passed": true
+    }
+  ],
+  "scope": "External projected silhouettes using explicit 0.005 mm absolute-deflection source/native meshes and sampled own-face checks; excludes projected internal holes and disconnected triangulation fragments smaller than 0.00001 mm2. Internal features are audited by exact BRep surfaces and sections."
+}

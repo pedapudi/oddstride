@@ -1,0 +1,32 @@
+{
+  "source_outside_native_tool_mm3": 0,
+  "extra_continuous_tool_mm3": 158.4943213340325,
+  "unchanged_physical_body_tolerance_mm": 0.05,
+  "omitted_noop_features": [
+    {
+      "feature": "connector",
+      "side": -1,
+      "intersection_mm3": 0,
+      "omitted_as_noop": true
+    },
+    {
+      "feature": "cable",
+      "side": -1,
+      "intersection_mm3": 0,
+      "omitted_as_noop": true
+    },
+    {
+      "feature": "connector",
+      "side": 1,
+      "intersection_mm3": 0,
+      "omitted_as_noop": true
+    },
+    {
+      "feature": "cable",
+      "side": 1,
+      "intersection_mm3": 0,
+      "omitted_as_noop": true
+    }
+  ],
+  "passed": true
+}

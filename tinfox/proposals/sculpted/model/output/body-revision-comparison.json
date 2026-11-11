@@ -1,0 +1,487 @@
+{
+  "baseline_model_sha256": "24b3c16db86814d909769acf61e71565eed122890c3cb0818f033e14f235ddc6",
+  "model_sha256": "144a84e88daed50139f890480e9f1a1740cfb20c773e740ba6b4e9c1b9eede5e",
+  "limb_meshes_unchanged": false,
+  "changed_limb_meshes": [
+    "FL_roll_cartridge",
+    "FL_motor_carrier",
+    "FL_thigh_inner",
+    "FL_thigh_outer",
+    "FL_sleeve_0",
+    "FL_bolt_0",
+    "FL_sleeve_1",
+    "FL_bolt_1",
+    "FL_input_crank",
+    "FL_input_bolt_0",
+    "FL_input_bolt_60",
+    "FL_input_bolt_120",
+    "FL_input_bolt_180",
+    "FL_input_bolt_240",
+    "FL_input_bolt_300",
+    "FL_pushrod",
+    "FL_rod_bush_input_0",
+    "FL_rod_bush_input_1",
+    "FL_rod_bush_output_0",
+    "FL_rod_bush_output_1",
+    "FL_input_pin",
+    "FL_output_pivot_nut",
+    "FL_output_pin",
+    "FL_knee_axle",
+    "FL_axle_bolt",
+    "FL_axle_nut",
+    "FL_knee_inner_spacer",
+    "FL_bearing_inner",
+    "FL_bearing_outer",
+    "FL_shin_inner",
+    "FL_shin_outer",
+    "FL_shin_clamp_sleeve_37",
+    "FL_shin_clamp_bolt_37",
+    "FL_shin_clamp_nut_37",
+    "FL_shin_clamp_sleeve_105",
+    "FL_shin_clamp_bolt_105",
+    "FL_shin_clamp_nut_105",
+    "FR_roll_cartridge",
+    "FR_motor_carrier",
+    "FR_thigh_inner",
+    "FR_thigh_outer",
+    "FR_sleeve_0",
+    "FR_bolt_0",
+    "FR_sleeve_1",
+    "FR_bolt_1",
+    "FR_input_crank",
+    "FR_input_bolt_0",
+    "FR_input_bolt_60",
+    "FR_input_bolt_120",
+    "FR_input_bolt_180",
+    "FR_input_bolt_240",
+    "FR_input_bolt_300",
+    "FR_pushrod",
+    "FR_rod_bush_input_0",
+    "FR_rod_bush_input_1",
+    "FR_rod_bush_output_0",
+    "FR_rod_bush_output_1",
+    "FR_input_pin",
+    "FR_output_pivot_nut",
+    "FR_output_pin",
+    "FR_knee_axle",
+    "FR_axle_bolt",
+    "FR_axle_nut",
+    "FR_knee_inner_spacer",
+    "FR_bearing_inner",
+    "FR_bearing_outer",
+    "FR_shin_inner",
+    "FR_shin_outer",
+    "FR_shin_clamp_sleeve_37",
+    "FR_shin_clamp_bolt_37",
+    "FR_shin_clamp_nut_37",
+    "FR_shin_clamp_sleeve_105",
+    "FR_shin_clamp_bolt_105",
+    "FR_shin_clamp_nut_105",
+    "RL_roll_cartridge",
+    "RL_motor_carrier",
+    "RL_thigh_inner",
+    "RL_thigh_outer",
+    "RL_sleeve_0",
+    "RL_bolt_0",
+    "RL_sleeve_1",
+    "RL_bolt_1",
+    "RL_input_crank",
+    "RL_input_bolt_0",
+    "RL_input_bolt_60",
+    "RL_input_bolt_120",
+    "RL_input_bolt_180",
+    "RL_input_bolt_240",
+    "RL_input_bolt_300",
+    "RL_pushrod",
+    "RL_rod_bush_input_0",
+    "RL_rod_bush_input_1",
+    "RL_rod_bush_output_0",
+    "RL_rod_bush_output_1",
+    "RL_input_pin",
+    "RL_output_pivot_nut",
+    "RL_output_pin",
+    "RL_knee_axle",
+    "RL_axle_bolt",
+    "RL_axle_nut",
+    "RL_knee_inner_spacer",
+    "RL_bearing_inner",
+    "RL_bearing_outer",
+    "RL_shin_inner",
+    "RL_shin_outer",
+    "RL_shin_clamp_sleeve_37",
+    "RL_shin_clamp_bolt_37",
+    "RL_shin_clamp_nut_37",
+    "RL_shin_clamp_sleeve_105",
+    "RL_shin_clamp_bolt_105",
+    "RL_shin_clamp_nut_105",
+    "RR_roll_cartridge",
+    "RR_motor_carrier",
+    "RR_thigh_inner",
+    "RR_thigh_outer",
+    "RR_sleeve_0",
+    "RR_bolt_0",
+    "RR_sleeve_1",
+    "RR_bolt_1",
+    "RR_input_crank",
+    "RR_input_bolt_0",
+    "RR_input_bolt_60",
+    "RR_input_bolt_120",
+    "RR_input_bolt_180",
+    "RR_input_bolt_240",
+    "RR_input_bolt_300",
+    "RR_pushrod",
+    "RR_rod_bush_input_0",
+    "RR_rod_bush_input_1",
+    "RR_rod_bush_output_0",
+    "RR_rod_bush_output_1",
+    "RR_input_pin",
+    "RR_output_pivot_nut",
+    "RR_output_pin",
+    "RR_knee_axle",
+    "RR_axle_bolt",
+    "RR_axle_nut",
+    "RR_knee_inner_spacer",
+    "RR_bearing_inner",
+    "RR_bearing_outer",
+    "RR_shin_inner",
+    "RR_shin_outer",
+    "RR_shin_clamp_sleeve_37",
+    "RR_shin_clamp_bolt_37",
+    "RR_shin_clamp_nut_37",
+    "RR_shin_clamp_sleeve_105",
+    "RR_shin_clamp_bolt_105",
+    "RR_shin_clamp_nut_105"
+  ],
+  "before": {
+    "rigid_shell_dimensions_xyz_mm": [
+      477.4,
+      222.4,
+      103.50891
+    ],
+    "rigid_shell_bounds_mm": [
+      [
+        -232.0,
+        -111.2,
+        -48.00229
+      ],
+      [
+        245.4,
+        111.2,
+        55.50662
+      ]
+    ],
+    "body_shell_and_fascia_mass_kg": 0.33498500000000003,
+    "battery_side_panels_mass_kg": 0.058928,
+    "front_fascia_bounds_xyz_mm": [
+      4.390442707525239,
+      200.67831394851157,
+      88.17984977939089
+    ],
+    "complete_base_mass_kg": 12.464821000000002
+  },
+  "after": {
+    "rigid_shell_dimensions_xyz_mm": [
+      493.76168,
+      222.4,
+      103.50662
+    ],
+    "rigid_shell_bounds_mm": [
+      [
+        -232.0,
+        -111.2,
+        -48.0
+      ],
+      [
+        261.76168,
+        111.2,
+        55.50662
+      ]
+    ],
+    "body_shell_and_fascia_mass_kg": 0.562076,
+    "battery_side_panels_mass_kg": 0.030882,
+    "front_fascia_bounds_xyz_mm": [
+      19.0211502115892,
+      197.61363656363642,
+      84.65909110909092
+    ],
+    "complete_base_mass_kg": 13.187786000000001
+  },
+  "body_mass_delta_kg": 0.227091,
+  "front_opening_width_mm": {
+    "before": 168,
+    "after": 168
+  },
+  "front_face_nominal_crown_mm": 8,
+  "front_face_vertical_crown_mm": 10,
+  "fascia_corner_radius_mm": 16,
+  "nominal_front_corner_radius_mm": 18,
+  "central_roof_height_mm": 49.5,
+  "shoulder_crown_height_mm": 55.5,
+  "fit_checks": [
+    {
+      "parts": [
+        "body_nose_surround",
+        "front_fascia"
+      ],
+      "intersection_mm3": 0,
+      "distance_mm": 0.0
+    }
+  ],
+  "skin_checks": {
+    "nominal_envelope_min_mm": 2.78108614,
+    "finished_fascia_min_mm": 1.6886634100000002,
+    "return_tongue_min_sampled_section_mm2": 43.72292184967261,
+    "sample_count": 83,
+    "scope": "Exact CAD line intersections along actual tessellated surface normals; analytic targets select nearby outer surface samples. Material intervals are classified inside the solid and summed. Nominal envelope samples exclude openings and mounting ribs. Finished fascia and attachment tongue are checked separately; samples do not establish every local minimum, print strength, sealing or load capacity."
+  },
+  "preset_minimum_gap_mm": {
+    "stand": 1.5,
+    "studio": 1.5,
+    "raised": 1.5,
+    "crouch": 1.5,
+    "reach": 1.5,
+    "fold": 1.5,
+    "splay": 1.5,
+    "side_reach": 1.5180461777473582
+  },
+  "transition_intersections": 0,
+  "joint_interval_changes": [],
+  "battery_fit": {
+    "intersections": [],
+    "scope": "Battery envelope versus all checked rigid meshes, including fixed body parts. Adapter and electrical-contact fits remain unselected."
+  },
+  "fixed_packaging": {
+    "intersections": [],
+    "bolted_contact_checks": [
+      {
+        "parts": [
+          "body_aft_0",
+          "chassis_crossmember_-121"
+        ],
+        "exact_overlap_mm3": 0
+      },
+      {
+        "parts": [
+          "body_nose_surround",
+          "chassis_crossmember_121"
+        ],
+        "exact_overlap_mm3": 0
+      }
+    ],
+    "scope": "End-cap bolted contact faces use exact-solid overlap checks to distinguish contact from penetration. Torso covers versus fixed frame, shelf, cassette rails and roll assemblies; also frame versus roll motors. Intended bolted interfaces excluded."
+  },
+  "printability": {
+    "parts": [
+      {
+        "part": "body_center_0",
+        "bounds_mm": [
+          250.8171322115266,
+          222.4171322115266,
+          59.50856620576336
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "belly_center_0",
+        "bounds_mm": [
+          250.8171322115266,
+          222.4171322115266,
+          37.70696500444717
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "body_aft_0",
+        "bounds_mm": [
+          118.06525162346465,
+          222.4171322115266,
+          105.44984259266954
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_side_panel_-1",
+        "bounds_mm": [
+          135.96225080704403,
+          1.6059339008753,
+          60.00565630809886
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_access_latch_-1",
+        "bounds_mm": [
+          22.003109130996304,
+          1.8031091309963188,
+          4.0031091309963
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_side_panel_1",
+        "bounds_mm": [
+          135.96225080704403,
+          1.6059339008753,
+          60.00565630809886
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_access_latch_1",
+        "bounds_mm": [
+          22.003109130996304,
+          1.8031091309963188,
+          4.0031091309963
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_latch_-1",
+        "bounds_mm": [
+          18.01243592398521,
+          5.012435923985208,
+          9.012435923985208
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_latch_1",
+        "bounds_mm": [
+          18.01243592398521,
+          5.012435923985208,
+          9.012435923985208
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_cassette",
+        "bounds_mm": [
+          140.09093425625753,
+          198.60435270339485,
+          69.54650251905024
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "electronics_shelf",
+        "bounds_mm": [
+          134.01142154101774,
+          186.01142154101774,
+          4.011421541017725
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "body_nose_surround",
+        "bounds_mm": [
+          138.2313058282017,
+          222.4171322115266,
+          104.20315892930999
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "front_fascia",
+        "bounds_mm": [
+          19.0211502115892,
+          197.61363656363642,
+          84.65909110909092
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "sensor_bezel",
+        "bounds_mm": [
+          10.696771153599798,
+          174.162008385575,
+          46.16200838557499
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "power_button",
+        "bounds_mm": [
+          9.009062601128178,
+          9.00000020000001,
+          1.0090626011281785
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_thigh_inner",
+        "bounds_mm": [
+          98.27836562685002,
+          58.5454760322287,
+          238.00000020000004
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_thigh_outer",
+        "bounds_mm": [
+          99.05850087631214,
+          44.45283057551672,
+          238.4531549756589
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_shin_inner",
+        "bounds_mm": [
+          24.941412826641166,
+          34.07380290487764,
+          166.4015998726151
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_shin_outer",
+        "bounds_mm": [
+          24.955947567844877,
+          34.14867854299691,
+          166.43402135238918
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_thigh_inner",
+        "bounds_mm": [
+          98.27836562685002,
+          58.5454760322287,
+          238.00000020000004
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_thigh_outer",
+        "bounds_mm": [
+          99.05850087631214,
+          44.45283057551672,
+          238.4531549756589
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_shin_inner",
+        "bounds_mm": [
+          24.94141282664116,
+          34.07380290487764,
+          166.40159987261507
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_shin_outer",
+        "bounds_mm": [
+          24.955947567844877,
+          34.14867854299691,
+          166.43402135238915
+        ],
+        "fits_rotated_bounding_box": true
+      }
+    ],
+    "all_fit": true,
+    "scope": "Bounding boxes only; intended leg print orientation has shell joint plane on the bed. Slicer supports, overhangs and material setup not validated."
+  },
+  "scope": "Actual CAD meshes, exact-solid interface checks and sampled CAD skin paths. Sweeps compare the same joint definitions and sample spacing. No loaded locomotion, deformation, sealing or final fastener qualification."
+}

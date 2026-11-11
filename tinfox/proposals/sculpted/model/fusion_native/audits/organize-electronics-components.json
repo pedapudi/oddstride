@@ -1,0 +1,90 @@
+{
+  "parts": [
+    {
+      "part": "electronics_shelf",
+      "before": {
+        "features": 36,
+        "sketches": 15,
+        "bodies": 1,
+        "volume_mm3": 69626.659261359,
+        "base_features": 0,
+        "mesh_bodies": 0
+      },
+      "after": {
+        "features": 36,
+        "sketches": 15,
+        "bodies": 1,
+        "volume_mm3": 69626.659261359,
+        "base_features": 0,
+        "mesh_bodies": 0
+      },
+      "passed": true
+    },
+    {
+      "part": "lidar_lid",
+      "before": {
+        "features": 1,
+        "sketches": 1,
+        "bodies": 1,
+        "volume_mm3": 4580.442088933926,
+        "base_features": 0,
+        "mesh_bodies": 0
+      },
+      "after": {
+        "features": 1,
+        "sketches": 1,
+        "bodies": 1,
+        "volume_mm3": 4580.442088933926,
+        "base_features": 0,
+        "mesh_bodies": 0
+      },
+      "passed": true
+    },
+    {
+      "part": "power_button",
+      "before": {
+        "features": 1,
+        "sketches": 1,
+        "bodies": 1,
+        "volume_mm3": 63.61725123519587,
+        "base_features": 0,
+        "mesh_bodies": 0
+      },
+      "after": {
+        "features": 1,
+        "sketches": 1,
+        "bodies": 1,
+        "volume_mm3": 63.61725123519587,
+        "base_features": 0,
+        "mesh_bodies": 0
+      },
+      "passed": true
+    }
+  ],
+  "chassis_version": 3,
+  "head_version": 2,
+  "chassis_part_ids": [
+    "battery_skid",
+    "chassis_lower_brace",
+    "battery_access_latch_-1",
+    "battery_latch_-1",
+    "battery_side_panel_-1",
+    "chassis_crossmember_121",
+    "chassis_beam_-102",
+    "battery_access_latch_1",
+    "battery_latch_1",
+    "battery_side_panel_1",
+    "chassis_beam_102",
+    "chassis_crossmember_-121",
+    "battery_cassette",
+    "body_center_0",
+    "electronics_shelf",
+    "lidar_lid",
+    "power_button"
+  ],
+  "head_part_ids": [
+    "sensor_bezel"
+  ],
+  "source_master_modified": false,
+  "passed": true
+}

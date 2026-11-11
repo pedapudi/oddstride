@@ -1,0 +1,46 @@
+{
+  "scope": "Five primary knee-stator socket heads versus unchanged crank radial envelope only",
+  "source_crank": {
+    "path": "fusion_native/exports/motor-complex-native-input_crank.step",
+    "sha256": "277beedc5cd650be48df2acd5ad717aefb8fc3ea4a33e03fff6632eb419ccbb5"
+  },
+  "source_primary": {
+    "path": "fusion_native/exports/dfma-architecture-v1/dfma-thigh-primary-detailed.step",
+    "sha256": "4909ffed568ad0c16231410bef115b43e2a75f46fa3a0b864efa4630eb42e59d"
+  },
+  "exact_band_intersection": {
+    "radius_mm": [
+      33.5,
+      39.5
+    ],
+    "valid": true,
+    "solid_count": 1,
+    "volume_mm3": 1752.5815908913903,
+    "minimum_y_mm": 55.8,
+    "global_crank_minimum_y_mm": 54.4
+  },
+  "proposed_socket_seat": {
+    "diameter_mm": 5.8,
+    "floor_y_mm": 52.2,
+    "head_height_mm": 3,
+    "head_top_y_mm": 55.2,
+    "screw_length_mm": 6,
+    "tip_y_mm": 46.2,
+    "motor_face_y_mm": 50.4,
+    "nominal_thread_penetration_mm": 4.2,
+    "remaining_stator_web_mm": 1.8,
+    "head_diameter_mm": 5.5,
+    "head_radial_band_mm": [
+      33.75,
+      39.25
+    ]
+  },
+  "continuous_nominal_axial_clearance_mm": 0.6,
+  "continuous_bound_reason": "Rotation aboutY preservesY and radial distance. Every socket head lies within the checked radial band, whose crank minimumY is55.8.",
+  "recommendation": "Nominal socket-head proposal fits; retain1.8mm web. Relieve underhead-fillet entry at the3.4mm pilot with a standard accessible chamfer up to approximately3.8mm, or verify the actual purchased screw seats flat.",
+  "limitations": [
+    "Counterbore and fillet relief are proposals; actual revised native exports have not been examined here.",
+    "Nominal0.6mm gap excludes deflection, printed fit and physical screw tolerances.",
+    "No operating strength qualification."
+  ]
+}

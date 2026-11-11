@@ -1,0 +1,27 @@
+TINFOX MASS REVIEW
+
+printed: custom limbs 2.381 kg; robot base 12.092 kg; relief savings 0.000 kg
+hybrid: custom limbs 3.287 kg; robot base 12.989 kg; relief savings 0.065 kg
+cnc: custom limbs 4.374 kg; robot base 14.077 kg; relief savings 0.742 kg
+
+The initial metal route retained printed-part dimensions. At assumed solid densities,
+aluminum weighs 2.13 times as much as PETG for identical geometry. The solid steel
+pushrods also add about 0.226 kg across four legs. Material substitution alone does
+not exploit metal stiffness or strength.
+
+The first relief pass removes material behind the thigh motor walls and collar,
+from the inside of the motor face, from the hip hub and from an accessible annular
+pocket in each roll carrier. Nonstructural metal shoulder covers have thinner walls.
+The printed prototype geometry is retained. No finite-element optimization or
+physical strength test supports further reductions yet.
+
+Twelve motors: 4.86 kg. Assumed batteries: 1.40 kg. Electronics/wiring allowance:
+0.80 kg. Additional unmodeled mounting/hardware allowance: 0.40 kg. These total
+7.46 kg before the modeled frame, custom limbs, bearings, hardware and feet.
+Battery masses and actual peripheral packages remain assumptions.
+
+The remaining large opportunities are the paired thigh structures, motor-adapter
+architecture, hardware stacks and nonstructural covers. Reducing those requires
+stiffness, fatigue, bearing alignment, clamp preload and CNC fixture analysis.
+The steel pushrod should be replaced only after buckling and joint-eye fatigue
+are checked. Current metal designs remain preliminary and above the 10 kg goal.

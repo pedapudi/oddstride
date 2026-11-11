@@ -1,0 +1,382 @@
+{
+  "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+  "name": "Tinfox - Native Master Assembly v61",
+  "version": 61,
+  "complete": true,
+  "modified": false,
+  "read_only": false,
+  "editable_files": 4,
+  "subsystems": {
+    "chassis": 16,
+    "leg": 14,
+    "head": 22
+  },
+  "reference_counts": {
+    "motor": 12,
+    "plug": 24,
+    "cable": 24
+  },
+  "references": [
+    {
+      "name": "FL_roll_motor",
+      "body": "FL_roll_motor actuator reference",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Fixed shoulder:1+Fixed shoulder hardware references:1+FL_mount purchased references:1+FL_roll_motor:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_roll_port_-1_plug",
+      "body": "FL_roll_port_-1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Fixed shoulder:1+Fixed shoulder hardware references:1+FL_mount purchased references:1+FL_roll_port_-1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_roll_port_-1_cable",
+      "body": "FL_roll_port_-1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Fixed shoulder:1+Fixed shoulder hardware references:1+FL_mount purchased references:1+FL_roll_port_-1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_roll_port_1_plug",
+      "body": "FL_roll_port_1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Fixed shoulder:1+Fixed shoulder hardware references:1+FL_mount purchased references:1+FL_roll_port_1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_roll_port_1_cable",
+      "body": "FL_roll_port_1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Fixed shoulder:1+Fixed shoulder hardware references:1+FL_mount purchased references:1+FL_roll_port_1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_hip_motor",
+      "body": "FL_hip_motor actuator reference",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Hip roll carrier:1+FL roll purchased references:1+FL_roll purchased references:1+FL_hip_motor:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_hip_port_-1_plug",
+      "body": "FL_hip_port_-1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Hip roll carrier:1+FL roll purchased references:1+FL_roll purchased references:1+FL_hip_port_-1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_hip_port_-1_cable",
+      "body": "FL_hip_port_-1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Hip roll carrier:1+FL roll purchased references:1+FL_roll purchased references:1+FL_hip_port_-1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_hip_port_1_plug",
+      "body": "FL_hip_port_1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Hip roll carrier:1+FL roll purchased references:1+FL_roll purchased references:1+FL_hip_port_1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_hip_port_1_cable",
+      "body": "FL_hip_port_1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Hip roll carrier:1+FL roll purchased references:1+FL_roll purchased references:1+FL_hip_port_1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_knee_motor",
+      "body": "FL_knee_motor actuator reference",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Thigh and proximal motors:1+FL thigh purchased references:1+FL_thigh purchased references:1+FL_knee_motor:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_knee_port_-1_plug",
+      "body": "FL_knee_port_-1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Thigh and proximal motors:1+FL thigh purchased references:1+FL_thigh purchased references:1+FL_knee_port_-1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_knee_port_-1_cable",
+      "body": "FL_knee_port_-1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Thigh and proximal motors:1+FL thigh purchased references:1+FL_thigh purchased references:1+FL_knee_port_-1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_knee_port_1_plug",
+      "body": "FL_knee_port_1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Thigh and proximal motors:1+FL thigh purchased references:1+FL_thigh purchased references:1+FL_knee_port_1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FL_knee_port_1_cable",
+      "body": "FL_knee_port_1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+FL leg:1+Thigh and proximal motors:1+FL thigh purchased references:1+FL_thigh purchased references:1+FL_knee_port_1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_roll_motor",
+      "body": "FR_roll_motor actuator reference",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Fixed shoulder (1):1+FR mount purchased references:1+FR_mount purchased references:1+FR_roll_motor:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_roll_port_-1_plug",
+      "body": "FR_roll_port_-1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Fixed shoulder (1):1+FR mount purchased references:1+FR_mount purchased references:1+FR_roll_port_-1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_roll_port_-1_cable",
+      "body": "FR_roll_port_-1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Fixed shoulder (1):1+FR mount purchased references:1+FR_mount purchased references:1+FR_roll_port_-1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_roll_port_1_plug",
+      "body": "FR_roll_port_1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Fixed shoulder (1):1+FR mount purchased references:1+FR_mount purchased references:1+FR_roll_port_1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_roll_port_1_cable",
+      "body": "FR_roll_port_1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Fixed shoulder (1):1+FR mount purchased references:1+FR_mount purchased references:1+FR_roll_port_1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_hip_motor",
+      "body": "FR_hip_motor actuator reference",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Hip roll carrier (1):1+FR roll purchased references:1+FR_roll purchased references:1+FR_hip_motor:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_hip_port_-1_plug",
+      "body": "FR_hip_port_-1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Hip roll carrier (1):1+FR roll purchased references:1+FR_roll purchased references:1+FR_hip_port_-1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_hip_port_-1_cable",
+      "body": "FR_hip_port_-1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Hip roll carrier (1):1+FR roll purchased references:1+FR_roll purchased references:1+FR_hip_port_-1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_hip_port_1_plug",
+      "body": "FR_hip_port_1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Hip roll carrier (1):1+FR roll purchased references:1+FR_roll purchased references:1+FR_hip_port_1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_hip_port_1_cable",
+      "body": "FR_hip_port_1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Hip roll carrier (1):1+FR roll purchased references:1+FR_roll purchased references:1+FR_hip_port_1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_knee_motor",
+      "body": "FR_knee_motor actuator reference",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Thigh and proximal motors (1):1+FR thigh purchased references:1+FR_thigh purchased references:1+FR_knee_motor:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_knee_port_-1_plug",
+      "body": "FR_knee_port_-1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Thigh and proximal motors (1):1+FR thigh purchased references:1+FR_thigh purchased references:1+FR_knee_port_-1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_knee_port_-1_cable",
+      "body": "FR_knee_port_-1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Thigh and proximal motors (1):1+FR thigh purchased references:1+FR_thigh purchased references:1+FR_knee_port_-1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_knee_port_1_plug",
+      "body": "FR_knee_port_1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Thigh and proximal motors (1):1+FR thigh purchased references:1+FR_thigh purchased references:1+FR_knee_port_1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "FR_knee_port_1_cable",
+      "body": "FR_knee_port_1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+FR leg:1+Thigh and proximal motors (1):1+FR thigh purchased references:1+FR_thigh purchased references:1+FR_knee_port_1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_roll_motor",
+      "body": "RL_roll_motor actuator reference",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Fixed shoulder (2):1+RL mount purchased references:1+RL_mount purchased references:1+RL_roll_motor:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_roll_port_-1_plug",
+      "body": "RL_roll_port_-1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Fixed shoulder (2):1+RL mount purchased references:1+RL_mount purchased references:1+RL_roll_port_-1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_roll_port_-1_cable",
+      "body": "RL_roll_port_-1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Fixed shoulder (2):1+RL mount purchased references:1+RL_mount purchased references:1+RL_roll_port_-1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_roll_port_1_plug",
+      "body": "RL_roll_port_1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Fixed shoulder (2):1+RL mount purchased references:1+RL_mount purchased references:1+RL_roll_port_1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_roll_port_1_cable",
+      "body": "RL_roll_port_1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Fixed shoulder (2):1+RL mount purchased references:1+RL_mount purchased references:1+RL_roll_port_1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_hip_motor",
+      "body": "RL_hip_motor actuator reference",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Hip roll carrier (2):1+RL roll purchased references:1+RL_roll purchased references:1+RL_hip_motor:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_hip_port_-1_plug",
+      "body": "RL_hip_port_-1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Hip roll carrier (2):1+RL roll purchased references:1+RL_roll purchased references:1+RL_hip_port_-1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_hip_port_-1_cable",
+      "body": "RL_hip_port_-1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Hip roll carrier (2):1+RL roll purchased references:1+RL_roll purchased references:1+RL_hip_port_-1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_hip_port_1_plug",
+      "body": "RL_hip_port_1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Hip roll carrier (2):1+RL roll purchased references:1+RL_roll purchased references:1+RL_hip_port_1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_hip_port_1_cable",
+      "body": "RL_hip_port_1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Hip roll carrier (2):1+RL roll purchased references:1+RL_roll purchased references:1+RL_hip_port_1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_knee_motor",
+      "body": "RL_knee_motor actuator reference",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Thigh and proximal motors (2):1+RL thigh purchased references:1+RL_thigh purchased references:1+RL_knee_motor:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_knee_port_-1_plug",
+      "body": "RL_knee_port_-1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Thigh and proximal motors (2):1+RL thigh purchased references:1+RL_thigh purchased references:1+RL_knee_port_-1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_knee_port_-1_cable",
+      "body": "RL_knee_port_-1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Thigh and proximal motors (2):1+RL thigh purchased references:1+RL_thigh purchased references:1+RL_knee_port_-1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_knee_port_1_plug",
+      "body": "RL_knee_port_1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Thigh and proximal motors (2):1+RL thigh purchased references:1+RL_thigh purchased references:1+RL_knee_port_1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RL_knee_port_1_cable",
+      "body": "RL_knee_port_1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+RL leg:1+Thigh and proximal motors (2):1+RL thigh purchased references:1+RL_thigh purchased references:1+RL_knee_port_1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_roll_motor",
+      "body": "RR_roll_motor actuator reference",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Fixed shoulder (3):1+RR mount purchased references:1+RR_mount purchased references:1+RR_roll_motor:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_roll_port_-1_plug",
+      "body": "RR_roll_port_-1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Fixed shoulder (3):1+RR mount purchased references:1+RR_mount purchased references:1+RR_roll_port_-1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_roll_port_-1_cable",
+      "body": "RR_roll_port_-1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Fixed shoulder (3):1+RR mount purchased references:1+RR_mount purchased references:1+RR_roll_port_-1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_roll_port_1_plug",
+      "body": "RR_roll_port_1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Fixed shoulder (3):1+RR mount purchased references:1+RR_mount purchased references:1+RR_roll_port_1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_roll_port_1_cable",
+      "body": "RR_roll_port_1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Fixed shoulder (3):1+RR mount purchased references:1+RR_mount purchased references:1+RR_roll_port_1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_hip_motor",
+      "body": "RR_hip_motor actuator reference",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Hip roll carrier (3):1+RR roll purchased references:1+RR_roll purchased references:1+RR_hip_motor:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_hip_port_-1_plug",
+      "body": "RR_hip_port_-1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Hip roll carrier (3):1+RR roll purchased references:1+RR_roll purchased references:1+RR_hip_port_-1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_hip_port_-1_cable",
+      "body": "RR_hip_port_-1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Hip roll carrier (3):1+RR roll purchased references:1+RR_roll purchased references:1+RR_hip_port_-1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_hip_port_1_plug",
+      "body": "RR_hip_port_1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Hip roll carrier (3):1+RR roll purchased references:1+RR_roll purchased references:1+RR_hip_port_1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_hip_port_1_cable",
+      "body": "RR_hip_port_1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Hip roll carrier (3):1+RR roll purchased references:1+RR_roll purchased references:1+RR_hip_port_1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_knee_motor",
+      "body": "RR_knee_motor actuator reference",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Thigh and proximal motors (3):1+RR thigh purchased references:1+RR_thigh purchased references:1+RR_knee_motor:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_knee_port_-1_plug",
+      "body": "RR_knee_port_-1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Thigh and proximal motors (3):1+RR thigh purchased references:1+RR_thigh purchased references:1+RR_knee_port_-1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_knee_port_-1_cable",
+      "body": "RR_knee_port_-1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Thigh and proximal motors (3):1+RR thigh purchased references:1+RR_thigh purchased references:1+RR_knee_port_-1_cable:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_knee_port_1_plug",
+      "body": "RR_knee_port_1_plug XT30 2+2 connector reference",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Thigh and proximal motors (3):1+RR thigh purchased references:1+RR_thigh purchased references:1+RR_knee_port_1_plug:1",
+      "own_visibility": true
+    },
+    {
+      "name": "RR_knee_port_1_cable",
+      "body": "RR_knee_port_1_cable cable routing envelope",
+      "path": "Tinfox - Leg module v14:1+RR leg:1+Thigh and proximal motors (3):1+RR thigh purchased references:1+RR_thigh purchased references:1+RR_knee_port_1_cable:1",
+      "own_visibility": true
+    }
+  ],
+  "verified_utc": "2026-10-28T23:58:42.573105+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "passed": false,
+  "parts": [
+    {
+      "part": "input_crank_right",
+      "native_step_sha256": "c2354a64cb482e242d9995bc708d6c994f7275761ce37e9ecd8b68a16773f5f2",
+      "qualified_parent": "input_crank",
+      "qualified_parent_native_sha256": "277beedc5cd650be48df2acd5ad717aefb8fc3ea4a33e03fff6632eb419ccbb5",
+      "reflection_plane": "XZ",
+      "reflection_origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "comparison_reference_sha256": "b9664a39552ef336552f5f7f4614ee0098a6bd7e38ef0d04ba59f51877185f2d",
+      "geometry_report": "audits/whole-mirror-check-input_crank_right-geometry.json",
+      "section_report": "audits/whole-mirror-check-input_crank_right-sections.json",
+      "geometry_passed": true,
+      "sections_passed": true
+    },
+    {
+      "part": "thigh_outer_right",
+      "native_step_sha256": "8984034720058cf74bcd4ae8cca386261bd0a68a2f36c68c14f2a97630b857d0",
+      "qualified_parent": "thigh_outer",
+      "qualified_parent_native_sha256": "bd72171a1c4826480f1d4afac933152f4454a979e1c19662c7b8928d60209421",
+      "reflection_plane": "XZ",
+      "reflection_origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "comparison_reference_sha256": "fd980fbd03b0bc76f26877144d5e4307fec87f2e8cd26ccb5e65df904a67df63",
+      "geometry_report": "audits/whole-mirror-check-thigh_outer_right-geometry.json",
+      "section_report": "audits/whole-mirror-check-thigh_outer_right-sections.json",
+      "geometry_passed": true,
+      "sections_passed": false
+    },
+    {
+      "part": "thigh_inner_right",
+      "native_step_sha256": "a55217bd230e2ab0820bf539c533594c688ed4c40c4701487e4b3b5265e9a108",
+      "qualified_parent": "thigh_inner",
+      "qualified_parent_native_sha256": "0264e0a75d553c6d909a1f3e7e158127a4cd2dffdc135be536563ca09a32c6ae",
+      "reflection_plane": "XZ",
+      "reflection_origin_mm": [
+        0,
+        0,
+        0
+      ],
+      "comparison_reference_sha256": "c0b8755373038af6dc179ad079a2170684aaeba14f55ce27df79a0feac6baf95",
+      "geometry_report": "audits/whole-mirror-check-thigh_inner_right-geometry.json",
+      "section_report": "audits/whole-mirror-check-thigh_inner_right-sections.json",
+      "geometry_passed": true,
+      "sections_passed": true
+    }
+  ],
+  "scope": "Current right-hand native exports compared with exact reflections of their qualified native left parents. Existing left-part numerical exceptions and their independent resolutions remain part of the evidence chain. Placement, dynamic loading and CNC access are separate."
+}

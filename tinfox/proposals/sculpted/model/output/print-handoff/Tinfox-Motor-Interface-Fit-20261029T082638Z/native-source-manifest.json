@@ -1,0 +1,824 @@
+{
+  "scope": "Detached three-RS02 motor complex only",
+  "authority": "Native Fusion is canonical for these 13 custom parts and this static detached motor-complex assembly only.",
+  "native_source_of_truth": true,
+  "source_target": "manifests/motor-complex-native-target.json",
+  "parts": {
+    "hip_hub": {
+      "component_part_number": "CANDIDATE_sl_hip_hub",
+      "native_step": "exports/slim-native-hip_hub-restored.step",
+      "native_step_sha256": "cdb610d12e927697921a403da6654f52419617abba176c9b6a4d9d1a97a5015e",
+      "target_step_sha256": "983f8f512e35e94e67cb1a17e81d3e2910b7816a85bda1c39eadb7de3151450e",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/hip_hub.3mf",
+      "native_3mf_sha256": "6c7191f6d44830ff6f23cf39e60dccddafa6779486cb955c65a4cbc66cc5c078",
+      "native_bounds_mm": [
+        -43.49489761534433,
+        0.0,
+        -27.750000000000018,
+        43.49489761534435,
+        9.500000000000002,
+        48.00000000000001
+      ],
+      "native_volume_mm3": 18276.11616371595,
+      "native_feature_count": 17,
+      "native_sketch_count": 9,
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 17,
+        "sketches": 9,
+        "faces": 98,
+        "edges": 207,
+        "volume_mm3": 18276.11616371595,
+        "bounds_mm": [
+          -43.49489761534433,
+          0.0,
+          -27.750000000000018,
+          43.49489761534435,
+          9.500000000000002,
+          48.00000000000001
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-hip_hub-comparison.json",
+          "sha256": "93fe8312916296585081b4a1d4cc4a7a2559c075907b944a41e4ab1c751b1fdd"
+        }
+      ]
+    },
+    "motor_mount_ring": {
+      "component_part_number": "CANDIDATE_sl_motor_mount_ring",
+      "native_step": "exports/slim-native-motor_mount_ring-restored.step",
+      "native_step_sha256": "f06bf3ee803e7e585ee79eace1fa6c2618d3d9bca1a0db0ae98276fc51462020",
+      "target_step_sha256": "72b1f1c3bc6e89d66e37ee4f264c4c6813617ed7d4070d315771abe944ef897e",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/motor_mount_ring.3mf",
+      "native_3mf_sha256": "bcda889f7d29e6e2017ba477b1515208784bcf30a4f8682a6eb6ab6ee1f97a22",
+      "native_bounds_mm": [
+        -42.172105064623075,
+        50.50000000000001,
+        -40.50000000000001,
+        42.17210506462309,
+        55.00000000000001,
+        48.00000000000001
+      ],
+      "native_volume_mm3": 8094.929752655104,
+      "native_feature_count": 8,
+      "native_sketch_count": 5,
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 8,
+        "sketches": 5,
+        "faces": 30,
+        "edges": 65,
+        "volume_mm3": 8094.929752655104,
+        "bounds_mm": [
+          -42.172105064623075,
+          50.50000000000001,
+          -40.50000000000001,
+          42.17210506462309,
+          55.00000000000001,
+          48.00000000000001
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-motor_mount_ring-comparison.json",
+          "sha256": "bbc26fd8343c93b5e03e43633f07d82cb86fa609ec39c2a054fc84b07cb666dd"
+        }
+      ]
+    },
+    "thigh_inner": {
+      "component_part_number": "CANDIDATE_sl_thigh_inner",
+      "native_step": "exports/slim-native-thigh_inner.step",
+      "native_step_sha256": "0264e0a75d553c6d909a1f3e7e158127a4cd2dffdc135be536563ca09a32c6ae",
+      "target_step_sha256": "b8cb7f644e92119b329e3cffac039385b432150365d77b4b92fcc5c929fefa7a",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/thigh_inner.3mf",
+      "native_3mf_sha256": "91411109b59a09bb0526bd9e64a2ef1795d8b354fe0276f6464af5b432ece40b",
+      "native_bounds_mm": [
+        -45.58933669274409,
+        9.0,
+        -191.5,
+        26.035138585656277,
+        67.00000000000001,
+        40.08248273791217
+      ],
+      "native_volume_mm3": 70861.89511182174,
+      "native_feature_count": 9,
+      "native_sketch_count": 8,
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 9,
+        "sketches": 8,
+        "faces": 81,
+        "edges": 205,
+        "volume_mm3": 70861.89511182174,
+        "bounds_mm": [
+          -45.58933669274409,
+          9.0,
+          -191.5,
+          26.035138585656277,
+          67.00000000000001,
+          40.08248273791217
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-thigh_inner-comparison.json",
+          "sha256": "4783a2f0443dac4915e4886a03937091c7c7611dd8a17178ef471c03900241d2"
+        },
+        {
+          "path": "audits/slim-thigh-temporary-native-section-comparison.json",
+          "sha256": "dea173a773fd1afc7e20aab09be7c5102bcf0ad9dae7fb33d5429c60a7cfada2"
+        },
+        {
+          "path": "audits/slim-thigh-live-surface-comparison.json",
+          "sha256": "dc92449c12419a1df88024968234cefb5fefb67dc842cd2eb2699c328ea545e8"
+        }
+      ]
+    },
+    "thigh_outer": {
+      "component_part_number": "CANDIDATE_mc_thigh_outer",
+      "native_step": "exports/motor-complex-native-thigh_outer.step",
+      "native_step_sha256": "bd72171a1c4826480f1d4afac933152f4454a979e1c19662c7b8928d60209421",
+      "target_step_sha256": "5371a23c585301b15cc4a8a1a991a10e513a9479e20a572b150ba1b0a584683e",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/thigh_outer.3mf",
+      "native_3mf_sha256": "dfcb0c23ee2a1ed600a4691e8382718eca6d37275b77e00f75fb21068ecc2642",
+      "native_bounds_mm": [
+        -45.58933669274409,
+        9.0,
+        -191.5,
+        44.71220316700585,
+        97.00000000000001,
+        51.000000000000014
+      ],
+      "native_volume_mm3": 173094.56584561605,
+      "native_feature_count": 3,
+      "native_sketch_count": 2,
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 3,
+        "sketches": 2,
+        "faces": 175,
+        "edges": 486,
+        "volume_mm3": 173094.56584561605,
+        "bounds_mm": [
+          -45.58933669274409,
+          9.0,
+          -191.5,
+          44.71220316700585,
+          97.00000000000001,
+          51.000000000000014
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-thigh-qualified-geometry.json",
+          "sha256": "bfbe9ecdbe1bf68a2fa4f9a93cfbd071d0664460485432c9d9367b0c28702de4"
+        },
+        {
+          "path": "audits/motor-complex-native-thigh_outer-geometry.json",
+          "sha256": "f0ab3edba59da3456226612b8536332dd0b97e495eaca601a48b4893364ebc27"
+        },
+        {
+          "path": "audits/motor-complex-thigh-area-convergence.json",
+          "sha256": "45225b2824cc27d4bd8dbf8e607b4d85f233ee0f3e8d445f694c87e85a3f64b8"
+        },
+        {
+          "path": "audits/motor-complex-thigh-temporary-native-section-comparison.json",
+          "sha256": "ad6f7174e3947c5e14246e727b260e612c0a3ed654c02e93624c5377d6d55727"
+        }
+      ]
+    },
+    "input_crank": {
+      "component_part_number": "CANDIDATE_mc_input_crank",
+      "native_step": "exports/motor-complex-native-input_crank.step",
+      "native_step_sha256": "277beedc5cd650be48df2acd5ad717aefb8fc3ea4a33e03fff6632eb419ccbb5",
+      "target_step_sha256": "dd3324222cfd270d35d6ce4497abd78b69aff1240762aca6465ea7f356763e9e",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/input_crank.3mf",
+      "native_3mf_sha256": "534e47934a8eac4a9b254654ec641e5da34d390e46d2f000489aa804980fd521",
+      "native_bounds_mm": [
+        -18.0,
+        54.400000000000006,
+        -18.0,
+        38.50000000000001,
+        86.0,
+        18.0
+      ],
+      "native_volume_mm3": 14720.943888934502,
+      "native_feature_count": 18,
+      "native_sketch_count": 12,
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 18,
+        "sketches": 12,
+        "faces": 77,
+        "edges": 171,
+        "volume_mm3": 14720.943888934502,
+        "bounds_mm": [
+          -18.0,
+          54.400000000000006,
+          -18.0,
+          38.50000000000001,
+          86.0,
+          18.0
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-input_crank-comparison.json",
+          "sha256": "bd6078cb250c8b259ff65a7cf9a2d5309a465415f2b91c6f398ce6e2dba75ff7"
+        }
+      ]
+    },
+    "roll_cartridge_1": {
+      "component_part_number": "CANDIDATE_pr_roll_cartridge_1",
+      "native_step": "exports/paired-native-roll_cartridge_1.step",
+      "native_step_sha256": "5ff59a30f035ab92d5007f4cf576e36013f377d94659bdd5521081040f0b357d",
+      "target_step_sha256": "cad2ccf70480917488e0964864c93f3ebd6ae245ad3cd80e66956ce1b58bca9e",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        -5,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/roll_cartridge_1.3mf",
+      "native_3mf_sha256": "5bfe6de4e2f5aba3dc6d0523b1e313f3070436577b4087f834fc79b2e92f263e",
+      "native_bounds_mm": [
+        -74.50000000000001,
+        -37.798780658685665,
+        -40.9378868614517,
+        -50.5,
+        39.99999999999999,
+        39.445482984945606
+      ],
+      "native_volume_mm3": 23313.19384065411,
+      "native_feature_count": 18,
+      "native_sketch_count": 11,
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 18,
+        "sketches": 11,
+        "faces": 94,
+        "edges": 225,
+        "volume_mm3": 23313.19384065411,
+        "bounds_mm": [
+          -74.50000000000001,
+          -37.798780658685665,
+          -40.9378868614517,
+          -50.5,
+          39.99999999999999,
+          39.445482984945606
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-roll_cartridge_1-comparison.json",
+          "sha256": "b0b76c6c15491d1421016cc98a107135f097bc3102b11722984fbce7507deb43"
+        }
+      ]
+    },
+    "roll_stator_backplate_1": {
+      "component_part_number": "CANDIDATE_pr_roll_stator_backplate_1",
+      "native_step": "exports/paired-native-roll_stator_backplate_1.step",
+      "native_step_sha256": "e24727d8883bad7f42c2eb301539086410f9bf1afb81ee88d7317769366d30e5",
+      "target_step_sha256": "8418d56a548b12916008d25e38a7d96fc695a2a68d63fc6341ff749f6baa8ee2",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        -5,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/roll_stator_backplate_1.3mf",
+      "native_3mf_sha256": "c5089cdd374450c90639ab5b000ce1a5cb5ed5d36261bbc8219da2c461a4e782",
+      "native_bounds_mm": [
+        -77.50000000000001,
+        -41.00000000000001,
+        -41.00000000000001,
+        -71.5,
+        41.00000000000001,
+        41.00000000000001
+      ],
+      "native_volume_mm3": 9081.443942548914,
+      "native_feature_count": 8,
+      "native_sketch_count": 5,
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 8,
+        "sketches": 5,
+        "faces": 40,
+        "edges": 96,
+        "volume_mm3": 9081.443942548914,
+        "bounds_mm": [
+          -77.50000000000001,
+          -41.00000000000001,
+          -41.00000000000001,
+          -71.5,
+          41.00000000000001,
+          41.00000000000001
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-roll_stator_backplate_1-comparison.json",
+          "sha256": "d1f02656296f2f7ef3267b29f65171cb229af193eee1422e9bbe5ae2c69e76bb"
+        }
+      ]
+    },
+    "roll_inner_spacer_1": {
+      "component_part_number": "CANDIDATE_pr_roll_inner_spacer_1",
+      "native_step": "exports/paired-native-roll_inner_spacer_1.step",
+      "native_step_sha256": "c73bd027069ea6d0c39f8e6aab04152ae1fe0d8c3a2e4a6c64f19167d4b57990",
+      "target_step_sha256": "c78fbc879408c9fa400fceb36c55f90d554eae20e91a2127165f117a29e9ea34",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        -5,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/roll_inner_spacer_1.3mf",
+      "native_3mf_sha256": "d34538f04287487fe940e1886e8fe4f705344f55ee0abc6952f7b8894f8f6096",
+      "native_bounds_mm": [
+        -64.5,
+        -26.25,
+        -26.25,
+        -57.5,
+        26.25,
+        26.25
+      ],
+      "native_volume_mm3": 1353.7751062849156,
+      "native_feature_count": 1,
+      "native_sketch_count": 1,
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 1,
+        "sketches": 1,
+        "faces": 4,
+        "edges": 4,
+        "volume_mm3": 1353.7751062849156,
+        "bounds_mm": [
+          -64.5,
+          -26.25,
+          -26.25,
+          -57.5,
+          26.25,
+          26.25
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-roll_inner_spacer_1-comparison.json",
+          "sha256": "cdb49a043bd7f94baca86dc470f28fbc215d2580225a3b6e066b1e4cc71aa8f5"
+        }
+      ]
+    },
+    "roll_outer_spacer_1": {
+      "component_part_number": "CANDIDATE_pr_roll_outer_spacer_1",
+      "native_step": "exports/paired-native-roll_outer_spacer_1.step",
+      "native_step_sha256": "da6dc0bedec1dfbc8250a34a46a44281a2d47b38edbabb2902c46bc25537b993",
+      "target_step_sha256": "181254600721c7fd10af11039c20ef58f3d31ed06138b2244f8c382b0ca6af72",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        -5,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/roll_outer_spacer_1.3mf",
+      "native_3mf_sha256": "c8afe611b82945329797772d70624b737b20e30797eb9c5109aeb706cfa0fd31",
+      "native_bounds_mm": [
+        -64.5,
+        -32.45,
+        -32.45,
+        -57.5,
+        32.45,
+        32.45
+      ],
+      "native_volume_mm3": 1336.0172538104962,
+      "native_feature_count": 1,
+      "native_sketch_count": 1,
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 1,
+        "sketches": 1,
+        "faces": 4,
+        "edges": 4,
+        "volume_mm3": 1336.0172538104962,
+        "bounds_mm": [
+          -64.5,
+          -32.45,
+          -32.45,
+          -57.5,
+          32.45,
+          32.45
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-roll_outer_spacer_1-comparison.json",
+          "sha256": "c492c5c588e51009f7bb81dada115164e1e0daf313278b3befa0b4bd64f7cbcd"
+        }
+      ]
+    },
+    "roll_inner_backplate_1": {
+      "component_part_number": "CANDIDATE_pr_roll_inner_backplate_1",
+      "native_step": "exports/paired-native-roll_inner_backplate_1.step",
+      "native_step_sha256": "3c64453a00e1f7620e39a228e55f4e2906b3ea14c87e002cc8293a62f8aeab6a",
+      "target_step_sha256": "b1e6c4de5a61e8643c7020963c896ad71e7c4df703878dcb5ba834954ebf9d7e",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        -5,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/roll_inner_backplate_1.3mf",
+      "native_3mf_sha256": "c3aa8c3f9d046af829e745478e76dbfd356fd3ef755845ccf9697596c94dca66",
+      "native_bounds_mm": [
+        -73.5,
+        -26.25,
+        -26.25,
+        -71.5,
+        26.25,
+        26.25
+      ],
+      "native_volume_mm3": 3839.1675943561286,
+      "native_feature_count": 3,
+      "native_sketch_count": 2,
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 3,
+        "sketches": 2,
+        "faces": 10,
+        "edges": 16,
+        "volume_mm3": 3839.1675943561286,
+        "bounds_mm": [
+          -73.5,
+          -26.25,
+          -26.25,
+          -71.5,
+          26.25,
+          26.25
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-roll_inner_backplate_1-comparison.json",
+          "sha256": "7d8aaab16422b22780abccfa75e7fc3706f31813008c1186a1f0354e38f45628"
+        }
+      ]
+    },
+    "roll_outer_retainer_1": {
+      "component_part_number": "CANDIDATE_pr_roll_outer_retainer_1",
+      "native_step": "exports/paired-native-roll_outer_retainer_1.step",
+      "native_step_sha256": "6cdfeccd6940561097caf7933f9da590c375ed7b48400333c5c8a0deaae5be70",
+      "target_step_sha256": "246f8fa19dd728da1309dc5251df8632da584d1412953dfa1af9b685b55f0dd4",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        -5,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/roll_outer_retainer_1.3mf",
+      "native_3mf_sha256": "d6a492bdca2f61c0f06dfcdb90324bc99d14ea1cd5781b28550942866fa273fb",
+      "native_bounds_mm": [
+        -50.5,
+        -36.0,
+        -40.9378868614517,
+        -48.5,
+        39.2686269690786,
+        36.00000000000001
+      ],
+      "native_volume_mm3": 1883.916444164241,
+      "native_feature_count": 7,
+      "native_sketch_count": 4,
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 7,
+        "sketches": 4,
+        "faces": 30,
+        "edges": 80,
+        "volume_mm3": 1883.916444164241,
+        "bounds_mm": [
+          -50.5,
+          -36.0,
+          -40.9378868614517,
+          -48.5,
+          39.2686269690786,
+          36.00000000000001
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-roll_outer_retainer_1-comparison.json",
+          "sha256": "07fc6cf7ae4e38f8ce0bdacd8868026b114277cfa42eb2ede4b8e3abf3382b15"
+        }
+      ]
+    },
+    "motor_carrier_1": {
+      "component_part_number": "CANDIDATE_pr_motor_carrier_1",
+      "native_step": "exports/paired-native-motor_carrier_1.step",
+      "native_step_sha256": "b4d3fa0141de0d3b877e1bfaaff0440a3edf00a92207b44899f0f57a88b3c721",
+      "target_step_sha256": "822550fccd463ac9948ef0dd7786dc64ad93b2fd3c238b143c8d28ee8223ada8",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        -5,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/motor_carrier_1.3mf",
+      "native_3mf_sha256": "95fa8c7bae96f0323ca317ebc5cb17a1124565d5f97397746d7a9479f58add82",
+      "native_bounds_mm": [
+        -71.5,
+        -48.4,
+        -44.0,
+        49.50014608158261,
+        29.000000000000004,
+        53.00000000000001
+      ],
+      "native_volume_mm3": 89974.51500690017,
+      "native_feature_count": 21,
+      "native_sketch_count": 15,
+      "physical_property_numerical_adjudication": {
+        "native_property_delta_mm3": 0.007148320277337916,
+        "evidence": {
+          "path": "audits/motor-complex-span-restore-independent.json",
+          "sha256": "8fc88e62fec8a63154efe94ea649540766f923ce0582b7d2dfefac7e2a6121a5"
+        }
+      },
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 21,
+        "sketches": 15,
+        "faces": 113,
+        "edges": 258,
+        "volume_mm3": 89974.50785857989,
+        "bounds_mm": [
+          -71.5,
+          -48.4,
+          -44.0,
+          49.50014608158261,
+          29.000000000000004,
+          53.00000000000001
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-motor_carrier_1-comparison.json",
+          "sha256": "0f030b82c0c27c9952d9c3891bba3888a1d56d1f55ac6c19e27ba810c4b14622"
+        }
+      ]
+    },
+    "hip_stator_closure_1": {
+      "component_part_number": "CANDIDATE_pr_hip_stator_closure_1",
+      "native_step": "exports/paired-native-hip_stator_closure_1.step",
+      "native_step_sha256": "4bbb56e2125b9e9a440a9a4149f3d2f8caed3f888ddaf21eae2655cc5f84f634",
+      "target_step_sha256": "75173edfdeb3b60dbc173367b3ffac71d30589349719d9cae31699f6ddccc832",
+      "saved_version": 20,
+      "state": "canonical_native",
+      "assembly_translation_mm": [
+        -5,
+        0,
+        0
+      ],
+      "native_3mf": "exports/motor-complex-native/hip_stator_closure_1.3mf",
+      "native_3mf_sha256": "dc3d2ac3d45f09f77664408aabfd2b05aefed4a8b58b5094023a5be3574679e1",
+      "native_bounds_mm": [
+        -39.50014608158262,
+        -4.0,
+        -44.0,
+        49.50014608158261,
+        -0.8999999999999997,
+        53.00000000000001
+      ],
+      "native_volume_mm3": 11882.125115246772,
+      "native_feature_count": 8,
+      "native_sketch_count": 8,
+      "export_checkpoint_version": 19,
+      "saved_native_fingerprint": {
+        "features": 8,
+        "sketches": 8,
+        "faces": 36,
+        "edges": 59,
+        "volume_mm3": 11882.125115246772,
+        "bounds_mm": [
+          -39.50014608158262,
+          -4.0,
+          -44.0,
+          49.50014608158261,
+          -0.8999999999999997,
+          53.00000000000001
+        ]
+      },
+      "geometry_comparison_evidence": [
+        {
+          "path": "audits/motor-complex-hip_stator_closure_1-comparison.json",
+          "sha256": "78b942b3eee39a11a154fcccbc13e3cb189bd2b49d94f54f89f66cbe0bbfae59"
+        }
+      ]
+    }
+  },
+  "installed_master_version": 62,
+  "installed_leg_version": 14,
+  "latest_leg_checkpoint": 20,
+  "candidate_exports_are_not_manufacturing_release": false,
+  "stock_references": [
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/fit-only-pod-long-sleeve.3mf",
+      "sha256": "30436d6295625b7781e3c1627e9cf89a51c090ee1d42b4dcaa142a455dd2ebac",
+      "bytes": 839773,
+      "part": "fit-only-pod-long-sleeve",
+      "quantity": 3,
+      "nominal_od_id_length_mm": [
+        5,
+        3.4,
+        41
+      ],
+      "native_bounds_mm": [
+        -2.4999999999999973,
+        9.5,
+        41.00000000000001,
+        2.5000000000000027,
+        50.50000000000001,
+        46.00000000000001
+      ],
+      "coordinate_system": "Native cut-stock body coordinates; print placement is a separate transform.",
+      "purpose": "Optional printed dimensional surrogate; actual clamp load requires the specified metal stock.",
+      "native_3mf": "exports/motor-complex-native/fit-only-pod-long-sleeve.3mf",
+      "native_3mf_sha256": "30436d6295625b7781e3c1627e9cf89a51c090ee1d42b4dcaa142a455dd2ebac",
+      "saved_version": 20,
+      "export_checkpoint_version": 19
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/fit-only-pod-short-sleeve.3mf",
+      "sha256": "2fc005e5975da86f183d23fc15aeb4d073d246ccec2668f3cbad02a31cce5777",
+      "bytes": 151101,
+      "part": "fit-only-pod-short-sleeve",
+      "quantity": 3,
+      "nominal_od_id_length_mm": [
+        5,
+        3.4,
+        6
+      ],
+      "native_bounds_mm": [
+        -2.4999999999999973,
+        55.00000000000001,
+        41.00000000000001,
+        2.5000000000000027,
+        61.000000000000014,
+        46.00000000000001
+      ],
+      "coordinate_system": "Native cut-stock body coordinates; print placement is a separate transform.",
+      "purpose": "Optional printed dimensional surrogate; actual clamp load requires the specified metal stock.",
+      "native_3mf": "exports/motor-complex-native/fit-only-pod-short-sleeve.3mf",
+      "native_3mf_sha256": "2fc005e5975da86f183d23fc15aeb4d073d246ccec2668f3cbad02a31cce5777",
+      "saved_version": 20,
+      "export_checkpoint_version": 19
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/fit-only-thigh-clamp-sleeve.3mf",
+      "sha256": "8d161ea0a8d529c9d8b2239edd95d96b2e499beb814a80a7d555decf8322b307",
+      "bytes": 275976,
+      "part": "fit-only-thigh-clamp-sleeve",
+      "quantity": 2,
+      "nominal_od_id_length_mm": [
+        8,
+        4.3,
+        18
+      ],
+      "native_bounds_mm": [
+        -40.0,
+        58.00000000000001,
+        -70.0,
+        -32.0,
+        76.0,
+        -62.000000000000014
+      ],
+      "coordinate_system": "Native cut-stock body coordinates; print placement is a separate transform.",
+      "purpose": "Optional printed dimensional surrogate; actual clamp load requires the specified metal stock.",
+      "native_3mf": "exports/motor-complex-native/fit-only-thigh-clamp-sleeve.3mf",
+      "native_3mf_sha256": "8d161ea0a8d529c9d8b2239edd95d96b2e499beb814a80a7d555decf8322b307",
+      "saved_version": 20,
+      "export_checkpoint_version": 19
+    }
+  ],
+  "review_model": "exports/motor-complex-native/native-bench-review-canonical.json.gz",
+  "review_model_sha256": "e44b657cb905e57f9610de36e6259426017fb92dc0d0928db955a2199da34e12",
+  "review_model_gzip_sha256": "035aa171d9bc7d9d85ae958c54cde1b0f20d3d0c3ae9ee1ef192d888c62fe640",
+  "motion_enabled": false,
+  "global_migration_status": "partial",
+  "source_target_retained_as_reference": true,
+  "full_robot_authority": "Generated current robot remains a migration reference until its native assembly is updated and audited.",
+  "review_geometry_sha256": "ef797d5bb6215d95902dcce7eb0c5129fc31a561fa05d2347556815cbc971dc9",
+  "private_candidate_manifest_sha256": "104798de52453ab223a1e9c642b39dedea387fc1cbcd83b5fc00fcb6acf0b8c4",
+  "private_candidate_model_sha256": "8f3f6290c7e8b9fb6985bb2a46b62597e1666ca7816bf00e39d766862b232a8d",
+  "promotion_evidence": [
+    {
+      "path": "audits/motor-complex-span-restore-independent.json",
+      "sha256": "8fc88e62fec8a63154efe94ea649540766f923ce0582b7d2dfefac7e2a6121a5"
+    },
+    {
+      "path": "audits/motor-complex-saved-reopen.json",
+      "sha256": "3c5de624d1060a8b5c86bdb722bc443d3b7812c1603411e9cd46d2319466160d"
+    },
+    {
+      "path": "audits/motor-complex-family-edits.json",
+      "sha256": "2b32de67fb77a011ba19ee161c7857670b7d2c6464f44bdaff4fe80072801e10"
+    },
+    {
+      "path": "audits/motor-complex-native-critical-interfaces.json",
+      "sha256": "f2e6905c7a5640d30a72268d1cfae2595a18a1628f34e09213d7dccfb2ba6041"
+    },
+    {
+      "path": "audits/motor-complex-native-export-validation.json",
+      "sha256": "275c8f3f264bf2a27ed052bfdd2d2819c23cf4886e421f0492f93480c7e9ccc4"
+    },
+    {
+      "path": "audits/motor-complex-browser-candidate.json",
+      "sha256": "4c8a2e117e325a91a7b07dc2dcd1390e3b0959a18cb8311ea54029af8f207744"
+    },
+    {
+      "path": "audits/motor-complex-browser-placements.json",
+      "sha256": "ea8d50680af37b84459faa982a0586bcfd85e04e311b5ad5829533a4b7481d60"
+    },
+    {
+      "path": "audits/native-motor-complex-assembly/release-report.json",
+      "sha256": "a4be6ecd935cc247992de46c92d86f601b5702697017aebc8fee1902f158b71b"
+    },
+    {
+      "path": "audits/motor-complex-effective-visibility.json",
+      "sha256": "b0306ee393af46df123bd280f22e7ce24a019963f03f80206557a41c2d84546a"
+    },
+    {
+      "path": "audits/motor-complex-final-checkpoint.json",
+      "sha256": "b9d3c74d9be8136e9e358229f8f618eca8262e3582e0e402fbff1ec390dcb98e"
+    },
+    {
+      "path": "audits/retired-leg-solver-cleanup.json",
+      "sha256": "dcff6b6141c8b49806b249116e06cce80069f15365728c2cc3fd67c736613717"
+    },
+    {
+      "path": "audits/loaded-document-contexts.json",
+      "sha256": "0d4db1ece94bc5e4bedda6b8dbdb997a4646285853b071d9fddbb63d1d23036d"
+    }
+  ],
+  "native_file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+  "updated_utc": "2026-10-29T08:20:01.208000+00:00",
+  "manufacturing_scope": "Complete motor-complex fit/assembly release withheld pending confirmed neutral closure/tie interference correction",
+  "limitations": [
+    "Static bench: no joint preview or automatic hardware repositioning after family edits is claimed.",
+    "Fifteen postclosure tool routes are intentionally unavailable; follow the checked staged assembly/service order.",
+    "Purchased references are independently hideable envelopes; verify actual hardware dimensions.",
+    "No full-robot, loaded-strength, continuous-motion, or 20 kg payload qualification."
+  ],
+  "assembly_release_ready": false,
+  "known_design_limitations": [
+    {
+      "id": "neutral-closure-button-pod-tie-contact",
+      "classification": "design defect, not native translation defect",
+      "audit": "audits/bench-closure-tie-solid-screen.json",
+      "audit_sha256": "cfe0ce737b30c82dc8211fe69e738c5d4ad4dd0a928e962dc422ecfd9543a1cb",
+      "description": "Neutral hip0 has a 4.54399 mm3 closure90/tie90 intersection and two 0.009262 mm3 adjacent button/tie intersections. Complete assembly printing and operation are withheld; native geometry authority remains scoped to the saved13 custom definitions.",
+      "native_confirmation": "audits/whole-hardware-native-suspects.json"
+    }
+  ],
+  "previous_authority_manifest_sha256": "396c8155f22fadd967388e00d3df22499312d2b04e7e8fa68b5dd75f64e2267c"
+}

@@ -1,0 +1,72 @@
+{
+  "model_sha256": "2451760ad9dd1f93847a889a1574c8293e8fdf16ef51bc097ed274f109d549f2",
+  "native_inputs": [
+    {
+      "key": "body_center_0",
+      "native_file": "exports/current-body-cover-native.step",
+      "sha256": "cd7e2cd07ee02efe1433fb60096a0b0fa55e753c27ba0afd7ddd878dcc50ec7e"
+    },
+    {
+      "key": "front_fascia",
+      "native_file": "exports/current-sensor-hood-native.step",
+      "sha256": "7ff954acaaba99aba57553edcb26320fbc888e5287d03ba01b1adb9ccac6c487"
+    },
+    {
+      "key": "body_nose_surround",
+      "native_file": "exports/current-sensor-cradle-native.step",
+      "sha256": "5ad37ecc413770e11362a42ee39c5812c310558d3332f3d1f49571f3917269a4"
+    }
+  ],
+  "fixed_fit_checks": [
+    {
+      "pair": [
+        "body_center_0",
+        "front_fascia"
+      ],
+      "volume_mm3": 0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_center_0",
+        "body_nose_surround"
+      ],
+      "volume_mm3": 0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "front_fascia",
+        "body_nose_surround"
+      ],
+      "volume_mm3": 0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_center_0",
+        "source crossmember"
+      ],
+      "volume_mm3": 0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "front_fascia",
+        "source crossmember"
+      ],
+      "volume_mm3": 0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_nose_surround",
+        "source crossmember"
+      ],
+      "volume_mm3": 0,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Three current native sensor/body parts with frozen original robot hardware. Crossmember remains the generated reference with its two M4 holes; not full native assembly validation."
+}

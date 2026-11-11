@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "deleted_files": 0,
+  "editable_status_changes": 2,
+  "unrelated_files_touched": 0,
+  "moved": [
+    {
+      "file_id": "urn:adsk.wipprod:dm.lineage:IHZUaHmjTLmK4GE7bEpphw",
+      "name": "V0 - Knee motor stator plate",
+      "destination": "02 Validation exports/Native editability proofs",
+      "version": 1,
+      "reason": "Unreferenced native editability proof retained for audit",
+      "verified": true
+    }
+  ],
+  "previously_archived": [
+    {
+      "file_id": "urn:adsk.wipprod:dm.lineage:2plOJS9aS1-Cu5zPRWWolw",
+      "destination": "02 Validation exports/Retired native drafts",
+      "version": 1,
+      "reason": "Superseded native thigh; retained version and audit evidence",
+      "parent_references": 0
+    }
+  ],
+  "retained": {
+    "source_master_version": 58,
+    "source_master_reason": "Saved migration baseline; do not remove until subsystem and assembly gates pass",
+    "current_part_references": 7,
+    "current_part_reason": "Still referenced by original master and subsystem consolidation copies",
+    "internal_components": 53,
+    "internal_reason": "Current geometry and assembly dependencies; not obsolete"
+  },
+  "evidence": [
+    "audits/cleanup-proof-file-verification.json",
+    "audits/thigh_outer-published-geometry.json"
+  ],
+  "cleanup_complete": false,
+  "status_change_note": "Verified activation of Leg and Chassis subsystem files through Fusion Make Editable; no deactivations yet."
+}

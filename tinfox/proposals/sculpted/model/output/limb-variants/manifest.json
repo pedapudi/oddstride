@@ -1,0 +1,41 @@
+{
+  "parent_model_sha256": "144a84e88daed50139f890480e9f1a1740cfb20c773e740ba6b4e9c1b9eede5e",
+  "variants": [
+    {
+      "id": "printed",
+      "title": "Printed first prototype",
+      "scope": "Custom limb parts, from roll cartridge to shin; body and battery design are unchanged. Standard bearings, pins, sleeves, fasteners and motors remain purchased/metal hardware.",
+      "status": "Manufacturing study; not load-qualified",
+      "base_mass_estimate_kg": 12.259445477422151,
+      "directory": "printed",
+      "custom_part_geometries": 28,
+      "custom_parts_per_robot": 44,
+      "print_files": 28,
+      "weight_relief_kg": 0
+    },
+    {
+      "id": "hybrid",
+      "title": "Printed shells with metal joint parts",
+      "scope": "Custom limb parts, from roll cartridge to shin; body and battery design are unchanged. Standard bearings, pins, sleeves, fasteners and motors remain purchased/metal hardware.",
+      "status": "Manufacturing study; not load-qualified",
+      "base_mass_estimate_kg": 13.123118483316714,
+      "directory": "hybrid",
+      "custom_part_geometries": 24,
+      "custom_parts_per_robot": 40,
+      "print_files": 8,
+      "weight_relief_kg": 0.06466501222985366
+    },
+    {
+      "id": "cnc",
+      "title": "All-metal custom limb parts",
+      "scope": "Custom limb parts, from roll cartridge to shin; body and battery design are unchanged. Standard bearings, pins, sleeves, fasteners and motors remain purchased/metal hardware.",
+      "status": "Manufacturing study; not load-qualified",
+      "base_mass_estimate_kg": 14.239098568108677,
+      "directory": "cnc",
+      "custom_part_geometries": 24,
+      "custom_parts_per_robot": 40,
+      "print_files": 0,
+      "weight_relief_kg": 0.5133509325347841
+    }
+  ]
+}

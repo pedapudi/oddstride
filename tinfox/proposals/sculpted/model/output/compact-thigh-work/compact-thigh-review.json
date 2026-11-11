@@ -1,0 +1,68 @@
+{
+  "model_sha256": "2d14660450090738f7266bfdedb5c5084d41053de297ea52f72b457c30b9b0f9",
+  "source_model_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "cap_reduction_mm": 6,
+  "root_start_before_mm": 47,
+  "root_start_after_mm": 9,
+  "parts": [
+    {
+      "part": "thigh_inner",
+      "before_volume_mm3": 62495.131312266334,
+      "after_volume_mm3": 89381.77000205929,
+      "mass_change_g": 34.14603113603705
+    },
+    {
+      "part": "thigh_outer",
+      "before_volume_mm3": 115472.17368711463,
+      "after_volume_mm3": 118148.60845410345,
+      "mass_change_g": 3.399072154075805
+    }
+  ],
+  "whole_robot_mass_change_kg": 0.15018041316045141,
+  "added_pose_pairs": [
+    [
+      "sample_-45_30_-140",
+      [
+        [
+          "FL_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "belly_center_0"
+        ]
+      ]
+    ],
+    [
+      "sample_-45_30_-90",
+      [
+        [
+          "FL_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "belly_center_0"
+        ]
+      ]
+    ],
+    [
+      "sample_-45_30_-60",
+      [
+        [
+          "FL_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "belly_center_0"
+        ]
+      ]
+    ]
+  ],
+  "added_knee_pairs": [],
+  "manufacturing_scope": "Two structural thigh halves. Existing metal mounting plate, compression ties and bearing/axle stack retained. Printed strength, cooling and physical assembly remain unqualified.",
+  "previously_clear_poses_lost": [],
+  "inherited_invalid_pose_contact_note": "Additional cup/belly contacts occur only in three poses already colliding in the source. No previously clear sampled pose is lost.",
+  "print_orientation_note": "Orient broad side surfaces toward the bed. The stepped split and curved knee boss require localized supports; the oriented STL files are starting orientations and need slicer review."
+}

@@ -1,0 +1,60 @@
+{
+  "point_mm": [
+    -34.30355086222323,
+    -51.000000269579,
+    -131.37555592957895
+  ],
+  "native_classification": [
+    {
+      "axis": 0,
+      "delta_mm": -0.005,
+      "containment": "0"
+    },
+    {
+      "axis": 0,
+      "delta_mm": 0,
+      "containment": "1"
+    },
+    {
+      "axis": 0,
+      "delta_mm": 0.005,
+      "containment": "2"
+    },
+    {
+      "axis": 1,
+      "delta_mm": -0.005,
+      "containment": "2"
+    },
+    {
+      "axis": 1,
+      "delta_mm": 0,
+      "containment": "1"
+    },
+    {
+      "axis": 1,
+      "delta_mm": 0.005,
+      "containment": "0"
+    },
+    {
+      "axis": 2,
+      "delta_mm": -0.005,
+      "containment": "2"
+    },
+    {
+      "axis": 2,
+      "delta_mm": 0,
+      "containment": "1"
+    },
+    {
+      "axis": 2,
+      "delta_mm": 0.005,
+      "containment": "0"
+    }
+  ],
+  "units": "millimeters; containment enum: 0 inside, 1 on boundary, 2 outside",
+  "enum_inside": 0,
+  "enum_outside": 2,
+  "enum_on": 1,
+  "passed": true,
+  "finding": "Exact source vertex is on the native Fusion boundary. Opposite inside/outside classifications bracket it at +/-0.005 mm along all three axes. OCC source and native solid classifiers reproduce those classifications although native STEP face-compound distance incorrectly reports 0.3184723873 mm."
+}

@@ -1,0 +1,38 @@
+{
+  "model_sha256": "144a84e88daed50139f890480e9f1a1740cfb20c773e740ba6b4e9c1b9eede5e",
+  "deck_dimensions_mm": [
+    134.0,
+    186.0,
+    4.0
+  ],
+  "deck_mass_g": 88.426,
+  "fixed_brace_mass_g": 81.635,
+  "assembly_mass_delta_g": 131.68899999999974,
+  "flat_section_verified": true,
+  "designed_support_area_mm2": 0.0,
+  "computer_to_roof_gap_mm": 2.5,
+  "battery_screw_clearances": [
+    {
+      "side": -1,
+      "x_mm": -52,
+      "battery_to_deck_screw_mm": 2.924716620639604
+    },
+    {
+      "side": -1,
+      "x_mm": 52,
+      "battery_to_deck_screw_mm": 2.924716620639604
+    },
+    {
+      "side": 1,
+      "x_mm": -52,
+      "battery_to_deck_screw_mm": 2.924716620639604
+    },
+    {
+      "side": 1,
+      "x_mm": 52,
+      "battery_to_deck_screw_mm": 2.924716620639604
+    }
+  ],
+  "independent_service_paths": true,
+  "scope": "Nominal solids, sampled service paths and geometric print orientation. No slicer toolpath, thread pullout, frame racking, printed creep or thermal test."
+}

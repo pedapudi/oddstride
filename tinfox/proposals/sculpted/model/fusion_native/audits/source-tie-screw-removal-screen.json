@@ -1,0 +1,65 @@
+{
+  "source_model_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "tie_step": {
+    "path": "snapshots/current-targets/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/step/chassis_crossmember_121.step",
+    "sha256": "6bf4e78d7e620d7870d738a7f4c29d82de6d0a884cec3fa0c143314270c92173",
+    "resolved_source": "output/limb-refinement/step/chassis_crossmember_121.step"
+  },
+  "bolt_step": {
+    "key": "chassis_tie_bolt_121_1_3",
+    "state": "source_matched_reference",
+    "path": "snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/chassis_tie_bolt_121_1_3.step",
+    "sha256": "737c722fe08073dbf7f5be76fc0855e0dc3f5e79cb0516e2c7380c0cbcfc5951",
+    "source": "output/integrated-candidate/step/chassis_tie_bolt_121_1_3.step",
+    "translation_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "frozen_mesh_sha256": "6dce3e4671d0e05683605efb69ec5f9040f8bd230a5376a78e1a1dc136f1101d",
+    "volume_error_mm3": 0.0,
+    "sampled_frozen_vertex_boundary_error_mm": 1.4210854715202004e-14,
+    "samples": 80,
+    "custom_native_authoring": false,
+    "source_metadata_consistent": true,
+    "metadata_note": null
+  },
+  "part": "chassis_tie_bolt_121_1_3",
+  "removal_axis": [
+    0,
+    0,
+    1
+  ],
+  "samples": [
+    {
+      "upward_travel_mm": 0,
+      "interference_mm3": 0
+    },
+    {
+      "upward_travel_mm": 0.2,
+      "interference_mm3": 0
+    },
+    {
+      "upward_travel_mm": 0.5,
+      "interference_mm3": 0
+    },
+    {
+      "upward_travel_mm": 1,
+      "interference_mm3": 0
+    },
+    {
+      "upward_travel_mm": 2,
+      "interference_mm3": 0
+    },
+    {
+      "upward_travel_mm": 4,
+      "interference_mm3": 0
+    },
+    {
+      "upward_travel_mm": 8,
+      "interference_mm3": 0
+    }
+  ],
+  "straight_lift_clear": true,
+  "scope": "One frozen transverse tie screw against its tie, using exact solids. This screens straight axial removal; it does not rule out an angled assembly path."
+}

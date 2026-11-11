@@ -1,0 +1,599 @@
+{
+  "variant": {
+    "id": "printed",
+    "title": "Printed first prototype",
+    "scope": "Custom limb parts, from roll cartridge to shin; body and battery design are unchanged. Standard bearings, pins, sleeves, fasteners and motors remain purchased/metal hardware.",
+    "status": "Manufacturing study; not load-qualified",
+    "base_mass_estimate_kg": 12.259445477422151
+  },
+  "parts": [
+    {
+      "id": "roll_cartridge_1",
+      "title": "roll cartridge 1",
+      "quantity": 1,
+      "material": "petg",
+      "step": "step/roll_cartridge_1.step",
+      "stl": "stl/roll_cartridge_1.stl",
+      "mass_kg": 0.02601928937336012,
+      "volume_mm3": 20487.629427842618,
+      "unrelieved_mass_kg": 0.021596377005452777,
+      "weight_relief_kg": 0,
+      "step_sha256": "76516afc430fb57e7b260c99eebe39f20ba6ccd426d1844044c67541189b9364",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/roll_cartridge_1.stl",
+      "print_bounds_mm": [
+        82.0,
+        81.9745101928711,
+        17.299999137060546
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "hip_hub",
+      "title": "hip hub",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/hip_hub.step",
+      "stl": "stl/hip_hub.stl",
+      "mass_kg": 0.03238934053731393,
+      "volume_mm3": 25503.417745916482,
+      "unrelieved_mass_kg": 0.02948075981084085,
+      "weight_relief_kg": 0,
+      "step_sha256": "317761f80e1112c2eec78943408324e3b7caab2919ddb5e148649b6a84705b52",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/hip_hub.stl",
+      "print_bounds_mm": [
+        95.97016143798828,
+        96.0,
+        8.0
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "motor_mount_ring",
+      "title": "motor mount ring",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/motor_mount_ring.step",
+      "stl": "stl/motor_mount_ring.stl",
+      "mass_kg": 0.016390031935696443,
+      "volume_mm3": 12905.536957241295,
+      "unrelieved_mass_kg": 0.016390031935696443,
+      "weight_relief_kg": 0,
+      "step_sha256": "9216be4b69ea04f8feece8a35c96fc6271edb0792c1c975c61e4b8a54e5c2dee",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/motor_mount_ring.stl",
+      "print_bounds_mm": [
+        95.97016143798828,
+        96.0,
+        3.0
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "thigh_inner",
+      "title": "thigh inner",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/thigh_inner.step",
+      "stl": "stl/thigh_inner.stl",
+      "mass_kg": 0.11898513022814637,
+      "volume_mm3": 93689.0789198003,
+      "unrelieved_mass_kg": 0.11898513022814637,
+      "weight_relief_kg": 0,
+      "step_sha256": "5ee6e1593cdb115b574aa610c578aef576257bb4aa8d0d1f7f8cbc75f25b81a8",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/thigh_inner.stl",
+      "print_bounds_mm": [
+        98.0,
+        237.97821044921875,
+        57.9999999
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "thigh_outer",
+      "title": "thigh outer",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/thigh_outer.step",
+      "stl": "stl/thigh_outer.stl",
+      "mass_kg": 0.12255240071995285,
+      "volume_mm3": 96497.95332279753,
+      "unrelieved_mass_kg": 0.12255240071995285,
+      "weight_relief_kg": 0,
+      "step_sha256": "2e24dd27674304a7178fa61e4139d8ff92d1413d61af29675863be801ed87840",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/thigh_outer.stl",
+      "print_bounds_mm": [
+        98.99850082397461,
+        238.25038146972656,
+        44.29999923706055
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "input_crank",
+      "title": "input crank",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/input_crank.step",
+      "stl": "stl/input_crank.stl",
+      "mass_kg": 0.01920489232133998,
+      "volume_mm3": 15121.962457748017,
+      "unrelieved_mass_kg": 0.019463562525816533,
+      "weight_relief_kg": 0,
+      "step_sha256": "792ddcd897ab69d3246df551b520d6c1e8f97ea87a523a5eec6fa40fed1b1b34",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/input_crank.stl",
+      "print_bounds_mm": [
+        50.49675369262695,
+        36.0,
+        27.600000281469725
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "pushrod",
+      "title": "pushrod",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/pushrod.step",
+      "stl": "stl/pushrod.stl",
+      "mass_kg": 0.0134575923625694,
+      "volume_mm3": 10596.529419345985,
+      "unrelieved_mass_kg": 0.009175879198500471,
+      "weight_relief_kg": 0,
+      "step_sha256": "a771b5963e6cf9ba8866a50ac872494e48536ada3247d334c5f6f61a18148407",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/pushrod.stl",
+      "print_bounds_mm": [
+        15.0,
+        184.99533081054688,
+        6.000000000000001
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "shin_inner",
+      "title": "shin inner",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/shin_inner.step",
+      "stl": "stl/shin_inner.stl",
+      "mass_kg": 0.0490532273298087,
+      "volume_mm3": 38624.58844866827,
+      "unrelieved_mass_kg": 0.04905322733106194,
+      "weight_relief_kg": 0,
+      "step_sha256": "1fb4b07b3ad36269b53046e11b6cbc60e9561fe1b36c614218e9a72a4587e233",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/shin_inner.stl",
+      "print_bounds_mm": [
+        166.0,
+        34.0,
+        24.49999628463479
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "shin_outer",
+      "title": "shin outer",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/shin_outer.step",
+      "stl": "stl/shin_outer.stl",
+      "mass_kg": 0.0568092471337124,
+      "volume_mm3": 44731.69065646646,
+      "unrelieved_mass_kg": 0.0568092471337124,
+      "weight_relief_kg": 0,
+      "step_sha256": "12e4db21f208a60ab170d79b6f01cc920087f78dc6ceec93264b45fe77aaf59a",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/shin_outer.stl",
+      "print_bounds_mm": [
+        166.0,
+        34.0,
+        24.496088897343725
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "roll_cartridge_1_right",
+      "title": "roll cartridge 1 right",
+      "quantity": 1,
+      "material": "petg",
+      "step": "step/roll_cartridge_1_right.step",
+      "stl": "stl/roll_cartridge_1_right.stl",
+      "mass_kg": 0.02601928937336012,
+      "volume_mm3": 20487.629427842618,
+      "unrelieved_mass_kg": 0.021596373885724017,
+      "weight_relief_kg": 0,
+      "step_sha256": "0eb9b72a0524d1870510c2b33bdae2be65069698c22876ef1bbe32e62c0f8885",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/roll_cartridge_1_right.stl",
+      "print_bounds_mm": [
+        82.0,
+        81.9745101928711,
+        17.299999137060546
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "hip_hub_right",
+      "title": "hip hub right",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/hip_hub_right.step",
+      "stl": "stl/hip_hub_right.stl",
+      "mass_kg": 0.03238934053731393,
+      "volume_mm3": 25503.417745916482,
+      "unrelieved_mass_kg": 0.0294807598108382,
+      "weight_relief_kg": 0,
+      "step_sha256": "f5569b77dfc8ba48803ee3486c7de7ff441eae2e8902ddfcf054a72cfe4b556c",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/hip_hub_right.stl",
+      "print_bounds_mm": [
+        95.97016143798828,
+        96.0,
+        8.0
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "motor_mount_ring_right",
+      "title": "motor mount ring right",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/motor_mount_ring_right.step",
+      "stl": "stl/motor_mount_ring_right.stl",
+      "mass_kg": 0.016390031935696443,
+      "volume_mm3": 12905.536957241295,
+      "unrelieved_mass_kg": 0.016390031935694983,
+      "weight_relief_kg": 0,
+      "step_sha256": "b6f24ecc5c667f3f98c3b28bff12a6bfa02343bc229793a433e40a701aafdd3b",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/motor_mount_ring_right.stl",
+      "print_bounds_mm": [
+        95.97016143798828,
+        96.0,
+        3.0
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "thigh_inner_right",
+      "title": "thigh inner right",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/thigh_inner_right.step",
+      "stl": "stl/thigh_inner_right.stl",
+      "mass_kg": 0.11898513022814637,
+      "volume_mm3": 93689.0789198003,
+      "unrelieved_mass_kg": 0.11898483255130168,
+      "weight_relief_kg": 0,
+      "step_sha256": "e1e85b93c7cef1f49d79f23cee7c5234b2fcbeec4bba0ee7ac82b050bf80eaf5",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/thigh_inner_right.stl",
+      "print_bounds_mm": [
+        98.0,
+        237.97821044921875,
+        57.9999999
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "thigh_outer_right",
+      "title": "thigh outer right",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/thigh_outer_right.step",
+      "stl": "stl/thigh_outer_right.stl",
+      "mass_kg": 0.12255240071995285,
+      "volume_mm3": 96497.95332279753,
+      "unrelieved_mass_kg": 0.12255192816764703,
+      "weight_relief_kg": 0,
+      "step_sha256": "0bde48e76d3674e80242f02e8058891bc7edf8fb0482dc1c570983519ebb0b06",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/thigh_outer_right.stl",
+      "print_bounds_mm": [
+        98.99850082397461,
+        238.25038146972656,
+        44.29999923706055
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "input_crank_right",
+      "title": "input crank right",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/input_crank_right.step",
+      "stl": "stl/input_crank_right.stl",
+      "mass_kg": 0.01920489232133998,
+      "volume_mm3": 15121.962457748017,
+      "unrelieved_mass_kg": 0.019463562547463467,
+      "weight_relief_kg": 0,
+      "step_sha256": "81dc19708c476d47ab013d4a5f94d173387823e8dea99ee53c4a519591ca9fec",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/input_crank_right.stl",
+      "print_bounds_mm": [
+        50.49675369262695,
+        36.0,
+        27.600000281469725
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "pushrod_right",
+      "title": "pushrod right",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/pushrod_right.step",
+      "stl": "stl/pushrod_right.stl",
+      "mass_kg": 0.0134575923625694,
+      "volume_mm3": 10596.529419345985,
+      "unrelieved_mass_kg": 0.009175879198500525,
+      "weight_relief_kg": 0,
+      "step_sha256": "064f316ddfa70b263978dbdf0842d84bb2d89bb6a22c37bbbb701da4b2f51940",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/pushrod_right.stl",
+      "print_bounds_mm": [
+        15.0,
+        184.99533081054688,
+        6.000000000000001
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "shin_inner_right",
+      "title": "shin inner right",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/shin_inner_right.step",
+      "stl": "stl/shin_inner_right.stl",
+      "mass_kg": 0.0490532273298087,
+      "volume_mm3": 38624.58844866827,
+      "unrelieved_mass_kg": 0.04905322718327448,
+      "weight_relief_kg": 0,
+      "step_sha256": "1491d3d87f411eaf15f4eb27de9fd65e97c6e13d25cb194bd176604baf777ae1",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/shin_inner_right.stl",
+      "print_bounds_mm": [
+        166.0,
+        34.0,
+        24.49999628463479
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "shin_outer_right",
+      "title": "shin outer right",
+      "quantity": 2,
+      "material": "petg",
+      "step": "step/shin_outer_right.step",
+      "stl": "stl/shin_outer_right.stl",
+      "mass_kg": 0.0568092471337124,
+      "volume_mm3": 44731.69065646646,
+      "unrelieved_mass_kg": 0.056809246710446556,
+      "weight_relief_kg": 0,
+      "step_sha256": "ac6e8a3e7f96866f24f27f51f3a58c47ee3409f5144acb92aaca17ddbee2eead",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/shin_outer_right.stl",
+      "print_bounds_mm": [
+        166.0,
+        34.0,
+        24.496088897343725
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "roll_cartridge_-1",
+      "title": "roll cartridge -1",
+      "quantity": 1,
+      "material": "petg",
+      "step": "step/roll_cartridge_-1.step",
+      "stl": "stl/roll_cartridge_-1.stl",
+      "mass_kg": 0.02601799175402762,
+      "volume_mm3": 20486.60768033671,
+      "unrelieved_mass_kg": 0.02159637388572728,
+      "weight_relief_kg": 0,
+      "step_sha256": "3d47083d8ddfc4243bdd91f5933e21e189c6be564e8a519c68fbc1fe343d69ce",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/roll_cartridge_-1.stl",
+      "print_bounds_mm": [
+        82.0,
+        81.9745101928711,
+        17.29999923706055
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "roll_cartridge_-1_right",
+      "title": "roll cartridge -1 right",
+      "quantity": 1,
+      "material": "petg",
+      "step": "step/roll_cartridge_-1_right.step",
+      "stl": "stl/roll_cartridge_-1_right.stl",
+      "mass_kg": 0.02601799175402762,
+      "volume_mm3": 20486.60768033671,
+      "unrelieved_mass_kg": 0.02159637700546388,
+      "weight_relief_kg": 0,
+      "step_sha256": "9c7c8657cd20d71bfb0c9ef3b88170486576a472b4b00f9a8b651ab4da1eb18b",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/roll_cartridge_-1_right.stl",
+      "print_bounds_mm": [
+        82.0,
+        81.9745101928711,
+        17.29999923706055
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "motor_carrier_1_trunnion",
+      "title": "motor carrier 1 trunnion",
+      "quantity": 1,
+      "material": "petg",
+      "step": "step/motor_carrier_1_trunnion.step",
+      "stl": "stl/motor_carrier_1_trunnion.stl",
+      "mass_kg": 0.050100163251398586,
+      "volume_mm3": 39448.947442046134,
+      "unrelieved_mass_kg": 0.050100163251398586,
+      "weight_relief_kg": 0,
+      "step_sha256": "40c8bfcd7db9d76d81a54d126efc9a545702c596dedaada6478fa4fdcbca7a2d",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/motor_carrier_1_trunnion.stl",
+      "print_bounds_mm": [
+        57.99233627319336,
+        58.0,
+        28.299999137060546
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "motor_carrier_1_flange",
+      "title": "motor carrier 1 flange",
+      "quantity": 1,
+      "material": "petg",
+      "step": "step/motor_carrier_1_flange.step",
+      "stl": "stl/motor_carrier_1_flange.stl",
+      "mass_kg": 0.0626446264248388,
+      "volume_mm3": 49326.47749987307,
+      "unrelieved_mass_kg": 0.0626446264248388,
+      "weight_relief_kg": 0,
+      "step_sha256": "a449550b151e1b7ff7aa500404249f52c3dcd14663c5d4a016aac024b5e7b993",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/motor_carrier_1_flange.stl",
+      "print_bounds_mm": [
+        93.0,
+        87.97589111328125,
+        49.5
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "motor_carrier_1_right_trunnion",
+      "title": "motor carrier 1 right trunnion",
+      "quantity": 1,
+      "material": "petg",
+      "step": "step/motor_carrier_1_right_trunnion.step",
+      "stl": "stl/motor_carrier_1_right_trunnion.stl",
+      "mass_kg": 0.05009928137427325,
+      "volume_mm3": 39448.25305060886,
+      "unrelieved_mass_kg": 0.05009928137427325,
+      "weight_relief_kg": 0,
+      "step_sha256": "f277f3e86bcdfd116f030b3a1874cebb1c40b624dab83e6ce72ea29dab8de5d6",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/motor_carrier_1_right_trunnion.stl",
+      "print_bounds_mm": [
+        57.99233627319336,
+        58.0,
+        28.299999137060546
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "motor_carrier_1_right_flange",
+      "title": "motor carrier 1 right flange",
+      "quantity": 1,
+      "material": "petg",
+      "step": "step/motor_carrier_1_right_flange.step",
+      "stl": "stl/motor_carrier_1_right_flange.stl",
+      "mass_kg": 0.0626446264248388,
+      "volume_mm3": 49326.47749987307,
+      "unrelieved_mass_kg": 0.0626446264248388,
+      "weight_relief_kg": 0,
+      "step_sha256": "ffc506226290f795425d9de8da0cb63e8e832545e57b9fcbf71e3b14c1d1ccc3",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/motor_carrier_1_right_flange.stl",
+      "print_bounds_mm": [
+        93.0,
+        87.97589111328125,
+        49.4999999
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "motor_carrier_-1_trunnion",
+      "title": "motor carrier -1 trunnion",
+      "quantity": 1,
+      "material": "petg",
+      "step": "step/motor_carrier_-1_trunnion.step",
+      "stl": "stl/motor_carrier_-1_trunnion.stl",
+      "mass_kg": 0.050099281643960894,
+      "volume_mm3": 39448.253262961334,
+      "unrelieved_mass_kg": 0.050099281643960894,
+      "weight_relief_kg": 0,
+      "step_sha256": "8a8044a3f3af981f2dda6656e129a5be0e580c9ec11bc81b692393dca75d6c58",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/motor_carrier_-1_trunnion.stl",
+      "print_bounds_mm": [
+        57.99233627319336,
+        58.0,
+        28.299999137060553
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "motor_carrier_-1_flange",
+      "title": "motor carrier -1 flange",
+      "quantity": 1,
+      "material": "petg",
+      "step": "step/motor_carrier_-1_flange.step",
+      "stl": "stl/motor_carrier_-1_flange.stl",
+      "mass_kg": 0.06264465112281456,
+      "volume_mm3": 49326.49694709809,
+      "unrelieved_mass_kg": 0.06264465112281456,
+      "weight_relief_kg": 0,
+      "step_sha256": "4942ad84c77cf59f355fac7ac6d944387566b1dd61dfc27d6ca1faabc5748a9c",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/motor_carrier_-1_flange.stl",
+      "print_bounds_mm": [
+        93.0,
+        87.97589111328125,
+        49.5
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "motor_carrier_-1_right_trunnion",
+      "title": "motor carrier -1 right trunnion",
+      "quantity": 1,
+      "material": "petg",
+      "step": "step/motor_carrier_-1_right_trunnion.step",
+      "stl": "stl/motor_carrier_-1_right_trunnion.stl",
+      "mass_kg": 0.05010016416050452,
+      "volume_mm3": 39448.94815787758,
+      "unrelieved_mass_kg": 0.05010016416050452,
+      "weight_relief_kg": 0,
+      "step_sha256": "9cb075428e9ab5c38ad0d15020333f2b87074e4e9554c1412a6441d5fa451101",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/motor_carrier_-1_right_trunnion.stl",
+      "print_bounds_mm": [
+        57.99233627319336,
+        58.0,
+        28.299999137060553
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    },
+    {
+      "id": "motor_carrier_-1_right_flange",
+      "title": "motor carrier -1 right flange",
+      "quantity": 1,
+      "material": "petg",
+      "step": "step/motor_carrier_-1_right_flange.step",
+      "stl": "stl/motor_carrier_-1_right_flange.stl",
+      "mass_kg": 0.06264465112281456,
+      "volume_mm3": 49326.49694709809,
+      "unrelieved_mass_kg": 0.06264465112281456,
+      "weight_relief_kg": 0,
+      "step_sha256": "8aedd85c54c74a5eb028bf6cae8046d1b9adc9c3cb588c149cafd76d2136cf11",
+      "process": "Print and inspect",
+      "print_stl": "print-stl/motor_carrier_-1_right_flange.stl",
+      "print_bounds_mm": [
+        93.0,
+        87.97589111328125,
+        49.4999999
+      ],
+      "notes": "Printed joints and adapters are unqualified. Captive M5 nuts replace printed fork threads; bearing fits require calibration."
+    }
+  ]
+}

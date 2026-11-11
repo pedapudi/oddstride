@@ -1,0 +1,687 @@
+{
+  "part": "chassis_beam_-102",
+  "diagnostic_passed": true,
+  "first_mismatch": null,
+  "elapsed_seconds": 14.214031917000284,
+  "trace": [
+    {
+      "node": 965,
+      "operation": "makeBox",
+      "expected_volume_mm3": 28080.0,
+      "native_volume_mm3": 28079.9999999999,
+      "relative_error": 3.4980565452804934e-15,
+      "native_bodies": 1
+    },
+    {
+      "node": 821,
+      "operation": "fillet",
+      "expected_volume_mm3": 27947.543563840947,
+      "native_volume_mm3": 27947.543563840893,
+      "relative_error": 1.952575258777983e-15,
+      "native_bodies": 1
+    },
+    {
+      "node": 826,
+      "operation": "makeBox",
+      "expected_volume_mm3": 17472.0,
+      "native_volume_mm3": 17471.999999999985,
+      "relative_error": 8.328706060191651e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 828,
+      "operation": "fillet",
+      "expected_volume_mm3": 17389.59289474462,
+      "native_volume_mm3": 17389.592894744605,
+      "relative_error": 8.368174756273131e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 829,
+      "operation": "cut",
+      "expected_volume_mm3": 22933.05543017626,
+      "native_volume_mm3": 22933.05543017624,
+      "relative_error": 9.51808314814792e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 834,
+      "operation": "makeBox",
+      "expected_volume_mm3": 17472.0,
+      "native_volume_mm3": 17471.999999999985,
+      "relative_error": 8.328706060191651e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 836,
+      "operation": "fillet",
+      "expected_volume_mm3": 17389.59289474462,
+      "native_volume_mm3": 17389.592894744605,
+      "relative_error": 8.368174756273131e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 837,
+      "operation": "cut",
+      "expected_volume_mm3": 17918.567296511574,
+      "native_volume_mm3": 17918.56729651157,
+      "relative_error": 2.030284423353402e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 842,
+      "operation": "makeBox",
+      "expected_volume_mm3": 13439.999999999998,
+      "native_volume_mm3": 13439.999999999995,
+      "relative_error": 2.7068294695622867e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 844,
+      "operation": "fillet",
+      "expected_volume_mm3": 13254.584013175398,
+      "native_volume_mm3": 13254.584013175388,
+      "relative_error": 6.861737047868625e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 845,
+      "operation": "cut",
+      "expected_volume_mm3": 13500.372625453112,
+      "native_volume_mm3": 13500.372625453105,
+      "relative_error": 5.389449473761635e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 966,
+      "operation": "makeBox",
+      "expected_volume_mm3": 4159.999999999999,
+      "native_volume_mm3": 4160.000000000007,
+      "relative_error": 1.967656806720278e-15,
+      "native_bodies": 1
+    },
+    {
+      "node": 852,
+      "operation": "fillet",
+      "expected_volume_mm3": 4102.224908402716,
+      "native_volume_mm3": 4102.224908402721,
+      "relative_error": 1.1085383201564372e-15,
+      "native_bodies": 1
+    },
+    {
+      "node": 857,
+      "operation": "makeBox",
+      "expected_volume_mm3": 16560.0,
+      "native_volume_mm3": 16560.000000000004,
+      "relative_error": 2.1968471057317107e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 858,
+      "operation": "cut",
+      "expected_volume_mm3": 1923.8399618538688,
+      "native_volume_mm3": 1923.83996185387,
+      "relative_error": 5.909370840392776e-16,
+      "native_bodies": 2
+    },
+    {
+      "node": 967,
+      "operation": "makeBox",
+      "expected_volume_mm3": 1656.0,
+      "native_volume_mm3": 1656.0000000000007,
+      "relative_error": 4.1190883232469576e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 865,
+      "operation": "fillet",
+      "expected_volume_mm3": 1624.8355361414337,
+      "native_volume_mm3": 1624.8355361414317,
+      "relative_error": 1.259427821137316e-15,
+      "native_bodies": 1
+    },
+    {
+      "node": 866,
+      "operation": "fuse",
+      "expected_volume_mm3": 3548.6754979953034,
+      "native_volume_mm3": 3548.6754979953016,
+      "relative_error": 5.12582625425579e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 867,
+      "operation": "fuse",
+      "expected_volume_mm3": 16314.330823125158,
+      "native_volume_mm3": 16314.253199577926,
+      "relative_error": 4.757997620180641e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 868,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 475.1658888554562,
+      "native_volume_mm3": 475.1658888554777,
+      "relative_error": 4.521960189764725e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 869,
+      "operation": "fuse",
+      "expected_volume_mm3": 16609.4437305908,
+      "native_volume_mm3": 16609.357441477376,
+      "relative_error": 5.195183825748507e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 870,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 81.71282491987054,
+      "native_volume_mm3": 81.712824919874,
+      "relative_error": 4.226065735923841e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 871,
+      "operation": "cut",
+      "expected_volume_mm3": 16564.04773636186,
+      "native_volume_mm3": 16563.961427633007,
+      "relative_error": 5.210606140860908e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 872,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 475.1658888554562,
+      "native_volume_mm3": 475.1658888554777,
+      "relative_error": 4.521960189764725e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 873,
+      "operation": "fuse",
+      "expected_volume_mm3": 16859.160889305214,
+      "native_volume_mm3": 16859.095002488717,
+      "relative_error": 3.908072111653212e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 874,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 81.71282491987057,
+      "native_volume_mm3": 81.712824919874,
+      "relative_error": 4.191283301883314e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 875,
+      "operation": "cut",
+      "expected_volume_mm3": 16813.764909638703,
+      "native_volume_mm3": 16813.69898864435,
+      "relative_error": 3.920656361365112e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 876,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 475.1658888554562,
+      "native_volume_mm3": 475.1658888554777,
+      "relative_error": 4.521960189764725e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 877,
+      "operation": "fuse",
+      "expected_volume_mm3": 17108.877113110866,
+      "native_volume_mm3": 17108.803230543817,
+      "relative_error": 4.318376159946549e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 878,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 81.71282491987054,
+      "native_volume_mm3": 81.712824919874,
+      "relative_error": 4.226065735923841e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 879,
+      "operation": "cut",
+      "expected_volume_mm3": 17063.48108098825,
+      "native_volume_mm3": 17063.40721669945,
+      "relative_error": 4.328793664794593e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 880,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 475.1658888554562,
+      "native_volume_mm3": 475.1658888554777,
+      "relative_error": 4.521960189764725e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 881,
+      "operation": "fuse",
+      "expected_volume_mm3": 17358.593578920216,
+      "native_volume_mm3": 17358.54079155519,
+      "relative_error": 3.0409931993867343e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 882,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 81.71282491987057,
+      "native_volume_mm3": 81.712824919874,
+      "relative_error": 4.191283301883314e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 883,
+      "operation": "cut",
+      "expected_volume_mm3": 17313.197567554096,
+      "native_volume_mm3": 17313.144777710826,
+      "relative_error": 3.049109967362633e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 968,
+      "operation": "makeBox",
+      "expected_volume_mm3": 405.0,
+      "native_volume_mm3": 405.0000000000001,
+      "relative_error": 2.807082412879408e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 890,
+      "operation": "fillet",
+      "expected_volume_mm3": 400.2315620435472,
+      "native_volume_mm3": 400.23156204354717,
+      "relative_error": 1.420263273855028e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 891,
+      "operation": "fuse",
+      "expected_volume_mm3": 17704.864285812047,
+      "native_volume_mm3": 17704.805353488515,
+      "relative_error": 3.3285950449148943e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 892,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 44.178646691106444,
+      "native_volume_mm3": 44.17864669110839,
+      "relative_error": 4.40685091509288e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 893,
+      "operation": "cut",
+      "expected_volume_mm3": 17680.320591385298,
+      "native_volume_mm3": 17680.26166088232,
+      "relative_error": 3.3331128060892743e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 969,
+      "operation": "makeBox",
+      "expected_volume_mm3": 405.0,
+      "native_volume_mm3": 405.0000000000001,
+      "relative_error": 2.807082412879408e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 900,
+      "operation": "fillet",
+      "expected_volume_mm3": 400.2315620435472,
+      "native_volume_mm3": 400.231562043547,
+      "relative_error": 5.681053095420112e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 901,
+      "operation": "fuse",
+      "expected_volume_mm3": 18071.987376265584,
+      "native_volume_mm3": 18071.92223665998,
+      "relative_error": 3.6044516991561583e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 902,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 44.178646691106444,
+      "native_volume_mm3": 44.17864669110839,
+      "relative_error": 4.40685091509288e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 903,
+      "operation": "cut",
+      "expected_volume_mm3": 18047.44368538609,
+      "native_volume_mm3": 18047.378544053798,
+      "relative_error": 3.6094492620504784e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 904,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 72.63362215099599,
+      "native_volume_mm3": 72.63362215099914,
+      "relative_error": 4.3434564508106176e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 905,
+      "operation": "cut",
+      "expected_volume_mm3": 18029.28527909887,
+      "native_volume_mm3": 18029.22013851605,
+      "relative_error": 3.6130429913971743e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 906,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 72.63362215099599,
+      "native_volume_mm3": 72.63362215099914,
+      "relative_error": 4.3434564508106176e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 907,
+      "operation": "cut",
+      "expected_volume_mm3": 18011.126874397574,
+      "native_volume_mm3": 18011.061732978298,
+      "relative_error": 3.6167320196264218e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 908,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 72.633622150996,
+      "native_volume_mm3": 72.63362215099282,
+      "relative_error": 4.382586689106208e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 909,
+      "operation": "cut",
+      "expected_volume_mm3": 17992.968466989474,
+      "native_volume_mm3": 17992.903327440552,
+      "relative_error": 3.62027805704593e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 910,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 72.633622150996,
+      "native_volume_mm3": 72.63362215099282,
+      "relative_error": 4.382586689106208e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 911,
+      "operation": "cut",
+      "expected_volume_mm3": 17974.810059694293,
+      "native_volume_mm3": 17974.744921902802,
+      "relative_error": 3.623837541241035e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 912,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 72.633622150996,
+      "native_volume_mm3": 72.63362215099282,
+      "relative_error": 4.382586689106208e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 913,
+      "operation": "cut",
+      "expected_volume_mm3": 17956.651655932703,
+      "native_volume_mm3": 17956.586516365052,
+      "relative_error": 3.627601008173189e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 914,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 72.633622150996,
+      "native_volume_mm3": 72.63362215099282,
+      "relative_error": 4.382586689106208e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 915,
+      "operation": "cut",
+      "expected_volume_mm3": 17938.4932522383,
+      "native_volume_mm3": 17938.428110827306,
+      "relative_error": 3.6313758394608653e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 916,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 257710.46097083896,
+      "native_volume_mm3": 257710.46097085014,
+      "relative_error": 4.336599629399732e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 917,
+      "operation": "cut",
+      "expected_volume_mm3": 17771.164447455314,
+      "native_volume_mm3": 17770.986026910403,
+      "relative_error": 1.0039890488816755e-05,
+      "native_bodies": 1
+    },
+    {
+      "node": 918,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 257710.46097083896,
+      "native_volume_mm3": 257710.46097085014,
+      "relative_error": 4.336599629399732e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 919,
+      "operation": "cut",
+      "expected_volume_mm3": 17603.83602121156,
+      "native_volume_mm3": 17603.751048964543,
+      "relative_error": 4.826916526221809e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 970,
+      "operation": "makeBox",
+      "expected_volume_mm3": 480.0,
+      "native_volume_mm3": 480.0000000000001,
+      "relative_error": 2.3684757858670006e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 926,
+      "operation": "fillet",
+      "expected_volume_mm3": 476.5147364330608,
+      "native_volume_mm3": 476.5147364330621,
+      "relative_error": 2.7436688392579088e-15,
+      "native_bodies": 1
+    },
+    {
+      "node": 931,
+      "operation": "makeBox",
+      "expected_volume_mm3": 2497.2999999999993,
+      "native_volume_mm3": 2497.300000000004,
+      "relative_error": 1.820956036064807e-15,
+      "native_bodies": 1
+    },
+    {
+      "node": 932,
+      "operation": "cut",
+      "expected_volume_mm3": 436.4006363379708,
+      "native_volume_mm3": 436.4006363379717,
+      "relative_error": 2.0840819789010787e-15,
+      "native_bodies": 1
+    },
+    {
+      "node": 933,
+      "operation": "fuse",
+      "expected_volume_mm3": 17992.901950493146,
+      "native_volume_mm3": 17992.81698343107,
+      "relative_error": 4.722254492973033e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 934,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 34.361169648638345,
+      "native_volume_mm3": 34.36116964863689,
+      "relative_error": 4.239124055446487e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 935,
+      "operation": "cut",
+      "expected_volume_mm3": 17973.2669960594,
+      "native_volume_mm3": 17973.182029346135,
+      "relative_error": 4.727393928044483e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 971,
+      "operation": "makeBox",
+      "expected_volume_mm3": 480.0,
+      "native_volume_mm3": 480.0000000000001,
+      "relative_error": 2.3684757858670006e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 942,
+      "operation": "fillet",
+      "expected_volume_mm3": 476.5147364330608,
+      "native_volume_mm3": 476.5147364330621,
+      "relative_error": 2.7436688392579088e-15,
+      "native_bodies": 1
+    },
+    {
+      "node": 947,
+      "operation": "makeBox",
+      "expected_volume_mm3": 2497.2999999999993,
+      "native_volume_mm3": 2497.300000000004,
+      "relative_error": 1.820956036064807e-15,
+      "native_bodies": 1
+    },
+    {
+      "node": 948,
+      "operation": "cut",
+      "expected_volume_mm3": 436.40063633797087,
+      "native_volume_mm3": 436.40063633797183,
+      "relative_error": 2.214337102582396e-15,
+      "native_bodies": 1
+    },
+    {
+      "node": 949,
+      "operation": "fuse",
+      "expected_volume_mm3": 18362.33291392289,
+      "native_volume_mm3": 18362.24796381272,
+      "relative_error": 4.626324474736452e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 950,
+      "operation": "makeCylinder",
+      "expected_volume_mm3": 34.361169648638324,
+      "native_volume_mm3": 34.36116964863689,
+      "relative_error": 4.177088093659468e-14,
+      "native_bodies": 1
+    },
+    {
+      "node": 951,
+      "operation": "cut",
+      "expected_volume_mm3": 18342.69795898878,
+      "native_volume_mm3": 18342.613009727786,
+      "relative_error": 4.631230432178485e-06,
+      "native_bodies": 1
+    },
+    {
+      "node": 957,
+      "operation": "extrudeLinear",
+      "expected_volume_mm3": 5033953.6076252125,
+      "native_volume_mm3": 5033953.607625215,
+      "relative_error": 5.550245277616893e-16,
+      "native_bodies": 1
+    },
+    {
+      "node": 964,
+      "operation": "intersect",
+      "expected_volume_mm3": 17500.405427336016,
+      "native_volume_mm3": 17500.33124833672,
+      "relative_error": 4.238701760661899e-06,
+      "native_bodies": 1
+    }
+  ],
+  "slowest_native_features": [
+    {
+      "feature": "0957 extrudeLinear extrusion",
+      "seconds_since_previous_feature": 0.5636685419995047
+    },
+    {
+      "feature": "0950 makeCylinder cylinder",
+      "seconds_since_previous_feature": 0.5559612090000883
+    },
+    {
+      "feature": "0934 makeCylinder cylinder",
+      "seconds_since_previous_feature": 0.5463520829998743
+    },
+    {
+      "feature": "0918 makeCylinder cylinder",
+      "seconds_since_previous_feature": 0.5065114159997393
+    },
+    {
+      "feature": "0914 makeCylinder cylinder",
+      "seconds_since_previous_feature": 0.5054392910005845
+    },
+    {
+      "feature": "0916 makeCylinder cylinder",
+      "seconds_since_previous_feature": 0.4858124590000443
+    },
+    {
+      "feature": "0910 makeCylinder cylinder",
+      "seconds_since_previous_feature": 0.46947258399995917
+    },
+    {
+      "feature": "0971 makeBox stock",
+      "seconds_since_previous_feature": 0.45143437500064465
+    },
+    {
+      "feature": "0947 makeBox stock",
+      "seconds_since_previous_feature": 0.443819541999801
+    },
+    {
+      "feature": "0912 makeCylinder cylinder",
+      "seconds_since_previous_feature": 0.43100466600026266
+    },
+    {
+      "feature": "0908 makeCylinder cylinder",
+      "seconds_since_previous_feature": 0.4199535420002576
+    },
+    {
+      "feature": "0906 makeCylinder cylinder",
+      "seconds_since_previous_feature": 0.4158039160001863
+    },
+    {
+      "feature": "0931 makeBox stock",
+      "seconds_since_previous_feature": 0.40962374999980966
+    },
+    {
+      "feature": "0970 makeBox stock",
+      "seconds_since_previous_feature": 0.3758175000002666
+    },
+    {
+      "feature": "0902 makeCylinder cylinder",
+      "seconds_since_previous_feature": 0.365251416999854
+    }
+  ],
+  "scope": "Isolated diagnostic only; no part was added to the native master."
+}

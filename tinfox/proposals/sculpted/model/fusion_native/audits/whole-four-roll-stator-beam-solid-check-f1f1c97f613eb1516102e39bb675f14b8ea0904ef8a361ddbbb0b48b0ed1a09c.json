@@ -1,0 +1,68 @@
+{
+  "source_model_sha256": "f1f1c97f613eb1516102e39bb675f14b8ea0904ef8a361ddbbb0b48b0ed1a09c",
+  "checker": "Independent Open CASCADE exact BRep Common, single-threaded; span-aware volume integration. Corrected native purchased references and saved native Chassis18 beam exports.",
+  "passed": true,
+  "pairs": [
+    {
+      "pair": [
+        "FL_roll_stator_bolt_0",
+        "chassis_beam_102"
+      ],
+      "overlap_mm3": 0,
+      "result_valid": true,
+      "bolt_source_group_sha256": "d0e0a9af3fd3b57ed3a658f42f0f18d8b6aa9a40b83f9526c2f62a9c1d1ef0f1",
+      "native_beam_step_sha256": "e8f833af9af134156102f3f40b10b29ea55be863488625054e257fa6560e2674",
+      "mount_translation_mm": [
+        185,
+        68,
+        0
+      ]
+    },
+    {
+      "pair": [
+        "FR_roll_stator_bolt_0",
+        "chassis_beam_-102"
+      ],
+      "overlap_mm3": 0,
+      "result_valid": true,
+      "bolt_source_group_sha256": "79db1109c206926ae85da684547b1c894f750db2cb22a3a317a8c9391125bf36",
+      "native_beam_step_sha256": "a29d0ac915aa1316301d2b0241679ee3c269dcedd058512203564ddf68a24757",
+      "mount_translation_mm": [
+        185,
+        -68,
+        0
+      ]
+    },
+    {
+      "pair": [
+        "RL_roll_stator_bolt_0",
+        "chassis_beam_102"
+      ],
+      "overlap_mm3": 0,
+      "result_valid": true,
+      "bolt_source_group_sha256": "1ce8fc2ceec32303150711e9307aace1843414fa135cc4e1113b8629dbc667b9",
+      "native_beam_step_sha256": "e8f833af9af134156102f3f40b10b29ea55be863488625054e257fa6560e2674",
+      "mount_translation_mm": [
+        -185,
+        68,
+        0
+      ]
+    },
+    {
+      "pair": [
+        "RR_roll_stator_bolt_0",
+        "chassis_beam_-102"
+      ],
+      "overlap_mm3": 0,
+      "result_valid": true,
+      "bolt_source_group_sha256": "7166f8fcbc78422fc81b58df927eb46d3a226db9dfdfb8ddd971d956684fb029",
+      "native_beam_step_sha256": "a29d0ac915aa1316301d2b0241679ee3c269dcedd058512203564ddf68a24757",
+      "mount_translation_mm": [
+        -185,
+        -68,
+        0
+      ]
+    }
+  ],
+  "scope": "Four flagged fixed roll-stator screws only. Does not classify other inherited chassis contacts, motion range, printed strength or tolerances."
+}

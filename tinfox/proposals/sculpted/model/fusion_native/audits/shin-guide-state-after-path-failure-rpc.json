@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"message\": \"{\\\"sketches\\\": 5, \\\"rails\\\": 0, \\\"timeline_end\\\": true, \\\"create\\\": \\\"\\\\nMethod that creates a Path used to define the shape of a Sweep feature. A Path is a contiguous\\\\nset of curves that can be a combination of sketch curves and model edges.\\\\ncurve : A SketchCurve or an ObjectCollection containing multiple sketch entities and/or BRepEdge objects. If a single sketch curve\\\\nor edge is input the isChain argument is checked to determine if connected curves (they do not need to be tangent)\\\\nshould be automatically found. If multiple curves are provided the isChain argument is always\\\\ntreated as false so you must provide all of the curves in the object collection that you want included in the path.\\\\nThe provided curves must all connect together in a single path.\\\\nThe input curves can be from multiple sketches and bodies and they need to geometrically connect for\\\\na valid path to be created.\\\\nisChain : Optional argument, that defaults to true. If this argument is set to true, all curves and edges that are end point\\\\nconnected to the single input curve will be found and used to create the path.\\\\nThis argument is only used when the first argument is a single SketchCurve/BRepEdge object.\\\\nReturns the newly created Path.\\\\n\\\"}\\n\",\n    \"success\": true\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

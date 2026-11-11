@@ -1,0 +1,1444 @@
+{
+  "passed": true,
+  "status": "analysis_packaging_proposal_not_native_revision",
+  "current_authority_sha256": "9459ed17c86b648915166a39016a8f214cf3aa4263f4cb24a3156f14aeead078",
+  "hardware_reference_sha256": "7ddbdfc46898f2547281a9014f205322e9ab86d46e4d60ef8d67268a295ea1c8",
+  "proposal": "Replace the rear cup wall with a coaxial81.5mm open mouth. Make the existing stator-face geometry integral; omit its separate fastening lugs/closure screws in the future native revision.",
+  "checks": [
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "rear-open cup",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "integral-front-flange reference",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "roll_cartridge_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "roll_stator_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "roll_outer_retainer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "roll_inner_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "roll_inner_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "roll_outer_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "roll motor",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "coupling screw0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "coupling screw60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "coupling screw120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "coupling screw180",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "coupling screw240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -100,
+      "against": "coupling screw300",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "rear-open cup",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "integral-front-flange reference",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "roll_cartridge_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "roll_stator_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "roll_outer_retainer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "roll_inner_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "roll_inner_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "roll_outer_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "roll motor",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "coupling screw0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "coupling screw60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "coupling screw120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "coupling screw180",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "coupling screw240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -80,
+      "against": "coupling screw300",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "rear-open cup",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "integral-front-flange reference",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "roll_cartridge_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "roll_stator_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "roll_outer_retainer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "roll_inner_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "roll_inner_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "roll_outer_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "roll motor",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "coupling screw0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "coupling screw60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "coupling screw120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "coupling screw180",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "coupling screw240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -60,
+      "against": "coupling screw300",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "rear-open cup",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "integral-front-flange reference",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "roll_cartridge_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "roll_stator_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "roll_outer_retainer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "roll_inner_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "roll_inner_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "roll_outer_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "roll motor",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "coupling screw0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "coupling screw60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "coupling screw120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "coupling screw180",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "coupling screw240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -50,
+      "against": "coupling screw300",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "rear-open cup",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "integral-front-flange reference",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "roll_cartridge_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "roll_stator_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "roll_outer_retainer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "roll_inner_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "roll_inner_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "roll_outer_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "roll motor",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "coupling screw0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "coupling screw60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "coupling screw120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "coupling screw180",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "coupling screw240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -40,
+      "against": "coupling screw300",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "rear-open cup",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "integral-front-flange reference",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "roll_cartridge_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "roll_stator_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "roll_outer_retainer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "roll_inner_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "roll_inner_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "roll_outer_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "roll motor",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "coupling screw0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "coupling screw60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "coupling screw120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "coupling screw180",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "coupling screw240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -30,
+      "against": "coupling screw300",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "rear-open cup",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "integral-front-flange reference",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "roll_cartridge_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "roll_stator_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "roll_outer_retainer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "roll_inner_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "roll_inner_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "roll_outer_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "roll motor",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "coupling screw0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "coupling screw60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "coupling screw120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "coupling screw180",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "coupling screw240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -20,
+      "against": "coupling screw300",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "rear-open cup",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "integral-front-flange reference",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "roll_cartridge_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "roll_stator_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "roll_outer_retainer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "roll_inner_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "roll_inner_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "roll_outer_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "roll motor",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "coupling screw0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "coupling screw60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "coupling screw120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "coupling screw180",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "coupling screw240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -10,
+      "against": "coupling screw300",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "rear-open cup",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "integral-front-flange reference",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "roll_cartridge_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "roll_stator_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "roll_outer_retainer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "roll_inner_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "roll_inner_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "roll_outer_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "roll motor",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "coupling screw0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "coupling screw60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "coupling screw120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "coupling screw180",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "coupling screw240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -5,
+      "against": "coupling screw300",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "rear-open cup",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "integral-front-flange reference",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "roll_cartridge_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "roll_stator_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "roll_outer_retainer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "roll_inner_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "roll_inner_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "roll_outer_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "roll motor",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "coupling screw0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "coupling screw60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "coupling screw120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "coupling screw180",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "coupling screw240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": -1,
+      "against": "coupling screw300",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "rear-open cup",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "integral-front-flange reference",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "roll_cartridge_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "roll_stator_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "roll_outer_retainer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "roll_inner_backplate_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "roll_inner_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "roll_outer_spacer_1",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "roll motor",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "coupling screw0",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "coupling screw60",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "coupling screw120",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "coupling screw180",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "coupling screw240",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "rear_motor_insertion",
+      "travel_mm": 0,
+      "against": "coupling screw300",
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "coupling_straight_driver",
+      "angle_deg": 0,
+      "against": "rear-open cup",
+      "tool_diameter_mm": 3.2,
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "coupling_straight_driver",
+      "angle_deg": 0,
+      "against": "integral-front-flange reference",
+      "tool_diameter_mm": 3.2,
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "coupling_straight_driver",
+      "angle_deg": 60,
+      "against": "rear-open cup",
+      "tool_diameter_mm": 3.2,
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "coupling_straight_driver",
+      "angle_deg": 60,
+      "against": "integral-front-flange reference",
+      "tool_diameter_mm": 3.2,
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "coupling_straight_driver",
+      "angle_deg": 120,
+      "against": "rear-open cup",
+      "tool_diameter_mm": 3.2,
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "coupling_straight_driver",
+      "angle_deg": 120,
+      "against": "integral-front-flange reference",
+      "tool_diameter_mm": 3.2,
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "coupling_straight_driver",
+      "angle_deg": 180,
+      "against": "rear-open cup",
+      "tool_diameter_mm": 3.2,
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "coupling_straight_driver",
+      "angle_deg": 180,
+      "against": "integral-front-flange reference",
+      "tool_diameter_mm": 3.2,
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "coupling_straight_driver",
+      "angle_deg": 240,
+      "against": "rear-open cup",
+      "tool_diameter_mm": 3.2,
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "coupling_straight_driver",
+      "angle_deg": 240,
+      "against": "integral-front-flange reference",
+      "tool_diameter_mm": 3.2,
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "coupling_straight_driver",
+      "angle_deg": 300,
+      "against": "rear-open cup",
+      "tool_diameter_mm": 3.2,
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "kind": "coupling_straight_driver",
+      "angle_deg": 300,
+      "against": "integral-front-flange reference",
+      "tool_diameter_mm": 3.2,
+      "valid": true,
+      "overlap_mm3": 0,
+      "passed": true
+    }
+  ],
+  "scope": "Detached module packaging; unconnected hip motor plus its two fixed socket references, existing roll support and six seated roll-output screws. No plug/boot/cable attached to the insertion body.",
+  "limits": [
+    "Eleven sampled axial positions do not establish a complete continuous swept-solid proof.",
+    "Chassis, equipment and body shell are absent. Rearward service likely requires removing the complete module from the chassis first.",
+    "Future one-piece structural continuity, contact stresses, stiffness, CNC access, printed strength and exact new feature topology require native authoring and review.",
+    "Two current source solids represent the future integral cup for this clearance screen; no custom geometry export or source-authority change was made."
+  ]
+}

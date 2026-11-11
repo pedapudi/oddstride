@@ -1,0 +1,385 @@
+{
+  "id": 2,
+  "jsonrpc": "2.0",
+  "result": {
+    "tools": [
+      {
+        "description": "Read Fusion Electronics design data (schematic, board, library). Requires an active Electronics document.\n\n=== ENTITY TYPES ===\nPass one of these as \"entity_type\". Omit \"object\" for all rows and columns.\n\n  electronics.Attribute - A name/value attribute attached to a part, instance, element, or other parent object.\n  electronics.Board - The PCB board design for a product.\n  electronics.Bus - A multi-bit bus on a schematic sheet.\n  electronics.Circle - A circle on a schematic sheet, board, library symbol, or package.\n  electronics.Contact - A pad, pin, or contact point on a package footprint.\n  electronics.ContactRef - Links a contact to a board signal in the package editor / connectivity.\n  electronics.Device - A device in a library (symbol and package association).\n  electronics.DeviceSet - A set of related devices in a library (name, description, and defaults).\n  electronics.Dimension - A linear or angular dimension on a board or schematic.\n  electronics.Element - A board component element: placement, name, and links to its package and 3D model.\n  electronics.Error - A design check (ERC or DRC) error or warning in a board or schematic.\n  electronics.Frame - Title block / frame on a sheet or board: grid, border, and bounds.\n  electronics.Gate - A logical gate in a device set linking a symbol to the schematic.\n  electronics.Grid - The drawing grid: spacing, style, and unit settings.\n  electronics.Hole - A non-plated or drilled feature on a board or in a package footprint.\n  electronics.Instance - A placed gate of a part on a schematic: position, name, and attributes.\n  electronics.Junction - A wire tee junction in a net segment or sheet context.\n  electronics.Label - A net name label on a wire segment in the connectivity.\n  electronics.Layer - A drawing, signal, or user layer in a board or schematic.\n  electronics.Library - A library of symbols, devices, and footprints used in a design.\n  electronics.Module - A reusable schematic block (hierarchical module with sheets and ports).\n  electronics.ModuleInstance - A placed module instance on a schematic: name, position, and variant.\n  electronics.Net - A net on a schematic sheet.\n  electronics.NetClass - Design rules for a net class: name, default trace width, and minimum drill.\n  electronics.Package - 2D land-pattern (footprint) definition in a device library, including bounds and description.\n  electronics.Package3D - 3D package model in a device library, linked to a 2D footprint and described for placement.\n  electronics.Pad - A through-hole pad (or long pad) on a board, including drill, shape, and signal.\n  electronics.Part - A placed device instance (component) on a schematic.\n  electronics.Pin - A pin on a library symbol, including name, position, and electrical mapping.\n  electronics.PinRef - A logical connection from a net segment to an instance pin.\n  electronics.PolyCutout - A polygonal cutout region in a board, package, or symbol.\n  electronics.PolyPour - A copper or metal pour (filled polygon) with isolation, rank, and hatch options.\n  electronics.PolyShape - A polygon outline or fill region in a board, package, or schematic context.\n  electronics.Port - A module block interface pin (hierarchical port definition).\n  electronics.PortNetMappingEntry - One entry in a bus port instance net mapping: an internal bus spec paired with its external bus spec.\n  electronics.PortRef - Connects a module block port to a net or bus wire segment in the design.\n  electronics.Rectangle - A rectangle shape on a schematic sheet, board, library symbol, or package.\n  electronics.Schematic - Schematic design content.\n  electronics.Segment - A line segment in a net or bus: connects junctions, wires, and ports.\n  electronics.Sheet - A single page of schematic circuitry within a design or module.\n  electronics.Signal - A copper signal (net) on a board with routing and DRC state.\n  electronics.Smd - A surface-mount pad (SMD) on a board or package footprint, with size and mask options.\n  electronics.Spline - A smooth curved board trace (spline) on a copper layer.\n  electronics.Symbol - Schematic symbol definition in a device library, including pin layout and appearance.\n  electronics.Technology - A technology string on a device (BOM/assembly build option).\n  electronics.Text - A text or label on a board, symbol, or sheet.\n  electronics.Variant - A part build variant: technology, value, and population.\n  electronics.VariantDef - Defines a part variant in a design (name and parent design container).\n  electronics.Via - A plated through-hole via on a board stack.\n  electronics.Wire - A wire segment on a schematic sheet or board signal trace.\n\n=== QUERY SHAPE ===\n  { \"entity_type\": \"electronics.<Class>\",\n    \"object\": { \"fields\": [...], \"filters\": [{\"property\": \"...\", \"op\": \"eq\", \"value\": ...}],\n                \"pagination\": { \"limit\": 100, \"offset\": 0 } } }\n\n=== EXAMPLES ===\n  All wires:\n    { \"entity_type\": \"electronics.Wire\" }\n\n  Net names only:\n    { \"entity_type\": \"electronics.Net\", \"object\": { \"fields\": [\"name\"] } }\n\n  Nets named GND:\n    { \"entity_type\": \"electronics.Net\", \"object\": { \"filters\": [{\"property\": \"name\", \"op\": \"eq\", \"value\": \"GND\"}] } }\n\n=== DISCOVERY ===\n  resource://mcp.electronics_entity_types       - all types with active-workspace hints\n  resource://mcp.electronics_schema_<class>     - properties and filter operators for one type\n",
+        "inputSchema": {
+          "properties": {
+            "entity_type": {
+              "description": "One of the listed electronics.<Class> values. Per-class fields and filter operators: resource://mcp.electronics_schema_<class>.",
+              "enum": [
+                "electronics.Attribute",
+                "electronics.Bus",
+                "electronics.Circle",
+                "electronics.Contact",
+                "electronics.Element",
+                "electronics.Frame",
+                "electronics.Gate",
+                "electronics.Hole",
+                "electronics.Grid",
+                "electronics.Instance",
+                "electronics.Junction",
+                "electronics.Label",
+                "electronics.Layer",
+                "electronics.Module",
+                "electronics.ModuleInstance",
+                "electronics.Net",
+                "electronics.Signal",
+                "electronics.Pad",
+                "electronics.Part",
+                "electronics.Pin",
+                "electronics.PinRef",
+                "electronics.PolyCutout",
+                "electronics.Spline",
+                "electronics.PolyPour",
+                "electronics.PolyShape",
+                "electronics.Port",
+                "electronics.PortRef",
+                "electronics.Rectangle",
+                "electronics.Segment",
+                "electronics.Sheet",
+                "electronics.Schematic",
+                "electronics.Board",
+                "electronics.Library",
+                "electronics.Smd",
+                "electronics.Symbol",
+                "electronics.DeviceSet",
+                "electronics.Device",
+                "electronics.Package",
+                "electronics.Package3D",
+                "electronics.Technology",
+                "electronics.Text",
+                "electronics.VariantDef",
+                "electronics.Variant",
+                "electronics.Via",
+                "electronics.ContactRef",
+                "electronics.Wire",
+                "electronics.Dimension",
+                "electronics.NetClass",
+                "electronics.Error",
+                "electronics.PortNetMappingEntry"
+              ],
+              "type": "string"
+            },
+            "object": {
+              "description": "Optional query: fields (property names), filters (predicates), pagination (limit, offset).",
+              "properties": {
+                "fields": {
+                  "description": "Property names to return; omit for all columns.",
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "filters": {
+                  "description": "Predicates {property, op, value}. String properties: op must be eq. Integer/number: lt/gt only if that property exposes them in the per-class MCP schema resource.",
+                  "items": {
+                    "properties": {
+                      "op": {
+                        "description": "eq for any filterable property. lt/gt only for integer/number properties that list those operators in resource://mcp.electronics_schema_<class>; string properties require eq.",
+                        "enum": [
+                          "eq",
+                          "lt",
+                          "gt"
+                        ],
+                        "type": "string"
+                      },
+                      "property": {
+                        "type": "string"
+                      },
+                      "value": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "property",
+                      "op",
+                      "value"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "pagination": {
+                  "description": "Page size (limit) and rows to skip (offset). For the next page, use pagination.nextOffset from the response when pagination.hasMore is true.",
+                  "properties": {
+                    "limit": {
+                      "description": "Max rows per page; default 100. Must not exceed 1000.",
+                      "type": "integer"
+                    },
+                    "offset": {
+                      "description": "Skip rows from the start of the result set; default 0.",
+                      "type": "integer"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            }
+          },
+          "required": [
+            "entity_type"
+          ],
+          "type": "object"
+        },
+        "name": "fusion_mcp_electronics_read"
+      },
+      {
+        "description": "Execute operations in the active Fusion model.\n\nThis tool provides the Execute operation, supporting execution\nwith a dispatcher pattern that routes to specific execution handlers.\n\n=== FEATURE TYPES ===\n\npurchase:\n  - Opens the in-app Purchase Manager for buying, pricing, subscriptions, trials, renewals, extensions, Flex tokens, or billing\n  - Invoke when the user asks to buy, subscribe, renew, upgrade, add seats, purchase extensions, or buy Flex tokens, or asks how to purchase with a licensing or checkout angle\n  - Do not invoke for general product how-to unless the user ties it to purchase or licensing\n\n  Required parameters:\n    - featureType: \"purchase\" (required)\n    - object: (required) {\n        - purchaseInterest: (required) \"fusion_subscription\" | \"extension\" | \"flex\"\n        - userConfirmedOpenPurchaseManager: (required) true only after the user explicitly agrees to open Purchase Manager\n        - extensionName: (optional) when purchaseInterest is \"extension\"; use a title from licensing purchasableExtensions when possible\n        - userMessageSummary: (optional) short paraphrase of the request\n      }\n\n  purchaseInterest values:\n    - fusion_subscription \u00e2\u0080\u0094 Opens Plans and pricing (subscription, seats, license)\n    - extension \u00e2\u0080\u0094 Opens Advanced capabilities (extensions / add-ons)\n    - flex \u00e2\u0080\u0094 Opens Flex tokens\n\n  Before calling this tool:\n    - Call Read {\"queryType\":\"licensing\"} first, and before giving subscription or purchase guidance in chat (skip only if licensing was already called in this thread with a fresh result)\n    - Use summary, services, activeExtensions, purchasableExtensions, and flexTokens from that response; do not ask the user to describe their license or token balance\n    - Explain relevant options in plain language, clarify what the user wants, and wait for explicit consent before execute\n    - If Purchase Manager is already open, execute navigates the existing dialog to the requested tab (or extension); describe this as switching tabs, not opening a new dialog\n\n  Chat guidelines:\n    - Use plain, polite, professional language only; no emojis, emoticons, or decorative symbols\n    - Do not invent pricing, plans, eligibility, extension names, or legal or tax advice\n\n  Rules by license type (from licensing summary):\n\n  Personal (summary.isHobbyist):\n    - Offer fusion_subscription (Plans and pricing), flex (Flex tokens), and extension (Advanced capabilities) when the user asks\u00e2\u0080\u0094same tabs as in Purchase Manager after explicit consent\n    - Name extensions to buy from purchasableExtensions when possible; if empty, offer Advanced capabilities without inventing extension names\n    - Acknowledge activeExtensions the user already has; do not offer those as purchases\n\n  Education (summary.isStudent \u00e2\u0080\u0094 students and educators):\n    - Autodesk does not sell or market subscriptions, seats, Flex, upgrades, trials, or commercial plans to this cohort\n    - Stricter privacy: do not ask the user to confirm or describe license details beyond the licensing Read response\n    - Extensions are available through free Edu Access\u00e2\u0080\u0094do not describe them as purchases, paid add-ons, or checkout\n    - Use plain language: \"enable free access,\" \"turn on,\" or \"activate\"\u00e2\u0080\u0094not \"buy,\" \"purchase,\" or \"subscribe\"\n    - Use purchaseInterest extension to open Advanced capabilities; name extensions from purchasableExtensions only\n    - Do not use purchaseInterest fusion_subscription or flex; the handler rejects Plans and pricing and Flex tokens for Education users\n    - Acknowledge activeExtensions the user already has; do not offer to enable those again\n\n  Commercial (summary.isCommercial):\n    - Offer extend subscription or add seats (fusion_subscription), Flex tokens (flex), and extensions (extension)\u00e2\u0080\u0094not only extensions\n    - Use flexTokens.balance and flexTokens.accounts for token balance; use flexTokens.isFlexAvailable when discussing Flex day access\n    - Name extensions to buy only from purchasableExtensions; if empty, offer Advanced capabilities without inventing extension names\n    - Acknowledge activeExtensions the user already has; do not offer those as purchases\n\n  Example:\n  {\n    \"featureType\": \"purchase\",\n    \"object\": {\n      \"purchaseInterest\": \"fusion_subscription\",\n      \"userConfirmedOpenPurchaseManager\": true,\n      \"userMessageSummary\": \"User wants to add seats and agreed to open Plans and pricing.\"\n    }\n  }\n\nscript:\n  Executes a Python script in the active Fusion design using the Fusion API.\n\n  Required parameters:\n    - featureType: \"script\" (required)\n    - object: (required) {\n        - script: Python script content as a string (required)\n        - readOnly: true | false (optional, default false)\n      }\n\n  Read-only scripts:\n    - A normal script cannot run while a command dialog is open (for example while the user is\n      in the middle of Sketch or Extrude), and the tool returns an error saying so\n    - Set readOnly: true when the script only inspects the design and creates, modifies, or\n      deletes nothing. Such a script IS allowed to run while a command dialog is open, so this\n      is the way to inspect state mid-command\n    - Only set readOnly: true if it is actually true. It is enforced, not taken on trust: any\n      attempt to modify the design from a read-only script raises \"Cannot modify the design\n      from a read-only context\" and the script fails\n    - A read-only script must also avoid Application.executeTextCommand, which is outside what\n      the enforcement covers\n    - To modify the design, omit readOnly and ask the user to close the open dialog first\n\n  Script Requirements:\n    - The script must define a function named \"run\" with exactly one argument\n    - Function signature: def run(_context: str):\n    - This \"run\" function is the entry point that will be called when executing the script\n    - The script should use the Fusion API (adsk.core, adsk.fusion, etc.)\n  \n  Output and Error Handling:\n    - Any text printed by the script (via print() statements) will be returned as the tool's output\n    - Any exception raised by the run function will be returned as an error message from the tool\n    - IMPORTANT: Do NOT catch exceptions in your run function. If you catch exceptions, you cannot\n      determine if your script failed, where it failed, or why it failed. The exception error message\n      is essential for debugging and iterating on script improvements.\n\n  Best Practices:\n    - Read the Fusion API documentation for the APIs you will use before writing the script\n    - After running a script, verify the results by reading the document or viewing a snapshot\n      of the current view to confirm the script executed correctly\n\n  Example:\n  {\n    \"featureType\": \"script\",\n    \"object\": {\n      \"script\": \"import adsk.core\\n\\ndef run(_context: str):\\n    print(adsk.core.Application.get().version)\\n\"\n    }\n  }\n\n  Read-only example (works even while a command dialog is open):\n  {\n    \"featureType\": \"script\",\n    \"object\": {\n      \"readOnly\": true,\n      \"script\": \"import adsk.core, adsk.fusion\\n\\ndef run(_context: str):\\n    design = adsk.fusion.Design.cast(adsk.core.Application.get().activeProduct)\\n    for i in range(design.timeline.count):\\n        item = design.timeline.item(i)\\n        if item.healthState != adsk.fusion.FeatureHealthStates.HealthyFeatureHealthState:\\n            print(item.name, item.errorOrWarningMessage)\\n\"\n    }\n  }\n\ndocument: operation = open:\n  - Opens a document.\n  - Required parameters:\n    - featureType=\"document\"\n    - object:\n      - operation=\"open\"\n      - fileId: The id of the file to open\n  - Obtain the file id from the \"read\" tool's \"document\" query type with the \"search\" operation if necessary.\n\ndocument: operation = close:\n  - Closes the active document.\n  - Required parameters:\n    - featureType=\"document\"\n    - object:\n      - operation=\"close\"\n  - Optional parameters:\n    - object:\n      - userConfirmedSaveAndClose\n      - userConfirmedCloseWithoutSave\n  - If the document contains unsaved changes, then the user must be prompted for a choice on whether\n    to save or discard these changes and specify either userConfirmedSaveAndClose or userConfirmedCloseWithoutSave.\n\ndocument: operation = save:\n  - Saves the active document.\n  - Required parameters:\n    - featureType=\"document\"\n    - object:\n      - operation=\"save\"\n  - IMPORTANT: The document should not be saved unless expressly instructed to do so by the user.\n\neditImage:\n  Edit an image or render a model into a described environment. Processes a model screenshot\n  based on a natural language prompt that describes material changes, environmental placement,\n  or scene composition. Returns a structured attachments + text response.\n\n  Use this when the user wants to:\n    - Preview/visualize a material on a model IN A PICTURE (e.g. \"show this in wood\", \"what would\n      this look like in brushed metal\") \u00e2\u0080\u0094 a rendered image only; the actual design is NOT changed.\n    - Insert a model screenshot into a described scene or environment\n    - Render a design in a real-world context (kitchen, office, outdoors)\n  When users say \"render\" in the sense of placing their design into an environment\n  (e.g. \"render my design in a modern kitchen\", \"render this on a wooden desk\"), use this.\n\n  editImage vs Update materialAppearance (do NOT confuse these):\n    - Use editImage (this tool) when the user wants to SEE/PREVIEW a material or appearance as an\n      IMAGE \u00e2\u0080\u0094 \"show me\", \"what would it look like\", \"render\", \"picture this in\" \u00e2\u0080\u0094 nothing in the\n      actual Fusion design changes.\n    - Use Update featureType=\"materialAppearance\" (or Create material/appearance) instead when the\n      user wants to ACTUALLY change the model's material/appearance in the design \u00e2\u0080\u0094 \"set the\n      material to\", \"change the appearance to\", \"make this body aluminum\" \u00e2\u0080\u0094 this edits real\n      entities and persists in the document.\n    - If it is ambiguous, ask whether they want a quick visual preview or an actual change to the\n      design before calling either tool.\n\n  Required parameters:\n    - featureType: \"editImage\" (required)\n    - object: (required) {\n        - image_url: (required) the signed_url of the source model screenshot (temporary, may expire)\n        - s3_url: (required) the s3_url of the source image (permanent identifier used to refresh an expired signed_url)\n        - prompt: (required) natural language prompt describing the material changes or target environment/scene\n      }\n\n  Returns an attachments entry plus a text entry, e.g.:\n  {\n    \"output\": [\n      {\n        \"type\": \"attachments\",\n        \"content\": {\n          \"attachments\": [\n            {\n              \"id\": \"image-<timestamp>.png\",\n              \"label\": \"Edited image\",\n              \"thumbnail_url\": \"https://...\",\n              \"s3_url\": \"s3://...\",\n              \"thumbnail_alt_text\": \"Edited image based on prompt: ...\",\n              \"actions\": [\n                { \"button_icon\": \"external_link\", \"interaction_type\": \"prompt\",\n                  \"interaction_arguments\": { \"prompt_text\": \"Open image preview for image-<timestamp>.png\", \"image_id\": \"image-<timestamp>.png\" } },\n                { \"button_icon\": \"download\", \"interaction_type\": \"prompt\",\n                  \"interaction_arguments\": { \"prompt_text\": \"Download image image-<timestamp>.png\", \"image_id\": \"image-<timestamp>.png\" } }\n              ]\n            }\n          ]\n        }\n      },\n      { \"type\": \"text\", \"content\": \"Success message with editing details\" }\n    ]\n  }\n\n  Image ID usage:\n    When the user clicks \"Open image preview\" or \"Download image\", the agent receives the\n    image_id in interaction_arguments. Look it up in the previously returned attachments and use\n    thumbnail_url for preview or s3_url for download. Prefer s3_url for cross-tool usage (e.g.\n    generate_presentation image placeholders) because presigned URLs expire.\n\n  AI media generation uses:\n    This tool consumes one AI media generation use per call from the user's monthly allocation.\n    If uses are exhausted it returns an error and no image is generated; the user gets more on\n    their billing renewal date. Present any returned message to the user as-is.\n\n  Instructions:\n    - PROMPT FIDELITY: pass the user's prompt verbatim \u00e2\u0080\u0094 never rephrase, paraphrase, or interpret it.\n    - STRUCTURED OUTPUT: never display the raw JSON response to the user.\n    - NEVER tell the user to click the image to enlarge it; tell them to use the Open or Download buttons.\n    - ALWAYS RETRY: when the user asks to retry or edit again, call this again \u00e2\u0080\u0094 do not rely on a\n      previous error response, as AI media generation availability may have changed.\n\n  Example:\n  {\n    \"featureType\": \"editImage\",\n    \"object\": {\n      \"image_url\": \"https://storage.example.com/signed/model.png?token=...\",\n      \"s3_url\": \"s3://bucket/user/session/model.png\",\n      \"prompt\": \"render my design in a modern kitchen\"\n    }\n  }\n\ngeneratePowerpoint:\n  Generate a PowerPoint presentation from a JSON slide definition. Populates slide layouts with\n  the content you provide and returns a download/open option. The long generation runs server-side\n  (it can take up to a few minutes).\n\n  WHEN TO USE:\n    Engage this workflow when the user wants a presentation, deck, or slides (keywords like\n    \"PowerPoint\", \"PPT\", \"presentation\", \"deck\", \"slides\"). If a request implies a summary/overview\n    but the format is unstated, first confirm the desired output \u00e2\u0080\u0094 a PowerPoint, a written summary,\n    or a quick chat overview \u00e2\u0080\u0094 before entering this flow. If a keyword is ambiguous (e.g. \"slide\"\n    could mean a slider joint, not a presentation slide), use conversation/workspace context to\n    disambiguate or ask; do NOT assume presentation intent until it is confirmed.\n\n  WORKFLOW (a staged flow \u00e2\u0080\u0094 do NOT skip ahead; each deliverable requires explicit user confirmation\n  before advancing):\n\n  CONFIRMATION GATES (enforce strictly):\n    - STEP 2 (structure) and STEP 5 (content) are approval gates. After presenting each, STOP,\n      explicitly ask the user to approve it or request changes, and do NOT begin the next step in the\n      same turn \u00e2\u0080\u0094 wait for the user's reply.\n    - Enter a revision loop (STEP 3 for structure, STEP 6 for content) ONLY when the user asks for\n      changes. If the user approves, skip the revision step and advance. Do not wait for the user to\n      volunteer edits.\n    - Never merge steps into one response. In particular, do NOT run visuals (STEP 4), content\n      generation (STEP 5), and delivery (STEP 7) together \u00e2\u0080\u0094 each is its own turn with its own gate.\n\n  STAYING ON TRACK (this build spans many turns \u00e2\u0080\u0094 the presentation is the goal until delivered or the\n  user abandons it):\n    - The workflow PERSISTS across interruptions. If the user asks to generate/edit/screenshot an\n      image, answer a side question, or run another tool mid-build, that is PART of building the deck\n      \u00e2\u0080\u0094 not an exit from it. After handling it, return to the step you were on and continue.\n    - Maintain a running state and restate it briefly after any interruption: the confirmed structure,\n      the running list of selected/generated image s3_urls, and which step is next. Do not silently\n      drop earlier selections or the confirmed structure.\n    - A newly generated image (from a mid-flow editImage the user requested) APPENDS to the selected\n      image set \u00e2\u0080\u0094 it does not replace prior selections or reset the flow. Fold its s3_url into the\n      deck, decide/ask which slide it belongs on, then resume toward delivery. Do NOT treat the\n      editImage result as the end of the turn just because editImage is normally a standalone tool.\n    - If you are ever unsure where you are, re-summarize the running state and ask the user to confirm\n      the next step rather than restarting from requirements.\n\n    STEP 1 \u00e2\u0080\u0094 Gather requirements.\n      Before proposing anything, collect and confirm the mandatory inputs:\n        - Purpose (why the deck exists / what success looks like)\n        - Target audience (role, expertise, context)\n        - Length (time and/or slide count; if unknown, propose a reasonable default and ask approval)\n      Optionally: key themes, must-include points, constraints, brand/tone, product/topic focus.\n      Ask short, targeted questions. Acknowledge inputs the user already gave and only fill gaps \u00e2\u0080\u0094\n      never re-ask for known inputs. If requirements conflict (e.g. more detail than the slide count\n      allows), surface the tradeoff and ask the user to prioritise before proceeding. If the user\n      resists giving details, proceed with minimal defaults and state the assumptions clearly.\n\n    STEP 2 \u00e2\u0080\u0094 Propose the structure (FIRST DELIVERABLE \u00e2\u0080\u0094 structure only, no content yet).\n      Read resource://mcp.generate_powerpoint_schema FIRST to learn what slide layouts exist and\n      what placeholders each has. Select only the layouts that fit the deck the user wants \u00e2\u0080\u0094 do NOT\n      use all of them, and do NOT list the available layouts to the user.\n      Then return a STRUCTURE ONLY: a clear, numbered slide sequence where each entry has a slide\n      title and a brief one-line rationale. Do NOT write bullets, subtitles, or full on-slide\n      content at this stage, and do NOT call the generate tool yet.\n      GATE: explicitly ask the user to approve the structure or request changes, and STOP \u00e2\u0080\u0094 do not\n      start visuals in the same turn. On a change request \u00e2\u0086\u0092 STEP 3; on approval \u00e2\u0086\u0092 visuals (STEP 4).\n\n    STEP 3 \u00e2\u0080\u0094 Structure revision loop (only if the user requests structural edits).\n      Apply standard deck conventions automatically: agenda goes right after the title slide, an\n      appendix goes last \u00e2\u0080\u0094 do NOT ask the user where these convention-governed slides belong. For\n      non-conventional slides, choose placement by narrative proximity (adjacent to the most\n      thematically related section). Always state the placement decision and rationale in one\n      sentence before presenting the updated structure, and invite correction.\n      Edit ONLY the slide the user asked about \u00e2\u0080\u0094 do not rename, reorder, or remove any other slide\n      unless explicitly instructed \u00e2\u0080\u0094 and re-number all slides after the insertion point. If an edit\n      has a cascading implication (timing, slide count, flow), surface it as a one-line note after\n      the updated structure; do not act on it unilaterally.\n      If the user changes the overall direction of the deck, treat it as a reset: discard the\n      previous outline, generate a new structure aligned to the new direction, acknowledge the shift,\n      and require confirmation on the new outline before proceeding. Do NOT advance to visuals until\n      the structure is confirmed.\n\n    STEP 4 \u00e2\u0080\u0094 Visuals path (MANDATORY \u00e2\u0080\u0094 resolve after structure is confirmed, before writing content).\n      Case A \u00e2\u0080\u0094 images already exist in the conversation (from prior editImage or Read screenshot\n      calls): acknowledge them, list each by its attachment label/description, and ask which images\n      to feature (and, optionally, on which slides). Do NOT auto-select images. The user may also\n      supply their own images. Use the s3_url (not thumbnail_url) for image placeholders.\n      Case B \u00e2\u0080\u0094 no images exist in the conversation: ALWAYS present all three options below\n      explicitly, as a numbered list, every time \u00e2\u0080\u0094 do not skip, summarize, collapse, or pick one on\n      the user's behalf. Then wait for the user's choice.\n        (1) generate a full set of images for the deck (aligned to the confirmed structure),\n        (2) collaborate slide-by-slide to create images together,\n        (3) upload their own images (user-provided assets).\n      When the user picks an option, ACT on it \u00e2\u0080\u0094 do not just acknowledge:\n        IMAGE GENERATION IS PICTURE-ONLY. Options 1 and 2 create images with Execute\n        featureType=editImage; they NEVER change the model's real material/appearance. Even when a\n        slide calls for a material (e.g. \"ABS\", \"brushed metal\"), phrase the editImage prompt as\n        visualization \u00e2\u0080\u0094 \"render/show the model as if made of ABS\" \u00e2\u0080\u0094 and do NOT call Update\n        materialAppearance / Create material / Create appearance during the deck build.\n        Option 1 (generate a full set): for each slide that needs a visual, first obtain a source\n          model screenshot if you don't already have one (Read queryType=screenshot \u00e2\u0086\u0092 gives a\n          signed_url + s3_url), then call Execute featureType=editImage with image_url/s3_url set to\n          that screenshot and a picture-only prompt derived from the slide's title/rationale. Keep\n          each returned s3_url. Generate all the needed images before moving on; no need to confirm\n          each one.\n        Option 2 (collaborate slide-by-slide): handle one slide at a time \u00e2\u0080\u0094 propose the image prompt,\n          run the same screenshot\u00e2\u0086\u0092editImage steps, show the result, and ask the user to accept,\n          refine, or retry before moving to the next slide.\n        Option 3 (upload their own): wait for the user to provide images; use the s3_url from each\n          uploaded asset. Do NOT call editImage for these.\n      In all cases the resulting image s3_url values become the image placeholder values in STEP 5.\n      For options 1 and 2, each image is generated FOR a specific slide, so record the slide \u00e2\u0086\u0094 s3_url\n      pairing as you go and reuse it directly in STEP 5 (this is a known 1:1 mapping \u00e2\u0080\u0094 do not\n      re-distribute those images). Only unassigned images (Case A selections or option-3 uploads that\n      the user did not tie to a slide) need the relevance-based distribution described in STEP 5.\n      If image generation fails or returns no image, tell the user and retry \u00e2\u0080\u0094 do not proceed with a\n      missing or broken image.\n      Visuals edge cases:\n        - User wants visuals but selects none yet: proceed using visual PLACEHOLDERS on the slides\n          (do not generate or invent images); the user can add images later without restructuring.\n        - User opts out of visuals entirely (\"text-only\"): respect it \u00e2\u0080\u0094 do not generate, request, or\n          add any visuals, adjust the slides to read well without images, and do not re-prompt for\n          visuals unless the user later asks.\n\n    STEP 5 \u00e2\u0080\u0094 Generate content (SECOND DELIVERABLE \u00e2\u0080\u0094 full on-slide content).\n      Only after the visuals path is resolved: produce a slide-by-slide outline with the full\n      on-slide content (title, subtitle, bullets/content) consistent with the confirmed requirements\n      and structure. For each slide also show a visual label alongside the text \u00e2\u0080\u0094 e.g.\n      \"Visual: rendered bracket in ABS\" or \"Visual: placeholder\" \u00e2\u0080\u0094 so content and image placement\n      are presented together. Size every text placeholder to fit (see CONTENT QUALITY) \u00e2\u0080\u0094 never\n      overflow the placeholder.\n      Image placement:\n        - Images generated per-slide via option 1 or 2 already have a known slide \u00e2\u0086\u0094 s3_url pairing \u00e2\u0080\u0094\n          place each on its originating slide; do not re-distribute them.\n        - For unassigned images (Case A selections or option-3 uploads not tied to a slide), and\n          whenever the image count does not match the slide count, distribute them logically by\n          relevance and slide importance \u00e2\u0080\u0094 some slides may have none, and key slides (intro, key\n          points, summary) may carry more than one. Where an image's fit is uncertain, use the\n          best-fit placement and label that pairing as provisional so the user can adjust it.\n      GATE: explicitly ask the user to approve the content or request changes, and STOP \u00e2\u0080\u0094 do not\n      call the generate tool in the same turn. On a change request \u00e2\u0086\u0092 STEP 6; on approval \u00e2\u0086\u0092 delivery\n      (STEP 7).\n\n    STEP 6 \u00e2\u0080\u0094 Content revision loop (only if the user requests content edits at the STEP 5 gate).\n      Apply targeted edits to the specified slide(s) only. Do NOT regenerate unaffected slides and do\n      NOT change the structure unless the user explicitly asks. Re-present the updated content and\n      return to the STEP 5 gate (approve or change) before delivery.\n\n    STEP 7 \u00e2\u0080\u0094 Deliver (only after the content is confirmed).\n      Build slides_json from the approved content and call this tool. When it succeeds, present the\n      open/download option and give a brief one-paragraph recap of the deck's requirements and how to\n      open it. Ensure the delivered deck matches the confirmed content.\n      On failure, do NOT present a broken link \u00e2\u0080\u0094 acknowledge the issue briefly and retry the tool\n      call (see ALWAYS RETRY under Instructions). If a retry still fails, tell the user and offer to\n      try again.\n\n  Required parameters:\n    - featureType: \"generatePowerpoint\" (required)\n    - object: (required) {\n        - slides_json: (required) a JSON string \u00e2\u0080\u0094 array of slide objects. Each slide has\n          'slide_number' (integer matching a layout from the schema) and 'placeholders' (list of\n          {idx (required), accepts (required: 'text' | 'image' | 'any'), value}). Use only the\n          slide_number/idx values from the schema. Image placeholders should use s3:// URLs from\n          prior editImage / Read screenshot attachments; they are resolved to fresh presigned URLs\n          before generation.\n      }\n\n  CONTENT QUALITY:\n    - Text placeholders must contain substantive, informative content (complete sentences, bullet\n      points, specifications) \u00e2\u0080\u0094 never generic filler like \"Content goes here\".\n    - FIT TEXT TO THE PLACEHOLDER \u00e2\u0080\u0094 never overflow. Follow each layout's 'notes' for how much content\n      belongs in each idx and stay at or under it (fewer/shorter bullets, concise phrasing). If\n      content won't fit, trim it or split across slides rather than exceeding the placeholder.\n    - Assign images only to placeholders where 'accepts' is 'image' or 'any' (never 'text').\n\n  Returns a text entry plus an options entry with an open button, e.g.:\n  {\n    \"output\": [\n      { \"type\": \"text\", \"content\": \"Success message\", \"presigned_url\": \"https://...\",\n        \"s3_url\": \"s3://...\", \"presentation_id\": \"presentation-<timestamp>.pptx\" },\n      {\n        \"type\": \"options\",\n        \"content\": {\n          \"displayType\": \"buttons\",\n          \"options\": [\n            { \"value\": \"Open presentation presentation-<timestamp>.pptx\", \"icon\": \"powerpoint\", \"interactionType\": \"prompt\" }\n          ]\n        }\n      }\n    ]\n  }\n  On error, returns a message describing the validation failure. If validation fails due to a\n  slide_number or placeholder idx mismatch, reread the schema resource and retry with corrected values.\n\n  Instructions:\n    - STRUCTURED OUTPUT: never display the raw JSON response to the user.\n    - Do NOT generate until the user has confirmed the structure, resolved visuals, and confirmed\n      the content (see WORKFLOW).\n    - ALWAYS RETRY: if generation fails, do not present a broken link \u00e2\u0080\u0094 call this tool again rather\n      than relying on a previous error response.\n\n  Example:\n  {\n    \"featureType\": \"generatePowerpoint\",\n    \"object\": {\n      \"slides_json\": \"[{\\\"slide_number\\\":1,\\\"placeholders\\\":[{\\\"idx\\\":0,\\\"accepts\\\":\\\"text\\\",\\\"value\\\":\\\"Premium Packaging Solution\\\"},{\\\"idx\\\":1,\\\"accepts\\\":\\\"text\\\",\\\"value\\\":\\\"Custom corrugated packaging for Acme Corp \u00e2\u0080\u0094 Q2 2026\\\"}]}]\"\n    }\n  }\n\npreviewImage:\n  Display, open, or download files generated in the Autodesk Assistant chat.\n  Supports images (png, jpg, gif, webp, bmp, tiff) and presentations (pptx).\n\n  IMPORTANT: This feature supports BOTH single and multiple files.\n    - For a SINGLE file: pass strings for image_url and s3_url\n    - For MULTIPLE files: pass arrays for image_url and s3_url; all are packaged into a ZIP\n\n  Required parameters:\n    - featureType: \"previewImage\" (required)\n    - object: (required) {\n        - image_url: (required) single URL (string) OR array of URLs \u00e2\u0080\u0094 the signed_url from the upload response (temporary, may expire)\n        - s3_url: (required) single URL (string) OR array of URLs \u00e2\u0080\u0094 the s3_url from the upload response (permanent identifier used to refresh an expired signed_url). Must match the structure of image_url.\n        - action: (optional) \"preview\" (default) | \"external\" | \"download\"\n        - title: (optional) title for the preview/save dialog\n      }\n\n  Actions:\n    - preview  \u00e2\u0080\u0094 Open in Fusion's built-in preview dialog (images only; .pptx auto-redirects to external)\n    - external \u00e2\u0080\u0094 Open in the system default application (images and presentations)\n    - download \u00e2\u0080\u0094 Show a save dialog for immediate file download (multiple files are saved as a ZIP)\n\n  Decision guide:\n    - User says \"show me\", \"preview\", \"let me see\"        -> action=\"preview\" (single only)\n    - User says \"open in viewer\", \"view externally\"        -> action=\"external\" (single only)\n    - User says \"open presentation\"                        -> action=\"external\"\n    - User says \"save\", \"download\", \"export\"               -> action=\"download\" (supports arrays)\n    - User says \"download both/all\"                         -> use arrays with action=\"download\"\n    - No preference stated                                  -> action=\"preview\" (default, single file)\n\n  Notes:\n    - Multiple files force action=\"download\"; arrays for image_url and s3_url must have matching lengths.\n    - If image_url has expired, s3_url is used to fetch a fresh URL automatically.\n    - NEVER display the JSON response to the user.\n\n  Example (single image):\n  {\n    \"featureType\": \"previewImage\",\n    \"object\": {\n      \"image_url\": \"https://storage.example.com/signed/image.png?token=...\",\n      \"s3_url\": \"s3://bucket/user/session/image.png\",\n      \"action\": \"preview\"\n    }\n  }\n\n  Example (multiple images for download):\n  {\n    \"featureType\": \"previewImage\",\n    \"object\": {\n      \"image_url\": [\"https://example.com/img1.png\", \"https://example.com/img2.png\"],\n      \"s3_url\": [\"s3://bucket/user/session/img1.png\", \"s3://bucket/user/session/img2.png\"],\n      \"action\": \"download\"\n    }\n  }\n",
+        "inputSchema": {
+          "properties": {
+            "featureType": {
+              "description": "Type of execution operation to perform",
+              "enum": [
+                "script",
+                "document",
+                "purchase",
+                "editImage",
+                "generatePowerpoint",
+                "previewImage"
+              ],
+              "type": "string"
+            },
+            "object": {
+              "description": "Object containing execution parameters",
+              "properties": {
+                "action": {
+                  "description": "For featureType 'previewImage': how to handle the file: 'preview' (default), 'external', or 'download'. For multiple files, only 'download' is supported.",
+                  "enum": [
+                    "preview",
+                    "external",
+                    "download"
+                  ],
+                  "type": "string"
+                },
+                "extensionName": {
+                  "description": "When purchaseInterest is extension: feature pack id or extension display name (optional)",
+                  "type": "string"
+                },
+                "fileId": {
+                  "description": "The id of the file to open",
+                  "type": "string"
+                },
+                "image_url": {
+                  "description": "For featureType 'editImage': URL to the source image file (the signed_url of the model screenshot to edit/render). For featureType 'previewImage': single signed URL (string) or multiple signed URLs (array of strings) from the upload response (temporary, may expire).",
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "items": {
+                        "type": "string"
+                      },
+                      "type": "array"
+                    }
+                  ]
+                },
+                "operation": {
+                  "description": "Document operation identifier",
+                  "enum": [
+                    "open",
+                    "close",
+                    "save"
+                  ],
+                  "type": "string"
+                },
+                "prompt": {
+                  "description": "For featureType 'editImage': natural language prompt describing the material changes or target environment/scene. Pass the user's request verbatim.",
+                  "type": "string"
+                },
+                "purchaseInterest": {
+                  "description": "Commercial topic to open in the purchase manager",
+                  "enum": [
+                    "extension",
+                    "fusion_subscription",
+                    "flex"
+                  ],
+                  "type": "string"
+                },
+                "readOnly": {
+                  "description": "For featureType 'script': set true only when the script exclusively reads the design and creates, modifies, or deletes nothing. A read-only script is allowed to run while a command dialog is open, which a normal script is not. The claim is enforced, so any attempt to modify the design from a read-only script fails with an error.",
+                  "type": "boolean"
+                },
+                "s3_url": {
+                  "description": "For featureType 'editImage': S3 URL for the source image file (permanent identifier used to refresh an expired signed_url). For featureType 'previewImage': single S3 URL (string) or multiple S3 URLs (array of strings). Must match the structure of image_url.",
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "items": {
+                        "type": "string"
+                      },
+                      "type": "array"
+                    }
+                  ]
+                },
+                "script": {
+                  "description": "Python script contents",
+                  "type": "string"
+                },
+                "slides_json": {
+                  "description": "For featureType 'generatePowerpoint': a JSON string (array of slide objects) defining the presentation. Read the resource://mcp.generate_powerpoint_schema resource FIRST to learn the valid slide_number and placeholder idx values. Each slide has 'slide_number' and a 'placeholders' list of {idx, accepts, value}. Image placeholders (accepts 'image' or 'any') should use s3:// URLs from prior EditImage / Read screenshot attachments; they are resolved to fresh presigned URLs before generation.",
+                  "type": "string"
+                },
+                "title": {
+                  "description": "For featureType 'previewImage': optional title for the preview/save dialog (used with action='preview')",
+                  "type": "string"
+                },
+                "userConfirmedCloseWithoutSave": {
+                  "description": "The user has confirmed that changes should be discarded",
+                  "type": "boolean"
+                },
+                "userConfirmedOpenPurchaseManager": {
+                  "description": "Must be true only after the user explicitly agrees to open the in-app Purchase Manager",
+                  "type": "boolean"
+                },
+                "userConfirmedSaveAndClose": {
+                  "description": "The user has confirmed that changes should be saved",
+                  "type": "boolean"
+                },
+                "userMessageSummary": {
+                  "description": "Short paraphrase of the user's request (optional context)",
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            }
+          },
+          "required": [
+            "featureType",
+            "object"
+          ],
+          "type": "object"
+        },
+        "name": "fusion_mcp_execute"
+      },
+      {
+        "description": "Read geometric properties and data from the active Fusion model.\n\nThis tool provides the Read operation in the MCP CRUD framework with query types supporting\ncomprehensive read-only access to API documentation, documents, projects, licensing, and screenshots.\n\n=== ENTITLEMENT / LICENSING QUERY ===\n\nlicensing:\n  - Returns the signed-in user's Fusion license and entitlement status\n  - No parameters required\n  - Example: {\"queryType\": \"licensing\"}\n  - Returns: {success:true, queryType:\"licensing\", licenseTypeSummary, summary, services, activeExtensions, purchasableExtensions, flexTokens}\n  - flexTokens: Flex token status and balances (balance, accounts, isFlexLicenseActive, isFlexAvailable, isTFlexContract)\n  - activeExtensions: already entitled (do not suggest buying or re-enabling). purchasableExtensions: for commercial users, buyable extensions; for Education users (summary.isStudent), extensions available to enable with free access (only list when naming extensions in chat)\n\n=== PROJECT QUERIES ===\n\nprojects:\n  - Lists all projects in the current hub\n  - No parameters required\n  - Returns: {\"projects\": [{\"name\": \"My Project\", \"id\": \"b.project_id\"}, ...]}\n  - Each project includes: name, id\n  - Returns empty array if no projects are found\n\n=== DOCUMENT QUERIES ===\n\ndocument: operation = search:\n  - Searches for files containing the name substring in a project or across projects.\n  - Required parameters:\n    - operation=\"search\"\n    - name: Name or partial name of file, fuzzy match, case insensitive\n  - Optional parameter:\n    - project: name or id of a project to search in, else all projects will be searched if missing\n  - Returns: {\"results\": [{\"name\": \"...\", \"id\": \"...\"}, ...]}\n\ndocument: operation = open:\n  - List all open documents\n  - No parameters required\n  - Returns: {\"results\": [{\"name\": \"...\", \"id\": \"...\", \"isActive\": true, \"isModified\": true}, ...]}\n\ndocument: operation = recent:\n  - List recent documents\n  - No parameters required\n  - Returns: {\"results\":[{\"name\":\"...\", \"id\": \"...\"}, ...]}\n\n=== API DOCUMENTATION QUERY ===\n\napiDocumentation:\n  - Returns API documentation for Fusion API classes, methods, and properties\n  - Required parameter: searchPattern\n  - Optional parameters: apiCategory AND filter\n  - Returns: {\"classes\": [{\"name\": \"...\", \"doc\": \"...\", \"properties\": [...],...}], \"members\": [{\"type\": \"function\", \"name\": \"...\", \"doc\": \"...\"},...]}\n  - Each class includes: The list of properties, functions, or enum value with a short description for each. Query members to get their full description.\n  - Each member includes: The full description of the property, function, or enum value.\n\n=== SCREENSHOT ===\n\nscreenshot:\n  - Returns a PNG screenshot of the active graphics view as base64-encoded image data\n  - Optional parameters: width, height, antiAliasing, transparentBackground, direction\n  - width: Image width in pixels (default: canvas width, range: 32-4096)\n  - height: Image height in pixels (default: canvas height, range: 32-4096)\n  - antiAliasing: Enable anti-aliasing (default: true)\n  - transparentBackground: Use transparent background (default: true)\n  - direction: Camera direction before capture: \"current\", \"front\", \"back\", \"bottom\", \"top\", \"left\", \"right\", \"iso-bottom-left\", \"iso-bottom-right\", \"iso-top-left\", \"iso-top-right\"\n  - Returns: {\"type\": \"image\", \"mimeType\": \"image/png\", \"base64Data\": \"<base64 string>\"}\n\n=== ACTIVE COMMAND QUERY ===\n\nactiveCommand:\n  - Returns the currently open command dialog's id, name, tooltip, and all visible input values\n  - No parameters required\n  - Returns {\"activeCommand\": null} if no command dialog is active\n  - isDefaultCommand: true when the active command is the session default (no interactive dialog)\n  - Each input includes: name, type, and type-specific fields:\n    - value/angle: {\"name\":\"Radius\",\"type\":\"value\",\"value\":1.25,\"expression\":\"1.25 cm\"}\n    - checkbox:   {\"name\":\"Tangent Chain\",\"type\":\"checkbox\",\"value\":true}\n    - dropdown:   {\"name\":\"Coolant\",\"type\":\"dropdown\",\"value\":\"Flood\",\"enum\":[\"Disabled\",\"Flood\",...]}\n    - selection:  {\"name\":\"Edges\",\"type\":\"selection\",\"selectionCount\":2,\"selections\":[{\"entityType\":\"adsk::fusion::BRepEdge\",\"selectionPoint\":[x,y,z]},...]}\n    - string:     {\"name\":\"Spindle Speed\",\"type\":\"string\",\"value\":\"5000.00 rpm\"}\n    - table:      {\"name\":\"Fillets\",\"type\":\"table\",\"rows\":[[...inputs...],[...inputs...]]}\n    - other:      {\"name\":\"...\",\"type\":\"<derived type>\"} (buttons, custom inputs, etc.)\n  - Use this query to read the current state of an active command\n",
+        "inputSchema": {
+          "properties": {
+            "antiAliasing": {
+              "description": "Enable anti-aliasing for 'screenshot' query (default: true).",
+              "type": "boolean"
+            },
+            "apiCategory": {
+              "description": "The category of objects to search for in the documentation for the 'apiDocumentation' query. Use 'class' to search class names, 'member' to search property, function, or enum value names, 'description' to search for class or member descriptions, or 'all' to search all of these.",
+              "enum": [
+                "class",
+                "member",
+                "description",
+                "all"
+              ],
+              "type": "string"
+            },
+            "direction": {
+              "description": "Camera direction for 'screenshot' query before capture. Use 'current' to keep current view, or a standard/view cube direction: 'front', 'back', 'bottom', 'top', 'left', 'right', 'iso-bottom-left', 'iso-bottom-right', 'iso-top-left', 'iso-top-right'.",
+              "enum": [
+                "current",
+                "front",
+                "back",
+                "bottom",
+                "top",
+                "left",
+                "right",
+                "iso-bottom-left",
+                "iso-bottom-right",
+                "iso-top-left",
+                "iso-top-right"
+              ],
+              "type": "string"
+            },
+            "filter": {
+              "description": "A filter for the types to search for in the 'apiDocumentation' query. Use a '.' separated list of namespace and class names to optionally limit the search to a specific namespace or class.\nExample: 'adsk.cam' will limit the search to the cam namespace. 'adsk.fusion.Extrude' will limit the search to the Extrude class.",
+              "type": "string"
+            },
+            "height": {
+              "description": "Image height in pixels for 'screenshot' query (default: canvas height, range: 32-4096).",
+              "maximum": 4096,
+              "minimum": 32,
+              "type": "number"
+            },
+            "name": {
+              "description": "Document search term (fuzzy match on document name).",
+              "type": "string"
+            },
+            "operation": {
+              "description": "Document operation identifier.",
+              "enum": [
+                "search",
+                "open",
+                "recent"
+              ],
+              "type": "string"
+            },
+            "project": {
+              "description": "Document search project name or id filter. Searches all projects if not specified.",
+              "type": "string"
+            },
+            "queryType": {
+              "description": "Type of geometry query to perform. Polymorphic queries adapt behavior based on entityToken type. List queries enumerate all entities. Parameter queries access design metadata.",
+              "enum": [
+                "apiDocumentation",
+                "licensing",
+                "screenshot",
+                "document",
+                "projects",
+                "activeCommand"
+              ],
+              "type": "string"
+            },
+            "searchPattern": {
+              "description": "Regular expression pattern. For 'apiDocumentation' query: searches API class/member names. For 'materialLibraries' query: filters material/appearance names by pattern.",
+              "type": "string"
+            },
+            "transparentBackground": {
+              "description": "Use transparent background for 'screenshot' query (default: true).",
+              "type": "boolean"
+            },
+            "width": {
+              "description": "Image width in pixels for 'screenshot' query (default: canvas width, range: 32-4096).",
+              "maximum": 4096,
+              "minimum": 32,
+              "type": "number"
+            }
+          },
+          "required": [
+            "queryType"
+          ],
+          "type": "object"
+        },
+        "name": "fusion_mcp_read"
+      },
+      {
+        "description": "Update the active Fusion model.\n\nThis tool provides undo and redo operations.\n\n=== FEATURE TYPES ===\n\nundo:\n  Undoes the most recent operation in the active document\n  Required parameters:\n    - featureType: \"undo\"\n  Returns: {\"success\": true, \"message\": \"Undo completed successfully\", \"canUndo\": true, \"canRedo\": true}\n  Error cases:\n    - Nothing to undo: {\"success\": false, \"error\": \"Nothing to undo\", \"canUndo\": false, \"canRedo\": false}\n    - Interactive mode: {\"success\": false, \"error\": \"Cannot undo during interactive operation...\"}\n  Notes:\n    - Undoes the last committed transaction (e.g., create feature, delete, edit)\n    - Cannot undo during preview or interactive commands (fails gracefully)\n    - Response includes canUndo/canRedo status for UI feedback\n\nredo:\n  Redoes the most recently undone operation in the active document\n  Required parameters:\n    - featureType: \"redo\"\n  Returns: {\"success\": true, \"message\": \"Redo completed successfully\", \"canUndo\": true, \"canRedo\": false}\n  Error cases:\n    - Nothing to redo: {\"success\": false, \"error\": \"Nothing to redo\", \"canUndo\": true, \"canRedo\": false}\n    - Interactive mode: {\"success\": false, \"error\": \"Cannot redo during interactive operation...\"}\n  Notes:\n    - Redoes the last undone transaction\n    - Cannot redo during preview or interactive commands (fails gracefully)\n    - Response includes canUndo/canRedo status for UI feedback\n\n=== EXAMPLES ===\n\nUndo the last operation:\n{\n  \"featureType\": \"undo\"\n}\n\nRedo the last undone operation:\n{\n  \"featureType\": \"redo\"\n}\n",
+        "inputSchema": {
+          "properties": {
+            "featureType": {
+              "description": "Type of update",
+              "enum": [
+                "undo",
+                "redo"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "featureType"
+          ],
+          "type": "object"
+        },
+        "name": "fusion_mcp_update"
+      }
+    ]
+  }
+}

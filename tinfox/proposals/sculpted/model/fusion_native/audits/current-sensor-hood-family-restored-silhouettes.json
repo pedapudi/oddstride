@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "views": [
+    {
+      "view": "side",
+      "boundary_hausdorff_mm": 0.008343373246459434,
+      "relative_symmetric_difference_area": 0.0001310702065425562,
+      "mesh_seam_healing": [
+        {
+          "pre_close_components": 1,
+          "post_close_components": 1,
+          "changed_area_mm2": 1.9407165682066342e-05
+        },
+        {
+          "pre_close_components": 41,
+          "post_close_components": 1,
+          "changed_area_mm2": 8.440400609273783e-05
+        }
+      ],
+      "passed": true
+    },
+    {
+      "view": "front",
+      "boundary_hausdorff_mm": 0.009496655322796753,
+      "relative_symmetric_difference_area": 4.2777222789377665e-05,
+      "mesh_seam_healing": [
+        {
+          "pre_close_components": 1,
+          "post_close_components": 1,
+          "changed_area_mm2": 8.200572420052543e-09
+        },
+        {
+          "pre_close_components": 1,
+          "post_close_components": 1,
+          "changed_area_mm2": 7.51227375613915e-09
+        }
+      ],
+      "passed": true
+    },
+    {
+      "view": "top",
+      "boundary_hausdorff_mm": 0.010085123151835502,
+      "relative_symmetric_difference_area": 7.005415630113293e-05,
+      "mesh_seam_healing": [
+        {
+          "pre_close_components": 1,
+          "post_close_components": 1,
+          "changed_area_mm2": 2.4370081127294456e-06
+        },
+        {
+          "pre_close_components": 1,
+          "post_close_components": 1,
+          "changed_area_mm2": 3.4722752301083846e-06
+        }
+      ],
+      "passed": true
+    },
+    {
+      "view": "isometric",
+      "boundary_hausdorff_mm": 0.013890157617664257,
+      "relative_symmetric_difference_area": 5.1648183025753e-05,
+      "mesh_seam_healing": [
+        {
+          "pre_close_components": 1,
+          "post_close_components": 1,
+          "changed_area_mm2": 2.120898523894155e-09
+        },
+        {
+          "pre_close_components": 1,
+          "post_close_components": 1,
+          "changed_area_mm2": 1.6972478293947494e-09
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "source_sha256": "b1ed4be5c9e6167cf2df65641f56895fee8ed2dde8b41d1a1bed7fce7943e4b6",
+  "native_sha256": "d26c33b60a82110edc061c2a3836d38c7c29bca69aeb2cd29bea68afb6819ac9",
+  "mesh_seam_close_radius_mm": 1e-05,
+  "projection_union_precision_mm": 1e-06,
+  "absolute_deflection_mm": 0.01,
+  "angular_deflection_rad": 0.04,
+  "scope": "External projected boundaries from absolute-deflection meshes; internal openings are checked by sections and exact surfaces."
+}

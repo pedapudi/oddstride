@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "parts": [
+    {
+      "part": "roll_cartridge_-1",
+      "parent_sha256": "5ff59a30f035ab92d5007f4cf576e36013f377d94659bdd5521081040f0b357d",
+      "reference_sha256": "32cd9f3bace7928804e9a5f890806ff96ba1b885c9cce6660257235bc6c85a0b",
+      "native_sha256": "ce0a4cc07e20f69226c94cebac79c594b0eee1b72584d5d5d908aede984aceed",
+      "rear_method": "mirror",
+      "right_mirror": false,
+      "geometry_passed": true,
+      "sections_passed": true
+    },
+    {
+      "part": "roll_cartridge_1_right",
+      "parent_sha256": "5ff59a30f035ab92d5007f4cf576e36013f377d94659bdd5521081040f0b357d",
+      "reference_sha256": "e72c24cccbad8d332e3479c0d9a2672680691e8e5767e3a98f9add3cdd92e58d",
+      "native_sha256": "d92dbf6fdf4ff6b6b51ce282e0fe2f4577ca5283f9bbb31ef5f984518c8b4601",
+      "rear_method": "none",
+      "right_mirror": true,
+      "geometry_passed": true,
+      "sections_passed": true
+    },
+    {
+      "part": "roll_cartridge_-1_right",
+      "parent_sha256": "5ff59a30f035ab92d5007f4cf576e36013f377d94659bdd5521081040f0b357d",
+      "reference_sha256": "1d80e4197e582db0f5b3010619a10ea651ab76f77a216ece344b8996d9fbe9bb",
+      "native_sha256": "ea6f21bf7ae118c39cd0c4d05eea6a2ff53790ef984751fe1b36630a3988ef11",
+      "rear_method": "mirror",
+      "right_mirror": true,
+      "geometry_passed": true,
+      "sections_passed": true
+    },
+    {
+      "part": "roll_stator_backplate_-1",
+      "parent_sha256": "e24727d8883bad7f42c2eb301539086410f9bf1afb81ee88d7317769366d30e5",
+      "reference_sha256": "aed159e8eb1dbc52859b93f4113ab794b4f58afe096f238294693b00e911d702",
+      "native_sha256": "60c3535d62baaa9b3feb48eb433363e0197534d29ffe65147f34bf81f85c5421",
+      "rear_method": "mirror",
+      "right_mirror": false,
+      "geometry_passed": true,
+      "sections_passed": true
+    },
+    {
+      "part": "roll_stator_backplate_1_right",
+      "parent_sha256": "e24727d8883bad7f42c2eb301539086410f9bf1afb81ee88d7317769366d30e5",
+      "reference_sha256": "81fbd2fd146debcc75e7273b759bae2ef68d230ffcf233e2207e012650773805",
+      "native_sha256": "22c73fa3ebdba58b89bee4b7858995db7cbe34d8082830c75c425bf1ba989b57",
+      "rear_method": "none",
+      "right_mirror": true,
+      "geometry_passed": true,
+      "sections_passed": true
+    },
+    {
+      "part": "roll_stator_backplate_-1_right",
+      "parent_sha256": "e24727d8883bad7f42c2eb301539086410f9bf1afb81ee88d7317769366d30e5",
+      "reference_sha256": "ebe352c770958ffa4fcb472a71d87908a2828402b266df7b10bdcfefaa09481f",
+      "native_sha256": "10cf4dda03612910a64e04616090cd5b3a47352007ef12503352289c4ce42a8b",
+      "rear_method": "mirror",
+      "right_mirror": true,
+      "geometry_passed": true,
+      "sections_passed": true
+    },
+    {
+      "part": "hip_stator_closure_-1",
+      "parent_sha256": "d2f32933385ef7c7330eee501238f8722257ed535f627bd8d8953011bfc3c419",
+      "reference_sha256": "9264440bb3911dde8ed10301f76152b333f92bebf59623b27e30cbe6407c5e77",
+      "native_sha256": "524b8ea037416f19077fe8bcb39643dba726de0ed007e16132ddee1fc5b97705",
+      "rear_method": "translate",
+      "right_mirror": false,
+      "geometry_passed": true,
+      "sections_passed": true
+    },
+    {
+      "part": "hip_stator_closure_1_right",
+      "parent_sha256": "d2f32933385ef7c7330eee501238f8722257ed535f627bd8d8953011bfc3c419",
+      "reference_sha256": "b94e79d04fb2ad60088de156c0c9ac4ec5d38c7c63d3098daabe137163f295f3",
+      "native_sha256": "9461ab3adb9a42a75b5be25bd0dfd9561f89781a4b3701247003a41d3789cb0f",
+      "rear_method": "none",
+      "right_mirror": true,
+      "geometry_passed": true,
+      "sections_passed": true
+    },
+    {
+      "part": "hip_stator_closure_-1_right",
+      "parent_sha256": "d2f32933385ef7c7330eee501238f8722257ed535f627bd8d8953011bfc3c419",
+      "reference_sha256": "7dcbf6fa6d9491c26db2bb1f8671953b807e8fa1346f59c2471b634c5203aaaa",
+      "native_sha256": "a40faccf8702ffa11873f5849577a55167c852a5039d6f37a9d3b134c794f1be",
+      "rear_method": "translate",
+      "right_mirror": true,
+      "geometry_passed": true,
+      "sections_passed": true
+    },
+    {
+      "part": "motor_carrier_1_right",
+      "parent_sha256": "6fdc642e1a704073c2cd64486cd1ecfcabedeec0362b557daf9399ba3514d197",
+      "reference_sha256": "a9ad0c6d49412dd672050c5f08be2a55e1f150ac192a9dfc8c09ee8e5d87176b",
+      "native_sha256": "71dab5286b90db0ec14cfa7e14e5afcda71f48e8b735f3e45cb5f56dd8a7a959",
+      "rear_method": "none",
+      "right_mirror": true,
+      "geometry_passed": true,
+      "sections_passed": true
+    },
+    {
+      "part": "motor_carrier_-1_right",
+      "parent_sha256": "9448341108273e7665851ae6ee211aae9a6ba3d60b179acd5518f883523663d1",
+      "reference_sha256": "b9911476cfad9db2e06745c205af118b3a0cf99e476ca706af65588774cf6e9e",
+      "native_sha256": "bcde733e3d3190efb21b787a134feacb03a3c28371d3b4c8f9d810cbebb0e0b6",
+      "rear_method": "none",
+      "right_mirror": true,
+      "geometry_passed": true,
+      "sections_passed": true
+    }
+  ],
+  "scope": "Native family handed geometry and interface preservation only; whole assembly placement and motion pending."
+}

@@ -1,0 +1,121 @@
+{
+  "status": "Native feature recipe prepared from source; not executed in Fusion by root",
+  "source": "slim_limb.py plate()/hub(); dimensions in mm, coordinates(worldX,worldY,worldZ)",
+  "construction": "Use IntentGeometry and CohesiveLimbIntent helpers. Native XZ sketch coordinates are(worldX,-worldZ), extrusion+Y. Analytic arcs and tangent lines; no sampled polygon or imported custom BRep.",
+  "parameters": {
+    "tie_radius": 43.5,
+    "tie_angles_deg": [
+      90,
+      210,
+      330
+    ],
+    "tie_bore_radius": 1.7,
+    "clip_radius": 48,
+    "stator_outer_circle": 40.5,
+    "stator_lobe_radius": 4.5,
+    "stator_base_y": 50.5,
+    "stator_base_thickness": 3,
+    "stator_pad_thickness": 1.5,
+    "stator_inner_bore_radius": 30,
+    "stator_vendor_pcd_radius": 36.5,
+    "stator_hole_radius": 1.7,
+    "stator_vendor_angles_deg": [
+      20,
+      60,
+      100,
+      140,
+      180,
+      220,
+      260,
+      300,
+      340
+    ],
+    "hub_base_y": 5,
+    "hub_base_thickness": 3,
+    "hub_corner_radius": 5.5,
+    "hub_collar_outer_radius": 20,
+    "hub_collar_inner_radius": 6,
+    "hub_collar_y": 0,
+    "hub_collar_depth": 5,
+    "hub_tie_pad_radius": 6,
+    "hub_tie_pad_thickness": 1.5,
+    "hub_output_pcd_radius": 12,
+    "hub_output_hole_radius": 2.2,
+    "hub_output_head_radius": 3.8,
+    "hub_output_head_y": 3.7,
+    "hub_output_head_depth": 4.5,
+    "hub_rib_width": 12,
+    "hub_rib_radial_length": 20,
+    "hub_rib_center_radius": 27,
+    "hub_rib_y_min": 0.5,
+    "hub_rib_depth": 4.5,
+    "hub_rib_edge_radius": 1.2
+  },
+  "plate_outline": {
+    "delta_expression": "acos((stator_outer_circle-stator_lobe_radius)/tie_radius)",
+    "for_each_theta": "theta in90,210,330; center=(R*cos(theta),R*sin(theta)) inworldXZ",
+    "ordered_edges": [
+      "Tangent line: central circle point at angle theta-delta to lobe circle point at same angle",
+      "Lobe arc(center,lobeRadius,theta-delta..theta+delta)",
+      "Tangent line: lobe point(theta+delta) to central circle point(theta+delta)",
+      "Central arc(origin,outerCircle,theta+delta..theta+120-delta)"
+    ],
+    "count": "6lines+6arcs; include concentric30mm bore in same profile when selecting annulus",
+    "features": [
+      "Extrude single annular lobed profile3mm fromY50.5",
+      "Seed one circular4.5radius pad at tieRadius/theta90,Y53.5; extrude1.5; circular pattern3",
+      "Stator bore seed at radius36.5/theta20, through thickness; circular pattern9",
+      "Tie bore seed at radius43.5/theta90, through pad+plate; circular pattern3"
+    ]
+  },
+  "hub_outline": {
+    "ordered_edges": [
+      "For eachtheta90/210/330: cornerarc center(tieRadius*cos(theta),tieRadius*sin(theta)), radius5.5, angles theta-60..theta+60",
+      "Tangent line from that arc end to next corner arc start at theta+60"
+    ],
+    "count": "3arcs+3lines; extrude3mm fromY5",
+    "features": [
+      "Add annular collar20outer/6inner fromY0 toY5",
+      "One rounded rib box12X x4.5Y x20Z atcenter(0,2.75,27); fillet all12edges1.2 BEFOREjoin; join base. Pattern3 aboutY. Base contact atY5 is fullface, do not leave unjoined ribs.",
+      "Tie pad6radius fromY8 to9.5, circular pattern3",
+      "Concentric6radius shaft passage through entirehub",
+      "Output bolt holes2.2radius atPCD12, seedtheta0 throughwholehub; circularpattern6",
+      "Output head counterbores3.8radius atPCD12 fromY3.7 to8.2; circularpattern6",
+      "Tie bores1.7radius atR43.5 throughbase+pad; circularpattern3",
+      "Final radial envelope48: use concentric extruded annular cut or intersect with cylinder, not silhouette tessellation. It clips the rounded corners and raised tie pads to the rotating clearance envelope."
+    ]
+  },
+  "tubes": {
+    "construction": "Two separate annular stock bodies per tie, not a continuous tube through the stator plate",
+    "OD": 5,
+    "ID": 3.4,
+    "segments_Y": [
+      [
+        9.5,
+        50.5
+      ],
+      [
+        55,
+        61
+      ]
+    ],
+    "lengths": [
+      41,
+      6
+    ],
+    "count_per_leg": 6,
+    "setup": "Turn/face ends square; cut tube stock; dimensions remain independent of robot scale"
+  },
+  "critical_interfaces": [
+    "RS02vendor9xM3circle73mm and6xM4circle24mm are fixed hardware interfaces, not limb scale derivatives",
+    "Preserve tieRadius43.5; motor-to-sleeve nominalradialgap1.75mm",
+    "Stator plate/raisedpad facesY50.5/53.5/55 andhub/tiepadY5/8/9.5 define compressionstack",
+    "Keep bothleft/right derived from same native master; mirror with proper handedbody geometry",
+    "Audit deviation/bounds/sections and actual motor/tube insertion. Newloadpaths are aluminum; do not assign printed strength from matching shape."
+  ],
+  "parameter_tests": [
+    "Change structural tie radius then restore; check support and motorclearance",
+    "Change base thicknesses with independent hardware fits; ensure adjacent lengthstack formulas adapt",
+    "Verify hardware hole diameter/PCD stay fixed while limb family changes"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "save_requested": true,
+  "previous_version": 27,
+  "version_at_return": 27,
+  "complete_at_return": false,
+  "modified": false,
+  "visible_groups": [
+    {
+      "part": "CURRENT_ASSEMBLY_FL",
+      "bodies": 151
+    },
+    {
+      "part": "CURRENT_ASSEMBLY_FR",
+      "bodies": 151
+    },
+    {
+      "part": "CURRENT_ASSEMBLY_RL",
+      "bodies": 151
+    },
+    {
+      "part": "CURRENT_ASSEMBLY_RR",
+      "bodies": 151
+    }
+  ],
+  "hidden_previously_visible": [
+    {
+      "part": "BENCH_MOTOR_COMPLEX",
+      "name": "Motor complex - corrected native assembly:1",
+      "action": "Hidden current document occurrence; saved historical scope and required native feature parents retained."
+    }
+  ],
+  "capacity": {
+    "personal_plan": true,
+    "editable_file_count": 4,
+    "max_editable_file_count": 10,
+    "available_slots": 6,
+    "known_tinfox_editable_files": [
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:cwZZGJRSR5aVlwkk9TcEUA",
+        "name": "Tinfox - Head",
+        "part": "subsystem_head",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+        "name": "Tinfox - Native Master Assembly",
+        "part": "native_master",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:R7U8KNNBSA6o3YwVNF2ZQQ",
+        "name": "Tinfox - Chassis",
+        "part": "subsystem_chassis",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+        "name": "Tinfox - Leg module",
+        "part": "subsystem_leg",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": true,
+        "protected": true,
+        "manual_read_only_candidate": false
+      }
+    ],
+    "unmanaged_editable_file_count": 0,
+    "manual_read_only_candidates": [],
+    "unsaved_open_documents": 0,
+    "status_change_api_supported": false,
+    "status_note": "isReadOnly has no setter. The separately guarded set_document_editability.py invokes Fusion Make Editable/Make Read-Only commands and independently verifies status. Read-only can also reflect permissions or another editor.",
+    "new_cloud_files": 0,
+    "reserved_free_slots": 1,
+    "required_available_slots": 1,
+    "master_file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ"
+  },
+  "elapsed_seconds": 39.099377917009406,
+  "full_robot_native_source_of_truth": false
+}

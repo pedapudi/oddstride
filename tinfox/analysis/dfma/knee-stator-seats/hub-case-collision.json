@@ -1,0 +1,79 @@
+{
+  "status": "verified_existing_collision_and_analysis_relief_only",
+  "inputs": {
+    "hub": {
+      "path": "tinfox/proposals/sculpted/model/fusion_native/exports/slim-native-hip_hub-restored.step",
+      "frozen_path": "tinfox/analysis/dfma/knee-stator-seats/hub-case-input/hub.step",
+      "sha256": "cdb610d12e927697921a403da6654f52419617abba176c9b6a4d9d1a97a5015e"
+    },
+    "motor": {
+      "path": "tinfox/proposals/sculpted/model/fusion_native/snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/knee_motor.step",
+      "frozen_path": "tinfox/analysis/dfma/knee-stator-seats/hub-case-input/motor.step",
+      "sha256": "fefb5120a4922808a37df220dceb6552e6b94fbf18c66aa098657ab5d7c8e6ba"
+    }
+  },
+  "original_overlap_mm3": 14.422022287547735,
+  "valid_intersection": true,
+  "three_intersection_lobes": [
+    {
+      "volume_mm3": 4.807340762485957,
+      "centroid_mm": [
+        2.3902629067901315e-15,
+        9.25,
+        38.50023702333434
+      ]
+    },
+    {
+      "volume_mm3": 4.807340762485523,
+      "centroid_mm": [
+        -33.342183313929695,
+        9.25,
+        -19.250118511667143
+      ]
+    },
+    {
+      "volume_mm3": 4.807340762485502,
+      "centroid_mm": [
+        33.34218331392969,
+        9.25,
+        -19.250118511667146
+      ]
+    }
+  ],
+  "analysis_relief": {
+    "radius_mm": 39.75,
+    "y_interval_mm": [
+      8.75,
+      9.75
+    ],
+    "motor_radial_clearance_mm": 0.5,
+    "motor_axial_clearance_to_pocket_floor_mm": 0.25,
+    "remaining_distance_to_tube_outer_footprint_mm": 1.25,
+    "valid": true,
+    "solid_count": 1,
+    "motor_overlap_after_mm3": 0,
+    "metal_tube_end_footprints": [
+      {
+        "tie_deg": 90,
+        "supported_tube_end_area_mm2": 10.55575131606176,
+        "expected_tube_annulus_area_mm2": 10.555751316061706
+      },
+      {
+        "tie_deg": 210,
+        "supported_tube_end_area_mm2": 10.555751316061759,
+        "expected_tube_annulus_area_mm2": 10.555751316061706
+      },
+      {
+        "tie_deg": 330,
+        "supported_tube_end_area_mm2": 10.555751316061757,
+        "expected_tube_annulus_area_mm2": 10.555751316061706
+      }
+    ]
+  },
+  "limitations": [
+    "Analysis geometry only; no canonical hub change was made.",
+    "Native authoring, exports, parameter edit and complete assembled static screen remain required.",
+    "The shallow clearance relief is not a printed strength, preload, fatigue or creep qualification.",
+    "The vendor motor reference is the frozen purchased envelope; physical motor geometry still requires measurement."
+  ]
+}

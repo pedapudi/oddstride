@@ -1,0 +1,123 @@
+{
+  "part": "thigh_outer_right",
+  "source_step_sha256": "c34c4d05582a426388c950b05d531d51ba2f5663bac0bb032728bfb50af99ab7",
+  "source_brep_sha256": null,
+  "source_reference_note": null,
+  "native_step_sha256": "6a337a45d7fd6e9738a17e59c801d175f0a03667728566b70849b72ba3ee27d3",
+  "sections": [
+    {
+      "axis": "X",
+      "offset_mm": -24.74931117033936,
+      "source_edges": 29,
+      "native_edges": 37,
+      "source_perimeter_mm": 385.2375159356527,
+      "native_perimeter_mm": 385.23841436663946,
+      "relative_perimeter_error": 2.3321482191820886e-06,
+      "symmetric_sampled_error_max_mm": 0.0043383826671800595,
+      "samples": 568,
+      "pass": true
+    },
+    {
+      "axis": "X",
+      "offset_mm": 0.00031444825877002813,
+      "source_edges": 60,
+      "native_edges": 84,
+      "source_perimeter_mm": 612.0721578669303,
+      "native_perimeter_mm": 612.0725562596812,
+      "relative_perimeter_error": 6.50891803762906e-07,
+      "symmetric_sampled_error_max_mm": 0.0020343056022351096,
+      "samples": 1017,
+      "pass": true
+    },
+    {
+      "axis": "X",
+      "offset_mm": 24.7499400668569,
+      "source_edges": 38,
+      "native_edges": 45,
+      "source_perimeter_mm": 408.7302912708317,
+      "native_perimeter_mm": 408.72353334224607,
+      "relative_perimeter_error": 1.6533955838218416e-05,
+      "symmetric_sampled_error_max_mm": 0.005347313494563137,
+      "samples": 655,
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -83.52499999999999,
+      "source_edges": 25,
+      "native_edges": 24,
+      "source_perimeter_mm": 860.0616313329983,
+      "native_perimeter_mm": 860.0616998536708,
+      "relative_perimeter_error": 7.966949108623282e-08,
+      "symmetric_sampled_error_max_mm": 5.2141606478257115e-05,
+      "samples": 961,
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -72.44999999999999,
+      "source_edges": 36,
+      "native_edges": 37,
+      "source_perimeter_mm": 699.06059926621,
+      "native_perimeter_mm": 699.060641415846,
+      "relative_perimeter_error": 6.029468122211708e-08,
+      "symmetric_sampled_error_max_mm": 5.2141606478257115e-05,
+      "samples": 865,
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -61.375,
+      "source_edges": 20,
+      "native_edges": 20,
+      "source_perimeter_mm": 483.90077473693447,
+      "native_perimeter_mm": 483.9007633406983,
+      "relative_perimeter_error": 2.3550770674799527e-08,
+      "symmetric_sampled_error_max_mm": 9.591036698873663e-06,
+      "samples": 568,
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -129.2021839451752,
+      "source_edges": 8,
+      "native_edges": 8,
+      "source_perimeter_mm": 84.3093982639478,
+      "native_perimeter_mm": 84.30540977690555,
+      "relative_perimeter_error": 4.730773940246817e-05,
+      "symmetric_sampled_error_max_mm": 0.003942305827895843,
+      "samples": 132,
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -69.6348008348079,
+      "source_edges": 8,
+      "native_edges": 8,
+      "source_perimeter_mm": 119.69038074617836,
+      "native_perimeter_mm": 119.69115414257026,
+      "relative_perimeter_error": 6.461642005571343e-06,
+      "symmetric_sampled_error_max_mm": 0.003005951880112741,
+      "samples": 168,
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -10.067417724440617,
+      "source_edges": 32,
+      "native_edges": 32,
+      "source_perimeter_mm": 366.1746068311405,
+      "native_perimeter_mm": 366.1680439538371,
+      "relative_perimeter_error": 1.792280835689252e-05,
+      "symmetric_sampled_error_max_mm": 0.004984761080928679,
+      "samples": 563,
+      "pass": true
+    }
+  ],
+  "section_gate_passed": true,
+  "tolerances": {
+    "sampled_distance_mm": 0.05,
+    "relative_perimeter": 0.002
+  },
+  "scope": "Nine sampled planar cuts supplement the full-surface comparison. They do not replace functional datums, service-path or editability audits."
+}

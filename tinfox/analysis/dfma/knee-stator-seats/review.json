@@ -1,0 +1,228 @@
+{
+  "status": "proposal_numerically_reviewed_not_authored",
+  "inputs": {
+    "plate": {
+      "source_path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/slim-native-motor_mount_ring-restored.step",
+      "frozen_path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/knee-stator-seats/input/plate.step",
+      "sha256": "f06bf3ee803e7e585ee79eace1fa6c2618d3d9bca1a0db0ae98276fc51462020"
+    },
+    "crank": {
+      "source_path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-native-input_crank.step",
+      "frozen_path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/knee-stator-seats/input/crank.step",
+      "sha256": "277beedc5cd650be48df2acd5ad717aefb8fc3ea4a33e03fff6632eb419ccbb5"
+    }
+  },
+  "old_stand_interference": {
+    "stator_angle_deg": 140,
+    "crank_rotation_y_deg": -138,
+    "overlap_mm3": 14.876869389828776
+  },
+  "proposal": {
+    "through_diameter_mm": 3.4,
+    "seat_top_y_mm": 53.5,
+    "seat_top_diameter_mm": 5.9,
+    "seat_bottom_y_mm": 52.25,
+    "cut_depth_mm": 1.25,
+    "included_angle_deg": 90,
+    "plate_back_y_mm": 50.5,
+    "base_thickness_mm": 3,
+    "residual_web_mm": 1.75,
+    "screw": "Ordinary M3 x 8 DIN 7991 countersunk socket screw, specified head dimensions; modeled head diameter5.9mm and cone height1.45mm.",
+    "nominal_tip_y_mm": 45.5,
+    "motor_stator_face_y_mm": 50.4,
+    "nominal_penetration_mm": 4.9,
+    "min_measured_outer_edge_land_mm": 1.050000000000001,
+    "central_bore_radial_land_mm": 3.549999999999997,
+    "valid_solid": true,
+    "solid_count": 1
+  },
+  "seat_land_measurements": [
+    {
+      "angle_deg": 20,
+      "center_xz_mm": [
+        34.29878065868566,
+        12.483735231386907
+      ],
+      "nominal_outer_edge_land_mm": 1.0500000000000027,
+      "original_plate_support_footprint_mm2": 18.26050729899068,
+      "expected_full_annulus_mm2": 18.260507298990674
+    },
+    {
+      "angle_deg": 60,
+      "center_xz_mm": [
+        18.250000000000004,
+        31.60992723813201
+      ],
+      "nominal_outer_edge_land_mm": 1.145630014000372,
+      "original_plate_support_footprint_mm2": 18.260507298990678,
+      "expected_full_annulus_mm2": 18.260507298990674
+    },
+    {
+      "angle_deg": 100,
+      "center_xz_mm": [
+        -6.338158484842956,
+        35.94548298494559
+      ],
+      "nominal_outer_edge_land_mm": 2.41118554281043,
+      "original_plate_support_footprint_mm2": 18.26050729899068,
+      "expected_full_annulus_mm2": 18.260507298990674
+    },
+    {
+      "angle_deg": 140,
+      "center_xz_mm": [
+        -27.960622173842694,
+        23.46174775355869
+      ],
+      "nominal_outer_edge_land_mm": 1.050000000000001,
+      "original_plate_support_footprint_mm2": 18.26050729899068,
+      "expected_full_annulus_mm2": 18.260507298990674
+    },
+    {
+      "angle_deg": 180,
+      "center_xz_mm": [
+        -36.5,
+        4.469960816887839e-15
+      ],
+      "nominal_outer_edge_land_mm": 1.1456300140004283,
+      "original_plate_support_footprint_mm2": 18.260507298990678,
+      "expected_full_annulus_mm2": 18.260507298990674
+    },
+    {
+      "angle_deg": 220,
+      "center_xz_mm": [
+        -27.960622173842697,
+        -23.461747753558683
+      ],
+      "nominal_outer_edge_land_mm": 2.4111855428104487,
+      "original_plate_support_footprint_mm2": 18.26050729899068,
+      "expected_full_annulus_mm2": 18.260507298990674
+    },
+    {
+      "angle_deg": 260,
+      "center_xz_mm": [
+        -6.338158484842957,
+        -35.94548298494559
+      ],
+      "nominal_outer_edge_land_mm": 1.050000000000007,
+      "original_plate_support_footprint_mm2": 18.260507298990678,
+      "expected_full_annulus_mm2": 18.260507298990674
+    },
+    {
+      "angle_deg": 300,
+      "center_xz_mm": [
+        18.250000000000004,
+        -31.60992723813201
+      ],
+      "nominal_outer_edge_land_mm": 1.1456300140004276,
+      "original_plate_support_footprint_mm2": 18.26050729899068,
+      "expected_full_annulus_mm2": 18.260507298990674
+    },
+    {
+      "angle_deg": 340,
+      "center_xz_mm": [
+        34.29878065868566,
+        -12.483735231386904
+      ],
+      "nominal_outer_edge_land_mm": 2.4111855428104354,
+      "original_plate_support_footprint_mm2": 18.260507298990685,
+      "expected_full_annulus_mm2": 18.260507298990674
+    }
+  ],
+  "seat_checks": [
+    {
+      "angle_deg": 20,
+      "nominal_screw_plate_intersection_mm3": 0,
+      "projected_seating_footprint_mm2": 18.07557221147995,
+      "straight3mm_driver_plate_overlap_mm3": 0,
+      "crank_distance_at_aligned_ear_mm": 2.299999999999997,
+      "passed": true
+    },
+    {
+      "angle_deg": 60,
+      "nominal_screw_plate_intersection_mm3": 0,
+      "projected_seating_footprint_mm2": 18.07557221148297,
+      "straight3mm_driver_plate_overlap_mm3": 0,
+      "crank_distance_at_aligned_ear_mm": 2.299999999999997,
+      "passed": true
+    },
+    {
+      "angle_deg": 100,
+      "nominal_screw_plate_intersection_mm3": 0,
+      "projected_seating_footprint_mm2": 18.075572211467783,
+      "straight3mm_driver_plate_overlap_mm3": 0,
+      "crank_distance_at_aligned_ear_mm": 2.299999999999997,
+      "passed": true
+    },
+    {
+      "angle_deg": 140,
+      "nominal_screw_plate_intersection_mm3": 0,
+      "projected_seating_footprint_mm2": 18.075572211412716,
+      "straight3mm_driver_plate_overlap_mm3": 0,
+      "crank_distance_at_aligned_ear_mm": 2.299999999999997,
+      "passed": true
+    },
+    {
+      "angle_deg": 180,
+      "nominal_screw_plate_intersection_mm3": 0,
+      "projected_seating_footprint_mm2": 18.07557221140561,
+      "straight3mm_driver_plate_overlap_mm3": 0,
+      "crank_distance_at_aligned_ear_mm": 2.299999999999997,
+      "passed": true
+    },
+    {
+      "angle_deg": 220,
+      "nominal_screw_plate_intersection_mm3": 0,
+      "projected_seating_footprint_mm2": 18.075572211387048,
+      "straight3mm_driver_plate_overlap_mm3": 0,
+      "crank_distance_at_aligned_ear_mm": 2.299999999999997,
+      "passed": true
+    },
+    {
+      "angle_deg": 260,
+      "nominal_screw_plate_intersection_mm3": 0,
+      "projected_seating_footprint_mm2": 18.075572211468227,
+      "straight3mm_driver_plate_overlap_mm3": 0,
+      "crank_distance_at_aligned_ear_mm": 2.299999999999997,
+      "passed": true
+    },
+    {
+      "angle_deg": 300,
+      "nominal_screw_plate_intersection_mm3": 0,
+      "projected_seating_footprint_mm2": 18.07557221141085,
+      "straight3mm_driver_plate_overlap_mm3": 0,
+      "crank_distance_at_aligned_ear_mm": 2.299999999999997,
+      "passed": true
+    },
+    {
+      "angle_deg": 340,
+      "nominal_screw_plate_intersection_mm3": 0,
+      "projected_seating_footprint_mm2": 18.075572211478796,
+      "straight3mm_driver_plate_overlap_mm3": 0,
+      "crank_distance_at_aligned_ear_mm": 2.299999999999997,
+      "passed": true
+    }
+  ],
+  "tooling": {
+    "access": "+Y with outer thigh removed; standard90degree countersink or straight end-mill interpolation.",
+    "print_orientation": "Plate baseY50.5 on bed, countersinks face upward; cone walls45degrees to axis. No support needed inside the seats in this orientation."
+  },
+  "purchasing": {
+    "primary_source": "https://www.fastenal.com/content/product_specifications/M.FHSCS.7991.FT.A4-70.02.pdf",
+    "DIN7991_M3_head_diameter_mm": [
+      5.7,
+      6.0
+    ],
+    "head_angle_deg": [
+      90,
+      92
+    ],
+    "hex_drive_AF_mm": 2,
+    "stock_verified": false
+  },
+  "limitations": [
+    "Proposed analysis solid only; native authoring, exported revised plate and full interference checks remain owner tasks.",
+    "Seat model is nominal. Purchased head diameter, angle, rim, length and printed seat variation can change proud height and engagement.",
+    "1.05mm nominal outer edge land is not a printed-strength or preload qualification. Countersunk heads apply a radial wedging load; use finger-tight fit assembly only until tested.",
+    "No operating strength, fatigue or loaded collision claim. No plate/thigh envelope change is required for this nominal fit proposal."
+  ]
+}

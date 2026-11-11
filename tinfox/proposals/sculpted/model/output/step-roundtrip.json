@@ -1,0 +1,986 @@
+{
+  "model_sha256": "144a84e88daed50139f890480e9f1a1740cfb20c773e740ba6b4e9c1b9eede5e",
+  "parts": [
+    {
+      "part": "body_center_0",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 6.898676962529882e-13,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "belly_center_0",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.4011029040384385e-10,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "body_aft_0",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.4786270360129542e-09,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "battery_side_panel_-1",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 3.8449414030404537e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "battery_access_latch_-1",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 5.587438082105434e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "battery_side_panel_1",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 3.6654110651552816e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "battery_access_latch_1",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 5.587438082105434e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "battery_latch_-1",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 7.372938954626653e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "battery_latch_1",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 7.372938954626653e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "battery_cassette",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 4.933157637204572e-10,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "battery_skid",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 0.0,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "chassis_beam_-102",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 4.1180945013656283e-13,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "chassis_beam_102",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 5.810234291441864e-13,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "chassis_crossmember_-121",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.6325634529144848e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "chassis_crossmember_121",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.5938492844892728e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "chassis_lower_brace",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 6.2567663963773274e-15,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "electronics_shelf",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 4.179983754144622e-15,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "lidar_lid",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 0.0,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "body_nose_surround",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.7989568544148023e-08,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "front_fascia",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 8.29795546519439e-09,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "sensor_bezel",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.2137107804779838e-08,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "power_button",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 0.0,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "roll_cartridge_1",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.5175318903643062e-07,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "motor_carrier_1",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.1743582763850381e-07,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "hip_hub",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 0.0,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "motor_mount_ring",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.818928665382346e-16,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pod_sleeve_90",
+      "expected_solids": 2,
+      "reopened_solids": 2,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.4047998593075571e-15,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pod_tie_90",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.1747709510376148e-16,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pod_sleeve_210",
+      "expected_solids": 2,
+      "reopened_solids": 2,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.341333098845928e-16,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pod_tie_210",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.1747709510376146e-16,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pod_sleeve_330",
+      "expected_solids": 2,
+      "reopened_solids": 2,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.3413330988459297e-16,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pod_tie_330",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.1747709510376146e-16,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "thigh_inner",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 9.114961497215457e-09,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "thigh_outer",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.0345398148317748e-08,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "sleeve_0",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 3.0882099655028747e-16,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "bolt_0",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 0.0,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "sleeve_1",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 3.0882099655028747e-16,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "bolt_1",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 0.0,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "input_crank",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 5.5717459764127135e-09,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pushrod",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 7.526356059894021e-13,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "input_pin",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.0760603038491126e-15,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "output_pivot_nut",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 8.79476177693717e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "output_pin",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.0760603038491124e-15,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "knee_axle",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.5733074377532567e-15,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "axle_bolt",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 0.0,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "axle_nut",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 7.896871113962669e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "knee_inner_spacer",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.056700447613683e-15,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "bearing_inner",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 0.0,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "bearing_outer",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 0.0,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_inner",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 9.286029479392602e-11,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_outer",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 3.704531103154765e-12,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_clamp_sleeve_37",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 3.9757904170251248e-16,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_clamp_bolt_37",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 0.0,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_clamp_nut_37",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 8.43013300544145e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_clamp_sleeve_105",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 3.975790417025125e-16,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_clamp_bolt_105",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 0.0,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_clamp_nut_105",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 8.563944640448455e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "foot",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.9405244715435293e-13,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "roll_cartridge_1_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.517191886897634e-07,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "motor_carrier_1_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.1743944342693838e-07,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "hip_hub_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 4.6389204414571393e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "motor_mount_ring_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 4.4680019346310185e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pod_sleeve_90_right",
+      "expected_solids": 2,
+      "reopened_solids": 2,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.1891464474209464e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pod_tie_90_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.4449682697762665e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pod_sleeve_210_right",
+      "expected_solids": 2,
+      "reopened_solids": 2,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.2125597784094015e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pod_tie_210_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.4684636887970182e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pod_sleeve_330_right",
+      "expected_solids": 2,
+      "reopened_solids": 2,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.1657331164324845e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pod_tie_330_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.4684636887970182e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "thigh_inner_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 9.01136525627665e-09,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "thigh_outer_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 4.1577960179216975e-08,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "sleeve_0_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.1926290755070417e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "bolt_0_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.3434384456775355e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "sleeve_1_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.1926290755070417e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "bolt_1_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.2942882586405519e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "input_crank_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 5.565121808046494e-09,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "pushrod_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 7.555308424733887e-13,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "input_pin_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.797756790007693e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "output_pivot_nut_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.0859446257301653e-13,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "output_pin_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 3.0775324690084613e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "knee_axle_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.2375928003601834e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "axle_bolt_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.1820394215968757e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "axle_nut_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 6.708094817237109e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "knee_inner_spacer_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.0567004476136873e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "bearing_inner_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.182567301413187e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "bearing_outer_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.182567301413187e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_inner_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.6526028408335462e-10,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_outer_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.3231273139226024e-11,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_clamp_sleeve_37_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.266200537704319e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_clamp_bolt_37_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 7.013109375147809e-15,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_clamp_nut_37_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 3.9400092529840987e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_clamp_sleeve_105_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.2662005377043204e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_clamp_bolt_105_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 7.153371562650769e-15,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "shin_clamp_nut_105_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 3.940009252984098e-14,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "foot_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 3.061639929183069e-13,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "roll_cartridge_-1",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.5171902417333718e-07,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "motor_carrier_-1",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 5.589593090459001e-12,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "roll_cartridge_-1_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 1.517526884272793e-07,
+      "volume_integration_tolerance": 1e-05
+    },
+    {
+      "part": "motor_carrier_-1_right",
+      "expected_solids": 1,
+      "reopened_solids": 1,
+      "valid": true,
+      "spline_conversion": false,
+      "conversion_bounds_delta_mm": 0.0,
+      "roundtrip_relative_volume_error": 2.5054001322022554e-12,
+      "volume_integration_tolerance": 1e-05
+    }
+  ],
+  "scope": "Every individual STEP reopened as the expected number of valid solids; volume and conversion envelope checked. Does not qualify machining tolerances or tool paths."
+}

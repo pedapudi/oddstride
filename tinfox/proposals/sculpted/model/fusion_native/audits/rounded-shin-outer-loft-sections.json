@@ -1,0 +1,481 @@
+{
+  "part": "rounded_shin_outer_loft",
+  "source_step_sha256": "b66b4e1d3300cd5ef11a9377316b5d060c4199ce38db51db7f6d2dc472c82cf4",
+  "source_brep_sha256": null,
+  "source_reference_note": "Exact five-section exterior construction tool from frozen rounded shin source. Not the final physical shell.",
+  "native_step_sha256": "cf48169febc0e6ddc0850ed622a33353807853771ec7b2aa86e04e4c32be13be",
+  "sections": [
+    {
+      "axis": "X",
+      "offset_mm": -9.50438276114,
+      "source_edges": 6,
+      "native_edges": 4,
+      "source_perimeter_mm": 296.28323085269847,
+      "native_perimeter_mm": 296.3203167529294,
+      "relative_perimeter_error": 0.00012517043277875583,
+      "symmetric_sampled_error_max_mm": 0.19973593873176268,
+      "section_to_own_solid_max_mm": [
+        3.5509274289901154e-08,
+        3.820931440110738e-06
+      ],
+      "samples": 310,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            6.811655416778275e-06,
+            1.1131076739294898e-05
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 0.19973261541434517,
+            "perimeters_mm": [
+              296.28322979253653,
+              296.32031060206
+            ],
+            "self_errors_mm": [
+              6.811655416778275e-06,
+              1.1131076739294898e-05
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 8,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.0658141036401503e-14
+            },
+            {
+              "face": 9,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 0,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.7763568394002505e-15
+            },
+            {
+              "face": 1,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 6.643574579356937e-13
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            3.5509274289901154e-08,
+            3.820931440110738e-06
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "X",
+      "offset_mm": 1.4956172388599995,
+      "source_edges": 4,
+      "native_edges": 4,
+      "source_perimeter_mm": 304.0,
+      "native_perimeter_mm": 304.00086917039755,
+      "relative_perimeter_error": 2.859113149835785e-06,
+      "symmetric_sampled_error_max_mm": 0.0008070578299594899,
+      "section_to_own_solid_max_mm": [
+        2.842170943040401e-14,
+        8.121375647083828e-09
+      ],
+      "samples": 316,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            2.842170943040401e-14,
+            8.121375647083828e-09
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "X",
+      "offset_mm": 12.49561723886,
+      "source_edges": 6,
+      "native_edges": 4,
+      "source_perimeter_mm": 293.465875367001,
+      "native_perimeter_mm": 293.50434306640545,
+      "relative_perimeter_error": 0.00013108065582193227,
+      "symmetric_sampled_error_max_mm": 0.15712860627620093,
+      "section_to_own_solid_max_mm": [
+        3.571042578826171e-08,
+        1.0952504216030044e-05
+      ],
+      "samples": 308,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            3.5314020238387464e-06,
+            1.5174976118931648e-05
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 0.15712469571221532,
+            "perimeters_mm": [
+              293.46587461358024,
+              293.5043395283107
+            ],
+            "self_errors_mm": [
+              3.5314020238387464e-06,
+              1.5174976118931648e-05
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 8,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.0658141036401503e-14
+            },
+            {
+              "face": 9,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 2.847716647714797e-14
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 0,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 3.552713678800501e-15
+            },
+            {
+              "face": 1,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 6.821210263296962e-13
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            3.571042578826171e-08,
+            1.0952504216030044e-05
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "Y",
+      "offset_mm": 59.5,
+      "source_edges": 6,
+      "native_edges": 5,
+      "source_perimeter_mm": 306.303315998109,
+      "native_perimeter_mm": 306.26290127051846,
+      "relative_perimeter_error": 0.00013194348699372137,
+      "symmetric_sampled_error_max_mm": 0.2651012095140521,
+      "section_to_own_solid_max_mm": [
+        4.206125849780345e-08,
+        8.399435381051452e-07
+      ],
+      "samples": 323,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            1.2109718591519871e-05,
+            1.635471244157502e-05
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 0.2650965556381145,
+            "perimeters_mm": [
+              306.3033138729447,
+              306.262898958594
+            ],
+            "self_errors_mm": [
+              1.2109718591519871e-05,
+              1.635471244157502e-05
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 8,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 9,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 2.842170943040401e-14
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 0,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 9.237055564881302e-14
+            },
+            {
+              "face": 1,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 4.192202140984591e-13
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            4.206125849780345e-08,
+            8.399435381051452e-07
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "Y",
+      "offset_mm": 68.0,
+      "source_edges": 4,
+      "native_edges": 4,
+      "source_perimeter_mm": 306.5127633517139,
+      "native_perimeter_mm": 306.46685094753605,
+      "relative_perimeter_error": 0.00014978953462097065,
+      "symmetric_sampled_error_max_mm": 0.2649691541050013,
+      "section_to_own_solid_max_mm": [
+        5.8187366826596624e-08,
+        7.202274592644872e-06
+      ],
+      "samples": 319,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            1.6732946100050627e-05,
+            2.0645759938800808e-05
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 0.26497191457303954,
+            "perimeters_mm": [
+              306.5127602229975,
+              306.46684864040594
+            ],
+            "self_errors_mm": [
+              1.6732946100050627e-05,
+              2.0645759938800808e-05
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 8,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            },
+            {
+              "face": 9,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 0,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            },
+            {
+              "face": 1,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            5.8187366826596624e-08,
+            7.202274592644872e-06
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "Y",
+      "offset_mm": 76.5,
+      "source_edges": 6,
+      "native_edges": 4,
+      "source_perimeter_mm": 306.3033159980053,
+      "native_perimeter_mm": 306.2649841448828,
+      "relative_perimeter_error": 0.00012514344808051475,
+      "symmetric_sampled_error_max_mm": 0.26502780275713256,
+      "section_to_own_solid_max_mm": [
+        4.8069351401550614e-08,
+        6.8712581845751766e-06
+      ],
+      "samples": 322,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            1.2109718591519871e-05,
+            1.63546250275187e-05
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 0.26502314624508155,
+            "perimeters_mm": [
+              306.30331387237806,
+              306.26498178678537
+            ],
+            "self_errors_mm": [
+              1.2109718591519871e-05,
+              1.63546250275187e-05
+            ]
+          },
+          "source_planar_faces": [
+            {
+              "face": 8,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 1.4210854715202004e-14
+            },
+            {
+              "face": 9,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 0.0
+            }
+          ],
+          "native_planar_faces": [
+            {
+              "face": 0,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 8.526512829121202e-14
+            },
+            {
+              "face": 1,
+              "intervals": 1,
+              "maximum_trim_projection_mm": 4.121147867408581e-13
+            }
+          ],
+          "section_to_own_solid_max_mm": [
+            4.8069351401550614e-08,
+            6.8712581845751766e-06
+          ]
+        }
+      ],
+      "pass": false
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -106.5,
+      "source_edges": 8,
+      "native_edges": 1,
+      "source_perimeter_mm": 106.7496622220314,
+      "native_perimeter_mm": 106.81017672672562,
+      "relative_perimeter_error": 0.0005668823997620299,
+      "symmetric_sampled_error_max_mm": 0.014401157434266199,
+      "section_to_own_solid_max_mm": [
+        3.3466112272258567e-06,
+        0.00032303822583729656
+      ],
+      "samples": 121,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            3.3466112272258567e-06,
+            0.00032303822583729656
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -77.0,
+      "source_edges": 8,
+      "native_edges": 1,
+      "source_perimeter_mm": 112.86614092418519,
+      "native_perimeter_mm": 112.65813388193281,
+      "relative_perimeter_error": 0.0018429534362488682,
+      "symmetric_sampled_error_max_mm": 0.04573296269745807,
+      "section_to_own_solid_max_mm": [
+        3.3505770216708655e-06,
+        0.00035595429923321103
+      ],
+      "samples": 124,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            3.3505770216708655e-06,
+            0.00035595429923321103
+          ]
+        }
+      ],
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": -47.5,
+      "source_edges": 8,
+      "native_edges": 1,
+      "source_perimeter_mm": 118.20713648931506,
+      "native_perimeter_mm": 117.34709218367274,
+      "relative_perimeter_error": 0.007275739275860554,
+      "symmetric_sampled_error_max_mm": 0.18423761858992732,
+      "section_to_own_solid_max_mm": [
+        9.021879277598116e-10,
+        0.00011315463588847628
+      ],
+      "samples": 128,
+      "kernel_attempts": [
+        {
+          "approximation": false,
+          "section_to_own_solid_max_mm": [
+            2.842170943040401e-14,
+            0.00023201372388845885
+          ]
+        },
+        {
+          "method": "analytical planar-face intervals plus surface intersections",
+          "original_boolean_result": {
+            "error_mm": 0.18441408673541287,
+            "perimeters_mm": [
+              118.20712997860235,
+              117.34663347597578
+            ],
+            "self_errors_mm": [
+              2.842170943040401e-14,
+              0.00023201372388845885
+            ]
+          },
+          "source_planar_faces": [],
+          "native_planar_faces": [],
+          "section_to_own_solid_max_mm": [
+            9.021879277598116e-10,
+            0.00011315463588847628
+          ]
+        }
+      ],
+      "pass": false
+    }
+  ],
+  "periodic_surface_projection_recoveries": {
+    "source": [],
+    "native": []
+  },
+  "section_gate_passed": false,
+  "section_algorithm": {
+    "compute_parent_pcurves": true,
+    "primary_approximation": false,
+    "fallback_approximation": true,
+    "fallback_condition": "Retry approximation for off-parent curves. If discrepancy remains, independently reconstruct analytical planar-face intervals from trim roots and inside-face classification, retaining original results. Same sample planes and pass thresholds."
+  },
+  "tolerances": {
+    "sampled_distance_mm": 0.05,
+    "relative_perimeter": 0.002,
+    "section_to_own_solid_mm": 0.005
+  },
+  "scope": "Nine sampled planar cuts supplement the full-surface comparison. They do not replace functional datums, service-path or editability audits."
+}

@@ -1,0 +1,1170 @@
+{
+  "model_sha256": "5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873",
+  "checker": "Exact current STEP carrier against generator's motor reference solid; front and rear canonical carriers; six straight translations.",
+  "scope": "Carrier only, all removable hardware and surrounding parts absent. No tilted multi-axis removal search. Vendor motor details, wires, tools and print deformation omitted. The optional existing printed split is generated separately from its unmodified source. Implausible boolean volumes at exact tangency are marked null and do not supply a penetration measurement.",
+  "carriers": [
+    {
+      "carrier": "motor_carrier_1",
+      "step_sha256": "8424c2c1bce38e2b76c1140da282669d2e185c3c6b5f2a449a124c7c35a9c934",
+      "closed_solids": 1,
+      "valid": true,
+      "paths": [
+        {
+          "direction": "+X",
+          "samples": [
+            {
+              "travel_mm": 0,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.5,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.5,
+              "intersection_mm3": 250.33201665224635,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 3,
+              "intersection_mm3": 1196.683731669837,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 5,
+              "intersection_mm3": 5538.821004622177,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 10,
+              "intersection_mm3": 7790.600146112914,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 20,
+              "intersection_mm3": 9331.70295479072,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 40,
+              "intersection_mm3": 8534.26069103921,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 60,
+              "intersection_mm3": 5321.844572475098,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 80,
+              "intersection_mm3": 1385.966810938877,
+              "boolean_volume_plausible": true
+            }
+          ],
+          "clear_straight_path": false
+        },
+        {
+          "direction": "-X",
+          "samples": [
+            {
+              "travel_mm": 0,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.5,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1,
+              "intersection_mm3": 8.17518095618353,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.1,
+              "intersection_mm3": 13.685154834957075,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.25,
+              "intersection_mm3": 23.629747504705726,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2,
+              "intersection_mm3": 96.08590468564053,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.25,
+              "intersection_mm3": 127.81957396711894,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.5,
+              "intersection_mm3": 164.8983396609347,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 3,
+              "intersection_mm3": 326.2606316291763,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 5,
+              "intersection_mm3": 2488.4385775741625,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 10,
+              "intersection_mm3": 7053.318493868485,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 20,
+              "intersection_mm3": 16772.618932138732,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 40,
+              "intersection_mm3": 25438.98712855115,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 60,
+              "intersection_mm3": 23275.503060863284,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 80,
+              "intersection_mm3": 17902.94358666154,
+              "boolean_volume_plausible": true
+            }
+          ],
+          "clear_straight_path": false
+        },
+        {
+          "direction": "+Y",
+          "samples": [
+            {
+              "travel_mm": 0,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.25,
+              "intersection_mm3": 370.1828944513508,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.5,
+              "intersection_mm3": 987.1543852036098,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1,
+              "intersection_mm3": 2221.097366708127,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.1,
+              "intersection_mm3": 2467.885963009035,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.25,
+              "intersection_mm3": 2838.068857460387,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2,
+              "intersection_mm3": 4688.983329717163,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.25,
+              "intersection_mm3": 5305.954820469422,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.5,
+              "intersection_mm3": 5922.92631122168,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 3,
+              "intersection_mm3": 7156.869292726196,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 5,
+              "intersection_mm3": 7403.657889027103,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 10,
+              "intersection_mm3": 7403.657889027103,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 20,
+              "intersection_mm3": 7403.657889027103,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 40,
+              "intersection_mm3": 7403.657889027101,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 60,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 80,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            }
+          ],
+          "clear_straight_path": false
+        },
+        {
+          "direction": "-Y",
+          "samples": [
+            {
+              "travel_mm": 0,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.5,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.1,
+              "intersection_mm3": 428.56242517408947,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.25,
+              "intersection_mm3": 1071.4060629352084,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2,
+              "intersection_mm3": 4285.624251740834,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.25,
+              "intersection_mm3": 5357.030314676043,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.5,
+              "intersection_mm3": 6428.436377611251,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 3,
+              "intersection_mm3": 8571.248503481662,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 5,
+              "intersection_mm3": 8571.24850348167,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 10,
+              "intersection_mm3": 8571.24850348167,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 20,
+              "intersection_mm3": 8571.24850348167,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 40,
+              "intersection_mm3": 8571.24850348167,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 60,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 80,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            }
+          ],
+          "clear_straight_path": false
+        },
+        {
+          "direction": "+Z",
+          "samples": [
+            {
+              "travel_mm": 0,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.5,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.25,
+              "intersection_mm3": null,
+              "boolean_volume_plausible": false
+            },
+            {
+              "travel_mm": 2.5,
+              "intersection_mm3": 250.1681800707689,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 3,
+              "intersection_mm3": 1159.6578782960746,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 5,
+              "intersection_mm3": 5148.816216739734,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 10,
+              "intersection_mm3": 7344.815024090206,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 20,
+              "intersection_mm3": 8753.335015785824,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 40,
+              "intersection_mm3": 8306.472482880583,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 60,
+              "intersection_mm3": 4796.7312650357135,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 80,
+              "intersection_mm3": 1385.9668109388758,
+              "boolean_volume_plausible": true
+            }
+          ],
+          "clear_straight_path": false
+        },
+        {
+          "direction": "-Z",
+          "samples": [
+            {
+              "travel_mm": 0,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.5,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.5,
+              "intersection_mm3": 250.1681800713504,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 3,
+              "intersection_mm3": 1159.6578782964534,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 5,
+              "intersection_mm3": 5148.816216745786,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 10,
+              "intersection_mm3": 7344.815024094398,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 20,
+              "intersection_mm3": 8753.335015789304,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 40,
+              "intersection_mm3": 8306.472482883753,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 60,
+              "intersection_mm3": 4796.731265036579,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 80,
+              "intersection_mm3": 1385.9668109388763,
+              "boolean_volume_plausible": true
+            }
+          ],
+          "clear_straight_path": false
+        }
+      ]
+    },
+    {
+      "carrier": "motor_carrier_-1",
+      "step_sha256": "f54ecc8db4e4605a53e47f646dd234ffb605c7a9952feaf47429b2ac24937d53",
+      "closed_solids": 1,
+      "valid": true,
+      "paths": [
+        {
+          "direction": "+X",
+          "samples": [
+            {
+              "travel_mm": 0,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.5,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1,
+              "intersection_mm3": 8.175217497195048,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.1,
+              "intersection_mm3": 13.685163234854379,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.25,
+              "intersection_mm3": 23.629747790220613,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2,
+              "intersection_mm3": 96.08660359202456,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.25,
+              "intersection_mm3": 127.81916251372792,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.5,
+              "intersection_mm3": 164.89875266475224,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 3,
+              "intersection_mm3": 326.2621627850889,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 5,
+              "intersection_mm3": 2488.4379781187085,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 10,
+              "intersection_mm3": 7053.31857227989,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 20,
+              "intersection_mm3": 16799.805692787628,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 40,
+              "intersection_mm3": 25466.003944215627,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 60,
+              "intersection_mm3": 23275.07012218849,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 80,
+              "intersection_mm3": 17902.732576194765,
+              "boolean_volume_plausible": true
+            }
+          ],
+          "clear_straight_path": false
+        },
+        {
+          "direction": "-X",
+          "samples": [
+            {
+              "travel_mm": 0,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.5,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.5,
+              "intersection_mm3": 250.33201665224863,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 3,
+              "intersection_mm3": 1196.6837316698434,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 5,
+              "intersection_mm3": 5538.8210046212635,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 10,
+              "intersection_mm3": 7790.6001461136075,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 20,
+              "intersection_mm3": 9304.465346488598,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 40,
+              "intersection_mm3": 8507.023082731352,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 60,
+              "intersection_mm3": 5322.067532479521,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 80,
+              "intersection_mm3": 1385.9668109388745,
+              "boolean_volume_plausible": true
+            }
+          ],
+          "clear_straight_path": false
+        },
+        {
+          "direction": "+Y",
+          "samples": [
+            {
+              "travel_mm": 0,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.25,
+              "intersection_mm3": 370.1828944513508,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.5,
+              "intersection_mm3": 987.1543852036098,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1,
+              "intersection_mm3": 2221.097366708127,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.1,
+              "intersection_mm3": 2467.885963009035,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.25,
+              "intersection_mm3": 2838.068857460387,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2,
+              "intersection_mm3": 4688.983329717163,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.25,
+              "intersection_mm3": 5305.954820469422,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.5,
+              "intersection_mm3": 5922.92631122168,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 3,
+              "intersection_mm3": 7156.869292726196,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 5,
+              "intersection_mm3": 7403.657889027103,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 10,
+              "intersection_mm3": 7403.657889027103,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 20,
+              "intersection_mm3": 7403.657889027103,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 40,
+              "intersection_mm3": 7403.657889027101,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 60,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 80,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            }
+          ],
+          "clear_straight_path": false
+        },
+        {
+          "direction": "-Y",
+          "samples": [
+            {
+              "travel_mm": 0,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.5,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.1,
+              "intersection_mm3": 428.56242517408947,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.25,
+              "intersection_mm3": 1071.4060629352082,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2,
+              "intersection_mm3": 4285.624251740834,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.25,
+              "intersection_mm3": 5357.030314676043,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.5,
+              "intersection_mm3": 6428.436377611251,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 3,
+              "intersection_mm3": 8571.24850348166,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 5,
+              "intersection_mm3": 8571.24850348167,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 10,
+              "intersection_mm3": 8571.24850348167,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 20,
+              "intersection_mm3": 8571.24850348167,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 40,
+              "intersection_mm3": 8571.24850348167,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 60,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 80,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            }
+          ],
+          "clear_straight_path": false
+        },
+        {
+          "direction": "+Z",
+          "samples": [
+            {
+              "travel_mm": 0,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.5,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.25,
+              "intersection_mm3": null,
+              "boolean_volume_plausible": false
+            },
+            {
+              "travel_mm": 2.5,
+              "intersection_mm3": 250.16818007105266,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 3,
+              "intersection_mm3": 1159.6578782964402,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 5,
+              "intersection_mm3": 5148.816216749153,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 10,
+              "intersection_mm3": 7344.8150240978375,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 20,
+              "intersection_mm3": 8753.335015792554,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 40,
+              "intersection_mm3": 8306.472482885281,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 60,
+              "intersection_mm3": 4796.731265037894,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 80,
+              "intersection_mm3": 1385.9668109388758,
+              "boolean_volume_plausible": true
+            }
+          ],
+          "clear_straight_path": false
+        },
+        {
+          "direction": "-Z",
+          "samples": [
+            {
+              "travel_mm": 0,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 0.5,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.1,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 1.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.25,
+              "intersection_mm3": 0,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 2.5,
+              "intersection_mm3": 250.16818007135046,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 3,
+              "intersection_mm3": 1159.6578782964516,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 5,
+              "intersection_mm3": 5148.816216746904,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 10,
+              "intersection_mm3": 7344.815024100629,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 20,
+              "intersection_mm3": 8753.335015795303,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 40,
+              "intersection_mm3": 8306.472482883753,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 60,
+              "intersection_mm3": 4796.73126503657,
+              "boolean_volume_plausible": true
+            },
+            {
+              "travel_mm": 80,
+              "intersection_mm3": 1385.9668109388758,
+              "boolean_volume_plausible": true
+            }
+          ],
+          "clear_straight_path": false
+        }
+      ]
+    }
+  ],
+  "existing_optional_printed_split": {
+    "source_sha256": "46423b436290a219e4ef00300f9eb46bb101d3694f5afaeeef19343e7d7a7332",
+    "valid": true,
+    "closed_solids": 1,
+    "samples": [
+      {
+        "translation_mm": [
+          0,
+          0.5,
+          0
+        ],
+        "intersection_mm3": 987.1543852036343
+      },
+      {
+        "translation_mm": [
+          0,
+          -2,
+          0
+        ],
+        "intersection_mm3": 4285.624251740833
+      },
+      {
+        "translation_mm": [
+          3,
+          0,
+          0
+        ],
+        "intersection_mm3": 1196.683731669812
+      },
+      {
+        "translation_mm": [
+          -3,
+          0,
+          0
+        ],
+        "intersection_mm3": 155.86402916691387
+      },
+      {
+        "translation_mm": [
+          0,
+          0,
+          3
+        ],
+        "intersection_mm3": 1196.683731669838
+      },
+      {
+        "translation_mm": [
+          0,
+          0,
+          -3
+        ],
+        "intersection_mm3": 1196.6837316698345
+      }
+    ]
+  }
+}

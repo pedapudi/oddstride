@@ -1,0 +1,546 @@
+{
+  "model_sha256": "f1f1c97f613eb1516102e39bb675f14b8ea0904ef8a361ddbbb0b48b0ed1a09c",
+  "review_raw_bytes": 27768941,
+  "outliers": [
+    {
+      "name": "belly_center_0",
+      "mesh": "belly_center_0",
+      "body": "Structural lower body shell structural solid",
+      "tolerance_mm": 0.13819074524614808,
+      "triangles": 576
+    },
+    {
+      "name": "chassis_lower_brace",
+      "mesh": "chassis_lower_brace",
+      "body": "Body1",
+      "tolerance_mm": 0.11837069517080538,
+      "triangles": 1580
+    },
+    {
+      "name": "electronics_shelf",
+      "mesh": "electronics_shelf",
+      "body": "Body1",
+      "tolerance_mm": 0.11195172114001167,
+      "triangles": 1332
+    },
+    {
+      "name": "battery_cassette",
+      "mesh": "battery_cassette",
+      "body": "Body1",
+      "tolerance_mm": 0.12340308566756593,
+      "triangles": 8038
+    },
+    {
+      "name": "battery_skid",
+      "mesh": "battery_skid",
+      "body": "Body1",
+      "tolerance_mm": 0.11466425148135555,
+      "triangles": 124
+    },
+    {
+      "name": "battery_-1",
+      "mesh": "battery_-1",
+      "body": "Body1",
+      "tolerance_mm": 0.0803441536714079,
+      "triangles": 684
+    },
+    {
+      "name": "battery_side_panel_-1",
+      "mesh": "battery_side_panel_-1",
+      "body": "battery_side_panel_-1",
+      "tolerance_mm": 0.07256754847533681,
+      "triangles": 916
+    },
+    {
+      "name": "battery_1",
+      "mesh": "battery_1",
+      "body": "Body1",
+      "tolerance_mm": 0.0803441536714079,
+      "triangles": 684
+    },
+    {
+      "name": "battery_side_panel_1",
+      "mesh": "battery_side_panel_1",
+      "body": "battery_side_panel_1",
+      "tolerance_mm": 0.07256754847533681,
+      "triangles": 916
+    },
+    {
+      "name": "sensor_window",
+      "mesh": "sensor_window",
+      "body": "Body1",
+      "tolerance_mm": 0.08090718999421664,
+      "triangles": 908
+    },
+    {
+      "name": "body_center_0",
+      "mesh": "body_center_0",
+      "body": "Coherent shoulder enclosure structural solid",
+      "tolerance_mm": 0.16623280400422089,
+      "triangles": 996
+    },
+    {
+      "name": "chassis_crossmember_121",
+      "mesh": "chassis_crossmember_121",
+      "body": "Transverse tie with integral sensor pads structural solid",
+      "tolerance_mm": 0.10750999581638654,
+      "triangles": 1276
+    },
+    {
+      "name": "chassis_crossmember_-121",
+      "mesh": "chassis_crossmember_-121",
+      "body": "Rear transverse tie structural solid",
+      "tolerance_mm": 0.10750999581638654,
+      "triangles": 832
+    },
+    {
+      "name": "chassis_beam_102",
+      "mesh": "chassis_beam_102",
+      "body": "Right rail with accessible thread pads structural solid",
+      "tolerance_mm": 0.13083773761471484,
+      "triangles": 6064
+    },
+    {
+      "name": "chassis_beam_-102",
+      "mesh": "chassis_beam_-102",
+      "body": "Left rail with shared frame geometry structural solid",
+      "tolerance_mm": 0.13083773761471484,
+      "triangles": 6064
+    },
+    {
+      "name": "FL_roll_cartridge",
+      "mesh": "roll_cartridge_1",
+      "body": "Paired bearing through-bore cartridge",
+      "tolerance_mm": 0.05586529983329634,
+      "triangles": 2504
+    },
+    {
+      "name": "FL_roll_stator_backplate",
+      "mesh": "roll_stator_backplate_1",
+      "body": "Removable roll stator plate and outer-race stop",
+      "tolerance_mm": 0.05669952487107339,
+      "triangles": 1668
+    },
+    {
+      "name": "FL_roll_outer_retainer",
+      "mesh": "roll_outer_retainer_1",
+      "body": "Removable passive outer-race retainer",
+      "tolerance_mm": 0.052564116428200164,
+      "triangles": 1084
+    },
+    {
+      "name": "FL_roll_motor",
+      "mesh": "bench_reference_FL_roll_motor",
+      "body": "Body1",
+      "tolerance_mm": 0.05856456792838298,
+      "triangles": 456
+    },
+    {
+      "name": "FL_motor_carrier",
+      "mesh": "motor_carrier_1",
+      "body": "Front cup with reinforced closure lands",
+      "tolerance_mm": 0.08463027675039517,
+      "triangles": 3726
+    },
+    {
+      "name": "FL_hip_stator_closure",
+      "mesh": "hip_stator_closure_1",
+      "body": "Reinforced closure with recessed standard buttons",
+      "tolerance_mm": 0.0643118346694785,
+      "triangles": 2356
+    },
+    {
+      "name": "FL_hip_motor",
+      "mesh": "bench_reference_FL_hip_motor",
+      "body": "Body1",
+      "tolerance_mm": 0.05856456792838298,
+      "triangles": 456
+    },
+    {
+      "name": "FL_hip_hub",
+      "mesh": "hip_hub",
+      "body": "Hip output hub with open knee-case clearance",
+      "tolerance_mm": 0.05651322758177596,
+      "triangles": 2678
+    },
+    {
+      "name": "FL_motor_mount_ring",
+      "mesh": "motor_mount_ring",
+      "body": "Knee stator plate with open countersunk seats",
+      "tolerance_mm": 0.05973507125318293,
+      "triangles": 1808
+    },
+    {
+      "name": "FL_thigh_inner",
+      "mesh": "thigh_inner",
+      "body": "Inner closed structural thigh",
+      "tolerance_mm": 0.12170307236702176,
+      "triangles": 1982
+    },
+    {
+      "name": "FL_thigh_outer",
+      "mesh": "thigh_outer",
+      "body": "Removable outer structural thigh",
+      "tolerance_mm": 0.13345774200088695,
+      "triangles": 4990
+    },
+    {
+      "name": "FL_knee_motor",
+      "mesh": "bench_reference_FL_knee_motor",
+      "body": "Body1",
+      "tolerance_mm": 0.05856456792838298,
+      "triangles": 456
+    },
+    {
+      "name": "FL_shin_inner",
+      "mesh": "shin_inner",
+      "body": "Shared rounded shin with open bearing and clamp interfaces",
+      "tolerance_mm": 0.08769656681897417,
+      "triangles": 3250
+    },
+    {
+      "name": "FL_shin_outer",
+      "mesh": "shin_outer",
+      "body": "Shared rounded shin with open bearing and clamp interfaces (1)",
+      "tolerance_mm": 0.08778895315023245,
+      "triangles": 3204
+    },
+    {
+      "name": "FL_pushrod",
+      "mesh": "pushrod",
+      "body": "Body1",
+      "tolerance_mm": 0.09067581330705828,
+      "triangles": 260
+    },
+    {
+      "name": "FR_roll_cartridge",
+      "mesh": "roll_cartridge_1_right",
+      "body": "Front right roll cartridge",
+      "tolerance_mm": 0.05586529983329634,
+      "triangles": 2504
+    },
+    {
+      "name": "FR_roll_stator_backplate",
+      "mesh": "roll_stator_backplate_1_right",
+      "body": "Front right roll stator backplate",
+      "tolerance_mm": 0.05669952487107339,
+      "triangles": 1668
+    },
+    {
+      "name": "FR_roll_outer_retainer",
+      "mesh": "roll_outer_retainer_1_right",
+      "body": "Removable passive outer-race retainer (1)",
+      "tolerance_mm": 0.052564116428200164,
+      "triangles": 1084
+    },
+    {
+      "name": "FR_roll_motor",
+      "mesh": "bench_reference_FR_roll_motor",
+      "body": "Body1",
+      "tolerance_mm": 0.05856456792838298,
+      "triangles": 456
+    },
+    {
+      "name": "FR_motor_carrier",
+      "mesh": "motor_carrier_1_right",
+      "body": "Front right motor carrier (1)",
+      "tolerance_mm": 0.08463027675039517,
+      "triangles": 3726
+    },
+    {
+      "name": "FR_hip_stator_closure",
+      "mesh": "hip_stator_closure_1_right",
+      "body": "Front right hip stator closure",
+      "tolerance_mm": 0.0643118346694785,
+      "triangles": 2356
+    },
+    {
+      "name": "FR_hip_motor",
+      "mesh": "bench_reference_FR_hip_motor",
+      "body": "Body1",
+      "tolerance_mm": 0.05856456792838298,
+      "triangles": 456
+    },
+    {
+      "name": "FR_hip_hub",
+      "mesh": "hip_hub_right",
+      "body": "Hip output hub with open knee-case clearance (1)",
+      "tolerance_mm": 0.05651322758177596,
+      "triangles": 2678
+    },
+    {
+      "name": "FR_motor_mount_ring",
+      "mesh": "motor_mount_ring_right",
+      "body": "Knee stator plate with open countersunk seats (1)",
+      "tolerance_mm": 0.05973507125318293,
+      "triangles": 1808
+    },
+    {
+      "name": "FR_thigh_inner",
+      "mesh": "thigh_inner_right",
+      "body": "Inner closed structural thigh (1)",
+      "tolerance_mm": 0.12170307236702176,
+      "triangles": 1982
+    },
+    {
+      "name": "FR_thigh_outer",
+      "mesh": "thigh_outer_right",
+      "body": "Removable outer structural thigh (1)",
+      "tolerance_mm": 0.13345774200088695,
+      "triangles": 4990
+    },
+    {
+      "name": "FR_knee_motor",
+      "mesh": "bench_reference_FR_knee_motor",
+      "body": "Body1",
+      "tolerance_mm": 0.05856456792838298,
+      "triangles": 456
+    },
+    {
+      "name": "FR_shin_inner",
+      "mesh": "shin_inner_right",
+      "body": "Shared rounded shin with open bearing and clamp interfaces (1)",
+      "tolerance_mm": 0.08769656681897417,
+      "triangles": 3250
+    },
+    {
+      "name": "FR_shin_outer",
+      "mesh": "shin_outer_right",
+      "body": "Shared rounded shin with open bearing and clamp interfaces (1) (1)",
+      "tolerance_mm": 0.08778895315023245,
+      "triangles": 3204
+    },
+    {
+      "name": "FR_pushrod",
+      "mesh": "pushrod_right",
+      "body": "Body2",
+      "tolerance_mm": 0.09067581330705828,
+      "triangles": 260
+    },
+    {
+      "name": "RL_roll_cartridge",
+      "mesh": "roll_cartridge_-1",
+      "body": "Rear left roll cartridge",
+      "tolerance_mm": 0.05586529983329634,
+      "triangles": 2504
+    },
+    {
+      "name": "RL_roll_stator_backplate",
+      "mesh": "roll_stator_backplate_-1",
+      "body": "Rear left roll stator backplate",
+      "tolerance_mm": 0.05669952487107339,
+      "triangles": 1668
+    },
+    {
+      "name": "RL_roll_outer_retainer",
+      "mesh": "roll_outer_retainer_-1",
+      "body": "Removable passive outer-race retainer (1)",
+      "tolerance_mm": 0.052564116428200164,
+      "triangles": 1084
+    },
+    {
+      "name": "RL_roll_motor",
+      "mesh": "bench_reference_RL_roll_motor",
+      "body": "Body1",
+      "tolerance_mm": 0.05856456792838298,
+      "triangles": 456
+    },
+    {
+      "name": "RL_motor_carrier",
+      "mesh": "motor_carrier_-1",
+      "body": "Rear cup with reinforced closure lands",
+      "tolerance_mm": 0.08463027675039517,
+      "triangles": 3728
+    },
+    {
+      "name": "RL_hip_stator_closure",
+      "mesh": "hip_stator_closure_-1",
+      "body": "Rear left hip stator closure",
+      "tolerance_mm": 0.0643118346694785,
+      "triangles": 2356
+    },
+    {
+      "name": "RL_hip_motor",
+      "mesh": "bench_reference_RL_hip_motor",
+      "body": "Body1",
+      "tolerance_mm": 0.05856456792838298,
+      "triangles": 456
+    },
+    {
+      "name": "RL_hip_hub",
+      "mesh": "hip_hub",
+      "body": "Hip output hub with open knee-case clearance",
+      "tolerance_mm": 0.05651322758177596,
+      "triangles": 2678
+    },
+    {
+      "name": "RL_motor_mount_ring",
+      "mesh": "motor_mount_ring",
+      "body": "Knee stator plate with open countersunk seats",
+      "tolerance_mm": 0.05973507125318293,
+      "triangles": 1808
+    },
+    {
+      "name": "RL_thigh_inner",
+      "mesh": "thigh_inner",
+      "body": "Inner closed structural thigh",
+      "tolerance_mm": 0.12170307236702176,
+      "triangles": 1982
+    },
+    {
+      "name": "RL_thigh_outer",
+      "mesh": "thigh_outer",
+      "body": "Removable outer structural thigh",
+      "tolerance_mm": 0.13345774200088695,
+      "triangles": 4990
+    },
+    {
+      "name": "RL_knee_motor",
+      "mesh": "bench_reference_RL_knee_motor",
+      "body": "Body1",
+      "tolerance_mm": 0.05856456792838298,
+      "triangles": 456
+    },
+    {
+      "name": "RL_shin_inner",
+      "mesh": "shin_inner",
+      "body": "Shared rounded shin with open bearing and clamp interfaces",
+      "tolerance_mm": 0.08769656681897417,
+      "triangles": 3250
+    },
+    {
+      "name": "RL_shin_outer",
+      "mesh": "shin_outer",
+      "body": "Shared rounded shin with open bearing and clamp interfaces (1)",
+      "tolerance_mm": 0.08778895315023245,
+      "triangles": 3204
+    },
+    {
+      "name": "RL_pushrod",
+      "mesh": "pushrod",
+      "body": "Body1",
+      "tolerance_mm": 0.09067581330705828,
+      "triangles": 260
+    },
+    {
+      "name": "RR_roll_cartridge",
+      "mesh": "roll_cartridge_-1_right",
+      "body": "Rear right roll cartridge",
+      "tolerance_mm": 0.05586529983329634,
+      "triangles": 2504
+    },
+    {
+      "name": "RR_roll_stator_backplate",
+      "mesh": "roll_stator_backplate_-1_right",
+      "body": "Rear right roll stator backplate",
+      "tolerance_mm": 0.05669952487107339,
+      "triangles": 1668
+    },
+    {
+      "name": "RR_roll_outer_retainer",
+      "mesh": "roll_outer_retainer_-1_right",
+      "body": "Removable passive outer-race retainer (1) (1)",
+      "tolerance_mm": 0.052564116428200164,
+      "triangles": 1084
+    },
+    {
+      "name": "RR_roll_motor",
+      "mesh": "bench_reference_RR_roll_motor",
+      "body": "Body1",
+      "tolerance_mm": 0.05856456792838298,
+      "triangles": 456
+    },
+    {
+      "name": "RR_motor_carrier",
+      "mesh": "motor_carrier_-1_right",
+      "body": "Rear right motor carrier (1)",
+      "tolerance_mm": 0.08463027675039517,
+      "triangles": 3728
+    },
+    {
+      "name": "RR_hip_stator_closure",
+      "mesh": "hip_stator_closure_-1_right",
+      "body": "Rear right hip stator closure",
+      "tolerance_mm": 0.0643118346694785,
+      "triangles": 2356
+    },
+    {
+      "name": "RR_hip_motor",
+      "mesh": "bench_reference_RR_hip_motor",
+      "body": "Body1",
+      "tolerance_mm": 0.05856456792838298,
+      "triangles": 456
+    },
+    {
+      "name": "RR_hip_hub",
+      "mesh": "hip_hub_right",
+      "body": "Hip output hub with open knee-case clearance (1)",
+      "tolerance_mm": 0.05651322758177596,
+      "triangles": 2678
+    },
+    {
+      "name": "RR_motor_mount_ring",
+      "mesh": "motor_mount_ring_right",
+      "body": "Knee stator plate with open countersunk seats (1)",
+      "tolerance_mm": 0.05973507125318293,
+      "triangles": 1808
+    },
+    {
+      "name": "RR_thigh_inner",
+      "mesh": "thigh_inner_right",
+      "body": "Inner closed structural thigh (1)",
+      "tolerance_mm": 0.12170307236702176,
+      "triangles": 1982
+    },
+    {
+      "name": "RR_thigh_outer",
+      "mesh": "thigh_outer_right",
+      "body": "Removable outer structural thigh (1)",
+      "tolerance_mm": 0.13345774200088695,
+      "triangles": 4990
+    },
+    {
+      "name": "RR_knee_motor",
+      "mesh": "bench_reference_RR_knee_motor",
+      "body": "Body1",
+      "tolerance_mm": 0.05856456792838298,
+      "triangles": 456
+    },
+    {
+      "name": "RR_shin_inner",
+      "mesh": "shin_inner_right",
+      "body": "Shared rounded shin with open bearing and clamp interfaces (1)",
+      "tolerance_mm": 0.08769656681897417,
+      "triangles": 3250
+    },
+    {
+      "name": "RR_shin_outer",
+      "mesh": "shin_outer_right",
+      "body": "Shared rounded shin with open bearing and clamp interfaces (1) (1)",
+      "tolerance_mm": 0.08778895315023245,
+      "triangles": 3204
+    },
+    {
+      "name": "RR_pushrod",
+      "mesh": "pushrod_right",
+      "body": "Body2",
+      "tolerance_mm": 0.09067581330705828,
+      "triangles": 260
+    },
+    {
+      "name": "body_nose_surround",
+      "mesh": "body_nose_surround",
+      "body": "Two-foot rail-mounted sensor cradle",
+      "tolerance_mm": 0.05418126814227296,
+      "triangles": 1960
+    },
+    {
+      "name": "front_fascia",
+      "mesh": "front_fascia",
+      "body": "Removable hood with integral compound face",
+      "tolerance_mm": 0.14427588330226362,
+      "triangles": 21996
+    }
+  ],
+  "count": 77
+}

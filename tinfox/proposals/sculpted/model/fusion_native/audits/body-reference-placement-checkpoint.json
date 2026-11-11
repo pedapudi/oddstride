@@ -1,0 +1,77 @@
+{
+  "save_requested": true,
+  "version": 16,
+  "complete": false,
+  "modified": false,
+  "frames": 14,
+  "instances": 90,
+  "retained_reference_history": [
+    {
+      "part": "REFERENCE_Body_body",
+      "remaining_direct_or_child_bodies": 0,
+      "reason": "Retain reference import history; physical items have moved into named placement frames."
+    }
+  ],
+  "capacity": {
+    "personal_plan": true,
+    "editable_file_count": 4,
+    "max_editable_file_count": 10,
+    "available_slots": 6,
+    "known_tinfox_editable_files": [
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:cwZZGJRSR5aVlwkk9TcEUA",
+        "name": "Tinfox - Head",
+        "part": "subsystem_head",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+        "name": "Tinfox - Native Master Assembly",
+        "part": "native_master",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:R7U8KNNBSA6o3YwVNF2ZQQ",
+        "name": "Tinfox - Chassis",
+        "part": "subsystem_chassis",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": true,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+        "name": "Tinfox - Leg module",
+        "part": "subsystem_leg",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": true,
+        "protected": true,
+        "manual_read_only_candidate": false
+      }
+    ],
+    "unmanaged_editable_file_count": 0,
+    "manual_read_only_candidates": [],
+    "unsaved_open_documents": 0,
+    "status_change_api_supported": false,
+    "status_note": "isReadOnly has no setter. The separately guarded set_document_editability.py invokes Fusion Make Editable/Make Read-Only commands and independently verifies status. Read-only can also reflect permissions or another editor.",
+    "new_cloud_files": 0,
+    "reserved_free_slots": 1,
+    "required_available_slots": 1,
+    "master_file_id": "urn:adsk.wipprod:dm.lineage:R7U8KNNBSA6o3YwVNF2ZQQ"
+  },
+  "source_of_truth": false
+}

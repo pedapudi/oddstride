@@ -1,0 +1,1529 @@
+{
+  "whole_reference_model_sha256": "1ef89695619c6ff8853d0ac458b55eaccebfcc65ad6622c614fbe259ceae8c2f",
+  "scope": "Neutral local-frame bounds comparison for unchanged proximal hardware; not a motion or strength audit.",
+  "checks": 304,
+  "failed": [],
+  "max_error_mm": 0.017566523162841463,
+  "results": [
+    {
+      "name": "FL_roll_motor",
+      "bounds_delta_mm": 0.017566523162841463,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_motor",
+      "bounds_delta_mm": 0.017566523162841463,
+      "passed": true
+    },
+    {
+      "name": "FL_knee_motor",
+      "bounds_delta_mm": 0.017566523162841463,
+      "passed": true
+    },
+    {
+      "name": "FL_bolt_0",
+      "bounds_delta_mm": 0.0011796951293945312,
+      "passed": true
+    },
+    {
+      "name": "FL_bolt_1",
+      "bounds_delta_mm": 0.0011813640594482422,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_port_-1_socket",
+      "bounds_delta_mm": 1.18536377158307e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_port_-1_plug",
+      "bounds_delta_mm": 1.0376586914162544e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_port_-1_boot",
+      "bounds_delta_mm": 2.2163696300481206e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_port_-1_cable",
+      "bounds_delta_mm": 0.0015660900268557043,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_port_1_socket",
+      "bounds_delta_mm": 1.18536377158307e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_port_1_plug",
+      "bounds_delta_mm": 1.0376586914162544e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_port_1_boot",
+      "bounds_delta_mm": 2.2163696300481206e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_port_1_cable",
+      "bounds_delta_mm": 0.0015673868103007749,
+      "passed": true
+    },
+    {
+      "name": "FL_knee_port_-1_socket",
+      "bounds_delta_mm": 1.3810119625645711e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_knee_port_-1_plug",
+      "bounds_delta_mm": 1.14636230463816e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_knee_port_-1_boot",
+      "bounds_delta_mm": 1.3352661127896681e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_knee_port_-1_cable",
+      "bounds_delta_mm": 0.0015643395385751546,
+      "passed": true
+    },
+    {
+      "name": "FL_knee_port_1_socket",
+      "bounds_delta_mm": 1.3810119625645711e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_knee_port_1_plug",
+      "bounds_delta_mm": 1.14636230463816e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_knee_port_1_boot",
+      "bounds_delta_mm": 1.3352661127896681e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_knee_port_1_cable",
+      "bounds_delta_mm": 0.001566753112790309,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_port_-1_socket",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_port_-1_plug",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_port_-1_boot",
+      "bounds_delta_mm": 4.196166983660987e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_port_-1_cable",
+      "bounds_delta_mm": 0.0015660900268557043,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_port_1_socket",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_port_1_plug",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_port_1_boot",
+      "bounds_delta_mm": 4.196166983660987e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_port_1_cable",
+      "bounds_delta_mm": 0.0015673868103007749,
+      "passed": true
+    },
+    {
+      "name": "FL_thigh_clamp_nut_0",
+      "bounds_delta_mm": 7.62939453125e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_thigh_clamp_nut_1",
+      "bounds_delta_mm": 7.62939453125e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_thigh_clamp_washer_0_inner",
+      "bounds_delta_mm": 0.001865386962890625,
+      "passed": true
+    },
+    {
+      "name": "FL_thigh_clamp_washer_0_outer",
+      "bounds_delta_mm": 0.001865386962890625,
+      "passed": true
+    },
+    {
+      "name": "FL_thigh_clamp_washer_1_inner",
+      "bounds_delta_mm": 0.0018649250268936157,
+      "passed": true
+    },
+    {
+      "name": "FL_thigh_clamp_washer_1_outer",
+      "bounds_delta_mm": 0.0018649250268936157,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_bearing_6810_0",
+      "bounds_delta_mm": 0.010101318359375,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_bearing_6810_1",
+      "bounds_delta_mm": 0.010101318359375,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_stator_bolt_0",
+      "bounds_delta_mm": 0.0008716583251953125,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_stator_bolt_40",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_stator_bolt_80",
+      "bounds_delta_mm": 0.0008704662322998047,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_stator_bolt_120",
+      "bounds_delta_mm": 0.0008709430694580078,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_stator_bolt_160",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_stator_bolt_200",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_stator_bolt_240",
+      "bounds_delta_mm": 0.0008709430694580078,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_stator_bolt_280",
+      "bounds_delta_mm": 0.0008704662322998047,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_stator_bolt_320",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_retainer_bolt_20",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_retainer_nut_20",
+      "bounds_delta_mm": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_retainer_bolt_140",
+      "bounds_delta_mm": 0.0008711814880371094,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_retainer_nut_140",
+      "bounds_delta_mm": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_retainer_bolt_260",
+      "bounds_delta_mm": 0.0008703470230102539,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_retainer_nut_260",
+      "bounds_delta_mm": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_carrier_closure_bolt_90",
+      "bounds_delta_mm": 0.0011813640594482422,
+      "passed": true
+    },
+    {
+      "name": "FL_carrier_closure_washer_90",
+      "bounds_delta_mm": 0.001398921012878418,
+      "passed": true
+    },
+    {
+      "name": "FL_carrier_closure_nut_90",
+      "bounds_delta_mm": 9.5367431640625e-07,
+      "passed": true
+    },
+    {
+      "name": "FL_carrier_closure_bolt_215",
+      "bounds_delta_mm": 0.00118255615234375,
+      "passed": true
+    },
+    {
+      "name": "FL_carrier_closure_washer_215",
+      "bounds_delta_mm": 0.0013985633850097656,
+      "passed": true
+    },
+    {
+      "name": "FL_carrier_closure_nut_215",
+      "bounds_delta_mm": 2.86102294921875e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_carrier_closure_bolt_325",
+      "bounds_delta_mm": 0.00118255615234375,
+      "passed": true
+    },
+    {
+      "name": "FL_carrier_closure_washer_325",
+      "bounds_delta_mm": 0.0013985633850097656,
+      "passed": true
+    },
+    {
+      "name": "FL_carrier_closure_nut_325",
+      "bounds_delta_mm": 2.86102294921875e-06,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_stator_bolt_0",
+      "bounds_delta_mm": 0.0009183883666992188,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_stator_bolt_40",
+      "bounds_delta_mm": 0.0009179115295410156,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_stator_bolt_80",
+      "bounds_delta_mm": 0.000916898250579834,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_stator_bolt_120",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_stator_bolt_160",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_stator_bolt_200",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_stator_bolt_240",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_stator_bolt_280",
+      "bounds_delta_mm": 0.000916898250579834,
+      "passed": true
+    },
+    {
+      "name": "FL_hip_stator_bolt_320",
+      "bounds_delta_mm": 0.0009179115295410156,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_output_bolt_0",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_output_bolt_60",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_output_bolt_120",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_output_bolt_180",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_output_bolt_240",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "FL_roll_output_bolt_300",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_motor",
+      "bounds_delta_mm": 0.017566523162841463,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_motor",
+      "bounds_delta_mm": 0.017566523162841463,
+      "passed": true
+    },
+    {
+      "name": "FR_knee_motor",
+      "bounds_delta_mm": 0.017566523162841463,
+      "passed": true
+    },
+    {
+      "name": "FR_bolt_0",
+      "bounds_delta_mm": 0.0011796951293945312,
+      "passed": true
+    },
+    {
+      "name": "FR_bolt_1",
+      "bounds_delta_mm": 0.0011813640594482422,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_port_-1_socket",
+      "bounds_delta_mm": 1.18536377158307e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_port_-1_plug",
+      "bounds_delta_mm": 1.0376586914162544e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_port_-1_boot",
+      "bounds_delta_mm": 2.2163696300481206e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_port_-1_cable",
+      "bounds_delta_mm": 0.0015660900268557043,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_port_1_socket",
+      "bounds_delta_mm": 1.18536377158307e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_port_1_plug",
+      "bounds_delta_mm": 1.0376586914162544e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_port_1_boot",
+      "bounds_delta_mm": 2.2163696300481206e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_port_1_cable",
+      "bounds_delta_mm": 0.0015673868103007749,
+      "passed": true
+    },
+    {
+      "name": "FR_knee_port_-1_socket",
+      "bounds_delta_mm": 1.3810119625645711e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_knee_port_-1_plug",
+      "bounds_delta_mm": 1.14636230463816e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_knee_port_-1_boot",
+      "bounds_delta_mm": 1.3352661127896681e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_knee_port_-1_cable",
+      "bounds_delta_mm": 0.0015643395385751546,
+      "passed": true
+    },
+    {
+      "name": "FR_knee_port_1_socket",
+      "bounds_delta_mm": 1.3810119625645711e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_knee_port_1_plug",
+      "bounds_delta_mm": 1.14636230463816e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_knee_port_1_boot",
+      "bounds_delta_mm": 1.3352661127896681e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_knee_port_1_cable",
+      "bounds_delta_mm": 0.001566753112790309,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_port_-1_socket",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_port_-1_plug",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_port_-1_boot",
+      "bounds_delta_mm": 4.196166983660987e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_port_-1_cable",
+      "bounds_delta_mm": 0.0015660900268557043,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_port_1_socket",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_port_1_plug",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_port_1_boot",
+      "bounds_delta_mm": 4.196166983660987e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_port_1_cable",
+      "bounds_delta_mm": 0.0015673868103007749,
+      "passed": true
+    },
+    {
+      "name": "FR_thigh_clamp_nut_0",
+      "bounds_delta_mm": 7.62939453125e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_thigh_clamp_nut_1",
+      "bounds_delta_mm": 7.62939453125e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_thigh_clamp_washer_0_inner",
+      "bounds_delta_mm": 0.001865386962890625,
+      "passed": true
+    },
+    {
+      "name": "FR_thigh_clamp_washer_0_outer",
+      "bounds_delta_mm": 0.001865386962890625,
+      "passed": true
+    },
+    {
+      "name": "FR_thigh_clamp_washer_1_inner",
+      "bounds_delta_mm": 0.0018649250268936157,
+      "passed": true
+    },
+    {
+      "name": "FR_thigh_clamp_washer_1_outer",
+      "bounds_delta_mm": 0.0018649250268936157,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_bearing_6810_0",
+      "bounds_delta_mm": 0.010101318359375,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_bearing_6810_1",
+      "bounds_delta_mm": 0.010101318359375,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_stator_bolt_0",
+      "bounds_delta_mm": 0.0008716583251953125,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_stator_bolt_40",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_stator_bolt_80",
+      "bounds_delta_mm": 0.0008704662322998047,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_stator_bolt_120",
+      "bounds_delta_mm": 0.0008709430694580078,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_stator_bolt_160",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_stator_bolt_200",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_stator_bolt_240",
+      "bounds_delta_mm": 0.0008709430694580078,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_stator_bolt_280",
+      "bounds_delta_mm": 0.0008704662322998047,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_stator_bolt_320",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_retainer_bolt_20",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_retainer_nut_20",
+      "bounds_delta_mm": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_retainer_bolt_140",
+      "bounds_delta_mm": 0.0008711814880371094,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_retainer_nut_140",
+      "bounds_delta_mm": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_retainer_bolt_260",
+      "bounds_delta_mm": 0.0008703470230102539,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_retainer_nut_260",
+      "bounds_delta_mm": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_carrier_closure_bolt_90",
+      "bounds_delta_mm": 0.0011813640594482422,
+      "passed": true
+    },
+    {
+      "name": "FR_carrier_closure_washer_90",
+      "bounds_delta_mm": 0.001398921012878418,
+      "passed": true
+    },
+    {
+      "name": "FR_carrier_closure_nut_90",
+      "bounds_delta_mm": 9.5367431640625e-07,
+      "passed": true
+    },
+    {
+      "name": "FR_carrier_closure_bolt_215",
+      "bounds_delta_mm": 0.00118255615234375,
+      "passed": true
+    },
+    {
+      "name": "FR_carrier_closure_washer_215",
+      "bounds_delta_mm": 0.0013985633850097656,
+      "passed": true
+    },
+    {
+      "name": "FR_carrier_closure_nut_215",
+      "bounds_delta_mm": 2.86102294921875e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_carrier_closure_bolt_325",
+      "bounds_delta_mm": 0.00118255615234375,
+      "passed": true
+    },
+    {
+      "name": "FR_carrier_closure_washer_325",
+      "bounds_delta_mm": 0.0013985633850097656,
+      "passed": true
+    },
+    {
+      "name": "FR_carrier_closure_nut_325",
+      "bounds_delta_mm": 2.86102294921875e-06,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_stator_bolt_0",
+      "bounds_delta_mm": 0.0009183883666992188,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_stator_bolt_40",
+      "bounds_delta_mm": 0.0009179115295410156,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_stator_bolt_80",
+      "bounds_delta_mm": 0.000916898250579834,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_stator_bolt_120",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_stator_bolt_160",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_stator_bolt_200",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_stator_bolt_240",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_stator_bolt_280",
+      "bounds_delta_mm": 0.000916898250579834,
+      "passed": true
+    },
+    {
+      "name": "FR_hip_stator_bolt_320",
+      "bounds_delta_mm": 0.0009179115295410156,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_output_bolt_0",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_output_bolt_60",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_output_bolt_120",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_output_bolt_180",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_output_bolt_240",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "FR_roll_output_bolt_300",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_motor",
+      "bounds_delta_mm": 0.017566523162841463,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_motor",
+      "bounds_delta_mm": 0.017566523162841463,
+      "passed": true
+    },
+    {
+      "name": "RL_knee_motor",
+      "bounds_delta_mm": 0.017566523162841463,
+      "passed": true
+    },
+    {
+      "name": "RL_bolt_0",
+      "bounds_delta_mm": 0.0011796951293945312,
+      "passed": true
+    },
+    {
+      "name": "RL_bolt_1",
+      "bounds_delta_mm": 0.0011813640594482422,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_port_-1_socket",
+      "bounds_delta_mm": 1.18536377158307e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_port_-1_plug",
+      "bounds_delta_mm": 1.0376586914162544e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_port_-1_boot",
+      "bounds_delta_mm": 2.2163696300481206e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_port_-1_cable",
+      "bounds_delta_mm": 0.0015660900268557043,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_port_1_socket",
+      "bounds_delta_mm": 1.18536377158307e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_port_1_plug",
+      "bounds_delta_mm": 1.0376586914162544e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_port_1_boot",
+      "bounds_delta_mm": 2.2163696300481206e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_port_1_cable",
+      "bounds_delta_mm": 0.0015673868103007749,
+      "passed": true
+    },
+    {
+      "name": "RL_knee_port_-1_socket",
+      "bounds_delta_mm": 1.3810119625645711e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_knee_port_-1_plug",
+      "bounds_delta_mm": 1.14636230463816e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_knee_port_-1_boot",
+      "bounds_delta_mm": 1.3352661127896681e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_knee_port_-1_cable",
+      "bounds_delta_mm": 0.0015643395385751546,
+      "passed": true
+    },
+    {
+      "name": "RL_knee_port_1_socket",
+      "bounds_delta_mm": 1.3810119625645711e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_knee_port_1_plug",
+      "bounds_delta_mm": 1.14636230463816e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_knee_port_1_boot",
+      "bounds_delta_mm": 1.3352661127896681e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_knee_port_1_cable",
+      "bounds_delta_mm": 0.001566753112790309,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_port_-1_socket",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_port_-1_plug",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_port_-1_boot",
+      "bounds_delta_mm": 4.196166983660987e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_port_-1_cable",
+      "bounds_delta_mm": 0.0015660900268557043,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_port_1_socket",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_port_1_plug",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_port_1_boot",
+      "bounds_delta_mm": 4.196166983660987e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_port_1_cable",
+      "bounds_delta_mm": 0.0015673868103007749,
+      "passed": true
+    },
+    {
+      "name": "RL_thigh_clamp_nut_0",
+      "bounds_delta_mm": 7.62939453125e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_thigh_clamp_nut_1",
+      "bounds_delta_mm": 7.62939453125e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_thigh_clamp_washer_0_inner",
+      "bounds_delta_mm": 0.001865386962890625,
+      "passed": true
+    },
+    {
+      "name": "RL_thigh_clamp_washer_0_outer",
+      "bounds_delta_mm": 0.001865386962890625,
+      "passed": true
+    },
+    {
+      "name": "RL_thigh_clamp_washer_1_inner",
+      "bounds_delta_mm": 0.0018649250268936157,
+      "passed": true
+    },
+    {
+      "name": "RL_thigh_clamp_washer_1_outer",
+      "bounds_delta_mm": 0.0018649250268936157,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_bearing_6810_0",
+      "bounds_delta_mm": 0.010101318359375,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_bearing_6810_1",
+      "bounds_delta_mm": 0.010101318359375,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_stator_bolt_0",
+      "bounds_delta_mm": 0.0008716583251953125,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_stator_bolt_40",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_stator_bolt_80",
+      "bounds_delta_mm": 0.0008704662322998047,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_stator_bolt_120",
+      "bounds_delta_mm": 0.0008709430694580078,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_stator_bolt_160",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_stator_bolt_200",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_stator_bolt_240",
+      "bounds_delta_mm": 0.0008709430694580078,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_stator_bolt_280",
+      "bounds_delta_mm": 0.0008704662322998047,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_stator_bolt_320",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_retainer_bolt_20",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_retainer_nut_20",
+      "bounds_delta_mm": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_retainer_bolt_140",
+      "bounds_delta_mm": 0.0008711814880371094,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_retainer_nut_140",
+      "bounds_delta_mm": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_retainer_bolt_260",
+      "bounds_delta_mm": 0.0008703470230102539,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_retainer_nut_260",
+      "bounds_delta_mm": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_carrier_closure_bolt_90",
+      "bounds_delta_mm": 0.0011813640594482422,
+      "passed": true
+    },
+    {
+      "name": "RL_carrier_closure_washer_90",
+      "bounds_delta_mm": 0.001398921012878418,
+      "passed": true
+    },
+    {
+      "name": "RL_carrier_closure_nut_90",
+      "bounds_delta_mm": 9.5367431640625e-07,
+      "passed": true
+    },
+    {
+      "name": "RL_carrier_closure_bolt_215",
+      "bounds_delta_mm": 0.00118255615234375,
+      "passed": true
+    },
+    {
+      "name": "RL_carrier_closure_washer_215",
+      "bounds_delta_mm": 0.0013985633850097656,
+      "passed": true
+    },
+    {
+      "name": "RL_carrier_closure_nut_215",
+      "bounds_delta_mm": 2.86102294921875e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_carrier_closure_bolt_325",
+      "bounds_delta_mm": 0.00118255615234375,
+      "passed": true
+    },
+    {
+      "name": "RL_carrier_closure_washer_325",
+      "bounds_delta_mm": 0.0013985633850097656,
+      "passed": true
+    },
+    {
+      "name": "RL_carrier_closure_nut_325",
+      "bounds_delta_mm": 2.86102294921875e-06,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_stator_bolt_0",
+      "bounds_delta_mm": 0.0009179115295410156,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_stator_bolt_40",
+      "bounds_delta_mm": 0.0009179115295410156,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_stator_bolt_80",
+      "bounds_delta_mm": 0.0009170174598693848,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_stator_bolt_120",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_stator_bolt_160",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_stator_bolt_200",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_stator_bolt_240",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_stator_bolt_280",
+      "bounds_delta_mm": 0.0009170174598693848,
+      "passed": true
+    },
+    {
+      "name": "RL_hip_stator_bolt_320",
+      "bounds_delta_mm": 0.0009179115295410156,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_output_bolt_0",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_output_bolt_60",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_output_bolt_120",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_output_bolt_180",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_output_bolt_240",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "RL_roll_output_bolt_300",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_motor",
+      "bounds_delta_mm": 0.017566523162841463,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_motor",
+      "bounds_delta_mm": 0.017566523162841463,
+      "passed": true
+    },
+    {
+      "name": "RR_knee_motor",
+      "bounds_delta_mm": 0.017566523162841463,
+      "passed": true
+    },
+    {
+      "name": "RR_bolt_0",
+      "bounds_delta_mm": 0.0011796951293945312,
+      "passed": true
+    },
+    {
+      "name": "RR_bolt_1",
+      "bounds_delta_mm": 0.0011813640594482422,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_port_-1_socket",
+      "bounds_delta_mm": 1.18536377158307e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_port_-1_plug",
+      "bounds_delta_mm": 1.0376586914162544e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_port_-1_boot",
+      "bounds_delta_mm": 2.2163696300481206e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_port_-1_cable",
+      "bounds_delta_mm": 0.0015660900268557043,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_port_1_socket",
+      "bounds_delta_mm": 1.18536377158307e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_port_1_plug",
+      "bounds_delta_mm": 1.0376586914162544e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_port_1_boot",
+      "bounds_delta_mm": 2.2163696300481206e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_port_1_cable",
+      "bounds_delta_mm": 0.0015673868103007749,
+      "passed": true
+    },
+    {
+      "name": "RR_knee_port_-1_socket",
+      "bounds_delta_mm": 1.3810119625645711e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_knee_port_-1_plug",
+      "bounds_delta_mm": 1.14636230463816e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_knee_port_-1_boot",
+      "bounds_delta_mm": 1.3352661127896681e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_knee_port_-1_cable",
+      "bounds_delta_mm": 0.0015643395385751546,
+      "passed": true
+    },
+    {
+      "name": "RR_knee_port_1_socket",
+      "bounds_delta_mm": 1.3810119625645711e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_knee_port_1_plug",
+      "bounds_delta_mm": 1.14636230463816e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_knee_port_1_boot",
+      "bounds_delta_mm": 1.3352661127896681e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_knee_port_1_cable",
+      "bounds_delta_mm": 0.001566753112790309,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_port_-1_socket",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_port_-1_plug",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_port_-1_boot",
+      "bounds_delta_mm": 4.196166983660987e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_port_-1_cable",
+      "bounds_delta_mm": 0.0015660900268557043,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_port_1_socket",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_port_1_plug",
+      "bounds_delta_mm": 3.814697265625e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_port_1_boot",
+      "bounds_delta_mm": 4.196166983660987e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_port_1_cable",
+      "bounds_delta_mm": 0.0015673868103007749,
+      "passed": true
+    },
+    {
+      "name": "RR_thigh_clamp_nut_0",
+      "bounds_delta_mm": 7.62939453125e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_thigh_clamp_nut_1",
+      "bounds_delta_mm": 7.62939453125e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_thigh_clamp_washer_0_inner",
+      "bounds_delta_mm": 0.001865386962890625,
+      "passed": true
+    },
+    {
+      "name": "RR_thigh_clamp_washer_0_outer",
+      "bounds_delta_mm": 0.001865386962890625,
+      "passed": true
+    },
+    {
+      "name": "RR_thigh_clamp_washer_1_inner",
+      "bounds_delta_mm": 0.0018649250268936157,
+      "passed": true
+    },
+    {
+      "name": "RR_thigh_clamp_washer_1_outer",
+      "bounds_delta_mm": 0.0018649250268936157,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_bearing_6810_0",
+      "bounds_delta_mm": 0.010101318359375,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_bearing_6810_1",
+      "bounds_delta_mm": 0.010101318359375,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_stator_bolt_0",
+      "bounds_delta_mm": 0.0008716583251953125,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_stator_bolt_40",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_stator_bolt_80",
+      "bounds_delta_mm": 0.0008704662322998047,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_stator_bolt_120",
+      "bounds_delta_mm": 0.0008709430694580078,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_stator_bolt_160",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_stator_bolt_200",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_stator_bolt_240",
+      "bounds_delta_mm": 0.0008709430694580078,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_stator_bolt_280",
+      "bounds_delta_mm": 0.0008704662322998047,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_stator_bolt_320",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_retainer_bolt_20",
+      "bounds_delta_mm": 0.0008707046508789062,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_retainer_nut_20",
+      "bounds_delta_mm": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_retainer_bolt_140",
+      "bounds_delta_mm": 0.0008711814880371094,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_retainer_nut_140",
+      "bounds_delta_mm": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_retainer_bolt_260",
+      "bounds_delta_mm": 0.0008703470230102539,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_retainer_nut_260",
+      "bounds_delta_mm": 1.9073486328125e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_carrier_closure_bolt_90",
+      "bounds_delta_mm": 0.0011813640594482422,
+      "passed": true
+    },
+    {
+      "name": "RR_carrier_closure_washer_90",
+      "bounds_delta_mm": 0.001398921012878418,
+      "passed": true
+    },
+    {
+      "name": "RR_carrier_closure_nut_90",
+      "bounds_delta_mm": 9.5367431640625e-07,
+      "passed": true
+    },
+    {
+      "name": "RR_carrier_closure_bolt_215",
+      "bounds_delta_mm": 0.00118255615234375,
+      "passed": true
+    },
+    {
+      "name": "RR_carrier_closure_washer_215",
+      "bounds_delta_mm": 0.0013985633850097656,
+      "passed": true
+    },
+    {
+      "name": "RR_carrier_closure_nut_215",
+      "bounds_delta_mm": 2.86102294921875e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_carrier_closure_bolt_325",
+      "bounds_delta_mm": 0.00118255615234375,
+      "passed": true
+    },
+    {
+      "name": "RR_carrier_closure_washer_325",
+      "bounds_delta_mm": 0.0013985633850097656,
+      "passed": true
+    },
+    {
+      "name": "RR_carrier_closure_nut_325",
+      "bounds_delta_mm": 2.86102294921875e-06,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_stator_bolt_0",
+      "bounds_delta_mm": 0.0009179115295410156,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_stator_bolt_40",
+      "bounds_delta_mm": 0.0009179115295410156,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_stator_bolt_80",
+      "bounds_delta_mm": 0.0009170174598693848,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_stator_bolt_120",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_stator_bolt_160",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_stator_bolt_200",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_stator_bolt_240",
+      "bounds_delta_mm": 0.0009169578552246094,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_stator_bolt_280",
+      "bounds_delta_mm": 0.0009170174598693848,
+      "passed": true
+    },
+    {
+      "name": "RR_hip_stator_bolt_320",
+      "bounds_delta_mm": 0.0009179115295410156,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_output_bolt_0",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_output_bolt_60",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_output_bolt_120",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_output_bolt_180",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_output_bolt_240",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    },
+    {
+      "name": "RR_roll_output_bolt_300",
+      "bounds_delta_mm": 0.0013365745544433594,
+      "passed": true
+    }
+  ]
+}

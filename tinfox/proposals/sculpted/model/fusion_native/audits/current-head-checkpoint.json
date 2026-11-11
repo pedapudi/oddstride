@@ -1,0 +1,170 @@
+{
+  "save_requested": true,
+  "previous_version": 19,
+  "version": 20,
+  "complete": false,
+  "modified": false,
+  "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/Tinfox-Head-current-sensor-checkpoint.f3d",
+  "capacity": {
+    "personal_plan": true,
+    "editable_file_count": 4,
+    "max_editable_file_count": 10,
+    "available_slots": 6,
+    "known_tinfox_editable_files": [
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:cwZZGJRSR5aVlwkk9TcEUA",
+        "name": "Tinfox - Head",
+        "part": "subsystem_head",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": true,
+        "protected": true,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+        "name": "Tinfox - Native Master Assembly",
+        "part": "native_master",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:R7U8KNNBSA6o3YwVNF2ZQQ",
+        "name": "Tinfox - Chassis",
+        "part": "subsystem_chassis",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+        "name": "Tinfox - Leg module",
+        "part": "subsystem_leg",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      }
+    ],
+    "unmanaged_editable_file_count": 0,
+    "manual_read_only_candidates": [],
+    "unsaved_open_documents": 0,
+    "status_change_api_supported": false,
+    "status_note": "isReadOnly has no setter. The separately guarded set_document_editability.py invokes Fusion Make Editable/Make Read-Only commands and independently verifies status. Read-only can also reflect permissions or another editor.",
+    "new_cloud_files": 0,
+    "reserved_free_slots": 1,
+    "required_available_slots": 1,
+    "master_file_id": "urn:adsk.wipprod:dm.lineage:cwZZGJRSR5aVlwkk9TcEUA"
+  },
+  "before": [
+    {
+      "name": "Current low sensor hood",
+      "part": "CANDIDATE_current_front_fascia",
+      "features": 26,
+      "sketches": 53,
+      "bodies": 1
+    },
+    {
+      "name": "Integrated low face master",
+      "part": "CANDIDATE_current_front_face_master",
+      "features": 7,
+      "sketches": 1,
+      "bodies": 1
+    },
+    {
+      "name": "Compound front fascia",
+      "part": "front_fascia",
+      "features": 16,
+      "sketches": 15,
+      "bodies": 1
+    },
+    {
+      "name": "Front shoulder bridge",
+      "part": "body_nose_surround",
+      "features": 39,
+      "sketches": 34,
+      "bodies": 1
+    },
+    {
+      "name": "Current low sensor cradle",
+      "part": "CANDIDATE_current_body_nose_surround",
+      "features": 13,
+      "sketches": 10,
+      "bodies": 1
+    },
+    {
+      "name": "Tinfox - Head v19",
+      "part": "Tinfox - Head",
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Sensor bezel",
+      "part": "sensor_bezel",
+      "features": 9,
+      "sketches": 8,
+      "bodies": 1
+    }
+  ],
+  "after": [
+    {
+      "name": "Low sensor hood and compound front face",
+      "part": "front_fascia",
+      "features": 26,
+      "sketches": 53,
+      "bodies": 1
+    },
+    {
+      "name": "Integrated front face - native design master",
+      "part": "DESIGN_MASTER_integrated_front_face",
+      "features": 8,
+      "sketches": 1,
+      "bodies": 0
+    },
+    {
+      "name": "Compound front face - native design master",
+      "part": "DESIGN_MASTER_front_fascia",
+      "features": 17,
+      "sketches": 15,
+      "bodies": 0
+    },
+    {
+      "name": "Rail-mounted sensor cradle",
+      "part": "body_nose_surround",
+      "features": 13,
+      "sketches": 10,
+      "bodies": 1
+    },
+    {
+      "name": "Tinfox - Head v19",
+      "part": "Tinfox - Head",
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0
+    },
+    {
+      "name": "Camera bezel - native design master",
+      "part": "DESIGN_MASTER_sensor_bezel",
+      "features": 10,
+      "sketches": 8,
+      "bodies": 0
+    }
+  ],
+  "retired_removed": {
+    "name": "Front shoulder bridge",
+    "part": "body_nose_surround",
+    "features": 39
+  },
+  "source_of_truth_changed": false
+}

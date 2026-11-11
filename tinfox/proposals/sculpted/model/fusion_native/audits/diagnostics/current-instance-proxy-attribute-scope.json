@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"error\": \"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 169, in <module>\\n  File \\\"<string>\\\", line 167, in run\\n  File \\\"tinfox_native.py\\\", line 50, in run\\n  File \\\"tinfox_native.py\\\", line 44, in current_native_instances\\n  File \\\"tinfox_native.py\\\", line 41, in visit\\nAssertionError: ('FL', 'mount', 'FL current leg:1+Fixed shoulder (4):1+Paired bearing through-bore cartridge:5', [-74.50000000000001, -37.798780658685665, -40.9378868614517, -50.5, 39.99999999999999, 39.445482984945606], [(14.0, 'FL_roll_bearing_6810_0'), (17.000000000000014, 'FL_roll_bearing_6810_1'), (44.39999999999999, 'FL_roll_motor')])\\n\",\n    \"success\": false\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

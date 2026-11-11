@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="870" viewBox="0 0 1400 870">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#e77532" stroke-width="1.6"/></marker><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(40)"><path d="M0 0V10" stroke="#acb7a7" stroke-width="2"/></pattern></defs>
+<rect width="1400" height="870" fill="#f1f3e9"/><g font-family="sans-serif" fill="#27382d"><text x="60" y="64" font-size="15" letter-spacing="3">TINFOX / BEARING SERVICE</text><text x="60" y="118" font-size="36">Push on the outer ring through the rear shoulder.</text><text x="60" y="156" font-size="19" fill="#5c695c">Section diagram of one removed shin half. The two service pins are tools, not installed parts.</text>
+<!-- bearing cross-section: shaft axis is horizontal -->
+<path d="M240 230H660V670H240V620H550V570H580V330H550V280H240Z" fill="#536252" stroke="#27382d" stroke-width="2"/>
+<path d="M240 230H660V670H240V620H550V570H580V330H550V280H240Z" fill="url(#hatch)"/>
+<!-- outer race above / below -->
+<rect x="370" y="280" width="180" height="48" fill="#b9c5b0" stroke="#495743" stroke-width="2"/><rect x="370" y="572" width="180" height="48" fill="#b9c5b0" stroke="#495743" stroke-width="2"/>
+<!-- correction: access channels sit behind the outer ring -->
+<rect x="550" y="292" width="111" height="26" fill="#f1f3e9"/><rect x="550" y="582" width="111" height="26" fill="#f1f3e9"/>
+<!-- stylized rolling elements and inner race -->
+<circle cx="460" cy="354" r="24" fill="#e3e6df" stroke="#7c8975" stroke-width="2"/><circle cx="460" cy="546" r="24" fill="#e3e6df" stroke="#7c8975" stroke-width="2"/>
+<rect x="370" y="381" width="180" height="40" fill="#bfc7b8" stroke="#7c8975"/><rect x="370" y="479" width="180" height="40" fill="#bfc7b8" stroke="#7c8975"/>
+<!-- pressing pins -->
+<rect x="550" y="295" width="280" height="20" rx="3" fill="#e77532"/><rect x="550" y="585" width="280" height="20" rx="3" fill="#e77532"/>
+<path d="M910 305H845M910 595H845M335 305H270M335 595H270" stroke="#e77532" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M215 450H945" stroke="#a1ac98" stroke-dasharray="10 8"/><text x="945" y="445" font-size="15" fill="#6e7b65">axle axis</text>
+<!-- labels -->
+<path d="M330 230L330 205H190" stroke="#536252" fill="none"/><text x="60" y="210" font-size="18">Structural shell</text>
+<path d="M410 280V245H1050" stroke="#536252" fill="none"/><text x="1065" y="250" font-size="18">Bearing outer ring</text>
+<path d="M610 292V270H1000" stroke="#536252" fill="none"/><text x="1015" y="275" font-size="18">Ø2.6 access hole</text>
+<path d="M780 315V365H1000" stroke="#e77532" fill="none"/><text x="1015" y="370" font-size="18">Blunt Ø2 service pin</text>
+<path d="M630 630H1010" stroke="#536252" fill="none"/><text x="1025" y="635" font-size="18">Integral shoulder</text>
+<text x="60" y="470" font-size="20" fill="#e77532">BEARING OUT</text><text x="695" y="535" font-size="18" fill="#5c695c">Press evenly from behind.</text>
+<text x="60" y="735" font-size="21">1. Remove shin from thigh.  2. Open the two halves.  3. Support the seat and press outward.</text>
+<text x="60" y="778" font-size="18" fill="#5c695c">Contact the outer ring only. Keep force off the inner ring, seals and rolling elements.</text>
+<text x="60" y="814" font-size="16" fill="#5c695c">Schematic, not to scale. Actual bearing contact lands and printed fit require physical verification.</text>
+</g></svg>

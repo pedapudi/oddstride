@@ -1,0 +1,96 @@
+{
+  "review_model": "exports/dfma-socket-fit-v1/dfma-one-leg-preview-socket.json.gz",
+  "review_model_sha256": "346b236ff9a70e635bda4c06b3373d4f3c311ffde0a2439e778732dca4fd390e",
+  "gzip_sha256": "75052fb50c46cce749a9908accc47fcc88abf27a3993cf38ab69293f795f189f",
+  "parts": 132,
+  "triangles": 889528,
+  "raw_bytes": 55946007,
+  "gzip_bytes": 18369974,
+  "native_source_of_truth": false,
+  "manufacturing_release": false,
+  "scope": "Static native-derived DFMA one-leg proposal with ordinary ISO4762 M3/M4 socket heads and shallow exterior seats. Full factory patterns retained. Supported unpowered fit scope; full-robot adoption pending.",
+  "assembly_counts": {
+    "baseline_physical_pieces": 151,
+    "candidate_physical_pieces": 132,
+    "candidate_screws_pins": 52,
+    "candidate_purchased_hardware": 81,
+    "candidate_fabricated": 24,
+    "motors": 3,
+    "connector_detail_bodies": 24
+  },
+  "saved_checkpoint": {
+    "document": "Tinfox - Leg module",
+    "version": 37,
+    "scope": "Socket-head DFMA proposal; canonical Master63 remains unchanged."
+  },
+  "focused_checks": [
+    "audits/dfma-socket-focused-fit-export.json"
+  ],
+  "focused_dfma_review": {
+    "report": "../../../../analysis/dfma/fastener-reduction/thigh-detail/final-detail-delta.json",
+    "sha256": "dbfe8d7b26d1b131000f29c8bae0862e1e8dc532fe17e29e463bb45a48022067",
+    "passed": true,
+    "scope": "The two changed local sections and valid-solid check only."
+  },
+  "remaining_before_print_release": [
+    "Choose and slice orientations/supports for the integrated primary and secondary halves; retain the limb long axis along the bed where practical.",
+    "Check physical motor, cable, screw, washer and cut-tube fits; nominal geometry does not establish polymer preload retention.",
+    "Prepare updated native-derived print files; prior structural motor-complex parts are superseded by this proposal."
+  ],
+  "working_state": {
+    "saved_version": 37,
+    "modified": false,
+    "evidence": "audits/dfma-socket-saved-state.json"
+  },
+  "changed_entries": [
+    "FL_roll_stator_bolt_0",
+    "FL_roll_stator_bolt_40",
+    "FL_roll_stator_bolt_80",
+    "FL_roll_stator_bolt_120",
+    "FL_roll_stator_bolt_160",
+    "FL_roll_stator_bolt_200",
+    "FL_roll_stator_bolt_240",
+    "FL_roll_stator_bolt_280",
+    "FL_roll_stator_bolt_320",
+    "FL_motor_carrier",
+    "FL_hip_stator_bolt_0",
+    "FL_hip_stator_bolt_40",
+    "FL_hip_stator_bolt_80",
+    "FL_hip_stator_bolt_120",
+    "FL_hip_stator_bolt_160",
+    "FL_hip_stator_bolt_200",
+    "FL_hip_stator_bolt_240",
+    "FL_hip_stator_bolt_280",
+    "FL_hip_stator_bolt_320",
+    "FL_roll_output_bolt_0",
+    "FL_roll_output_bolt_60",
+    "FL_roll_output_bolt_120",
+    "FL_roll_output_bolt_180",
+    "FL_roll_output_bolt_240",
+    "FL_roll_output_bolt_300",
+    "FL_thigh_inner",
+    "FL_thigh_outer",
+    "FL_sleeve_0",
+    "FL_sleeve_1",
+    "FL_bolt_0",
+    "FL_bolt_1",
+    "FL_thigh_clamp_washer_0_outer",
+    "FL_thigh_clamp_washer_1_outer",
+    "FL_knee_stator_bolt_100",
+    "FL_knee_stator_bolt_140",
+    "FL_knee_stator_bolt_180",
+    "FL_knee_stator_bolt_220",
+    "FL_knee_stator_bolt_260",
+    "FL_shin_clamp_bolt_37",
+    "FL_shin_clamp_bolt_105"
+  ],
+  "hardware_revision": {
+    "roll_stator": "9 x M3x35 ISO4762",
+    "hip_stator": "9 x M3x8 ISO4762",
+    "knee_stator": "5 x M3x6 and4 x M3x45 ISO4762",
+    "roll_output": "6 x M4x25 ISO4762",
+    "thigh_clamps": "2 x M4x40 ISO4762,29mm compression sleeves",
+    "shin_clamps": "2 x M4x25 ISO4762",
+    "motor_tubes": "4 x6OD/4ID x39mm"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source_model_sha256": "5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873",
+  "reference_model": "snapshots/latest-leg/5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873/model.json.gz",
+  "parts": {
+    "hip_hub": {
+      "path": "snapshots/latest-leg/5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873/step/hip_hub.step",
+      "sha256": "983f8f512e35e94e67cb1a17e81d3e2910b7816a85bda1c39eadb7de3151450e",
+      "source_note": "Stator/hub shape unchanged by clamp correction; full model source is current clamp target.",
+      "source_brep": "snapshots/latest-leg/5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873/reference-brep/hip_hub.brep",
+      "source_brep_sha256": "8c46a84d323e6cc2261cc340f73d19b7796095f772ced1d030d2371c55248ada"
+    },
+    "hip_hub_right": {
+      "path": "snapshots/latest-leg/5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873/step/hip_hub_right.step",
+      "sha256": "92196da6917d430a84038d514af037596cc9edc4dd6ec177f72194986c0a7b87",
+      "source_note": "Stator/hub shape unchanged by clamp correction; full model source is current clamp target.",
+      "source_brep": "snapshots/latest-leg/5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873/reference-brep/hip_hub_right.brep",
+      "source_brep_sha256": "1878973bb8d06e2d5b77f9b7f47ec4b45357060da99a11e7b271efd7d06249de"
+    },
+    "motor_mount_ring": {
+      "path": "snapshots/latest-leg/5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873/step/motor_mount_ring.step",
+      "sha256": "72b1f1c3bc6e89d66e37ee4f264c4c6813617ed7d4070d315771abe944ef897e",
+      "source_note": "Stator/hub shape unchanged by clamp correction; full model source is current clamp target.",
+      "source_brep": "snapshots/latest-leg/5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873/reference-brep/motor_mount_ring.brep",
+      "source_brep_sha256": "9cc66fd1c4cba7cce2540e34fc6f45b3aa1a81a7fd684411a7af99376c6db0c7"
+    },
+    "motor_mount_ring_right": {
+      "path": "snapshots/latest-leg/5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873/step/motor_mount_ring_right.step",
+      "sha256": "767852ca94902621d5010ad99b0ec7193f262802ac8255cfe3ecac5136bd9057",
+      "source_note": "Stator/hub shape unchanged by clamp correction; full model source is current clamp target.",
+      "source_brep": "snapshots/latest-leg/5fbedd560af0f5710b651ee88808d09b24277987ceccc2c12e9ccd7b6825e873/reference-brep/motor_mount_ring_right.brep",
+      "source_brep_sha256": "82227976d99048e8594dc7e1052502b1cb5f3455212bda493b3c0d56629a58fb"
+    }
+  },
+  "scope": "Canonical slim stator/output hub and their handed versions. Paired roll-bearing geometry remains pending and is excluded."
+}

@@ -1,0 +1,79 @@
+{
+  "before": {
+    "model_sha256": "58e60392f286f5e9ea03282385e3b7b8e1d2aa5863722bf79d9aa14f623abe00",
+    "parameters": {
+      "body_length": 464,
+      "body_width": 222.4,
+      "body_height": 100
+    },
+    "rigid_torso_bounds_mm": {
+      "min": [
+        -232.0,
+        -111.28988,
+        -50.02906
+      ],
+      "max": [
+        232.0,
+        111.28988,
+        51.41517
+      ],
+      "extent": [
+        464.0,
+        222.57976,
+        101.44423
+      ]
+    },
+    "torso_shell_mass_kg": 0.304469,
+    "central_roof_height_mm": 47.5,
+    "shoulder_cap_span_mm": 322,
+    "thigh_web_depth_mm": 44,
+    "structural_limb_mass_kg": 1.210918,
+    "image": "../design/11-integrated-before.png",
+    "scope": "Body and belly mass excludes sensors and battery cassette. Limb mass includes the eight thigh halves and eight shin halves. Width across caps excludes other protrusions. Mesh dimensions are approximate."
+  },
+  "after": {
+    "model_sha256": "f372d3cf5ed70d1af5611d37bd91bb8a273fc48d4130c8e0f687ebc12554e66d",
+    "parameters": {
+      "body_length": 464,
+      "body_width": 222.4,
+      "body_height": 100
+    },
+    "rigid_torso_bounds_mm": {
+      "min": [
+        -232.0,
+        -111.29102,
+        -50.02933
+      ],
+      "max": [
+        232.0,
+        111.29102,
+        51.39105
+      ],
+      "extent": [
+        464.0,
+        222.58204,
+        101.42038
+      ]
+    },
+    "torso_shell_mass_kg": 0.30083200000000004,
+    "central_roof_height_mm": 47.5,
+    "shoulder_cap_span_mm": 313.6,
+    "thigh_web_depth_mm": 41.506146103300054,
+    "structural_limb_mass_kg": 1.160872
+  },
+  "scope": "Body and belly mass excludes sensors and battery cassette. Limb mass includes the eight thigh halves and eight shin halves. Width across caps excludes other protrusions. Mesh dimensions are approximate.",
+  "retained_packaging": {
+    "computer_bay_mm": [
+      130,
+      135,
+      32
+    ],
+    "battery_each_mm": [
+      125,
+      85,
+      65
+    ],
+    "motor_count": 12,
+    "foot_center_track_mm": 270
+  }
+}

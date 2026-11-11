@@ -1,0 +1,1746 @@
+{
+  "schema": 1,
+  "migration_gate_passed": true,
+  "subsystems": {
+    "leg": {
+      "role": "leg",
+      "name": "Tinfox - Leg module",
+      "file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+      "version": 40,
+      "source_master_file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+      "source_master_version": 58,
+      "source_group": "Shared leg designs",
+      "phase": "dependency_cleaned_native_assembly",
+      "before": {
+        "motor_mount_ring": {
+          "features": 5,
+          "sketches": 3,
+          "bodies": 1,
+          "volume_mm3": 12905.536957240716,
+          "linked": false
+        },
+        "pushrod": {
+          "features": 6,
+          "sketches": 3,
+          "bodies": 1,
+          "volume_mm3": 7225.101731097287,
+          "linked": false
+        },
+        "hip_hub": {
+          "features": 43,
+          "sketches": 22,
+          "bodies": 1,
+          "volume_mm3": 23213.196701448374,
+          "linked": false
+        },
+        "knee_axle": {
+          "features": 2,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 2601.3518145078224,
+          "linked": false
+        },
+        "knee_inner_spacer": {
+          "features": 2,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 884.4211638385983,
+          "linked": false
+        },
+        "sleeve_0": {
+          "features": 2,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 1472.527308590578,
+          "linked": false
+        },
+        "sleeve_1": {
+          "features": 2,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 1472.527308590578,
+          "linked": false
+        },
+        "shin_clamp_sleeve_37": {
+          "features": 1,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 643.3824674919299,
+          "linked": false
+        },
+        "shin_clamp_sleeve_105": {
+          "features": 1,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 643.3824674919289,
+          "linked": false
+        },
+        "input_crank": {
+          "features": 85,
+          "sketches": 40,
+          "bodies": 1,
+          "volume_mm3": 15325.642684354234,
+          "linked": false
+        },
+        "pod_sleeve_90": {
+          "features": 3,
+          "sketches": 2,
+          "bodies": 2,
+          "volume_mm3": 485.56456053882,
+          "linked": false
+        },
+        "pod_sleeve_210": {
+          "features": 3,
+          "sketches": 2,
+          "bodies": 2,
+          "volume_mm3": 485.5645605388213,
+          "linked": false
+        },
+        "pod_sleeve_330": {
+          "features": 3,
+          "sketches": 2,
+          "bodies": 2,
+          "volume_mm3": 485.56456053882056,
+          "linked": false
+        },
+        "thigh_inner": {
+          "features": 103,
+          "sketches": 51,
+          "bodies": 1,
+          "volume_mm3": 91653.54263518697,
+          "linked": false
+        },
+        "roll_cartridge_1": {
+          "features": 42,
+          "sketches": 19,
+          "bodies": 1,
+          "volume_mm3": 17005.018339110225,
+          "linked": false
+        },
+        "motor_carrier_1": {
+          "features": 77,
+          "sketches": 38,
+          "bodies": 1,
+          "volume_mm3": 79452.45242850942,
+          "linked": false
+        },
+        "motor_carrier_-1": {
+          "features": 47,
+          "sketches": 20,
+          "bodies": 1,
+          "volume_mm3": 79452.45242850934,
+          "linked": false
+        },
+        "motor_mount_ring_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 12905.53695724072,
+          "linked": false
+        },
+        "foot_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 36645.48059564543,
+          "linked": false
+        },
+        "roll_cartridge_-1": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 17005.020421183544,
+          "linked": false
+        },
+        "hip_hub_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 23213.196701448134,
+          "linked": false
+        },
+        "input_crank_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 15325.640335532682,
+          "linked": false
+        },
+        "knee_axle_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 2601.3518145078224,
+          "linked": false
+        },
+        "knee_inner_spacer_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 884.4211638385983,
+          "linked": false
+        },
+        "motor_carrier_-1_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 79452.4030237962,
+          "linked": false
+        },
+        "motor_carrier_1_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 79452.40302379624,
+          "linked": false
+        },
+        "pod_sleeve_210_right": {
+          "features": 4,
+          "sketches": 0,
+          "bodies": 2,
+          "volume_mm3": 485.5645605388213,
+          "linked": false
+        },
+        "pod_sleeve_330_right": {
+          "features": 4,
+          "sketches": 0,
+          "bodies": 2,
+          "volume_mm3": 485.56456053882056,
+          "linked": false
+        },
+        "pod_sleeve_90_right": {
+          "features": 4,
+          "sketches": 0,
+          "bodies": 2,
+          "volume_mm3": 485.56456053882,
+          "linked": false
+        },
+        "pushrod_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 7225.101731097287,
+          "linked": false
+        },
+        "roll_cartridge_-1_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 17005.02031449966,
+          "linked": false
+        },
+        "roll_cartridge_1_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 17005.01671798903,
+          "linked": false
+        },
+        "shin_clamp_sleeve_105_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 643.3824674919289,
+          "linked": false
+        },
+        "shin_clamp_sleeve_37_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 643.3824674919299,
+          "linked": false
+        },
+        "shin_inner_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 44361.476991127434,
+          "linked": false
+        },
+        "sleeve_0_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 1472.527308590578,
+          "linked": false
+        },
+        "sleeve_1_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 1472.527308590578,
+          "linked": false
+        },
+        "thigh_inner_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 91652.92125732418,
+          "linked": false
+        },
+        "foot": {
+          "features": 5,
+          "sketches": 4,
+          "bodies": 1,
+          "volume_mm3": 36645.48059564542,
+          "linked": true
+        },
+        "shin_inner": {
+          "features": 132,
+          "sketches": 75,
+          "bodies": 1,
+          "volume_mm3": 44361.21614863669,
+          "linked": true
+        },
+        "shin_outer": {
+          "features": 128,
+          "sketches": 80,
+          "bodies": 1,
+          "volume_mm3": 42034.806129938304,
+          "linked": true
+        },
+        "thigh_outer": {
+          "features": 137,
+          "sketches": 64,
+          "bodies": 1,
+          "volume_mm3": 99143.69792700557,
+          "linked": true
+        }
+      },
+      "after": {
+        "motor_mount_ring": {
+          "features": 5,
+          "sketches": 3,
+          "bodies": 1,
+          "volume_mm3": 12905.536957240716,
+          "linked": false
+        },
+        "pushrod": {
+          "features": 6,
+          "sketches": 3,
+          "bodies": 1,
+          "volume_mm3": 7225.101731097287,
+          "linked": false
+        },
+        "hip_hub": {
+          "features": 43,
+          "sketches": 22,
+          "bodies": 1,
+          "volume_mm3": 23213.196701448374,
+          "linked": false
+        },
+        "knee_axle": {
+          "features": 2,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 2601.3518145078224,
+          "linked": false
+        },
+        "knee_inner_spacer": {
+          "features": 2,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 884.4211638385983,
+          "linked": false
+        },
+        "sleeve_0": {
+          "features": 2,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 1472.527308590578,
+          "linked": false
+        },
+        "sleeve_1": {
+          "features": 2,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 1472.527308590578,
+          "linked": false
+        },
+        "shin_clamp_sleeve_37": {
+          "features": 1,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 643.3824674919299,
+          "linked": false
+        },
+        "shin_clamp_sleeve_105": {
+          "features": 1,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 643.3824674919289,
+          "linked": false
+        },
+        "input_crank": {
+          "features": 85,
+          "sketches": 40,
+          "bodies": 1,
+          "volume_mm3": 15325.642684354234,
+          "linked": false
+        },
+        "pod_sleeve_90": {
+          "features": 3,
+          "sketches": 2,
+          "bodies": 2,
+          "volume_mm3": 485.56456053882,
+          "linked": false
+        },
+        "pod_sleeve_210": {
+          "features": 3,
+          "sketches": 2,
+          "bodies": 2,
+          "volume_mm3": 485.5645605388213,
+          "linked": false
+        },
+        "pod_sleeve_330": {
+          "features": 3,
+          "sketches": 2,
+          "bodies": 2,
+          "volume_mm3": 485.56456053882056,
+          "linked": false
+        },
+        "thigh_inner": {
+          "features": 103,
+          "sketches": 51,
+          "bodies": 1,
+          "volume_mm3": 91653.54263518697,
+          "linked": false
+        },
+        "roll_cartridge_1": {
+          "features": 42,
+          "sketches": 19,
+          "bodies": 1,
+          "volume_mm3": 17005.018339110225,
+          "linked": false
+        },
+        "motor_carrier_1": {
+          "features": 77,
+          "sketches": 38,
+          "bodies": 1,
+          "volume_mm3": 79452.45242850942,
+          "linked": false
+        },
+        "motor_carrier_-1": {
+          "features": 47,
+          "sketches": 20,
+          "bodies": 1,
+          "volume_mm3": 79452.45242850934,
+          "linked": false
+        },
+        "motor_mount_ring_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 12905.53695724072,
+          "linked": false
+        },
+        "foot_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 36645.48059564543,
+          "linked": false
+        },
+        "roll_cartridge_-1": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 17005.020421183544,
+          "linked": false
+        },
+        "hip_hub_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 23213.196701448134,
+          "linked": false
+        },
+        "input_crank_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 15325.640335532682,
+          "linked": false
+        },
+        "knee_axle_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 2601.3518145078224,
+          "linked": false
+        },
+        "knee_inner_spacer_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 884.4211638385983,
+          "linked": false
+        },
+        "motor_carrier_-1_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 79452.4030237962,
+          "linked": false
+        },
+        "motor_carrier_1_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 79452.40302379624,
+          "linked": false
+        },
+        "pod_sleeve_210_right": {
+          "features": 4,
+          "sketches": 0,
+          "bodies": 2,
+          "volume_mm3": 485.5645605388213,
+          "linked": false
+        },
+        "pod_sleeve_330_right": {
+          "features": 4,
+          "sketches": 0,
+          "bodies": 2,
+          "volume_mm3": 485.56456053882056,
+          "linked": false
+        },
+        "pod_sleeve_90_right": {
+          "features": 4,
+          "sketches": 0,
+          "bodies": 2,
+          "volume_mm3": 485.56456053882,
+          "linked": false
+        },
+        "pushrod_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 7225.101731097287,
+          "linked": false
+        },
+        "roll_cartridge_-1_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 17005.02031449966,
+          "linked": false
+        },
+        "roll_cartridge_1_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 17005.01671798903,
+          "linked": false
+        },
+        "shin_clamp_sleeve_105_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 643.3824674919289,
+          "linked": false
+        },
+        "shin_clamp_sleeve_37_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 643.3824674919299,
+          "linked": false
+        },
+        "shin_inner_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 44361.476991127434,
+          "linked": false
+        },
+        "sleeve_0_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 1472.527308590578,
+          "linked": false
+        },
+        "sleeve_1_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 1472.527308590578,
+          "linked": false
+        },
+        "thigh_inner_right": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 91652.92125732418,
+          "linked": false
+        },
+        "foot": {
+          "features": 5,
+          "sketches": 4,
+          "bodies": 1,
+          "volume_mm3": 36645.48059564542,
+          "linked": true
+        },
+        "shin_inner": {
+          "features": 132,
+          "sketches": 75,
+          "bodies": 1,
+          "volume_mm3": 44361.21614863669,
+          "linked": true
+        },
+        "shin_outer": {
+          "features": 128,
+          "sketches": 80,
+          "bodies": 1,
+          "volume_mm3": 42034.806129938304,
+          "linked": true
+        },
+        "thigh_outer": {
+          "features": 137,
+          "sketches": 64,
+          "bodies": 1,
+          "volume_mm3": 99143.69792700557,
+          "linked": true
+        }
+      },
+      "capacity": {
+        "personal_plan": true,
+        "editable_file_count": 2,
+        "max_editable_file_count": 10,
+        "available_slots": 8,
+        "known_tinfox_editable_files": [
+          {
+            "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+            "name": "Tinfox - Native Master Assembly",
+            "part": "native_master",
+            "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+            "is_read_only": false,
+            "upload_complete": true,
+            "open_modified": false,
+            "protected": true,
+            "manual_read_only_candidate": false
+          },
+          {
+            "file_id": "urn:adsk.wipprod:dm.lineage:7EMehEGQTV-NxCbRcPgGCw",
+            "name": "V0 - Battery cassette [battery_cassette]",
+            "part": "battery_cassette",
+            "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+            "is_read_only": false,
+            "upload_complete": true,
+            "open_modified": false,
+            "protected": false,
+            "manual_read_only_candidate": true
+          }
+        ],
+        "unmanaged_editable_file_count": 0,
+        "manual_read_only_candidates": [
+          {
+            "file_id": "urn:adsk.wipprod:dm.lineage:7EMehEGQTV-NxCbRcPgGCw",
+            "name": "V0 - Battery cassette [battery_cassette]",
+            "part": "battery_cassette"
+          }
+        ],
+        "unsaved_open_documents": 0,
+        "status_change_api_supported": false,
+        "status_note": "Editable status must be changed through Fusion Manage documents or the Data Panel. isReadOnly is a read-only property and can also reflect permissions or another editor.",
+        "new_cloud_files": 1,
+        "reserved_free_slots": 1,
+        "required_available_slots": 2,
+        "master_file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw"
+      },
+      "source_master_modified": false,
+      "consolidation_complete": false,
+      "migration_gate_passed": false,
+      "consolidation": {
+        "role": "leg",
+        "file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+        "version": 2,
+        "changes": [
+          {
+            "part": "foot",
+            "operation": "localized_native_history",
+            "before": {
+              "features": 5,
+              "sketches": 4,
+              "bodies": 1,
+              "volume_mm3": 36645.48059564542,
+              "base_features": 0,
+              "mesh_bodies": 0
+            },
+            "after": {
+              "features": 5,
+              "sketches": 4,
+              "bodies": 1,
+              "volume_mm3": 36645.48059564542,
+              "base_features": 0,
+              "mesh_bodies": 0
+            },
+            "passed": true
+          },
+          {
+            "part": "shin_inner",
+            "operation": "localized_native_history",
+            "before": {
+              "features": 132,
+              "sketches": 75,
+              "bodies": 1,
+              "volume_mm3": 44361.21614863669,
+              "base_features": 0,
+              "mesh_bodies": 0
+            },
+            "after": {
+              "features": 132,
+              "sketches": 75,
+              "bodies": 1,
+              "volume_mm3": 44361.21614863669,
+              "base_features": 0,
+              "mesh_bodies": 0
+            },
+            "passed": true
+          },
+          {
+            "part": "thigh_outer",
+            "operation": "localized_native_history",
+            "before": {
+              "features": 137,
+              "sketches": 64,
+              "bodies": 1,
+              "volume_mm3": 99143.69792700557,
+              "base_features": 0,
+              "mesh_bodies": 0
+            },
+            "after": {
+              "features": 137,
+              "sketches": 64,
+              "bodies": 1,
+              "volume_mm3": 99143.69792700524,
+              "base_features": 0,
+              "mesh_bodies": 0
+            },
+            "passed": true
+          },
+          {
+            "part": "shin_outer",
+            "operation": "merged_qualified_native_archive",
+            "before": {
+              "features": 128,
+              "sketches": 80,
+              "bodies": 1,
+              "volume_mm3": 42034.806129938304,
+              "base_features": 0,
+              "mesh_bodies": 0
+            },
+            "after": {
+              "features": 128,
+              "sketches": 90,
+              "bodies": 1,
+              "volume_mm3": 42034.12512359968,
+              "base_features": 0,
+              "mesh_bodies": 0
+            },
+            "archive_sha256": "22b2d6f2617679915f6eee673ffa3947b77fb519651aa06bc09efa35653e2b39",
+            "passed": true
+          }
+        ],
+        "native_parts": 42,
+        "remaining_external_parts": [],
+        "inventory": {
+          "motor_mount_ring": {
+            "features": 5,
+            "sketches": 3,
+            "bodies": 1,
+            "volume_mm3": 12905.536957240716,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "pushrod": {
+            "features": 6,
+            "sketches": 3,
+            "bodies": 1,
+            "volume_mm3": 7225.101731097287,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "hip_hub": {
+            "features": 43,
+            "sketches": 22,
+            "bodies": 1,
+            "volume_mm3": 23213.196701448374,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "knee_axle": {
+            "features": 2,
+            "sketches": 1,
+            "bodies": 1,
+            "volume_mm3": 2601.3518145078224,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "knee_inner_spacer": {
+            "features": 2,
+            "sketches": 1,
+            "bodies": 1,
+            "volume_mm3": 884.4211638385983,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "sleeve_0": {
+            "features": 2,
+            "sketches": 1,
+            "bodies": 1,
+            "volume_mm3": 1472.527308590578,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "sleeve_1": {
+            "features": 2,
+            "sketches": 1,
+            "bodies": 1,
+            "volume_mm3": 1472.527308590578,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "shin_clamp_sleeve_37": {
+            "features": 1,
+            "sketches": 1,
+            "bodies": 1,
+            "volume_mm3": 643.3824674919299,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "shin_clamp_sleeve_105": {
+            "features": 1,
+            "sketches": 1,
+            "bodies": 1,
+            "volume_mm3": 643.3824674919289,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "input_crank": {
+            "features": 85,
+            "sketches": 40,
+            "bodies": 1,
+            "volume_mm3": 15325.642684354234,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "pod_sleeve_90": {
+            "features": 3,
+            "sketches": 2,
+            "bodies": 2,
+            "volume_mm3": 485.56456053882,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "pod_sleeve_210": {
+            "features": 3,
+            "sketches": 2,
+            "bodies": 2,
+            "volume_mm3": 485.5645605388213,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "pod_sleeve_330": {
+            "features": 3,
+            "sketches": 2,
+            "bodies": 2,
+            "volume_mm3": 485.56456053882056,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "thigh_inner": {
+            "features": 103,
+            "sketches": 51,
+            "bodies": 1,
+            "volume_mm3": 91653.54263518708,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "roll_cartridge_1": {
+            "features": 42,
+            "sketches": 19,
+            "bodies": 1,
+            "volume_mm3": 17005.018339110225,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "motor_carrier_1": {
+            "features": 77,
+            "sketches": 38,
+            "bodies": 1,
+            "volume_mm3": 79452.45242850942,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "motor_carrier_-1": {
+            "features": 47,
+            "sketches": 20,
+            "bodies": 1,
+            "volume_mm3": 79452.45242850934,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "motor_mount_ring_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 12905.53695724072,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "foot_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 36645.48059564543,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "roll_cartridge_-1": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 17005.020421183544,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "hip_hub_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 23213.196701448134,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "input_crank_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 15325.640335532682,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "knee_axle_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 2601.3518145078224,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "knee_inner_spacer_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 884.4211638385983,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "motor_carrier_-1_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 79452.4030237962,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "motor_carrier_1_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 79452.40302379624,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "pod_sleeve_210_right": {
+            "features": 4,
+            "sketches": 0,
+            "bodies": 2,
+            "volume_mm3": 485.5645605388213,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "pod_sleeve_330_right": {
+            "features": 4,
+            "sketches": 0,
+            "bodies": 2,
+            "volume_mm3": 485.56456053882056,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "pod_sleeve_90_right": {
+            "features": 4,
+            "sketches": 0,
+            "bodies": 2,
+            "volume_mm3": 485.56456053882,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "pushrod_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 7225.101731097287,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "roll_cartridge_-1_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 17005.02031449966,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "roll_cartridge_1_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 17005.01671798903,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "shin_clamp_sleeve_105_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 643.3824674919289,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "shin_clamp_sleeve_37_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 643.3824674919299,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "shin_inner_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 44361.476991127434,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "sleeve_0_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 1472.527308590578,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "sleeve_1_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 1472.527308590578,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "thigh_inner_right": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 91652.92125732418,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "foot": {
+            "features": 5,
+            "sketches": 4,
+            "bodies": 1,
+            "volume_mm3": 36645.48059564542,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "shin_inner": {
+            "features": 132,
+            "sketches": 75,
+            "bodies": 1,
+            "volume_mm3": 44361.21614863669,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "thigh_outer": {
+            "features": 137,
+            "sketches": 64,
+            "bodies": 1,
+            "volume_mm3": 99143.69792700524,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "shin_outer": {
+            "features": 128,
+            "sketches": 90,
+            "bodies": 1,
+            "volume_mm3": 42034.12512359968,
+            "base_features": 0,
+            "mesh_bodies": 0
+          }
+        },
+        "source_master_modified": false,
+        "phase": "qualified_histories_internalized",
+        "migration_gate_passed": false
+      },
+      "mirrors": {
+        "thigh_outer_right": {
+          "part": "thigh_outer_right",
+          "file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+          "version": 3,
+          "source": "thigh_outer",
+          "plane": "XZ",
+          "features": 3,
+          "sketches": 0,
+          "body_count": 1,
+          "parametric_source_links": [
+            {
+              "part": "thigh_outer",
+              "assembly_path": "V0 - Thigh outer structural shell [thigh_outer] v1:1"
+            }
+          ],
+          "volume_mm3": 99142.3480643398,
+          "paths": [
+            "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/thigh_outer_right.step",
+            "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/thigh_outer_right.stl"
+          ]
+        },
+        "shin_outer_right": {
+          "part": "shin_outer_right",
+          "file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+          "version": 4,
+          "source": "shin_outer",
+          "plane": "XZ",
+          "features": 3,
+          "sketches": 0,
+          "body_count": 1,
+          "parametric_source_links": [
+            {
+              "part": "shin_outer",
+              "assembly_path": "shin_outer:1"
+            }
+          ],
+          "volume_mm3": 42038.501594028705,
+          "paths": [
+            "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/shin_outer_right.step",
+            "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/shin_outer_right.stl"
+          ]
+        }
+      },
+      "cohesive_shin_checkpoint": "audits/cohesive-shin-native-checkpoint.json",
+      "cohesive_thigh_checkpoint": "audits/cohesive-thigh-native-checkpoint.json",
+      "save_verified": true,
+      "verification_report": "audits/current-leg-v30-save-verification.json",
+      "latest_saved_work_version": 26,
+      "installed_master_version": 14,
+      "work_checkpoint_verification": "audits/leg-v15-work-save-verification.json",
+      "work_checkpoint_scope": "Qualified handed families and24 standing pose frames; no full robot authority",
+      "work_verification": "audits/leg-v16-work-save-verification.json",
+      "latest_saved_work_report": "audits/current-frame-checkpoint-and-defer.json",
+      "canonical_scope": "Corrected13-part static motor complex; whole low-profile robot installation pending",
+      "canonical_scope_version": 24,
+      "latest_work_version": 28,
+      "current_verification": "audits/dependency-cleanup-leg-saved-verification.json",
+      "current_authority": "manifests/native-low-profile-cleanup-master65-exports.json"
+    },
+    "chassis": {
+      "role": "chassis",
+      "name": "Tinfox - Chassis",
+      "file_id": "urn:adsk.wipprod:dm.lineage:R7U8KNNBSA6o3YwVNF2ZQQ",
+      "version": 18,
+      "source_master_file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+      "source_master_version": 58,
+      "source_group": "Body and chassis",
+      "phase": "qualified_histories_internalized",
+      "before": {
+        "battery_skid": {
+          "features": 1,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 39040.28752058665,
+          "linked": false
+        },
+        "chassis_lower_brace": {
+          "features": 26,
+          "sketches": 11,
+          "bodies": 1,
+          "volume_mm3": 30235.250284752823,
+          "linked": false
+        },
+        "battery_access_latch_-1": {
+          "features": 3,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 152.60147322785434,
+          "linked": false
+        },
+        "battery_latch_-1": {
+          "features": 3,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 710.837733925475,
+          "linked": false
+        },
+        "battery_side_panel_-1": {
+          "features": 12,
+          "sketches": 5,
+          "bodies": 1,
+          "volume_mm3": 12158.31992482827,
+          "linked": false
+        },
+        "chassis_crossmember_121": {
+          "features": 21,
+          "sketches": 15,
+          "bodies": 1,
+          "volume_mm3": 4698.510848686928,
+          "linked": false
+        },
+        "chassis_beam_-102": {
+          "features": 77,
+          "sketches": 34,
+          "bodies": 1,
+          "volume_mm3": 17500.3970103975,
+          "linked": false
+        },
+        "battery_access_latch_1": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 152.60147322785434,
+          "linked": false
+        },
+        "battery_latch_1": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 710.837733925475,
+          "linked": false
+        },
+        "battery_side_panel_1": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 12158.319924828269,
+          "linked": false
+        },
+        "chassis_beam_102": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 17500.460846581504,
+          "linked": false
+        },
+        "chassis_crossmember_-121": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 4698.510848686928,
+          "linked": false
+        },
+        "battery_cassette": {
+          "features": 81,
+          "sketches": 32,
+          "bodies": 1,
+          "volume_mm3": 170340.08309195086,
+          "linked": true
+        },
+        "body_center_0": {
+          "features": 279,
+          "sketches": 112,
+          "bodies": 1,
+          "volume_mm3": 301425.6094206753,
+          "linked": true
+        }
+      },
+      "after": {
+        "battery_skid": {
+          "features": 1,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 39040.28752058665,
+          "linked": false
+        },
+        "chassis_lower_brace": {
+          "features": 26,
+          "sketches": 11,
+          "bodies": 1,
+          "volume_mm3": 30235.250284752823,
+          "linked": false
+        },
+        "battery_access_latch_-1": {
+          "features": 3,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 152.60147322785434,
+          "linked": false
+        },
+        "battery_latch_-1": {
+          "features": 3,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 710.837733925475,
+          "linked": false
+        },
+        "battery_side_panel_-1": {
+          "features": 12,
+          "sketches": 5,
+          "bodies": 1,
+          "volume_mm3": 12158.31992482827,
+          "linked": false
+        },
+        "chassis_crossmember_121": {
+          "features": 21,
+          "sketches": 15,
+          "bodies": 1,
+          "volume_mm3": 4698.510848686928,
+          "linked": false
+        },
+        "chassis_beam_-102": {
+          "features": 77,
+          "sketches": 34,
+          "bodies": 1,
+          "volume_mm3": 17500.3970103975,
+          "linked": false
+        },
+        "battery_access_latch_1": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 152.60147322785434,
+          "linked": false
+        },
+        "battery_latch_1": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 710.837733925475,
+          "linked": false
+        },
+        "battery_side_panel_1": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 12158.319924828269,
+          "linked": false
+        },
+        "chassis_beam_102": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 17500.460846581504,
+          "linked": false
+        },
+        "chassis_crossmember_-121": {
+          "features": 3,
+          "sketches": 0,
+          "bodies": 1,
+          "volume_mm3": 4698.510848686928,
+          "linked": false
+        },
+        "battery_cassette": {
+          "features": 81,
+          "sketches": 32,
+          "bodies": 1,
+          "volume_mm3": 170340.08309195086,
+          "linked": true
+        },
+        "body_center_0": {
+          "features": 279,
+          "sketches": 112,
+          "bodies": 1,
+          "volume_mm3": 301425.6094206753,
+          "linked": true
+        }
+      },
+      "capacity": {
+        "personal_plan": true,
+        "editable_file_count": 2,
+        "max_editable_file_count": 10,
+        "available_slots": 8,
+        "known_tinfox_editable_files": [
+          {
+            "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+            "name": "Tinfox - Native Master Assembly",
+            "part": "native_master",
+            "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+            "is_read_only": false,
+            "upload_complete": true,
+            "open_modified": false,
+            "protected": true,
+            "manual_read_only_candidate": false
+          },
+          {
+            "file_id": "urn:adsk.wipprod:dm.lineage:7EMehEGQTV-NxCbRcPgGCw",
+            "name": "V0 - Battery cassette [battery_cassette]",
+            "part": "battery_cassette",
+            "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+            "is_read_only": false,
+            "upload_complete": true,
+            "open_modified": false,
+            "protected": false,
+            "manual_read_only_candidate": true
+          }
+        ],
+        "unmanaged_editable_file_count": 0,
+        "manual_read_only_candidates": [
+          {
+            "file_id": "urn:adsk.wipprod:dm.lineage:7EMehEGQTV-NxCbRcPgGCw",
+            "name": "V0 - Battery cassette [battery_cassette]",
+            "part": "battery_cassette"
+          }
+        ],
+        "unsaved_open_documents": 0,
+        "status_change_api_supported": false,
+        "status_note": "Editable status must be changed through Fusion Manage documents or the Data Panel. isReadOnly is a read-only property and can also reflect permissions or another editor.",
+        "new_cloud_files": 1,
+        "reserved_free_slots": 1,
+        "required_available_slots": 2,
+        "master_file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw"
+      },
+      "source_master_modified": false,
+      "consolidation_complete": false,
+      "migration_gate_passed": false,
+      "consolidation": {
+        "role": "chassis",
+        "file_id": "urn:adsk.wipprod:dm.lineage:R7U8KNNBSA6o3YwVNF2ZQQ",
+        "version": 2,
+        "changes": [
+          {
+            "part": "battery_cassette",
+            "operation": "localized_native_history",
+            "before": {
+              "features": 81,
+              "sketches": 32,
+              "bodies": 1,
+              "volume_mm3": 170340.08309195086,
+              "base_features": 0,
+              "mesh_bodies": 0
+            },
+            "after": {
+              "features": 81,
+              "sketches": 32,
+              "bodies": 1,
+              "volume_mm3": 170340.08309195086,
+              "base_features": 0,
+              "mesh_bodies": 0
+            },
+            "passed": true
+          },
+          {
+            "part": "body_center_0",
+            "operation": "merged_qualified_native_archive",
+            "before": {
+              "features": 279,
+              "sketches": 112,
+              "bodies": 1,
+              "volume_mm3": 301425.6094206753,
+              "base_features": 0,
+              "mesh_bodies": 0
+            },
+            "after": {
+              "features": 279,
+              "sketches": 130,
+              "bodies": 1,
+              "volume_mm3": 301471.5578142686,
+              "base_features": 0,
+              "mesh_bodies": 0
+            },
+            "archive_sha256": "1bb944b1ebab4332e6662c776174af143bfe8b359875c342de7082d366674edd",
+            "passed": true
+          }
+        ],
+        "native_parts": 14,
+        "remaining_external_parts": [],
+        "inventory": {
+          "battery_skid": {
+            "features": 1,
+            "sketches": 1,
+            "bodies": 1,
+            "volume_mm3": 39040.28752058665,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "chassis_lower_brace": {
+            "features": 26,
+            "sketches": 11,
+            "bodies": 1,
+            "volume_mm3": 30235.250284752823,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "battery_access_latch_-1": {
+            "features": 3,
+            "sketches": 1,
+            "bodies": 1,
+            "volume_mm3": 152.60147322785434,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "battery_latch_-1": {
+            "features": 3,
+            "sketches": 1,
+            "bodies": 1,
+            "volume_mm3": 710.837733925475,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "battery_side_panel_-1": {
+            "features": 12,
+            "sketches": 5,
+            "bodies": 1,
+            "volume_mm3": 12158.31992482827,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "chassis_crossmember_121": {
+            "features": 21,
+            "sketches": 15,
+            "bodies": 1,
+            "volume_mm3": 4698.510848686928,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "chassis_beam_-102": {
+            "features": 77,
+            "sketches": 34,
+            "bodies": 1,
+            "volume_mm3": 17500.3970103975,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "battery_access_latch_1": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 152.60147322785434,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "battery_latch_1": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 710.837733925475,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "battery_side_panel_1": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 12158.319924828269,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "chassis_beam_102": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 17500.460846581504,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "chassis_crossmember_-121": {
+            "features": 3,
+            "sketches": 0,
+            "bodies": 1,
+            "volume_mm3": 4698.510848686928,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "battery_cassette": {
+            "features": 81,
+            "sketches": 32,
+            "bodies": 1,
+            "volume_mm3": 170340.08309195086,
+            "base_features": 0,
+            "mesh_bodies": 0
+          },
+          "body_center_0": {
+            "features": 279,
+            "sketches": 130,
+            "bodies": 1,
+            "volume_mm3": 301471.5578142686,
+            "base_features": 0,
+            "mesh_bodies": 0
+          }
+        },
+        "source_master_modified": false,
+        "phase": "qualified_histories_internalized",
+        "migration_gate_passed": false
+      },
+      "part_ids": [
+        "body_center_0",
+        "belly_center_0",
+        "battery_side_panel_-1",
+        "battery_access_latch_-1",
+        "battery_side_panel_1",
+        "battery_access_latch_1",
+        "battery_latch_-1",
+        "battery_latch_1",
+        "battery_cassette",
+        "battery_skid",
+        "chassis_beam_-102",
+        "chassis_beam_102",
+        "chassis_crossmember_-121",
+        "chassis_crossmember_121",
+        "chassis_lower_brace",
+        "electronics_shelf",
+        "lidar_lid",
+        "power_button"
+      ],
+      "current_cover_candidate": null,
+      "current_low_target": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+      "reference_items": 82,
+      "nonphysical_reference_items": [
+        "electronics_clearance"
+      ],
+      "retired_cover_removed": true,
+      "save_verified": true,
+      "verification_report": "audits/chassis-v18-save-verification.json"
+    },
+    "head": {
+      "role": "head",
+      "name": "Tinfox - Head",
+      "file_id": "urn:adsk.wipprod:dm.lineage:cwZZGJRSR5aVlwkk9TcEUA",
+      "version": 22,
+      "source_master_file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+      "source_master_version": 58,
+      "source_group": "Electronics and sensors",
+      "phase": "compact_native_checkpoint_not_promoted",
+      "before": {
+        "electronics_shelf": {
+          "features": 36,
+          "sketches": 15,
+          "bodies": 1,
+          "volume_mm3": 69626.659261359,
+          "linked": false
+        },
+        "lidar_lid": {
+          "features": 1,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 4580.442088933926,
+          "linked": false
+        },
+        "power_button": {
+          "features": 1,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 63.61725123519587,
+          "linked": false
+        },
+        "sensor_bezel": {
+          "features": 11,
+          "sketches": 59,
+          "bodies": 1,
+          "volume_mm3": 12794.934363568416,
+          "linked": true
+        }
+      },
+      "after": {
+        "electronics_shelf": {
+          "features": 36,
+          "sketches": 15,
+          "bodies": 1,
+          "volume_mm3": 69626.659261359,
+          "linked": false
+        },
+        "lidar_lid": {
+          "features": 1,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 4580.442088933926,
+          "linked": false
+        },
+        "power_button": {
+          "features": 1,
+          "sketches": 1,
+          "bodies": 1,
+          "volume_mm3": 63.61725123519587,
+          "linked": false
+        },
+        "sensor_bezel": {
+          "features": 11,
+          "sketches": 59,
+          "bodies": 1,
+          "volume_mm3": 12794.934363568416,
+          "linked": true
+        }
+      },
+      "capacity": {
+        "personal_plan": true,
+        "editable_file_count": 2,
+        "max_editable_file_count": 10,
+        "available_slots": 8,
+        "known_tinfox_editable_files": [
+          {
+            "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+            "name": "Tinfox - Native Master Assembly",
+            "part": "native_master",
+            "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+            "is_read_only": false,
+            "upload_complete": true,
+            "open_modified": false,
+            "protected": true,
+            "manual_read_only_candidate": false
+          },
+          {
+            "file_id": "urn:adsk.wipprod:dm.lineage:7EMehEGQTV-NxCbRcPgGCw",
+            "name": "V0 - Battery cassette [battery_cassette]",
+            "part": "battery_cassette",
+            "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+            "is_read_only": false,
+            "upload_complete": true,
+            "open_modified": false,
+            "protected": false,
+            "manual_read_only_candidate": true
+          }
+        ],
+        "unmanaged_editable_file_count": 0,
+        "manual_read_only_candidates": [
+          {
+            "file_id": "urn:adsk.wipprod:dm.lineage:7EMehEGQTV-NxCbRcPgGCw",
+            "name": "V0 - Battery cassette [battery_cassette]",
+            "part": "battery_cassette"
+          }
+        ],
+        "unsaved_open_documents": 0,
+        "status_change_api_supported": false,
+        "status_note": "Editable status must be changed through Fusion Manage documents or the Data Panel. isReadOnly is a read-only property and can also reflect permissions or another editor.",
+        "new_cloud_files": 1,
+        "reserved_free_slots": 1,
+        "required_available_slots": 2,
+        "master_file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw"
+      },
+      "source_master_modified": false,
+      "consolidation_complete": false,
+      "migration_gate_passed": false,
+      "part_ids": [
+        "sensor_bezel"
+      ],
+      "status_manifest": "manifests/head-status.json",
+      "current_low_target": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+      "current_physical_parts": [
+        "front_fascia",
+        "body_nose_surround"
+      ],
+      "retired_removed": "V0 body_nose_surround bridge",
+      "native_construction_dependencies": [
+        "DESIGN_MASTER_front_fascia",
+        "DESIGN_MASTER_sensor_bezel",
+        "DESIGN_MASTER_integrated_front_face"
+      ],
+      "construction_solids_consumed": true,
+      "save_verified": true,
+      "verification_report": "audits/head-v22-save-verification.json"
+    }
+  },
+  "updated_utc": "2026-10-31T23:03:20.496290+00:00",
+  "master_saved_version": 65,
+  "master_save_verification": "audits/dependency-cleanup-master-saved-verification.json",
+  "migration_scope": "Current low-profile native CAD; manufacturing/operating qualification separate."
+}

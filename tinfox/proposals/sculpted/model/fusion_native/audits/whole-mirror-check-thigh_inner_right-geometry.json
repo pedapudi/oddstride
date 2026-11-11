@@ -1,0 +1,2516 @@
+{
+  "surface_distance_algorithm": "boundary_faces_v2: distance to face compound, never solid containment",
+  "part": "thigh_inner_right",
+  "source_step_sha256": "c0b8755373038af6dc179ad079a2170684aaeba14f55ce27df79a0feac6baf95",
+  "source_brep_sha256": null,
+  "source_reference_note": "Exact XZ-plane reflection of the current qualified native left part; comparison geometry only. Never imported into the native CAD.",
+  "native_step_sha256": "a55217bd230e2ab0820bf539c533594c688ed4c40c4701487e4b3b5265e9a108",
+  "source_volume_mm3": 70861.80014376713,
+  "native_volume_mm3": 70861.46030986632,
+  "relative_volume_error": 4.795727742213661e-06,
+  "volume_integration": {
+    "method": "Adaptive Gauss-Kronrod with B-spline spans; unchanged 0.1% volume gate",
+    "convergence": {
+      "source": [
+        {
+          "requested_error": 1e-07,
+          "volume_mm3": 70861.79973335893,
+          "estimated_error": 2.652532333797794e-08
+        },
+        {
+          "requested_error": 1e-09,
+          "volume_mm3": 70861.80014484005,
+          "estimated_error": 3.464546011932623e-10
+        },
+        {
+          "requested_error": 1e-11,
+          "volume_mm3": 70861.80014349787,
+          "estimated_error": 3.1025588126360504e-12
+        },
+        {
+          "requested_error": 1e-12,
+          "volume_mm3": 70861.80014376713,
+          "estimated_error": 2.9303504200533816e-13
+        }
+      ],
+      "native": [
+        {
+          "requested_error": 1e-07,
+          "volume_mm3": 70861.46133809532,
+          "estimated_error": 3.088873627291783e-08
+        },
+        {
+          "requested_error": 1e-09,
+          "volume_mm3": 70861.46027987462,
+          "estimated_error": 3.1881226964561503e-10
+        },
+        {
+          "requested_error": 1e-11,
+          "volume_mm3": 70861.46031007341,
+          "estimated_error": 2.808394126015834e-12
+        },
+        {
+          "requested_error": 1e-12,
+          "volume_mm3": 70861.46030986632,
+          "estimated_error": 2.404205214936038e-13
+        }
+      ]
+    },
+    "reason": "Preserve the established span-aware custom-solid integration method."
+  },
+  "source_area_mm2": 31358.709792627527,
+  "native_area_mm2": 31358.76839665079,
+  "relative_area_error": 1.8688276287650512e-06,
+  "area_integration": {
+    "method": "Adaptive Gauss integration",
+    "requested_relative_error": 1e-09,
+    "estimated_source_error": 5.057867898167675e-11,
+    "estimated_native_error": 5.057867898217791e-11
+  },
+  "conservative_brep_bounds_error_max_mm": 3.8824055081931874e-11,
+  "sampled_boundary_bounds_error_max_mm": 4.6561865474359365e-11,
+  "surface_deviation": {
+    "native_to_source": {
+      "samples": 2544,
+      "max_mm": 0.005043190170990944,
+      "rms_mm": 0.00036885920726293276,
+      "worst_samples": [
+        {
+          "point_mm": [
+            -33.03001949281586,
+            -67.0,
+            -85.21126965061508
+          ],
+          "distance_mm": 0.005043190170990944
+        },
+        {
+          "point_mm": [
+            -32.6495414061953,
+            -67.0,
+            -86.69903387177642
+          ],
+          "distance_mm": 0.004961579869470155
+        },
+        {
+          "point_mm": [
+            17.146953773985704,
+            -57.6,
+            -57.23586754546961
+          ],
+          "distance_mm": 0.004883166517929998
+        },
+        {
+          "point_mm": [
+            -32.49530695322191,
+            -65.68749999999999,
+            -87.29594961270053
+          ],
+          "distance_mm": 0.004847946302852581
+        },
+        {
+          "point_mm": [
+            -32.49530695322191,
+            -66.15624999999999,
+            -87.29594961270053
+          ],
+          "distance_mm": 0.004847946302852581
+        }
+      ]
+    },
+    "source_to_native": {
+      "samples": 2544,
+      "max_mm": 0.005046619478935824,
+      "rms_mm": 0.0003224225129868902,
+      "worst_samples": [
+        {
+          "point_mm": [
+            -32.87706941909959,
+            -67.0,
+            -85.81224814954936
+          ],
+          "distance_mm": 0.005046619478935824
+        },
+        {
+          "point_mm": [
+            -33.2523980633636,
+            -67.0,
+            -84.32929147563019
+          ],
+          "distance_mm": 0.0049460892612261395
+        },
+        {
+          "point_mm": [
+            -32.49530695321898,
+            -66.8125,
+            -87.29594961269517
+          ],
+          "distance_mm": 0.004847946308191416
+        },
+        {
+          "point_mm": [
+            -32.49530695321898,
+            -67.0,
+            -87.29594961269517
+          ],
+          "distance_mm": 0.004847946308191416
+        },
+        {
+          "point_mm": [
+            -32.49530695321898,
+            -65.875,
+            -87.2959496126952
+          ],
+          "distance_mm": 0.0048479463081842885
+        }
+      ]
+    }
+  },
+  "absolute_mesh_own_boundary_checks": {
+    "native_to_source": {
+      "faces": [
+        {
+          "face": 0,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 85,
+          "sample_range": [
+            0,
+            24
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 1,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 85,
+          "sample_range": [
+            24,
+            48
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 2,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            48,
+            72
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 3,
+          "samples": 24,
+          "interior_candidates": 141,
+          "trim_candidates": 119,
+          "sample_range": [
+            72,
+            96
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 4,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 85,
+          "sample_range": [
+            96,
+            120
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 5,
+          "samples": 64,
+          "interior_candidates": 225,
+          "trim_candidates": 153,
+          "sample_range": [
+            120,
+            184
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 6,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            184,
+            208
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 7,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            208,
+            232
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 8,
+          "samples": 24,
+          "interior_candidates": 187,
+          "trim_candidates": 34,
+          "sample_range": [
+            232,
+            256
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 9,
+          "samples": 64,
+          "interior_candidates": 138,
+          "trim_candidates": 204,
+          "sample_range": [
+            256,
+            320
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 10,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            320,
+            344
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 11,
+          "samples": 24,
+          "interior_candidates": 104,
+          "trim_candidates": 34,
+          "sample_range": [
+            344,
+            368
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 12,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            368,
+            392
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 13,
+          "samples": 24,
+          "interior_candidates": 104,
+          "trim_candidates": 34,
+          "sample_range": [
+            392,
+            416
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 14,
+          "samples": 24,
+          "interior_candidates": 149,
+          "trim_candidates": 51,
+          "sample_range": [
+            416,
+            440
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 15,
+          "samples": 24,
+          "interior_candidates": 169,
+          "trim_candidates": 51,
+          "sample_range": [
+            440,
+            464
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 16,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            464,
+            488
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 17,
+          "samples": 24,
+          "interior_candidates": 64,
+          "trim_candidates": 34,
+          "sample_range": [
+            488,
+            512
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 18,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            512,
+            536
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 19,
+          "samples": 24,
+          "interior_candidates": 132,
+          "trim_candidates": 34,
+          "sample_range": [
+            536,
+            560
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 20,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            560,
+            584
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 21,
+          "samples": 24,
+          "interior_candidates": 24,
+          "trim_candidates": 34,
+          "sample_range": [
+            584,
+            608
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 22,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            608,
+            632
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 23,
+          "samples": 24,
+          "interior_candidates": 24,
+          "trim_candidates": 34,
+          "sample_range": [
+            632,
+            656
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 24,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            656,
+            680
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 25,
+          "samples": 64,
+          "interior_candidates": 126,
+          "trim_candidates": 85,
+          "sample_range": [
+            680,
+            744
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 26,
+          "samples": 24,
+          "interior_candidates": 105,
+          "trim_candidates": 51,
+          "sample_range": [
+            744,
+            768
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 27,
+          "samples": 24,
+          "interior_candidates": 106,
+          "trim_candidates": 68,
+          "sample_range": [
+            768,
+            792
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 28,
+          "samples": 24,
+          "interior_candidates": 226,
+          "trim_candidates": 68,
+          "sample_range": [
+            792,
+            816
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 29,
+          "samples": 64,
+          "interior_candidates": 71,
+          "trim_candidates": 170,
+          "sample_range": [
+            816,
+            880
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 30,
+          "samples": 24,
+          "interior_candidates": 221,
+          "trim_candidates": 68,
+          "sample_range": [
+            880,
+            904
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 31,
+          "samples": 24,
+          "interior_candidates": 122,
+          "trim_candidates": 68,
+          "sample_range": [
+            904,
+            928
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 32,
+          "samples": 24,
+          "interior_candidates": 224,
+          "trim_candidates": 68,
+          "sample_range": [
+            928,
+            952
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 33,
+          "samples": 24,
+          "interior_candidates": 112,
+          "trim_candidates": 136,
+          "sample_range": [
+            952,
+            976
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 34,
+          "samples": 24,
+          "interior_candidates": 58,
+          "trim_candidates": 102,
+          "sample_range": [
+            976,
+            1000
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 35,
+          "samples": 24,
+          "interior_candidates": 152,
+          "trim_candidates": 68,
+          "sample_range": [
+            1000,
+            1024
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 36,
+          "samples": 64,
+          "interior_candidates": 224,
+          "trim_candidates": 119,
+          "sample_range": [
+            1024,
+            1088
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 37,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            1088,
+            1112
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 38,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            1112,
+            1136
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 39,
+          "samples": 64,
+          "interior_candidates": 213,
+          "trim_candidates": 153,
+          "sample_range": [
+            1136,
+            1200
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 40,
+          "samples": 24,
+          "interior_candidates": 154,
+          "trim_candidates": 68,
+          "sample_range": [
+            1200,
+            1224
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 41,
+          "samples": 64,
+          "interior_candidates": 40,
+          "trim_candidates": 136,
+          "sample_range": [
+            1224,
+            1288
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 42,
+          "samples": 24,
+          "interior_candidates": 120,
+          "trim_candidates": 51,
+          "sample_range": [
+            1288,
+            1312
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 43,
+          "samples": 64,
+          "interior_candidates": 129,
+          "trim_candidates": 153,
+          "sample_range": [
+            1312,
+            1376
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 44,
+          "samples": 24,
+          "interior_candidates": 69,
+          "trim_candidates": 187,
+          "sample_range": [
+            1376,
+            1400
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 45,
+          "samples": 24,
+          "interior_candidates": 197,
+          "trim_candidates": 68,
+          "sample_range": [
+            1400,
+            1424
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 46,
+          "samples": 24,
+          "interior_candidates": 151,
+          "trim_candidates": 85,
+          "sample_range": [
+            1424,
+            1448
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 47,
+          "samples": 24,
+          "interior_candidates": 195,
+          "trim_candidates": 68,
+          "sample_range": [
+            1448,
+            1472
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 48,
+          "samples": 24,
+          "interior_candidates": 218,
+          "trim_candidates": 68,
+          "sample_range": [
+            1472,
+            1496
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 49,
+          "samples": 24,
+          "interior_candidates": 51,
+          "trim_candidates": 119,
+          "sample_range": [
+            1496,
+            1520
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 50,
+          "samples": 24,
+          "interior_candidates": 26,
+          "trim_candidates": 51,
+          "sample_range": [
+            1520,
+            1544
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 51,
+          "samples": 64,
+          "interior_candidates": 225,
+          "trim_candidates": 85,
+          "sample_range": [
+            1544,
+            1608
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 52,
+          "samples": 24,
+          "interior_candidates": 148,
+          "trim_candidates": 68,
+          "sample_range": [
+            1608,
+            1632
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 53,
+          "samples": 64,
+          "interior_candidates": 209,
+          "trim_candidates": 221,
+          "sample_range": [
+            1632,
+            1696
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 54,
+          "samples": 24,
+          "interior_candidates": 122,
+          "trim_candidates": 68,
+          "sample_range": [
+            1696,
+            1720
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 55,
+          "samples": 64,
+          "interior_candidates": 47,
+          "trim_candidates": 476,
+          "sample_range": [
+            1720,
+            1784
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 56,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            1784,
+            1808
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 57,
+          "samples": 24,
+          "interior_candidates": 218,
+          "trim_candidates": 136,
+          "sample_range": [
+            1808,
+            1832
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 58,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            1832,
+            1856
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 59,
+          "samples": 24,
+          "interior_candidates": 218,
+          "trim_candidates": 68,
+          "sample_range": [
+            1856,
+            1880
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 60,
+          "samples": 24,
+          "interior_candidates": 218,
+          "trim_candidates": 68,
+          "sample_range": [
+            1880,
+            1904
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 61,
+          "samples": 24,
+          "interior_candidates": 57,
+          "trim_candidates": 68,
+          "sample_range": [
+            1904,
+            1928
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 62,
+          "samples": 64,
+          "interior_candidates": 201,
+          "trim_candidates": 119,
+          "sample_range": [
+            1928,
+            1992
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 63,
+          "samples": 24,
+          "interior_candidates": 80,
+          "trim_candidates": 102,
+          "sample_range": [
+            1992,
+            2016
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 64,
+          "samples": 24,
+          "interior_candidates": 191,
+          "trim_candidates": 119,
+          "sample_range": [
+            2016,
+            2040
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 65,
+          "samples": 24,
+          "interior_candidates": 196,
+          "trim_candidates": 153,
+          "sample_range": [
+            2040,
+            2064
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 66,
+          "samples": 24,
+          "interior_candidates": 224,
+          "trim_candidates": 68,
+          "sample_range": [
+            2064,
+            2088
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 67,
+          "samples": 64,
+          "interior_candidates": 116,
+          "trim_candidates": 255,
+          "sample_range": [
+            2088,
+            2152
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 68,
+          "samples": 64,
+          "interior_candidates": 99,
+          "trim_candidates": 102,
+          "sample_range": [
+            2152,
+            2216
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 69,
+          "samples": 24,
+          "interior_candidates": 208,
+          "trim_candidates": 85,
+          "sample_range": [
+            2216,
+            2240
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 70,
+          "samples": 24,
+          "interior_candidates": 224,
+          "trim_candidates": 85,
+          "sample_range": [
+            2240,
+            2264
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 71,
+          "samples": 24,
+          "interior_candidates": 101,
+          "trim_candidates": 51,
+          "sample_range": [
+            2264,
+            2288
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 72,
+          "samples": 24,
+          "interior_candidates": 153,
+          "trim_candidates": 51,
+          "sample_range": [
+            2288,
+            2312
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 73,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            2312,
+            2336
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 74,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            2336,
+            2360
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 75,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            2360,
+            2384
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 76,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            2384,
+            2408
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 77,
+          "samples": 24,
+          "interior_candidates": 107,
+          "trim_candidates": 51,
+          "sample_range": [
+            2408,
+            2432
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 78,
+          "samples": 64,
+          "interior_candidates": 158,
+          "trim_candidates": 85,
+          "sample_range": [
+            2432,
+            2496
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 79,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            2496,
+            2520
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 80,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            2520,
+            2544
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        }
+      ],
+      "all_faces_sampled": true,
+      "sample_count": 2544,
+      "scope": "Finite samples of every face; not a continuous Hausdorff bound."
+    },
+    "source_to_native": {
+      "faces": [
+        {
+          "face": 0,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 85,
+          "sample_range": [
+            0,
+            24
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 1,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 85,
+          "sample_range": [
+            24,
+            48
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 2,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            48,
+            72
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 3,
+          "samples": 24,
+          "interior_candidates": 141,
+          "trim_candidates": 119,
+          "sample_range": [
+            72,
+            96
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 4,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 85,
+          "sample_range": [
+            96,
+            120
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 5,
+          "samples": 64,
+          "interior_candidates": 225,
+          "trim_candidates": 153,
+          "sample_range": [
+            120,
+            184
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 6,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            184,
+            208
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 7,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            208,
+            232
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 8,
+          "samples": 24,
+          "interior_candidates": 187,
+          "trim_candidates": 34,
+          "sample_range": [
+            232,
+            256
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 9,
+          "samples": 64,
+          "interior_candidates": 138,
+          "trim_candidates": 204,
+          "sample_range": [
+            256,
+            320
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 10,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            320,
+            344
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 11,
+          "samples": 24,
+          "interior_candidates": 104,
+          "trim_candidates": 34,
+          "sample_range": [
+            344,
+            368
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 12,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            368,
+            392
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 13,
+          "samples": 24,
+          "interior_candidates": 104,
+          "trim_candidates": 34,
+          "sample_range": [
+            392,
+            416
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 14,
+          "samples": 24,
+          "interior_candidates": 149,
+          "trim_candidates": 51,
+          "sample_range": [
+            416,
+            440
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 15,
+          "samples": 24,
+          "interior_candidates": 169,
+          "trim_candidates": 51,
+          "sample_range": [
+            440,
+            464
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 16,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            464,
+            488
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 17,
+          "samples": 24,
+          "interior_candidates": 64,
+          "trim_candidates": 34,
+          "sample_range": [
+            488,
+            512
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 18,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            512,
+            536
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 19,
+          "samples": 24,
+          "interior_candidates": 132,
+          "trim_candidates": 34,
+          "sample_range": [
+            536,
+            560
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 20,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            560,
+            584
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 21,
+          "samples": 24,
+          "interior_candidates": 24,
+          "trim_candidates": 34,
+          "sample_range": [
+            584,
+            608
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 22,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            608,
+            632
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 23,
+          "samples": 24,
+          "interior_candidates": 24,
+          "trim_candidates": 34,
+          "sample_range": [
+            632,
+            656
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 24,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 51,
+          "sample_range": [
+            656,
+            680
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 25,
+          "samples": 64,
+          "interior_candidates": 126,
+          "trim_candidates": 85,
+          "sample_range": [
+            680,
+            744
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 26,
+          "samples": 24,
+          "interior_candidates": 105,
+          "trim_candidates": 51,
+          "sample_range": [
+            744,
+            768
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 27,
+          "samples": 24,
+          "interior_candidates": 106,
+          "trim_candidates": 68,
+          "sample_range": [
+            768,
+            792
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 28,
+          "samples": 24,
+          "interior_candidates": 226,
+          "trim_candidates": 68,
+          "sample_range": [
+            792,
+            816
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 29,
+          "samples": 64,
+          "interior_candidates": 71,
+          "trim_candidates": 170,
+          "sample_range": [
+            816,
+            880
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 30,
+          "samples": 24,
+          "interior_candidates": 221,
+          "trim_candidates": 68,
+          "sample_range": [
+            880,
+            904
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 31,
+          "samples": 24,
+          "interior_candidates": 122,
+          "trim_candidates": 68,
+          "sample_range": [
+            904,
+            928
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 32,
+          "samples": 24,
+          "interior_candidates": 223,
+          "trim_candidates": 68,
+          "sample_range": [
+            928,
+            952
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 33,
+          "samples": 24,
+          "interior_candidates": 112,
+          "trim_candidates": 136,
+          "sample_range": [
+            952,
+            976
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 34,
+          "samples": 24,
+          "interior_candidates": 58,
+          "trim_candidates": 102,
+          "sample_range": [
+            976,
+            1000
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 35,
+          "samples": 24,
+          "interior_candidates": 152,
+          "trim_candidates": 68,
+          "sample_range": [
+            1000,
+            1024
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 36,
+          "samples": 64,
+          "interior_candidates": 224,
+          "trim_candidates": 119,
+          "sample_range": [
+            1024,
+            1088
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 37,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            1088,
+            1112
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 38,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            1112,
+            1136
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 39,
+          "samples": 64,
+          "interior_candidates": 213,
+          "trim_candidates": 153,
+          "sample_range": [
+            1136,
+            1200
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 40,
+          "samples": 24,
+          "interior_candidates": 154,
+          "trim_candidates": 68,
+          "sample_range": [
+            1200,
+            1224
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 41,
+          "samples": 64,
+          "interior_candidates": 40,
+          "trim_candidates": 136,
+          "sample_range": [
+            1224,
+            1288
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 42,
+          "samples": 24,
+          "interior_candidates": 120,
+          "trim_candidates": 51,
+          "sample_range": [
+            1288,
+            1312
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 43,
+          "samples": 64,
+          "interior_candidates": 129,
+          "trim_candidates": 153,
+          "sample_range": [
+            1312,
+            1376
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 44,
+          "samples": 24,
+          "interior_candidates": 69,
+          "trim_candidates": 187,
+          "sample_range": [
+            1376,
+            1400
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 45,
+          "samples": 24,
+          "interior_candidates": 197,
+          "trim_candidates": 68,
+          "sample_range": [
+            1400,
+            1424
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 46,
+          "samples": 24,
+          "interior_candidates": 151,
+          "trim_candidates": 85,
+          "sample_range": [
+            1424,
+            1448
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 47,
+          "samples": 24,
+          "interior_candidates": 195,
+          "trim_candidates": 68,
+          "sample_range": [
+            1448,
+            1472
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 48,
+          "samples": 24,
+          "interior_candidates": 218,
+          "trim_candidates": 68,
+          "sample_range": [
+            1472,
+            1496
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 49,
+          "samples": 24,
+          "interior_candidates": 51,
+          "trim_candidates": 119,
+          "sample_range": [
+            1496,
+            1520
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 50,
+          "samples": 24,
+          "interior_candidates": 26,
+          "trim_candidates": 51,
+          "sample_range": [
+            1520,
+            1544
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 51,
+          "samples": 64,
+          "interior_candidates": 225,
+          "trim_candidates": 85,
+          "sample_range": [
+            1544,
+            1608
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 52,
+          "samples": 24,
+          "interior_candidates": 148,
+          "trim_candidates": 68,
+          "sample_range": [
+            1608,
+            1632
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 53,
+          "samples": 64,
+          "interior_candidates": 209,
+          "trim_candidates": 221,
+          "sample_range": [
+            1632,
+            1696
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 54,
+          "samples": 24,
+          "interior_candidates": 122,
+          "trim_candidates": 68,
+          "sample_range": [
+            1696,
+            1720
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 55,
+          "samples": 64,
+          "interior_candidates": 47,
+          "trim_candidates": 476,
+          "sample_range": [
+            1720,
+            1784
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 56,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            1784,
+            1808
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 57,
+          "samples": 24,
+          "interior_candidates": 218,
+          "trim_candidates": 136,
+          "sample_range": [
+            1808,
+            1832
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 58,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            1832,
+            1856
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 59,
+          "samples": 24,
+          "interior_candidates": 217,
+          "trim_candidates": 68,
+          "sample_range": [
+            1856,
+            1880
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 60,
+          "samples": 24,
+          "interior_candidates": 217,
+          "trim_candidates": 68,
+          "sample_range": [
+            1880,
+            1904
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 61,
+          "samples": 24,
+          "interior_candidates": 57,
+          "trim_candidates": 68,
+          "sample_range": [
+            1904,
+            1928
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 62,
+          "samples": 64,
+          "interior_candidates": 201,
+          "trim_candidates": 119,
+          "sample_range": [
+            1928,
+            1992
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 63,
+          "samples": 24,
+          "interior_candidates": 80,
+          "trim_candidates": 102,
+          "sample_range": [
+            1992,
+            2016
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 64,
+          "samples": 24,
+          "interior_candidates": 191,
+          "trim_candidates": 119,
+          "sample_range": [
+            2016,
+            2040
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 65,
+          "samples": 24,
+          "interior_candidates": 196,
+          "trim_candidates": 153,
+          "sample_range": [
+            2040,
+            2064
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 66,
+          "samples": 24,
+          "interior_candidates": 224,
+          "trim_candidates": 68,
+          "sample_range": [
+            2064,
+            2088
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 67,
+          "samples": 64,
+          "interior_candidates": 116,
+          "trim_candidates": 255,
+          "sample_range": [
+            2088,
+            2152
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 68,
+          "samples": 64,
+          "interior_candidates": 99,
+          "trim_candidates": 102,
+          "sample_range": [
+            2152,
+            2216
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 69,
+          "samples": 24,
+          "interior_candidates": 208,
+          "trim_candidates": 85,
+          "sample_range": [
+            2216,
+            2240
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 70,
+          "samples": 24,
+          "interior_candidates": 224,
+          "trim_candidates": 85,
+          "sample_range": [
+            2240,
+            2264
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 71,
+          "samples": 24,
+          "interior_candidates": 101,
+          "trim_candidates": 51,
+          "sample_range": [
+            2264,
+            2288
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 72,
+          "samples": 24,
+          "interior_candidates": 153,
+          "trim_candidates": 51,
+          "sample_range": [
+            2288,
+            2312
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 73,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            2312,
+            2336
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 74,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            2336,
+            2360
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 75,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            2360,
+            2384
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 76,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            2384,
+            2408
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 77,
+          "samples": 24,
+          "interior_candidates": 107,
+          "trim_candidates": 51,
+          "sample_range": [
+            2408,
+            2432
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 78,
+          "samples": 64,
+          "interior_candidates": 158,
+          "trim_candidates": 85,
+          "sample_range": [
+            2432,
+            2496
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 79,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            2496,
+            2520
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        },
+        {
+          "face": 80,
+          "samples": 24,
+          "interior_candidates": 225,
+          "trim_candidates": 68,
+          "sample_range": [
+            2520,
+            2544
+          ],
+          "method": "Exact surface evaluation; interior UV classified, boundary UV taken from face trim curves"
+        }
+      ],
+      "all_faces_sampled": true,
+      "sample_count": 2544,
+      "scope": "Finite samples of every face; not a continuous Hausdorff bound."
+    }
+  },
+  "source_cylinders": [
+    [
+      2.0,
+      -41.569219381644636,
+      -34.0,
+      -24.000000000007294,
+      -0.50000000000019,
+      -0.0,
+      0.866025403784329
+    ],
+    [
+      2.0,
+      -39.56921938165,
+      0.0,
+      -27.46410161513,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      2.0,
+      -2.000000000004235,
+      -34.0,
+      3.4641016151433313,
+      0.866025403784329,
+      0.0,
+      0.50000000000019
+    ],
+    [
+      2.0,
+      1.9999999999948983,
+      -34.0,
+      -3.46410161512717,
+      0.866025403784329,
+      0.0,
+      0.50000000000019
+    ],
+    [
+      2.8,
+      -37.67210506462,
+      0.0,
+      -21.75,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      3.0,
+      -5.4897580070867,
+      -9.5,
+      -2.421271778106128,
+      -0.4035452963519988,
+      0.0,
+      0.9149596678499974
+    ],
+    [
+      3.0,
+      0.0,
+      -64.0,
+      -82.55017087336,
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      3.0,
+      0.0,
+      -53.3,
+      -37.44982912663,
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      4.0,
+      -10.064556346337708,
+      -53.6,
+      -4.438998259866576,
+      -0.4035452963519988,
+      0.0,
+      0.9149596678499974
+    ],
+    [
+      4.0,
+      -10.064556346337708,
+      -25.6,
+      -4.438998259866576,
+      -0.4035452963519988,
+      0.0,
+      0.9149596678499974
+    ],
+    [
+      4.1,
+      -36.0,
+      0.0,
+      -66.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      4.1,
+      5.0,
+      0.0,
+      -70.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      5.5,
+      -45.0,
+      0.0,
+      -38.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      6.1,
+      0.0,
+      0.0,
+      -170.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      6.2,
+      -36.0,
+      0.0,
+      -66.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      6.2,
+      5.0,
+      0.0,
+      -70.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      6.3,
+      -37.67210506462,
+      0.0,
+      -21.75,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      7.7,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      8.8,
+      -36.0,
+      0.0,
+      -66.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      8.8,
+      5.0,
+      0.0,
+      -70.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      11.2,
+      0.0,
+      0.0,
+      -170.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      12.4,
+      0.0,
+      0.0,
+      -170.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      13.7,
+      0.0,
+      0.0,
+      -170.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      21.5,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      40.25,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      40.8,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      45.0,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      45.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      53.0,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "native_cylinders": [
+    [
+      2.0,
+      -41.569219381653,
+      -34.0,
+      -23.99999999999999,
+      -0.5000000000000003,
+      -0.0,
+      0.8660254037844385
+    ],
+    [
+      2.0,
+      -39.569219381653,
+      0.0,
+      -27.4641016151378,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      2.0,
+      -1.9999999999999716,
+      -34.0,
+      3.4641016151377073,
+      0.8660254037844385,
+      0.0,
+      0.5000000000000003
+    ],
+    [
+      2.0,
+      2.0000000000000284,
+      -34.0,
+      -3.4641016151377926,
+      0.8660254037844385,
+      0.0,
+      0.5000000000000003
+    ],
+    [
+      2.8,
+      -37.6721050646231,
+      0.0,
+      -21.75,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      3.0,
+      -5.489758007098963,
+      -9.5,
+      -2.4212717781143347,
+      -0.40354529635239,
+      0.0,
+      0.914959667849825
+    ],
+    [
+      3.0,
+      0.0,
+      -64.0,
+      -82.5501708733662,
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      3.0,
+      0.0,
+      -53.3,
+      -37.4498291266338,
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      4.0,
+      -10.064556346348066,
+      -53.6,
+      -4.438998259876275,
+      -0.40354529635239,
+      0.0,
+      0.914959667849825
+    ],
+    [
+      4.0,
+      -10.064556346348066,
+      -25.6,
+      -4.438998259876275,
+      -0.40354529635239,
+      0.0,
+      0.914959667849825
+    ],
+    [
+      4.1,
+      -36.0,
+      0.0,
+      -66.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      4.1,
+      5.0,
+      0.0,
+      -70.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      5.5,
+      -45.0,
+      0.0,
+      -38.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      6.1,
+      0.0,
+      0.0,
+      -170.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      6.2,
+      -36.0,
+      0.0,
+      -66.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      6.2,
+      5.0,
+      0.0,
+      -70.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      6.3,
+      -37.6721050646231,
+      0.0,
+      -21.75,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      7.7,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      8.8,
+      -36.0,
+      0.0,
+      -66.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      8.8,
+      5.0,
+      0.0,
+      -70.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      11.2,
+      0.0,
+      0.0,
+      -170.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      12.4,
+      0.0,
+      0.0,
+      -170.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      13.7,
+      0.0,
+      0.0,
+      -170.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      21.5,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      40.25,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      40.8,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      45.0,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      45.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      53.0,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "cylinder_position_radius_error_max_mm": 1.2263079440799629e-11,
+  "cylinder_axis_component_error_max": 3.911870827266739e-13,
+  "native_solid_count": 1,
+  "source_solid_count": 1,
+  "critical_cylinder_gate_passed": true,
+  "declared_functional_clearance_cylinders": null,
+  "functional_clearance_proof": null,
+  "clearance_cylinder_mapping": {
+    "source": [],
+    "native": []
+  },
+  "additional_source_curve_analytic_cylinders": [],
+  "unexplained_native_cylinders": [],
+  "cylinder_matching_method": "Source hole, shaft, seat and unchanged fillet cylinders match native radii, axes and locations within 0.0001 mm. Explicitly recorded sampled-clearance replacements and recovered sketch arcs are checked by the unchanged full-surface and section gates.",
+  "geometric_gate_passed": true,
+  "tolerances": {
+    "sampled_surface_mm": 0.05,
+    "relative_volume": 0.001,
+    "relative_area": 0.001,
+    "cylinder_position_radius_mm": 0.0001,
+    "cylinder_axis_component": 0.0001
+  },
+  "bounds_note": "Conservative BRep bounds can include untrimmed NURBS surface extents. Sampled boundary bounds use a 0.02 mm tessellation and describe the trimmed physical boundary.",
+  "scope": "Exact native STEP geometry. Sampled symmetric surface checks are finite, not a mathematical Hausdorff proof. Native editability and assembly migration gates are separate."
+}

@@ -1,0 +1,633 @@
+{
+  "source_model_sha256": "b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6",
+  "scope": "Quarter-mm outward radial witness samples only; use exact contact probes for final bearing areas.",
+  "sources": {
+    "hip_hub": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/hip_hub.step",
+      "sha256": "983f8f512e35e94e67cb1a17e81d3e2910b7816a85bda1c39eadb7de3151450e"
+    },
+    "motor_mount_ring": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/motor_mount_ring.step",
+      "sha256": "72b1f1c3bc6e89d66e37ee4f264c4c6813617ed7d4070d315771abe944ef897e"
+    },
+    "thigh_inner": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/thigh_inner.step",
+      "sha256": "b8cb7f644e92119b329e3cffac039385b432150365d77b4b92fcc5c929fefa7a"
+    },
+    "thigh_outer": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/knee-stub-cleanup/thigh_outer.step",
+      "sha256": "444e1937618b2f33438fbc0684d8eedcad4b366b791220c9fcfe778d1a02c0e2"
+    },
+    "pod_sleeve_90": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/pod_sleeve_90.step",
+      "sha256": "9348b93d7580372c6c93932f911ed0c3d9143d739f56174836e1fd06aec44523"
+    },
+    "pod_sleeve_210": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/pod_sleeve_210.step",
+      "sha256": "38b4c0fd289dc73cef55834b5bda3040f3c287e9e1dc6ca47259a0df659bb800"
+    },
+    "pod_sleeve_330": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/pod_sleeve_330.step",
+      "sha256": "45d0dd5411fcf02b6ceb37be7fc887ef3423bc2dd201b24689ce32a274856b6a"
+    },
+    "input_crank": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/output/integrated-candidate/step/input_crank.step",
+      "sha256": "aa29713f87d285758ef60af545e1f366e32e1b4e50815318dedba2a9db9d2272"
+    }
+  },
+  "sections": [
+    {
+      "part": "hip_hub",
+      "tie_angle": 90,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": [
+        [
+          5.0,
+          9.5
+        ]
+      ]
+    },
+    {
+      "part": "hip_hub",
+      "tie_angle": 90,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": [
+        [
+          5.0,
+          9.5
+        ]
+      ]
+    },
+    {
+      "part": "hip_hub",
+      "tie_angle": 90,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          5.0,
+          9.5
+        ]
+      ]
+    },
+    {
+      "part": "hip_hub",
+      "tie_angle": 90,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          5.0,
+          9.5
+        ]
+      ]
+    },
+    {
+      "part": "hip_hub",
+      "tie_angle": 210,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": [
+        [
+          5.0,
+          9.5
+        ]
+      ]
+    },
+    {
+      "part": "hip_hub",
+      "tie_angle": 210,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": [
+        [
+          5.0,
+          9.5
+        ]
+      ]
+    },
+    {
+      "part": "hip_hub",
+      "tie_angle": 210,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          5.0,
+          9.5
+        ]
+      ]
+    },
+    {
+      "part": "hip_hub",
+      "tie_angle": 210,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          5.0,
+          9.5
+        ]
+      ]
+    },
+    {
+      "part": "hip_hub",
+      "tie_angle": 330,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": [
+        [
+          5.0,
+          9.5
+        ]
+      ]
+    },
+    {
+      "part": "hip_hub",
+      "tie_angle": 330,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": [
+        [
+          5.0,
+          9.5
+        ]
+      ]
+    },
+    {
+      "part": "hip_hub",
+      "tie_angle": 330,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          5.0,
+          9.5
+        ]
+      ]
+    },
+    {
+      "part": "hip_hub",
+      "tie_angle": 330,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          5.0,
+          9.5
+        ]
+      ]
+    },
+    {
+      "part": "motor_mount_ring",
+      "tie_angle": 90,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": [
+        [
+          50.5,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part": "motor_mount_ring",
+      "tie_angle": 90,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": [
+        [
+          50.5,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part": "motor_mount_ring",
+      "tie_angle": 90,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          50.5,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part": "motor_mount_ring",
+      "tie_angle": 90,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          50.5,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part": "motor_mount_ring",
+      "tie_angle": 210,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": [
+        [
+          50.5,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part": "motor_mount_ring",
+      "tie_angle": 210,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": [
+        [
+          50.5,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part": "motor_mount_ring",
+      "tie_angle": 210,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          50.5,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part": "motor_mount_ring",
+      "tie_angle": 210,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          50.5,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part": "motor_mount_ring",
+      "tie_angle": 330,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": [
+        [
+          50.5,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part": "motor_mount_ring",
+      "tie_angle": 330,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": [
+        [
+          50.5,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part": "motor_mount_ring",
+      "tie_angle": 330,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          50.5,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part": "motor_mount_ring",
+      "tie_angle": 330,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          50.5,
+          55.0
+        ]
+      ]
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle": 90,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle": 90,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle": 90,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle": 90,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle": 210,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle": 210,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle": 210,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          32.0,
+          50.25
+        ]
+      ]
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle": 210,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          32.0,
+          50.25
+        ]
+      ]
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle": 330,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle": 330,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle": 330,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle": 330,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle": 90,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": [
+        [
+          68.0,
+          80
+        ]
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle": 90,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": [
+        [
+          68.0,
+          80
+        ]
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle": 90,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          32.0,
+          50.25
+        ],
+        [
+          55.25,
+          80
+        ]
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle": 90,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          32.0,
+          50.25
+        ],
+        [
+          55.25,
+          80
+        ]
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle": 210,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": [
+        [
+          68.0,
+          80
+        ]
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle": 210,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": [
+        [
+          68.0,
+          80
+        ]
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle": 210,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          55.25,
+          80
+        ]
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle": 210,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          55.25,
+          80
+        ]
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle": 330,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": [
+        [
+          68.0,
+          80
+        ]
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle": 330,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": [
+        [
+          68.0,
+          80
+        ]
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle": 330,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          32.0,
+          50.25
+        ],
+        [
+          55.25,
+          80
+        ]
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle": 330,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": [
+        [
+          32.0,
+          50.25
+        ],
+        [
+          55.25,
+          80
+        ]
+      ]
+    },
+    {
+      "part": "pod_sleeve_90",
+      "tie_angle": 90,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": [
+        [
+          9.5,
+          50.5
+        ],
+        [
+          55.0,
+          61.0
+        ]
+      ]
+    },
+    {
+      "part": "pod_sleeve_90",
+      "tie_angle": 90,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "pod_sleeve_90",
+      "tie_angle": 90,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "pod_sleeve_90",
+      "tie_angle": 90,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "pod_sleeve_210",
+      "tie_angle": 210,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": [
+        [
+          9.5,
+          50.5
+        ],
+        [
+          55.0,
+          61.0
+        ]
+      ]
+    },
+    {
+      "part": "pod_sleeve_210",
+      "tie_angle": 210,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "pod_sleeve_210",
+      "tie_angle": 210,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "pod_sleeve_210",
+      "tie_angle": 210,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "pod_sleeve_330",
+      "tie_angle": 330,
+      "radial_witness_mm": 2.0,
+      "axial_material_intervals_quarter_mm": [
+        [
+          9.5,
+          50.5
+        ],
+        [
+          55.0,
+          61.0
+        ]
+      ]
+    },
+    {
+      "part": "pod_sleeve_330",
+      "tie_angle": 330,
+      "radial_witness_mm": 2.6,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "pod_sleeve_330",
+      "tie_angle": 330,
+      "radial_witness_mm": 3.3,
+      "axial_material_intervals_quarter_mm": []
+    },
+    {
+      "part": "pod_sleeve_330",
+      "tie_angle": 330,
+      "radial_witness_mm": 4.3,
+      "axial_material_intervals_quarter_mm": []
+    }
+  ]
+}

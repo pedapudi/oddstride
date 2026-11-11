@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "saved": false,
+  "bindings": [
+    {
+      "parameter": "saddle_x",
+      "before": "121 mm",
+      "expression": "body_hip_x-64 mm"
+    },
+    {
+      "parameter": "hood_sensor_x",
+      "before": "121 mm",
+      "expression": "saddle_x"
+    },
+    {
+      "parameter": "saddle_face_join_x",
+      "before": "246 mm",
+      "expression": "head_face_reference_x+.6 mm"
+    },
+    {
+      "parameter": "hood_station_1_x",
+      "before": "76 mm",
+      "expression": "head_face_reference_x-169.4 mm"
+    },
+    {
+      "parameter": "hood_station_2_x",
+      "before": "92 mm",
+      "expression": "head_face_reference_x-153.4 mm"
+    },
+    {
+      "parameter": "hood_station_3_x",
+      "before": "hood_sensor_x",
+      "expression": "head_face_reference_x-124.4 mm"
+    },
+    {
+      "parameter": "hood_station_4_x",
+      "before": "150 mm",
+      "expression": "head_face_reference_x-95.4 mm"
+    },
+    {
+      "parameter": "hood_station_5_x",
+      "before": "185 mm",
+      "expression": "head_face_reference_x-60.4 mm"
+    },
+    {
+      "parameter": "hood_station_6_x",
+      "before": "216 mm",
+      "expression": "head_face_reference_x-29.4 mm"
+    },
+    {
+      "parameter": "hood_station_7_x",
+      "before": "240 mm",
+      "expression": "head_face_reference_x-5.4 mm"
+    },
+    {
+      "parameter": "hood_station_8_x",
+      "before": "248 mm",
+      "expression": "head_face_reference_x+2.6 mm"
+    }
+  ],
+  "parts": {
+    "CANDIDATE_current_front_fascia": {
+      "features": 26,
+      "sketches": 49
+    },
+    "CANDIDATE_current_front_face_master": {
+      "features": 7,
+      "sketches": 1
+    },
+    "CANDIDATE_current_body_nose_surround": {
+      "features": 13,
+      "sketches": 10
+    }
+  },
+  "elapsed_seconds": 69.33399791599368,
+  "scope": "Shared longitudinal hip/frame datum across native cradle, face and hood. Whole robot external-document synchronization remains a separate assembly gate."
+}

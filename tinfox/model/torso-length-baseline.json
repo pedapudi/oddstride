@@ -1,0 +1,29 @@
+{
+  "model_sha256": "0f56b2187d3983ba94998c4f6ab8dcb51503a076657eb753ca02eb03376e64fb",
+  "parameters": {
+    "body_length": 480,
+    "body_width": 220,
+    "body_height": 104
+  },
+  "rigid_torso_bounds_mm": {
+    "min": [
+      -240.0,
+      -111.2,
+      -53.17773
+    ],
+    "max": [
+      240.0,
+      111.2,
+      54.54019
+    ],
+    "extent": [
+      480.0,
+      222.4,
+      107.71791999999999
+    ]
+  },
+  "torso_shell_mass_kg": 0.35063300000000003,
+  "central_roof_height_mm": 51.5,
+  "image": "../design/10-torso-before.png",
+  "scope": "Rigid body and belly panels only; excludes legs, sensors and the separate battery cassette. Mesh bounds are approximate."
+}

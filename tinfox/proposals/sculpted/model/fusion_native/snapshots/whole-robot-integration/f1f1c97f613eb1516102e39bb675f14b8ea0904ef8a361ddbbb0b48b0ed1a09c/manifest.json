@@ -1,0 +1,5971 @@
+{
+  "purpose": "Whole-robot native migration target; not an authoritative CAD or manufacturing release.",
+  "generated_whole_reference_sha256": "b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6",
+  "native_bench_manifest_sha256": "9459ed17c86b648915166a39016a8f214cf3aa4263f4cb24a3156f14aeead078",
+  "native_bench_review_sha256": "912cb2da8cc08f4289023b69ac2b389ff608f38eb8dca05d35e048bf011987b6",
+  "source_of_truth": false,
+  "body_head_unchanged": true,
+  "new_purchased_instances": 48,
+  "removed_purchased_instances": 12,
+  "existing_limitations": "Retain known generated-source body contacts. Updated whole-robot motion/interference and linkage closure require audit; prior reports do not validate this composite.",
+  "model_sha256": "f1f1c97f613eb1516102e39bb675f14b8ea0904ef8a361ddbbb0b48b0ed1a09c",
+  "reference_model": "snapshots/whole-robot-integration/f1f1c97f613eb1516102e39bb675f14b8ea0904ef8a361ddbbb0b48b0ed1a09c/model.json.gz",
+  "parts": 732,
+  "native_custom_deltas": {
+    "hip_hub": {
+      "native_step": "exports/case-relieved-native-hip_hub.step",
+      "native_step_sha256": "71782a60f159e538f4920f20e89bc28ecec2bb14ac35695f09882a707627f3cb",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "motor_mount_ring": {
+      "native_step": "exports/knee-seated-native-motor_mount_ring.step",
+      "native_step_sha256": "1feea5b2799277ec15b48702da9a63591eb6f7748854689c92943510ba183074",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "thigh_inner": {
+      "native_step": "exports/slim-native-thigh_inner.step",
+      "native_step_sha256": "0264e0a75d553c6d909a1f3e7e158127a4cd2dffdc135be536563ca09a32c6ae",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "thigh_inner_right": {
+      "native_step": "exports/slim-native-thigh_inner.step",
+      "native_step_sha256": "0264e0a75d553c6d909a1f3e7e158127a4cd2dffdc135be536563ca09a32c6ae",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "thigh_outer": {
+      "native_step": "exports/motor-complex-native-thigh_outer.step",
+      "native_step_sha256": "bd72171a1c4826480f1d4afac933152f4454a979e1c19662c7b8928d60209421",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "thigh_outer_right": {
+      "native_step": "exports/motor-complex-native-thigh_outer.step",
+      "native_step_sha256": "bd72171a1c4826480f1d4afac933152f4454a979e1c19662c7b8928d60209421",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "input_crank": {
+      "native_step": "exports/motor-complex-native-input_crank.step",
+      "native_step_sha256": "277beedc5cd650be48df2acd5ad717aefb8fc3ea4a33e03fff6632eb419ccbb5",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "input_crank_right": {
+      "native_step": "exports/motor-complex-native-input_crank.step",
+      "native_step_sha256": "277beedc5cd650be48df2acd5ad717aefb8fc3ea4a33e03fff6632eb419ccbb5",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_cartridge_1": {
+      "native_step": "exports/paired-native-roll_cartridge_1.step",
+      "native_step_sha256": "5ff59a30f035ab92d5007f4cf576e36013f377d94659bdd5521081040f0b357d",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_cartridge_1_right": {
+      "native_step": "exports/paired-native-roll_cartridge_1.step",
+      "native_step_sha256": "5ff59a30f035ab92d5007f4cf576e36013f377d94659bdd5521081040f0b357d",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_cartridge_-1": {
+      "native_step": "exports/paired-native-roll_cartridge_1.step",
+      "native_step_sha256": "5ff59a30f035ab92d5007f4cf576e36013f377d94659bdd5521081040f0b357d",
+      "reflect_y": false,
+      "reflect_x": true,
+      "translation_x_mm": 0
+    },
+    "roll_cartridge_-1_right": {
+      "native_step": "exports/paired-native-roll_cartridge_1.step",
+      "native_step_sha256": "5ff59a30f035ab92d5007f4cf576e36013f377d94659bdd5521081040f0b357d",
+      "reflect_y": true,
+      "reflect_x": true,
+      "translation_x_mm": 0
+    },
+    "roll_stator_backplate_1": {
+      "native_step": "exports/paired-native-roll_stator_backplate_1.step",
+      "native_step_sha256": "e24727d8883bad7f42c2eb301539086410f9bf1afb81ee88d7317769366d30e5",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_stator_backplate_1_right": {
+      "native_step": "exports/paired-native-roll_stator_backplate_1.step",
+      "native_step_sha256": "e24727d8883bad7f42c2eb301539086410f9bf1afb81ee88d7317769366d30e5",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_stator_backplate_-1": {
+      "native_step": "exports/paired-native-roll_stator_backplate_1.step",
+      "native_step_sha256": "e24727d8883bad7f42c2eb301539086410f9bf1afb81ee88d7317769366d30e5",
+      "reflect_y": false,
+      "reflect_x": true,
+      "translation_x_mm": 0
+    },
+    "roll_stator_backplate_-1_right": {
+      "native_step": "exports/paired-native-roll_stator_backplate_1.step",
+      "native_step_sha256": "e24727d8883bad7f42c2eb301539086410f9bf1afb81ee88d7317769366d30e5",
+      "reflect_y": true,
+      "reflect_x": true,
+      "translation_x_mm": 0
+    },
+    "roll_inner_spacer_1": {
+      "native_step": "exports/paired-native-roll_inner_spacer_1.step",
+      "native_step_sha256": "c73bd027069ea6d0c39f8e6aab04152ae1fe0d8c3a2e4a6c64f19167d4b57990",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_inner_spacer_1_right": {
+      "native_step": "exports/paired-native-roll_inner_spacer_1.step",
+      "native_step_sha256": "c73bd027069ea6d0c39f8e6aab04152ae1fe0d8c3a2e4a6c64f19167d4b57990",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_inner_spacer_-1": {
+      "native_step": "exports/paired-native-roll_inner_spacer_1.step",
+      "native_step_sha256": "c73bd027069ea6d0c39f8e6aab04152ae1fe0d8c3a2e4a6c64f19167d4b57990",
+      "reflect_y": false,
+      "reflect_x": true,
+      "translation_x_mm": 0
+    },
+    "roll_inner_spacer_-1_right": {
+      "native_step": "exports/paired-native-roll_inner_spacer_1.step",
+      "native_step_sha256": "c73bd027069ea6d0c39f8e6aab04152ae1fe0d8c3a2e4a6c64f19167d4b57990",
+      "reflect_y": true,
+      "reflect_x": true,
+      "translation_x_mm": 0
+    },
+    "roll_outer_spacer_1": {
+      "native_step": "exports/paired-native-roll_outer_spacer_1.step",
+      "native_step_sha256": "da6dc0bedec1dfbc8250a34a46a44281a2d47b38edbabb2902c46bc25537b993",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_outer_spacer_1_right": {
+      "native_step": "exports/paired-native-roll_outer_spacer_1.step",
+      "native_step_sha256": "da6dc0bedec1dfbc8250a34a46a44281a2d47b38edbabb2902c46bc25537b993",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_outer_spacer_-1": {
+      "native_step": "exports/paired-native-roll_outer_spacer_1.step",
+      "native_step_sha256": "da6dc0bedec1dfbc8250a34a46a44281a2d47b38edbabb2902c46bc25537b993",
+      "reflect_y": false,
+      "reflect_x": true,
+      "translation_x_mm": 0
+    },
+    "roll_outer_spacer_-1_right": {
+      "native_step": "exports/paired-native-roll_outer_spacer_1.step",
+      "native_step_sha256": "da6dc0bedec1dfbc8250a34a46a44281a2d47b38edbabb2902c46bc25537b993",
+      "reflect_y": true,
+      "reflect_x": true,
+      "translation_x_mm": 0
+    },
+    "roll_inner_backplate_1": {
+      "native_step": "exports/paired-native-roll_inner_backplate_1.step",
+      "native_step_sha256": "3c64453a00e1f7620e39a228e55f4e2906b3ea14c87e002cc8293a62f8aeab6a",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_inner_backplate_1_right": {
+      "native_step": "exports/paired-native-roll_inner_backplate_1.step",
+      "native_step_sha256": "3c64453a00e1f7620e39a228e55f4e2906b3ea14c87e002cc8293a62f8aeab6a",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_inner_backplate_-1": {
+      "native_step": "exports/paired-native-roll_inner_backplate_1.step",
+      "native_step_sha256": "3c64453a00e1f7620e39a228e55f4e2906b3ea14c87e002cc8293a62f8aeab6a",
+      "reflect_y": false,
+      "reflect_x": true,
+      "translation_x_mm": 0
+    },
+    "roll_inner_backplate_-1_right": {
+      "native_step": "exports/paired-native-roll_inner_backplate_1.step",
+      "native_step_sha256": "3c64453a00e1f7620e39a228e55f4e2906b3ea14c87e002cc8293a62f8aeab6a",
+      "reflect_y": true,
+      "reflect_x": true,
+      "translation_x_mm": 0
+    },
+    "roll_outer_retainer_1": {
+      "native_step": "exports/paired-native-roll_outer_retainer_1.step",
+      "native_step_sha256": "6cdfeccd6940561097caf7933f9da590c375ed7b48400333c5c8a0deaae5be70",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_outer_retainer_1_right": {
+      "native_step": "exports/paired-native-roll_outer_retainer_1.step",
+      "native_step_sha256": "6cdfeccd6940561097caf7933f9da590c375ed7b48400333c5c8a0deaae5be70",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "roll_outer_retainer_-1": {
+      "native_step": "exports/paired-native-roll_outer_retainer_1.step",
+      "native_step_sha256": "6cdfeccd6940561097caf7933f9da590c375ed7b48400333c5c8a0deaae5be70",
+      "reflect_y": false,
+      "reflect_x": true,
+      "translation_x_mm": 0
+    },
+    "roll_outer_retainer_-1_right": {
+      "native_step": "exports/paired-native-roll_outer_retainer_1.step",
+      "native_step_sha256": "6cdfeccd6940561097caf7933f9da590c375ed7b48400333c5c8a0deaae5be70",
+      "reflect_y": true,
+      "reflect_x": true,
+      "translation_x_mm": 0
+    },
+    "motor_carrier_1": {
+      "native_step": "exports/recessed-restored-motor_carrier_1.step",
+      "native_step_sha256": "6fdc642e1a704073c2cd64486cd1ecfcabedeec0362b557daf9399ba3514d197",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "motor_carrier_1_right": {
+      "native_step": "exports/recessed-restored-motor_carrier_1.step",
+      "native_step_sha256": "6fdc642e1a704073c2cd64486cd1ecfcabedeec0362b557daf9399ba3514d197",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "hip_stator_closure_1": {
+      "native_step": "exports/recessed-restored-hip_stator_closure_1.step",
+      "native_step_sha256": "d2f32933385ef7c7330eee501238f8722257ed535f627bd8d8953011bfc3c419",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "hip_stator_closure_1_right": {
+      "native_step": "exports/recessed-restored-hip_stator_closure_1.step",
+      "native_step_sha256": "d2f32933385ef7c7330eee501238f8722257ed535f627bd8d8953011bfc3c419",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "hip_stator_closure_-1": {
+      "native_step": "exports/recessed-restored-hip_stator_closure_1.step",
+      "native_step_sha256": "d2f32933385ef7c7330eee501238f8722257ed535f627bd8d8953011bfc3c419",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": -10.0
+    },
+    "hip_stator_closure_-1_right": {
+      "native_step": "exports/recessed-restored-hip_stator_closure_1.step",
+      "native_step_sha256": "d2f32933385ef7c7330eee501238f8722257ed535f627bd8d8953011bfc3c419",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": -10.0
+    },
+    "motor_carrier_-1": {
+      "native_step": "exports/recessed-restored-motor_carrier_-1.step",
+      "native_step_sha256": "9448341108273e7665851ae6ee211aae9a6ba3d60b179acd5518f883523663d1",
+      "reflect_y": false,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "motor_carrier_-1_right": {
+      "native_step": "exports/recessed-restored-motor_carrier_-1.step",
+      "native_step_sha256": "9448341108273e7665851ae6ee211aae9a6ba3d60b179acd5518f883523663d1",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "hip_hub_right": {
+      "native_step": "exports/case-relieved-native-hip_hub_right.step",
+      "native_step_sha256": "e16a048bbd270b05e37c40b6fcdb63903d1612e111d5e9d64cc383550a82beb0",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    },
+    "motor_mount_ring_right": {
+      "native_step": "exports/knee-seated-native-motor_mount_ring_right.step",
+      "native_step_sha256": "1e98e9b31e049d35389c9ff6ec32385e7c1356df27fa1f514a3f31f628adcfb1",
+      "reflect_y": true,
+      "reflect_x": false,
+      "translation_x_mm": 0
+    }
+  },
+  "instance_mappings": [
+    {
+      "instance": "FL_hip_hub",
+      "native_part": "hip_hub",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "RL_hip_hub",
+      "native_part": "hip_hub",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "FL_motor_mount_ring",
+      "native_part": "motor_mount_ring",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "RL_motor_mount_ring",
+      "native_part": "motor_mount_ring",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "FL_thigh_inner",
+      "native_part": "thigh_inner",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "RL_thigh_inner",
+      "native_part": "thigh_inner",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "FR_thigh_inner",
+      "native_part": "thigh_inner",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "RR_thigh_inner",
+      "native_part": "thigh_inner",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "FL_thigh_outer",
+      "native_part": "thigh_outer",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "RL_thigh_outer",
+      "native_part": "thigh_outer",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "FR_thigh_outer",
+      "native_part": "thigh_outer",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "RR_thigh_outer",
+      "native_part": "thigh_outer",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "FL_input_crank",
+      "native_part": "input_crank",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "crank"
+    },
+    {
+      "instance": "RL_input_crank",
+      "native_part": "input_crank",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "crank"
+    },
+    {
+      "instance": "FR_input_crank",
+      "native_part": "input_crank",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "crank"
+    },
+    {
+      "instance": "RR_input_crank",
+      "native_part": "input_crank",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "crank"
+    },
+    {
+      "instance": "FL_roll_cartridge",
+      "native_part": "roll_cartridge_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "FR_roll_cartridge",
+      "native_part": "roll_cartridge_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "RL_roll_cartridge",
+      "native_part": "roll_cartridge_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": true,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "RR_roll_cartridge",
+      "native_part": "roll_cartridge_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": true,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "FL_roll_stator_backplate",
+      "native_part": "roll_stator_backplate_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "FR_roll_stator_backplate",
+      "native_part": "roll_stator_backplate_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "RL_roll_stator_backplate",
+      "native_part": "roll_stator_backplate_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": true,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "RR_roll_stator_backplate",
+      "native_part": "roll_stator_backplate_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": true,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "FL_roll_inner_spacer",
+      "native_part": "roll_inner_spacer_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "FR_roll_inner_spacer",
+      "native_part": "roll_inner_spacer_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "RL_roll_inner_spacer",
+      "native_part": "roll_inner_spacer_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": true,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "RR_roll_inner_spacer",
+      "native_part": "roll_inner_spacer_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": true,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "FL_roll_outer_spacer",
+      "native_part": "roll_outer_spacer_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "FR_roll_outer_spacer",
+      "native_part": "roll_outer_spacer_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "RL_roll_outer_spacer",
+      "native_part": "roll_outer_spacer_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": true,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "RR_roll_outer_spacer",
+      "native_part": "roll_outer_spacer_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": true,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "FL_roll_inner_backplate",
+      "native_part": "roll_inner_backplate_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "FR_roll_inner_backplate",
+      "native_part": "roll_inner_backplate_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "RL_roll_inner_backplate",
+      "native_part": "roll_inner_backplate_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": true,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "RR_roll_inner_backplate",
+      "native_part": "roll_inner_backplate_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": true,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "FL_roll_outer_retainer",
+      "native_part": "roll_outer_retainer_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "FR_roll_outer_retainer",
+      "native_part": "roll_outer_retainer_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "RL_roll_outer_retainer",
+      "native_part": "roll_outer_retainer_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": true,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "RR_roll_outer_retainer",
+      "native_part": "roll_outer_retainer_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": true,
+      "translation_x_mm": 0,
+      "group": "mount"
+    },
+    {
+      "instance": "FL_motor_carrier",
+      "native_part": "motor_carrier_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "FR_motor_carrier",
+      "native_part": "motor_carrier_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "FL_hip_stator_closure",
+      "native_part": "hip_stator_closure_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "FR_hip_stator_closure",
+      "native_part": "hip_stator_closure_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "RL_hip_stator_closure",
+      "native_part": "hip_stator_closure_1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": -10.0,
+      "group": "roll"
+    },
+    {
+      "instance": "RR_hip_stator_closure",
+      "native_part": "hip_stator_closure_1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": -10.0,
+      "group": "roll"
+    },
+    {
+      "instance": "RL_motor_carrier",
+      "native_part": "motor_carrier_-1",
+      "handed_y_reflection": false,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "RR_motor_carrier",
+      "native_part": "motor_carrier_-1",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "roll"
+    },
+    {
+      "instance": "FR_hip_hub",
+      "native_part": "hip_hub_right",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "RR_hip_hub",
+      "native_part": "hip_hub_right",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "FR_motor_mount_ring",
+      "native_part": "motor_mount_ring_right",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "RR_motor_mount_ring",
+      "native_part": "motor_mount_ring_right",
+      "handed_y_reflection": true,
+      "rear_x_reflection": false,
+      "translation_x_mm": 0,
+      "group": "thigh"
+    },
+    {
+      "instance": "FL_roll_motor",
+      "bench_instance": "mc_roll_motor",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_motor",
+      "bench_instance": "mc_hip_motor",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_motor",
+      "bench_instance": "mc_knee_motor",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_bolt_0",
+      "bench_instance": "FL_bolt_0",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_bolt_1",
+      "bench_instance": "FL_bolt_1",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_port_-1_socket",
+      "bench_instance": "FL_hip_port_-1_socket",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_port_-1_plug",
+      "bench_instance": "FL_hip_port_-1_plug",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_port_-1_boot",
+      "bench_instance": "FL_hip_port_-1_boot",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_port_-1_cable",
+      "bench_instance": "FL_hip_port_-1_cable",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_port_1_socket",
+      "bench_instance": "FL_hip_port_1_socket",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_port_1_plug",
+      "bench_instance": "FL_hip_port_1_plug",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_port_1_boot",
+      "bench_instance": "FL_hip_port_1_boot",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_port_1_cable",
+      "bench_instance": "FL_hip_port_1_cable",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_port_-1_socket",
+      "bench_instance": "FL_knee_port_-1_socket",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_port_-1_plug",
+      "bench_instance": "FL_knee_port_-1_plug",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_port_-1_boot",
+      "bench_instance": "FL_knee_port_-1_boot",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_port_-1_cable",
+      "bench_instance": "FL_knee_port_-1_cable",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_port_1_socket",
+      "bench_instance": "FL_knee_port_1_socket",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_port_1_plug",
+      "bench_instance": "FL_knee_port_1_plug",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_port_1_boot",
+      "bench_instance": "FL_knee_port_1_boot",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_port_1_cable",
+      "bench_instance": "FL_knee_port_1_cable",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_port_-1_socket",
+      "bench_instance": "FL_roll_port_-1_socket",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_port_-1_plug",
+      "bench_instance": "FL_roll_port_-1_plug",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_port_-1_boot",
+      "bench_instance": "FL_roll_port_-1_boot",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_port_-1_cable",
+      "bench_instance": "FL_roll_port_-1_cable",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_port_1_socket",
+      "bench_instance": "FL_roll_port_1_socket",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_port_1_plug",
+      "bench_instance": "FL_roll_port_1_plug",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_port_1_boot",
+      "bench_instance": "FL_roll_port_1_boot",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_port_1_cable",
+      "bench_instance": "FL_roll_port_1_cable",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_thigh_clamp_nut_0",
+      "bench_instance": "FL_thigh_clamp_nut_0",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_thigh_clamp_nut_1",
+      "bench_instance": "FL_thigh_clamp_nut_1",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_thigh_clamp_washer_0_inner",
+      "bench_instance": "FL_thigh_clamp_washer_0_inner",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_thigh_clamp_washer_0_outer",
+      "bench_instance": "FL_thigh_clamp_washer_0_outer",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_thigh_clamp_washer_1_inner",
+      "bench_instance": "FL_thigh_clamp_washer_1_inner",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_thigh_clamp_washer_1_outer",
+      "bench_instance": "FL_thigh_clamp_washer_1_outer",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_bearing_6810_0",
+      "bench_instance": "FL_roll_bearing_6810_0",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_bearing_6810_1",
+      "bench_instance": "FL_roll_bearing_6810_1",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_stator_bolt_0",
+      "bench_instance": "FL_roll_stator_bolt_0",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_stator_bolt_40",
+      "bench_instance": "FL_roll_stator_bolt_40",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_stator_bolt_80",
+      "bench_instance": "FL_roll_stator_bolt_80",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_stator_bolt_120",
+      "bench_instance": "FL_roll_stator_bolt_120",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_stator_bolt_160",
+      "bench_instance": "FL_roll_stator_bolt_160",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_stator_bolt_200",
+      "bench_instance": "FL_roll_stator_bolt_200",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_stator_bolt_240",
+      "bench_instance": "FL_roll_stator_bolt_240",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_stator_bolt_280",
+      "bench_instance": "FL_roll_stator_bolt_280",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_stator_bolt_320",
+      "bench_instance": "FL_roll_stator_bolt_320",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_retainer_bolt_20",
+      "bench_instance": "FL_roll_retainer_bolt_20",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_retainer_nut_20",
+      "bench_instance": "FL_roll_retainer_nut_20",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_retainer_bolt_140",
+      "bench_instance": "FL_roll_retainer_bolt_140",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_retainer_nut_140",
+      "bench_instance": "FL_roll_retainer_nut_140",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_retainer_bolt_260",
+      "bench_instance": "FL_roll_retainer_bolt_260",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_retainer_nut_260",
+      "bench_instance": "FL_roll_retainer_nut_260",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_carrier_closure_nut_90",
+      "bench_instance": "FL_carrier_closure_nut_90",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_carrier_closure_nut_215",
+      "bench_instance": "FL_carrier_closure_nut_215",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_carrier_closure_nut_325",
+      "bench_instance": "FL_carrier_closure_nut_325",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_pod_tie_90",
+      "bench_instance": "Pod M3x60 screw 90",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_pod_tie_nut_90",
+      "bench_instance": "Pod M3 nut 90",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_pod_tie_210",
+      "bench_instance": "Pod M3x60 screw 210",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_pod_tie_nut_210",
+      "bench_instance": "Pod M3 nut 210",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_pod_tie_330",
+      "bench_instance": "Pod M3x60 screw 330",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_pod_tie_nut_330",
+      "bench_instance": "Pod M3 nut 330",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_output_bolt_0",
+      "bench_instance": "Hip output M4x8 0",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_input_bolt_0",
+      "bench_instance": "Knee output M4x12 0",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_output_bolt_60",
+      "bench_instance": "Hip output M4x8 60",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_input_bolt_60",
+      "bench_instance": "Knee output M4x12 60",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_output_bolt_120",
+      "bench_instance": "Hip output M4x8 120",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_input_bolt_120",
+      "bench_instance": "Knee output M4x12 120",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_output_bolt_180",
+      "bench_instance": "Hip output M4x8 180",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_input_bolt_180",
+      "bench_instance": "Knee output M4x12 180",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_output_bolt_240",
+      "bench_instance": "Hip output M4x8 240",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_input_bolt_240",
+      "bench_instance": "Knee output M4x12 240",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_output_bolt_300",
+      "bench_instance": "Hip output M4x8 300",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_input_bolt_300",
+      "bench_instance": "Knee output M4x12 300",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_stator_bolt_20",
+      "bench_instance": "Knee stator M3x8 20",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_stator_bolt_60",
+      "bench_instance": "Knee stator M3x8 60",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_stator_bolt_100",
+      "bench_instance": "Knee stator M3x8 100",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_stator_bolt_140",
+      "bench_instance": "Knee stator M3x8 140",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_stator_bolt_180",
+      "bench_instance": "Knee stator M3x8 180",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_stator_bolt_220",
+      "bench_instance": "Knee stator M3x8 220",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_stator_bolt_260",
+      "bench_instance": "Knee stator M3x8 260",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_stator_bolt_300",
+      "bench_instance": "Knee stator M3x8 300",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_knee_stator_bolt_340",
+      "bench_instance": "Knee stator M3x8 340",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_carrier_closure_bolt_90",
+      "bench_instance": "FL_carrier_closure_bolt_90",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_carrier_closure_bolt_215",
+      "bench_instance": "FL_carrier_closure_bolt_215",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_carrier_closure_bolt_325",
+      "bench_instance": "FL_carrier_closure_bolt_325",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_stator_bolt_0",
+      "bench_instance": "FL_hip_stator_bolt_0",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_stator_bolt_40",
+      "bench_instance": "FL_hip_stator_bolt_40",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_stator_bolt_80",
+      "bench_instance": "FL_hip_stator_bolt_80",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_stator_bolt_120",
+      "bench_instance": "FL_hip_stator_bolt_120",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_stator_bolt_160",
+      "bench_instance": "FL_hip_stator_bolt_160",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_stator_bolt_200",
+      "bench_instance": "FL_hip_stator_bolt_200",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_stator_bolt_240",
+      "bench_instance": "FL_hip_stator_bolt_240",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_stator_bolt_280",
+      "bench_instance": "FL_hip_stator_bolt_280",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_hip_stator_bolt_320",
+      "bench_instance": "FL_hip_stator_bolt_320",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_output_bolt_0",
+      "bench_instance": "FL_roll_output_bolt_0",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_output_bolt_60",
+      "bench_instance": "FL_roll_output_bolt_60",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_output_bolt_120",
+      "bench_instance": "FL_roll_output_bolt_120",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_output_bolt_180",
+      "bench_instance": "FL_roll_output_bolt_180",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_output_bolt_240",
+      "bench_instance": "FL_roll_output_bolt_240",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FL_roll_output_bolt_300",
+      "bench_instance": "FL_roll_output_bolt_300",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_motor",
+      "bench_instance": "mc_roll_motor",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_motor",
+      "bench_instance": "mc_hip_motor",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_motor",
+      "bench_instance": "mc_knee_motor",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_bolt_0",
+      "bench_instance": "FL_bolt_0",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_bolt_1",
+      "bench_instance": "FL_bolt_1",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_port_-1_socket",
+      "bench_instance": "FL_hip_port_-1_socket",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_port_-1_plug",
+      "bench_instance": "FL_hip_port_-1_plug",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_port_-1_boot",
+      "bench_instance": "FL_hip_port_-1_boot",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_port_-1_cable",
+      "bench_instance": "FL_hip_port_-1_cable",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_port_1_socket",
+      "bench_instance": "FL_hip_port_1_socket",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_port_1_plug",
+      "bench_instance": "FL_hip_port_1_plug",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_port_1_boot",
+      "bench_instance": "FL_hip_port_1_boot",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_port_1_cable",
+      "bench_instance": "FL_hip_port_1_cable",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_port_-1_socket",
+      "bench_instance": "FL_knee_port_-1_socket",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_port_-1_plug",
+      "bench_instance": "FL_knee_port_-1_plug",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_port_-1_boot",
+      "bench_instance": "FL_knee_port_-1_boot",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_port_-1_cable",
+      "bench_instance": "FL_knee_port_-1_cable",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_port_1_socket",
+      "bench_instance": "FL_knee_port_1_socket",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_port_1_plug",
+      "bench_instance": "FL_knee_port_1_plug",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_port_1_boot",
+      "bench_instance": "FL_knee_port_1_boot",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_port_1_cable",
+      "bench_instance": "FL_knee_port_1_cable",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_port_-1_socket",
+      "bench_instance": "FL_roll_port_-1_socket",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_port_-1_plug",
+      "bench_instance": "FL_roll_port_-1_plug",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_port_-1_boot",
+      "bench_instance": "FL_roll_port_-1_boot",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_port_-1_cable",
+      "bench_instance": "FL_roll_port_-1_cable",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_port_1_socket",
+      "bench_instance": "FL_roll_port_1_socket",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_port_1_plug",
+      "bench_instance": "FL_roll_port_1_plug",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_port_1_boot",
+      "bench_instance": "FL_roll_port_1_boot",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_port_1_cable",
+      "bench_instance": "FL_roll_port_1_cable",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_thigh_clamp_nut_0",
+      "bench_instance": "FL_thigh_clamp_nut_0",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_thigh_clamp_nut_1",
+      "bench_instance": "FL_thigh_clamp_nut_1",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_thigh_clamp_washer_0_inner",
+      "bench_instance": "FL_thigh_clamp_washer_0_inner",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_thigh_clamp_washer_0_outer",
+      "bench_instance": "FL_thigh_clamp_washer_0_outer",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_thigh_clamp_washer_1_inner",
+      "bench_instance": "FL_thigh_clamp_washer_1_inner",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_thigh_clamp_washer_1_outer",
+      "bench_instance": "FL_thigh_clamp_washer_1_outer",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_bearing_6810_0",
+      "bench_instance": "FL_roll_bearing_6810_0",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_bearing_6810_1",
+      "bench_instance": "FL_roll_bearing_6810_1",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_stator_bolt_0",
+      "bench_instance": "FL_roll_stator_bolt_0",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_stator_bolt_40",
+      "bench_instance": "FL_roll_stator_bolt_40",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_stator_bolt_80",
+      "bench_instance": "FL_roll_stator_bolt_80",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_stator_bolt_120",
+      "bench_instance": "FL_roll_stator_bolt_120",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_stator_bolt_160",
+      "bench_instance": "FL_roll_stator_bolt_160",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_stator_bolt_200",
+      "bench_instance": "FL_roll_stator_bolt_200",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_stator_bolt_240",
+      "bench_instance": "FL_roll_stator_bolt_240",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_stator_bolt_280",
+      "bench_instance": "FL_roll_stator_bolt_280",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_stator_bolt_320",
+      "bench_instance": "FL_roll_stator_bolt_320",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_retainer_bolt_20",
+      "bench_instance": "FL_roll_retainer_bolt_20",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_retainer_nut_20",
+      "bench_instance": "FL_roll_retainer_nut_20",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_retainer_bolt_140",
+      "bench_instance": "FL_roll_retainer_bolt_140",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_retainer_nut_140",
+      "bench_instance": "FL_roll_retainer_nut_140",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_retainer_bolt_260",
+      "bench_instance": "FL_roll_retainer_bolt_260",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_retainer_nut_260",
+      "bench_instance": "FL_roll_retainer_nut_260",
+      "group": "mount",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_carrier_closure_nut_90",
+      "bench_instance": "FL_carrier_closure_nut_90",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_carrier_closure_nut_215",
+      "bench_instance": "FL_carrier_closure_nut_215",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_carrier_closure_nut_325",
+      "bench_instance": "FL_carrier_closure_nut_325",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_pod_tie_90",
+      "bench_instance": "Pod M3x60 screw 90",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_pod_tie_nut_90",
+      "bench_instance": "Pod M3 nut 90",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_pod_tie_210",
+      "bench_instance": "Pod M3x60 screw 210",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_pod_tie_nut_210",
+      "bench_instance": "Pod M3 nut 210",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_pod_tie_330",
+      "bench_instance": "Pod M3x60 screw 330",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_pod_tie_nut_330",
+      "bench_instance": "Pod M3 nut 330",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_output_bolt_0",
+      "bench_instance": "Hip output M4x8 0",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_input_bolt_0",
+      "bench_instance": "Knee output M4x12 0",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_output_bolt_60",
+      "bench_instance": "Hip output M4x8 60",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_input_bolt_60",
+      "bench_instance": "Knee output M4x12 60",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_output_bolt_120",
+      "bench_instance": "Hip output M4x8 120",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_input_bolt_120",
+      "bench_instance": "Knee output M4x12 120",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_output_bolt_180",
+      "bench_instance": "Hip output M4x8 180",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_input_bolt_180",
+      "bench_instance": "Knee output M4x12 180",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_output_bolt_240",
+      "bench_instance": "Hip output M4x8 240",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_input_bolt_240",
+      "bench_instance": "Knee output M4x12 240",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_output_bolt_300",
+      "bench_instance": "Hip output M4x8 300",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_input_bolt_300",
+      "bench_instance": "Knee output M4x12 300",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_stator_bolt_20",
+      "bench_instance": "Knee stator M3x8 20",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_stator_bolt_60",
+      "bench_instance": "Knee stator M3x8 60",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_stator_bolt_100",
+      "bench_instance": "Knee stator M3x8 100",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_stator_bolt_140",
+      "bench_instance": "Knee stator M3x8 140",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_stator_bolt_180",
+      "bench_instance": "Knee stator M3x8 180",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_stator_bolt_220",
+      "bench_instance": "Knee stator M3x8 220",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_stator_bolt_260",
+      "bench_instance": "Knee stator M3x8 260",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_stator_bolt_300",
+      "bench_instance": "Knee stator M3x8 300",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_knee_stator_bolt_340",
+      "bench_instance": "Knee stator M3x8 340",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_carrier_closure_bolt_90",
+      "bench_instance": "FL_carrier_closure_bolt_90",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_carrier_closure_bolt_215",
+      "bench_instance": "FL_carrier_closure_bolt_215",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_carrier_closure_bolt_325",
+      "bench_instance": "FL_carrier_closure_bolt_325",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_stator_bolt_0",
+      "bench_instance": "FL_hip_stator_bolt_0",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_stator_bolt_40",
+      "bench_instance": "FL_hip_stator_bolt_40",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_stator_bolt_80",
+      "bench_instance": "FL_hip_stator_bolt_80",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_stator_bolt_120",
+      "bench_instance": "FL_hip_stator_bolt_120",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_stator_bolt_160",
+      "bench_instance": "FL_hip_stator_bolt_160",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_stator_bolt_200",
+      "bench_instance": "FL_hip_stator_bolt_200",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_stator_bolt_240",
+      "bench_instance": "FL_hip_stator_bolt_240",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_stator_bolt_280",
+      "bench_instance": "FL_hip_stator_bolt_280",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_hip_stator_bolt_320",
+      "bench_instance": "FL_hip_stator_bolt_320",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_output_bolt_0",
+      "bench_instance": "FL_roll_output_bolt_0",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_output_bolt_60",
+      "bench_instance": "FL_roll_output_bolt_60",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_output_bolt_120",
+      "bench_instance": "FL_roll_output_bolt_120",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_output_bolt_180",
+      "bench_instance": "FL_roll_output_bolt_180",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_output_bolt_240",
+      "bench_instance": "FL_roll_output_bolt_240",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "FR_roll_output_bolt_300",
+      "bench_instance": "FL_roll_output_bolt_300",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_motor",
+      "bench_instance": "mc_roll_motor",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_motor",
+      "bench_instance": "mc_hip_motor",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_motor",
+      "bench_instance": "mc_knee_motor",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_bolt_0",
+      "bench_instance": "FL_bolt_0",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_bolt_1",
+      "bench_instance": "FL_bolt_1",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_port_-1_socket",
+      "bench_instance": "FL_hip_port_-1_socket",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_port_-1_plug",
+      "bench_instance": "FL_hip_port_-1_plug",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_port_-1_boot",
+      "bench_instance": "FL_hip_port_-1_boot",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_port_-1_cable",
+      "bench_instance": "FL_hip_port_-1_cable",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_port_1_socket",
+      "bench_instance": "FL_hip_port_1_socket",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_port_1_plug",
+      "bench_instance": "FL_hip_port_1_plug",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_port_1_boot",
+      "bench_instance": "FL_hip_port_1_boot",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_port_1_cable",
+      "bench_instance": "FL_hip_port_1_cable",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_port_-1_socket",
+      "bench_instance": "FL_knee_port_-1_socket",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_port_-1_plug",
+      "bench_instance": "FL_knee_port_-1_plug",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_port_-1_boot",
+      "bench_instance": "FL_knee_port_-1_boot",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_port_-1_cable",
+      "bench_instance": "FL_knee_port_-1_cable",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_port_1_socket",
+      "bench_instance": "FL_knee_port_1_socket",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_port_1_plug",
+      "bench_instance": "FL_knee_port_1_plug",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_port_1_boot",
+      "bench_instance": "FL_knee_port_1_boot",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_port_1_cable",
+      "bench_instance": "FL_knee_port_1_cable",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_port_-1_socket",
+      "bench_instance": "FL_roll_port_-1_socket",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_port_-1_plug",
+      "bench_instance": "FL_roll_port_-1_plug",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_port_-1_boot",
+      "bench_instance": "FL_roll_port_-1_boot",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_port_-1_cable",
+      "bench_instance": "FL_roll_port_-1_cable",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_port_1_socket",
+      "bench_instance": "FL_roll_port_1_socket",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_port_1_plug",
+      "bench_instance": "FL_roll_port_1_plug",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_port_1_boot",
+      "bench_instance": "FL_roll_port_1_boot",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_port_1_cable",
+      "bench_instance": "FL_roll_port_1_cable",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_thigh_clamp_nut_0",
+      "bench_instance": "FL_thigh_clamp_nut_0",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_thigh_clamp_nut_1",
+      "bench_instance": "FL_thigh_clamp_nut_1",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_thigh_clamp_washer_0_inner",
+      "bench_instance": "FL_thigh_clamp_washer_0_inner",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_thigh_clamp_washer_0_outer",
+      "bench_instance": "FL_thigh_clamp_washer_0_outer",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_thigh_clamp_washer_1_inner",
+      "bench_instance": "FL_thigh_clamp_washer_1_inner",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_thigh_clamp_washer_1_outer",
+      "bench_instance": "FL_thigh_clamp_washer_1_outer",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_bearing_6810_0",
+      "bench_instance": "FL_roll_bearing_6810_0",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_bearing_6810_1",
+      "bench_instance": "FL_roll_bearing_6810_1",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_stator_bolt_0",
+      "bench_instance": "FL_roll_stator_bolt_0",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_stator_bolt_40",
+      "bench_instance": "FL_roll_stator_bolt_40",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_stator_bolt_80",
+      "bench_instance": "FL_roll_stator_bolt_80",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_stator_bolt_120",
+      "bench_instance": "FL_roll_stator_bolt_120",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_stator_bolt_160",
+      "bench_instance": "FL_roll_stator_bolt_160",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_stator_bolt_200",
+      "bench_instance": "FL_roll_stator_bolt_200",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_stator_bolt_240",
+      "bench_instance": "FL_roll_stator_bolt_240",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_stator_bolt_280",
+      "bench_instance": "FL_roll_stator_bolt_280",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_stator_bolt_320",
+      "bench_instance": "FL_roll_stator_bolt_320",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_retainer_bolt_20",
+      "bench_instance": "FL_roll_retainer_bolt_20",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_retainer_nut_20",
+      "bench_instance": "FL_roll_retainer_nut_20",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_retainer_bolt_140",
+      "bench_instance": "FL_roll_retainer_bolt_140",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_retainer_nut_140",
+      "bench_instance": "FL_roll_retainer_nut_140",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_retainer_bolt_260",
+      "bench_instance": "FL_roll_retainer_bolt_260",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_retainer_nut_260",
+      "bench_instance": "FL_roll_retainer_nut_260",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_carrier_closure_nut_90",
+      "bench_instance": "FL_carrier_closure_nut_90",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_carrier_closure_nut_215",
+      "bench_instance": "FL_carrier_closure_nut_215",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_carrier_closure_nut_325",
+      "bench_instance": "FL_carrier_closure_nut_325",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_pod_tie_90",
+      "bench_instance": "Pod M3x60 screw 90",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_pod_tie_nut_90",
+      "bench_instance": "Pod M3 nut 90",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_pod_tie_210",
+      "bench_instance": "Pod M3x60 screw 210",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_pod_tie_nut_210",
+      "bench_instance": "Pod M3 nut 210",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_pod_tie_330",
+      "bench_instance": "Pod M3x60 screw 330",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_pod_tie_nut_330",
+      "bench_instance": "Pod M3 nut 330",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_output_bolt_0",
+      "bench_instance": "Hip output M4x8 0",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_input_bolt_0",
+      "bench_instance": "Knee output M4x12 0",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_output_bolt_60",
+      "bench_instance": "Hip output M4x8 60",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_input_bolt_60",
+      "bench_instance": "Knee output M4x12 60",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_output_bolt_120",
+      "bench_instance": "Hip output M4x8 120",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_input_bolt_120",
+      "bench_instance": "Knee output M4x12 120",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_output_bolt_180",
+      "bench_instance": "Hip output M4x8 180",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_input_bolt_180",
+      "bench_instance": "Knee output M4x12 180",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_output_bolt_240",
+      "bench_instance": "Hip output M4x8 240",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_input_bolt_240",
+      "bench_instance": "Knee output M4x12 240",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_output_bolt_300",
+      "bench_instance": "Hip output M4x8 300",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_input_bolt_300",
+      "bench_instance": "Knee output M4x12 300",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_stator_bolt_20",
+      "bench_instance": "Knee stator M3x8 20",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_stator_bolt_60",
+      "bench_instance": "Knee stator M3x8 60",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_stator_bolt_100",
+      "bench_instance": "Knee stator M3x8 100",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_stator_bolt_140",
+      "bench_instance": "Knee stator M3x8 140",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_stator_bolt_180",
+      "bench_instance": "Knee stator M3x8 180",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_stator_bolt_220",
+      "bench_instance": "Knee stator M3x8 220",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_stator_bolt_260",
+      "bench_instance": "Knee stator M3x8 260",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_stator_bolt_300",
+      "bench_instance": "Knee stator M3x8 300",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_knee_stator_bolt_340",
+      "bench_instance": "Knee stator M3x8 340",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_carrier_closure_bolt_90",
+      "bench_instance": "FL_carrier_closure_bolt_90",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_carrier_closure_bolt_215",
+      "bench_instance": "FL_carrier_closure_bolt_215",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_carrier_closure_bolt_325",
+      "bench_instance": "FL_carrier_closure_bolt_325",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_stator_bolt_0",
+      "bench_instance": "FL_hip_stator_bolt_0",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_stator_bolt_40",
+      "bench_instance": "FL_hip_stator_bolt_40",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_stator_bolt_80",
+      "bench_instance": "FL_hip_stator_bolt_80",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_stator_bolt_120",
+      "bench_instance": "FL_hip_stator_bolt_120",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_stator_bolt_160",
+      "bench_instance": "FL_hip_stator_bolt_160",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_stator_bolt_200",
+      "bench_instance": "FL_hip_stator_bolt_200",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_stator_bolt_240",
+      "bench_instance": "FL_hip_stator_bolt_240",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_stator_bolt_280",
+      "bench_instance": "FL_hip_stator_bolt_280",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_hip_stator_bolt_320",
+      "bench_instance": "FL_hip_stator_bolt_320",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_output_bolt_0",
+      "bench_instance": "FL_roll_output_bolt_0",
+      "group": "roll",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_output_bolt_60",
+      "bench_instance": "FL_roll_output_bolt_60",
+      "group": "roll",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_output_bolt_120",
+      "bench_instance": "FL_roll_output_bolt_120",
+      "group": "roll",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_output_bolt_180",
+      "bench_instance": "FL_roll_output_bolt_180",
+      "group": "roll",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_output_bolt_240",
+      "bench_instance": "FL_roll_output_bolt_240",
+      "group": "roll",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RL_roll_output_bolt_300",
+      "bench_instance": "FL_roll_output_bolt_300",
+      "group": "roll",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": false,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_motor",
+      "bench_instance": "mc_roll_motor",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_motor",
+      "bench_instance": "mc_hip_motor",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_motor",
+      "bench_instance": "mc_knee_motor",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_bolt_0",
+      "bench_instance": "FL_bolt_0",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_bolt_1",
+      "bench_instance": "FL_bolt_1",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_port_-1_socket",
+      "bench_instance": "FL_hip_port_-1_socket",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_port_-1_plug",
+      "bench_instance": "FL_hip_port_-1_plug",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_port_-1_boot",
+      "bench_instance": "FL_hip_port_-1_boot",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_port_-1_cable",
+      "bench_instance": "FL_hip_port_-1_cable",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_port_1_socket",
+      "bench_instance": "FL_hip_port_1_socket",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_port_1_plug",
+      "bench_instance": "FL_hip_port_1_plug",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_port_1_boot",
+      "bench_instance": "FL_hip_port_1_boot",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_port_1_cable",
+      "bench_instance": "FL_hip_port_1_cable",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_port_-1_socket",
+      "bench_instance": "FL_knee_port_-1_socket",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_port_-1_plug",
+      "bench_instance": "FL_knee_port_-1_plug",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_port_-1_boot",
+      "bench_instance": "FL_knee_port_-1_boot",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_port_-1_cable",
+      "bench_instance": "FL_knee_port_-1_cable",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_port_1_socket",
+      "bench_instance": "FL_knee_port_1_socket",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_port_1_plug",
+      "bench_instance": "FL_knee_port_1_plug",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_port_1_boot",
+      "bench_instance": "FL_knee_port_1_boot",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_port_1_cable",
+      "bench_instance": "FL_knee_port_1_cable",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_port_-1_socket",
+      "bench_instance": "FL_roll_port_-1_socket",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_port_-1_plug",
+      "bench_instance": "FL_roll_port_-1_plug",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_port_-1_boot",
+      "bench_instance": "FL_roll_port_-1_boot",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_port_-1_cable",
+      "bench_instance": "FL_roll_port_-1_cable",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_port_1_socket",
+      "bench_instance": "FL_roll_port_1_socket",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_port_1_plug",
+      "bench_instance": "FL_roll_port_1_plug",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_port_1_boot",
+      "bench_instance": "FL_roll_port_1_boot",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_port_1_cable",
+      "bench_instance": "FL_roll_port_1_cable",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_thigh_clamp_nut_0",
+      "bench_instance": "FL_thigh_clamp_nut_0",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_thigh_clamp_nut_1",
+      "bench_instance": "FL_thigh_clamp_nut_1",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_thigh_clamp_washer_0_inner",
+      "bench_instance": "FL_thigh_clamp_washer_0_inner",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_thigh_clamp_washer_0_outer",
+      "bench_instance": "FL_thigh_clamp_washer_0_outer",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_thigh_clamp_washer_1_inner",
+      "bench_instance": "FL_thigh_clamp_washer_1_inner",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_thigh_clamp_washer_1_outer",
+      "bench_instance": "FL_thigh_clamp_washer_1_outer",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_bearing_6810_0",
+      "bench_instance": "FL_roll_bearing_6810_0",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_bearing_6810_1",
+      "bench_instance": "FL_roll_bearing_6810_1",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_stator_bolt_0",
+      "bench_instance": "FL_roll_stator_bolt_0",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_stator_bolt_40",
+      "bench_instance": "FL_roll_stator_bolt_40",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_stator_bolt_80",
+      "bench_instance": "FL_roll_stator_bolt_80",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_stator_bolt_120",
+      "bench_instance": "FL_roll_stator_bolt_120",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_stator_bolt_160",
+      "bench_instance": "FL_roll_stator_bolt_160",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_stator_bolt_200",
+      "bench_instance": "FL_roll_stator_bolt_200",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_stator_bolt_240",
+      "bench_instance": "FL_roll_stator_bolt_240",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_stator_bolt_280",
+      "bench_instance": "FL_roll_stator_bolt_280",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_stator_bolt_320",
+      "bench_instance": "FL_roll_stator_bolt_320",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_retainer_bolt_20",
+      "bench_instance": "FL_roll_retainer_bolt_20",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_retainer_nut_20",
+      "bench_instance": "FL_roll_retainer_nut_20",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_retainer_bolt_140",
+      "bench_instance": "FL_roll_retainer_bolt_140",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_retainer_nut_140",
+      "bench_instance": "FL_roll_retainer_nut_140",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_retainer_bolt_260",
+      "bench_instance": "FL_roll_retainer_bolt_260",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_retainer_nut_260",
+      "bench_instance": "FL_roll_retainer_nut_260",
+      "group": "mount",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_carrier_closure_nut_90",
+      "bench_instance": "FL_carrier_closure_nut_90",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_carrier_closure_nut_215",
+      "bench_instance": "FL_carrier_closure_nut_215",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_carrier_closure_nut_325",
+      "bench_instance": "FL_carrier_closure_nut_325",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_pod_tie_90",
+      "bench_instance": "Pod M3x60 screw 90",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_pod_tie_nut_90",
+      "bench_instance": "Pod M3 nut 90",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_pod_tie_210",
+      "bench_instance": "Pod M3x60 screw 210",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_pod_tie_nut_210",
+      "bench_instance": "Pod M3 nut 210",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_pod_tie_330",
+      "bench_instance": "Pod M3x60 screw 330",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_pod_tie_nut_330",
+      "bench_instance": "Pod M3 nut 330",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_output_bolt_0",
+      "bench_instance": "Hip output M4x8 0",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_input_bolt_0",
+      "bench_instance": "Knee output M4x12 0",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_output_bolt_60",
+      "bench_instance": "Hip output M4x8 60",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_input_bolt_60",
+      "bench_instance": "Knee output M4x12 60",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_output_bolt_120",
+      "bench_instance": "Hip output M4x8 120",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_input_bolt_120",
+      "bench_instance": "Knee output M4x12 120",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_output_bolt_180",
+      "bench_instance": "Hip output M4x8 180",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_input_bolt_180",
+      "bench_instance": "Knee output M4x12 180",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_output_bolt_240",
+      "bench_instance": "Hip output M4x8 240",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_input_bolt_240",
+      "bench_instance": "Knee output M4x12 240",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_output_bolt_300",
+      "bench_instance": "Hip output M4x8 300",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_input_bolt_300",
+      "bench_instance": "Knee output M4x12 300",
+      "group": "crank",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_stator_bolt_20",
+      "bench_instance": "Knee stator M3x8 20",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_stator_bolt_60",
+      "bench_instance": "Knee stator M3x8 60",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_stator_bolt_100",
+      "bench_instance": "Knee stator M3x8 100",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_stator_bolt_140",
+      "bench_instance": "Knee stator M3x8 140",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_stator_bolt_180",
+      "bench_instance": "Knee stator M3x8 180",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_stator_bolt_220",
+      "bench_instance": "Knee stator M3x8 220",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_stator_bolt_260",
+      "bench_instance": "Knee stator M3x8 260",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_stator_bolt_300",
+      "bench_instance": "Knee stator M3x8 300",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_knee_stator_bolt_340",
+      "bench_instance": "Knee stator M3x8 340",
+      "group": "thigh",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_carrier_closure_bolt_90",
+      "bench_instance": "FL_carrier_closure_bolt_90",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_carrier_closure_bolt_215",
+      "bench_instance": "FL_carrier_closure_bolt_215",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_carrier_closure_bolt_325",
+      "bench_instance": "FL_carrier_closure_bolt_325",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_stator_bolt_0",
+      "bench_instance": "FL_hip_stator_bolt_0",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_stator_bolt_40",
+      "bench_instance": "FL_hip_stator_bolt_40",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_stator_bolt_80",
+      "bench_instance": "FL_hip_stator_bolt_80",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_stator_bolt_120",
+      "bench_instance": "FL_hip_stator_bolt_120",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_stator_bolt_160",
+      "bench_instance": "FL_hip_stator_bolt_160",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_stator_bolt_200",
+      "bench_instance": "FL_hip_stator_bolt_200",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_stator_bolt_240",
+      "bench_instance": "FL_hip_stator_bolt_240",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_stator_bolt_280",
+      "bench_instance": "FL_hip_stator_bolt_280",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_hip_stator_bolt_320",
+      "bench_instance": "FL_hip_stator_bolt_320",
+      "group": "roll",
+      "roll_axis_x_reflection": false,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_output_bolt_0",
+      "bench_instance": "FL_roll_output_bolt_0",
+      "group": "roll",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_output_bolt_60",
+      "bench_instance": "FL_roll_output_bolt_60",
+      "group": "roll",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_output_bolt_120",
+      "bench_instance": "FL_roll_output_bolt_120",
+      "group": "roll",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_output_bolt_180",
+      "bench_instance": "FL_roll_output_bolt_180",
+      "group": "roll",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_output_bolt_240",
+      "bench_instance": "FL_roll_output_bolt_240",
+      "group": "roll",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    },
+    {
+      "instance": "RR_roll_output_bolt_300",
+      "bench_instance": "FL_roll_output_bolt_300",
+      "group": "roll",
+      "roll_axis_x_reflection": true,
+      "handed_y_reflection": true,
+      "neutral_to_group_translation_mm": [
+        -5.0,
+        0,
+        0
+      ]
+    }
+  ],
+  "physical_components": 684,
+  "nonphysical_reservations": 48,
+  "whole_robot_canonical": false,
+  "replaced_purchased_and_stock_instances": [
+    "FL_roll_motor",
+    "FL_hip_motor",
+    "FL_knee_motor",
+    "FL_bolt_0",
+    "FL_bolt_1",
+    "FL_hip_port_-1_socket",
+    "FL_hip_port_-1_plug",
+    "FL_hip_port_-1_boot",
+    "FL_hip_port_-1_cable",
+    "FL_hip_port_1_socket",
+    "FL_hip_port_1_plug",
+    "FL_hip_port_1_boot",
+    "FL_hip_port_1_cable",
+    "FL_knee_port_-1_socket",
+    "FL_knee_port_-1_plug",
+    "FL_knee_port_-1_boot",
+    "FL_knee_port_-1_cable",
+    "FL_knee_port_1_socket",
+    "FL_knee_port_1_plug",
+    "FL_knee_port_1_boot",
+    "FL_knee_port_1_cable",
+    "FL_roll_port_-1_socket",
+    "FL_roll_port_-1_plug",
+    "FL_roll_port_-1_boot",
+    "FL_roll_port_-1_cable",
+    "FL_roll_port_1_socket",
+    "FL_roll_port_1_plug",
+    "FL_roll_port_1_boot",
+    "FL_roll_port_1_cable",
+    "FL_thigh_clamp_nut_0",
+    "FL_thigh_clamp_nut_1",
+    "FL_thigh_clamp_washer_0_inner",
+    "FL_thigh_clamp_washer_0_outer",
+    "FL_thigh_clamp_washer_1_inner",
+    "FL_thigh_clamp_washer_1_outer",
+    "FL_roll_bearing_6810_0",
+    "FL_roll_bearing_6810_1",
+    "FL_roll_stator_bolt_0",
+    "FL_roll_stator_bolt_40",
+    "FL_roll_stator_bolt_80",
+    "FL_roll_stator_bolt_120",
+    "FL_roll_stator_bolt_160",
+    "FL_roll_stator_bolt_200",
+    "FL_roll_stator_bolt_240",
+    "FL_roll_stator_bolt_280",
+    "FL_roll_stator_bolt_320",
+    "FL_roll_retainer_bolt_20",
+    "FL_roll_retainer_nut_20",
+    "FL_roll_retainer_bolt_140",
+    "FL_roll_retainer_nut_140",
+    "FL_roll_retainer_bolt_260",
+    "FL_roll_retainer_nut_260",
+    "FL_carrier_closure_nut_90",
+    "FL_carrier_closure_nut_215",
+    "FL_carrier_closure_nut_325",
+    "FL_pod_tie_90",
+    "FL_pod_tie_210",
+    "FL_pod_tie_330",
+    "FL_hip_output_bolt_0",
+    "FL_input_bolt_0",
+    "FL_hip_output_bolt_60",
+    "FL_input_bolt_60",
+    "FL_hip_output_bolt_120",
+    "FL_input_bolt_120",
+    "FL_hip_output_bolt_180",
+    "FL_input_bolt_180",
+    "FL_hip_output_bolt_240",
+    "FL_input_bolt_240",
+    "FL_hip_output_bolt_300",
+    "FL_input_bolt_300",
+    "FL_carrier_closure_bolt_90",
+    "FL_carrier_closure_bolt_215",
+    "FL_carrier_closure_bolt_325",
+    "FL_hip_stator_bolt_0",
+    "FL_hip_stator_bolt_40",
+    "FL_hip_stator_bolt_80",
+    "FL_hip_stator_bolt_120",
+    "FL_hip_stator_bolt_160",
+    "FL_hip_stator_bolt_200",
+    "FL_hip_stator_bolt_240",
+    "FL_hip_stator_bolt_280",
+    "FL_hip_stator_bolt_320",
+    "FL_roll_output_bolt_0",
+    "FL_roll_output_bolt_60",
+    "FL_roll_output_bolt_120",
+    "FL_roll_output_bolt_180",
+    "FL_roll_output_bolt_240",
+    "FL_roll_output_bolt_300",
+    "FL_pod_sleeve_90",
+    "FL_pod_sleeve_210",
+    "FL_pod_sleeve_330",
+    "FL_sleeve_0",
+    "FL_sleeve_1",
+    "FR_roll_motor",
+    "FR_hip_motor",
+    "FR_knee_motor",
+    "FR_bolt_0",
+    "FR_bolt_1",
+    "FR_hip_port_-1_socket",
+    "FR_hip_port_-1_plug",
+    "FR_hip_port_-1_boot",
+    "FR_hip_port_-1_cable",
+    "FR_hip_port_1_socket",
+    "FR_hip_port_1_plug",
+    "FR_hip_port_1_boot",
+    "FR_hip_port_1_cable",
+    "FR_knee_port_-1_socket",
+    "FR_knee_port_-1_plug",
+    "FR_knee_port_-1_boot",
+    "FR_knee_port_-1_cable",
+    "FR_knee_port_1_socket",
+    "FR_knee_port_1_plug",
+    "FR_knee_port_1_boot",
+    "FR_knee_port_1_cable",
+    "FR_roll_port_-1_socket",
+    "FR_roll_port_-1_plug",
+    "FR_roll_port_-1_boot",
+    "FR_roll_port_-1_cable",
+    "FR_roll_port_1_socket",
+    "FR_roll_port_1_plug",
+    "FR_roll_port_1_boot",
+    "FR_roll_port_1_cable",
+    "FR_thigh_clamp_nut_0",
+    "FR_thigh_clamp_nut_1",
+    "FR_thigh_clamp_washer_0_inner",
+    "FR_thigh_clamp_washer_0_outer",
+    "FR_thigh_clamp_washer_1_inner",
+    "FR_thigh_clamp_washer_1_outer",
+    "FR_roll_bearing_6810_0",
+    "FR_roll_bearing_6810_1",
+    "FR_roll_stator_bolt_0",
+    "FR_roll_stator_bolt_40",
+    "FR_roll_stator_bolt_80",
+    "FR_roll_stator_bolt_120",
+    "FR_roll_stator_bolt_160",
+    "FR_roll_stator_bolt_200",
+    "FR_roll_stator_bolt_240",
+    "FR_roll_stator_bolt_280",
+    "FR_roll_stator_bolt_320",
+    "FR_roll_retainer_bolt_20",
+    "FR_roll_retainer_nut_20",
+    "FR_roll_retainer_bolt_140",
+    "FR_roll_retainer_nut_140",
+    "FR_roll_retainer_bolt_260",
+    "FR_roll_retainer_nut_260",
+    "FR_carrier_closure_nut_90",
+    "FR_carrier_closure_nut_215",
+    "FR_carrier_closure_nut_325",
+    "FR_pod_tie_90",
+    "FR_pod_tie_210",
+    "FR_pod_tie_330",
+    "FR_hip_output_bolt_0",
+    "FR_input_bolt_0",
+    "FR_hip_output_bolt_60",
+    "FR_input_bolt_60",
+    "FR_hip_output_bolt_120",
+    "FR_input_bolt_120",
+    "FR_hip_output_bolt_180",
+    "FR_input_bolt_180",
+    "FR_hip_output_bolt_240",
+    "FR_input_bolt_240",
+    "FR_hip_output_bolt_300",
+    "FR_input_bolt_300",
+    "FR_carrier_closure_bolt_90",
+    "FR_carrier_closure_bolt_215",
+    "FR_carrier_closure_bolt_325",
+    "FR_hip_stator_bolt_0",
+    "FR_hip_stator_bolt_40",
+    "FR_hip_stator_bolt_80",
+    "FR_hip_stator_bolt_120",
+    "FR_hip_stator_bolt_160",
+    "FR_hip_stator_bolt_200",
+    "FR_hip_stator_bolt_240",
+    "FR_hip_stator_bolt_280",
+    "FR_hip_stator_bolt_320",
+    "FR_roll_output_bolt_0",
+    "FR_roll_output_bolt_60",
+    "FR_roll_output_bolt_120",
+    "FR_roll_output_bolt_180",
+    "FR_roll_output_bolt_240",
+    "FR_roll_output_bolt_300",
+    "FR_pod_sleeve_90",
+    "FR_pod_sleeve_210",
+    "FR_pod_sleeve_330",
+    "FR_sleeve_0",
+    "FR_sleeve_1",
+    "RL_roll_motor",
+    "RL_hip_motor",
+    "RL_knee_motor",
+    "RL_bolt_0",
+    "RL_bolt_1",
+    "RL_hip_port_-1_socket",
+    "RL_hip_port_-1_plug",
+    "RL_hip_port_-1_boot",
+    "RL_hip_port_-1_cable",
+    "RL_hip_port_1_socket",
+    "RL_hip_port_1_plug",
+    "RL_hip_port_1_boot",
+    "RL_hip_port_1_cable",
+    "RL_knee_port_-1_socket",
+    "RL_knee_port_-1_plug",
+    "RL_knee_port_-1_boot",
+    "RL_knee_port_-1_cable",
+    "RL_knee_port_1_socket",
+    "RL_knee_port_1_plug",
+    "RL_knee_port_1_boot",
+    "RL_knee_port_1_cable",
+    "RL_roll_port_-1_socket",
+    "RL_roll_port_-1_plug",
+    "RL_roll_port_-1_boot",
+    "RL_roll_port_-1_cable",
+    "RL_roll_port_1_socket",
+    "RL_roll_port_1_plug",
+    "RL_roll_port_1_boot",
+    "RL_roll_port_1_cable",
+    "RL_thigh_clamp_nut_0",
+    "RL_thigh_clamp_nut_1",
+    "RL_thigh_clamp_washer_0_inner",
+    "RL_thigh_clamp_washer_0_outer",
+    "RL_thigh_clamp_washer_1_inner",
+    "RL_thigh_clamp_washer_1_outer",
+    "RL_roll_bearing_6810_0",
+    "RL_roll_bearing_6810_1",
+    "RL_roll_stator_bolt_0",
+    "RL_roll_stator_bolt_40",
+    "RL_roll_stator_bolt_80",
+    "RL_roll_stator_bolt_120",
+    "RL_roll_stator_bolt_160",
+    "RL_roll_stator_bolt_200",
+    "RL_roll_stator_bolt_240",
+    "RL_roll_stator_bolt_280",
+    "RL_roll_stator_bolt_320",
+    "RL_roll_retainer_bolt_20",
+    "RL_roll_retainer_nut_20",
+    "RL_roll_retainer_bolt_140",
+    "RL_roll_retainer_nut_140",
+    "RL_roll_retainer_bolt_260",
+    "RL_roll_retainer_nut_260",
+    "RL_carrier_closure_nut_90",
+    "RL_carrier_closure_nut_215",
+    "RL_carrier_closure_nut_325",
+    "RL_pod_tie_90",
+    "RL_pod_tie_210",
+    "RL_pod_tie_330",
+    "RL_hip_output_bolt_0",
+    "RL_input_bolt_0",
+    "RL_hip_output_bolt_60",
+    "RL_input_bolt_60",
+    "RL_hip_output_bolt_120",
+    "RL_input_bolt_120",
+    "RL_hip_output_bolt_180",
+    "RL_input_bolt_180",
+    "RL_hip_output_bolt_240",
+    "RL_input_bolt_240",
+    "RL_hip_output_bolt_300",
+    "RL_input_bolt_300",
+    "RL_carrier_closure_bolt_90",
+    "RL_carrier_closure_bolt_215",
+    "RL_carrier_closure_bolt_325",
+    "RL_hip_stator_bolt_0",
+    "RL_hip_stator_bolt_40",
+    "RL_hip_stator_bolt_80",
+    "RL_hip_stator_bolt_120",
+    "RL_hip_stator_bolt_160",
+    "RL_hip_stator_bolt_200",
+    "RL_hip_stator_bolt_240",
+    "RL_hip_stator_bolt_280",
+    "RL_hip_stator_bolt_320",
+    "RL_roll_output_bolt_0",
+    "RL_roll_output_bolt_60",
+    "RL_roll_output_bolt_120",
+    "RL_roll_output_bolt_180",
+    "RL_roll_output_bolt_240",
+    "RL_roll_output_bolt_300",
+    "RL_pod_sleeve_90",
+    "RL_pod_sleeve_210",
+    "RL_pod_sleeve_330",
+    "RL_sleeve_0",
+    "RL_sleeve_1",
+    "RR_roll_motor",
+    "RR_hip_motor",
+    "RR_knee_motor",
+    "RR_bolt_0",
+    "RR_bolt_1",
+    "RR_hip_port_-1_socket",
+    "RR_hip_port_-1_plug",
+    "RR_hip_port_-1_boot",
+    "RR_hip_port_-1_cable",
+    "RR_hip_port_1_socket",
+    "RR_hip_port_1_plug",
+    "RR_hip_port_1_boot",
+    "RR_hip_port_1_cable",
+    "RR_knee_port_-1_socket",
+    "RR_knee_port_-1_plug",
+    "RR_knee_port_-1_boot",
+    "RR_knee_port_-1_cable",
+    "RR_knee_port_1_socket",
+    "RR_knee_port_1_plug",
+    "RR_knee_port_1_boot",
+    "RR_knee_port_1_cable",
+    "RR_roll_port_-1_socket",
+    "RR_roll_port_-1_plug",
+    "RR_roll_port_-1_boot",
+    "RR_roll_port_-1_cable",
+    "RR_roll_port_1_socket",
+    "RR_roll_port_1_plug",
+    "RR_roll_port_1_boot",
+    "RR_roll_port_1_cable",
+    "RR_thigh_clamp_nut_0",
+    "RR_thigh_clamp_nut_1",
+    "RR_thigh_clamp_washer_0_inner",
+    "RR_thigh_clamp_washer_0_outer",
+    "RR_thigh_clamp_washer_1_inner",
+    "RR_thigh_clamp_washer_1_outer",
+    "RR_roll_bearing_6810_0",
+    "RR_roll_bearing_6810_1",
+    "RR_roll_stator_bolt_0",
+    "RR_roll_stator_bolt_40",
+    "RR_roll_stator_bolt_80",
+    "RR_roll_stator_bolt_120",
+    "RR_roll_stator_bolt_160",
+    "RR_roll_stator_bolt_200",
+    "RR_roll_stator_bolt_240",
+    "RR_roll_stator_bolt_280",
+    "RR_roll_stator_bolt_320",
+    "RR_roll_retainer_bolt_20",
+    "RR_roll_retainer_nut_20",
+    "RR_roll_retainer_bolt_140",
+    "RR_roll_retainer_nut_140",
+    "RR_roll_retainer_bolt_260",
+    "RR_roll_retainer_nut_260",
+    "RR_carrier_closure_nut_90",
+    "RR_carrier_closure_nut_215",
+    "RR_carrier_closure_nut_325",
+    "RR_pod_tie_90",
+    "RR_pod_tie_210",
+    "RR_pod_tie_330",
+    "RR_hip_output_bolt_0",
+    "RR_input_bolt_0",
+    "RR_hip_output_bolt_60",
+    "RR_input_bolt_60",
+    "RR_hip_output_bolt_120",
+    "RR_input_bolt_120",
+    "RR_hip_output_bolt_180",
+    "RR_input_bolt_180",
+    "RR_hip_output_bolt_240",
+    "RR_input_bolt_240",
+    "RR_hip_output_bolt_300",
+    "RR_input_bolt_300",
+    "RR_carrier_closure_bolt_90",
+    "RR_carrier_closure_bolt_215",
+    "RR_carrier_closure_bolt_325",
+    "RR_hip_stator_bolt_0",
+    "RR_hip_stator_bolt_40",
+    "RR_hip_stator_bolt_80",
+    "RR_hip_stator_bolt_120",
+    "RR_hip_stator_bolt_160",
+    "RR_hip_stator_bolt_200",
+    "RR_hip_stator_bolt_240",
+    "RR_hip_stator_bolt_280",
+    "RR_hip_stator_bolt_320",
+    "RR_roll_output_bolt_0",
+    "RR_roll_output_bolt_60",
+    "RR_roll_output_bolt_120",
+    "RR_roll_output_bolt_180",
+    "RR_roll_output_bolt_240",
+    "RR_roll_output_bolt_300",
+    "RR_pod_sleeve_90",
+    "RR_pod_sleeve_210",
+    "RR_pod_sleeve_330",
+    "RR_sleeve_0",
+    "RR_sleeve_1"
+  ],
+  "added_purchased_instances": [
+    "FL_pod_tie_nut_90",
+    "FL_pod_tie_nut_210",
+    "FL_pod_tie_nut_330",
+    "FL_knee_stator_bolt_20",
+    "FL_knee_stator_bolt_60",
+    "FL_knee_stator_bolt_100",
+    "FL_knee_stator_bolt_140",
+    "FL_knee_stator_bolt_180",
+    "FL_knee_stator_bolt_220",
+    "FL_knee_stator_bolt_260",
+    "FL_knee_stator_bolt_300",
+    "FL_knee_stator_bolt_340",
+    "FR_pod_tie_nut_90",
+    "FR_pod_tie_nut_210",
+    "FR_pod_tie_nut_330",
+    "FR_knee_stator_bolt_20",
+    "FR_knee_stator_bolt_60",
+    "FR_knee_stator_bolt_100",
+    "FR_knee_stator_bolt_140",
+    "FR_knee_stator_bolt_180",
+    "FR_knee_stator_bolt_220",
+    "FR_knee_stator_bolt_260",
+    "FR_knee_stator_bolt_300",
+    "FR_knee_stator_bolt_340",
+    "RL_pod_tie_nut_90",
+    "RL_pod_tie_nut_210",
+    "RL_pod_tie_nut_330",
+    "RL_knee_stator_bolt_20",
+    "RL_knee_stator_bolt_60",
+    "RL_knee_stator_bolt_100",
+    "RL_knee_stator_bolt_140",
+    "RL_knee_stator_bolt_180",
+    "RL_knee_stator_bolt_220",
+    "RL_knee_stator_bolt_260",
+    "RL_knee_stator_bolt_300",
+    "RL_knee_stator_bolt_340",
+    "RR_pod_tie_nut_90",
+    "RR_pod_tie_nut_210",
+    "RR_pod_tie_nut_330",
+    "RR_knee_stator_bolt_20",
+    "RR_knee_stator_bolt_60",
+    "RR_knee_stator_bolt_100",
+    "RR_knee_stator_bolt_140",
+    "RR_knee_stator_bolt_180",
+    "RR_knee_stator_bolt_220",
+    "RR_knee_stator_bolt_260",
+    "RR_knee_stator_bolt_300",
+    "RR_knee_stator_bolt_340"
+  ],
+  "removed_reference_instances": [
+    "FL_carrier_closure_washer_90",
+    "FL_carrier_closure_washer_215",
+    "FL_carrier_closure_washer_325",
+    "FR_carrier_closure_washer_90",
+    "FR_carrier_closure_washer_215",
+    "FR_carrier_closure_washer_325",
+    "RL_carrier_closure_washer_90",
+    "RL_carrier_closure_washer_215",
+    "RL_carrier_closure_washer_325",
+    "RR_carrier_closure_washer_90",
+    "RR_carrier_closure_washer_215",
+    "RR_carrier_closure_washer_325"
+  ],
+  "benchmark_source_units": "mm",
+  "estimated_base_mass_kg": 13.50010049888393
+}

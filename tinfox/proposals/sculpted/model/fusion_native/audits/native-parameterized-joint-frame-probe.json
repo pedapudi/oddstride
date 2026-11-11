@@ -1,0 +1,620 @@
+{
+  "before": {
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      18.5,
+      0.0,
+      1.0,
+      0.0,
+      6.8,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "health": 0,
+    "message": ""
+  },
+  "changed": {
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      20.0,
+      0.0,
+      1.0,
+      0.0,
+      6.800000000000001,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "health": 0,
+    "message": ""
+  },
+  "restored": {
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      18.5,
+      0.0,
+      1.0,
+      0.0,
+      6.8,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "health": 0,
+    "message": ""
+  },
+  "capacity": {
+    "personal_plan": true,
+    "editable_file_count": 4,
+    "max_editable_file_count": 10,
+    "available_slots": 6,
+    "known_tinfox_editable_files": [
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:cwZZGJRSR5aVlwkk9TcEUA",
+        "name": "Tinfox - Head",
+        "part": "subsystem_head",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+        "name": "Tinfox - Native Master Assembly",
+        "part": "native_master",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:R7U8KNNBSA6o3YwVNF2ZQQ",
+        "name": "Tinfox - Chassis",
+        "part": "subsystem_chassis",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+        "name": "Tinfox - Leg module",
+        "part": "subsystem_leg",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": true,
+        "manual_read_only_candidate": false
+      }
+    ],
+    "unmanaged_editable_file_count": 0,
+    "manual_read_only_candidates": [],
+    "unsaved_open_documents": 0,
+    "status_change_api_supported": false,
+    "status_note": "isReadOnly has no setter. The separately guarded set_document_editability.py invokes Fusion Make Editable/Make Read-Only commands and independently verifies status. Read-only can also reflect permissions or another editor.",
+    "new_cloud_files": 0,
+    "reserved_free_slots": 1,
+    "required_available_slots": 1,
+    "master_file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ"
+  },
+  "leg_modified": false,
+  "pose_frames": [
+    {
+      "knee_deg": -60,
+      "frames": {
+        "mount": [
+          1.0,
+          0.0,
+          0.0,
+          18.5,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "thigh": [
+          0.8660254037844387,
+          0.0,
+          0.49999999999999994,
+          18.5,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          -0.49999999999999994,
+          0.0,
+          0.8660254037844387,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "knee": [
+          0.8660254037844387,
+          0.0,
+          -0.5,
+          10.000000000000002,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          0.5,
+          0.0,
+          0.8660254037844387,
+          -14.722431864335459,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "crank": [
+          -0.3090169943749472,
+          0.0,
+          -0.9510565162951536,
+          18.5,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          0.9510565162951536,
+          0.0,
+          -0.3090169943749472,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rod": [
+          0.8660254037844387,
+          0.0,
+          0.49999999999999994,
+          17.634752415750146,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          -0.49999999999999994,
+          0.0,
+          0.8660254037844387,
+          2.6629582456264305,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "joint_health": [
+        [
+          "Mount at driven hip datum",
+          0,
+          ""
+        ],
+        [
+          "thigh parameterized pose",
+          0,
+          ""
+        ],
+        [
+          "knee parameterized pose",
+          0,
+          ""
+        ],
+        [
+          "crank parameterized pose",
+          0,
+          ""
+        ],
+        [
+          "rod parameterized pose",
+          0,
+          ""
+        ]
+      ]
+    },
+    {
+      "knee_deg": -156,
+      "frames": {
+        "mount": [
+          1.0,
+          0.0,
+          0.0,
+          18.5,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "thigh": [
+          0.8660254037844387,
+          0.0,
+          0.49999999999999994,
+          18.5,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          -0.49999999999999994,
+          0.0,
+          0.8660254037844387,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "knee": [
+          -0.587785252292473,
+          0.0,
+          -0.8090169943749475,
+          10.000000000000002,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          0.8090169943749475,
+          0.0,
+          -0.587785252292473,
+          -14.722431864335459,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "crank": [
+          -0.913545457642601,
+          0.0,
+          0.40673664307580015,
+          18.5,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          -0.40673664307580015,
+          0.0,
+          -0.913545457642601,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rod": [
+          0.8660254037844387,
+          0.0,
+          0.49999999999999994,
+          15.942072718600716,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          -0.49999999999999994,
+          0.0,
+          0.8660254037844387,
+          -1.1388626006122409,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "joint_health": [
+        [
+          "Mount at driven hip datum",
+          0,
+          ""
+        ],
+        [
+          "thigh parameterized pose",
+          0,
+          ""
+        ],
+        [
+          "knee parameterized pose",
+          0,
+          ""
+        ],
+        [
+          "crank parameterized pose",
+          0,
+          ""
+        ],
+        [
+          "rod parameterized pose",
+          0,
+          ""
+        ]
+      ]
+    },
+    {
+      "knee_deg": -102,
+      "frames": {
+        "mount": [
+          1.0,
+          0.0,
+          0.0,
+          18.5,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "thigh": [
+          0.8660254037844387,
+          0.0,
+          0.49999999999999994,
+          18.5,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          -0.49999999999999994,
+          0.0,
+          0.8660254037844387,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "knee": [
+          0.30901699437494734,
+          0.0,
+          -0.9510565162951534,
+          10.000000000000002,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          0.9510565162951534,
+          0.0,
+          0.30901699437494734,
+          -14.722431864335459,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "crank": [
+          -0.8660254037844386,
+          0.0,
+          -0.5,
+          18.5,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          0.5,
+          0.0,
+          -0.8660254037844386,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rod": [
+          0.8660254037844387,
+          0.0,
+          0.49999999999999994,
+          16.07512886940357,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          -0.49999999999999994,
+          0.0,
+          0.8660254037844387,
+          1.4000000000000001,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "joint_health": [
+        [
+          "Mount at driven hip datum",
+          0,
+          ""
+        ],
+        [
+          "thigh parameterized pose",
+          0,
+          ""
+        ],
+        [
+          "knee parameterized pose",
+          0,
+          ""
+        ],
+        [
+          "crank parameterized pose",
+          0,
+          ""
+        ],
+        [
+          "rod parameterized pose",
+          0,
+          ""
+        ]
+      ]
+    },
+    {
+      "knee_deg": -48,
+      "frames": {
+        "mount": [
+          1.0,
+          0.0,
+          0.0,
+          18.5,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "thigh": [
+          0.8660254037844387,
+          0.0,
+          0.49999999999999994,
+          18.5,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          -0.49999999999999994,
+          0.0,
+          0.8660254037844387,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "knee": [
+          0.9510565162951536,
+          0.0,
+          -0.3090169943749475,
+          10.000000000000002,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          0.3090169943749475,
+          0.0,
+          0.9510565162951536,
+          -14.722431864335459,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "crank": [
+          -0.10452846326765347,
+          0.0,
+          -0.9945218953682735,
+          18.5,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          0.9945218953682735,
+          0.0,
+          -0.10452846326765347,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "rod": [
+          0.8660254037844387,
+          0.0,
+          0.49999999999999994,
+          18.20732030285057,
+          0.0,
+          1.0,
+          0.0,
+          6.8,
+          -0.49999999999999994,
+          0.0,
+          0.8660254037844387,
+          2.7846613070311657,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "joint_health": [
+        [
+          "Mount at driven hip datum",
+          0,
+          ""
+        ],
+        [
+          "thigh parameterized pose",
+          0,
+          ""
+        ],
+        [
+          "knee parameterized pose",
+          0,
+          ""
+        ],
+        [
+          "crank parameterized pose",
+          0,
+          ""
+        ],
+        [
+          "rod parameterized pose",
+          0,
+          ""
+        ]
+      ]
+    }
+  ]
+}

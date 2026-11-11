@@ -1,0 +1,259 @@
+{
+  "part": "battery_access_latch_-1",
+  "source_step_sha256": "57ba96e3f65c5b4c4c9d7f8b2fd4c44e613dbb18c9f5100e1efe9ca8da7fc3ae",
+  "native_step_sha256": "0f76e046fd6bedfa49d413b978a9e355888f1917dbe3a65a2482076dd6bc85ff",
+  "source_volume_mm3": 152.60147322785923,
+  "native_volume_mm3": 152.6014714800461,
+  "relative_volume_error": 1.1453448692354347e-08,
+  "source_area_mm2": 245.45309046262244,
+  "native_area_mm2": 245.4530897126058,
+  "relative_area_error": 3.0556415151039653e-09,
+  "conservative_brep_bounds_error_max_mm": 1.683205285019085e-05,
+  "sampled_boundary_bounds_error_max_mm": 0.0,
+  "surface_deviation": {
+    "native_to_source": {
+      "samples": 1000,
+      "max_mm": 1.432144669219779e-14,
+      "rms_mm": 2.1485841890308516e-15
+    },
+    "source_to_native": {
+      "samples": 1000,
+      "max_mm": 1.464821375527116e-14,
+      "rms_mm": 4.3154870235533845e-15
+    }
+  },
+  "source_cylinders": [
+    [
+      0.5,
+      -10.5,
+      -100.4,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.5,
+      -10.5,
+      -99.6,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.5,
+      -10.5,
+      0.0,
+      -53.5,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.5,
+      -10.5,
+      0.0,
+      -50.5,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.0,
+      -100.4,
+      -53.5,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.0,
+      -100.4,
+      -50.5,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.0,
+      -99.6,
+      -53.5,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.0,
+      -99.6,
+      -50.5,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      10.5,
+      -100.4,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.5,
+      10.5,
+      -99.6,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.5,
+      10.5,
+      0.0,
+      -53.5,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.5,
+      10.5,
+      0.0,
+      -50.5,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "native_cylinders": [
+    [
+      0.5,
+      -10.5,
+      -100.4,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.5,
+      -10.5,
+      -99.6,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.5,
+      -10.5,
+      0.0,
+      -53.5,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      0.5,
+      -10.5,
+      0.0,
+      -50.5,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      0.5,
+      0.0,
+      -100.4,
+      -53.5,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.0,
+      -100.4,
+      -50.5,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.0,
+      -99.6,
+      -53.5,
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      0.5,
+      0.0,
+      -99.6,
+      -50.5,
+      1.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      0.5,
+      10.5,
+      -100.4,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.5,
+      10.5,
+      -99.6,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.5,
+      10.5,
+      0.0,
+      -53.5,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.5,
+      10.5,
+      0.0,
+      -50.5,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "cylinder_position_radius_error_max_mm": 0.0,
+  "cylinder_axis_component_error_max": 0.0,
+  "native_solid_count": 1,
+  "source_solid_count": 1,
+  "critical_cylinder_gate_passed": true,
+  "geometric_gate_passed": true,
+  "tolerances": {
+    "sampled_surface_mm": 0.05,
+    "relative_volume": 0.001,
+    "cylinder_position_radius_mm": 0.0001,
+    "cylinder_axis_component": 0.0001
+  },
+  "bounds_note": "Conservative BRep bounds can include untrimmed NURBS surface extents. Sampled boundary bounds use a 0.02 mm tessellation and describe the trimmed physical boundary.",
+  "scope": "Exact native STEP geometry. Sampled symmetric surface checks are finite, not a mathematical Hausdorff proof. Native editability and assembly migration gates are separate."
+}

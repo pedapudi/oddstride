@@ -1,0 +1,15 @@
+"""Compose the integrated low hood face from existing native face histories."""
+import json
+from pathlib import Path
+from run_native import rpc
+from fetch_exports import fetch
+ROOT=Path(__file__).resolve().parents[1]
+s=(ROOT/'source/intent_geometry.py').read_text()+'''
+def run(_context: str):
+ import json,os,tempfile,time
+ app=core.Application.get();doc=app.activeDocument;assert doc.dataFile.id=='urn:adsk.wipprod:dm.lineage:cwZZGJRSR5aVlwkk9TcEUA';d=fusion.Design.cast(app.activeProduct);root=d.rootComponent;assert not any(c.partNumber=='CANDIDATE_current_front_face_master' for c in d.allComponents);fascia=next(c for c in d.allComponents if c.partNumber=='front_fascia');bezel=next(c for c in d.allComponents if c.partNumber=='sensor_bezel');occ=root.occurrences.addNewComponent(core.Matrix3D.create());c=occ.component;c.name='Integrated low face master';c.partNumber='CANDIDATE_current_front_face_master';g=IntentGeometry(d,c);g.parameter('saddle_face_lap',.8,comment='Existing native face overlap; independent of hardware fits');g.parameter('saddle_face_join_x',246,comment='Frozen low hood to face join datum');tick=time.monotonic()
+ def copy(source,name):
+  objects=core.ObjectCollection.create();objects.add(source.bRepBodies.item(0));feature=c.features.copyPasteBodies.add(objects);feature.name=name;assert feature.isParametric and feature.bodies.count==1;return feature.bodies.item(0)
+ face=copy(fascia,'Native compound face');lap=copy(fascia,'Native overlapping face lip');objects=core.ObjectCollection.create();objects.add(lap);inp=c.features.moveFeatures.createInput2(objects);assert inp.defineAsTranslateXYZ(g.value('-saddle_face_lap'),g.value('0 mm'),g.value('0 mm'),True);feature=c.features.moveFeatures.add(inp);feature.name='Face overlap depth';bezel_body=copy(bezel,'Native integrated sensor bezel');body=g.combine(face,[feature.bodies.item(0),bezel_body],fusion.FeatureOperations.JoinFeatureOperation,'Integral face and sensor frame');tool=g.box('45 mm','240 mm','200 mm','saddle_face_join_x+22.5 mm','0 mm','0 mm','Face to hood join trim');body=g.combine(body,[tool],fusion.FeatureOperations.IntersectFeatureOperation,'Retain face ahead of hood datum');assert c.bRepBodies.count==1 and all(f.healthState==fusion.FeatureHealthStates.HealthyFeatureHealthState for f in c.features);body.name='Shared compound face';path=os.path.join(tempfile.gettempdir(),'tinfox-native','current-face-master-native.step');assert d.exportManager.execute(d.exportManager.createSTEPExportOptions(path,c));print(json.dumps({'saved':False,'features':c.features.count,'sketches':c.sketches.count,'faces':body.faces.count,'edges':body.edges.count,'native_volume_mm3':body.volume*1000,'path':path,'elapsed_seconds':time.monotonic()-tick,'scope':'Native parametric composition from existing editable Fusion face and bezel histories. No neutral solid imports.'}))
+'''
+r=rpc(s,'current-face-master-build',timeout=300);assert r[0]['success'],r;record=json.loads(r[0]['message']);(ROOT/'audits/current-face-master-build.json').write_text(json.dumps(record,indent=2));print(record);fetch(record['path'],Path(record['path']).name)

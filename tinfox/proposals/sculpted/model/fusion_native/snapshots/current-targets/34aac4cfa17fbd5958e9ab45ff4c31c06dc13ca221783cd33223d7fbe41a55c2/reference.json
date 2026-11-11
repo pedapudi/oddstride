@@ -1,0 +1,1937 @@
+{
+  "variant": "high",
+  "source_model_sha256": "34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2",
+  "source_folder": "output/shoulder-head-prototype",
+  "reference_model": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/model.json.gz",
+  "custom_parts": [
+    {
+      "key": "battery_side_panel_-1",
+      "material": "petg",
+      "mesh_sha256": "f1be94eec46deb50cc4e32b618d8905c0bcd23ace473d1fc467ca4dbc4e3a94b",
+      "instances": [
+        {
+          "name": "battery_side_panel_-1",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/battery_side_panel_-1.step",
+          "sha256": "eb0d6d2f90f6bb93a09dec17ae76f222ebac6669b26fa63c8284d86cdd4013ea",
+          "resolved_source": "output/step-parts/battery_side_panel_-1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/battery_side_panel_-1.stl",
+          "sha256": "cf48fc04eef2f1876c8c63d042230067b15b33f0959b5309f6d9dba7888d07fc",
+          "resolved_source": "output/stl/battery_side_panel_-1.stl"
+        }
+      }
+    },
+    {
+      "key": "battery_access_latch_-1",
+      "material": "petg",
+      "mesh_sha256": "990d816c18448ddd019e2e9b384ba0d43c2bfd02aa93683ffc30eb2437a2c147",
+      "instances": [
+        {
+          "name": "battery_access_latch_-1",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/battery_access_latch_-1.step",
+          "sha256": "57ba96e3f65c5b4c4c9d7f8b2fd4c44e613dbb18c9f5100e1efe9ca8da7fc3ae",
+          "resolved_source": "output/step-parts/battery_access_latch_-1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/battery_access_latch_-1.stl",
+          "sha256": "1d853ec2a430b32ba3f61d3ba0626516c9cc28576cd7a6a7e2cc4a601bf8022b",
+          "resolved_source": "output/stl/battery_access_latch_-1.stl"
+        }
+      }
+    },
+    {
+      "key": "battery_side_panel_1",
+      "material": "petg",
+      "mesh_sha256": "cd580a1d6515173e35c76919bd5968583a45a2ff3c027279ed5c11bf4938bcdb",
+      "instances": [
+        {
+          "name": "battery_side_panel_1",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/battery_side_panel_1.step",
+          "sha256": "22c9ca7e483ad4ccb5bbf7e829e7c244110ba120ef4c38c0eb05dca3439bb0c5",
+          "resolved_source": "output/step-parts/battery_side_panel_1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/battery_side_panel_1.stl",
+          "sha256": "bc8e574e90bc729422394119219b91c3e9178a9608fa822997d70790bbc21973",
+          "resolved_source": "output/stl/battery_side_panel_1.stl"
+        }
+      }
+    },
+    {
+      "key": "battery_access_latch_1",
+      "material": "petg",
+      "mesh_sha256": "cf23cb083fae4a9c704f0bbfe3f0694e00475fbd25dff97757c8efb91d8c4c9f",
+      "instances": [
+        {
+          "name": "battery_access_latch_1",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/battery_access_latch_1.step",
+          "sha256": "50118aa5d833e1a5413042356f869606a392bff8f968e03aa94c433abe7b3b6d",
+          "resolved_source": "output/step-parts/battery_access_latch_1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/battery_access_latch_1.stl",
+          "sha256": "929ef0bf19b3f6d93b6bbd7464fd775d3792859e80db9fe7e4438b921c33001e",
+          "resolved_source": "output/stl/battery_access_latch_1.stl"
+        }
+      }
+    },
+    {
+      "key": "battery_latch_-1",
+      "material": "petg",
+      "mesh_sha256": "057669f7b6f173289b2a2b2e1745e4da36f6d786978094667d629bc62ccfd054",
+      "instances": [
+        {
+          "name": "battery_latch_-1",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/battery_latch_-1.step",
+          "sha256": "f874c940219037130955e137db944fd211ce4a7d12f02f549903e34c9a37fdd3",
+          "resolved_source": "output/step-parts/battery_latch_-1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/battery_latch_-1.stl",
+          "sha256": "34af84f917c48b8e0cb4d9dabce48d957a2a38e6206a6ee47bb2b3223e11699f",
+          "resolved_source": "output/stl/battery_latch_-1.stl"
+        }
+      }
+    },
+    {
+      "key": "battery_latch_1",
+      "material": "petg",
+      "mesh_sha256": "0c8423d4b036e5df69cf8faac25196e29b83d16d7d926c39928b8fd6296f7994",
+      "instances": [
+        {
+          "name": "battery_latch_1",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/battery_latch_1.step",
+          "sha256": "1216edfeef93ff0cb3223c3cd12d1369d5426b7c05618cd1a55b4dd15bf6fa1d",
+          "resolved_source": "output/step-parts/battery_latch_1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/battery_latch_1.stl",
+          "sha256": "d40ee76916ed2c53bfaa37cab2227ede7e00f0caaf56052c60073ccfb189e9fb",
+          "resolved_source": "output/stl/battery_latch_1.stl"
+        }
+      }
+    },
+    {
+      "key": "battery_cassette",
+      "material": "petg",
+      "mesh_sha256": "f08a675d453dbc4f19434812df2f300b4d2ea84b302eef085687999a1ce94073",
+      "instances": [
+        {
+          "name": "battery_cassette",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/battery_cassette.step",
+          "sha256": "d63ec864b972627134bdee37c486a36f1a502664dbfe0b58c9cd7f7361277c59",
+          "resolved_source": "output/step-parts/battery_cassette.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/battery_cassette.stl",
+          "sha256": "54a4f5c8b53878d540a4a7bd6dd819fe7f68af0c3e96f6113027a8019ec9af94",
+          "resolved_source": "output/stl/battery_cassette.stl"
+        }
+      }
+    },
+    {
+      "key": "battery_skid",
+      "material": "aluminum",
+      "mesh_sha256": "105e9da1a00c40b7d768e0f8b7b0b92746a59383e44f4e99e5e51432a91fc1b7",
+      "instances": [
+        {
+          "name": "battery_skid",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/battery_skid.step",
+          "sha256": "d70f79575a2e77557fd1ad1d860c247293f674e6a09d127c132628e44e233497",
+          "resolved_source": "output/step-parts/battery_skid.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/battery_skid.stl",
+          "sha256": "731759602e3355240ecec1d27c76e1a9fc9a8fbad4eec44833ae3ad8980f9914",
+          "resolved_source": "output/stl/battery_skid.stl"
+        }
+      }
+    },
+    {
+      "key": "chassis_crossmember_-121",
+      "material": "aluminum",
+      "mesh_sha256": "8eff99c60aef5075aa35db79c040bc178330f4d97d7acf4a46e1b6704ded69fe",
+      "instances": [
+        {
+          "name": "chassis_crossmember_-121",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/chassis_crossmember_-121.step",
+          "sha256": "82d1bd89cadaacfd723235b5e88b04c949264b549519957a778e4c87c9d87cb2",
+          "resolved_source": "output/step-parts/chassis_crossmember_-121.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/chassis_crossmember_-121.stl",
+          "sha256": "81ca16162c502e0bd0c4c6c526d0b08da1c0a7ef2c36d70164b61786911ff000",
+          "resolved_source": "output/stl/chassis_crossmember_-121.stl"
+        }
+      }
+    },
+    {
+      "key": "chassis_crossmember_121",
+      "material": "aluminum",
+      "mesh_sha256": "fcfffdbe72d3def982fe2177ed71723501f3f1a2d34cf28ad1aae2a7788a3275",
+      "instances": [
+        {
+          "name": "chassis_crossmember_121",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/chassis_crossmember_121.step",
+          "sha256": "084262c8f4e39197b6d244fb8cef3f0391b9445e35302d29bb85734d3a4f7c86",
+          "resolved_source": "output/step-parts/chassis_crossmember_121.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/chassis_crossmember_121.stl",
+          "sha256": "a2721e3ae099b3c3acd1b585020a2d7cf73d10b17ddf0fe9a30bf93c1555690a",
+          "resolved_source": "output/stl/chassis_crossmember_121.stl"
+        }
+      }
+    },
+    {
+      "key": "chassis_lower_brace",
+      "material": "aluminum",
+      "mesh_sha256": "7d825cefcabb69525c40b51d2962ddea6e52a2442165c03db23eae9479be100e",
+      "instances": [
+        {
+          "name": "chassis_lower_brace",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/chassis_lower_brace.step",
+          "sha256": "fe527e39fd83b3d16fd1767db7ef5e48cc067e52504b7e9780d25e99fc3668fd",
+          "resolved_source": "output/step-parts/chassis_lower_brace.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/chassis_lower_brace.stl",
+          "sha256": "147a161ea8e7182e477b096ec486af273886eb68d668dd8cc6d5397607329e4a",
+          "resolved_source": "output/stl/chassis_lower_brace.stl"
+        }
+      }
+    },
+    {
+      "key": "electronics_shelf",
+      "material": "petg",
+      "mesh_sha256": "4a40d823e5884f7cefc1a819b8d4aa042a89d4a2398143ec681011b1786b1018",
+      "instances": [
+        {
+          "name": "electronics_shelf",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/electronics_shelf.step",
+          "sha256": "c4d0aca0f42fe6dec318d8d3f7c286b7a032ba05876591a2a994601b8211bcfe",
+          "resolved_source": "output/step-parts/electronics_shelf.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/electronics_shelf.stl",
+          "sha256": "e83a08625241b7fe6e93b97648622b7d32927f0d03636e0e490de9225a5c76a4",
+          "resolved_source": "output/stl/electronics_shelf.stl"
+        }
+      }
+    },
+    {
+      "key": "lidar_lid_shoulder",
+      "material": "aluminum",
+      "mesh_sha256": "1c07825325ba252d45e224f6208a06dd343e66cd6b49456da6413af30898eb91",
+      "instances": [
+        {
+          "name": "lidar_lid",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "missing_source_export": true
+        },
+        "stl": {
+          "missing_source_export": true
+        }
+      }
+    },
+    {
+      "key": "power_button",
+      "material": "petg",
+      "mesh_sha256": "f6ae18e424b49de7301376468e1b04df21545752624370284dbc76fd17f6c7ac",
+      "instances": [
+        {
+          "name": "power_button",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/power_button.step",
+          "sha256": "4a87104d202a10119692b30cb905ece3a11e6a37838993bbf9eff82d691d2a99",
+          "resolved_source": "output/step-parts/power_button.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/power_button.stl",
+          "sha256": "712969954fb474cffff97d38db2135ecc9db4c2533a8155b1dd7eb948c41934e",
+          "resolved_source": "output/stl/power_button.stl"
+        }
+      }
+    },
+    {
+      "key": "roll_cartridge_1",
+      "material": "aluminum",
+      "mesh_sha256": "586fabdce2f4ce9f131248f8e7e1856d4ca5069d835e719e9886df2211bf203d",
+      "instances": [
+        {
+          "name": "FL_roll_cartridge",
+          "leg": "FL",
+          "group": "mount"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/roll_cartridge_1.step",
+          "sha256": "ea9fb891bc282d7313f29384df410c2f58448991e39056fa9ff9f8890eca9c15",
+          "resolved_source": "output/step-parts/roll_cartridge_1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/roll_cartridge_1.stl",
+          "sha256": "839ce7f347a6998a18d664dc2a34f32d829c480e26df712ea9f55008e4743c02",
+          "resolved_source": "output/stl/roll_cartridge_1.stl"
+        }
+      }
+    },
+    {
+      "key": "motor_carrier_1",
+      "material": "aluminum",
+      "mesh_sha256": "9762c0581c7ea66a9a88e3732d7513a9d727c1eaf04942fa5c2ae90b1be82101",
+      "instances": [
+        {
+          "name": "FL_motor_carrier",
+          "leg": "FL",
+          "group": "roll"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/motor_carrier_1.step",
+          "sha256": "8424c2c1bce38e2b76c1140da282669d2e185c3c6b5f2a449a124c7c35a9c934",
+          "resolved_source": "output/shoulder-head-prototype/step/motor_carrier_1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/motor_carrier_1.stl",
+          "sha256": "7c5f2c75a999f9e548d7a0134e3517b1c06cbef83572f7e5891f90444b4cedc0",
+          "resolved_source": "output/shoulder-head-prototype/stl/motor_carrier_1.stl"
+        }
+      }
+    },
+    {
+      "key": "hip_hub",
+      "material": "aluminum",
+      "mesh_sha256": "05820d5d9b0034ef7875843ed00aa397e1561cece720d5c556ad9a7fc0a5fb6f",
+      "instances": [
+        {
+          "name": "FL_hip_hub",
+          "leg": "FL",
+          "group": "thigh"
+        },
+        {
+          "name": "RL_hip_hub",
+          "leg": "RL",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/hip_hub.step",
+          "sha256": "231863061c80f4d8204baf0395a54f30bc2761ac2ca760ff66bb37b136c2b71c",
+          "resolved_source": "output/step-parts/hip_hub.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/hip_hub.stl",
+          "sha256": "72a77e4d2805126835d9620894014a6d6b9c346c0a14ec5cd76207b75ed3f5cc",
+          "resolved_source": "output/stl/hip_hub.stl"
+        }
+      }
+    },
+    {
+      "key": "motor_mount_ring",
+      "material": "aluminum",
+      "mesh_sha256": "2aa0b65c2d3286ae7f628006de34331da399659260f09e488d49b3dc4e2da7af",
+      "instances": [
+        {
+          "name": "FL_motor_mount_ring",
+          "leg": "FL",
+          "group": "thigh"
+        },
+        {
+          "name": "RL_motor_mount_ring",
+          "leg": "RL",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/motor_mount_ring.step",
+          "sha256": "17ccd1aac5109e059c0cf9827cb362ce99e92f6036ba2800a3809768ded9cba9",
+          "resolved_source": "output/service-design/step/motor_mount_ring.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/motor_mount_ring.stl",
+          "sha256": "5f456ec7ec578e043fa31cb03ed85eb4181546cce408efd6564738abcaaf77f7",
+          "resolved_source": "output/service-design/stl/motor_mount_ring.stl"
+        }
+      }
+    },
+    {
+      "key": "pod_sleeve_90",
+      "material": "aluminum",
+      "mesh_sha256": "67f1d560b1dae3ddd445d11fdb99eb90ddae379cdd8a3d585fffdfa6e49cc5a4",
+      "instances": [
+        {
+          "name": "FL_pod_sleeve_90",
+          "leg": "FL",
+          "group": "thigh"
+        },
+        {
+          "name": "RL_pod_sleeve_90",
+          "leg": "RL",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/pod_sleeve_90.step",
+          "sha256": "c387e88a064c9e182861c91826f60c63819ce24cfe14ae7efbcaa45de217fedc",
+          "resolved_source": "output/step-parts/pod_sleeve_90.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/pod_sleeve_90.stl",
+          "sha256": "6b785105b48f9d4437249a70af002a411a9c131413e39a2a99c97ae3b18bc4df",
+          "resolved_source": "output/stl/pod_sleeve_90.stl"
+        }
+      }
+    },
+    {
+      "key": "pod_sleeve_210",
+      "material": "aluminum",
+      "mesh_sha256": "3fa46b14a10e5397def63a09ee7b96911583f736a19695863931a08817d07814",
+      "instances": [
+        {
+          "name": "FL_pod_sleeve_210",
+          "leg": "FL",
+          "group": "thigh"
+        },
+        {
+          "name": "RL_pod_sleeve_210",
+          "leg": "RL",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/pod_sleeve_210.step",
+          "sha256": "f4161c86a8df337a36a53b7ad67c3d2ce5f390cd4d889086d0b26a26f263b7ab",
+          "resolved_source": "output/step-parts/pod_sleeve_210.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/pod_sleeve_210.stl",
+          "sha256": "4764356cc1b233a7df186be5c5d48d95b34e33a5bdfb191dcacf2e95d3b3c27f",
+          "resolved_source": "output/stl/pod_sleeve_210.stl"
+        }
+      }
+    },
+    {
+      "key": "pod_sleeve_330",
+      "material": "aluminum",
+      "mesh_sha256": "711fb508d4f71842a8c5f8fc2f1b7caef491ab952bf6d96995e74d456b0e3599",
+      "instances": [
+        {
+          "name": "FL_pod_sleeve_330",
+          "leg": "FL",
+          "group": "thigh"
+        },
+        {
+          "name": "RL_pod_sleeve_330",
+          "leg": "RL",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/pod_sleeve_330.step",
+          "sha256": "79e5dd089e44acbb647773857af9bd14b30f14c0504d1a07d896db12dbb003ef",
+          "resolved_source": "output/step-parts/pod_sleeve_330.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/pod_sleeve_330.stl",
+          "sha256": "d1a47f9911103a53accf21d64eb9172d9112bc29bd502168ca2142e5da59dcfd",
+          "resolved_source": "output/stl/pod_sleeve_330.stl"
+        }
+      }
+    },
+    {
+      "key": "thigh_inner",
+      "material": "petg",
+      "mesh_sha256": "ec534965589a21445e5a254ec371021bae4d33519e7f4ccf444ac56295d77408",
+      "instances": [
+        {
+          "name": "FL_thigh_inner",
+          "leg": "FL",
+          "group": "thigh"
+        },
+        {
+          "name": "RL_thigh_inner",
+          "leg": "RL",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/thigh_inner.step",
+          "sha256": "9b9841da933392b33fb4449069ebfa7dabdfae639bae6608b80f6ce12800a7c0",
+          "resolved_source": "output/shoulder-head-prototype/step/thigh_inner.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/thigh_inner.stl",
+          "sha256": "09306c2f34082dea716ab11875112c5868f29c8e1f110b6d2e979498a88c1ebc",
+          "resolved_source": "output/shoulder-head-prototype/stl/thigh_inner.stl"
+        }
+      }
+    },
+    {
+      "key": "thigh_outer",
+      "material": "petg",
+      "mesh_sha256": "9ec916d9d9db8cbf5ced92065d3b62b761999cf0b56badbb1a6132fc4bd4391c",
+      "instances": [
+        {
+          "name": "FL_thigh_outer",
+          "leg": "FL",
+          "group": "thigh"
+        },
+        {
+          "name": "RL_thigh_outer",
+          "leg": "RL",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/thigh_outer.step",
+          "sha256": "8399701b44961cac3ae5a191dac43c3d434d130d85fbe70e282c31b0acb9345a",
+          "resolved_source": "output/shoulder-head-prototype/step/thigh_outer.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/thigh_outer.stl",
+          "sha256": "babb6c64ad2ac2a9188ec910b23d5eb864e5c1f8d2169383164064e2bf34be94",
+          "resolved_source": "output/shoulder-head-prototype/stl/thigh_outer.stl"
+        }
+      }
+    },
+    {
+      "key": "sleeve_0",
+      "material": "aluminum",
+      "mesh_sha256": "e7daa92e4fadcd9e7624e6d1d113943118ecc3ddc805bcbb2b9c7c133918d830",
+      "instances": [
+        {
+          "name": "FL_sleeve_0",
+          "leg": "FL",
+          "group": "thigh"
+        },
+        {
+          "name": "RL_sleeve_0",
+          "leg": "RL",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/sleeve_0.step",
+          "sha256": "88404ecfba8529271606db6842f60bfd8737939a3587a86fc29a22be031e5197",
+          "resolved_source": "output/shoulder-head-prototype/step/sleeve_0.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/sleeve_0.stl",
+          "sha256": "6c089789976ca459229a4503d89accc32c23f832ad619cf075251c5ebe7475e7",
+          "resolved_source": "output/shoulder-head-prototype/stl/sleeve_0.stl"
+        }
+      }
+    },
+    {
+      "key": "sleeve_1",
+      "material": "aluminum",
+      "mesh_sha256": "70fc002edd5d067e102aed970ef0cf2059538c237c1f296fc9f50a30c5ee0ed2",
+      "instances": [
+        {
+          "name": "FL_sleeve_1",
+          "leg": "FL",
+          "group": "thigh"
+        },
+        {
+          "name": "RL_sleeve_1",
+          "leg": "RL",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/sleeve_1.step",
+          "sha256": "95ffd8e90f123ce3fb503b66def14263005af7ee9df2e3781ae713e9843ee51e",
+          "resolved_source": "output/step-parts/sleeve_1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/sleeve_1.stl",
+          "sha256": "26060643a6cbafe299e490509095bb769028b997f0541d031a1e90b322d12031",
+          "resolved_source": "output/stl/sleeve_1.stl"
+        }
+      }
+    },
+    {
+      "key": "input_crank",
+      "material": "aluminum",
+      "mesh_sha256": "8df1848ec63a87ccf372df9a833f3f8d7e3c849f41a5ca48038006083b393181",
+      "instances": [
+        {
+          "name": "FL_input_crank",
+          "leg": "FL",
+          "group": "crank"
+        },
+        {
+          "name": "RL_input_crank",
+          "leg": "RL",
+          "group": "crank"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/input_crank.step",
+          "sha256": "aa29713f87d285758ef60af545e1f366e32e1b4e50815318dedba2a9db9d2272",
+          "resolved_source": "output/integrated-candidate/step/input_crank.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/input_crank.stl",
+          "sha256": "1d460ddee41352b3ca8e968b3f9f8a1fd4aff20f90d574078170ef52eb879f8d",
+          "resolved_source": "output/integrated-candidate/stl/input_crank.stl"
+        }
+      }
+    },
+    {
+      "key": "pushrod",
+      "material": "steel",
+      "mesh_sha256": "d8da4e10b8807c328058e96731eb3e340c1fcb13a2cfa60e121738ff316f71d7",
+      "instances": [
+        {
+          "name": "FL_pushrod",
+          "leg": "FL",
+          "group": "rod"
+        },
+        {
+          "name": "RL_pushrod",
+          "leg": "RL",
+          "group": "rod"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/pushrod.step",
+          "sha256": "f533c69ae21628ed9e741ec9e38c89f9567352f825202801254faaa89fd10eda",
+          "resolved_source": "output/step-parts/pushrod.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/pushrod.stl",
+          "sha256": "6bdc39d22b28019fad51d35018ee0d773f2f1fef383d15c462d4932da781d562",
+          "resolved_source": "output/stl/pushrod.stl"
+        }
+      }
+    },
+    {
+      "key": "knee_axle",
+      "material": "steel",
+      "mesh_sha256": "79c95d24da7285cb59249fbaf8116198e4742e9e6ddede50078ad5f0e23712d5",
+      "instances": [
+        {
+          "name": "FL_knee_axle",
+          "leg": "FL",
+          "group": "thigh"
+        },
+        {
+          "name": "RL_knee_axle",
+          "leg": "RL",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/knee_axle.step",
+          "sha256": "57fbb51e52579d384f6bba94b2eaf2c8c293bc3cf0c03be10e0c784e9ca1b26b",
+          "resolved_source": "output/step-parts/knee_axle.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/knee_axle.stl",
+          "sha256": "2410b979228159a6406604be5c7169fd4a2b12efa9548a569f2fed321d993a43",
+          "resolved_source": "output/stl/knee_axle.stl"
+        }
+      }
+    },
+    {
+      "key": "knee_inner_spacer",
+      "material": "steel",
+      "mesh_sha256": "858b8ec16341367328b84f12a1116d327bbf6ca58624b9cc9faa5bd56c830f72",
+      "instances": [
+        {
+          "name": "FL_knee_inner_spacer",
+          "leg": "FL",
+          "group": "thigh"
+        },
+        {
+          "name": "RL_knee_inner_spacer",
+          "leg": "RL",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/knee_inner_spacer.step",
+          "sha256": "b6f3c122e310eb1b6fa3aea5364045c6bf012d2d42e2d3e1daa79a85d96781c6",
+          "resolved_source": "output/shoulder-head-prototype/step/knee_inner_spacer.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/knee_inner_spacer.stl",
+          "sha256": "89364cd800005a4b5e56b429b8e20b9d2a2c5295a57886fea641d677786a76db",
+          "resolved_source": "output/shoulder-head-prototype/stl/knee_inner_spacer.stl"
+        }
+      }
+    },
+    {
+      "key": "shin_inner",
+      "material": "petg",
+      "mesh_sha256": "5db59890ba292727f69989f58ef379e33c794b3a8b35aadecb6225c931e742e7",
+      "instances": [
+        {
+          "name": "FL_shin_inner",
+          "leg": "FL",
+          "group": "knee"
+        },
+        {
+          "name": "RL_shin_inner",
+          "leg": "RL",
+          "group": "knee"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/shin_inner.step",
+          "sha256": "1383832fa3bba62b472bf31a483989e010cb0aaefffd6338da59fbea0eb37065",
+          "resolved_source": "output/shoulder-head-prototype/step/shin_inner.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/shin_inner.stl",
+          "sha256": "4616fb3a0deda73034e5f76bce852dfc411a25230f12998e7e11539cef5a4536",
+          "resolved_source": "output/shoulder-head-prototype/stl/shin_inner.stl"
+        }
+      }
+    },
+    {
+      "key": "shin_outer",
+      "material": "petg",
+      "mesh_sha256": "32d2e78a070354569c25658d6566fdebde30cc650c981f0d948284afac68b22c",
+      "instances": [
+        {
+          "name": "FL_shin_outer",
+          "leg": "FL",
+          "group": "knee"
+        },
+        {
+          "name": "RL_shin_outer",
+          "leg": "RL",
+          "group": "knee"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/shin_outer.step",
+          "sha256": "f2c3d57d1ec3de30c3ac2a3a573a500a82be7fe9fcd3b7522d389366fe76f4a8",
+          "resolved_source": "output/shoulder-head-prototype/step/shin_outer.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/shin_outer.stl",
+          "sha256": "d9c17bd77d98be406f62220e64ab297bb5ca3a56f42ca030756dfb4b0548e272",
+          "resolved_source": "output/shoulder-head-prototype/stl/shin_outer.stl"
+        }
+      }
+    },
+    {
+      "key": "shin_clamp_sleeve_37",
+      "material": "aluminum",
+      "mesh_sha256": "b00af4cf758c994f113ba03736759ea55072bda13fac893d6cb4917e3b2d4355",
+      "instances": [
+        {
+          "name": "FL_shin_clamp_sleeve_37",
+          "leg": "FL",
+          "group": "knee"
+        },
+        {
+          "name": "RL_shin_clamp_sleeve_37",
+          "leg": "RL",
+          "group": "knee"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/shin_clamp_sleeve_37.step",
+          "sha256": "488aa92fc7df80bbf02505cba4b54a27464c48cee2a4a44debce6b7d7b3d446d",
+          "resolved_source": "output/service-design/step/shin_clamp_sleeve_37.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/shin_clamp_sleeve_37.stl",
+          "sha256": "b993370a8efe09d907ad0448c4739adc05e663df8c8a4053e35d60b322f02c0d",
+          "resolved_source": "output/service-design/stl/shin_clamp_sleeve_37.stl"
+        }
+      }
+    },
+    {
+      "key": "shin_clamp_sleeve_105",
+      "material": "aluminum",
+      "mesh_sha256": "4f659e195f9565d83967cdd462d2416a3d7ad0a425ed1f814a51e44825570a1f",
+      "instances": [
+        {
+          "name": "FL_shin_clamp_sleeve_105",
+          "leg": "FL",
+          "group": "knee"
+        },
+        {
+          "name": "RL_shin_clamp_sleeve_105",
+          "leg": "RL",
+          "group": "knee"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/shin_clamp_sleeve_105.step",
+          "sha256": "3ccddb9db2d689c944ebf2ea5213fc38a7a34f36f3383f288020ccb49f8bb03e",
+          "resolved_source": "output/service-design/step/shin_clamp_sleeve_105.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/shin_clamp_sleeve_105.stl",
+          "sha256": "dcf0eacd2e72d841396c5d7e379d79104ce2596584c56efe697993a7b290aa59",
+          "resolved_source": "output/service-design/stl/shin_clamp_sleeve_105.stl"
+        }
+      }
+    },
+    {
+      "key": "foot",
+      "material": "rubber",
+      "mesh_sha256": "752b9678547b871c9bc153832fa58e2e58ff5d359a48596db49905b67ee4511d",
+      "instances": [
+        {
+          "name": "FL_foot",
+          "leg": "FL",
+          "group": "knee"
+        },
+        {
+          "name": "RL_foot",
+          "leg": "RL",
+          "group": "knee"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/foot.step",
+          "sha256": "ea6994176e2b085d1e0ebab009da2feca7f3f16fd3456b5fd0fd9e5e2397b102",
+          "resolved_source": "output/step-parts/foot.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/foot.stl",
+          "sha256": "3a88c2192a5dd67332e333a14a315beb9c38602fed540dec9821d051902efdc4",
+          "resolved_source": "output/stl/foot.stl"
+        }
+      }
+    },
+    {
+      "key": "roll_cartridge_1_right",
+      "material": "aluminum",
+      "mesh_sha256": "518e119929b170c86b9c4fa797c484974ef353aa6205ce61fce007bd231c4416",
+      "instances": [
+        {
+          "name": "FR_roll_cartridge",
+          "leg": "FR",
+          "group": "mount"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/roll_cartridge_1_right.step",
+          "sha256": "a7fa8a423cd44bf9ba7fb3e3c9c1c77063ffb2549273c5374ff4b27d98ad49ec",
+          "resolved_source": "output/step-parts/roll_cartridge_1_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/roll_cartridge_1_right.stl",
+          "sha256": "bbbb11ba7f356610e7218454dba437fb3ee001892b2ac47d761f31507cac762d",
+          "resolved_source": "output/stl/roll_cartridge_1_right.stl"
+        }
+      }
+    },
+    {
+      "key": "motor_carrier_1_right",
+      "material": "aluminum",
+      "mesh_sha256": "31772df6fae84be758aa538a50c4ed782dfc019a768891318eb2f576a76e34c1",
+      "instances": [
+        {
+          "name": "FR_motor_carrier",
+          "leg": "FR",
+          "group": "roll"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/motor_carrier_1_right.step",
+          "sha256": "099793a160165b314d1f513a7e6834ca1996c4b63851766237140ccbedc08579",
+          "resolved_source": "output/shoulder-head-prototype/step/motor_carrier_1_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/motor_carrier_1_right.stl",
+          "sha256": "705a0fe0569e0a1b3ddf979392c3bea392a1f7ed6d89e2e5ff324e38019daf8c",
+          "resolved_source": "output/shoulder-head-prototype/stl/motor_carrier_1_right.stl"
+        }
+      }
+    },
+    {
+      "key": "hip_hub_right",
+      "material": "aluminum",
+      "mesh_sha256": "fc509b227a29270d4e7e97559c0fbf6f601d62d0e812eccb23b32567e4782e52",
+      "instances": [
+        {
+          "name": "FR_hip_hub",
+          "leg": "FR",
+          "group": "thigh"
+        },
+        {
+          "name": "RR_hip_hub",
+          "leg": "RR",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/hip_hub_right.step",
+          "sha256": "6b0a50298fba5749f0d8dd2313c1ec65e5b6357684a21dc82ab4d14188700f6e",
+          "resolved_source": "output/step-parts/hip_hub_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/hip_hub_right.stl",
+          "sha256": "ad3bc072d81db3c646a1bd8b365aeb7627aeb369f05b6244c3a8bae10ba0db0a",
+          "resolved_source": "output/stl/hip_hub_right.stl"
+        }
+      }
+    },
+    {
+      "key": "motor_mount_ring_right",
+      "material": "aluminum",
+      "mesh_sha256": "21bbe28e885080066f637528e0ae78f4362294093158f8efccc9662e004ff5ae",
+      "instances": [
+        {
+          "name": "FR_motor_mount_ring",
+          "leg": "FR",
+          "group": "thigh"
+        },
+        {
+          "name": "RR_motor_mount_ring",
+          "leg": "RR",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/motor_mount_ring_right.step",
+          "sha256": "4ba0724246aaa72db6737dc935fce96a962f0dfb30d84695855d22bf4ac6745b",
+          "resolved_source": "output/service-design/step/motor_mount_ring_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/motor_mount_ring_right.stl",
+          "sha256": "18cc2820814cc11deb8f2d659c34b0801838a3c366fc282a9177b1d1d999a40d",
+          "resolved_source": "output/service-design/stl/motor_mount_ring_right.stl"
+        }
+      }
+    },
+    {
+      "key": "pod_sleeve_90_right",
+      "material": "aluminum",
+      "mesh_sha256": "b053eae490c3d00cea183272308c893cbe12ebedd1705000b9cc3365344adca6",
+      "instances": [
+        {
+          "name": "FR_pod_sleeve_90",
+          "leg": "FR",
+          "group": "thigh"
+        },
+        {
+          "name": "RR_pod_sleeve_90",
+          "leg": "RR",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/pod_sleeve_90_right.step",
+          "sha256": "799bddf4d456608863d57fffbae07d2bf81007c5e7c68a51bf4625e71b26bde8",
+          "resolved_source": "output/step-parts/pod_sleeve_90_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/pod_sleeve_90_right.stl",
+          "sha256": "3962d893f890c95fa1c39f7e3baca11a33280d795e40d19644748c48c3fc4c30",
+          "resolved_source": "output/stl/pod_sleeve_90_right.stl"
+        }
+      }
+    },
+    {
+      "key": "pod_sleeve_210_right",
+      "material": "aluminum",
+      "mesh_sha256": "763a19e2fe67ae11d86d7fd024036cd9042d8a4dfcae31057c32d3c5549d00ba",
+      "instances": [
+        {
+          "name": "FR_pod_sleeve_210",
+          "leg": "FR",
+          "group": "thigh"
+        },
+        {
+          "name": "RR_pod_sleeve_210",
+          "leg": "RR",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/pod_sleeve_210_right.step",
+          "sha256": "e3fdf956b4a5378162a25ebedec60b34e24f414533bc03634d568c82f72966fb",
+          "resolved_source": "output/step-parts/pod_sleeve_210_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/pod_sleeve_210_right.stl",
+          "sha256": "a8be1a4522d40e645e7c1db9e2c23b5f74ebed546d9ad39bc44f0ab2afb3a0ae",
+          "resolved_source": "output/stl/pod_sleeve_210_right.stl"
+        }
+      }
+    },
+    {
+      "key": "pod_sleeve_330_right",
+      "material": "aluminum",
+      "mesh_sha256": "087049809e606ebf8f74331c8ad5a0fdf1afa80537a69696bacead52a1fa7d99",
+      "instances": [
+        {
+          "name": "FR_pod_sleeve_330",
+          "leg": "FR",
+          "group": "thigh"
+        },
+        {
+          "name": "RR_pod_sleeve_330",
+          "leg": "RR",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/pod_sleeve_330_right.step",
+          "sha256": "afa82dfecaf296e9b257c99a48e2bb8359a89792fe1053c4e83d01e3b0bee3be",
+          "resolved_source": "output/step-parts/pod_sleeve_330_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/pod_sleeve_330_right.stl",
+          "sha256": "b8a2a26d24947f86699d40e1d6945696e9708ef001e2536dbc5584deaa0a6c0f",
+          "resolved_source": "output/stl/pod_sleeve_330_right.stl"
+        }
+      }
+    },
+    {
+      "key": "thigh_inner_right",
+      "material": "petg",
+      "mesh_sha256": "2981ad5b27cd42e45bfbbe6e9a3519032c195a5803759b9192f5c62d6deecbb3",
+      "instances": [
+        {
+          "name": "FR_thigh_inner",
+          "leg": "FR",
+          "group": "thigh"
+        },
+        {
+          "name": "RR_thigh_inner",
+          "leg": "RR",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/thigh_inner_right.step",
+          "sha256": "99a41ce6d8a555e50c5e3b09d30c9d358f7d314b443b6bd98ff0936a566c94c2",
+          "resolved_source": "output/shoulder-head-prototype/step/thigh_inner_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/thigh_inner_right.stl",
+          "sha256": "0eae697347382e2c7f9bda3c38d12faf540c1ad5909d7d2de09c6f81ee9401da",
+          "resolved_source": "output/shoulder-head-prototype/stl/thigh_inner_right.stl"
+        }
+      }
+    },
+    {
+      "key": "thigh_outer_right",
+      "material": "petg",
+      "mesh_sha256": "dd3e152e01e93d5a02d46d6f8ba24f35bdee783439ec4552d159f4ce44251261",
+      "instances": [
+        {
+          "name": "FR_thigh_outer",
+          "leg": "FR",
+          "group": "thigh"
+        },
+        {
+          "name": "RR_thigh_outer",
+          "leg": "RR",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/thigh_outer_right.step",
+          "sha256": "d8ae5d33c27422be10ec9be0bb278a7b34fd668e43ce96943016a2c6d5675019",
+          "resolved_source": "output/shoulder-head-prototype/step/thigh_outer_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/thigh_outer_right.stl",
+          "sha256": "2dd8fe48eaa28d32aad91ccdef29a777a221833902e5ed911b2ee874b8776cc0",
+          "resolved_source": "output/shoulder-head-prototype/stl/thigh_outer_right.stl"
+        }
+      }
+    },
+    {
+      "key": "sleeve_0_right",
+      "material": "aluminum",
+      "mesh_sha256": "d4ba9331be67176bb5b13f8b09af20691f027e2956c5d32440d288b60fb38391",
+      "instances": [
+        {
+          "name": "FR_sleeve_0",
+          "leg": "FR",
+          "group": "thigh"
+        },
+        {
+          "name": "RR_sleeve_0",
+          "leg": "RR",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/sleeve_0_right.step",
+          "sha256": "849ecedabd8c1f002e8c88753cd7d2bb2373c2ad35236f4715259704a4084218",
+          "resolved_source": "output/shoulder-head-prototype/step/sleeve_0_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/sleeve_0_right.stl",
+          "sha256": "2d90c240e7290bec51ed92811c369b0c7e17b7b4cda395b9be7d40157666232d",
+          "resolved_source": "output/shoulder-head-prototype/stl/sleeve_0_right.stl"
+        }
+      }
+    },
+    {
+      "key": "sleeve_1_right",
+      "material": "aluminum",
+      "mesh_sha256": "f522eb31cc7b65f6f456a72b54409e4e76bc10dac7fa2cbd368e403efc33291a",
+      "instances": [
+        {
+          "name": "FR_sleeve_1",
+          "leg": "FR",
+          "group": "thigh"
+        },
+        {
+          "name": "RR_sleeve_1",
+          "leg": "RR",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/sleeve_1_right.step",
+          "sha256": "cdec935097ecc5f33f32c7025d9ac0bd296a46771ea704326872b6b19aef57c5",
+          "resolved_source": "output/step-parts/sleeve_1_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/sleeve_1_right.stl",
+          "sha256": "eb92284b64126cfcbcb0752d465dc6384561d7123e6241d029a175d506a14bf4",
+          "resolved_source": "output/stl/sleeve_1_right.stl"
+        }
+      }
+    },
+    {
+      "key": "input_crank_right",
+      "material": "aluminum",
+      "mesh_sha256": "ccbd9ff849c72eabf5e250173d1b19f17d14e8468e02e1726708b9634cee2e1e",
+      "instances": [
+        {
+          "name": "FR_input_crank",
+          "leg": "FR",
+          "group": "crank"
+        },
+        {
+          "name": "RR_input_crank",
+          "leg": "RR",
+          "group": "crank"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/input_crank_right.step",
+          "sha256": "71ad89d9af2de752dd5caae492380280b430feff61d924274c138f25df7e1415",
+          "resolved_source": "output/integrated-candidate/step/input_crank_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/input_crank_right.stl",
+          "sha256": "4a58c5aa0228baf17dbb041f659280ba6f053a8308e8afd9aa12976ecd230bef",
+          "resolved_source": "output/integrated-candidate/stl/input_crank_right.stl"
+        }
+      }
+    },
+    {
+      "key": "pushrod_right",
+      "material": "steel",
+      "mesh_sha256": "d041727f5ee955d89dfb8cd1c804a5812cd52f2dd3e8c73945c1ea9263d931b6",
+      "instances": [
+        {
+          "name": "FR_pushrod",
+          "leg": "FR",
+          "group": "rod"
+        },
+        {
+          "name": "RR_pushrod",
+          "leg": "RR",
+          "group": "rod"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/pushrod_right.step",
+          "sha256": "76677428ca2000404b9047f210e66de7e3fa8ad61570867123b8fccdb9834df5",
+          "resolved_source": "output/step-parts/pushrod_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/pushrod_right.stl",
+          "sha256": "3571e13de9aeebd6c903b859802f601886301cc90f67378a7814df053c7ed51a",
+          "resolved_source": "output/stl/pushrod_right.stl"
+        }
+      }
+    },
+    {
+      "key": "knee_axle_right",
+      "material": "steel",
+      "mesh_sha256": "b053ca3a09ce21ef7f1c398fbfacfd4d949d4d4cd9535fd17d7022231207a5c8",
+      "instances": [
+        {
+          "name": "FR_knee_axle",
+          "leg": "FR",
+          "group": "thigh"
+        },
+        {
+          "name": "RR_knee_axle",
+          "leg": "RR",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/knee_axle_right.step",
+          "sha256": "a8906fb541de7d9b400c45c756837dac036e784bdb952485b879c852d3055267",
+          "resolved_source": "output/step-parts/knee_axle_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/knee_axle_right.stl",
+          "sha256": "85020451707dba5420030336a56b5ac86838ae95ea7c1aef8fb4d6f85991e8a0",
+          "resolved_source": "output/stl/knee_axle_right.stl"
+        }
+      }
+    },
+    {
+      "key": "knee_inner_spacer_right",
+      "material": "steel",
+      "mesh_sha256": "5d14ccb78bb3edb347cf4e16537f3541de231d7f4c12186102ed29aa18c5f41a",
+      "instances": [
+        {
+          "name": "FR_knee_inner_spacer",
+          "leg": "FR",
+          "group": "thigh"
+        },
+        {
+          "name": "RR_knee_inner_spacer",
+          "leg": "RR",
+          "group": "thigh"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/knee_inner_spacer_right.step",
+          "sha256": "e79ffea78131008eba9d30008c2661dc566fb91788ce102a281152370127a78b",
+          "resolved_source": "output/shoulder-head-prototype/step/knee_inner_spacer_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/knee_inner_spacer_right.stl",
+          "sha256": "bcdd17e2f5c765fe2290ab459ae1a95a06d69bd6f066d2bbe795fe4e21932915",
+          "resolved_source": "output/shoulder-head-prototype/stl/knee_inner_spacer_right.stl"
+        }
+      }
+    },
+    {
+      "key": "shin_inner_right",
+      "material": "petg",
+      "mesh_sha256": "16d86f8e48a11862fa01bf9919c189056ab48eeff393892a493c123d87545f36",
+      "instances": [
+        {
+          "name": "FR_shin_inner",
+          "leg": "FR",
+          "group": "knee"
+        },
+        {
+          "name": "RR_shin_inner",
+          "leg": "RR",
+          "group": "knee"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/shin_inner_right.step",
+          "sha256": "3b83ca3f0204402ef4faca289c412482d4d752726a17cc1a10bcda65affc28cf",
+          "resolved_source": "output/shoulder-head-prototype/step/shin_inner_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/shin_inner_right.stl",
+          "sha256": "ff830d7eec15adb8e0b51cc7e19a38d5f678b3435d68ccf7ababa20271c69e25",
+          "resolved_source": "output/shoulder-head-prototype/stl/shin_inner_right.stl"
+        }
+      }
+    },
+    {
+      "key": "shin_outer_right",
+      "material": "petg",
+      "mesh_sha256": "17dffca3b252c2a38e079cad34147233bc6c58e0a9594c323c2302ea20cafb99",
+      "instances": [
+        {
+          "name": "FR_shin_outer",
+          "leg": "FR",
+          "group": "knee"
+        },
+        {
+          "name": "RR_shin_outer",
+          "leg": "RR",
+          "group": "knee"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/shin_outer_right.step",
+          "sha256": "3a863f3910861c0b6640e36c45a6151272b650850f06cf324a0a5eba534750e5",
+          "resolved_source": "output/shoulder-head-prototype/step/shin_outer_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/shin_outer_right.stl",
+          "sha256": "cfdfc02387e07ec9e2fa249a107bcdde02931fe79e30fe5d22313c7051234e17",
+          "resolved_source": "output/shoulder-head-prototype/stl/shin_outer_right.stl"
+        }
+      }
+    },
+    {
+      "key": "shin_clamp_sleeve_37_right",
+      "material": "aluminum",
+      "mesh_sha256": "6c71b536a549003363f0904c4613f45fa746cc3580b17f3c1d13a8966b112e20",
+      "instances": [
+        {
+          "name": "FR_shin_clamp_sleeve_37",
+          "leg": "FR",
+          "group": "knee"
+        },
+        {
+          "name": "RR_shin_clamp_sleeve_37",
+          "leg": "RR",
+          "group": "knee"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/shin_clamp_sleeve_37_right.step",
+          "sha256": "31bcaefe8b0e961cd03d3f482e7d4774d8186a336b6f347cedab2dc02607888e",
+          "resolved_source": "output/service-design/step/shin_clamp_sleeve_37_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/shin_clamp_sleeve_37_right.stl",
+          "sha256": "ba42499fcee2cd463d5248358dfbb86bdd118c02867576faa0f030e698b5378c",
+          "resolved_source": "output/service-design/stl/shin_clamp_sleeve_37_right.stl"
+        }
+      }
+    },
+    {
+      "key": "shin_clamp_sleeve_105_right",
+      "material": "aluminum",
+      "mesh_sha256": "81817fa7ba331b63b75d273bb0c3affed96cba783b5feec019fe16715753ee1b",
+      "instances": [
+        {
+          "name": "FR_shin_clamp_sleeve_105",
+          "leg": "FR",
+          "group": "knee"
+        },
+        {
+          "name": "RR_shin_clamp_sleeve_105",
+          "leg": "RR",
+          "group": "knee"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/shin_clamp_sleeve_105_right.step",
+          "sha256": "8ae34dfce8b9fc032ce5d14f14665906139731438f533fea59a36a78ef03f715",
+          "resolved_source": "output/service-design/step/shin_clamp_sleeve_105_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/shin_clamp_sleeve_105_right.stl",
+          "sha256": "23a75903de5fd46a091aa6a08867f4b1f90e7952c93f03cb369a7869f10d2ed4",
+          "resolved_source": "output/service-design/stl/shin_clamp_sleeve_105_right.stl"
+        }
+      }
+    },
+    {
+      "key": "foot_right",
+      "material": "rubber",
+      "mesh_sha256": "9b7119445e3d165125d7a32419b2a8c39511ee7c1fa40b4b688490b71102327a",
+      "instances": [
+        {
+          "name": "FR_foot",
+          "leg": "FR",
+          "group": "knee"
+        },
+        {
+          "name": "RR_foot",
+          "leg": "RR",
+          "group": "knee"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/foot_right.step",
+          "sha256": "ef3df51046056ffd29610e63fa006d8f99ac59f8c52e917975c1fe2ef115d9ec",
+          "resolved_source": "output/step-parts/foot_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/foot_right.stl",
+          "sha256": "468ca1971cc4d162a48d30171f93ed019bc80b6e47af1ae9fbc98f198ac202ef",
+          "resolved_source": "output/stl/foot_right.stl"
+        }
+      }
+    },
+    {
+      "key": "roll_cartridge_-1",
+      "material": "aluminum",
+      "mesh_sha256": "d6acdb9cc2c9f972b0192be9fcb65b84b65653dc126a072d28c189c4797f17ea",
+      "instances": [
+        {
+          "name": "RL_roll_cartridge",
+          "leg": "RL",
+          "group": "mount"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/roll_cartridge_-1.step",
+          "sha256": "5f2e80726996b3adac596cec76aa3c4cd09fdab43434d5f98008886791c8ccc6",
+          "resolved_source": "output/step-parts/roll_cartridge_-1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/roll_cartridge_-1.stl",
+          "sha256": "0b5179315176ae28731677c47aaeff2e7e4766d23db9f11c260112db155b63b3",
+          "resolved_source": "output/stl/roll_cartridge_-1.stl"
+        }
+      }
+    },
+    {
+      "key": "motor_carrier_-1",
+      "material": "aluminum",
+      "mesh_sha256": "53b2f1916a253b0285066b2281b7769e3d37582cf5d3cf2cf4b82b7600880523",
+      "instances": [
+        {
+          "name": "RL_motor_carrier",
+          "leg": "RL",
+          "group": "roll"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/motor_carrier_-1.step",
+          "sha256": "f54ecc8db4e4605a53e47f646dd234ffb605c7a9952feaf47429b2ac24937d53",
+          "resolved_source": "output/shoulder-head-prototype/step/motor_carrier_-1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/motor_carrier_-1.stl",
+          "sha256": "1f07e7ba82caa783d6e9b1e6ab8cecfdf7f5bb2a2e17e63c2fa711dcc7c306c2",
+          "resolved_source": "output/shoulder-head-prototype/stl/motor_carrier_-1.stl"
+        }
+      }
+    },
+    {
+      "key": "roll_cartridge_-1_right",
+      "material": "aluminum",
+      "mesh_sha256": "54dbb309f1d749eaa96aaff50032fc81a810546d1bcc55430755a5c2d60036fd",
+      "instances": [
+        {
+          "name": "RR_roll_cartridge",
+          "leg": "RR",
+          "group": "mount"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/roll_cartridge_-1_right.step",
+          "sha256": "2648d57ceca0e710e5c37b9de701f596ef8de16843fac5ccd74c96975ce1c165",
+          "resolved_source": "output/step-parts/roll_cartridge_-1_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/roll_cartridge_-1_right.stl",
+          "sha256": "2d9d6170ab279b9df67f8227fa4e919a3fcd5923a6d1d9c05aeb6da2dce619d7",
+          "resolved_source": "output/stl/roll_cartridge_-1_right.stl"
+        }
+      }
+    },
+    {
+      "key": "motor_carrier_-1_right",
+      "material": "aluminum",
+      "mesh_sha256": "5d9b1485e318f17daa2f86c2545e6cf420cf3bce4d07c9e54680eccddd383ba7",
+      "instances": [
+        {
+          "name": "RR_motor_carrier",
+          "leg": "RR",
+          "group": "roll"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/motor_carrier_-1_right.step",
+          "sha256": "1edf10391c732a2db367d70e0e6d61887c1f0807df778d48df406241506a559d",
+          "resolved_source": "output/shoulder-head-prototype/step/motor_carrier_-1_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/motor_carrier_-1_right.stl",
+          "sha256": "a2d65f06848e03e10935e9dbcd6bd4cac0ad16703d5e4f27833a25fc15300e4b",
+          "resolved_source": "output/shoulder-head-prototype/stl/motor_carrier_-1_right.stl"
+        }
+      }
+    },
+    {
+      "key": "body_center_0",
+      "material": "petg",
+      "mesh_sha256": "5a7e425aaa6e5fd11baffd4f0175950213787e703349e95b78e7539cb169ff63",
+      "instances": [
+        {
+          "name": "body_center_0",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/body_center_0.step",
+          "sha256": "5c7a466130071e36e6452c296de9eac337fa9c12fa6037b284a43c60bbd163d8",
+          "resolved_source": "output/shoulder-head-prototype/step/body_center_0.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/body_center_0.stl",
+          "sha256": "b06ef48b44cbe5b71d636024f69e1bac69731cbb5a2090f32a31f54c9c012eb5",
+          "resolved_source": "output/shoulder-head-prototype/stl/body_center_0.stl"
+        }
+      }
+    },
+    {
+      "key": "belly_center_0",
+      "material": "petg",
+      "mesh_sha256": "1dafc21eaa5ca7fbe56e93304207a2c9a224017cc2b7e4657fea50cb64a5c77c",
+      "instances": [
+        {
+          "name": "belly_center_0",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/belly_center_0.step",
+          "sha256": "23c178af5d50b5b517b6227b8a1f60f61f55bffd7a92bb594bb715171e138092",
+          "resolved_source": "output/shoulder-head-prototype/step/belly_center_0.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/belly_center_0.stl",
+          "sha256": "9a6e017fcdb6c9de8d1c77332a94d935645a85257a5656aba7fa6c5dd25dbd89",
+          "resolved_source": "output/shoulder-head-prototype/stl/belly_center_0.stl"
+        }
+      }
+    },
+    {
+      "key": "neck_left",
+      "material": "petg",
+      "mesh_sha256": "2414178c1c76d0ade82baea26e76d686536542043e769f5fae0495af95a414f7",
+      "instances": [
+        {
+          "name": "neck_left",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/neck_left.step",
+          "sha256": "6c8bc32d9c2cd9f4768029dff85a0d323f0ff0eb0031137f386c69f64ed13ac3",
+          "resolved_source": "output/shoulder-head-prototype/step/neck_left.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/neck_left.stl",
+          "sha256": "d1e01bac608bc14b6fd72e86862605daca0491ea66a63270e8f548f5dfa17be4",
+          "resolved_source": "output/shoulder-head-prototype/stl/neck_left.stl"
+        }
+      }
+    },
+    {
+      "key": "neck_right",
+      "material": "petg",
+      "mesh_sha256": "eaa65e9bcd0b176a0809afe243f547fd6446e3a6bf10c21952ab24af482c80ea",
+      "instances": [
+        {
+          "name": "neck_right",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/neck_right.step",
+          "sha256": "51330b6d1e9361a8dc381e90004732eaa288ad00d0dc443e6f619b5de2a9fc04",
+          "resolved_source": "output/shoulder-head-prototype/step/neck_right.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/neck_right.stl",
+          "sha256": "ba93cb177bcef560ad46a80348efe2cd18b59f383568cbf0769491a2e56cdb0e",
+          "resolved_source": "output/shoulder-head-prototype/stl/neck_right.stl"
+        }
+      }
+    },
+    {
+      "key": "head_bridge_spacer_30_-1",
+      "material": "aluminum",
+      "mesh_sha256": "4b9727f69719c21f5d925a11a8e9edb37b9ef65cca83339f2857f5e97ce0298c",
+      "instances": [
+        {
+          "name": "head_bridge_spacer_30_-1",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/head_bridge_spacer_30_-1.step",
+          "sha256": "b7ee40442c795bdea47679aeafb0374b80d575304466cf95a913ec061ce20acd",
+          "resolved_source": "output/shoulder-head-prototype/step/head_bridge_spacer_30_-1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/head_bridge_spacer_30_-1.stl",
+          "sha256": "37f6b1c000ba1874298e694bb3173c226f3ee14f9a48cf0a34b36a6f17fd5509",
+          "resolved_source": "output/shoulder-head-prototype/stl/head_bridge_spacer_30_-1.stl"
+        }
+      }
+    },
+    {
+      "key": "head_bridge_spacer_62_-1",
+      "material": "aluminum",
+      "mesh_sha256": "b350d195a4075eae93c43ffca78d95a8425ababf034a620c4bf34ad940143cdc",
+      "instances": [
+        {
+          "name": "head_bridge_spacer_62_-1",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/head_bridge_spacer_62_-1.step",
+          "sha256": "a7d1f8ed1a3b466ddf2abf140cb618625a0d46ec049d1bda01cf8bb5508ec9c4",
+          "resolved_source": "output/shoulder-head-prototype/step/head_bridge_spacer_62_-1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/head_bridge_spacer_62_-1.stl",
+          "sha256": "8e2bf07ddb1727477f12f839d7a27c58a9b43a16604f90956be8ad5045e90947",
+          "resolved_source": "output/shoulder-head-prototype/stl/head_bridge_spacer_62_-1.stl"
+        }
+      }
+    },
+    {
+      "key": "head_bridge_spacer_30_1",
+      "material": "aluminum",
+      "mesh_sha256": "ccaab69333aea01d1ddd37c7bd09beecbfc0b46d31a22b77154be4f11aa942d2",
+      "instances": [
+        {
+          "name": "head_bridge_spacer_30_1",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/head_bridge_spacer_30_1.step",
+          "sha256": "d7f53b74d32711612c01609e1e7b870a47269cff516e86a1b4f0b148049c0695",
+          "resolved_source": "output/shoulder-head-prototype/step/head_bridge_spacer_30_1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/head_bridge_spacer_30_1.stl",
+          "sha256": "1417989caa28eb2bf9d0cd710fcb452a54f6f14363a3dd843785ac9511621f65",
+          "resolved_source": "output/shoulder-head-prototype/stl/head_bridge_spacer_30_1.stl"
+        }
+      }
+    },
+    {
+      "key": "head_bridge_spacer_62_1",
+      "material": "aluminum",
+      "mesh_sha256": "9f5b5dfdfbc17cb472bf44e3431a996f2a2de341d4a7bd7d8194fe4ea0824ecf",
+      "instances": [
+        {
+          "name": "head_bridge_spacer_62_1",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/head_bridge_spacer_62_1.step",
+          "sha256": "1724ef7eeaf55e2e66ff6af4ad0edb6abe7cc5d340d35f9d5cf967c2f44757a8",
+          "resolved_source": "output/shoulder-head-prototype/step/head_bridge_spacer_62_1.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/head_bridge_spacer_62_1.stl",
+          "sha256": "d11eeab7073de5585fc94632a0eb4c027c0cb789269968e6f5dc0ce5970205f1",
+          "resolved_source": "output/shoulder-head-prototype/stl/head_bridge_spacer_62_1.stl"
+        }
+      }
+    },
+    {
+      "key": "head_bridge",
+      "material": "aluminum",
+      "mesh_sha256": "d9d8f78b27fb2079f89499948a58e2c1aabeaddd8fba599a4ed8276bd52f0d48",
+      "instances": [
+        {
+          "name": "head_bridge",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/head_bridge.step",
+          "sha256": "83563a2270b6baacd98bc9abf1e3fab2cbc03b0c9141777a0431f4a82e38fc81",
+          "resolved_source": "output/shoulder-head-prototype/step/head_bridge.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/head_bridge.stl",
+          "sha256": "1c33ccd265728ab540c020f343aec572baae8190f62e47aad9a3c42ff1a52068",
+          "resolved_source": "output/shoulder-head-prototype/stl/head_bridge.stl"
+        }
+      }
+    },
+    {
+      "key": "head_bumper",
+      "material": "rubber",
+      "mesh_sha256": "a1ddec65311157474576ed0728aec3bf0000e53403d67663457e98c28d021f86",
+      "instances": [
+        {
+          "name": "head_bumper",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/head_bumper.step",
+          "sha256": "1d54013d5042f7c7efdad7998b655ef36d5619f1104941ae065d2f5660b299f5",
+          "resolved_source": "output/shoulder-head-prototype/step/head_bumper.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/head_bumper.stl",
+          "sha256": "24a88f014584059843cf8f5fef5b8702638c4998c60442c52586dbaf21f1c36e",
+          "resolved_source": "output/shoulder-head-prototype/stl/head_bumper.stl"
+        }
+      }
+    },
+    {
+      "key": "chassis_beam_-102",
+      "material": "aluminum",
+      "mesh_sha256": "5365f940550ce234773a9576e2233e10f70a7da0d997ed43cab5acf88fd81ceb",
+      "instances": [
+        {
+          "name": "chassis_beam_-102",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/chassis_beam_-102.step",
+          "sha256": "39cb9f4320845ccc2231623447b8e718f8911f809a4c4687aca50bb59a3774c0",
+          "resolved_source": "output/shoulder-head-prototype/step/chassis_beam_-102.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/chassis_beam_-102.stl",
+          "sha256": "fc1aef12a2a509099c1069bd940c7f8ec54391ad1ad864d5c22851eda02b2c5c",
+          "resolved_source": "output/shoulder-head-prototype/stl/chassis_beam_-102.stl"
+        }
+      }
+    },
+    {
+      "key": "chassis_beam_102",
+      "material": "aluminum",
+      "mesh_sha256": "313504b0aac95d5aa202a9274bb42912abe5991a7b930348c141840052b61a33",
+      "instances": [
+        {
+          "name": "chassis_beam_102",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/chassis_beam_102.step",
+          "sha256": "3935244a92552f910f6e7e2dde9b46661b3a1e62385e9cec1ad2a73efe37014f",
+          "resolved_source": "output/shoulder-head-prototype/step/chassis_beam_102.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/chassis_beam_102.stl",
+          "sha256": "8c089cb4d5c52acb81949df37ee4cea0cc1daee605d1a51257fcece296ba5cd1",
+          "resolved_source": "output/shoulder-head-prototype/stl/chassis_beam_102.stl"
+        }
+      }
+    },
+    {
+      "key": "equipment_head_lower",
+      "material": "petg",
+      "mesh_sha256": "2339c7c5d51a060d81d98b471b956264f17d140cdd641fadb6abce5b3ee4d71e",
+      "instances": [
+        {
+          "name": "equipment_head_lower",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/equipment_head_lower.step",
+          "sha256": "2d540f682eb9160a1dee3ed31dba9651d99e00d4fefac4d903e1266466423987",
+          "resolved_source": "output/shoulder-head-prototype/step/equipment_head_lower.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/equipment_head_lower.stl",
+          "sha256": "f582f8f6ce018bff53bc5cb93871f9587545fc6b5395cf79bd30a3da8c883388",
+          "resolved_source": "output/shoulder-head-prototype/stl/equipment_head_lower.stl"
+        }
+      }
+    },
+    {
+      "key": "equipment_head_lid",
+      "material": "petg",
+      "mesh_sha256": "ee4ab5d30f57d7c8d90b0d1f9ba57812d8b9bf1cd69a8bb245c2bbb719b40746",
+      "instances": [
+        {
+          "name": "equipment_head_lid",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/equipment_head_lid.step",
+          "sha256": "9dda08f216386024c5a9dd3a74822edae13e7911d932443719699b39158b882c",
+          "resolved_source": "output/shoulder-head-prototype/step/equipment_head_lid.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/equipment_head_lid.stl",
+          "sha256": "f286c88a6522fec70677305110762d9644ec5e2e947abd2e47550155ce1ce896",
+          "resolved_source": "output/shoulder-head-prototype/stl/equipment_head_lid.stl"
+        }
+      }
+    },
+    {
+      "key": "head_visor",
+      "material": "petg",
+      "mesh_sha256": "e898eada2876ccbc543835594fde45c53d8f93833a69f7aa22522ba9db9986fa",
+      "instances": [
+        {
+          "name": "head_visor",
+          "leg": null,
+          "group": "body"
+        }
+      ],
+      "files": {
+        "step": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/step/head_visor.step",
+          "sha256": "940002492778d45c6e2507b68fcb96751266df6b6154e6ef0a7b7506234f9b8a",
+          "resolved_source": "output/shoulder-head-prototype/step/head_visor.step"
+        },
+        "stl": {
+          "path": "snapshots/current-targets/34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2/stl/head_visor.stl",
+          "sha256": "5e429e0ba34310e8430622e084e13e52d541bd822c5ac43c17c0c61935f7ad33",
+          "resolved_source": "output/shoulder-head-prototype/stl/head_visor.stl"
+        }
+      }
+    }
+  ],
+  "source_of_truth_changed": false
+}

@@ -1,0 +1,62 @@
+{
+  "restored": true,
+  "state": {
+    "role": "chassis",
+    "version": 11,
+    "modified": true,
+    "up_to_date": true,
+    "can_advance": false,
+    "parameters_mm": {
+      "robot_hip_x": 185.0,
+      "robot_fastener_diametral_allowance": 0.4000000000000001,
+      "cover_hip_x": 185.0
+    },
+    "derived_parameters_mm": {},
+    "parts": {
+      "body_center_0": {
+        "bounds_mm": [
+          -131.99999999999997,
+          -114.8768599630991,
+          -10.0,
+          125.40000000000003,
+          114.8768599630991,
+          55.50000000000001
+        ],
+        "features": 96,
+        "faces": 257
+      },
+      "belly_center_0": {
+        "bounds_mm": [
+          -125.39999999999999,
+          -111.20000000000002,
+          -48.00000000000001,
+          125.4,
+          111.20000000000002,
+          -10.300000000000002
+        ],
+        "features": 15,
+        "faces": 72
+      },
+      "chassis_crossmember_121": {
+        "bounds_mm": [
+          115.0,
+          -101.00000000000001,
+          34.0,
+          127.00000000000001,
+          101.00000000000001,
+          42.800000000000004
+        ],
+        "features": 22,
+        "faces": 40
+      }
+    },
+    "frames": {},
+    "fastener_probe": 0,
+    "unhealthy": []
+  },
+  "version": 11,
+  "complete": false,
+  "modified": false,
+  "restored_bounds_error_mm": 0.0,
+  "restored_geometry_bounds_passed": true
+}

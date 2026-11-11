@@ -1,0 +1,97 @@
+{
+  "model_sha256": "dbc21b3df98a33e37a3ed0b2fc4ef836a3dec7f9c2bd008fc9224ac7cf622e04",
+  "parts": [
+    {
+      "id": "shin_inner",
+      "step": "step/shin_inner.step",
+      "stl": "stl/shin_inner.stl",
+      "volume_mm3": 43634.24294407865,
+      "roundtrip_volume_error": 7.111227123443281e-07
+    },
+    {
+      "id": "shin_inner_right",
+      "step": "step/shin_inner_right.step",
+      "stl": "stl/shin_inner_right.stl",
+      "volume_mm3": 43634.24294407865,
+      "roundtrip_volume_error": 9.50697894668288e-07
+    },
+    {
+      "id": "thigh_inner",
+      "step": "step/thigh_inner.step",
+      "stl": "stl/thigh_inner.stl",
+      "volume_mm3": 97451.48846674984,
+      "roundtrip_volume_error": 7.358083481843275e-09
+    },
+    {
+      "id": "thigh_inner_right",
+      "step": "step/thigh_inner_right.step",
+      "stl": "stl/thigh_inner_right.stl",
+      "volume_mm3": 97451.48846674981,
+      "roundtrip_volume_error": 2.654219069531079e-07
+    },
+    {
+      "id": "shin_outer",
+      "step": "step/shin_outer.step",
+      "stl": "stl/shin_outer.stl",
+      "volume_mm3": 41209.11505189997,
+      "roundtrip_volume_error": 1.5014279972245547e-06
+    },
+    {
+      "id": "shin_outer_right",
+      "step": "step/shin_outer_right.step",
+      "stl": "stl/shin_outer_right.stl",
+      "volume_mm3": 41209.11505189997,
+      "roundtrip_volume_error": 9.095630044621886e-08
+    },
+    {
+      "id": "thigh_outer",
+      "step": "step/thigh_outer.step",
+      "stl": "stl/thigh_outer.stl",
+      "volume_mm3": 102609.06417116005,
+      "roundtrip_volume_error": 8.671371235392967e-08
+    },
+    {
+      "id": "thigh_outer_right",
+      "step": "step/thigh_outer_right.step",
+      "stl": "stl/thigh_outer_right.stl",
+      "volume_mm3": 102609.06417116005,
+      "roundtrip_volume_error": 3.6056037748991007e-06
+    },
+    {
+      "id": "body_center_0",
+      "step": "step/body_center_0.step",
+      "stl": "stl/body_center_0.stl",
+      "volume_mm3": 301471.7915178685,
+      "roundtrip_volume_error": 1.6045785611962498e-09
+    },
+    {
+      "id": "motor_carrier_-1",
+      "step": "step/motor_carrier_-1.step",
+      "stl": "stl/motor_carrier_-1.stl",
+      "volume_mm3": 115775.39947083087,
+      "roundtrip_volume_error": 3.8684533772608916e-07
+    },
+    {
+      "id": "motor_carrier_-1_right",
+      "step": "step/motor_carrier_-1_right.step",
+      "stl": "stl/motor_carrier_-1_right.stl",
+      "volume_mm3": 115775.39947083087,
+      "roundtrip_volume_error": 9.41684926444233e-07
+    },
+    {
+      "id": "motor_carrier_1",
+      "step": "step/motor_carrier_1.step",
+      "stl": "stl/motor_carrier_1.stl",
+      "volume_mm3": 115771.56049243467,
+      "roundtrip_volume_error": 1.9016081415468958e-10
+    },
+    {
+      "id": "motor_carrier_1_right",
+      "step": "step/motor_carrier_1_right.step",
+      "stl": "stl/motor_carrier_1_right.stl",
+      "volume_mm3": 115771.56049243467,
+      "roundtrip_volume_error": 1.170818547019039e-05
+    }
+  ],
+  "scope": "Tinfox V1 rounded articulated enclosure proposal. Accepted V0 retained as native migration reference. Existing component count and joint datums retained; mating lands, printed carrier split, strength and full motion qualification remain unfinished."
+}

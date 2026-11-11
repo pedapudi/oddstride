@@ -1,0 +1,4898 @@
+{
+  "overall_passed": true,
+  "scope": "Detached, unpowered three-RS02 proximal complex fit assembly. Not a release for powered or loaded operation, CNC production, or structural polymer substitution.",
+  "source_model_sha256": "b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6",
+  "corrected_target_sha256": {
+    "thigh_outer": "5371a23c585301b15cc4a8a1a991a10e513a9479e20a572b150ba1b0a584683e",
+    "input_crank": "dd3324222cfd270d35d6ce4497abd78b69aff1240762aca6465ea7f356763e9e"
+  },
+  "input_step_sha256": {
+    "hip_hub": "983f8f512e35e94e67cb1a17e81d3e2910b7816a85bda1c39eadb7de3151450e",
+    "motor_mount_ring": "72b1f1c3bc6e89d66e37ee4f264c4c6813617ed7d4070d315771abe944ef897e",
+    "thigh_inner": "b8cb7f644e92119b329e3cffac039385b432150365d77b4b92fcc5c929fefa7a",
+    "thigh_outer": "5371a23c585301b15cc4a8a1a991a10e513a9479e20a572b150ba1b0a584683e",
+    "input_crank": "dd3324222cfd270d35d6ce4497abd78b69aff1240762aca6465ea7f356763e9e",
+    "hip_stator_closure_1": "75173edfdeb3b60dbc173367b3ffac71d30589349719d9cae31699f6ddccc832",
+    "motor_carrier_1": "822550fccd463ac9948ef0dd7786dc64ad93b2fd3c238b143c8d28ee8223ada8",
+    "roll_cartridge_1": "cad2ccf70480917488e0964864c93f3ebd6ae245ad3cd80e66956ce1b58bca9e",
+    "roll_outer_retainer_1": "246f8fa19dd728da1309dc5251df8632da584d1412953dfa1af9b685b55f0dd4",
+    "pod_sleeve_90": "9348b93d7580372c6c93932f911ed0c3d9143d739f56174836e1fd06aec44523",
+    "pod_sleeve_210": "38b4c0fd289dc73cef55834b5bda3040f3c287e9e1dc6ca47259a0df659bb800",
+    "pod_sleeve_330": "45d0dd5411fcf02b6ceb37be7fc887ef3423bc2dd201b24689ce32a274856b6a"
+  },
+  "manufacturer_reference": {
+    "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/references/rs02-manual.pdf",
+    "sha256": "e7f9f7c465d263ee52b9da01104afaeeec773400f44e6caaf1c2505928c0bfe6",
+    "drawing": "9M3depth8 onPCD73\u00b10.2;6M4depth7MIN onPCD24\u00b10.2. Prototype penetration\u22646mm;7MIN is not a maximum. Pilot3.5(+0/\u22120.3) plus0.5 frontstep; case41.5 versus modeled41.4mm."
+  },
+  "checks": [
+    {
+      "check": "tie90 head to metal sleeve",
+      "footprint_mm2": 10.555751316063574,
+      "passed": true
+    },
+    {
+      "check": "tie90 nut to hub underside",
+      "footprint_mm2": 17.118065695604457,
+      "passed": true
+    },
+    {
+      "check": "tie90 M3x60 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3 nut / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3x60 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3 nut / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3x60 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3 nut / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3x60 / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3 nut / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3x60 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3 nut / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3x60 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3 nut / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3x60 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3 nut / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3x60 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3 nut / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3x60 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3 nut / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3x60 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3 nut / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3x60 / metal sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 M3 nut / metal sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 axial head entry 0",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 axial head entry 3",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 axial head entry 8",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 axial head entry 20",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 axial head entry 40",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 axial head entry 60",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 straight3mm driver",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie90 ordinary5_5mm holding wrench seated",
+      "tool": {
+        "head_width_mm": 14.5,
+        "thickness_mm": 3.4,
+        "jaw_opening_mm": 5.6,
+        "handle_mm": 80
+      },
+      "configurations": [
+        {
+          "jaw_clock_from_radial_deg": 0,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        },
+        {
+          "jaw_clock_from_radial_deg": 15,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        },
+        {
+          "jaw_clock_from_radial_deg": 30,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        },
+        {
+          "jaw_clock_from_radial_deg": 45,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        },
+        {
+          "jaw_clock_from_radial_deg": 60,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "tie210 head to metal sleeve",
+      "footprint_mm2": 10.555751316063585,
+      "passed": true
+    },
+    {
+      "check": "tie210 nut to hub underside",
+      "footprint_mm2": 17.118065695604436,
+      "passed": true
+    },
+    {
+      "check": "tie210 M3x60 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3 nut / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3x60 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3 nut / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3x60 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3 nut / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3x60 / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3 nut / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3x60 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3 nut / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3x60 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3 nut / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3x60 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3 nut / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3x60 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3 nut / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3x60 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3 nut / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3x60 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3 nut / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3x60 / metal sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 M3 nut / metal sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 axial head entry 0",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 axial head entry 3",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 axial head entry 8",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 axial head entry 20",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 axial head entry 40",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 axial head entry 60",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 straight3mm driver",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie210 ordinary5_5mm holding wrench seated",
+      "tool": {
+        "head_width_mm": 14.5,
+        "thickness_mm": 3.4,
+        "jaw_opening_mm": 5.6,
+        "handle_mm": 80
+      },
+      "configurations": [
+        {
+          "jaw_clock_from_radial_deg": 0,
+          "maximum_overlap_mm3": 10.56999070118287,
+          "hits": {
+            "roll housing": 10.56999070118287,
+            "retainer": 8.536869104149483
+          }
+        },
+        {
+          "jaw_clock_from_radial_deg": 15,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        },
+        {
+          "jaw_clock_from_radial_deg": 30,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        },
+        {
+          "jaw_clock_from_radial_deg": 45,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        },
+        {
+          "jaw_clock_from_radial_deg": 60,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "tie330 head to metal sleeve",
+      "footprint_mm2": 10.555751316063585,
+      "passed": true
+    },
+    {
+      "check": "tie330 nut to hub underside",
+      "footprint_mm2": 17.11806569560444,
+      "passed": true
+    },
+    {
+      "check": "tie330 M3x60 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3 nut / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3x60 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3 nut / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3x60 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3 nut / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3x60 / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3 nut / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3x60 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3 nut / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3x60 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3 nut / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3x60 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3 nut / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3x60 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3 nut / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3x60 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3 nut / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3x60 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3 nut / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3x60 / metal sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 M3 nut / metal sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 axial head entry 0",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 axial head entry 3",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 axial head entry 8",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 axial head entry 20",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 axial head entry 40",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 axial head entry 60",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 straight3mm driver",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "tie330 ordinary5_5mm holding wrench seated",
+      "tool": {
+        "head_width_mm": 14.5,
+        "thickness_mm": 3.4,
+        "jaw_opening_mm": 5.6,
+        "handle_mm": 80
+      },
+      "configurations": [
+        {
+          "jaw_clock_from_radial_deg": 0,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        },
+        {
+          "jaw_clock_from_radial_deg": 15,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        },
+        {
+          "jaw_clock_from_radial_deg": 30,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        },
+        {
+          "jaw_clock_from_radial_deg": 45,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        },
+        {
+          "jaw_clock_from_radial_deg": 60,
+          "maximum_overlap_mm3": 0,
+          "hits": {}
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "hip output0 M4x8 seat",
+      "footprint_mm2": 23.279201563100575,
+      "passed": true
+    },
+    {
+      "check": "knee output0 M4x12 seat",
+      "footprint_mm2": 23.279201563104195,
+      "passed": true
+    },
+    {
+      "check": "hip output0 screw / hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output0 screw / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output0 screw / closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output0 screw / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output0 screw / crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output0 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output0 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output0 head entry 0",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output0 head entry 1",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output0 head entry 5",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output0 head entry 10",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output0 head entry 25",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output0 4mm driver / crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output0 4mm driver / closed outer thigh",
+      "overlap_mm3": 48.44345272826857,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "hip output0 driver before knee motor / hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output60 M4x8 seat",
+      "footprint_mm2": 23.279201563100575,
+      "passed": true
+    },
+    {
+      "check": "knee output60 M4x12 seat",
+      "footprint_mm2": 23.279201563104195,
+      "passed": true
+    },
+    {
+      "check": "hip output60 screw / hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output60 screw / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output60 screw / closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output60 screw / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output60 screw / crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output60 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output60 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output60 head entry 0",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output60 head entry 1",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output60 head entry 5",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output60 head entry 10",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output60 head entry 25",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output60 4mm driver / crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output60 4mm driver / closed outer thigh",
+      "overlap_mm3": 49.80086061431811,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "hip output60 driver before knee motor / hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output120 M4x8 seat",
+      "footprint_mm2": 23.279201563100575,
+      "passed": true
+    },
+    {
+      "check": "knee output120 M4x12 seat",
+      "footprint_mm2": 23.279201563104195,
+      "passed": true
+    },
+    {
+      "check": "hip output120 screw / hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output120 screw / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output120 screw / closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output120 screw / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output120 screw / crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output120 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output120 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output120 head entry 0",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output120 head entry 1",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output120 head entry 5",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output120 head entry 10",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output120 head entry 25",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output120 4mm driver / crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output120 4mm driver / closed outer thigh",
+      "overlap_mm3": 49.80082128573197,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "hip output120 driver before knee motor / hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output180 M4x8 seat",
+      "footprint_mm2": 23.279201563100575,
+      "passed": true
+    },
+    {
+      "check": "knee output180 M4x12 seat",
+      "footprint_mm2": 23.279201563104195,
+      "passed": true
+    },
+    {
+      "check": "hip output180 screw / hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output180 screw / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output180 screw / closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output180 screw / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output180 screw / crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output180 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output180 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output180 head entry 0",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output180 head entry 1",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output180 head entry 5",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output180 head entry 10",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output180 head entry 25",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output180 4mm driver / crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output180 4mm driver / closed outer thigh",
+      "overlap_mm3": 48.44337548728991,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "hip output180 driver before knee motor / hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output240 M4x8 seat",
+      "footprint_mm2": 23.279201563100575,
+      "passed": true
+    },
+    {
+      "check": "knee output240 M4x12 seat",
+      "footprint_mm2": 23.2792015631042,
+      "passed": true
+    },
+    {
+      "check": "hip output240 screw / hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output240 screw / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output240 screw / closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output240 screw / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output240 screw / crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output240 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output240 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output240 head entry 0",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output240 head entry 1",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output240 head entry 5",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output240 head entry 10",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output240 head entry 25",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output240 4mm driver / crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output240 4mm driver / closed outer thigh",
+      "overlap_mm3": 49.80082128558132,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "hip output240 driver before knee motor / hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output300 M4x8 seat",
+      "footprint_mm2": 23.279201563100575,
+      "passed": true
+    },
+    {
+      "check": "knee output300 M4x12 seat",
+      "footprint_mm2": 23.279201563104195,
+      "passed": true
+    },
+    {
+      "check": "hip output300 screw / hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output300 screw / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output300 screw / closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "hip output300 screw / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output300 screw / crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output300 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output300 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output300 head entry 0",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output300 head entry 1",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output300 head entry 5",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output300 head entry 10",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output300 head entry 25",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output300 4mm driver / crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee output300 4mm driver / closed outer thigh",
+      "overlap_mm3": 49.80086061443508,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "hip output300 driver before knee motor / hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator20 M3x8 seat",
+      "footprint_mm2": 14.679091673900729,
+      "passed": true
+    },
+    {
+      "check": "knee stator20 screw / plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator20 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator20 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator20 3mm driver / closed outer thigh",
+      "overlap_mm3": 19.945040883217214,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator60 M3x8 seat",
+      "footprint_mm2": 14.679091673900718,
+      "passed": true
+    },
+    {
+      "check": "knee stator60 screw / plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator60 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator60 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator60 3mm driver / closed outer thigh",
+      "overlap_mm3": 25.91538138798395,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator100 M3x8 seat",
+      "footprint_mm2": 14.679091673900718,
+      "passed": true
+    },
+    {
+      "check": "knee stator100 screw / plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator100 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator100 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator100 3mm driver / closed outer thigh",
+      "overlap_mm3": 27.98650660248135,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator140 M3x8 seat",
+      "footprint_mm2": 14.679091673900722,
+      "passed": true
+    },
+    {
+      "check": "knee stator140 screw / plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator140 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator140 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator140 3mm driver / closed outer thigh",
+      "overlap_mm3": 22.739911815547767,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator180 M3x8 seat",
+      "footprint_mm2": 14.679091673900729,
+      "passed": true
+    },
+    {
+      "check": "knee stator180 screw / plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator180 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator180 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator180 3mm driver / closed outer thigh",
+      "overlap_mm3": 18.840701475737713,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator220 M3x8 seat",
+      "footprint_mm2": 14.679091673900723,
+      "passed": true
+    },
+    {
+      "check": "knee stator220 screw / plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator220 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator220 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator220 3mm driver / closed outer thigh",
+      "overlap_mm3": 22.739911815550162,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator260 M3x8 seat",
+      "footprint_mm2": 14.679091673900723,
+      "passed": true
+    },
+    {
+      "check": "knee stator260 screw / plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator260 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator260 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator260 3mm driver / closed outer thigh",
+      "overlap_mm3": 27.98650660246829,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator300 M3x8 seat",
+      "footprint_mm2": 14.679091673900729,
+      "passed": true
+    },
+    {
+      "check": "knee stator300 screw / plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator300 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator300 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator300 3mm driver / closed outer thigh",
+      "overlap_mm3": 25.915381388042512,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator340 M3x8 seat",
+      "footprint_mm2": 14.679091673900732,
+      "passed": true
+    },
+    {
+      "check": "knee stator340 screw / plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator340 screw / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator340 screw / outer thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "knee stator340 3mm driver / closed outer thigh",
+      "overlap_mm3": 19.94504088317165,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.1 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.25 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+0.5 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+1 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+2 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+3 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+5 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+10 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+20 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+30 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+40 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / hip hub",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / stator plate",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / inner thigh",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / hip motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee motor",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / hip closure",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / cup",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / roll housing",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / retainer",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / input crank",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / tie90 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / tie90 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / tie90 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / tie210 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / tie210 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / tie210 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / tie330 sleeve",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / tie330 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / tie330 nut",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / hip output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee output0 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / hip output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee output60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / hip output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee output120 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / hip output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee output180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / hip output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee output240 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / hip output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee output300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee stator20 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee stator60 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee stator100 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee stator140 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee stator180 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee stator220 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee stator260 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee stator300 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    },
+    {
+      "check": "outer shell staged insertion Y+60 / knee stator340 screw",
+      "overlap_mm3": 0,
+      "passed": true,
+      "required_for_staged_assembly": true
+    }
+  ],
+  "failed_checks": [],
+  "service_order_limitations": [
+    {
+      "check": "knee output0 4mm driver / closed outer thigh",
+      "overlap_mm3": 48.44345272826857,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee output60 4mm driver / closed outer thigh",
+      "overlap_mm3": 49.80086061431811,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee output120 4mm driver / closed outer thigh",
+      "overlap_mm3": 49.80082128573197,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee output180 4mm driver / closed outer thigh",
+      "overlap_mm3": 48.44337548728991,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee output240 4mm driver / closed outer thigh",
+      "overlap_mm3": 49.80082128558132,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee output300 4mm driver / closed outer thigh",
+      "overlap_mm3": 49.80086061443508,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator20 3mm driver / closed outer thigh",
+      "overlap_mm3": 19.945040883217214,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator60 3mm driver / closed outer thigh",
+      "overlap_mm3": 25.91538138798395,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator100 3mm driver / closed outer thigh",
+      "overlap_mm3": 27.98650660248135,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator140 3mm driver / closed outer thigh",
+      "overlap_mm3": 22.739911815547767,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator180 3mm driver / closed outer thigh",
+      "overlap_mm3": 18.840701475737713,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator220 3mm driver / closed outer thigh",
+      "overlap_mm3": 22.739911815550162,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator260 3mm driver / closed outer thigh",
+      "overlap_mm3": 27.98650660246829,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator300 3mm driver / closed outer thigh",
+      "overlap_mm3": 25.915381388042512,
+      "passed": false,
+      "required_for_staged_assembly": false
+    },
+    {
+      "check": "knee stator340 3mm driver / closed outer thigh",
+      "overlap_mm3": 19.94504088317165,
+      "passed": false,
+      "required_for_staged_assembly": false
+    }
+  ],
+  "hardware": [
+    {
+      "item": "Pod through ties",
+      "specification": "M3x60 socket-head cap screws, ordinary5.5AF M3 nuts; no washers in the preserved metal stack",
+      "quantity": 3,
+      "nut_quantity": 3,
+      "seating_position": "Head undersideY61; nut bearingfaceY5, nutY2.6..5",
+      "nut_engagement_mm": 2.4,
+      "tip_projection_mm": 1.6,
+      "remaining_physical_checks": "Measure actual60mm screw,2.4mm nut and41/6mm metal tube lengths; keep full nut engagement. Do not substitute65mm."
+    },
+    {
+      "item": "Hip-pitch output to hub",
+      "specification": "M4x8 socket-head cap screw",
+      "quantity": 6,
+      "seating_position": "UnderheadY3.7; motoroutputY0",
+      "thread_penetration_mm": 4.3,
+      "remaining_physical_checks": "Install before knee motor; confirm motor output step and actual screwhead."
+    },
+    {
+      "item": "Knee-pitch output to crank",
+      "specification": "M4x12 socket-head cap screw",
+      "quantity": 6,
+      "seating_position": "UnderheadY61; motoroutputY54.4",
+      "thread_penetration_mm": 5.4,
+      "remaining_physical_checks": "Use corrected through-open crank; measure blind-hole depth before final tightening."
+    },
+    {
+      "item": "Knee stator to plate",
+      "specification": "M3x8 socket-head cap screw",
+      "quantity": 9,
+      "seating_position": "UnderheadY53.5; motorstatorY50.4",
+      "thread_penetration_mm": 4.9,
+      "remaining_physical_checks": "Install before crank. Nominal0.1mm plate/motorface gap means actual seated engagement may approach5.0mm."
+    },
+    {
+      "item": "Hip stator to removable closure",
+      "specification": "M3x8 countersunk socket screw; prefer specified DIN7991 head dimensions",
+      "quantity": 9,
+      "seating_position": "Nominal topY\u22120.9; reference envelope draws down0.20mm to seat",
+      "thread_penetration_reference_mm": 5.1,
+      "remaining_physical_checks": "Check selected head standard/rim and actual conical seating; keep penetration\u22646mm. Ordinary screw references are not proof of final seated position."
+    },
+    {
+      "item": "Roll output coupling",
+      "specification": "M4x25 countersunk socket screw",
+      "quantity": 6,
+      "seating_position": "Nominal topX\u221252.5; reference envelope draws down0.20mm",
+      "thread_penetration_reference_mm": 4.2,
+      "remaining_physical_checks": "Check selected DIN7991/ISO10642 head; expected penetration about4.0\u20134.5mm,\u22646mm."
+    },
+    {
+      "item": "Roll motor stator/body stack",
+      "specification": "M3x30 button-head socket screw",
+      "quantity": 9,
+      "seating_position": "UnderheadX\u221250.5; motorstatorX\u221277.5",
+      "thread_penetration_mm": 3.0,
+      "remaining_physical_checks": "Confirm actual motorstatorface. Do not substitute35mm; it would reach8mm."
+    },
+    {
+      "item": "Roll outer bearing retainer",
+      "specification": "M3x25 button-head socket screw plus ordinary5.5AF M3 nut",
+      "quantity": 3,
+      "nut_quantity": 3,
+      "seating_position": "UnderheadX\u221248.5; nutX\u221273..\u221270.6",
+      "nut_engagement_mm": 2.4,
+      "tip_projection_mm": 0.5,
+      "remaining_physical_checks": "Keep nut at front pocketfloor while starting screw; current rearplate hex openings do not axially retain it there."
+    },
+    {
+      "item": "Cup closure",
+      "specification": "M4x16 button-head socket screw; ordinary7AF M4 nut;4.3IDx9ODx0.8mm washer",
+      "quantity": 3,
+      "nut_quantity": 3,
+      "washer_quantity": 3,
+      "seating_position": "Head undersideY\u22120.1; washerY\u22120.9..\u22120.1; nutY\u221215.1..\u221211.9",
+      "nut_engagement_mm": 3.2,
+      "tip_projection_mm": 1.0,
+      "remaining_physical_checks": "Use documented7mm holding-wrench route; do not force larger tools."
+    },
+    {
+      "item": "Two structural thigh clamps",
+      "specification": "M4x25 button-head screw, ordinary M4 nut, two4.3IDx12ODx1mm washers and18mm compression sleeve per screw",
+      "quantity": 2,
+      "nut_quantity": 2,
+      "washer_quantity": 4,
+      "seating_position": "Existing corrected clampfloorsY58 and76; washers57..58/76..77",
+      "remaining_physical_checks": "Use metal sleeves for clamping; printed sleeve copies are fit-only. Preload/creep not qualified."
+    },
+    {
+      "item": "Roll bearings",
+      "specification": "6810-2RS, 50 x 65 x 7 mm sealed ball bearing",
+      "quantity": 2,
+      "remaining_physical_checks": "Select actual bearing brand; confirm race faces, fit and measured width. No preload qualification."
+    },
+    {
+      "item": "Pod compression tubes",
+      "specification": "Metal tube, 5 mm OD / 3.4 mm ID: three at 41 mm and three at 6 mm length",
+      "quantity": 6,
+      "remaining_physical_checks": "Square, deburr and measure both ends. Optional printed copies are fit-only."
+    },
+    {
+      "item": "Thigh clamp compression tubes",
+      "specification": "Metal tube, 8 mm OD / 4.4 mm ID, 18 mm length",
+      "quantity": 2,
+      "remaining_physical_checks": "Square ends and measured length; do not tighten printed substitute tubes structurally."
+    }
+  ],
+  "assembly_sequence": [
+    "Fit bearings/spacers and the outer retainer in the main housing with the rear plate and motor absent; start three M3 x 25 screws and accessible M3 nuts before closing the rear.",
+    "Position the inner backplate, fit the rear stator plate and roll motor, then install the nine M3 x 30 stator screws.",
+    "Fit the cup/journal and tighten the six M4 x 25 output screws through the empty cup before installing the perpendicular hip motor.",
+    "Install the hip motor and its removable closure. Install the hip output hub with six M4 x 8 screws before the knee motor blocks those tool paths.",
+    "Fit the knee motor to its plate with nine M3 x 8 screws; install the input crank with six M4 x 12 screws before closing the outer thigh.",
+    "Assemble the three M3 x 60 pod ties, six metal sleeves and three M3 nuts; slide the corrected outer thigh axially over the preassembled module.",
+    "Tighten the three long ties through their open channels and close the two structural thigh clamps. Accessing the fifteen knee-motor screws later requires removing the outer shell."
+  ],
+  "ordinary_nut_totals": {
+    "M3": 6,
+    "M4": 5
+  },
+  "limits": [
+    "Verify physical motor-hole depth, face datums and purchased fastener/head tolerances before tightening.",
+    "Some fasteners need a staged assembly order: hipoutput before knee motor; kneestator before crank; outer shell head-entry cuts are required.",
+    "Tube stack is9.5..50.5 and55..61; bare tie head clamps the metal sleeve, not the outer polymer. Two existingM4 shell clamps retain the structural halves.",
+    "No knee axle,6001bearings,pushrod or shoulder pins required for this proximal assembly.",
+    "Metal sleeve/spacer substitution and structural strength remain separate from the printed fit test."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "saved": false,
+  "bindings": [
+    {
+      "parameter": "d1123",
+      "before": "saddle_x - 82 mm",
+      "after": "reference_lidar_base_x-82 mm"
+    },
+    {
+      "parameter": "d1127",
+      "before": "saddle_sensor_lid_bottom_z - 74 mm",
+      "after": "reference_lidar_lid_base_z-74 mm"
+    }
+  ],
+  "frame_rule": {
+    "x": "saddle_x-reference_lidar_base_x",
+    "y": "0 mm",
+    "z": "saddle_sensor_lid_bottom_z-reference_lidar_lid_base_z"
+  },
+  "baseline_bounds_unchanged": true,
+  "scope": "The placement frame now owns live family motion for the native lidar cover and its vendor references. Its previous internal Move feature retains only the frozen source-coordinate offset."
+}

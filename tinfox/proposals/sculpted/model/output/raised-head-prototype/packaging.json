@@ -1,0 +1,41 @@
+{
+  "model_sha256": "295fcc6656da7bdf9a699153604efd4f4cd505ffb9bf4eace9a7b5b6703d6ff5",
+  "shoulder_axis_x_mm": 185,
+  "head_center_mm": [
+    264.0958562690161,
+    0,
+    141.5318967117067
+  ],
+  "placement_change": {
+    "forward_mm": 12.0,
+    "upward_gaze_deg": 7.0,
+    "settle_mm": -3.0
+  },
+  "lidar_seat_z_mm": 168.5,
+  "junction": "Continuous exterior with a tilted removable throat joint; no external flange.",
+  "head_drop_mm": 20.0,
+  "head_lower_bounds_z_mm": [
+    85.23423678999153,
+    158.5445255487232
+  ],
+  "head_lid_max_z_mm": 171.6756095845662,
+  "lidar_scan_band_z_mm": [
+    172.5,
+    190.5
+  ],
+  "gross_cavity_litres": 0.9289218616690657,
+  "cavity_note": "Gross enclosed cavity before neck overlap, sensor envelopes, walls around mounts or cooling hardware.",
+  "head_mass_kg": 0.41617434634063427,
+  "neck_root_channel_mm": [
+    30,
+    42
+  ],
+  "neck_split_gap_mm": 0.2,
+  "assembly_sequence": [
+    "Bolt each neck half to the exposed front crossmember; leave screws loose.",
+    "Lay cables in the channel; close the halves with three side M3 screws and tighten root fasteners.",
+    "Install the head using two M4 screws from inside the open enclosure; connect sensors.",
+    "Fit the head lid and body cover."
+  ],
+  "manufacturing_note": "Side halves fit within roughly 160 x 54 mm in the split plane. Print split-face down; local counterbores may require supports. Fit, strength and tool-access qualification remain provisional."
+}

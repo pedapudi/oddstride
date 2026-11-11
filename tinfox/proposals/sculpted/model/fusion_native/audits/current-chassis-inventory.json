@@ -1,0 +1,454 @@
+[
+  {
+    "part": "CANDIDATE_current_body_center_0",
+    "name": "Current rounded body cover",
+    "features": 96,
+    "sketches": 59,
+    "bodies": 1
+  },
+  {
+    "part": "body_center_0",
+    "name": "body_center_0",
+    "features": 279,
+    "sketches": 130,
+    "bodies": 1
+  },
+  {
+    "part": "lidar_lid",
+    "name": "lidar_lid-native-component",
+    "features": 1,
+    "sketches": 1,
+    "bodies": 1,
+    "parameters": [
+      {
+        "name": "d1112",
+        "expression": "lidar_lid_4234_makeCylinder_offset",
+        "owner": "4234 makeCylinder datum"
+      },
+      {
+        "name": "d1113",
+        "expression": "0.00 mm",
+        "owner": "4234 makeCylinder datum"
+      },
+      {
+        "name": "d1114",
+        "expression": "lidar_lid_4234_makeCylinder_diameter",
+        "owner": "4234 makeCylinder profile"
+      },
+      {
+        "name": "d1117",
+        "expression": "lidar_lid_4234_makeCylinder_cylinder_depth",
+        "owner": "4234 makeCylinder cylinder"
+      },
+      {
+        "name": "d1118",
+        "expression": "0.0 deg",
+        "owner": "4234 makeCylinder cylinder"
+      }
+    ]
+  },
+  {
+    "part": "power_button",
+    "name": "power_button-native-component",
+    "features": 1,
+    "sketches": 1,
+    "bodies": 1
+  },
+  {
+    "part": "battery_cassette",
+    "name": "V0 - Battery cassette [battery_cassette] v1",
+    "features": 81,
+    "sketches": 32,
+    "bodies": 1
+  },
+  {
+    "part": "electronics_shelf",
+    "name": "electronics_shelf-native-component",
+    "features": 36,
+    "sketches": 15,
+    "bodies": 1
+  },
+  {
+    "part": "chassis_beam_102",
+    "name": "chassis beam 102",
+    "features": 3,
+    "sketches": 0,
+    "bodies": 1
+  },
+  {
+    "part": "battery_latch_-1",
+    "name": "Battery latch -1",
+    "features": 3,
+    "sketches": 1,
+    "bodies": 1
+  },
+  {
+    "part": "chassis_lower_brace",
+    "name": "Lower chassis brace",
+    "features": 26,
+    "sketches": 11,
+    "bodies": 1
+  },
+  {
+    "part": "battery_access_latch_-1",
+    "name": "Battery access latch -1",
+    "features": 3,
+    "sketches": 1,
+    "bodies": 1
+  },
+  {
+    "part": "chassis_beam_-102",
+    "name": "Chassis beam -102",
+    "features": 77,
+    "sketches": 34,
+    "bodies": 1
+  },
+  {
+    "part": "chassis_crossmember_-121",
+    "name": "chassis crossmember -121",
+    "features": 3,
+    "sketches": 0,
+    "bodies": 1
+  },
+  {
+    "part": "battery_side_panel_1",
+    "name": "battery side panel 1",
+    "features": 3,
+    "sketches": 0,
+    "bodies": 1
+  },
+  {
+    "part": "chassis_crossmember_121",
+    "name": "Front chassis crossmember",
+    "features": 21,
+    "sketches": 15,
+    "bodies": 1,
+    "parameters": [
+      {
+        "name": "d1243",
+        "expression": "chassis_crossmember_121_1166_extrudeLinear_offset",
+        "owner": "1166 extrudeLinear datum"
+      },
+      {
+        "name": "d1244",
+        "expression": "0.00 mm",
+        "owner": "1166 extrudeLinear datum"
+      },
+      {
+        "name": "d1246",
+        "expression": "chassis_crossmember_121_1166_extrudeLinear_extrusion_depth",
+        "owner": "1166 extrudeLinear extrusion"
+      },
+      {
+        "name": "d1247",
+        "expression": "0.0 deg",
+        "owner": "1166 extrudeLinear extrusion"
+      },
+      {
+        "name": "d1249",
+        "expression": "chassis_crossmember_121_1169_makeCylinder_offset",
+        "owner": "1169 makeCylinder datum"
+      },
+      {
+        "name": "d1250",
+        "expression": "0.00 mm",
+        "owner": "1169 makeCylinder datum"
+      },
+      {
+        "name": "d1251",
+        "expression": "chassis_crossmember_121_1169_makeCylinder_diameter",
+        "owner": "1169 makeCylinder profile"
+      },
+      {
+        "name": "d1254",
+        "expression": "chassis_crossmember_121_1169_makeCylinder_cylinder_depth",
+        "owner": "1169 makeCylinder cylinder"
+      },
+      {
+        "name": "d1255",
+        "expression": "0.0 deg",
+        "owner": "1169 makeCylinder cylinder"
+      },
+      {
+        "name": "d1257",
+        "expression": "chassis_crossmember_121_1171_makeCone_base_offset",
+        "owner": "1171 makeCone base datum"
+      },
+      {
+        "name": "d1258",
+        "expression": "0.00 mm",
+        "owner": "1171 makeCone base datum"
+      },
+      {
+        "name": "d1259",
+        "expression": "chassis_crossmember_121_1171_makeCone_base_diameter",
+        "owner": "1171 makeCone base profile"
+      },
+      {
+        "name": "d1262",
+        "expression": "chassis_crossmember_121_1171_makeCone_tip_offset",
+        "owner": "1171 makeCone tip datum"
+      },
+      {
+        "name": "d1263",
+        "expression": "0.00 mm",
+        "owner": "1171 makeCone tip datum"
+      },
+      {
+        "name": "d1264",
+        "expression": "chassis_crossmember_121_1171_makeCone_tip_diameter",
+        "owner": "1171 makeCone tip profile"
+      },
+      {
+        "name": "d1267",
+        "expression": "chassis_crossmember_121_1183_makeCylinder_offset",
+        "owner": "1183 makeCylinder datum"
+      },
+      {
+        "name": "d1268",
+        "expression": "0.00 mm",
+        "owner": "1183 makeCylinder datum"
+      },
+      {
+        "name": "d1269",
+        "expression": "chassis_crossmember_121_1183_makeCylinder_diameter",
+        "owner": "1183 makeCylinder profile"
+      },
+      {
+        "name": "d1272",
+        "expression": "chassis_crossmember_121_1183_makeCylinder_cylinder_depth",
+        "owner": "1183 makeCylinder cylinder"
+      },
+      {
+        "name": "d1273",
+        "expression": "0.0 deg",
+        "owner": "1183 makeCylinder cylinder"
+      },
+      {
+        "name": "d1275",
+        "expression": "chassis_crossmember_121_1185_makeCone_base_offset",
+        "owner": "1185 makeCone base datum"
+      },
+      {
+        "name": "d1276",
+        "expression": "0.00 mm",
+        "owner": "1185 makeCone base datum"
+      },
+      {
+        "name": "d1277",
+        "expression": "chassis_crossmember_121_1185_makeCone_base_diameter",
+        "owner": "1185 makeCone base profile"
+      },
+      {
+        "name": "d1280",
+        "expression": "chassis_crossmember_121_1185_makeCone_tip_offset",
+        "owner": "1185 makeCone tip datum"
+      },
+      {
+        "name": "d1281",
+        "expression": "0.00 mm",
+        "owner": "1185 makeCone tip datum"
+      },
+      {
+        "name": "d1282",
+        "expression": "chassis_crossmember_121_1185_makeCone_tip_diameter",
+        "owner": "1185 makeCone tip profile"
+      },
+      {
+        "name": "d1285",
+        "expression": "chassis_crossmember_121_1197_makeCylinder_offset",
+        "owner": "1197 makeCylinder datum"
+      },
+      {
+        "name": "d1286",
+        "expression": "0.00 mm",
+        "owner": "1197 makeCylinder datum"
+      },
+      {
+        "name": "d1287",
+        "expression": "chassis_crossmember_121_1197_makeCylinder_diameter",
+        "owner": "1197 makeCylinder profile"
+      },
+      {
+        "name": "d1290",
+        "expression": "chassis_crossmember_121_1197_makeCylinder_cylinder_depth",
+        "owner": "1197 makeCylinder cylinder"
+      },
+      {
+        "name": "d1291",
+        "expression": "0.0 deg",
+        "owner": "1197 makeCylinder cylinder"
+      },
+      {
+        "name": "d1293",
+        "expression": "chassis_crossmember_121_1199_makeCone_base_offset",
+        "owner": "1199 makeCone base datum"
+      },
+      {
+        "name": "d1294",
+        "expression": "0.00 mm",
+        "owner": "1199 makeCone base datum"
+      },
+      {
+        "name": "d1295",
+        "expression": "chassis_crossmember_121_1199_makeCone_base_diameter",
+        "owner": "1199 makeCone base profile"
+      },
+      {
+        "name": "d1298",
+        "expression": "chassis_crossmember_121_1199_makeCone_tip_offset",
+        "owner": "1199 makeCone tip datum"
+      },
+      {
+        "name": "d1299",
+        "expression": "0.00 mm",
+        "owner": "1199 makeCone tip datum"
+      },
+      {
+        "name": "d1300",
+        "expression": "chassis_crossmember_121_1199_makeCone_tip_diameter",
+        "owner": "1199 makeCone tip profile"
+      },
+      {
+        "name": "d1303",
+        "expression": "chassis_crossmember_121_1211_makeCylinder_offset",
+        "owner": "1211 makeCylinder datum"
+      },
+      {
+        "name": "d1304",
+        "expression": "0.00 mm",
+        "owner": "1211 makeCylinder datum"
+      },
+      {
+        "name": "d1305",
+        "expression": "chassis_crossmember_121_1211_makeCylinder_diameter",
+        "owner": "1211 makeCylinder profile"
+      },
+      {
+        "name": "d1308",
+        "expression": "chassis_crossmember_121_1211_makeCylinder_cylinder_depth",
+        "owner": "1211 makeCylinder cylinder"
+      },
+      {
+        "name": "d1309",
+        "expression": "0.0 deg",
+        "owner": "1211 makeCylinder cylinder"
+      },
+      {
+        "name": "d1311",
+        "expression": "chassis_crossmember_121_1213_makeCone_base_offset",
+        "owner": "1213 makeCone base datum"
+      },
+      {
+        "name": "d1312",
+        "expression": "0.00 mm",
+        "owner": "1213 makeCone base datum"
+      },
+      {
+        "name": "d1313",
+        "expression": "chassis_crossmember_121_1213_makeCone_base_diameter",
+        "owner": "1213 makeCone base profile"
+      },
+      {
+        "name": "d1316",
+        "expression": "chassis_crossmember_121_1213_makeCone_tip_offset",
+        "owner": "1213 makeCone tip datum"
+      },
+      {
+        "name": "d1317",
+        "expression": "0.00 mm",
+        "owner": "1213 makeCone tip datum"
+      },
+      {
+        "name": "d1318",
+        "expression": "chassis_crossmember_121_1213_makeCone_tip_diameter",
+        "owner": "1213 makeCone tip profile"
+      },
+      {
+        "name": "d1321",
+        "expression": "chassis_crossmember_121_1225_makeCylinder_offset",
+        "owner": "1225 makeCylinder datum"
+      },
+      {
+        "name": "d1322",
+        "expression": "0.00 mm",
+        "owner": "1225 makeCylinder datum"
+      },
+      {
+        "name": "d1323",
+        "expression": "chassis_crossmember_121_1225_makeCylinder_diameter",
+        "owner": "1225 makeCylinder profile"
+      },
+      {
+        "name": "d1326",
+        "expression": "chassis_crossmember_121_1225_makeCylinder_cylinder_depth",
+        "owner": "1225 makeCylinder cylinder"
+      },
+      {
+        "name": "d1327",
+        "expression": "0.0 deg",
+        "owner": "1225 makeCylinder cylinder"
+      },
+      {
+        "name": "d1329",
+        "expression": "chassis_crossmember_121_1227_makeCylinder_offset",
+        "owner": "1227 makeCylinder datum"
+      },
+      {
+        "name": "d1330",
+        "expression": "0.00 mm",
+        "owner": "1227 makeCylinder datum"
+      },
+      {
+        "name": "d1331",
+        "expression": "chassis_crossmember_121_1227_makeCylinder_diameter",
+        "owner": "1227 makeCylinder profile"
+      },
+      {
+        "name": "d1334",
+        "expression": "chassis_crossmember_121_1227_makeCylinder_cylinder_depth",
+        "owner": "1227 makeCylinder cylinder"
+      },
+      {
+        "name": "d1335",
+        "expression": "0.0 deg",
+        "owner": "1227 makeCylinder cylinder"
+      }
+    ]
+  },
+  {
+    "part": "battery_access_latch_1",
+    "name": "battery access latch 1",
+    "features": 3,
+    "sketches": 0,
+    "bodies": 1
+  },
+  {
+    "part": "battery_skid",
+    "name": "Battery skid plate",
+    "features": 1,
+    "sketches": 1,
+    "bodies": 1
+  },
+  {
+    "part": "battery_latch_1",
+    "name": "battery latch 1",
+    "features": 3,
+    "sketches": 0,
+    "bodies": 1
+  },
+  {
+    "part": "battery_side_panel_-1",
+    "name": "Battery side panel -1",
+    "features": 12,
+    "sketches": 5,
+    "bodies": 1
+  },
+  {
+    "part": "Tinfox - Chassis",
+    "name": "Tinfox - Chassis v4",
+    "features": 0,
+    "sketches": 0,
+    "bodies": 0
+  }
+]

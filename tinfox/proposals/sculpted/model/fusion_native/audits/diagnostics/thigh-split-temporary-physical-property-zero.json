@@ -1,0 +1,38 @@
+{
+  "passed": false,
+  "saved_version": 24,
+  "complete": true,
+  "working_modified": false,
+  "checker": "Fusion exact native placed solids; analyzeInterference excludes coincident faces, followed by bidirectional temporary Boolean differences. No geometry mutation.",
+  "positive_interference_count": 0,
+  "coincident_faces_included": false,
+  "rows": [
+    {
+      "target": "thigh_inner",
+      "tool": "thigh_outer",
+      "native_difference_succeeded": true,
+      "before_volume_mm3": 0.0,
+      "after_volume_mm3": 0.0,
+      "difference_mm3": 0.0,
+      "faces_before": 81,
+      "faces_after": 81,
+      "edges_before": 205,
+      "edges_after": 205
+    },
+    {
+      "target": "thigh_outer",
+      "tool": "thigh_inner",
+      "native_difference_succeeded": true,
+      "before_volume_mm3": 0.0,
+      "after_volume_mm3": 0.0,
+      "difference_mm3": 0.0,
+      "faces_before": 175,
+      "faces_after": 175,
+      "edges_before": 486,
+      "edges_after": 486
+    }
+  ],
+  "scope": "Inner/outer structural thigh nominal split only; resolves external invalid coincident Common diagnostic, not a manufacturing fit or strength test.",
+  "diagnostic_only": true,
+  "exclusion_reason": "Temporary-body getPhysicalProperties reported zero before and after despite nonempty topology. Its volume check is not valid evidence. Superseded by positive body.volume and unchanged topology in corrected-thigh-split-native.json; native zero-interference detection remains diagnostic corroboration."
+}

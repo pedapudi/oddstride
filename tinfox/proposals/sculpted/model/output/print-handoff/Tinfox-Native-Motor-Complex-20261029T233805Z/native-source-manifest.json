@@ -1,0 +1,434 @@
+{
+  "native_source_of_truth": true,
+  "assembly_release_ready": true,
+  "assembly_architecture": "integrated-dfma",
+  "authority_scope": "Ten native front-left proximal custom definitions and the supported unpowered fit assembly specified here. This is an incremental replacement of the older separate-adapter fit scope, not adoption of the four-leg robot.",
+  "manufacturing_scope": "Supported unpowered dimensional fit and assembly only. Printed preload retention, bearing press fits, CNC access details, loads and locomotion remain unqualified.",
+  "saved_document": {
+    "name": "Tinfox - Leg module",
+    "version": 37,
+    "file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+    "state_evidence": "audits/dfma-socket-saved-state.json"
+  },
+  "parts": {
+    "motor_carrier_1": {
+      "component_part_number": "DFMA_REAR_LOADED_CUP_FL",
+      "saved_version": 37,
+      "features": 26,
+      "sketches": 19,
+      "native_bounds_mm": [
+        -71.5,
+        -48.4,
+        -44.0,
+        49.0,
+        29.000000000000004,
+        44.0
+      ],
+      "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+      "native_step": "exports/dfma-socket-fit-leg37/motor_carrier_1.step",
+      "native_step_sha256": "bece9f52922146b0386df118a8cde93dce3f1aab383cfb3d697d206eaae85894",
+      "native_3mf": "exports/dfma-socket-fit-leg37/motor_carrier_1.3mf",
+      "native_3mf_sha256": "4cc8753bec73571c2a89177ee14159879ffdeb9ab3b60b72627fdd613530cfc4"
+    },
+    "roll_cartridge_1": {
+      "component_part_number": "DFMA_ROLL_HOUSING_FL",
+      "saved_version": 37,
+      "features": 13,
+      "sketches": 8,
+      "native_bounds_mm": [
+        -74.50000000000001,
+        -37.798780658685665,
+        -39.4454829849456,
+        -50.5,
+        39.99999999999999,
+        39.4454829849456
+      ],
+      "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+      "native_step": "exports/dfma-socket-fit-leg37/roll_cartridge_1.step",
+      "native_step_sha256": "2f05f28cabd727129cb644137c1b8d68ef199a29731fa4891cac6b29faa22222",
+      "native_3mf": "exports/dfma-socket-fit-leg37/roll_cartridge_1.3mf",
+      "native_3mf_sha256": "8c52c65f385d00362085a8b2289bab315486192eb503c9fea433309d57430de2"
+    },
+    "roll_stator_backplate_1": {
+      "component_part_number": "DFMA_ROLL_BACKPLATE_FL",
+      "saved_version": 37,
+      "features": 5,
+      "sketches": 3,
+      "native_bounds_mm": [
+        -77.50000000000001,
+        -41.00000000000001,
+        -41.00000000000001,
+        -71.5,
+        41.00000000000001,
+        41.00000000000001
+      ],
+      "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+      "native_step": "exports/dfma-socket-fit-leg37/roll_stator_backplate_1.step",
+      "native_step_sha256": "73c73b8ee6b51d34173bd3feceb9ac01739eade1a011f499cd623e102ebd5124",
+      "native_3mf": "exports/dfma-socket-fit-leg37/roll_stator_backplate_1.3mf",
+      "native_3mf_sha256": "54363efce92ee10c14e1981beafe777bacfab6c65577bf15ab98012b5fa33253"
+    },
+    "roll_outer_retainer_1": {
+      "component_part_number": "DFMA_SHARED_ROLL_CAP_FL",
+      "saved_version": 37,
+      "features": 3,
+      "sketches": 2,
+      "native_bounds_mm": [
+        -50.50000000000001,
+        -40.5,
+        -40.5,
+        -47.5,
+        40.5,
+        40.5
+      ],
+      "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+      "native_step": "exports/dfma-socket-fit-leg37/roll_outer_retainer_1.step",
+      "native_step_sha256": "205c3c937f8fe5017b8405b6f7faed46dfb0688ab4ff9ae91302eedcb8b7b952",
+      "native_3mf": "exports/dfma-socket-fit-leg37/roll_outer_retainer_1.3mf",
+      "native_3mf_sha256": "5daec7e3f75c9554b3fb819ed6f94e4ce98a93d72321e223ab115f027e5a0a1f"
+    },
+    "roll_inner_backplate_1": {
+      "component_part_number": "CANDIDATE_pr_roll_inner_backplate_1",
+      "saved_version": 37,
+      "features": 3,
+      "sketches": 2,
+      "native_bounds_mm": [
+        -73.5,
+        -26.25,
+        -26.25,
+        -71.5,
+        26.25,
+        26.25
+      ],
+      "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+      "native_step": "exports/dfma-socket-fit-leg37/roll_inner_backplate_1.step",
+      "native_step_sha256": "6a7e18a414ac15eed7e637b2a070dece8e5de090ce1068f79abeed2692713986",
+      "native_3mf": "exports/dfma-socket-fit-leg37/roll_inner_backplate_1.3mf",
+      "native_3mf_sha256": "cd8eefab8b627951b37e0bcc6634a503f6f639caddcc49b19297d6d77efc7d60"
+    },
+    "roll_inner_spacer_1": {
+      "component_part_number": "CANDIDATE_pr_roll_inner_spacer_1",
+      "saved_version": 37,
+      "features": 1,
+      "sketches": 1,
+      "native_bounds_mm": [
+        -64.5,
+        -26.25,
+        -26.25,
+        -57.5,
+        26.25,
+        26.25
+      ],
+      "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+      "native_step": "exports/dfma-socket-fit-leg37/roll_inner_spacer_1.step",
+      "native_step_sha256": "7794a803f113cc5c30df680048195fa0a22e0a608c0a2862728ba355e5642023",
+      "native_3mf": "exports/dfma-socket-fit-leg37/roll_inner_spacer_1.3mf",
+      "native_3mf_sha256": "17db5cfaf4ce058c17bc2b2aadcc875bb9d5f6d6ade5ffe8e7e8917c713b9360"
+    },
+    "roll_outer_spacer_1": {
+      "component_part_number": "CANDIDATE_pr_roll_outer_spacer_1",
+      "saved_version": 37,
+      "features": 1,
+      "sketches": 1,
+      "native_bounds_mm": [
+        -64.5,
+        -32.45,
+        -32.45,
+        -57.5,
+        32.45,
+        32.45
+      ],
+      "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+      "native_step": "exports/dfma-socket-fit-leg37/roll_outer_spacer_1.step",
+      "native_step_sha256": "0a6e3ef02d0f1df3e4f225cc7b768570731dbc9c8261df8aa50988750c4ebe02",
+      "native_3mf": "exports/dfma-socket-fit-leg37/roll_outer_spacer_1.3mf",
+      "native_3mf_sha256": "7afc8f4092fdba27aaf3cea681fc88815aed9beb37e847dd603d9f4de4cc27b3"
+    },
+    "thigh_inner": {
+      "component_part_number": "DFMA_THIGH_PRIMARY_FL",
+      "saved_version": 37,
+      "features": 22,
+      "sketches": 14,
+      "native_bounds_mm": [
+        -45.58933669274409,
+        0.0,
+        -191.5,
+        28.616214065524083,
+        67.0,
+        51.000000000000014
+      ],
+      "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+      "native_step": "exports/dfma-socket-fit-leg37/thigh_inner.step",
+      "native_step_sha256": "fef1444699941c4913abd2ebd52a65104cbaabbde6d068c8ae97fcf31354a6aa",
+      "native_3mf": "exports/dfma-socket-fit-leg37/thigh_inner.3mf",
+      "native_3mf_sha256": "f2df539acfaef9007410f665bfda1558ea0b4703858c686ed0ff344a056a6a9b"
+    },
+    "thigh_outer": {
+      "component_part_number": "DFMA_THIGH_SECONDARY_FL",
+      "saved_version": 37,
+      "features": 11,
+      "sketches": 5,
+      "native_bounds_mm": [
+        -45.58933669274409,
+        9.000000000000004,
+        -191.5,
+        44.71220316700585,
+        97.00000000000001,
+        51.000000000000014
+      ],
+      "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+      "native_step": "exports/dfma-socket-fit-leg37/thigh_outer.step",
+      "native_step_sha256": "99cc2eadaf77d530e46775748e600b75f320bfae9e0f81e32d2510e2ba4b4749",
+      "native_3mf": "exports/dfma-socket-fit-leg37/thigh_outer.3mf",
+      "native_3mf_sha256": "18d12290f6783ff0ff373dac2ed8dab960db825ffe1259e773758a98c0952dc0"
+    },
+    "input_crank": {
+      "component_part_number": "CANDIDATE_mc_input_crank",
+      "saved_version": 37,
+      "features": 18,
+      "sketches": 12,
+      "native_bounds_mm": [
+        -18.0,
+        54.400000000000006,
+        -18.0,
+        38.50000000000001,
+        86.0,
+        18.0
+      ],
+      "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+      "native_step": "exports/dfma-socket-fit-leg37/input_crank.step",
+      "native_step_sha256": "a81266264783f62ca16a7703f63388a06baa2cba48ec1f7ebbd13b780bb9aa17",
+      "native_3mf": "exports/dfma-socket-fit-leg37/input_crank.3mf",
+      "native_3mf_sha256": "c0f2a40098898e61101071614db4a916418491d3f697de906278189e71523178"
+    }
+  },
+  "stock_references": [
+    {
+      "component_part_number": "DFMA_STATOR_TUBE_34",
+      "saved_version": 37,
+      "features": 1,
+      "sketches": 1,
+      "native_bounds_mm": [
+        -3.0000000000000004,
+        0.0,
+        -3.0000000000000004,
+        3.0000000000000004,
+        39.0,
+        3.0000000000000004
+      ],
+      "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+      "native_3mf": "exports/dfma-socket-fit-leg37/fit-only-stator-compression-tube.3mf",
+      "native_3mf_sha256": "b67f8c22c54b5f6be0a9233039677a28aab874103054bc564dce5d65679e528a",
+      "part": "fit-only-stator-compression-tube",
+      "quantity": 4,
+      "nominal_od_id_length_mm": [
+        6,
+        4,
+        39
+      ]
+    },
+    {
+      "component_part_number": "DFMA_CLAMP_TUBE_31",
+      "saved_version": 37,
+      "features": 1,
+      "sketches": 1,
+      "native_bounds_mm": [
+        -4.0,
+        0.0,
+        -4.0,
+        4.0,
+        29.000000000000004,
+        4.0
+      ],
+      "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+      "native_3mf": "exports/dfma-socket-fit-leg37/fit-only-thigh-clamp-sleeve.3mf",
+      "native_3mf_sha256": "04b51e4983c3aa939aa9c8230284b484baf4cbde67a5c94ad308b28214416f3e",
+      "part": "fit-only-thigh-clamp-sleeve",
+      "quantity": 2,
+      "nominal_od_id_length_mm": [
+        8,
+        4.3,
+        29
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "path": "audits/dfma-socket-focused-fit-export.json",
+      "sha256": "33d25491eb3421fc51e0720ef6b1c9b96fa0e3fa7bb85d8862961cfc1fd4067d"
+    },
+    {
+      "path": "audits/dfma-socket-saved-state.json",
+      "sha256": "29a57d99009bb393535248a33bb1b717464ffc3306e6b9e8a18e4f1fa081115c"
+    },
+    {
+      "path": "audits/dfma-thigh-driver-access.json",
+      "sha256": "e011da7326d9f392ddaac3f419d89a428a2700f607615fe02af9400d8d4e4828"
+    },
+    {
+      "path": "audits/dfma-thigh-focused-native-fit.json",
+      "sha256": "f4fc8429e13fa59347c4a4205241e525b9b9921cd39e654b63df29239c55be8a"
+    },
+    {
+      "path": "audits/dfma-thigh-round-inboard-validation.json",
+      "sha256": "5ea601053a9111625035efba8634484441f0aa6e6ade7ec715e8850e22d245cf"
+    },
+    {
+      "path": "audits/dfma-thigh-mouth-window-detail.json",
+      "sha256": "a1d8636bbe3a9487d94334ae114db2cc50303f86a48a24a4ec8fb6343ec6a2ce"
+    },
+    {
+      "path": "audits/dfma-shallow-seat-export.json",
+      "sha256": "7196a917ba0d7a91838e980d8ceec8e7cf6c1f22d2d76dab43d9d3211a6b0fd2"
+    }
+  ],
+  "hardware": [
+    {
+      "item": "Shared roll cap and stator",
+      "specification": "M3 x 35 ISO4762 socket head",
+      "quantity": 9,
+      "remaining_physical_checks": "Confirm actual blind thread depth, head height, seating and access on the physical RS02; tighten only for supported unpowered fitting."
+    },
+    {
+      "item": "Hip stator",
+      "specification": "M3 x 8 ISO4762 socket head",
+      "quantity": 9,
+      "remaining_physical_checks": "Confirm actual blind thread depth, head height, seating and access on the physical RS02; tighten only for supported unpowered fitting."
+    },
+    {
+      "item": "Primary knee stator face",
+      "specification": "M3 x 6 ISO4762 socket head",
+      "quantity": 5,
+      "remaining_physical_checks": "No added washer. Seat web is 1.8 mm, motor penetration 4.2 mm, crank gap 0.6 mm nominal. Check actual screw underhead fillet and head height, printed seats and crank clearance; no tolerance/deflection qualification."
+    },
+    {
+      "item": "Secondary knee stator columns",
+      "specification": "M3 x 45 ISO4762 socket head",
+      "quantity": 4,
+      "remaining_physical_checks": "Confirm actual blind thread depth, head height, seating and access on the physical RS02; tighten only for supported unpowered fitting.",
+      "washer_quantity": 4,
+      "washer_specification": "12 mm OD / 4.3 mm ID x 1 mm"
+    },
+    {
+      "item": "Roll output coupling",
+      "specification": "M4 x 25 ISO4762 socket head",
+      "quantity": 6,
+      "remaining_physical_checks": "Confirm actual blind thread depth, head height, seating and access on the physical RS02; tighten only for supported unpowered fitting."
+    },
+    {
+      "item": "Hip output to primary thigh",
+      "specification": "M4 x 8 ISO4762 socket head",
+      "quantity": 6,
+      "remaining_physical_checks": "Confirm actual blind thread depth, head height, seating and access on the physical RS02; tighten only for supported unpowered fitting."
+    },
+    {
+      "item": "Knee output to crank",
+      "specification": "M4 x 12 ISO4762 socket head",
+      "quantity": 6,
+      "remaining_physical_checks": "Confirm actual blind thread depth, head height, seating and access on the physical RS02; tighten only for supported unpowered fitting."
+    },
+    {
+      "item": "Two structural thigh clamps",
+      "specification": "M4 x 40 ISO4762 socket head",
+      "quantity": 2,
+      "remaining_physical_checks": "Verify 29 mm tube length and washer contact. Inside nut needs a through socket or at least 9 mm internal depth for the nut plus 5.8 mm screw projection.",
+      "nut_quantity": 2,
+      "nut_specification": "Ordinary M4 hex nut, 7 mm AF x 3.2 mm",
+      "washer_quantity": 4,
+      "washer_specification": "12 mm OD / 4.3 mm ID x 1 mm"
+    },
+    {
+      "item": "Hip-roll bearings",
+      "specification": "6810 sealed, 50 x 65 x 7 mm",
+      "quantity": 2,
+      "remaining_physical_checks": "Measure printed seat and journal fits. Verify race spacing, end clearance and extraction before pressing."
+    },
+    {
+      "item": "Knee stator compression tubes",
+      "specification": "Metal tube, 6 mm OD / 4 mm ID, 39 mm length",
+      "quantity": 4,
+      "remaining_physical_checks": "Cut ends square to the measured 39 mm stack. Verify motor-face and washer support; the washer must also capture the printed shell."
+    },
+    {
+      "item": "Thigh clamp compression tubes",
+      "specification": "Metal tube, 8 mm OD / 4.3 mm ID, 29 mm length",
+      "quantity": 2,
+      "remaining_physical_checks": "Match the 29 mm seating span and verify washer contact. Metal tubes carry preload; printed surrogates are fit-only."
+    }
+  ],
+  "review_model": "exports/dfma-socket-fit-leg37/native-motor-complex-leg37.json.gz",
+  "review_model_sha256": "848be4d93af0860810636ed4c876b0c30689108bba1a55a9de57370b1252c8f2",
+  "review_scope": "Saved native Leg37 detached three-motor fit assembly. Ten custom pieces and six tubes; supported unpowered fit only.",
+  "print_orientation_overrides": {
+    "thigh_inner": {
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": -90
+    },
+    "thigh_outer": {
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": -90
+    },
+    "motor_carrier_1": {
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": 90
+    }
+  },
+  "physical_counts": {
+    "proximal_custom_parts": 10,
+    "proximal_metal_tubes": 6,
+    "proximal_screws": 47,
+    "proximal_nuts": 2,
+    "proximal_washers": 8,
+    "proximal_bearings": 2,
+    "proximal_motors": 3,
+    "connector_detail_bodies": 24,
+    "proximal_review_items": 102,
+    "whole_leg_review_items": 132,
+    "whole_leg_screws_and_functional_pins": 52
+  },
+  "evidence_reuse": "Unchanged motor insertion, connector paths, split interfaces and bearing service use the prior focused native checks; the current socket audit checks only changed head/seat/sleeve interfaces. No repeated whole-robot migration tests.",
+  "limitations": [
+    "The full factory mounting pattern is retained; reduced patterns are not represented.",
+    "Master63/Leg30 remain the current whole-robot baseline; this manifest does not update or validate four handed DFMA assemblies.",
+    "The 0.6 mm knee screw/crank gap is nominal geometry, not a validated manufacturing/deflection margin.",
+    "Metal stock and spacers may be printed only as finger-tight fit surrogates.",
+    "The STEP/3MF exports were taken from saved Leg37 geometry. Temporary visibility toggles restored the same appearance but marked the working document modified after export; no model feature or parameter was changed."
+  ],
+  "parent_one_leg_review": {
+    "path": "exports/dfma-socket-fit-v1/dfma-one-leg-preview-socket.json.gz",
+    "sha256": "346b236ff9a70e635bda4c06b3373d4f3c311ffde0a2439e778732dca4fd390e"
+  },
+  "assembly_inventory": {
+    "custom_parts": 10,
+    "cut_stock_bodies": 6,
+    "purchased_references": 86,
+    "motors": 3,
+    "connector_bodies": 24,
+    "total_visible_bodies": 102
+  },
+  "print_orientation_review": {
+    "part": "motor_carrier_1",
+    "native_step_sha256": "bece9f52922146b0386df118a8cde93dce3f1aab383cfb3d697d206eaae85894",
+    "rotation_axis": [
+      1,
+      0,
+      0
+    ],
+    "rotation_deg": 90,
+    "contact_area_mm2": 865.31,
+    "scope": "Exact rear annulus contact and removable support access; supported unpowered fit print, slicer review required.",
+    "supports": "Brim on rear mouth; internal front stator-face support removable through rear opening; local journal/fan supports."
+  }
+}

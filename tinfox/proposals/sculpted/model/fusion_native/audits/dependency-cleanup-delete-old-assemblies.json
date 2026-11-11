@@ -1,0 +1,165 @@
+{
+  "passed": true,
+  "baseline_saved_version": 39,
+  "deleted_occurrences": [
+    "CURRENT_ASSEMBLY_RR",
+    "CURRENT_ASSEMBLY_RL",
+    "CURRENT_ASSEMBLY_FR",
+    "CURRENT_ASSEMBLY_FL"
+  ],
+  "deleted_exclusive_definitions": 32,
+  "deleted_obsolete_pose_joints": 24,
+  "component_count_before": 1202,
+  "component_count_after": 1170,
+  "timeline_before": 2823,
+  "timeline_after": 2590,
+  "current_native_geometry_and_placement_unchanged": true,
+  "current_body_count": 528,
+  "current_feature_signature_equal": true,
+  "pose_checks": [
+    {
+      "case": "baseline",
+      "bodies": 528,
+      "maximum_matching_vertex_error_mm": 3.972054645195637e-14
+    },
+    {
+      "case": "offset",
+      "bodies": 528,
+      "maximum_matching_vertex_error_mm": 1.6085595323533783e-13
+    },
+    {
+      "case": "baseline",
+      "bodies": 528,
+      "maximum_matching_vertex_error_mm": 3.972054645195637e-14
+    }
+  ],
+  "current_pose_joint_health": [
+    {
+      "part_number": "DFMA_ASSEMBLY_RL",
+      "name": "RL Hip mounting position pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_RL",
+      "name": "RL Hip roll pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_RL",
+      "name": "RL Hip pitch pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_RL",
+      "name": "RL Knee pitch pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_RL",
+      "name": "RL Knee drive phase pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_RL",
+      "name": "RL Parallel link position pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_RR",
+      "name": "RR Hip mounting position pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_RR",
+      "name": "RR Hip roll pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_RR",
+      "name": "RR Hip pitch pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_RR",
+      "name": "RR Knee pitch pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_RR",
+      "name": "RR Knee drive phase pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_RR",
+      "name": "RR Parallel link position pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_FL",
+      "name": "FL Hip mounting position pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_FL",
+      "name": "FL Hip roll pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_FL",
+      "name": "FL Hip pitch pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_FL",
+      "name": "FL Knee pitch pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_FL",
+      "name": "FL Knee drive phase pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_FL",
+      "name": "FL Parallel link position pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_FR",
+      "name": "FR Hip mounting position pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_FR",
+      "name": "FR Hip roll pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_FR",
+      "name": "FR Hip pitch pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_FR",
+      "name": "FR Knee pitch pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_FR",
+      "name": "FR Knee drive phase pose",
+      "health": 0
+    },
+    {
+      "part_number": "DFMA_ASSEMBLY_FR",
+      "name": "FR Parallel link position pose",
+      "health": 0
+    }
+  ],
+  "retained_reference_assemblies": 4,
+  "retained_required_source_proposal": true,
+  "seconds": 501.38492754200706,
+  "modified": true,
+  "saved": false,
+  "save_submitted": true,
+  "version_after_submit": 39
+}

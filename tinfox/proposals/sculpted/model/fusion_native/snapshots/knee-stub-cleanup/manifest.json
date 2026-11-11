@@ -1,0 +1,44 @@
+{
+  "source_model_sha256": "b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6",
+  "authorized_generated_revision": true,
+  "native_promotion": false,
+  "parts": [
+    {
+      "part": "thigh_outer",
+      "source_sha256": "1cef0e208924a429591d95ce8a188f314c49181e4433c1ced274768822d46b7d",
+      "corrected_step": "snapshots/knee-stub-cleanup/thigh_outer.step",
+      "sha256": "444e1937618b2f33438fbc0684d8eedcad4b366b791220c9fcfe778d1a02c0e2",
+      "removed_volume_mm3": 310.18829224483954,
+      "removed_bounds_mm": [
+        -16.0,
+        97.0,
+        -186.0,
+        16.0,
+        97.6,
+        -154.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "correction": "Remove obsolete coaxial R16 material beyond abs(Y)=97; preserves washer floor abs(Y)=94 and bearing backup abs(Y)=85.3."
+    },
+    {
+      "part": "thigh_outer_right",
+      "source_sha256": "b7e7b0b6bebdf6854dffdf74559d325cd86e8871d47fe89a4dd5c99dc886da10",
+      "corrected_step": "snapshots/knee-stub-cleanup/thigh_outer_right.step",
+      "sha256": "51a5bb3ad02eb67bb273cd95b421fbcfa25a7ada8af44d89d63b0d52499a3633",
+      "removed_volume_mm3": 310.18829224483966,
+      "removed_bounds_mm": [
+        -16.0,
+        -97.6,
+        -186.0,
+        16.0,
+        -97.0,
+        -154.0
+      ],
+      "valid": true,
+      "solids": 1,
+      "correction": "Remove obsolete coaxial R16 material beyond abs(Y)=97; preserves washer floor abs(Y)=94 and bearing backup abs(Y)=85.3."
+    }
+  ],
+  "scope": "Minimal obsolete lip removal for open CNC entry. No claim of physical strength, process fit or complete native fidelity."
+}

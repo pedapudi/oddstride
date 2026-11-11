@@ -1,0 +1,215 @@
+{
+  "model_sha256": "d2039216bacf498ad0b9b39b7b28409203e52b5f3ef4598c41815b89e302a3e9",
+  "raise_mm": 42,
+  "seat_z_mm": 94,
+  "scan_band_z_mm": [
+    98,
+    116
+  ],
+  "optical_plane_checks": [
+    {
+      "pose": "stand",
+      "scan_height_z_mm": 98,
+      "obstructions": []
+    },
+    {
+      "pose": "stand",
+      "scan_height_z_mm": 107,
+      "obstructions": []
+    },
+    {
+      "pose": "stand",
+      "scan_height_z_mm": 116,
+      "obstructions": []
+    },
+    {
+      "pose": "studio",
+      "scan_height_z_mm": 98,
+      "obstructions": []
+    },
+    {
+      "pose": "studio",
+      "scan_height_z_mm": 107,
+      "obstructions": []
+    },
+    {
+      "pose": "studio",
+      "scan_height_z_mm": 116,
+      "obstructions": []
+    },
+    {
+      "pose": "raised",
+      "scan_height_z_mm": 98,
+      "obstructions": []
+    },
+    {
+      "pose": "raised",
+      "scan_height_z_mm": 107,
+      "obstructions": []
+    },
+    {
+      "pose": "raised",
+      "scan_height_z_mm": 116,
+      "obstructions": []
+    },
+    {
+      "pose": "crouch",
+      "scan_height_z_mm": 98,
+      "obstructions": []
+    },
+    {
+      "pose": "crouch",
+      "scan_height_z_mm": 107,
+      "obstructions": []
+    },
+    {
+      "pose": "crouch",
+      "scan_height_z_mm": 116,
+      "obstructions": []
+    }
+  ],
+  "service_checks": [
+    {
+      "interface": "hood / body_nose_surround",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "interface": "hood / body_center_0",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "interface": "hood screw driver at Y-16",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "interface": "hood screw driver at Y16",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "interface": "lidar upward withdrawal 0.1 mm",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "interface": "lidar upward withdrawal 1 mm",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "interface": "lidar upward withdrawal 5 mm",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "interface": "lidar upward withdrawal 15 mm",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "interface": "lidar upward withdrawal 30 mm",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "interface": "lidar upward withdrawal 60 mm",
+      "overlap_mm3": 0,
+      "passed": true
+    }
+  ],
+  "step_exports": [
+    {
+      "part": "front_fascia",
+      "closed_solids": 1,
+      "volume_error_mm3": 1.965701812878251e-06
+    },
+    {
+      "part": "lidar_base",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "lidar",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "lidar_lid",
+      "closed_solids": 1,
+      "volume_error_mm3": 0.0
+    }
+  ],
+  "hood_removal_review": [
+    {
+      "translation_xz_mm": [
+        0,
+        0.5
+      ],
+      "reference_overlap_mm3": 507.12485982455604,
+      "revised_overlap_mm3": 513.3392241034137,
+      "passed": false
+    },
+    {
+      "translation_xz_mm": [
+        0,
+        5
+      ],
+      "reference_overlap_mm3": 58.92206572153785,
+      "revised_overlap_mm3": 58.92206281173314,
+      "passed": false
+    },
+    {
+      "translation_xz_mm": [
+        0,
+        15
+      ],
+      "reference_overlap_mm3": 1438.6530293612836,
+      "revised_overlap_mm3": 1438.6530257587065,
+      "passed": false
+    },
+    {
+      "translation_xz_mm": [
+        1,
+        1
+      ],
+      "reference_overlap_mm3": 671.3541874499602,
+      "revised_overlap_mm3": 671.3542003284002,
+      "passed": false
+    },
+    {
+      "translation_xz_mm": [
+        5,
+        5
+      ],
+      "reference_overlap_mm3": 341.2226468216182,
+      "revised_overlap_mm3": 341.22264681925975,
+      "passed": false
+    },
+    {
+      "translation_xz_mm": [
+        20,
+        20
+      ],
+      "reference_overlap_mm3": 0,
+      "revised_overlap_mm3": 0,
+      "passed": true
+    }
+  ],
+  "assembly_intent": [
+    "Route the lidar cable through the integral 18 mm opening into the open hood cavity.",
+    "Specify the selected lidar mounting pattern before making the integral seat.",
+    "The hood and lidar form one housing assembly; provide a cable disconnect and service slack."
+  ],
+  "fabrication_blockers": [
+    "The existing hood/cradle interlock blocks simple vertical and diagonal removal. Correct the release geometry before fabrication; the raised fairing also overlaps the body-cover withdrawal space.",
+    "Sensor mounting holes and fasteners are pending an actual lidar model."
+  ],
+  "limits": [
+    "Horizontal nominal scan planes only. A selected 3D lidar may have downward beams that still see the robot.",
+    "Aggressive folded poses, cable motion, mounting tolerances, impact survival and printed strength remain unqualified.",
+    "The full hood is one printed part; support planning and sensor fasteners require a manufacturing review."
+  ]
+}

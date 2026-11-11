@@ -1,0 +1,451 @@
+{
+  "checker": "Fusion temporary native BRep intersection; no document geometry/pose changes",
+  "saved_version": 33,
+  "working_modified": true,
+  "checks": [
+    {
+      "pair": "primary / secondary",
+      "condition": "seated structural split",
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / motor",
+      "condition": {
+        "radial_insertion_dx_mm": 0
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / socket minus",
+      "condition": {
+        "radial_insertion_dx_mm": 0
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / socket plus",
+      "condition": {
+        "radial_insertion_dx_mm": 0
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / motor",
+      "condition": {
+        "radial_insertion_dx_mm": 20
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / socket minus",
+      "condition": {
+        "radial_insertion_dx_mm": 20
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / socket plus",
+      "condition": {
+        "radial_insertion_dx_mm": 20
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / motor",
+      "condition": {
+        "radial_insertion_dx_mm": 50
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / socket minus",
+      "condition": {
+        "radial_insertion_dx_mm": 50
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / socket plus",
+      "condition": {
+        "radial_insertion_dx_mm": 50
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / motor",
+      "condition": {
+        "radial_insertion_dx_mm": 90
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / socket minus",
+      "condition": {
+        "radial_insertion_dx_mm": 90
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / socket plus",
+      "condition": {
+        "radial_insertion_dx_mm": 90
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / primary",
+      "condition": {
+        "axial_cover_dy_mm": 0,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / motor",
+      "condition": {
+        "axial_cover_dy_mm": 0,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / socket minus",
+      "condition": {
+        "axial_cover_dy_mm": 0,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / socket plus",
+      "condition": {
+        "axial_cover_dy_mm": 0,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / parked crank",
+      "condition": {
+        "axial_cover_dy_mm": 0,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / primary",
+      "condition": {
+        "axial_cover_dy_mm": 5,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / motor",
+      "condition": {
+        "axial_cover_dy_mm": 5,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / socket minus",
+      "condition": {
+        "axial_cover_dy_mm": 5,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / socket plus",
+      "condition": {
+        "axial_cover_dy_mm": 5,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / parked crank",
+      "condition": {
+        "axial_cover_dy_mm": 5,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / primary",
+      "condition": {
+        "axial_cover_dy_mm": 20,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / motor",
+      "condition": {
+        "axial_cover_dy_mm": 20,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / socket minus",
+      "condition": {
+        "axial_cover_dy_mm": 20,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / socket plus",
+      "condition": {
+        "axial_cover_dy_mm": 20,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / parked crank",
+      "condition": {
+        "axial_cover_dy_mm": 20,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / primary",
+      "condition": {
+        "axial_cover_dy_mm": 60,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / motor",
+      "condition": {
+        "axial_cover_dy_mm": 60,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / socket minus",
+      "condition": {
+        "axial_cover_dy_mm": 60,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / socket plus",
+      "condition": {
+        "axial_cover_dy_mm": 60,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / parked crank",
+      "condition": {
+        "axial_cover_dy_mm": 60,
+        "crank_xz_angle_deg": -138
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "crank / primary",
+      "condition": {
+        "crank_xz_angle_deg": -126
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "crank / secondary",
+      "condition": {
+        "crank_xz_angle_deg": -126
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "crank / primary",
+      "condition": {
+        "crank_xz_angle_deg": -180
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "crank / secondary",
+      "condition": {
+        "crank_xz_angle_deg": -180
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "crank / primary",
+      "condition": {
+        "crank_xz_angle_deg": -234
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "crank / secondary",
+      "condition": {
+        "crank_xz_angle_deg": -234
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / rear-loaded cup",
+      "condition": {
+        "right_hand_y_rotation_deg": -60
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / rear-loaded cup",
+      "condition": {
+        "right_hand_y_rotation_deg": -60
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / rear-loaded cup",
+      "condition": {
+        "right_hand_y_rotation_deg": 0
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / rear-loaded cup",
+      "condition": {
+        "right_hand_y_rotation_deg": 0
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / rear-loaded cup",
+      "condition": {
+        "right_hand_y_rotation_deg": 30
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 860.9720745814092,
+      "clear": false
+    },
+    {
+      "pair": "secondary / rear-loaded cup",
+      "condition": {
+        "right_hand_y_rotation_deg": 30
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "primary / rear-loaded cup",
+      "condition": {
+        "right_hand_y_rotation_deg": 90
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    },
+    {
+      "pair": "secondary / rear-loaded cup",
+      "condition": {
+        "right_hand_y_rotation_deg": 90
+      },
+      "kernel_completed": true,
+      "intersection_mm3": 0.0,
+      "clear": true
+    }
+  ],
+  "passed": false,
+  "seconds": 2.281663541973103,
+  "scope": "Only changed proximal interfaces and representative insertion/cover/crank/hip positions. Not a continuous whole-robot motion or strength certification."
+}

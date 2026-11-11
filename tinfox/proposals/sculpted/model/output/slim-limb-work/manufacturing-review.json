@@ -1,0 +1,253 @@
+{
+  "model_sha256": "8f781a5487185a13f330d2838e8918c01c34ef13d87c52db980e227ed5853969",
+  "parts": [
+    {
+      "part": "thigh_inner",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          45.05689239501953
+        ],
+        [
+          0.0,
+          0.20791169081775945,
+          -0.9781476007338056,
+          34.425457324545796
+        ],
+        [
+          0.0,
+          0.9781476007338056,
+          0.20791169081775945,
+          0.6345373699853165
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_bounds_mm": [
+        71.09203147888184,
+        232.23609907929907,
+        58.16897741740481
+      ],
+      "oriented_stl": "print-stl/thigh_inner.stl",
+      "tilt_from_length_parallel_to_bed_deg": -12,
+      "downward_face_screen": {
+        "projected_downward_area_mm2": 6464.171431018462,
+        "weighted_height_mm": 22.880953066096787,
+        "score": 10690.068663142378
+      },
+      "previous_geometry_untilted_screen": {
+        "projected_downward_area_mm2": 7167.451353117095,
+        "weighted_height_mm": 38.018015501743285,
+        "score": 14952.944971711284
+      },
+      "scope": "Nominal orientation screen; projected area and height are proxies, not sliced support volume or structural qualification.",
+      "support_preparation": {
+        "exterior_posts": 133,
+        "minimum_rigid_gap_mm": 0.3537227444253686,
+        "nominal_vertical_gap_mm": 0.4,
+        "minimum_required_rigid_gap_mm": 0.35,
+        "sampling_grid_mm": 7,
+        "layer_quantization_mm": 0.2,
+        "scope": "Exterior support starting point. Internal bridges and unsupported regions between samples require slicer review. Supports are removed after printing."
+      },
+      "plate": "print-preparation/thigh_inner.3mf"
+    },
+    {
+      "part": "thigh_inner_right",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          45.05689239501953
+        ],
+        [
+          0.0,
+          0.20791169081775945,
+          0.9781476007338056,
+          197.81064175475328
+        ],
+        [
+          0.0,
+          -0.9781476007338056,
+          0.20791169081775945,
+          0.6345373699853165
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_bounds_mm": [
+        71.09203147888184,
+        232.23609907929907,
+        58.16897741740481
+      ],
+      "oriented_stl": "print-stl/thigh_inner_right.stl",
+      "tilt_from_length_parallel_to_bed_deg": -12,
+      "downward_face_screen": {
+        "projected_downward_area_mm2": 6464.171431018462,
+        "weighted_height_mm": 22.880953066096787,
+        "score": 10690.068663142378
+      },
+      "previous_geometry_untilted_screen": {
+        "projected_downward_area_mm2": 7167.451353117095,
+        "weighted_height_mm": 38.018015501743285,
+        "score": 14952.944971711284
+      },
+      "scope": "Nominal orientation screen; projected area and height are proxies, not sliced support volume or structural qualification."
+    },
+    {
+      "part": "thigh_outer",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          45.05689239501953
+        ],
+        [
+          0.0,
+          6.123233995736766e-17,
+          1.0,
+          191.49574279785156
+        ],
+        [
+          0.0,
+          -1.0,
+          6.123233995736766e-17,
+          97.59999847412111
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_bounds_mm": [
+        89.76893615722656,
+        242.49559020996094,
+        88.59999847412111
+      ],
+      "oriented_stl": "print-stl/thigh_outer.stl",
+      "tilt_from_length_parallel_to_bed_deg": 0,
+      "downward_face_screen": {
+        "projected_downward_area_mm2": 12843.264585888583,
+        "weighted_height_mm": 7.420392307894178,
+        "score": 15566.180635642222
+      },
+      "previous_geometry_untilted_screen": {
+        "projected_downward_area_mm2": 12906.58625898728,
+        "weighted_height_mm": 5.089318022864459,
+        "score": 14783.321175030671
+      },
+      "scope": "Nominal orientation screen; projected area and height are proxies, not sliced support volume or structural qualification.",
+      "support_preparation": {
+        "exterior_posts": 265,
+        "minimum_rigid_gap_mm": 0.3999999999999999,
+        "nominal_vertical_gap_mm": 0.4,
+        "minimum_required_rigid_gap_mm": 0.35,
+        "sampling_grid_mm": 7,
+        "layer_quantization_mm": 0.2,
+        "scope": "Exterior support starting point. Internal bridges and unsupported regions between samples require slicer review. Supports are removed after printing."
+      },
+      "plate": "print-preparation/thigh_outer.3mf"
+    },
+    {
+      "part": "thigh_outer_right",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          45.05689239501953
+        ],
+        [
+          0.0,
+          6.123233995736766e-17,
+          -1.0,
+          50.99984741210938
+        ],
+        [
+          0.0,
+          1.0,
+          6.123233995736766e-17,
+          97.59999847412111
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_bounds_mm": [
+        89.76893615722656,
+        242.49559020996094,
+        88.59999847412111
+      ],
+      "oriented_stl": "print-stl/thigh_outer_right.stl",
+      "tilt_from_length_parallel_to_bed_deg": 0,
+      "downward_face_screen": {
+        "projected_downward_area_mm2": 12843.264585888583,
+        "weighted_height_mm": 7.420392307894178,
+        "score": 15566.180635642222
+      },
+      "previous_geometry_untilted_screen": {
+        "projected_downward_area_mm2": 12906.58625898728,
+        "weighted_height_mm": 5.089318022864459,
+        "score": 14783.321175030671
+      },
+      "scope": "Nominal orientation screen; projected area and height are proxies, not sliced support volume or structural qualification."
+    }
+  ],
+  "tool_checks": [
+    {
+      "nut_corner_deg": 0,
+      "axial_cutter_overlap_mm3": 0,
+      "previous_overlap_mm3": 119.82888311083506,
+      "passed": true
+    },
+    {
+      "nut_corner_deg": 60,
+      "axial_cutter_overlap_mm3": 0,
+      "previous_overlap_mm3": 118.96727670575136,
+      "passed": true
+    },
+    {
+      "nut_corner_deg": 120,
+      "axial_cutter_overlap_mm3": 0,
+      "previous_overlap_mm3": 117.10123152350843,
+      "passed": true
+    },
+    {
+      "nut_corner_deg": 180,
+      "axial_cutter_overlap_mm3": 0,
+      "previous_overlap_mm3": 25.41946750747101,
+      "passed": true
+    },
+    {
+      "nut_corner_deg": 240,
+      "axial_cutter_overlap_mm3": 0,
+      "previous_overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "nut_corner_deg": 300,
+      "axial_cutter_overlap_mm3": 0,
+      "previous_overlap_mm3": 26.607240836709877,
+      "passed": true
+    }
+  ],
+  "tool_diameter_mm": 3,
+  "scope": "Accessible corner-relief cutters checked as ideal cylinders. Full cutter paths, holder clearance, workholding forces and CNC quotes remain unqualified. 3MF files contain unsliced part and removable exterior support meshes."
+}

@@ -1,0 +1,158 @@
+{
+  "model_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "parts": [
+    {
+      "part": "thigh_inner",
+      "orientation": "Exterior face down; open cavity up.",
+      "build_envelope_mm": [
+        98.0000002,
+        241.96862716659697,
+        20.00000023757596
+      ],
+      "solid_count": 1,
+      "face_count": 82,
+      "notes": "Vertical bearing/axle bores. Inspect supports at rounded perimeter transitions and local counterbore roofs in the slicer; these exports are not qualified print settings."
+    },
+    {
+      "part": "thigh_inner_right",
+      "orientation": "Exterior face down; open cavity up.",
+      "build_envelope_mm": [
+        98.0000002,
+        241.968627166597,
+        20.000000237580785
+      ],
+      "solid_count": 1,
+      "face_count": 82,
+      "notes": "Vertical bearing/axle bores. Inspect supports at rounded perimeter transitions and local counterbore roofs in the slicer; these exports are not qualified print settings."
+    },
+    {
+      "part": "thigh_outer",
+      "orientation": "Exterior face down; open cavity up.",
+      "build_envelope_mm": [
+        98.0000002,
+        242.0000002,
+        33.00000038023318
+      ],
+      "solid_count": 1,
+      "face_count": 85,
+      "notes": "Vertical bearing/axle bores. Inspect supports at rounded perimeter transitions and local counterbore roofs in the slicer; these exports are not qualified print settings."
+    },
+    {
+      "part": "thigh_outer_right",
+      "orientation": "Exterior face down; open cavity up.",
+      "build_envelope_mm": [
+        98.0000002,
+        242.00000020000002,
+        33.000000380193704
+      ],
+      "solid_count": 1,
+      "face_count": 85,
+      "notes": "Vertical bearing/axle bores. Inspect supports at rounded perimeter transitions and local counterbore roofs in the slicer; these exports are not qualified print settings."
+    },
+    {
+      "part": "shin_inner",
+      "orientation": "Exterior face down; open cavity up.",
+      "build_envelope_mm": [
+        42.00000020000001,
+        173.88813302054697,
+        16.000000200000546
+      ],
+      "solid_count": 1,
+      "face_count": 52,
+      "notes": "Vertical bearing/axle bores. Inspect supports at rounded perimeter transitions and local counterbore roofs in the slicer; these exports are not qualified print settings."
+    },
+    {
+      "part": "shin_inner_right",
+      "orientation": "Exterior face down; open cavity up.",
+      "build_envelope_mm": [
+        42.00000020000001,
+        173.88813302054697,
+        16.00000020000457
+      ],
+      "solid_count": 1,
+      "face_count": 52,
+      "notes": "Vertical bearing/axle bores. Inspect supports at rounded perimeter transitions and local counterbore roofs in the slicer; these exports are not qualified print settings."
+    },
+    {
+      "part": "shin_outer",
+      "orientation": "Exterior face down; open cavity up.",
+      "build_envelope_mm": [
+        42.00000020000001,
+        173.888133020547,
+        18.000000200000546
+      ],
+      "solid_count": 1,
+      "face_count": 89,
+      "notes": "Vertical bearing/axle bores. Inspect supports at rounded perimeter transitions and local counterbore roofs in the slicer; these exports are not qualified print settings."
+    },
+    {
+      "part": "shin_outer_right",
+      "orientation": "Exterior face down; open cavity up.",
+      "build_envelope_mm": [
+        42.00000020000001,
+        173.888133020547,
+        18.000000200000546
+      ],
+      "solid_count": 1,
+      "face_count": 89,
+      "notes": "Vertical bearing/axle bores. Inspect supports at rounded perimeter transitions and local counterbore roofs in the slicer; these exports are not qualified print settings."
+    },
+    {
+      "part": "body_nose_surround",
+      "orientation": "Top clamping lands down; mounting feet up.",
+      "size_mm": [
+        89.0,
+        64.0,
+        17.200000000000017
+      ]
+    },
+    {
+      "part": "front_fascia",
+      "orientation": "Camera face toward the bed; neck rises in the build direction. Use a brim and local supports under the curved face and recessed features.",
+      "size_mm": [
+        119.61538481969335,
+        196.1923078923077,
+        185.7616781575894
+      ]
+    },
+    {
+      "part": "body_center_0",
+      "orientation": "Roof toward the bed; inspect local supports beneath the curved roof.",
+      "size_mm": [
+        258.36000937360177,
+        229.75372012619317,
+        65.50000010000021
+      ]
+    }
+  ],
+  "structural_halves_per_limb": 4,
+  "shared_split_plane_y_mm": 67,
+  "status": "Geometry review prototype; not released for manufacture.",
+  "assembly": [
+    "Bench-fit the bearings and spacers before installing the motors.",
+    "Install the hip hub, three metal tie sleeves and knee stator plate; verify actuator thread engagement and clamp preload separately.",
+    "Install the pushrod bushings, shoulder screws and captured nuts with the shells open.",
+    "Seat each shin bearing in its complete circular bore. Close the shin halves around the spacer and metal clamp sleeves.",
+    "Fit the shin between the thigh bearing stops, insert the knee axle sleeve and through-bolt, then close the thigh.",
+    "For bearing service, remove the knee axle and open the two structural halves. Use the rear extraction holes to press on the outer race."
+  ],
+  "limits": [
+    "Printed strength, fatigue, motor heat, clamp preload, actual press fits and accumulated tolerances remain unqualified.",
+    "Metal parts need wall/pocket optimization and a supplier tool-access review before CNC ordering.",
+    "The nominal foot and motor envelopes are retained; their final retention and wiring details require hardware selection."
+  ],
+  "source_model_sha256": "d2039216bacf498ad0b9b39b7b28409203e52b5f3ef4598c41815b89e302a3e9",
+  "reuse_basis": "All limb geometry and assembly placements are identical to the audited source.",
+  "sensor_assembly": [
+    "Drill and deburr the two 4.4 mm crossmember holes, or manufacture the revised metal part.",
+    "Fit the cradle with two M4 x20 socket-head screws, flat washers and accessible nuts below the crossmember.",
+    "Insert four M3 nuts through the open underside of the cradle. Route cables aft around the crossmember, with a disconnect and service slack.",
+    "Lower the hood onto its four lands and fit four M3 x20 socket-head screws from above. The lidar does not cover these access holes.",
+    "The main body cover and sensor hood lift independently. Remove the hood before accessing the two cradle mounting screws."
+  ],
+  "sensor_limits": [
+    "The selected lidar mounting pattern and camera cartridge retention remain to be detailed. Retained face holes are not counted as chassis fasteners.",
+    "Actual 3D sensor beam angles, printed strength, fastener preload, impact survival and cable bend radii remain unqualified.",
+    "The cradle is suitable for a simple flat print orientation; the compound-curved hood needs localized supports and is not claimed to be support-free or a simple two-setup CNC part."
+  ]
+}

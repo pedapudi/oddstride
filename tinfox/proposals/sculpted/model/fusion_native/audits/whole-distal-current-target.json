@@ -1,0 +1,138 @@
+{
+  "passed": true,
+  "parts": [
+    {
+      "part": "foot",
+      "target_step": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-targets/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/step/foot.step",
+      "target_sha256": "ea6994176e2b085d1e0ebab009da2feca7f3f16fd3456b5fd0fd9e5e2397b102",
+      "native_sha256": "d4e0c4d45430380abefaac8f3f611a36c34d15de952d1af374e5f0f5521c53ee",
+      "geometry_passed": true,
+      "sections_passed": true,
+      "reused_geometry_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/cohesive-foot-geometry.json",
+      "reused_section_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/cohesive-foot-sections.json",
+      "fallback_source_mesh_byte_equal": true
+    },
+    {
+      "part": "foot_right",
+      "target_step": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-targets/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/step/foot_right.step",
+      "target_sha256": "ef3df51046056ffd29610e63fa006d8f99ac59f8c52e917975c1fe2ef115d9ec",
+      "native_sha256": "82d4de10ec0b140b295a8eefb0b2acb03a3d7bddb871a42b909a118424d0a8fb",
+      "geometry_passed": true,
+      "sections_passed": true,
+      "reused_geometry_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/cohesive-foot-right-geometry.json",
+      "reused_section_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/cohesive-foot-right-sections.json",
+      "fallback_source_mesh_byte_equal": true
+    },
+    {
+      "part": "pushrod",
+      "target_step": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-targets/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/step/pushrod.step",
+      "target_sha256": "f533c69ae21628ed9e741ec9e38c89f9567352f825202801254faaa89fd10eda",
+      "native_sha256": "ce473e6158d140711510ebeb45051f5cdedb4061cdeb13a7f2e5ac8bb4e85d02",
+      "geometry_passed": true,
+      "sections_passed": true,
+      "reused_geometry_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/cohesive-pushrod-geometry.json",
+      "reused_section_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/cohesive-pushrod-sections.json",
+      "fallback_source_mesh_byte_equal": true
+    },
+    {
+      "part": "pushrod_right",
+      "target_step": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-targets/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/step/pushrod_right.step",
+      "target_sha256": "76677428ca2000404b9047f210e66de7e3fa8ad61570867123b8fccdb9834df5",
+      "native_sha256": "3bdc4a72f356327f5e6b4d2f19ff80a292c1bb7732f25b009e0956f96f5b5ea3",
+      "geometry_passed": true,
+      "sections_passed": true,
+      "reused_geometry_evidence": null,
+      "reused_section_evidence": null,
+      "fallback_source_mesh_byte_equal": true
+    },
+    {
+      "part": "knee_inner_spacer",
+      "target_step": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/knee_inner_spacer.step",
+      "target_sha256": "b6f3c122e310eb1b6fa3aea5364045c6bf012d2d42e2d3e1daa79a85d96781c6",
+      "native_sha256": "c4cd61a3ef977b5fdc7bdeebb459675c71c968b1e6221d5c47c2c753faaf6e49",
+      "geometry_passed": true,
+      "sections_passed": true,
+      "reused_geometry_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/cohesive-knee-inner-spacer-geometry.json",
+      "reused_section_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/cohesive-knee-inner-spacer-sections.json",
+      "fallback_source_mesh_byte_equal": false
+    },
+    {
+      "part": "knee_inner_spacer_right",
+      "target_step": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/knee_inner_spacer_right.step",
+      "target_sha256": "e79ffea78131008eba9d30008c2661dc566fb91788ce102a281152370127a78b",
+      "native_sha256": "f05aa8a2c28fc5835bd384ae82edfd690d527b915ce0237ba03f5913c130fb2c",
+      "geometry_passed": true,
+      "sections_passed": true,
+      "reused_geometry_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/cohesive-knee-inner-spacer-right-geometry.json",
+      "reused_section_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/cohesive-knee-inner-spacer-right-sections.json",
+      "fallback_source_mesh_byte_equal": false
+    },
+    {
+      "part": "knee_axle",
+      "target_step": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/knee_axle.step",
+      "target_sha256": "3896258155f287845768424b8751b02031b980fdc2dddcc450cbc2d3f5c8ba3f",
+      "native_sha256": "df522ce875c09ad1863486f50cf84e7557cf5895e5656013ea15631f975cabe5",
+      "geometry_passed": true,
+      "sections_passed": true,
+      "reused_geometry_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/bench-native-knee_axle-geometry.json",
+      "reused_section_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/bench-native-knee_axle-sections.json",
+      "fallback_source_mesh_byte_equal": false
+    },
+    {
+      "part": "knee_axle_right",
+      "target_step": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/knee_axle_right.step",
+      "target_sha256": "a4fb404ba102fd759d39da5b488b0892f75732774ebc80d6b0d461116334c564",
+      "native_sha256": "fe809cbc9c06b28fa76c3e90078521f1ca80b7c85594c8e807f8753c620da3f7",
+      "geometry_passed": true,
+      "sections_passed": true,
+      "reused_geometry_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/bench-native-knee_axle_right-geometry.json",
+      "reused_section_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/bench-native-knee_axle_right-sections.json",
+      "fallback_source_mesh_byte_equal": false
+    },
+    {
+      "part": "shin_clamp_sleeve_37",
+      "target_step": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-targets/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/step/shin_clamp_sleeve_37.step",
+      "target_sha256": "488aa92fc7df80bbf02505cba4b54a27464c48cee2a4a44debce6b7d7b3d446d",
+      "native_sha256": "0bb49fdc8fe7bd16a792ac3458337b826173354cb39c42914c4a20a113aaa919",
+      "geometry_passed": true,
+      "sections_passed": true,
+      "reused_geometry_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/shin_clamp_sleeve_37-geometry.json",
+      "reused_section_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/shin_clamp_sleeve_37-sections.json",
+      "fallback_source_mesh_byte_equal": true
+    },
+    {
+      "part": "shin_clamp_sleeve_37_right",
+      "target_step": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-targets/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/step/shin_clamp_sleeve_37_right.step",
+      "target_sha256": "31bcaefe8b0e961cd03d3f482e7d4774d8186a336b6f347cedab2dc02607888e",
+      "native_sha256": "60adf59904b1f7ec59e76b9ee3a5431693fcbbba6375175f34e1b2e495649284",
+      "geometry_passed": true,
+      "sections_passed": true,
+      "reused_geometry_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/shin_clamp_sleeve_37_right-geometry.json",
+      "reused_section_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/shin_clamp_sleeve_37_right-sections.json",
+      "fallback_source_mesh_byte_equal": true
+    },
+    {
+      "part": "shin_clamp_sleeve_105",
+      "target_step": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-targets/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/step/shin_clamp_sleeve_105.step",
+      "target_sha256": "3ccddb9db2d689c944ebf2ea5213fc38a7a34f36f3383f288020ccb49f8bb03e",
+      "native_sha256": "29883126bafcd835d22c7dcaa9bd510fe149e25d47753118c0b51ee78bd8b272",
+      "geometry_passed": true,
+      "sections_passed": true,
+      "reused_geometry_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/shin_clamp_sleeve_105-geometry.json",
+      "reused_section_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/shin_clamp_sleeve_105-sections.json",
+      "fallback_source_mesh_byte_equal": true
+    },
+    {
+      "part": "shin_clamp_sleeve_105_right",
+      "target_step": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-targets/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/step/shin_clamp_sleeve_105_right.step",
+      "target_sha256": "8ae34dfce8b9fc032ce5d14f14665906139731438f533fea59a36a78ef03f715",
+      "native_sha256": "fa74bc4ac10d9d5d23437f3a2cd26468616c911d44d634eb2a3a0d49ea5b1c6f",
+      "geometry_passed": true,
+      "sections_passed": true,
+      "reused_geometry_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/shin_clamp_sleeve_105_right-geometry.json",
+      "reused_section_evidence": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/audits/shin_clamp_sleeve_105_right-sections.json",
+      "fallback_source_mesh_byte_equal": true
+    }
+  ],
+  "scope": "Current distal geometry and cylindrical/section comparisons; placement and moving assembly remain pending."
+}

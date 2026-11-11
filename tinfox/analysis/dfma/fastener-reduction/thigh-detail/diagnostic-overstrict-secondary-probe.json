@@ -1,0 +1,110 @@
+{
+  "scope": "Two corrected local details only; native motion/insertion/driver matrices not repeated",
+  "inputs": {
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/dfma-architecture-v1/dfma-thigh-primary-detailed.step": {
+      "sha256": "4909ffed568ad0c16231410bef115b43e2a75f46fa3a0b864efa4630eb42e59d",
+      "valid": true,
+      "solid_count": 1
+    },
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/dfma-architecture-v1/dfma-thigh-secondary-detailed.step": {
+      "sha256": "17a865404a3570e2123cea4799e7528f7f818d52388e8f654395b3a277e1ce23",
+      "valid": true,
+      "solid_count": 1
+    }
+  },
+  "checks": [
+    {
+      "name": "primary_former_positive_x_inboard_shelf",
+      "section_z_mm": -42,
+      "section_faces": [
+        {
+          "area_mm2": 997.5448114475466,
+          "bounds_mm": [
+            -45.384764237186424,
+            1.0000000355271367e-07,
+            4.9999999,
+            53.500000100000015,
+            -42.0000001,
+            -41.9999999
+          ]
+        }
+      ],
+      "probe_positive_x_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "secondary_former_positive_x_inboard_shelf",
+      "section_z_mm": -42,
+      "section_faces": [
+        {
+          "area_mm2": 1393.40361378761,
+          "bounds_mm": [
+            -45.384986178574614,
+            37.503465600459094,
+            8.9999999,
+            94.0000001,
+            -42.0000001,
+            -41.9999999
+          ]
+        }
+      ],
+      "probe_positive_x_volume_mm3": 233.00435752966686,
+      "passed": false
+    },
+    {
+      "name": "window_end_radial_section",
+      "tangential_offset_mm": -4,
+      "horizontal_edges": [
+        {
+          "y_mm": 46.5,
+          "radial_extent_mm": [
+            40.0507490566656,
+            45.22344524690706
+          ]
+        }
+      ],
+      "window_end_y_mm": 46.5,
+      "tube_foot_y_mm": 50.4,
+      "band_mm": 3.9,
+      "passed": true
+    },
+    {
+      "name": "window_end_radial_section",
+      "tangential_offset_mm": 0,
+      "horizontal_edges": [
+        {
+          "y_mm": 46.5,
+          "radial_extent_mm": [
+            40.25,
+            45.400000000000006
+          ]
+        }
+      ],
+      "window_end_y_mm": 46.5,
+      "tube_foot_y_mm": 50.4,
+      "band_mm": 3.9,
+      "passed": true
+    },
+    {
+      "name": "window_end_radial_section",
+      "tangential_offset_mm": 4,
+      "horizontal_edges": [
+        {
+          "y_mm": 46.5,
+          "radial_extent_mm": [
+            40.05074905666561,
+            45.22344524690706
+          ]
+        }
+      ],
+      "window_end_y_mm": 46.5,
+      "tube_foot_y_mm": 50.4,
+      "band_mm": 3.9,
+      "passed": true
+    }
+  ],
+  "passed": false,
+  "limitations": [
+    "Local geometric detailing accepted; print orientation/supports, preload, physical cable bend and operating strength remain unqualified."
+  ]
+}

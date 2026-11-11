@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"message\": \"{\\\"addPolygon\\\": \\\"\\\\nCreates a polygon constraint on existing lines in the sketch.\\\\nlines : An array of existing SketchLine objects in this sketch that define a valid polygon.\\\\nThey must be the same length, connect at their endpoints, have the same angle between them,\\\\nand define a closed shape. The order of the lines within the array does not matter.\\\\nReturns the created PolygonConstraint or null if the creation failed.\\\\n\\\", \\\"offset_input_topology\\\": \\\"Specifies if the offset curves must match the topology of the original curves. For example, if you have a sketch\\\\ncontaining two lines with a fillet (arc) connecting them and offset them inward more than the arc radius, the\\\\nresulting offset will be two lines. This is a change in topology because the original curves were line-arc-line,\\\\nand the offset is line-line. An offset of less than the radius still results in a line-arc-line result. If this\\\\nproperty is true, indicating the topology must match, creating the offset with a value greater than the arc radius\\\\nwill fail because the result will not have a matching topology.\\\\nWhen the OffsetConstraintInput is created, this property default to true.\\\"}\\n\",\n    \"success\": true\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

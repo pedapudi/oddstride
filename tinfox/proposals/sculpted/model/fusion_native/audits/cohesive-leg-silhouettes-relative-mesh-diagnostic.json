@@ -1,0 +1,112 @@
+{
+  "views": [
+    {
+      "worst_vertices": [
+        {
+          "direction": "source_to_native",
+          "point": [
+            -44.713834,
+            -21.574879
+          ],
+          "nearest": [
+            -44.66758677423992,
+            -21.55798227212581
+          ],
+          "distance_mm": 0.04923723492802909
+        },
+        {
+          "direction": "native_to_source",
+          "point": [
+            6.385948,
+            -86.210251
+          ],
+          "nearest": [
+            6.47591417766779,
+            -86.29288686567027
+          ],
+          "distance_mm": 0.12215809191055345
+        }
+      ],
+      "view": "side",
+      "source_area_mm2": 18364.883899955217,
+      "native_area_mm2": 18362.48560151812,
+      "symmetric_difference_area_mm2": 3.6228287840881053,
+      "relative_difference_area": 0.0001972693540467707,
+      "boundary_hausdorff_mm": 0.1221580919105528,
+      "pass": false
+    },
+    {
+      "worst_vertices": [
+        {
+          "direction": "source_to_native",
+          "point": [
+            91.0,
+            -183.699319
+          ],
+          "nearest": [
+            91.0,
+            -183.69983
+          ],
+          "distance_mm": 0.000510999999988826
+        },
+        {
+          "direction": "native_to_source",
+          "point": [
+            85.3,
+            -183.69983
+          ],
+          "nearest": [
+            85.3,
+            -183.699319
+          ],
+          "distance_mm": 0.000510999999988826
+        }
+      ],
+      "view": "front",
+      "source_area_mm2": 12298.209184266423,
+      "native_area_mm2": 12298.210667197354,
+      "symmetric_difference_area_mm2": 0.006641447048074651,
+      "relative_difference_area": 5.400336706397312e-07,
+      "boundary_hausdorff_mm": 0.000510999999988826,
+      "pass": true
+    },
+    {
+      "worst_vertices": [
+        {
+          "direction": "source_to_native",
+          "point": [
+            -37.389709,
+            -63.970257
+          ],
+          "nearest": [
+            -37.399077211644176,
+            -63.96780234237981
+          ],
+          "distance_mm": 0.009684458345325317
+        },
+        {
+          "direction": "native_to_source",
+          "point": [
+            -37.398366,
+            -63.965088
+          ],
+          "nearest": [
+            -37.38900074056045,
+            -63.96788838619229
+          ],
+          "distance_mm": 0.009774980674975753
+        }
+      ],
+      "view": "isometric",
+      "source_area_mm2": 20320.44224241681,
+      "native_area_mm2": 20319.452031534067,
+      "symmetric_difference_area_mm2": 1.1161794313231086,
+      "relative_difference_area": 5.4928894657282604e-05,
+      "boundary_hausdorff_mm": 0.009774980674975753,
+      "pass": true
+    }
+  ],
+  "passed": false,
+  "projection_union_grid_mm": 1e-06,
+  "scope": "External projected silhouettes at 0.01 mm source/native tessellation; excludes projected internal holes and disconnected triangulation fragments smaller than 0.00001 mm2. Internal features are audited by exact BRep surfaces and sections."
+}

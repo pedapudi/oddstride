@@ -1,0 +1,287 @@
+{
+  "updated_utc": "2026-10-29T00:37:03.190363+00:00",
+  "source_model_sha256": "729b1d80c0597fde72c9e7db1d2b6d7d6890a0bda5a4f44e8aca6490b933bc9c",
+  "reference_model": "snapshots/body-revisions/729b1d80c0597fde72c9e7db1d2b6d7d6890a0bda5a4f44e8aca6490b933bc9c/model.json.gz",
+  "custom_keys": [
+    "body_center_0",
+    "belly_center_0",
+    "chassis_beam_102",
+    "chassis_beam_-102",
+    "chassis_crossmember_121",
+    "chassis_crossmember_-121"
+  ],
+  "reference_hardware_keys": [
+    "chassis_tie_bolt_-121_-1_-3",
+    "chassis_tie_bolt_-121_-1_3",
+    "chassis_tie_bolt_-121_1_-3",
+    "chassis_tie_bolt_-121_1_3",
+    "chassis_tie_bolt_121_-1_-3",
+    "chassis_tie_bolt_121_-1_3",
+    "chassis_tie_bolt_121_1_-3",
+    "chassis_tie_bolt_121_1_3",
+    "body_service_screw_-1_-64_18",
+    "body_service_screw_1_-64_18",
+    "body_service_screw_-1_64_18",
+    "body_service_screw_1_64_18"
+  ],
+  "removed_reference_keys": [
+    "chassis_tie_nut_-121_-1_-3",
+    "chassis_tie_nut_-121_-1_3",
+    "chassis_tie_nut_-121_1_-3",
+    "chassis_tie_nut_-121_1_3",
+    "chassis_tie_nut_121_-1_-3",
+    "chassis_tie_nut_121_-1_3",
+    "chassis_tie_nut_121_1_-3",
+    "chassis_tie_nut_121_1_3",
+    "sensor_root_nut_0",
+    "sensor_root_nut_1"
+  ],
+  "files": {
+    "body_center_0": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/body_center_0.step",
+        "sha256": "3e8b30102eb51cec075714a52feb1daed36da42814ead0c3b8c0d12f20ed4149"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/body_center_0.stl",
+        "sha256": "73bd6ec669fb094697386fe0195ad07f42c15d018ca9a328b039f0e8a63ccd45"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/body_center_0.brep",
+        "sha256": "f82a818947c58ae82621a9333b2b1bc726db26daf4fcc37665f103b60dc68c5e"
+      }
+    },
+    "belly_center_0": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/belly_center_0.step",
+        "sha256": "fa3266d9392b4eaf8a3e44a28abe731ffa4207ccb40394d815a9eba1d48314f0"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/belly_center_0.stl",
+        "sha256": "5c67ebf5aac4eeb01acc23bd25c2acd8a3b1bdf9900d72d6d7032cdffa0ec0a8"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/belly_center_0.brep",
+        "sha256": "856afe019273e3396f5c5e3dba606619cc10df483fa7b73b3baa8288578d8256"
+      }
+    },
+    "chassis_beam_102": {
+      "step": {
+        "path": "snapshots/body-revisions/729b1d80c0597fde72c9e7db1d2b6d7d6890a0bda5a4f44e8aca6490b933bc9c/step/chassis_beam_102.step",
+        "sha256": "c8e3fb4512dffc8a108851367e2f6da9552ec2b5913b00073fbd552c98ce2fe7"
+      }
+    },
+    "chassis_beam_-102": {
+      "step": {
+        "path": "snapshots/body-revisions/729b1d80c0597fde72c9e7db1d2b6d7d6890a0bda5a4f44e8aca6490b933bc9c/step/chassis_beam_-102.step",
+        "sha256": "68aa7e0f6500dc5709b2526ee2b3f77d5a389e9e3ff9c14bce8fb2941e10eeaf"
+      }
+    },
+    "chassis_crossmember_121": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/chassis_crossmember_121.step",
+        "sha256": "c1519b3ea3f13a1302d306c8300724c84c7bc7b92fb11132b8eb248a1676fb04"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/chassis_crossmember_121.stl",
+        "sha256": "b6e17129db2061a535b7c829e8f42e6c269d6024af33252b89dd8e89b2c8f81c"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/chassis_crossmember_121.brep",
+        "sha256": "b9f8ec5f66bedd27b695564a15e141f8604026f8cccb61663a24960c420f4f18"
+      }
+    },
+    "chassis_crossmember_-121": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/chassis_crossmember_-121.step",
+        "sha256": "42d69df6d0c64d4e979d40115daf2f5669ee5c0730b9919a99e07828a689d28c"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/chassis_crossmember_-121.stl",
+        "sha256": "0f9a9fcf58ff6eec4e04ec09146da1ec600e6f7f3dc9354c404347abd6c80564"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/chassis_crossmember_-121.brep",
+        "sha256": "3c82a5c8fa6e4a88bba9f86c58eb719db90aebf1d3ecddf3e3e99dfa4ef6320b"
+      }
+    },
+    "chassis_tie_bolt_-121_-1_-3": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/chassis_tie_bolt_-121_-1_-3.step",
+        "sha256": "840177e4773d8d8de97196eccaeb384d13171537f76e2fb618256ed3e21cca7d"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/chassis_tie_bolt_-121_-1_-3.stl",
+        "sha256": "0d2e514fdfdddc07026c7d561d712c4d12fa2bdbbfefee27e24b0b3113780d5a"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/chassis_tie_bolt_-121_-1_-3.brep",
+        "sha256": "76b26fbd86630c2475c42739dc7c31c3ac3f108263fd4f849939f24ac39b08e4"
+      }
+    },
+    "chassis_tie_bolt_-121_-1_3": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/chassis_tie_bolt_-121_-1_3.step",
+        "sha256": "5ec5bce516231ec3bd69554c232351d911265d40ccdd26e6e7403526ca893672"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/chassis_tie_bolt_-121_-1_3.stl",
+        "sha256": "f75b21e95844ee5ba6155c8e0d71748c65afd86bb73895f3a02a1bc35e467cbe"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/chassis_tie_bolt_-121_-1_3.brep",
+        "sha256": "5b84267d4a188c5e778c9c956c9143c9c295a77f28dcbfc145ee85b8e9b68f67"
+      }
+    },
+    "chassis_tie_bolt_-121_1_-3": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/chassis_tie_bolt_-121_1_-3.step",
+        "sha256": "aece2a268c60bf6d42fb2bf3f92f565ad78e7b41cdfaff8fd09ef93d6199a56a"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/chassis_tie_bolt_-121_1_-3.stl",
+        "sha256": "390ce7e30a3d0751da8664f0acf4e594f0261b7764503ce23fbff8c4f46c3f3f"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/chassis_tie_bolt_-121_1_-3.brep",
+        "sha256": "164d5818e21549a357467edfa0af0520412e7cad5c46c2bfa9316d0d4d0491c9"
+      }
+    },
+    "chassis_tie_bolt_-121_1_3": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/chassis_tie_bolt_-121_1_3.step",
+        "sha256": "f755dc5e0638d6942ed7075e9342a11e6e4e7f49d5bcc2fad4c64435c43ed050"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/chassis_tie_bolt_-121_1_3.stl",
+        "sha256": "c50d25014e428b771710693a0f5a1403edf51b9653ca13a0d123e9f42aa2ce50"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/chassis_tie_bolt_-121_1_3.brep",
+        "sha256": "1e778a6406ec4925106cec7dacee1a4de4c72e17eb6512ea9934ce0c9d7b9ca3"
+      }
+    },
+    "chassis_tie_bolt_121_-1_-3": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/chassis_tie_bolt_121_-1_-3.step",
+        "sha256": "0d5eace1e4549547f72c58c4e8388294ef9a692fc668447df0b27aaba25eac54"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/chassis_tie_bolt_121_-1_-3.stl",
+        "sha256": "d0901bad951b2efac5516143bef60570810e76864b066e19f3385482f336cfe4"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/chassis_tie_bolt_121_-1_-3.brep",
+        "sha256": "7dafc4f97289a9e0b370ca7a97f9fa1d72c3f79e2f450ccf57afc0400255576c"
+      }
+    },
+    "chassis_tie_bolt_121_-1_3": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/chassis_tie_bolt_121_-1_3.step",
+        "sha256": "93a21d992447011914150fa8503445106425fa7a16e16fe323406659ffc074ee"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/chassis_tie_bolt_121_-1_3.stl",
+        "sha256": "1bdec52f3f394a841756ade28ba14cdc4f333a23e4d038296ad2241203c8b4c1"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/chassis_tie_bolt_121_-1_3.brep",
+        "sha256": "04328d0b8801b55254e11e02f454cc6500305050bb133dd2c029ffe6f1c669a3"
+      }
+    },
+    "chassis_tie_bolt_121_1_-3": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/chassis_tie_bolt_121_1_-3.step",
+        "sha256": "e83e36c75e12cf6299568e93ac1b341e3125fd38b7831fcfda9c2f7b0319e855"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/chassis_tie_bolt_121_1_-3.stl",
+        "sha256": "ccb3296d659788a15d883520f65178b106a532c034960197e3327b319dfbb704"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/chassis_tie_bolt_121_1_-3.brep",
+        "sha256": "0c83873f9c4b07173a60d355dee29a4b3ff9b8d8a9ac8de3833458dbbd744a57"
+      }
+    },
+    "chassis_tie_bolt_121_1_3": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/chassis_tie_bolt_121_1_3.step",
+        "sha256": "3d74b4a0b4ab2697e188288502fd7ceaf85deafd07c6e8af701e50fb94e80a89"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/chassis_tie_bolt_121_1_3.stl",
+        "sha256": "1a870c37a486966f7942e1a514dd7f238d3dfc067a8713021679ef835e7cc402"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/chassis_tie_bolt_121_1_3.brep",
+        "sha256": "5087d736a23868ebaf7811f125c0b5282170fa781217831a46366581f0d80d38"
+      }
+    },
+    "body_service_screw_-1_-64_18": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/body_service_screw_-1_-64_18.step",
+        "sha256": "fa2f1ccf71142fbd1a698398eba596f479f99316f22213227990549368e45991"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/body_service_screw_-1_-64_18.stl",
+        "sha256": "4913570389d2d4e5013621271f1c1e5c39bab378f3a38c59f414a8b27b1bfb68"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/body_service_screw_-1_-64_18.brep",
+        "sha256": "e4f484f7edd2f52425647cc4418949d5caf747c4908b4236af8722bf7cd7d9e8"
+      }
+    },
+    "body_service_screw_1_-64_18": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/body_service_screw_1_-64_18.step",
+        "sha256": "d3a5804e5ead29d2a374e88c39290de2bc998dc6bacbaaf0d66cf67e336e4118"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/body_service_screw_1_-64_18.stl",
+        "sha256": "2d0ede2e8c23d809c485d1dcdab36443a04771a1ac650ce4bc2435ffa4fb718e"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/body_service_screw_1_-64_18.brep",
+        "sha256": "ea497da635bfaea32d888b79f16eac706b529b4a386fd59bcddc4d0c79f39a3e"
+      }
+    },
+    "body_service_screw_-1_64_18": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/body_service_screw_-1_64_18.step",
+        "sha256": "470c70dbe9e3975071e5040884bdda446c79178199855ef25416483358897ab1"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/body_service_screw_-1_64_18.stl",
+        "sha256": "f9b85f7ef32a4e11d21164cbd635027f647c7f715c09ec3f363e0c88fef29f8f"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/body_service_screw_-1_64_18.brep",
+        "sha256": "5f0a1cc98ba5f3e7ff27809bc7a79fb6132ea27778edb2828ba5b55b1cace1b8"
+      }
+    },
+    "body_service_screw_1_64_18": {
+      "step": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/step/body_service_screw_1_64_18.step",
+        "sha256": "299d12233f56e99b4fad17d3c900422a1fa540726b4864d50b7f831d6cf8bd33"
+      },
+      "stl": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/stl/body_service_screw_1_64_18.stl",
+        "sha256": "76f7c38452a15253ef5f28a34f6f784ff154b51ff0193ddab55cdd46a24eb7b6"
+      },
+      "reference-brep": {
+        "path": "snapshots/body-revisions/beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8/reference-brep/body_service_screw_1_64_18.brep",
+        "sha256": "7edd6e38f65e2bb69b1b3d000552d2e6c995299f7e639f5802f22fb21cbacd25"
+      }
+    }
+  },
+  "sources": {
+    "build.py": "37ac5605adf83a91cefd72803033688dcfe2adf9d59a93e37ae770b9633962d9",
+    "closed_thigh.py": "be9206efefad65f85ba001d3a637e168452a7126f6235b65ed88aa366b572889",
+    "cohesive_chassis.py": "8df83e6d83f38a69c429ab7cdd325c5889f99ada2b0bd79b3de836519d1133f0",
+    "kinematics.py": "320440c8297f5cbdc584e8d2f76129dfd4acf6fd3bfb3d9cd69ee79f2f33daa9",
+    "parameters.json": "9bc249dc127d582cacfb64c30154a926dde8ac4ecc3ed466aab69c951e8b9ca5"
+  },
+  "status": "Authorized corrected body-only overlay; the latest clamp/limb revision remains separate. Generated CAD remains authoritative.",
+  "base_source_model_sha256": "beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8",
+  "body_cleanup_overlay": "snapshots/body-revisions/729b1d80c0597fde72c9e7db1d2b6d7d6890a0bda5a4f44e8aca6490b933bc9c/overlay-manifest.json"
+}

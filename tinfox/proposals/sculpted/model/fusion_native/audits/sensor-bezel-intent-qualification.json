@@ -1,0 +1,187 @@
+{
+  "part": "sensor_bezel",
+  "head_version": 16,
+  "saved": true,
+  "removed_reference": "V0 - Sensor bezel v1:1",
+  "removed_unused_parameters": [
+    "electronics_shelf_1315_extrudeLinear_offset",
+    "electronics_shelf_1315_extrudeLinear_extrusion_depth",
+    "electronics_shelf_1319_fillet_radius",
+    "electronics_shelf_1320_extrudeLinear_offset",
+    "electronics_shelf_1320_extrudeLinear_extrusion_depth",
+    "electronics_shelf_1324_fillet_radius",
+    "electronics_shelf_1326_extrudeLinear_offset",
+    "electronics_shelf_1326_extrudeLinear_extrusion_depth",
+    "electronics_shelf_1330_fillet_radius",
+    "electronics_shelf_1332_extrudeLinear_offset",
+    "electronics_shelf_1332_extrudeLinear_extrusion_depth",
+    "electronics_shelf_1336_fillet_radius",
+    "electronics_shelf_1338_extrudeLinear_offset",
+    "electronics_shelf_1338_extrudeLinear_extrusion_depth",
+    "electronics_shelf_1342_fillet_radius",
+    "electronics_shelf_1344_extrudeLinear_offset",
+    "electronics_shelf_1344_extrudeLinear_extrusion_depth",
+    "electronics_shelf_1348_fillet_radius",
+    "electronics_shelf_1350_extrudeLinear_offset",
+    "electronics_shelf_1350_extrudeLinear_extrusion_depth",
+    "electronics_shelf_1354_fillet_radius",
+    "electronics_shelf_1356_makeCylinder_offset",
+    "electronics_shelf_1356_makeCylinder_diameter",
+    "electronics_shelf_1356_makeCylinder_cylinder_depth",
+    "electronics_shelf_1361_makeCylinder_offset",
+    "electronics_shelf_1361_makeCylinder_diameter",
+    "electronics_shelf_1361_makeCylinder_cylinder_depth",
+    "electronics_shelf_1366_makeCylinder_offset",
+    "electronics_shelf_1366_makeCylinder_diameter",
+    "electronics_shelf_1366_makeCylinder_cylinder_depth",
+    "electronics_shelf_1371_makeCylinder_offset",
+    "electronics_shelf_1371_makeCylinder_diameter",
+    "electronics_shelf_1371_makeCylinder_cylinder_depth",
+    "electronics_shelf_1377_extrudeLinear_offset",
+    "electronics_shelf_1377_extrudeLinear_extrusion_depth",
+    "electronics_shelf_1381_extrudeLinear_offset",
+    "electronics_shelf_1381_extrudeLinear_extrusion_depth",
+    "electronics_shelf_1385_extrudeLinear_offset",
+    "electronics_shelf_1385_extrudeLinear_extrusion_depth",
+    "electronics_shelf_1389_extrudeLinear_offset",
+    "electronics_shelf_1389_extrudeLinear_extrusion_depth",
+    "lidar_lid_4234_makeCylinder_offset",
+    "lidar_lid_4234_makeCylinder_diameter",
+    "lidar_lid_4234_makeCylinder_cylinder_depth",
+    "power_button_1628_makeCylinder_offset",
+    "power_button_1628_makeCylinder_diameter",
+    "power_button_1628_makeCylinder_cylinder_depth"
+  ],
+  "features": 9,
+  "sketches": 8,
+  "edits": [
+    {
+      "parameter": "bezel_outer_width",
+      "changed_expression": "176 mm",
+      "baseline_mm3": 12794.883224475561,
+      "changed_mm3": 13052.127658896005,
+      "restored_mm3": 12794.88322447552,
+      "passed": true
+    },
+    {
+      "parameter": "bezel_outer_height",
+      "changed_expression": "48 mm",
+      "baseline_mm3": 12794.88322447552,
+      "changed_mm3": 13769.27120398573,
+      "restored_mm3": 12794.883224475549,
+      "passed": true
+    },
+    {
+      "parameter": "bezel_pocket_depth",
+      "changed_expression": "1.9 mm",
+      "baseline_mm3": 12794.883224475549,
+      "changed_mm3": 11704.15230282109,
+      "restored_mm3": 12794.883224475549,
+      "passed": true
+    },
+    {
+      "parameter": "head_face_vertical_crown",
+      "changed_expression": "11 mm",
+      "baseline_mm3": 12794.883224475549,
+      "changed_mm3": 12795.215826635002,
+      "restored_mm3": 12794.883224475478,
+      "passed": true
+    }
+  ],
+  "body_appearance_properties": [
+    [
+      "interior_model",
+      "Material Type",
+      "adsk::core::IntegerProperty"
+    ],
+    [
+      "metal_f0",
+      "Color",
+      "adsk::core::ColorProperty"
+    ],
+    [
+      "metal_f0_colorspace",
+      "Color space",
+      "adsk::core::ChoiceProperty"
+    ],
+    [
+      "metal_f0_urn",
+      "URN",
+      "adsk::core::StringProperty"
+    ],
+    [
+      "surface_albedo",
+      "Color",
+      "adsk::core::ColorProperty"
+    ],
+    [
+      "surface_albedo_colorspace",
+      "Color space",
+      "adsk::core::ChoiceProperty"
+    ],
+    [
+      "surface_albedo_urn",
+      "URN",
+      "adsk::core::StringProperty"
+    ],
+    [
+      "surface_anisotropy",
+      "Anisotropy",
+      "adsk::core::FloatProperty"
+    ],
+    [
+      "surface_anisotropy_urn",
+      "URN",
+      "adsk::core::StringProperty"
+    ],
+    [
+      "surface_cutout",
+      "Image",
+      "adsk::core::AppearanceTextureProperty"
+    ],
+    [
+      "surface_cutout_urn",
+      "URN",
+      "adsk::core::StringProperty"
+    ],
+    [
+      "surface_ndf_type",
+      "NDF",
+      "adsk::core::ChoiceProperty"
+    ],
+    [
+      "surface_normal",
+      "Image",
+      "adsk::core::AppearanceTextureProperty"
+    ],
+    [
+      "surface_normal_urn",
+      "URN",
+      "adsk::core::StringProperty"
+    ],
+    [
+      "surface_rotation",
+      "Rotation",
+      "adsk::core::FloatProperty"
+    ],
+    [
+      "surface_rotation_urn",
+      "URN",
+      "adsk::core::StringProperty"
+    ],
+    [
+      "surface_roughness",
+      "Roughness",
+      "adsk::core::FloatProperty"
+    ],
+    [
+      "surface_roughness_urn",
+      "URN",
+      "adsk::core::StringProperty"
+    ]
+  ],
+  "root_parts": [
+    "sensor_bezel"
+  ],
+  "source_of_truth_changed": false
+}

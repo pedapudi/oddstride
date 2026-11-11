@@ -1,0 +1,44 @@
+{
+  "model_sha256": "7105f32bbbf432ce095ff82d4452242b8f3a001c6e034b6e5431f1271c0d95cf",
+  "source_model_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "architecture": "Opposed actuator outputs; crank between hip and knee actuators. Two structural longitudinal thigh halves contain a keyed hip flange pocket and integral knee stator bulkhead.",
+  "removed_mounting_layers": [
+    "Separate knee stator ring",
+    "Three long axial motor ties",
+    "Six tube segments around those ties"
+  ],
+  "retained_custom_hardware": [
+    "Keyed metal hip-output insert",
+    "Metal crank and pivot hardware",
+    "Existing knee bearings, axle sleeve and spacer"
+  ],
+  "changed_parameters": {
+    "crank_radius_mm": 27,
+    "knee_motor_output_y_mm": 46,
+    "rod_plane_y_mm": 30.400000000000006,
+    "foot_center_y_mm": 33.400000000000006
+  },
+  "new_clear_pose_losses": [
+    "studio",
+    "crouch",
+    "reach",
+    "fold",
+    "splay",
+    "side_reach",
+    "sample_0_0_-140",
+    "sample_0_30_-90",
+    "sample_0_65_-140",
+    "sample_0_65_-90",
+    "sample_0_65_-60",
+    "sample_45_0_-140"
+  ],
+  "nominal_width_basis": "Actual world-space part bounds in the standing pose; geometry only.",
+  "manufacturing_limitations": [
+    "Longitudinal halves expose pockets, motor mounts and wiring. Print orientation and CNC setups require review.",
+    "No strength or screw engagement qualification.",
+    "Knee actuator direction reverses; encoder/control sign needs calibration.",
+    "Narrower foot spacing changes lateral stability; gait and load capability are not established."
+  ],
+  "source_standing_width_mm": 344.8,
+  "candidate_standing_width_mm": 326.80000000000234
+}

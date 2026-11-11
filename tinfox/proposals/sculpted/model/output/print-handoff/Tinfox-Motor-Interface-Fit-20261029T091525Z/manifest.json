@@ -1,0 +1,55 @@
+{
+  "source_kind": "generated-auxiliary-gauges",
+  "source_manifest_sha256": "ce303ca696b0c0596827fcaf223dec76c7b8c3bde18cb697023a913e7fbb7e86",
+  "parts": [
+    {
+      "part": "01-thigh-case-gauge-80p50",
+      "source_kind": "generated-auxiliary-gauge",
+      "source_package": "Tinfox-Motor-Fit-20261029T044755Z",
+      "source_stl_sha256": "2502f178976a7e9b74f42a65669f7f74e3e1135b0b137063babdb570f8d84624",
+      "robot_component": false
+    },
+    {
+      "part": "02-hip-case-gauge-81p50",
+      "source_kind": "generated-auxiliary-gauge",
+      "source_package": "Tinfox-Motor-Fit-20261029T044755Z",
+      "source_stl_sha256": "a26926baf32a27b21417182c56a3497f2c9ced431d57827dc6824c2514e8d2dd",
+      "robot_component": false
+    }
+  ],
+  "units": "mm",
+  "sliced": false,
+  "objects": 2,
+  "layout_bed_mm": [
+    325,
+    320,
+    325
+  ],
+  "plate_bounds_mm": {
+    "01-thigh-case-gauge-80p50": [
+      [
+        10.0,
+        10.0,
+        0.0
+      ],
+      [
+        100.798828125,
+        110.69943618774414,
+        8.0
+      ]
+    ],
+    "02-hip-case-gauge-81p50": [
+      [
+        110.798828125,
+        10.0,
+        0.0
+      ],
+      [
+        198.7984619140625,
+        109.79990768432617,
+        8.0
+      ]
+    ]
+  },
+  "knee_stator_countersinks": 9
+}

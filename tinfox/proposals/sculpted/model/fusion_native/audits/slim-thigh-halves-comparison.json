@@ -1,0 +1,35 @@
+{
+  "source_model_sha256": "b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6",
+  "parts": [
+    {
+      "part": "thigh_inner",
+      "source_sha256": "b8cb7f644e92119b329e3cffac039385b432150365d77b4b92fcc5c929fefa7a",
+      "native_sha256": "79922810a33fccf82871c33f87dac8ee6184accc9d989dd42c1bf40800b1b71d",
+      "geometry": true,
+      "sections": false
+    },
+    {
+      "part": "thigh_inner_right",
+      "source_sha256": "70eb462bc64ce9dbfd2ad3f53a0ec5adeb1348e6f92f251e1c7e3b5646379607",
+      "native_sha256": "df1a66da9536dac5bde7a83cdaeafecae19a223f3d2702fd1782a758f0b281df",
+      "geometry": true,
+      "sections": false
+    },
+    {
+      "part": "thigh_outer",
+      "source_sha256": "1cef0e208924a429591d95ce8a188f314c49181e4433c1ced274768822d46b7d",
+      "native_sha256": "bba9ea67eb5d383bd6397440dd9800d38b027012c3bba4ee1526c7920c155b51",
+      "geometry": false,
+      "sections": false
+    },
+    {
+      "part": "thigh_outer_right",
+      "source_sha256": "b7e7b0b6bebdf6854dffdf74559d325cd86e8871d47fe89a4dd5c99dc886da10",
+      "native_sha256": "753763c525f8be42f8ee720da1d51ed12465574a8bcf413350d78f2bedffd9f4",
+      "geometry": false,
+      "sections": false
+    }
+  ],
+  "passed": false,
+  "scope": "Shape and cross-section comparison; native edits, hardware/service/motion and manufacturing access remain separate gates."
+}

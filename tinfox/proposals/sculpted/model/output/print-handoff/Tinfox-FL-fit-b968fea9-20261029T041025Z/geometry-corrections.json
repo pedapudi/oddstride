@@ -1,0 +1,21 @@
+{
+  "part": "thigh_outer",
+  "source_step_sha256": "1cef0e208924a429591d95ce8a188f314c49181e4433c1ced274768822d46b7d",
+  "corrected_step_sha256": "444e1937618b2f33438fbc0684d8eedcad4b366b791220c9fcfe778d1a02c0e2",
+  "operation": "Remove obsolete knee stub inside X[-40,40], Y[97,117], Z[-210,-130] mm.",
+  "reason": "Expose the entry chamfer and remove its reverse-facing return lip.",
+  "removed_volume_mm3": 310.1881947495858,
+  "preserved_interfaces": [
+    "M5 washer floor at Y94 mm",
+    "Bearing backup at Y85.3 mm"
+  ],
+  "mesh_check": {
+    "mesher": "Gmsh STEP surface triangulation",
+    "watertight": true,
+    "consistent_winding": true,
+    "relative_volume_error": 9.52763154189381e-05,
+    "mesher_warnings": [],
+    "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+  },
+  "scope": "Corrected generated reference. Native Fusion source-of-truth promotion remains pending."
+}

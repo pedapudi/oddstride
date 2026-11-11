@@ -1,0 +1,45 @@
+{
+  "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+  "saved_version": 61,
+  "save_verification": "audits/master-v61-save-verification.json",
+  "assembly_audit": "audits/native-master-shared-subsystem-refresh.json",
+  "subsystem_versions": {
+    "chassis": 16,
+    "leg": 14,
+    "head": 22
+  },
+  "mapped_source_items": 430,
+  "physical_custom_instances": 100,
+  "reference_items_including_nonphysical_envelope": 330,
+  "excluded_nonphysical_reference": "electronics_clearance",
+  "source_of_truth": false,
+  "open_gates": [
+    "Finish fixed-body hardware placement dependencies and remaining process-fit bindings.",
+    "Complete CNC straight-tool access review; suspect cassette guide windows and thigh return ledges remain unqualified.",
+    "Regenerate current native manufacturing/review outputs after final qualification."
+  ],
+  "exports": {
+    "step": "exports/Tinfox-native-robot-candidate.step",
+    "f3d": "exports/Tinfox-Master-v60-motion-audited.f3d",
+    "preview": "exports/Tinfox-native-robot-clean-view.png",
+    "step_scope": "Earlier v59 assembly STEP has the same baseline physical shapes; latest linked family metadata is in v60 F3D.",
+    "review_model": "exports/native-review-model.json.gz"
+  },
+  "updated_utc": "2026-10-28T23:58:42.573105+00:00",
+  "whole_robot_comparison": "audits/whole-native-robot-motion-service.json",
+  "shared_family_edit_reports": [
+    "audits/leg-datum-propagation-edited.json",
+    "audits/leg-datum-propagation-restored.json",
+    "audits/head-datum-propagation-edited.json",
+    "audits/head-datum-propagation-restored.json"
+  ],
+  "physical_qualification_remaining": [
+    "Manufacturing fits, structural strength, continuous motion and loaded performance."
+  ],
+  "source_reference_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "scope": "Frozen low-profile robot, excluding subsequent browser limb proposals.",
+  "independent_reference_visibility": "audits/master-reference-visibility-checkpoint.json",
+  "local_archive_saved_version": 60,
+  "local_archive_is_current": false,
+  "targeted_native_interface_review": "audits/native-master-critical-interfaces.json"
+}

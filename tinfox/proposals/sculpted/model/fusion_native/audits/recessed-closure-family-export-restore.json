@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "checker": "Span-aware Gauss-Kronrod exact STEP solid integration and byte-identical STEP DATA sections; export headers excluded only.",
+  "parts": [
+    {
+      "part": "hip_stator_closure_1",
+      "pre_sha256": "62c564ec5ae214af874314ff593a52355f07c5efb2253ac88e152caaaa603ee2",
+      "post_sha256": "d2f32933385ef7c7330eee501238f8722257ed535f627bd8d8953011bfc3c419",
+      "pre_volume_mm3": 12042.902402479525,
+      "post_volume_mm3": 12042.902402479525,
+      "volume_delta_mm3": 0.0,
+      "bounds_drift_mm": 0.0,
+      "identical_step_data_section": true,
+      "valid_one_solid": true
+    },
+    {
+      "part": "motor_carrier_1",
+      "pre_sha256": "7da3e8c1e56d3b5813aa9627c0f4eb071141e36205748be30af506cc60d95859",
+      "post_sha256": "6fdc642e1a704073c2cd64486cd1ecfcabedeec0362b557daf9399ba3514d197",
+      "pre_volume_mm3": 89647.3332876293,
+      "post_volume_mm3": 89647.3332876293,
+      "volume_delta_mm3": 0.0,
+      "bounds_drift_mm": 0.0,
+      "identical_step_data_section": true,
+      "valid_one_solid": true
+    },
+    {
+      "part": "motor_carrier_-1",
+      "pre_sha256": "b1b1d74ab9c7bd042c40181e718e89e72e8e33d6b7cd76a0392c8c8b9c5cb8d4",
+      "post_sha256": "9448341108273e7665851ae6ee211aae9a6ba3d60b179acd5518f883523663d1",
+      "pre_volume_mm3": 89647.29951032599,
+      "post_volume_mm3": 89647.29951032599,
+      "volume_delta_mm3": 0.0,
+      "bounds_drift_mm": 0.0,
+      "identical_step_data_section": true,
+      "valid_one_solid": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "updated_utc": "2026-10-29T13:50:20.693585+00:00",
+  "sole_mcp_owner": "/root/native_fusion",
+  "saved_versions": {
+    "master": 62,
+    "leg": 29,
+    "chassis": 18,
+    "head": 22
+  },
+  "canonical_scope": "Leg24 corrected detached motor complex only; full low-profile robot pending",
+  "geometry_definition_lineage": "88/88 complete: audits/current-definition-evidence-index.json",
+  "active_mutation": {
+    "script": "source/reopen_current_native_leg.py",
+    "rpc_tag": "current-native-leg-saved-reopen",
+    "local_log": "/tmp/tinfox-current-leg-reopen.log",
+    "exec_session_id": 26512
+  },
+  "reason": "Old24 ASSEMBLY_* pose joints share current controls and move original component frames. Five shared definitions per hand then compensate current aliases. Suppression reverted on computeAll. Permanently remove only obsolete solvers, rebase20 aliases, preserve native geometry and construction parents.",
+  "repaired_current_history": "Permanent old24 solver removal reconciled. All592items pass asymmetric,fold,restore and native definition rigidity; Leg29savedcomplete/unmodified.",
+  "next_steps": [
+    "Reconcile completed removal and retain timeout if necessary; original script asserts unchanged10handed definition fingerprints and standing128alias matrices.",
+    "Run source/audit_current_native_legs.py and source/audit_current_pose_edit_restore.py. Latest pose script requires old0joints; checks all592items and native definition rigidity in asymmetric/fold/restore. Prior spacer failure preserved in audits/diagnostics/.",
+    "Save using source/checkpoint_current_pose_history.py; independently verify uploaded/unmodified newversion and update manifests/subsystems.json.",
+    "Run source/reopen_current_native_leg.py; do not use old bench-only reopen scripts.",
+    "Run source/refresh_current_master_assembly.py, verify current684items/703solids and8targetednative solidpairs; save/reopen Master and reconcile version/status.",
+    "Run source/export_current_native_robot.py. Prepared locally, not yet executed; directnative per-definition mesh cache, numeric group transforms, live nativekinematicparameters, explicitmassnull.",
+    "Send nativewholecandidate to root for privatebrowser/placement/motionchecks. Aggregate88geometrylineage + nativehistory/pose/save evidence, promote immutable low-profile whole manifest/source-authority only after allgates; rootpublishes."
+  ],
+  "source_target_sha256": "f1f1c97f613eb1516102e39bb675f14b8ea0904ef8a361ddbbb0b48b0ed1a09c",
+  "limit": "No extra cloud documents, no custom mesh/BRep authoring imports, no physical strength qualification implied."
+}

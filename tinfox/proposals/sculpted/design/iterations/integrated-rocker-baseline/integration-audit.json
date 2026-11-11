@@ -1,0 +1,284 @@
+{
+  "model_sha256": "3b28929de2931f52b5b2b13e78266fc2b8c9d5309787e1a093209f6e2ea9929c",
+  "counts": {
+    "old_total_instances": 345,
+    "new_total_instances": 361,
+    "old_main_custom_leg_components": 24,
+    "new_main_custom_leg_components": 20,
+    "custom_leg_components_removed_net": 4,
+    "added_purchased_circlips": 0,
+    "reason": "Two thigh halves and two shin halves enclose a metal knee head. Two lower M3 fasteners, compression sleeves and washers join the shin. The separate motor service ring and inboard circlip are removed."
+  },
+  "fits": [
+    {
+      "parts": [
+        "knee_head",
+        "inner_shin"
+      ],
+      "overlap_mm3": 0
+    },
+    {
+      "parts": [
+        "knee_head",
+        "outer_shin"
+      ],
+      "overlap_mm3": 0
+    },
+    {
+      "parts": [
+        "knee_head",
+        "inner_bearing"
+      ],
+      "overlap_mm3": 0
+    },
+    {
+      "parts": [
+        "knee_head",
+        "outer_bearing"
+      ],
+      "overlap_mm3": 0
+    }
+  ],
+  "pin_fits": [
+    {
+      "part": "knee_head",
+      "smooth_shoulder_overlap_mm3": 0
+    },
+    {
+      "part": "input_crank",
+      "smooth_shoulder_overlap_mm3": 0
+    }
+  ],
+  "paths": [
+    {
+      "name": "Insert inner bearing on bench",
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Insert outer bearing on bench",
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Remove inner structural half",
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Remove outer structural half",
+      "samples": [
+        {
+          "distance_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 4,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 15,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 25,
+          "overlap_mm3": 0
+        },
+        {
+          "distance_mm": 40,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "bearing_retention": [
+    {
+      "displacement_mm": -0.5,
+      "retaining_lip_overlap_mm3": 50.51680986972494,
+      "retainer": "3 mm structural retaining shoulder"
+    },
+    {
+      "displacement_mm": 0.5,
+      "retaining_lip_overlap_mm3": 43.61927232340715,
+      "retainer": "3 mm structural retaining shoulder"
+    }
+  ],
+  "bearing_center_spacing_mm": 20,
+  "pin_screen": {
+    "rod_force_N": 1314.642158362244,
+    "support_centroid_span_mm": 14.2,
+    "nominal_bending_MPa": 220.08085408777492,
+    "average_double_shear_MPa": 23.247977544483266,
+    "nominal_vm_MPa": 223.73418986764375,
+    "scope": "Simply-supported 6 mm pin with central force. Excludes thread roots, ear compliance, fatigue and shock."
+  },
+  "retaining_shoulder_thickness_mm": 3,
+  "remaining": [
+    "Fixed knee shaft axial retention",
+    "Motor axial tie stack and nut access",
+    "Roll-bearing retaining flanges/preload",
+    "Foot retention and cable routing",
+    "Printed lip, wall, clamp creep and fatigue qualification"
+  ],
+  "scope": "Nominal CAD fit and staged disassembly with clamps and axle removed. Not strength or physical assembly qualification."
+}

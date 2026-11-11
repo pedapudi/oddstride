@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "saved": false,
+  "role": "leg",
+  "feature": "Derived from Tinfox - Chassis v7",
+  "feature_timeline_index": 859,
+  "derived_parameters": [
+    {
+      "name": "cover_half_width_Ref",
+      "expression": "cover_roll_y_Ref + 43.2 mm",
+      "value": 11.120000000000001,
+      "unit": "mm"
+    },
+    {
+      "name": "cover_roll_y_Ref",
+      "expression": "robot_roll_y_Ref",
+      "value": 6.800000000000001,
+      "unit": "mm"
+    },
+    {
+      "name": "robot_hip_x_Ref",
+      "expression": "185 mm",
+      "value": 18.5,
+      "unit": "mm"
+    },
+    {
+      "name": "robot_roll_y_Ref",
+      "expression": "68 mm",
+      "value": 6.800000000000001,
+      "unit": "mm"
+    },
+    {
+      "name": "robot_body_wall_Ref",
+      "expression": "2.8 mm",
+      "value": 0.27999999999999997,
+      "unit": "mm"
+    },
+    {
+      "name": "robot_sensor_seat_z_Ref",
+      "expression": "80 mm",
+      "value": 8.0,
+      "unit": "mm"
+    },
+    {
+      "name": "robot_fastener_diametral_allowance_Ref",
+      "expression": "0.4 mm",
+      "value": 0.04000000000000001,
+      "unit": "mm"
+    },
+    {
+      "name": "robot_body_half_width_Ref",
+      "expression": "cover_half_width_Ref",
+      "value": 11.120000000000001,
+      "unit": "mm"
+    }
+  ],
+  "bindings": [
+    {
+      "parameter": "lc_hip_x",
+      "before": "185 mm",
+      "expression": "robot_hip_x_Ref"
+    },
+    {
+      "parameter": "lc_roll_y",
+      "before": "68 mm",
+      "expression": "robot_roll_y_Ref"
+    }
+  ],
+  "custom_or_reference_geometry_imported": false,
+  "bodies_added": 0,
+  "elapsed_seconds": 23.261784125003032,
+  "scope": "Shared native parameter links with unchanged baseline geometry. Cross-document edit/update/restore must still be exercised."
+}

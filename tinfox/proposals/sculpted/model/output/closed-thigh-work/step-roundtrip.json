@@ -1,0 +1,61 @@
+{
+  "model_sha256": "beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8",
+  "parts": [
+    {
+      "part": "thigh_outer",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.0027606108924373984,
+      "mesh": {
+        "mesher": "Gmsh STEP surface triangulation",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00014564531950909298,
+        "mesher_warnings": [
+          "Warning: 8 elements remain invalid in surface 12"
+        ],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "thigh_outer_right",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 0.011135858250781894,
+      "mesh": {
+        "mesher": "Gmsh STEP surface triangulation",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015634322134374726,
+        "mesher_warnings": [
+          "Warning: 8 elements remain invalid in surface 12"
+        ],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "chassis_beam_-102",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 9.211362339556217e-09,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 2.1654735075187896e-05,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    },
+    {
+      "part": "chassis_beam_102",
+      "closed_solids": 1,
+      "roundtrip_volume_error_mm3": 3.0704541131854057e-09,
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 2.1652953067651406e-05,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      }
+    }
+  ]
+}

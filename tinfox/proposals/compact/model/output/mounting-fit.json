@@ -1,0 +1,46 @@
+{
+  "model_sha256": "26dc3e75cbdbc009a4c43802ad7746045052365b9068d46fa1c1d88d5b37584a",
+  "pairs": [
+    {
+      "parts": [
+        "FL_thigh_inner",
+        "FL_knee_motor"
+      ],
+      "intersection_mm3": 0,
+      "distance_mm": 0.9999999999999944
+    },
+    {
+      "parts": [
+        "FL_thigh_inner",
+        "FL_motor_mount_ring"
+      ],
+      "intersection_mm3": 0,
+      "distance_mm": 0.19999999999998863
+    },
+    {
+      "parts": [
+        "FL_hip_hub",
+        "FL_knee_motor"
+      ],
+      "intersection_mm3": 0,
+      "distance_mm": 1.0
+    },
+    {
+      "parts": [
+        "FL_thigh_inner",
+        "FL_thigh_outer"
+      ],
+      "intersection_mm3": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "parts": [
+        "FL_thigh_outer",
+        "FL_hip_disc"
+      ],
+      "intersection_mm3": 0,
+      "distance_mm": 0.20000000000000284
+    }
+  ],
+  "scope": "Exact nominal solids for selected rigidly attached interfaces. Does not qualify fits, screw engagement, thermal growth or strength."
+}

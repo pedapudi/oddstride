@@ -1,0 +1,168 @@
+{
+  "groups": {
+    "corner_-1_-1": {
+      "x": "-1*(robot_hip_x-185 mm)",
+      "y": "-1*(robot_roll_y-68 mm)",
+      "z": "0 mm"
+    },
+    "corner_1_-1": {
+      "x": "1*(robot_hip_x-185 mm)",
+      "y": "-1*(robot_roll_y-68 mm)",
+      "z": "0 mm"
+    },
+    "corner_-1_1": {
+      "x": "-1*(robot_hip_x-185 mm)",
+      "y": "1*(robot_roll_y-68 mm)",
+      "z": "0 mm"
+    },
+    "corner_1_1": {
+      "x": "1*(robot_hip_x-185 mm)",
+      "y": "1*(robot_roll_y-68 mm)",
+      "z": "0 mm"
+    },
+    "side_-1": {
+      "x": "0 mm",
+      "y": "-1*(robot_roll_y-68 mm)",
+      "z": "0 mm"
+    },
+    "side_1": {
+      "x": "0 mm",
+      "y": "1*(robot_roll_y-68 mm)",
+      "z": "0 mm"
+    },
+    "brace_-1": {
+      "x": "0 mm",
+      "y": "-1*(robot_roll_y-68 mm)",
+      "z": "frame_brace_bottom_z+frame_brace_thickness-3.5 mm"
+    },
+    "brace_1": {
+      "x": "0 mm",
+      "y": "1*(robot_roll_y-68 mm)",
+      "z": "frame_brace_bottom_z+frame_brace_thickness-3.5 mm"
+    },
+    "deck_-1": {
+      "x": "0 mm",
+      "y": "-1*(robot_roll_y-68 mm)",
+      "z": "deck_top_z-7.5 mm"
+    },
+    "deck_1": {
+      "x": "0 mm",
+      "y": "1*(robot_roll_y-68 mm)",
+      "z": "deck_top_z-7.5 mm"
+    },
+    "electronics": {
+      "x": "0 mm",
+      "y": "0 mm",
+      "z": "deck_top_z-7.5 mm"
+    },
+    "lidar": {
+      "x": "saddle_x-reference_lidar_base_x",
+      "y": "0 mm",
+      "z": "saddle_sensor_lid_bottom_z-reference_lidar_lid_base_z"
+    },
+    "sensor": {
+      "x": "robot_hip_x-185 mm",
+      "y": "0 mm",
+      "z": "0 mm"
+    },
+    "roof": {
+      "x": "0 mm",
+      "y": "0 mm",
+      "z": "cover_roof_z-49.5 mm"
+    }
+  },
+  "assignments": {
+    "body_service_screw_-1_-112_22": "corner_-1_-1",
+    "body_service_screw_-1_112_22": "corner_1_-1",
+    "body_service_screw_1_-112_22": "corner_-1_1",
+    "body_service_screw_1_112_22": "corner_1_1",
+    "body_wordmark": "side_-1",
+    "body_serial": "side_-1",
+    "body_status_dot": "side_-1",
+    "battery_access_screw_-1_-50": "side_-1",
+    "battery_access_screw_-1_50": "side_-1",
+    "battery_access_screw_1_-50": "side_1",
+    "battery_access_screw_1_50": "side_1",
+    "battery_-1": "side_-1",
+    "battery_1": "side_1",
+    "cassette_nut_-1_-52": "side_-1",
+    "cassette_nut_-1_52": "side_-1",
+    "cassette_nut_1_-52": "side_1",
+    "cassette_nut_1_52": "side_1",
+    "chassis_tie_bolt_-121_-1_-3": "corner_-1_-1",
+    "chassis_tie_nut_-121_-1_-3": "corner_-1_-1",
+    "chassis_tie_bolt_-121_-1_3": "corner_-1_-1",
+    "chassis_tie_nut_-121_-1_3": "corner_-1_-1",
+    "chassis_tie_bolt_-121_1_-3": "corner_-1_1",
+    "chassis_tie_nut_-121_1_-3": "corner_-1_1",
+    "chassis_tie_bolt_-121_1_3": "corner_-1_1",
+    "chassis_tie_nut_-121_1_3": "corner_-1_1",
+    "chassis_tie_bolt_121_-1_-3": "corner_1_-1",
+    "chassis_tie_nut_121_-1_-3": "corner_1_-1",
+    "chassis_tie_bolt_121_-1_3": "corner_1_-1",
+    "chassis_tie_nut_121_-1_3": "corner_1_-1",
+    "chassis_tie_bolt_121_1_-3": "corner_1_1",
+    "chassis_tie_nut_121_1_-3": "corner_1_1",
+    "chassis_tie_bolt_121_1_3": "corner_1_1",
+    "chassis_tie_nut_121_1_3": "corner_1_1",
+    "chassis_bolt_-1_-125.5_-12": "corner_-1_-1",
+    "chassis_bolt_-1_-125.5_24": "corner_-1_-1",
+    "chassis_bolt_-1_125.5_-12": "corner_1_-1",
+    "chassis_bolt_-1_125.5_24": "corner_1_-1",
+    "chassis_bolt_1_-125.5_-12": "corner_-1_1",
+    "chassis_bolt_1_-125.5_24": "corner_-1_1",
+    "chassis_bolt_1_125.5_-12": "corner_1_1",
+    "chassis_bolt_1_125.5_24": "corner_1_1",
+    "cassette_screw_-1_-52": "side_-1",
+    "cassette_screw_-1_52": "side_-1",
+    "cassette_screw_1_-52": "side_1",
+    "cassette_screw_1_52": "side_1",
+    "chassis_brace_screw_-1_-63": "brace_-1",
+    "chassis_brace_screw_-1_63": "brace_-1",
+    "chassis_brace_screw_1_-63": "brace_1",
+    "chassis_brace_screw_1_63": "brace_1",
+    "tray_screw_-1_-52": "deck_-1",
+    "tray_screw_-1_52": "deck_-1",
+    "tray_screw_1_-52": "deck_1",
+    "tray_screw_1_52": "deck_1",
+    "electronics_clearance": "electronics",
+    "lidar_base": "lidar",
+    "lidar": "lidar",
+    "sensor_window": "sensor",
+    "camera_-52": "sensor",
+    "lens_ring_-52": "sensor",
+    "iris_-52": "sensor",
+    "lens_-52": "sensor",
+    "camera_52": "sensor",
+    "lens_ring_52": "sensor",
+    "iris_52": "sensor",
+    "lens_52": "sensor",
+    "depth_sensor": "sensor",
+    "status_display": "roof",
+    "status_display_dial": "roof",
+    "sensor_hood_screw_0": "sensor",
+    "sensor_hood_nut_0": "sensor",
+    "sensor_hood_screw_1": "sensor",
+    "sensor_hood_nut_1": "sensor",
+    "sensor_hood_screw_2": "sensor",
+    "sensor_hood_nut_2": "sensor",
+    "sensor_hood_screw_3": "sensor",
+    "sensor_hood_nut_3": "sensor",
+    "sensor_root_screw_0": "sensor",
+    "sensor_root_washer_0": "sensor",
+    "sensor_root_nut_0": "sensor",
+    "sensor_root_screw_1": "sensor",
+    "sensor_root_washer_1": "sensor",
+    "sensor_root_nut_1": "sensor",
+    "battery_side_panel_-1": "side_-1",
+    "battery_latch_-1": "side_-1",
+    "battery_access_latch_-1": "side_-1",
+    "battery_side_panel_1": "side_1",
+    "battery_latch_1": "side_1",
+    "battery_access_latch_1": "side_1",
+    "lidar_lid": "lidar",
+    "power_button": "roof"
+  },
+  "source_model_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "scope": "Placement only. Standard parts keep nominal dimensions. Thickness edits can require different screw lengths; button retention and selected battery interfaces remain unqualified."
+}

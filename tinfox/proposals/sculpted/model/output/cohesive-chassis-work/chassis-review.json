@@ -1,0 +1,136 @@
+{
+  "model_sha256": "b6de90815c773509d8f9710feea44df1372e411e14cb830df839fd6190588693",
+  "source_model_sha256": "8f781a5487185a13f330d2838e8918c01c34ef13d87c52db980e227ed5853969",
+  "changes": [
+    {
+      "part": "body_center_0",
+      "mass_change_kg": -0.10323104356155077,
+      "volume_mm3": 178082.43394982378
+    },
+    {
+      "part": "belly_center_0",
+      "mass_change_kg": -0.08714367657579941,
+      "volume_mm3": 35686.77355790237
+    },
+    {
+      "part": "chassis_beam_-102",
+      "mass_change_kg": 0.0069612779669782285,
+      "volume_mm3": 20078.621469251197
+    },
+    {
+      "part": "chassis_beam_102",
+      "mass_change_kg": 0.006961277965155235,
+      "volume_mm3": 20078.621468576013
+    },
+    {
+      "part": "chassis_crossmember_-121",
+      "mass_change_kg": 0.0018801993415933586,
+      "volume_mm3": 5394.888645034577
+    },
+    {
+      "part": "chassis_tie_bolt_-121_-1_-3",
+      "mass_change_kg": 1.7877929451627118e-07,
+      "volume_mm3": 67.79347506936514
+    },
+    {
+      "part": "chassis_tie_bolt_-121_-1_3",
+      "mass_change_kg": 1.7877929451627118e-07,
+      "volume_mm3": 67.79347506936514
+    },
+    {
+      "part": "chassis_tie_bolt_-121_1_-3",
+      "mass_change_kg": 1.7877929451627118e-07,
+      "volume_mm3": 67.79347506936514
+    },
+    {
+      "part": "chassis_tie_bolt_-121_1_3",
+      "mass_change_kg": 1.7877929451627118e-07,
+      "volume_mm3": 67.79347506936514
+    },
+    {
+      "part": "chassis_crossmember_121",
+      "mass_change_kg": 0.004450136459934145,
+      "volume_mm3": 6285.88830389089
+    },
+    {
+      "part": "chassis_tie_bolt_121_-1_-3",
+      "mass_change_kg": -0.00035322156006933566,
+      "volume_mm3": 67.79347506936514
+    },
+    {
+      "part": "chassis_tie_bolt_121_-1_3",
+      "mass_change_kg": -0.00035322156006933566,
+      "volume_mm3": 67.79347506936514
+    },
+    {
+      "part": "chassis_tie_bolt_121_1_-3",
+      "mass_change_kg": -0.00035322156006933566,
+      "volume_mm3": 67.79347506936514
+    },
+    {
+      "part": "chassis_tie_bolt_121_1_3",
+      "mass_change_kg": -0.00035322156006933566,
+      "volume_mm3": 67.79347506936514
+    },
+    {
+      "part": "body_service_screw_-1_-64_18",
+      "mass_change_kg": 0.001114391636567594,
+      "volume_mm3": 141.96071803408842
+    },
+    {
+      "part": "body_service_screw_1_-64_18",
+      "mass_change_kg": 0.001114391636567594,
+      "volume_mm3": 141.96071803408842
+    },
+    {
+      "part": "body_service_screw_-1_64_18",
+      "mass_change_kg": 0.001114391636567594,
+      "volume_mm3": 141.96071803408842
+    },
+    {
+      "part": "body_service_screw_1_64_18",
+      "mass_change_kg": 0.001114391636567594,
+      "volume_mm3": 141.96071803408842
+    },
+    {
+      "part": "thigh_inner",
+      "mass_change_kg": 3.12732351126499e-09,
+      "volume_mm3": 71129.05749630184
+    },
+    {
+      "part": "thigh_inner_right",
+      "mass_change_kg": 3.12732351126499e-09,
+      "volume_mm3": 71129.05749630184
+    },
+    {
+      "part": "thigh_outer",
+      "mass_change_kg": 0.027541872739318907,
+      "volume_mm3": 181926.74005176796
+    },
+    {
+      "part": "thigh_outer_right",
+      "mass_change_kg": 0.02754187273931885,
+      "volume_mm3": 181926.74005176796
+    }
+  ],
+  "removed_parts": [
+    "body_service_screw_-1_-112_22",
+    "body_service_screw_-1_112_22",
+    "body_service_screw_1_-112_22",
+    "body_service_screw_1_112_22",
+    "chassis_tie_nut_-121_-1_-3",
+    "chassis_tie_nut_-121_-1_3",
+    "chassis_tie_nut_-121_1_-3",
+    "chassis_tie_nut_-121_1_3",
+    "chassis_tie_nut_121_-1_-3",
+    "chassis_tie_nut_121_-1_3",
+    "chassis_tie_nut_121_1_-3",
+    "chassis_tie_nut_121_1_3",
+    "sensor_root_nut_0",
+    "sensor_root_nut_1"
+  ],
+  "mass_change_kg": -0.11678129348558831,
+  "previously_clear_poses_lost": [],
+  "added_motion_pairs": [],
+  "scope": "Cohesive enclosure and frame-assembly review candidate. Continuous shoulder openings, integral tapped metal frame pads and a smooth thigh face. Physical strength, fastener tolerances and manufacturing processes remain unqualified."
+}

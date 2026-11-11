@@ -1,0 +1,72 @@
+{
+  "method": "Source: closed Gmsh surface meshes at three resolutions, every mesh watertight and sampled vertices on the exact source boundary. Native: stable analytic trimmed-surface area at four quadrature tolerances. Four-times-last-change allowances; original unstable source Gauss diagnostics preserved.",
+  "parts": [
+    {
+      "shape": "source",
+      "sha256": "5371a23c585301b15cc4a8a1a991a10e513a9479e20a572b150ba1b0a584683e",
+      "samples": [
+        {
+          "max_size_mm": 3,
+          "curvature_resolution": 24,
+          "area_mm2": 70297.95259403976,
+          "triangles": 70934,
+          "watertight": true,
+          "sampled_vertex_boundary_max_mm": 2.5508045068866857e-13,
+          "warnings": []
+        },
+        {
+          "max_size_mm": 1.5,
+          "curvature_resolution": 48,
+          "area_mm2": 70318.30732859335,
+          "triangles": 254876,
+          "watertight": true,
+          "sampled_vertex_boundary_max_mm": 4.2719904742210626e-13,
+          "warnings": []
+        },
+        {
+          "max_size_mm": 0.75,
+          "curvature_resolution": 96,
+          "area_mm2": 70323.4747571625,
+          "triangles": 943068,
+          "watertight": true,
+          "sampled_vertex_boundary_max_mm": 1.078908314799791e-13,
+          "warnings": [
+            "Warning: 10 elements remain invalid in surface 174"
+          ]
+        }
+      ],
+      "convergence_allowance_mm2": 20.669714276620653
+    },
+    {
+      "shape": "native",
+      "sha256": "bd72171a1c4826480f1d4afac933152f4454a979e1c19662c7b8928d60209421",
+      "samples": [
+        {
+          "requested_error": 1e-07,
+          "area_mm2": 70324.17086466949,
+          "estimated_relative_error": 8.711393533164272e-08
+        },
+        {
+          "requested_error": 1e-09,
+          "area_mm2": 70324.17092921946,
+          "estimated_relative_error": 1.354649791486522e-09
+        },
+        {
+          "requested_error": 1e-11,
+          "area_mm2": 70324.17092084225,
+          "estimated_relative_error": 1.3546521018902592e-09
+        },
+        {
+          "requested_error": 1e-13,
+          "area_mm2": 70324.1709210354,
+          "estimated_relative_error": 3.8647856396496593e-11
+        }
+      ],
+      "convergence_allowance_mm2": 7.725902833044529e-07,
+      "method": "Converged analytic trimmed-surface quadrature; no mesh required."
+    }
+  ],
+  "relative_area_error_with_allowance": 0.0003038228556806625,
+  "threshold": 0.001,
+  "passed": true
+}

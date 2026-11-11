@@ -1,0 +1,16 @@
+{
+  "state": "reconciled",
+  "prior_mutation": {
+    "tag": "dfma-rear-facing-cup-native",
+    "pid": 3599680,
+    "started_utc": "2026-10-29T23:39:27.947224+00:00",
+    "state": "execution_state_unknown",
+    "read_only": false,
+    "script_sha256": "8f6db39c86ac6cf88a118d34dfd34af0bce095f06e224d790c33893a9e961757",
+    "script_archive": "snapshots/executed-scripts/8f6db39c86ac6cf88a118d34dfd34af0bce095f06e224d790c33893a9e961757.py.gz",
+    "elapsed_seconds": 900.1032568739611,
+    "error": "timed out"
+  },
+  "evidence": "audits/dfma-rear-cup-timeout-reconcile.json",
+  "result": "Complete native rear cup and STEP verified after client timeout; no retry performed."
+}

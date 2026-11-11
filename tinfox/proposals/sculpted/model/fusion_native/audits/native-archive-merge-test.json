@@ -1,0 +1,68 @@
+{
+  "archive": "thigh_outer.f3d",
+  "feature_count": 137,
+  "sketch_count": 64,
+  "parameter_count": 179,
+  "baseline_volume_mm3": 99143.69792700524,
+  "baseline_feature_issues": [],
+  "parameter_edits": [
+    {
+      "parameter": "thigh_outer_2058_makeCylinder_diameter",
+      "before": 99143.69792700524,
+      "changed": 99140.81158875473,
+      "restored": 99143.69792700524,
+      "feature_issues": [],
+      "passed": true
+    }
+  ],
+  "native_archive_merge_qualified": true,
+  "imported_mesh_count": 0,
+  "base_feature_count": 0,
+  "master_modified": false,
+  "capacity": {
+    "personal_plan": true,
+    "editable_file_count": 2,
+    "max_editable_file_count": 10,
+    "available_slots": 8,
+    "known_tinfox_editable_files": [
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+        "name": "Tinfox - Native Master Assembly",
+        "part": "native_master",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": true,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:7EMehEGQTV-NxCbRcPgGCw",
+        "name": "V0 - Battery cassette [battery_cassette]",
+        "part": "battery_cassette",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": true
+      }
+    ],
+    "unmanaged_editable_file_count": 0,
+    "manual_read_only_candidates": [
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:7EMehEGQTV-NxCbRcPgGCw",
+        "name": "V0 - Battery cassette [battery_cassette]",
+        "part": "battery_cassette"
+      }
+    ],
+    "unsaved_open_documents": 0,
+    "status_change_api_supported": false,
+    "status_note": "Editable status must be changed through Fusion Manage documents or the Data Panel. isReadOnly is a read-only property and can also reflect permissions or another editor.",
+    "new_cloud_files": 0,
+    "reserved_free_slots": 1,
+    "required_available_slots": 1,
+    "master_file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw"
+  },
+  "scope": "Previously authored native F3D history merged into a discarded scratch design. No STEP/BRep geometry import; no master edits."
+}

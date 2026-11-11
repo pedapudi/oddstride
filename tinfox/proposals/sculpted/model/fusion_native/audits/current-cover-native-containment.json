@@ -1,0 +1,37 @@
+{
+  "source_sha256": "63385268fa391a57bc91db4f2ac666e76ac22225506480ab3bef4799daa9518c",
+  "samples": 16000,
+  "source_inside": 1012,
+  "native_inside": 1010,
+  "mismatches": [
+    {
+      "point_mm": [
+        -64.64859456000588,
+        80.59463737626189,
+        51.39537983035911
+      ],
+      "source_inside": true,
+      "native_state": 2,
+      "source_boundary_distance_mm": 0.0002874453794543087,
+      "native_boundary_distance_mm": 0.0002189849714639213,
+      "native_export_contains": true,
+      "source_vertex_z_max_mm": 55.5
+    },
+    {
+      "point_mm": [
+        -115.00917257472983,
+        18.357709118621983,
+        55.99386643976952
+      ],
+      "source_inside": true,
+      "native_state": 2,
+      "source_boundary_distance_mm": 1.9625124294596823,
+      "native_boundary_distance_mm": 1.962369907296143,
+      "native_export_contains": false,
+      "source_vertex_z_max_mm": 55.5
+    }
+  ],
+  "elapsed_seconds": 21.596383416996105,
+  "is_solid": true,
+  "scope": "Direct native BRep volume classification; standard finite random-point validation, not a mathematical proof. Two source classifier mismatches require interpretation against independent boundary distances; this is not a blanket source solid-classifier equivalence pass."
+}

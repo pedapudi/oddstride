@@ -1,0 +1,37 @@
+{
+  "saved": false,
+  "parts": [
+    {
+      "part": "thigh_inner",
+      "features": 9,
+      "sketches": 8,
+      "faces": 81
+    },
+    {
+      "part": "thigh_outer",
+      "features": 10,
+      "sketches": 9,
+      "faces": 183
+    },
+    {
+      "part": "thigh_inner_right",
+      "features": 3,
+      "sketches": 0,
+      "faces": 81
+    },
+    {
+      "part": "thigh_outer_right",
+      "features": 3,
+      "sketches": 0,
+      "faces": 183
+    }
+  ],
+  "paths": [
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/slim-native-thigh_inner.step",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/slim-native-thigh_outer.step",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/slim-native-thigh_inner_right.step",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/slim-native-thigh_outer_right.step"
+  ],
+  "removed_features": 2,
+  "reason": "The disputed STEP trim witness is outside the actual native solid. A redundant intersection did not change the export anomaly and is not retained as a design feature."
+}

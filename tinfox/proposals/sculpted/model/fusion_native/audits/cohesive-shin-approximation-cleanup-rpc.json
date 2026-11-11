@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"message\": \"{\\\"removed\\\": \\\"CANDIDATE_cohesive_shin_master\\\", \\\"before_components\\\": 45, \\\"after_components\\\": 44, \\\"removed_parameters\\\": [\\\"lc_cam_tangent_angle\\\", \\\"lc_pin_z\\\", \\\"lc_pin_x\\\", \\\"lc_shin_split_y\\\", \\\"lc_shin_y_max\\\", \\\"lc_knee_crown_radius\\\", \\\"lc_shin_profile_length\\\", \\\"lc_shin_edge_radius\\\", \\\"lc_pin_eye_radius\\\", \\\"lc_crank_radius\\\", \\\"lc_shin_split_offset\\\", \\\"lc_shin_width\\\", \\\"lc_shin_y_min\\\", \\\"lc_knee_radial_land\\\", \\\"lc_bearing_width\\\", \\\"lc_bearing_id\\\", \\\"lc_bearing_od\\\", \\\"lc_shin_curve_amplitude\\\", \\\"lc_shin_half_width\\\", \\\"lc_profile_tip_setback\\\", \\\"lc_shank_foot_center\\\", \\\"lc_thigh_length\\\", \\\"lc_crank_phase\\\"], \\\"reason\\\": \\\"Two-curve approximation passed surfaces but failed a sensitive section; replace with exact cubic spans derived from four original stations.\\\", \\\"saved\\\": false}\\n\",\n    \"success\": true\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

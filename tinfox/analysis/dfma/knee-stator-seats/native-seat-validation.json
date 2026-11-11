@@ -1,0 +1,498 @@
+{
+  "passed": true,
+  "scope": "Actual native STEP comparison against the exact nine-seat proposal, both hands. Analysis geometry is used only as a comparison reference.",
+  "base_input_sha256": "f06bf3ee803e7e585ee79eace1fa6c2618d3d9bca1a0db0ae98276fc51462020",
+  "crank_input_sha256": "277beedc5cd650be48df2acd5ad717aefb8fc3ea4a33e03fff6632eb419ccbb5",
+  "results": [
+    {
+      "hand": "left",
+      "input_path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/knee-seated-native-motor_mount_ring.step",
+      "frozen_path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/knee-stator-seats/native-input/knee-seated-native-motor_mount_ring.step",
+      "sha256": "1feea5b2799277ec15b48702da9a63591eb6f7748854689c92943510ba183074",
+      "valid": true,
+      "solid_count": 1,
+      "face_count": 39,
+      "conical_faces": [
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            15.30000000000001,
+            52.25,
+            28.659927238132006,
+            21.19999999999999,
+            53.50000000000002,
+            34.55992723813199
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -9.28815848484296,
+            52.25,
+            32.99548298494561,
+            -3.3881584848429798,
+            53.5,
+            38.89548298494559
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -30.91062217384269,
+            52.25,
+            20.51174775355871,
+            -25.010622173842712,
+            53.500000000000014,
+            26.41174775355869
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -39.44999999999999,
+            52.24999999999999,
+            -2.9499999999999926,
+            -33.55000000000001,
+            53.5,
+            2.949999999999988
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -30.91062217384269,
+            52.249999999999986,
+            -26.411747753558693,
+            -25.010622173842712,
+            53.5,
+            -20.51174775355871
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -9.28815848484294,
+            52.249999999999986,
+            -38.89548298494559,
+            -3.3881584848429593,
+            53.50000000000001,
+            -32.99548298494561
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            15.30000000000001,
+            52.249999999999964,
+            -34.55992723813199,
+            21.19999999999999,
+            53.5,
+            -28.65992723813201
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            31.348780658685712,
+            52.24999999999998,
+            -15.43373523138689,
+            37.24878065868569,
+            53.5,
+            -9.53373523138691
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            31.3487806586857,
+            52.25,
+            9.53373523138691,
+            37.24878065868569,
+            53.5,
+            15.43373523138689
+          ]
+        }
+      ],
+      "expected_volume_mm3": 8001.418283825611,
+      "native_volume_mm3": 8001.4182838256065,
+      "volume_difference_mm3": 4.547473508864641e-12,
+      "excluded_coincident_boolean_diagnostic": {
+        "missing_volume_mm3": 8028.655892132239,
+        "extra_volume_mm3": 8001.418283825596,
+        "used_as_gate": false,
+        "reason": "Coincident-solid subtraction returned spurious residuals despite matching surfaces and volume. This diagnostic is retained but supplies no geometry verdict."
+      },
+      "bounds_error_max_mm": 7.105427357601002e-15,
+      "symmetric_sampled_boundary_error_max_mm": 1.0302869668521453e-13,
+      "seat_checks": [
+        {
+          "angle_deg": 20,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.07557221148155,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 60,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.075572211493363,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 100,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.075572211471158,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 140,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.07557221142515,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 180,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.075572211407387,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 220,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.07557221138385,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 260,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.07557221146565,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 300,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.075572211395485,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 340,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.075572211464497,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        }
+      ],
+      "global_rotating_crank_axial_gap_bound_mm": 0.9,
+      "passed": true
+    },
+    {
+      "hand": "right",
+      "input_path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/knee-seated-native-motor_mount_ring_right.step",
+      "frozen_path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/knee-stator-seats/native-input/knee-seated-native-motor_mount_ring_right.step",
+      "sha256": "1e98e9b31e049d35389c9ff6ec32385e7c1356df27fa1f514a3f31f628adcfb1",
+      "valid": true,
+      "solid_count": 1,
+      "face_count": 39,
+      "conical_faces": [
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            15.30000000000001,
+            -53.50000000000002,
+            28.659927238132006,
+            21.19999999999999,
+            -52.25,
+            34.55992723813199
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -9.28815848484296,
+            -53.5,
+            32.99548298494561,
+            -3.3881584848429798,
+            -52.25,
+            38.89548298494559
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -30.91062217384269,
+            -53.500000000000014,
+            20.51174775355871,
+            -25.010622173842712,
+            -52.25,
+            26.41174775355869
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -39.44999999999999,
+            -53.5,
+            -2.9499999999999926,
+            -33.55000000000001,
+            -52.24999999999999,
+            2.949999999999988
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -30.91062217384269,
+            -53.5,
+            -26.411747753558693,
+            -25.010622173842712,
+            -52.249999999999986,
+            -20.51174775355871
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            -9.28815848484294,
+            -53.50000000000001,
+            -38.89548298494559,
+            -3.3881584848429593,
+            -52.249999999999986,
+            -32.99548298494561
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            15.30000000000001,
+            -53.5,
+            -34.55992723813199,
+            21.19999999999999,
+            -52.249999999999964,
+            -28.65992723813201
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            31.348780658685712,
+            -53.5,
+            -15.43373523138689,
+            37.24878065868569,
+            -52.24999999999998,
+            -9.53373523138691
+          ]
+        },
+        {
+          "semi_angle_deg": 44.99999999999998,
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "bounds_mm": [
+            31.3487806586857,
+            -53.5,
+            9.53373523138691,
+            37.24878065868569,
+            -52.25,
+            15.43373523138689
+          ]
+        }
+      ],
+      "expected_volume_mm3": 8001.418283825611,
+      "native_volume_mm3": 8001.4182838256065,
+      "volume_difference_mm3": 4.547473508864641e-12,
+      "excluded_coincident_boolean_diagnostic": {
+        "missing_volume_mm3": 13683.522668593858,
+        "extra_volume_mm3": 8001.418283825603,
+        "used_as_gate": false,
+        "reason": "Coincident-solid subtraction returned spurious residuals despite matching surfaces and volume. This diagnostic is retained but supplies no geometry verdict."
+      },
+      "bounds_error_max_mm": 7.105427357601002e-15,
+      "symmetric_sampled_boundary_error_max_mm": 1.0302869668521453e-13,
+      "seat_checks": [
+        {
+          "angle_deg": 20,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.07557221148155,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 60,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.0755722115423,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 100,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.07557221147098,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 140,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.07557221142524,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 180,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.07557221140721,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 220,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.07557221138394,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 260,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.07557221146565,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 300,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.075572211395396,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        },
+        {
+          "angle_deg": 340,
+          "nominal_overlap_mm3": 0,
+          "projected_seating_area_mm2": 18.075572211464497,
+          "driver_overlap_mm3": 0,
+          "aligned_fork_gap_mm": 2.299999999999997,
+          "passed": true
+        }
+      ],
+      "global_rotating_crank_axial_gap_bound_mm": 0.9,
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Nominal M3 DIN7991 head envelope only; purchased rim, angle, print tolerances and preload require physical confirmation.",
+    "Seat outer edge land1.05mm and residual web1.75mm remain unqualified for operating loads.",
+    "The0.9mm global axial separation is a conservative rigid bound through any Y-axis crank rotation.2.3mm is the exact aligned-fork gap at the screw radius.",
+    "No Fusion authoring, promotion or geometry modifications were performed."
+  ]
+}

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="800" viewBox="0 0 1240 800">
+<defs><style>text{font-family:Arial,sans-serif;fill:#283b32}.title{font-size:28px;font-weight:600}.h{font-size:19px;font-weight:600}.t{font-size:15px}.s{font-size:13px;fill:#526359}.dim{stroke:#c96734;stroke-width:1.7;fill:none}.line{stroke:#66796c;stroke-width:1.4;fill:none}.shell{fill:#e5dfd3;stroke:#66796c;stroke-width:1.7}.metal{fill:#9aa8a0;stroke:#526359;stroke-width:1.5}.ghost{stroke:#b6bdb5;stroke-width:1.5;stroke-dasharray:6 6;fill:none}</style>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#c96734"/></marker></defs>
+<rect width="1240" height="800" fill="#f3f5ee"/>
+<text class="title" x="42" y="48">tinfox · low sensor saddle</text>
+<text class="t" x="42" y="78">A short structural mount with one low cover flowing forward to the camera face.</text>
+<rect x="24" y="105" width="776" height="420" rx="16" fill="#e9ede2"/>
+<text class="h" x="46" y="138">Side profile</text>
+<!-- Body and existing tall silhouette, shown only for comparison -->
+<path class="shell" d="M60 345 Q60 327 80 325 H440 L454 337 V409 Q448 419 432 419 H83 Q60 419 60 396Z"/>
+<path class="ghost" d="M305 325 L315 254 Q323 239 345 239 H379 Q395 244 404 262 L482 267 L542 267 L583 289 L635 340"/>
+<rect class="ghost" x="327" y="197" width="66" height="42" rx="7"/>
+<text class="s" x="64" y="189">Current tall mount (dashed)</text><path class="line" d="M258 185 H291 L324 216"/>
+<!-- New low hood: broad root, short flat crown, then downward camera brow -->
+<path class="shell" d="M294 325 Q310 309 338 300 Q352 294 372 294 H428 Q454 296 483 305 Q542 322 583 334 L637 348 L637 374 L585 359 Q536 341 479 332 Q430 324 390 325Z"/>
+<!-- Exposed sensor with concealed base -->
+<path d="M363 292 V268 Q363 261 373 261 H417 Q427 261 427 268 V292Z" fill="#303632" stroke="#202a24" stroke-width="1.5"/>
+<path d="M365 280 H425" stroke="#8eaba0" stroke-width="2"/>
+<!-- Optical centerline -->
+<path d="M285 280 H746" stroke="#91a392" stroke-width="1.2" stroke-dasharray="4 5"/>
+<text class="s" x="504" y="256">Exposed optical band</text><path class="line" d="M502 261 H462 L425 280"/>
+<!-- Camera face -->
+<path class="shell" d="M630 342 Q651 342 657 360 V414 Q652 426 636 428 L625 419 V353Z"/>
+<path d="M644 363 Q649 364 649 372 V402 Q647 408 643 408 L637 405 V367Z" fill="#28443e"/>
+<!-- Sectioned load path beneath hood -->
+<rect class="metal" x="347" y="344" width="97" height="12" rx="2"/>
+<path d="M365 343 V305 H424 V343 H415 V314 H374 V343Z" fill="#ca743f" fill-opacity=".75" stroke="#9e613c" stroke-width="1.5"/>
+<circle cx="371" cy="350" r="4" fill="#44584a"/><circle cx="421" cy="350" r="4" fill="#44584a"/>
+<path class="dim" d="M395 304 V339" marker-end="url(#arrow)"/>
+<text class="t" x="68" y="463">Move the sensor over the crossmember.</text>
+<text class="s" x="68" y="485">Two short side walls carry the seat into the frame.</text>
+<path class="line" d="M341 456 L363 431 L395 356"/>
+<path class="dim" d="M467 295 V324 M461 295 H473 M461 324 H473"/>
+<text class="s" x="486" y="295">Deck target: 20–25 mm above roof</text>
+<!-- Plan view -->
+<rect x="818" y="105" width="398" height="420" rx="16" fill="#e9ede2"/>
+<text class="h" x="840" y="138">Top view</text>
+<path class="shell" d="M875 194 Q875 174 897 174 H1135 Q1157 174 1157 194 V438 Q1157 457 1135 457 H897 Q875 457 875 438Z"/>
+<rect class="metal" x="885" y="302" width="262" height="16" rx="3"/>
+<path class="shell" d="M978 352 Q963 326 972 291 Q980 273 985 250 L989 201 Q989 190 1002 187 H1030 Q1043 190 1043 201 L1047 250 Q1052 273 1060 291 Q1069 326 1054 352 Q1016 365 978 352Z"/>
+<circle cx="1016" cy="311" r="34" fill="#303632" stroke="#1e2b24" stroke-width="1.5"/>
+<circle cx="1016" cy="311" r="27" fill="none" stroke="#687b70"/>
+<rect x="933" y="163" width="166" height="32" rx="12" fill="#e5dfd3" stroke="#66796c" stroke-width="1.5"/>
+<rect x="949" y="172" width="134" height="13" rx="6" fill="#28443e"/>
+<circle cx="970" cy="178" r="5" fill="#78928a"/><circle cx="1062" cy="178" r="5" fill="#78928a"/>
+<text class="s" x="849" y="487">Narrow cover; no tall collar or bridge.</text>
+<text class="s" x="849" y="507">Metal crossmember shown through the cover.</text>
+<!-- Intent and honest limits -->
+<text class="h" x="46" y="568">Construction intent</text>
+<text class="t" x="46" y="600">1. Frame-mounted cradle with broad lands and radiused side walls.</text>
+<text class="t" x="46" y="628">2. One smooth upper cover; only the sensor’s optical band stays exposed.</text>
+<text class="t" x="46" y="656">3. Accessible fasteners and a straight removal path, without hooked overlaps.</text>
+<text class="t" x="46" y="684">4. Cable routing inside the saddle; main electronics cover stays serviceable.</text>
+<path d="M42 711 H1194" stroke="#ccd3c7"/>
+<text class="s" x="46" y="741">Design concept, not revised CAD or a qualified mount. Sensor position and heights are proposed targets.</text>
+<text class="s" x="46" y="764">Confirm the selected lidar’s optics, motor clearance, print orientation, fasteners and structural loads before manufacture.</text>
+</svg>

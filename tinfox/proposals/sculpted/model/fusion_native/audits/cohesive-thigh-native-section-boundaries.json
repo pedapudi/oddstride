@@ -1,0 +1,170 @@
+{
+  "native_section_sha256": "ff6c6b1a3fb7b35a74021b209d8f814310994bd58724dfcb38836e9e1ac53246",
+  "boundary_bracket_radius_mm": 0.0049,
+  "checks": [
+    {
+      "side": "inner",
+      "axis": "X",
+      "offset_mm": -24.5,
+      "exact_boundary_points": 85,
+      "boundary_bracketed_points": 94,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "inner",
+      "axis": "X",
+      "offset_mm": 0.0,
+      "exact_boundary_points": 204,
+      "boundary_bracketed_points": 58,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "inner",
+      "axis": "X",
+      "offset_mm": 24.5,
+      "exact_boundary_points": 96,
+      "boundary_bracketed_points": 84,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "inner",
+      "axis": "Y",
+      "offset_mm": 51.99999997291115,
+      "exact_boundary_points": 2508,
+      "boundary_bracketed_points": 363,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "inner",
+      "axis": "Y",
+      "offset_mm": 56.99999998194076,
+      "exact_boundary_points": 2160,
+      "boundary_bracketed_points": 401,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "inner",
+      "axis": "Y",
+      "offset_mm": 61.99999999097038,
+      "exact_boundary_points": 1611,
+      "boundary_bracketed_points": 402,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "inner",
+      "axis": "Z",
+      "offset_mm": -132.4764702249475,
+      "exact_boundary_points": 104,
+      "boundary_bracketed_points": 27,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "inner",
+      "axis": "Z",
+      "offset_mm": -71.98431348329834,
+      "exact_boundary_points": 133,
+      "boundary_bracketed_points": 15,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "inner",
+      "axis": "Z",
+      "offset_mm": -11.492156741649183,
+      "exact_boundary_points": 162,
+      "boundary_bracketed_points": 0,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "outer",
+      "axis": "X",
+      "offset_mm": -24.5,
+      "exact_boundary_points": 57,
+      "boundary_bracketed_points": 117,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "outer",
+      "axis": "X",
+      "offset_mm": 0.0,
+      "exact_boundary_points": 280,
+      "boundary_bracketed_points": 53,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "outer",
+      "axis": "X",
+      "offset_mm": 24.5,
+      "exact_boundary_points": 100,
+      "boundary_bracketed_points": 85,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "outer",
+      "axis": "Y",
+      "offset_mm": 75.2500000445975,
+      "exact_boundary_points": 1508,
+      "boundary_bracketed_points": 457,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "outer",
+      "axis": "Y",
+      "offset_mm": 83.500000089195,
+      "exact_boundary_points": 1412,
+      "boundary_bracketed_points": 474,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "outer",
+      "axis": "Y",
+      "offset_mm": 91.7500001337925,
+      "exact_boundary_points": 2397,
+      "boundary_bracketed_points": 787,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "outer",
+      "axis": "Z",
+      "offset_mm": -132.5,
+      "exact_boundary_points": 111,
+      "boundary_bracketed_points": 44,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "outer",
+      "axis": "Z",
+      "offset_mm": -72.0,
+      "exact_boundary_points": 119,
+      "boundary_bracketed_points": 41,
+      "failed": [],
+      "passed": true
+    },
+    {
+      "side": "outer",
+      "axis": "Z",
+      "offset_mm": -11.5,
+      "exact_boundary_points": 143,
+      "boundary_bracketed_points": 3,
+      "failed": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "method": "Exact native boundary classification or an inside/outside transition within a 0.0049 mm axial segment. Interior containment alone never counts as boundary proximity."
+}

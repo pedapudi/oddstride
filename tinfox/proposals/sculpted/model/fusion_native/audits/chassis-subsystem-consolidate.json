@@ -1,0 +1,169 @@
+{
+  "role": "chassis",
+  "file_id": "urn:adsk.wipprod:dm.lineage:R7U8KNNBSA6o3YwVNF2ZQQ",
+  "version": 2,
+  "changes": [
+    {
+      "part": "battery_cassette",
+      "operation": "localized_native_history",
+      "before": {
+        "features": 81,
+        "sketches": 32,
+        "bodies": 1,
+        "volume_mm3": 170340.08309195086,
+        "base_features": 0,
+        "mesh_bodies": 0
+      },
+      "after": {
+        "features": 81,
+        "sketches": 32,
+        "bodies": 1,
+        "volume_mm3": 170340.08309195086,
+        "base_features": 0,
+        "mesh_bodies": 0
+      },
+      "passed": true
+    },
+    {
+      "part": "body_center_0",
+      "operation": "merged_qualified_native_archive",
+      "before": {
+        "features": 279,
+        "sketches": 112,
+        "bodies": 1,
+        "volume_mm3": 301425.6094206753,
+        "base_features": 0,
+        "mesh_bodies": 0
+      },
+      "after": {
+        "features": 279,
+        "sketches": 130,
+        "bodies": 1,
+        "volume_mm3": 301471.5578142686,
+        "base_features": 0,
+        "mesh_bodies": 0
+      },
+      "archive_sha256": "1bb944b1ebab4332e6662c776174af143bfe8b359875c342de7082d366674edd",
+      "passed": true
+    }
+  ],
+  "native_parts": 14,
+  "remaining_external_parts": [],
+  "inventory": {
+    "battery_skid": {
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1,
+      "volume_mm3": 39040.28752058665,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "chassis_lower_brace": {
+      "features": 26,
+      "sketches": 11,
+      "bodies": 1,
+      "volume_mm3": 30235.250284752823,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "battery_access_latch_-1": {
+      "features": 3,
+      "sketches": 1,
+      "bodies": 1,
+      "volume_mm3": 152.60147322785434,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "battery_latch_-1": {
+      "features": 3,
+      "sketches": 1,
+      "bodies": 1,
+      "volume_mm3": 710.837733925475,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "battery_side_panel_-1": {
+      "features": 12,
+      "sketches": 5,
+      "bodies": 1,
+      "volume_mm3": 12158.31992482827,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "chassis_crossmember_121": {
+      "features": 21,
+      "sketches": 15,
+      "bodies": 1,
+      "volume_mm3": 4698.510848686928,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "chassis_beam_-102": {
+      "features": 77,
+      "sketches": 34,
+      "bodies": 1,
+      "volume_mm3": 17500.3970103975,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "battery_access_latch_1": {
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "volume_mm3": 152.60147322785434,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "battery_latch_1": {
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "volume_mm3": 710.837733925475,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "battery_side_panel_1": {
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "volume_mm3": 12158.319924828269,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "chassis_beam_102": {
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "volume_mm3": 17500.460846581504,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "chassis_crossmember_-121": {
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "volume_mm3": 4698.510848686928,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "battery_cassette": {
+      "features": 81,
+      "sketches": 32,
+      "bodies": 1,
+      "volume_mm3": 170340.08309195086,
+      "base_features": 0,
+      "mesh_bodies": 0
+    },
+    "body_center_0": {
+      "features": 279,
+      "sketches": 130,
+      "bodies": 1,
+      "volume_mm3": 301471.5578142686,
+      "base_features": 0,
+      "mesh_bodies": 0
+    }
+  },
+  "source_master_modified": false,
+  "phase": "qualified_histories_internalized",
+  "migration_gate_passed": false
+}

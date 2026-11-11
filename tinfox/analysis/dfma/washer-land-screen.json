@@ -1,0 +1,139 @@
+{
+  "checks": [
+    {
+      "family": "thigh",
+      "clamp": 0,
+      "half": "inner",
+      "center_xz_mm": [
+        -36,
+        -66
+      ],
+      "nominal_bearing_area_mm2": 59.45537089123598,
+      "nominal_full_annulus_mm2": 60.287163022388135,
+      "minimum_washer_OD_bearing_area_mm2": 52.171081016428275,
+      "minimum_washer_OD_full_annulus_mm2": 52.32707409653866,
+      "missing_material_angles_at_access_radius6_3mm": [
+        170,
+        175,
+        180,
+        185,
+        190,
+        195,
+        200,
+        205,
+        210,
+        215
+      ]
+    },
+    {
+      "family": "thigh",
+      "clamp": 0,
+      "half": "outer",
+      "center_xz_mm": [
+        -36,
+        -66
+      ],
+      "nominal_bearing_area_mm2": 59.4553708915212,
+      "nominal_full_annulus_mm2": 60.287163022388135,
+      "minimum_washer_OD_bearing_area_mm2": 52.171081016422896,
+      "minimum_washer_OD_full_annulus_mm2": 52.32707409653866,
+      "missing_material_angles_at_access_radius6_3mm": [
+        170,
+        175,
+        180,
+        185,
+        190,
+        195,
+        200,
+        205,
+        210,
+        215
+      ]
+    },
+    {
+      "family": "thigh",
+      "clamp": 1,
+      "half": "inner",
+      "center_xz_mm": [
+        5,
+        -70
+      ],
+      "nominal_bearing_area_mm2": 60.28716302238793,
+      "nominal_full_annulus_mm2": 60.287163022388135,
+      "minimum_washer_OD_bearing_area_mm2": 52.327074096538425,
+      "minimum_washer_OD_full_annulus_mm2": 52.32707409653866,
+      "missing_material_angles_at_access_radius6_3mm": []
+    },
+    {
+      "family": "thigh",
+      "clamp": 1,
+      "half": "outer",
+      "center_xz_mm": [
+        5,
+        -70
+      ],
+      "nominal_bearing_area_mm2": 60.28716302239013,
+      "nominal_full_annulus_mm2": 60.287163022388135,
+      "minimum_washer_OD_bearing_area_mm2": 52.327074096540834,
+      "minimum_washer_OD_full_annulus_mm2": 52.32707409653866,
+      "missing_material_angles_at_access_radius6_3mm": []
+    },
+    {
+      "family": "shin",
+      "clamp": 37,
+      "half": "inner",
+      "center_xz_mm": [
+        2,
+        -30
+      ],
+      "nominal_bearing_area_mm2": 60.287163022387915,
+      "nominal_full_annulus_mm2": 60.287163022388135,
+      "minimum_washer_OD_bearing_area_mm2": 52.32707409653839,
+      "minimum_washer_OD_full_annulus_mm2": 52.32707409653866,
+      "missing_material_angles_at_access_radius6_3mm": []
+    },
+    {
+      "family": "shin",
+      "clamp": 37,
+      "half": "outer",
+      "center_xz_mm": [
+        2,
+        -30
+      ],
+      "nominal_bearing_area_mm2": 60.28716302238874,
+      "nominal_full_annulus_mm2": 60.287163022388135,
+      "minimum_washer_OD_bearing_area_mm2": 52.32707409653938,
+      "minimum_washer_OD_full_annulus_mm2": 52.32707409653866,
+      "missing_material_angles_at_access_radius6_3mm": []
+    },
+    {
+      "family": "shin",
+      "clamp": 105,
+      "half": "inner",
+      "center_xz_mm": [
+        2,
+        -105
+      ],
+      "nominal_bearing_area_mm2": 60.28716302238795,
+      "nominal_full_annulus_mm2": 60.287163022388135,
+      "minimum_washer_OD_bearing_area_mm2": 52.327074096538446,
+      "minimum_washer_OD_full_annulus_mm2": 52.32707409653866,
+      "missing_material_angles_at_access_radius6_3mm": []
+    },
+    {
+      "family": "shin",
+      "clamp": 105,
+      "half": "outer",
+      "center_xz_mm": [
+        2,
+        -105
+      ],
+      "nominal_bearing_area_mm2": 60.287163022388675,
+      "nominal_full_annulus_mm2": 60.287163022388135,
+      "minimum_washer_OD_bearing_area_mm2": 52.32707409653935,
+      "minimum_washer_OD_full_annulus_mm2": 52.32707409653866,
+      "missing_material_angles_at_access_radius6_3mm": []
+    }
+  ],
+  "scope": "Read-only footprint screen on frozen shells before the proposed larger access cuts. Existing CAD material only; compression, print fit, washer bending and post-redesign strength remain unqualified."
+}

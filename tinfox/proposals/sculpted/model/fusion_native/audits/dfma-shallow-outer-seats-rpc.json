@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"message\": \"{\\\"before\\\": {\\\"dfma_thigh_tube_length\\\": \\\"34 mm\\\", \\\"dfma_thigh_long_screw_length\\\": \\\"40 mm\\\"}, \\\"after\\\": {\\\"dfma_thigh_tube_length\\\": \\\"39 mm\\\", \\\"dfma_thigh_long_screw_length\\\": \\\"45 mm\\\"}, \\\"model_parameter_bindings\\\": [{\\\"part\\\": \\\"DFMA_THIGH_PRIMARY_FL\\\", \\\"parameter\\\": \\\"d6716\\\", \\\"old\\\": \\\"st_clamp_sleeve_length\\\", \\\"new\\\": \\\"dfma_clamp_sleeve_length\\\"}, {\\\"part\\\": \\\"DFMA_THIGH_SECONDARY_FL\\\", \\\"parameter\\\": \\\"d6772\\\", \\\"old\\\": \\\"st_clamp_sleeve_length\\\", \\\"new\\\": \\\"dfma_clamp_sleeve_length\\\"}, {\\\"part\\\": \\\"DFMA_THIGH_SECONDARY_FL\\\", \\\"parameter\\\": \\\"d6774\\\", \\\"old\\\": \\\"st_clamp_outer_floor_y\\\", \\\"new\\\": \\\"dfma_clamp_outer_floor_y\\\"}], \\\"new_reference_definitions\\\": [{\\\"pn\\\": \\\"DFMA_REFERENCE_M4X40_BUTTON\\\", \\\"features\\\": 2, \\\"sketches\\\": 1}, {\\\"pn\\\": \\\"DFMA_CLAMP_TUBE_31\\\", \\\"features\\\": 1, \\\"sketches\\\": 1}], \\\"parts\\\": [{\\\"pn\\\": \\\"DFMA_THIGH_PRIMARY_FL\\\", \\\"features\\\": 20, \\\"faces\\\": 98, \\\"bounds_mm\\\": [-45.58933669274409, 0.0, -191.5, 28.616214065524083, 67.0, 51.000000000000014]}, {\\\"pn\\\": \\\"DFMA_THIGH_SECONDARY_FL\\\", \\\"features\\\": 11, \\\"faces\\\": 125, \\\"bounds_mm\\\": [-45.58933669274409, 9.000000000000004, -191.5, 44.71220316700585, 97.00000000000001, 51.000000000000014]}, {\\\"pn\\\": \\\"DFMA_REFERENCE_M3X40_SOCKET\\\", \\\"features\\\": 2, \\\"faces\\\": 5, \\\"bounds_mm\\\": [-2.7499999999999973, 16.0, 40.75, 2.750000000000003, 64.0, 46.25]}, {\\\"pn\\\": \\\"DFMA_STATOR_TUBE_34\\\", \\\"features\\\": 1, \\\"faces\\\": 4, \\\"bounds_mm\\\": [-3.0000000000000004, 0.0, -3.0000000000000004, 3.0000000000000004, 39.0, 3.0000000000000004]}, {\\\"pn\\\": \\\"DFMA_REFERENCE_M4X40_BUTTON\\\", \\\"features\\\": 2, \\\"faces\\\": 5, \\\"bounds_mm\\\": [-39.8, 54.800000000000004, -69.80000000000001, -32.2, 97.00000000000001, -62.2]}, {\\\"pn\\\": \\\"DFMA_CLAMP_TUBE_31\\\", \\\"features\\\": 1, \\\"faces\\\": 4, \\\"bounds_mm\\\": [-4.0, 0.0, -4.0, 4.0, 30.999999999999996, 4.0]}], \\\"seconds\\\": 295.7057685829932, \\\"saved_version\\\": 35, \\\"modified\\\": true, \\\"scope\\\": \\\"DFMA only. Shallow outside screw access with unchanged exterior, same physical part count, and ordinary standard head envelopes.\\\"}\\n\",\n    \"success\": true\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

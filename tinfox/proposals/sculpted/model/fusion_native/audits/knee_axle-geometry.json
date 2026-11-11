@@ -1,0 +1,79 @@
+{
+  "part": "knee_axle",
+  "source_step_sha256": "57fbb51e52579d384f6bba94b2eaf2c8c293bc3cf0c03be10e0c784e9ca1b26b",
+  "native_step_sha256": "768772a50417470a38e7a37a313ba30bdeccfbb081e38fd7554cb6e149511c66",
+  "source_volume_mm3": 2601.3518145079397,
+  "native_volume_mm3": 2601.3518145078788,
+  "relative_volume_error": 2.342479962877017e-14,
+  "source_area_mm2": 3005.7501872487614,
+  "native_area_mm2": 3005.75018724857,
+  "relative_area_error": 6.369412718840721e-14,
+  "conservative_brep_bounds_error_max_mm": 4.440892098500626e-15,
+  "sampled_boundary_bounds_error_max_mm": 0.0,
+  "surface_deviation": {
+    "native_to_source": {
+      "samples": 1000,
+      "max_mm": 1.1080829876298316e-13,
+      "rms_mm": 8.192301857805297e-15
+    },
+    "source_to_native": {
+      "samples": 1000,
+      "max_mm": 8.526512829121202e-14,
+      "rms_mm": 5.554282254970235e-15
+    }
+  },
+  "source_cylinders": [
+    [
+      4.2,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      6.0,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "native_cylinders": [
+    [
+      4.2,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      6.0,
+      0.0,
+      0.0,
+      -170.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "cylinder_position_radius_error_max_mm": 0.0,
+  "cylinder_axis_component_error_max": 0.0,
+  "native_solid_count": 1,
+  "source_solid_count": 1,
+  "critical_cylinder_gate_passed": true,
+  "geometric_gate_passed": true,
+  "tolerances": {
+    "sampled_surface_mm": 0.05,
+    "relative_volume": 0.001,
+    "cylinder_position_radius_mm": 0.0001,
+    "cylinder_axis_component": 0.0001
+  },
+  "bounds_note": "Conservative BRep bounds can include untrimmed NURBS surface extents. Sampled boundary bounds use a 0.02 mm tessellation and describe the trimmed physical boundary.",
+  "scope": "Exact native STEP geometry. Sampled symmetric surface checks are finite, not a mathematical Hausdorff proof. Native editability and assembly migration gates are separate."
+}

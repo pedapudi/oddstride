@@ -1,0 +1,1668 @@
+{
+  "passed": true,
+  "status": "analysis_geometry_only_not_native_release",
+  "inputs": {
+    "cup": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-motor_carrier_1.step",
+      "sha256": "b4d3fa0141de0d3b877e1bfaaff0440a3edf00a92207b44899f0f57a88b3c721"
+    },
+    "closure": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-hip_stator_closure_1.step",
+      "sha256": "4bbb56e2125b9e9a440a9a4149f3d2f8caed3f888ddaf21eae2655cc5f84f634"
+    },
+    "hardware": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/motor-complex-reference-hardware/motor-complex-purchased-references.step",
+      "sha256": "7ddbdfc46898f2547281a9014f205322e9ab86d46e4d60ef8d67268a295ea1c8",
+      "solid_count": 103
+    },
+    "hardware_manifest": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/manifests/motor-complex-hardware.json",
+      "sha256": "c10cf313e217f37f96ab9491564e7676736ed1ad0cd816cbf019edeb8078e550"
+    },
+    "housing": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-roll_cartridge_1.step",
+      "sha256": "5ff59a30f035ab92d5007f4cf576e36013f377d94659bdd5521081040f0b357d"
+    },
+    "retainer": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-roll_outer_retainer_1.step",
+      "sha256": "6cdfeccd6940561097caf7933f9da590c375ed7b48400333c5c8a0deaae5be70"
+    },
+    "rear plate": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-roll_stator_backplate_1.step",
+      "sha256": "e24727d8883bad7f42c2eb301539086410f9bf1afb81ee88d7317769366d30e5"
+    }
+  },
+  "preserved_original_actual_hardware_cases": [
+    {
+      "hip_deg": 0,
+      "interfering_pairs": [
+        {
+          "tie_deg": 90,
+          "closure_deg": 90,
+          "overlap_mm3": 4.543992870882103
+        },
+        {
+          "tie_deg": 210,
+          "closure_deg": 215,
+          "overlap_mm3": 0.009261998717039258
+        },
+        {
+          "tie_deg": 330,
+          "closure_deg": 325,
+          "overlap_mm3": 0.009261998717039137
+        }
+      ]
+    },
+    {
+      "hip_deg": -5,
+      "interfering_pairs": [
+        {
+          "tie_deg": 90,
+          "closure_deg": 90,
+          "overlap_mm3": 0.009261998712333009
+        },
+        {
+          "tie_deg": 210,
+          "closure_deg": 215,
+          "overlap_mm3": 4.543992870897438
+        }
+      ]
+    },
+    {
+      "hip_deg": -10,
+      "interfering_pairs": [
+        {
+          "tie_deg": 210,
+          "closure_deg": 215,
+          "overlap_mm3": 0.009261998711275504
+        }
+      ]
+    },
+    {
+      "hip_deg": 30,
+      "interfering_pairs": []
+    }
+  ],
+  "analytic_proof": {
+    "statement": "Every rigid rotation about the hip Y axis preserves theYcoordinate of every point. All three ties occupyY>=1 and all three closure heads occupyY<=0. Therefore each of the nine pairings has at least1mm Euclidean separation for every real hip angle.",
+    "nominal_only": true,
+    "nine_pair_bounds": [
+      {
+        "tie_deg": 90,
+        "head_deg": 90,
+        "tie_y_min_mm": 1.0,
+        "head_y_max_mm": 0.0,
+        "axial_gap_mm": 1.0,
+        "all_real_hip_angles_proved": true
+      },
+      {
+        "tie_deg": 90,
+        "head_deg": 215,
+        "tie_y_min_mm": 1.0,
+        "head_y_max_mm": 0.0,
+        "axial_gap_mm": 1.0,
+        "all_real_hip_angles_proved": true
+      },
+      {
+        "tie_deg": 90,
+        "head_deg": 325,
+        "tie_y_min_mm": 1.0,
+        "head_y_max_mm": 0.0,
+        "axial_gap_mm": 1.0,
+        "all_real_hip_angles_proved": true
+      },
+      {
+        "tie_deg": 210,
+        "head_deg": 90,
+        "tie_y_min_mm": 1.0,
+        "head_y_max_mm": 0.0,
+        "axial_gap_mm": 1.0,
+        "all_real_hip_angles_proved": true
+      },
+      {
+        "tie_deg": 210,
+        "head_deg": 215,
+        "tie_y_min_mm": 1.0,
+        "head_y_max_mm": 0.0,
+        "axial_gap_mm": 1.0,
+        "all_real_hip_angles_proved": true
+      },
+      {
+        "tie_deg": 210,
+        "head_deg": 325,
+        "tie_y_min_mm": 1.0,
+        "head_y_max_mm": 0.0,
+        "axial_gap_mm": 1.0,
+        "all_real_hip_angles_proved": true
+      },
+      {
+        "tie_deg": 330,
+        "head_deg": 90,
+        "tie_y_min_mm": 1.0,
+        "head_y_max_mm": 0.0,
+        "axial_gap_mm": 1.0,
+        "all_real_hip_angles_proved": true
+      },
+      {
+        "tie_deg": 330,
+        "head_deg": 215,
+        "tie_y_min_mm": 1.0,
+        "head_y_max_mm": 0.0,
+        "axial_gap_mm": 1.0,
+        "all_real_hip_angles_proved": true
+      },
+      {
+        "tie_deg": 330,
+        "head_deg": 325,
+        "tie_y_min_mm": 1.0,
+        "head_y_max_mm": 0.0,
+        "axial_gap_mm": 1.0,
+        "all_real_hip_angles_proved": true
+      }
+    ]
+  },
+  "sampled_exact_distances": [
+    {
+      "hip_deg": -180,
+      "tie_deg": 90,
+      "head_deg": 90,
+      "gap_mm": 85.20586834250327,
+      "passed": true
+    },
+    {
+      "hip_deg": -180,
+      "tie_deg": 90,
+      "head_deg": 215,
+      "gap_mm": 36.61706955402494,
+      "passed": true
+    },
+    {
+      "hip_deg": -180,
+      "tie_deg": 90,
+      "head_deg": 325,
+      "gap_mm": 36.6170695540277,
+      "passed": true
+    },
+    {
+      "hip_deg": -180,
+      "tie_deg": 210,
+      "head_deg": 90,
+      "gap_mm": 40.06388772272301,
+      "passed": true
+    },
+    {
+      "hip_deg": -180,
+      "tie_deg": 210,
+      "head_deg": 215,
+      "gap_mm": 85.11986721832042,
+      "passed": true
+    },
+    {
+      "hip_deg": -180,
+      "tie_deg": 210,
+      "head_deg": 325,
+      "gap_mm": 43.426645573139126,
+      "passed": true
+    },
+    {
+      "hip_deg": -180,
+      "tie_deg": 330,
+      "head_deg": 90,
+      "gap_mm": 40.0638877227255,
+      "passed": true
+    },
+    {
+      "hip_deg": -180,
+      "tie_deg": 330,
+      "head_deg": 215,
+      "gap_mm": 43.42664557313903,
+      "passed": true
+    },
+    {
+      "hip_deg": -180,
+      "tie_deg": 330,
+      "head_deg": 325,
+      "gap_mm": 85.11986721832548,
+      "passed": true
+    },
+    {
+      "hip_deg": -90,
+      "tie_deg": 90,
+      "head_deg": 90,
+      "gap_mm": 58.74951381585829,
+      "passed": true
+    },
+    {
+      "hip_deg": -90,
+      "tie_deg": 90,
+      "head_deg": 215,
+      "gap_mm": 22.14042263282365,
+      "passed": true
+    },
+    {
+      "hip_deg": -90,
+      "tie_deg": 90,
+      "head_deg": 325,
+      "gap_mm": 81.02397189847304,
+      "passed": true
+    },
+    {
+      "hip_deg": -90,
+      "tie_deg": 210,
+      "head_deg": 90,
+      "gap_mm": 82.12706910682145,
+      "passed": true
+    },
+    {
+      "hip_deg": -90,
+      "tie_deg": 210,
+      "head_deg": 215,
+      "gap_mm": 55.90428890511068,
+      "passed": true
+    },
+    {
+      "hip_deg": -90,
+      "tie_deg": 210,
+      "head_deg": 325,
+      "gap_mm": 14.617842619128508,
+      "passed": true
+    },
+    {
+      "hip_deg": -90,
+      "tie_deg": 330,
+      "head_deg": 90,
+      "gap_mm": 18.393047282705314,
+      "passed": true
+    },
+    {
+      "hip_deg": -90,
+      "tie_deg": 330,
+      "head_deg": 215,
+      "gap_mm": 83.06405575618594,
+      "passed": true
+    },
+    {
+      "hip_deg": -90,
+      "tie_deg": 330,
+      "head_deg": 325,
+      "gap_mm": 61.47361794634698,
+      "passed": true
+    },
+    {
+      "hip_deg": -60,
+      "tie_deg": 90,
+      "head_deg": 90,
+      "gap_mm": 40.06388772272557,
+      "passed": true
+    },
+    {
+      "hip_deg": -60,
+      "tie_deg": 90,
+      "head_deg": 215,
+      "gap_mm": 43.42664557313903,
+      "passed": true
+    },
+    {
+      "hip_deg": -60,
+      "tie_deg": 90,
+      "head_deg": 325,
+      "gap_mm": 85.11986721832555,
+      "passed": true
+    },
+    {
+      "hip_deg": -60,
+      "tie_deg": 210,
+      "head_deg": 90,
+      "gap_mm": 85.2058683425006,
+      "passed": true
+    },
+    {
+      "hip_deg": -60,
+      "tie_deg": 210,
+      "head_deg": 215,
+      "gap_mm": 36.617069554025306,
+      "passed": true
+    },
+    {
+      "hip_deg": -60,
+      "tie_deg": 210,
+      "head_deg": 325,
+      "gap_mm": 36.617069554025235,
+      "passed": true
+    },
+    {
+      "hip_deg": -60,
+      "tie_deg": 330,
+      "head_deg": 90,
+      "gap_mm": 40.063887722725575,
+      "passed": true
+    },
+    {
+      "hip_deg": -60,
+      "tie_deg": 330,
+      "head_deg": 215,
+      "gap_mm": 85.11986721832295,
+      "passed": true
+    },
+    {
+      "hip_deg": -60,
+      "tie_deg": 330,
+      "head_deg": 325,
+      "gap_mm": 43.42664557313899,
+      "passed": true
+    },
+    {
+      "hip_deg": -30,
+      "tie_deg": 90,
+      "head_deg": 90,
+      "gap_mm": 18.393047282705272,
+      "passed": true
+    },
+    {
+      "hip_deg": -30,
+      "tie_deg": 90,
+      "head_deg": 215,
+      "gap_mm": 61.473617946346316,
+      "passed": true
+    },
+    {
+      "hip_deg": -30,
+      "tie_deg": 90,
+      "head_deg": 325,
+      "gap_mm": 83.06405575618804,
+      "passed": true
+    },
+    {
+      "hip_deg": -30,
+      "tie_deg": 210,
+      "head_deg": 90,
+      "gap_mm": 82.12706910682226,
+      "passed": true
+    },
+    {
+      "hip_deg": -30,
+      "tie_deg": 210,
+      "head_deg": 215,
+      "gap_mm": 14.61784261912905,
+      "passed": true
+    },
+    {
+      "hip_deg": -30,
+      "tie_deg": 210,
+      "head_deg": 325,
+      "gap_mm": 55.90428890511128,
+      "passed": true
+    },
+    {
+      "hip_deg": -30,
+      "tie_deg": 330,
+      "head_deg": 90,
+      "gap_mm": 58.749513815858286,
+      "passed": true
+    },
+    {
+      "hip_deg": -30,
+      "tie_deg": 330,
+      "head_deg": 215,
+      "gap_mm": 81.02397189847011,
+      "passed": true
+    },
+    {
+      "hip_deg": -30,
+      "tie_deg": 330,
+      "head_deg": 325,
+      "gap_mm": 22.140422632823043,
+      "passed": true
+    },
+    {
+      "hip_deg": -10,
+      "tie_deg": 90,
+      "head_deg": 90,
+      "gap_mm": 3.471037015322198,
+      "passed": true
+    },
+    {
+      "hip_deg": -10,
+      "tie_deg": 90,
+      "head_deg": 215,
+      "gap_mm": 71.05712582218176,
+      "passed": true
+    },
+    {
+      "hip_deg": -10,
+      "tie_deg": 90,
+      "head_deg": 325,
+      "gap_mm": 78.32820872785096,
+      "passed": true
+    },
+    {
+      "hip_deg": -10,
+      "tie_deg": 210,
+      "head_deg": 90,
+      "gap_mm": 76.7407069854776,
+      "passed": true
+    },
+    {
+      "hip_deg": -10,
+      "tie_deg": 210,
+      "head_deg": 215,
+      "gap_mm": 1.0,
+      "passed": true
+    },
+    {
+      "hip_deg": -10,
+      "tie_deg": 210,
+      "head_deg": 325,
+      "gap_mm": 66.53759972419167,
+      "passed": true
+    },
+    {
+      "hip_deg": -10,
+      "tie_deg": 330,
+      "head_deg": 90,
+      "gap_mm": 68.86769734374752,
+      "passed": true
+    },
+    {
+      "hip_deg": -10,
+      "tie_deg": 330,
+      "head_deg": 215,
+      "gap_mm": 74.99741415813658,
+      "passed": true
+    },
+    {
+      "hip_deg": -10,
+      "tie_deg": 330,
+      "head_deg": 325,
+      "gap_mm": 7.082704265162198,
+      "passed": true
+    },
+    {
+      "hip_deg": -5,
+      "tie_deg": 90,
+      "head_deg": 90,
+      "gap_mm": 1.0,
+      "passed": true
+    },
+    {
+      "hip_deg": -5,
+      "tie_deg": 90,
+      "head_deg": 215,
+      "gap_mm": 73.10167412211443,
+      "passed": true
+    },
+    {
+      "hip_deg": -5,
+      "tie_deg": 90,
+      "head_deg": 325,
+      "gap_mm": 76.74070698547168,
+      "passed": true
+    },
+    {
+      "hip_deg": -5,
+      "tie_deg": 210,
+      "head_deg": 90,
+      "gap_mm": 74.99741415813901,
+      "passed": true
+    },
+    {
+      "hip_deg": -5,
+      "tie_deg": 210,
+      "head_deg": 215,
+      "gap_mm": 1.0,
+      "passed": true
+    },
+    {
+      "hip_deg": -5,
+      "tie_deg": 210,
+      "head_deg": 325,
+      "gap_mm": 68.86769734374462,
+      "passed": true
+    },
+    {
+      "hip_deg": -5,
+      "tie_deg": 330,
+      "head_deg": 90,
+      "gap_mm": 71.05712582219117,
+      "passed": true
+    },
+    {
+      "hip_deg": -5,
+      "tie_deg": 330,
+      "head_deg": 215,
+      "gap_mm": 73.10167412212012,
+      "passed": true
+    },
+    {
+      "hip_deg": -5,
+      "tie_deg": 330,
+      "head_deg": 325,
+      "gap_mm": 3.471037015313421,
+      "passed": true
+    },
+    {
+      "hip_deg": 0,
+      "tie_deg": 90,
+      "head_deg": 90,
+      "gap_mm": 1.0,
+      "passed": true
+    },
+    {
+      "hip_deg": 0,
+      "tie_deg": 90,
+      "head_deg": 215,
+      "gap_mm": 74.99741415813132,
+      "passed": true
+    },
+    {
+      "hip_deg": 0,
+      "tie_deg": 90,
+      "head_deg": 325,
+      "gap_mm": 74.99741415813276,
+      "passed": true
+    },
+    {
+      "hip_deg": 0,
+      "tie_deg": 210,
+      "head_deg": 90,
+      "gap_mm": 73.10167412212232,
+      "passed": true
+    },
+    {
+      "hip_deg": 0,
+      "tie_deg": 210,
+      "head_deg": 215,
+      "gap_mm": 1.0,
+      "passed": true
+    },
+    {
+      "hip_deg": 0,
+      "tie_deg": 210,
+      "head_deg": 325,
+      "gap_mm": 71.05712582218788,
+      "passed": true
+    },
+    {
+      "hip_deg": 0,
+      "tie_deg": 330,
+      "head_deg": 90,
+      "gap_mm": 73.10167412212377,
+      "passed": true
+    },
+    {
+      "hip_deg": 0,
+      "tie_deg": 330,
+      "head_deg": 215,
+      "gap_mm": 71.05712582218788,
+      "passed": true
+    },
+    {
+      "hip_deg": 0,
+      "tie_deg": 330,
+      "head_deg": 325,
+      "gap_mm": 1.0,
+      "passed": true
+    },
+    {
+      "hip_deg": 30,
+      "tie_deg": 90,
+      "head_deg": 90,
+      "gap_mm": 18.39304728270528,
+      "passed": true
+    },
+    {
+      "hip_deg": 30,
+      "tie_deg": 90,
+      "head_deg": 215,
+      "gap_mm": 83.06405575618601,
+      "passed": true
+    },
+    {
+      "hip_deg": 30,
+      "tie_deg": 90,
+      "head_deg": 325,
+      "gap_mm": 61.47361794634706,
+      "passed": true
+    },
+    {
+      "hip_deg": 30,
+      "tie_deg": 210,
+      "head_deg": 90,
+      "gap_mm": 58.749513815857625,
+      "passed": true
+    },
+    {
+      "hip_deg": 30,
+      "tie_deg": 210,
+      "head_deg": 215,
+      "gap_mm": 22.14042263282164,
+      "passed": true
+    },
+    {
+      "hip_deg": 30,
+      "tie_deg": 210,
+      "head_deg": 325,
+      "gap_mm": 81.02397189847002,
+      "passed": true
+    },
+    {
+      "hip_deg": 30,
+      "tie_deg": 330,
+      "head_deg": 90,
+      "gap_mm": 82.12706910682438,
+      "passed": true
+    },
+    {
+      "hip_deg": 30,
+      "tie_deg": 330,
+      "head_deg": 215,
+      "gap_mm": 55.90428890511115,
+      "passed": true
+    },
+    {
+      "hip_deg": 30,
+      "tie_deg": 330,
+      "head_deg": 325,
+      "gap_mm": 14.617842619130199,
+      "passed": true
+    },
+    {
+      "hip_deg": 60,
+      "tie_deg": 90,
+      "head_deg": 90,
+      "gap_mm": 40.063887722725575,
+      "passed": true
+    },
+    {
+      "hip_deg": 60,
+      "tie_deg": 90,
+      "head_deg": 215,
+      "gap_mm": 85.11986721832302,
+      "passed": true
+    },
+    {
+      "hip_deg": 60,
+      "tie_deg": 90,
+      "head_deg": 325,
+      "gap_mm": 43.426645573139076,
+      "passed": true
+    },
+    {
+      "hip_deg": 60,
+      "tie_deg": 210,
+      "head_deg": 90,
+      "gap_mm": 40.06388772272578,
+      "passed": true
+    },
+    {
+      "hip_deg": 60,
+      "tie_deg": 210,
+      "head_deg": 215,
+      "gap_mm": 43.426645573136376,
+      "passed": true
+    },
+    {
+      "hip_deg": 60,
+      "tie_deg": 210,
+      "head_deg": 325,
+      "gap_mm": 85.11986721832281,
+      "passed": true
+    },
+    {
+      "hip_deg": 60,
+      "tie_deg": 330,
+      "head_deg": 90,
+      "gap_mm": 85.2058683425032,
+      "passed": true
+    },
+    {
+      "hip_deg": 60,
+      "tie_deg": 330,
+      "head_deg": 215,
+      "gap_mm": 36.61706955402488,
+      "passed": true
+    },
+    {
+      "hip_deg": 60,
+      "tie_deg": 330,
+      "head_deg": 325,
+      "gap_mm": 36.6170695540277,
+      "passed": true
+    },
+    {
+      "hip_deg": 90,
+      "tie_deg": 90,
+      "head_deg": 90,
+      "gap_mm": 58.74951381585829,
+      "passed": true
+    },
+    {
+      "hip_deg": 90,
+      "tie_deg": 90,
+      "head_deg": 215,
+      "gap_mm": 81.02397189847018,
+      "passed": true
+    },
+    {
+      "hip_deg": 90,
+      "tie_deg": 90,
+      "head_deg": 325,
+      "gap_mm": 22.1404226328231,
+      "passed": true
+    },
+    {
+      "hip_deg": 90,
+      "tie_deg": 210,
+      "head_deg": 90,
+      "gap_mm": 18.393047282706494,
+      "passed": true
+    },
+    {
+      "hip_deg": 90,
+      "tie_deg": 210,
+      "head_deg": 215,
+      "gap_mm": 61.473617946343325,
+      "passed": true
+    },
+    {
+      "hip_deg": 90,
+      "tie_deg": 210,
+      "head_deg": 325,
+      "gap_mm": 83.0640557561858,
+      "passed": true
+    },
+    {
+      "hip_deg": 90,
+      "tie_deg": 330,
+      "head_deg": 90,
+      "gap_mm": 82.12706910682437,
+      "passed": true
+    },
+    {
+      "hip_deg": 90,
+      "tie_deg": 330,
+      "head_deg": 215,
+      "gap_mm": 14.617842619127602,
+      "passed": true
+    },
+    {
+      "hip_deg": 90,
+      "tie_deg": 330,
+      "head_deg": 325,
+      "gap_mm": 55.904288905114164,
+      "passed": true
+    },
+    {
+      "hip_deg": 180,
+      "tie_deg": 90,
+      "head_deg": 90,
+      "gap_mm": 85.20586834250327,
+      "passed": true
+    },
+    {
+      "hip_deg": 180,
+      "tie_deg": 90,
+      "head_deg": 215,
+      "gap_mm": 36.61706955402495,
+      "passed": true
+    },
+    {
+      "hip_deg": 180,
+      "tie_deg": 90,
+      "head_deg": 325,
+      "gap_mm": 36.617069554027694,
+      "passed": true
+    },
+    {
+      "hip_deg": 180,
+      "tie_deg": 210,
+      "head_deg": 90,
+      "gap_mm": 40.063887722723,
+      "passed": true
+    },
+    {
+      "hip_deg": 180,
+      "tie_deg": 210,
+      "head_deg": 215,
+      "gap_mm": 85.11986721832042,
+      "passed": true
+    },
+    {
+      "hip_deg": 180,
+      "tie_deg": 210,
+      "head_deg": 325,
+      "gap_mm": 43.426645573139126,
+      "passed": true
+    },
+    {
+      "hip_deg": 180,
+      "tie_deg": 330,
+      "head_deg": 90,
+      "gap_mm": 40.063887722725504,
+      "passed": true
+    },
+    {
+      "hip_deg": 180,
+      "tie_deg": 330,
+      "head_deg": 215,
+      "gap_mm": 43.42664557313902,
+      "passed": true
+    },
+    {
+      "hip_deg": 180,
+      "tie_deg": 330,
+      "head_deg": 325,
+      "gap_mm": 85.11986721832548,
+      "passed": true
+    }
+  ],
+  "rear_tip_and_tool_checks": [
+    {
+      "closure_angle_deg": 90,
+      "against": "cup",
+      "gap_mm": 1.0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "against": "closure",
+      "gap_mm": 10.42604910788358,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "against": "hip motor",
+      "gap_mm": 5.75,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "against": "housing",
+      "gap_mm": 54.759367647880524,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "against": "retainer",
+      "gap_mm": 53.14994742776365,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "against": "rear plate",
+      "gap_mm": 76.34157254248545,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "cup",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "closure",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "hip motor",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "housing",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "retainer",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "rear plate",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "screw",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "check": "wrench radial approach over longer screw",
+      "radial_standoff_mm": 8,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "check": "wrench radial approach over longer screw",
+      "radial_standoff_mm": 6,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "check": "wrench radial approach over longer screw",
+      "radial_standoff_mm": 4,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 90,
+      "check": "wrench radial approach over longer screw",
+      "radial_standoff_mm": 2,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "against": "cup",
+      "gap_mm": 1.0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "against": "closure",
+      "gap_mm": 10.42604910788358,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "against": "hip motor",
+      "gap_mm": 5.749999999999999,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "against": "housing",
+      "gap_mm": 14.999925495676644,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "against": "retainer",
+      "gap_mm": 12.999853918417386,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "against": "rear plate",
+      "gap_mm": 35.99985391841739,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "cup",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "closure",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "hip motor",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "housing",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "retainer",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "rear plate",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "screw",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "check": "wrench radial approach over longer screw",
+      "radial_standoff_mm": 8,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "check": "wrench radial approach over longer screw",
+      "radial_standoff_mm": 6,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "check": "wrench radial approach over longer screw",
+      "radial_standoff_mm": 4,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 215,
+      "check": "wrench radial approach over longer screw",
+      "radial_standoff_mm": 2,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "against": "cup",
+      "gap_mm": 1.0000000000000016,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "against": "closure",
+      "gap_mm": 10.42604910788358,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "against": "hip motor",
+      "gap_mm": 5.749999999999999,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "against": "housing",
+      "gap_mm": 92.00015863316432,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "against": "retainer",
+      "gap_mm": 90.00014608158261,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "against": "rear plate",
+      "gap_mm": 113.00014608158261,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "cup",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "closure",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "hip motor",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "housing",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "retainer",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "rear plate",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "check": "ordinary7mm wrench at1mm radial stand-off",
+      "against": "screw",
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "check": "wrench radial approach over longer screw",
+      "radial_standoff_mm": 8,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "check": "wrench radial approach over longer screw",
+      "radial_standoff_mm": 6,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "check": "wrench radial approach over longer screw",
+      "radial_standoff_mm": 4,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "closure_angle_deg": 325,
+      "check": "wrench radial approach over longer screw",
+      "radial_standoff_mm": 2,
+      "overlap_mm3": 0,
+      "passed": true
+    }
+  ],
+  "web_sections": {
+    "method": "Exact intersection with X-normal planes after clipping toY[-25,-4],Z[-30,30]; pitch-axis local coordinates. Areas and centroidal second moments use exact section faces. These are sampled geometric properties, not strength calculations.",
+    "rows": [
+      {
+        "pitch_local_x_mm": -54,
+        "source_area_mm2": 837.5934701711999,
+        "proposed_area_mm2": 837.5934701711999,
+        "area_removed_mm2": 0.0,
+        "retained_fraction": 1.0,
+        "source_centroidal_inertia": {
+          "area_mm2": 837.5934701711997,
+          "centroid_mm": [
+            -54.0,
+            -14.64510749092383,
+            -6.1766425307752115e-12
+          ],
+          "Iyy_mm4": 199711.6001102226,
+          "Izz_mm4": 28456.926415608265
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 837.5934701711997,
+          "centroid_mm": [
+            -54.0,
+            -14.64510749092383,
+            -6.1766425307752115e-12
+          ],
+          "Iyy_mm4": 199711.6001102226,
+          "Izz_mm4": 28456.926415608265
+        },
+        "Iyy_retained_fraction": 1.0,
+        "Izz_retained_fraction": 1.0
+      },
+      {
+        "pitch_local_x_mm": -52,
+        "source_area_mm2": 657.835701411796,
+        "proposed_area_mm2": 657.835701411796,
+        "area_removed_mm2": 0.0,
+        "retained_fraction": 1.0,
+        "source_centroidal_inertia": {
+          "area_mm2": 657.8357014117961,
+          "centroid_mm": [
+            -52.0,
+            -15.851960696059308,
+            8.604228440844962e-16
+          ],
+          "Iyy_mm4": 96074.9868463343,
+          "Izz_mm4": 21654.7205570722
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 657.8357014117961,
+          "centroid_mm": [
+            -52.0,
+            -15.851960696059308,
+            8.604228440844962e-16
+          ],
+          "Iyy_mm4": 96074.9868463343,
+          "Izz_mm4": 21654.7205570722
+        },
+        "Iyy_retained_fraction": 1.0,
+        "Izz_retained_fraction": 1.0
+      },
+      {
+        "pitch_local_x_mm": -50,
+        "source_area_mm2": 657.835701411796,
+        "proposed_area_mm2": 657.835701411796,
+        "area_removed_mm2": 0.0,
+        "retained_fraction": 1.0,
+        "source_centroidal_inertia": {
+          "area_mm2": 657.8357014117961,
+          "centroid_mm": [
+            -49.99999999999999,
+            -15.851960696059308,
+            8.604228440844962e-16
+          ],
+          "Iyy_mm4": 96074.986846335,
+          "Izz_mm4": 21654.7205570729
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 657.8357014117961,
+          "centroid_mm": [
+            -49.99999999999999,
+            -15.851960696059308,
+            8.604228440844962e-16
+          ],
+          "Iyy_mm4": 96074.986846335,
+          "Izz_mm4": 21654.7205570729
+        },
+        "Iyy_retained_fraction": 1.0,
+        "Izz_retained_fraction": 1.0
+      },
+      {
+        "pitch_local_x_mm": -48,
+        "source_area_mm2": 657.835701411796,
+        "proposed_area_mm2": 657.835701411796,
+        "area_removed_mm2": 0.0,
+        "retained_fraction": 1.0,
+        "source_centroidal_inertia": {
+          "area_mm2": 657.8357014117961,
+          "centroid_mm": [
+            -48.0,
+            -15.851960696059308,
+            8.604228440844962e-16
+          ],
+          "Iyy_mm4": 96074.9868463343,
+          "Izz_mm4": 21654.7205570722
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 657.8357014117961,
+          "centroid_mm": [
+            -48.0,
+            -15.851960696059308,
+            8.604228440844962e-16
+          ],
+          "Iyy_mm4": 96074.9868463343,
+          "Izz_mm4": 21654.7205570722
+        },
+        "Iyy_retained_fraction": 1.0,
+        "Izz_retained_fraction": 1.0
+      },
+      {
+        "pitch_local_x_mm": -46,
+        "source_area_mm2": 657.835701411796,
+        "proposed_area_mm2": 657.835701411796,
+        "area_removed_mm2": 0.0,
+        "retained_fraction": 1.0,
+        "source_centroidal_inertia": {
+          "area_mm2": 657.8357014117961,
+          "centroid_mm": [
+            -46.0,
+            -15.851960696059308,
+            8.604228440844962e-16
+          ],
+          "Iyy_mm4": 96074.98684633453,
+          "Izz_mm4": 21654.7205570722
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 657.8357014117961,
+          "centroid_mm": [
+            -46.0,
+            -15.851960696059308,
+            8.604228440844962e-16
+          ],
+          "Iyy_mm4": 96074.98684633453,
+          "Izz_mm4": 21654.7205570722
+        },
+        "Iyy_retained_fraction": 1.0,
+        "Izz_retained_fraction": 1.0
+      },
+      {
+        "pitch_local_x_mm": -45,
+        "source_area_mm2": 657.835701411796,
+        "proposed_area_mm2": 657.835701411796,
+        "area_removed_mm2": 0.0,
+        "retained_fraction": 1.0,
+        "source_centroidal_inertia": {
+          "area_mm2": 657.8357014117961,
+          "centroid_mm": [
+            -45.0,
+            -15.851960696059308,
+            8.604228440844962e-16
+          ],
+          "Iyy_mm4": 96074.98684633453,
+          "Izz_mm4": 21654.7205570722
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 657.8357014117961,
+          "centroid_mm": [
+            -45.0,
+            -15.851960696059308,
+            8.604228440844962e-16
+          ],
+          "Iyy_mm4": 96074.98684633453,
+          "Izz_mm4": 21654.7205570722
+        },
+        "Iyy_retained_fraction": 1.0,
+        "Izz_retained_fraction": 1.0
+      },
+      {
+        "pitch_local_x_mm": -44.5,
+        "source_area_mm2": 658.4972211379463,
+        "proposed_area_mm2": 658.4051107963305,
+        "area_removed_mm2": 0.09211034161580756,
+        "retained_fraction": 0.9998601203791617,
+        "source_centroidal_inertia": {
+          "area_mm2": 658.4972211379466,
+          "centroid_mm": [
+            -44.5,
+            -15.844022465330445,
+            -0.027081830266411266
+          ],
+          "Iyy_mm4": 96555.25629420462,
+          "Izz_mm4": 21699.42545724823
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 658.4051107963306,
+          "centroid_mm": [
+            -44.5,
+            -15.845602489923875,
+            -0.02331420368976956
+          ],
+          "Iyy_mm4": 96488.44116689567,
+          "Izz_mm4": 21687.665396346478
+        },
+        "Iyy_retained_fraction": 0.9993080114964911,
+        "Izz_retained_fraction": 0.99945804736052
+      },
+      {
+        "pitch_local_x_mm": -44,
+        "source_area_mm2": 695.7280639739511,
+        "proposed_area_mm2": 690.4519122247902,
+        "area_removed_mm2": 5.276151749160817,
+        "retained_fraction": 0.9924163591748423,
+        "source_centroidal_inertia": {
+          "area_mm2": 695.7280639739512,
+          "centroid_mm": [
+            -44.0,
+            -15.42158570451924,
+            -1.4682544347591717
+          ],
+          "Iyy_mm4": 122185.65199448145,
+          "Izz_mm4": 24088.9641958531
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 690.4519122247902,
+          "centroid_mm": [
+            -44.00000000000001,
+            -15.504661925926497,
+            -1.2734714942568588
+          ],
+          "Iyy_mm4": 118721.25671611191,
+          "Izz_mm4": 23460.07128673466
+        },
+        "Iyy_retained_fraction": 0.9716464640338784,
+        "Izz_retained_fraction": 0.9738929036547489
+      },
+      {
+        "pitch_local_x_mm": -43.5,
+        "source_area_mm2": 708.0698461428372,
+        "proposed_area_mm2": 701.075218395477,
+        "area_removed_mm2": 6.994627747360141,
+        "retained_fraction": 0.990121556813268,
+        "source_centroidal_inertia": {
+          "area_mm2": 708.0698461428381,
+          "centroid_mm": [
+            -43.5,
+            -15.291354649315192,
+            -1.902794057159734
+          ],
+          "Iyy_mm4": 129816.3180981013,
+          "Izz_mm4": 24830.11775864265
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 701.0752183954771,
+          "centroid_mm": [
+            -43.50000000000001,
+            -15.39852114914712,
+            -1.6541888598731436
+          ],
+          "Iyy_mm4": 125406.46818664344,
+          "Izz_mm4": 24014.34379227739
+        },
+        "Iyy_retained_fraction": 0.9660300802236175,
+        "Izz_retained_fraction": 0.9671457874547811
+      },
+      {
+        "pitch_local_x_mm": -43,
+        "source_area_mm2": 713.2202321456886,
+        "proposed_area_mm2": 708.8499076665233,
+        "area_removed_mm2": 4.37032447916522,
+        "retained_fraction": 0.9938724053494427,
+        "source_centroidal_inertia": {
+          "area_mm2": 713.2202321456895,
+          "centroid_mm": [
+            -43.0,
+            -15.238340435018372,
+            -2.0574202588471393
+          ],
+          "Iyy_mm4": 132160.8704994351,
+          "Izz_mm4": 25132.482114909915
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 708.8499076665234,
+          "centroid_mm": [
+            -43.0,
+            -15.30447374140518,
+            -1.9089402295733966
+          ],
+          "Iyy_mm4": 129583.30652224668,
+          "Izz_mm4": 24626.051048387308
+        },
+        "Iyy_retained_fraction": 0.9804967690705438,
+        "Izz_retained_fraction": 0.979849540359479
+      },
+      {
+        "pitch_local_x_mm": -42.5,
+        "source_area_mm2": 715.9231368023508,
+        "proposed_area_mm2": 712.9645853814437,
+        "area_removed_mm2": 2.9585514209070425,
+        "retained_fraction": 0.995867501315684,
+        "source_centroidal_inertia": {
+          "area_mm2": 715.9231368023517,
+          "centroid_mm": [
+            -42.5,
+            -15.199700769194786,
+            -2.175975426541434
+          ],
+          "Iyy_mm4": 133410.6007002755,
+          "Izz_mm4": 25288.76271825959
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 712.964585381444,
+          "centroid_mm": [
+            -42.5,
+            -15.244265450244802,
+            -2.0814296566762938
+          ],
+          "Iyy_mm4": 131849.55318371393,
+          "Izz_mm4": 24945.76955566695
+        },
+        "Iyy_retained_fraction": 0.9882989244605181,
+        "Izz_retained_fraction": 0.9864369338107244
+      },
+      {
+        "pitch_local_x_mm": -42,
+        "source_area_mm2": 711.5424200292889,
+        "proposed_area_mm2": 709.1623461747158,
+        "area_removed_mm2": 2.3800738545730837,
+        "retained_fraction": 0.9966550499484274,
+        "source_centroidal_inertia": {
+          "area_mm2": 711.5424200292892,
+          "centroid_mm": [
+            -42.0,
+            -15.189028541944264,
+            -2.288647695156938
+          ],
+          "Iyy_mm4": 131965.59368905355,
+          "Izz_mm4": 25055.01367451949
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 709.1623461747162,
+          "centroid_mm": [
+            -42.0,
+            -15.225181078303368,
+            -2.2160124095741986
+          ],
+          "Iyy_mm4": 130837.30052622338,
+          "Izz_mm4": 24777.622710161144
+        },
+        "Iyy_retained_fraction": 0.9914500959584304,
+        "Izz_retained_fraction": 0.9889287242880075
+      },
+      {
+        "pitch_local_x_mm": -41.5,
+        "source_area_mm2": 698.9516715216448,
+        "proposed_area_mm2": 696.6787360895008,
+        "area_removed_mm2": 2.2729354321439814,
+        "retained_fraction": 0.9967480792667743,
+        "source_centroidal_inertia": {
+          "area_mm2": 698.9516715216447,
+          "centroid_mm": [
+            -41.49999999999999,
+            -15.217872350734638,
+            -2.409845379052487
+          ],
+          "Iyy_mm4": 127385.15785861062,
+          "Izz_mm4": 24447.808049613843
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 696.6787360895007,
+          "centroid_mm": [
+            -41.5,
+            -15.253163848723823,
+            -2.3403309896722178
+          ],
+          "Iyy_mm4": 126338.95073184255,
+          "Izz_mm4": 24180.698868422536
+        },
+        "Iyy_retained_fraction": 0.9917870563230821,
+        "Izz_retained_fraction": 0.9890743096211635
+      },
+      {
+        "pitch_local_x_mm": -41,
+        "source_area_mm2": 674.0936686916326,
+        "proposed_area_mm2": 671.887262003323,
+        "area_removed_mm2": 2.2064066883095848,
+        "retained_fraction": 0.9967268544554171,
+        "source_centroidal_inertia": {
+          "area_mm2": 674.0936686916324,
+          "centroid_mm": [
+            -40.99999999999999,
+            -15.263993954530017,
+            -2.5641676565125424
+          ],
+          "Iyy_mm4": 118142.95838915557,
+          "Izz_mm4": 23573.402998177102
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 671.8872620033228,
+          "centroid_mm": [
+            -41.0,
+            -15.299708883387988,
+            -2.495230432804127
+          ],
+          "Iyy_mm4": 117155.45570068015,
+          "Izz_mm4": 23311.29439082835
+        },
+        "Iyy_retained_fraction": 0.9916414596185864,
+        "Izz_retained_fraction": 0.9888811722529403
+      },
+      {
+        "pitch_local_x_mm": -40.9,
+        "source_area_mm2": 664.290722975782,
+        "proposed_area_mm2": 662.0944684560627,
+        "area_removed_mm2": 2.196254519719332,
+        "retained_fraction": 0.9966938353287836,
+        "source_centroidal_inertia": {
+          "area_mm2": 664.290722975782,
+          "centroid_mm": [
+            -40.9,
+            -15.271930636658453,
+            -2.6134344104058775
+          ],
+          "Iyy_mm4": 114650.25825846964,
+          "Izz_mm4": 23257.46484841709
+        },
+        "proposed_centroidal_inertia": {
+          "area_mm2": 662.0944684560627,
+          "centroid_mm": [
+            -40.9,
+            -15.308040339198268,
+            -2.5440520298418052
+          ],
+          "Iyy_mm4": 113674.06472788658,
+          "Izz_mm4": 22996.072498814436
+        },
+        "Iyy_retained_fraction": 0.9914854659255777,
+        "Izz_retained_fraction": 0.9887609268118298
+      }
+    ],
+    "minimum_sampled_proposed_area_mm2": 657.835701411796,
+    "maximum_fraction_removed": 0.009878443186732033,
+    "minimum_Iyy_retained_fraction": 0.9660300802236175,
+    "minimum_Izz_retained_fraction": 0.9671457874547811
+  },
+  "limitations": [
+    "The analytic proof assumes exact nominal coordinates and rigidY-axis rotation; screw length, printed floors, tube lengths, deflection and manufacturing errors remain outside it.",
+    "Cup/journal cross-sections are finite samples of one support region. Area retention does not establish bending stiffness, stress, impact, fatigue or printed layer strength.",
+    "The holding-wrench envelope is generic; a particular purchased wrench, hand clearance and full robot environment remain unverified.",
+    "Native authoring, both handed exports and downstream full assembly must be checked separately."
+  ]
+}

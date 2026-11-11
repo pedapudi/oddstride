@@ -1,0 +1,189 @@
+{
+  "passed": true,
+  "parts": [
+    {
+      "part": "CANDIDATE_motor_carrier_1",
+      "features": 8,
+      "sketches": 5,
+      "faces": 114,
+      "edges": 293
+    },
+    {
+      "part": "CANDIDATE_motor_carrier_-1",
+      "features": 10,
+      "sketches": 5,
+      "faces": 114,
+      "edges": 293
+    },
+    {
+      "part": "CANDIDATE_motor_carrier_1_right",
+      "features": 3,
+      "sketches": 0,
+      "faces": 114,
+      "edges": 293
+    },
+    {
+      "part": "CANDIDATE_motor_carrier_-1_right",
+      "features": 3,
+      "sketches": 0,
+      "faces": 114,
+      "edges": 293
+    }
+  ],
+  "edits": [
+    {
+      "parameter": "lc_carrier_shell_outer",
+      "changed_expression": "43.8 mm",
+      "restored_expression": "43.5 mm",
+      "changed": {
+        "CANDIDATE_motor_carrier_1": {
+          "volume": 81.3579028849506,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_-1": {
+          "volume": 81.3579028849506,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_1_right": {
+          "volume": 81.3571112273305,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_-1_right": {
+          "volume": 81.35711122733056,
+          "faces": 114,
+          "edges": 293
+        }
+      },
+      "restored": {
+        "CANDIDATE_motor_carrier_1": {
+          "volume": 78.61555382493545,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_-1": {
+          "volume": 78.61555382493545,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_1_right": {
+          "volume": 78.61476216731518,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_-1_right": {
+          "volume": 78.61476216731506,
+          "faces": 114,
+          "edges": 293
+        }
+      }
+    },
+    {
+      "parameter": "lc_carrier_journal_radius",
+      "changed_expression": "25.1 mm",
+      "restored_expression": "24.95 mm",
+      "changed": {
+        "CANDIDATE_motor_carrier_1": {
+          "volume": 78.91297982087455,
+          "faces": 115,
+          "edges": 299
+        },
+        "CANDIDATE_motor_carrier_-1": {
+          "volume": 78.91297982087458,
+          "faces": 115,
+          "edges": 299
+        },
+        "CANDIDATE_motor_carrier_1_right": {
+          "volume": 78.88570459175565,
+          "faces": 115,
+          "edges": 299
+        },
+        "CANDIDATE_motor_carrier_-1_right": {
+          "volume": 78.88570459175554,
+          "faces": 115,
+          "edges": 299
+        }
+      },
+      "restored": {
+        "CANDIDATE_motor_carrier_1": {
+          "volume": 78.61555382493542,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_-1": {
+          "volume": 78.61555382493542,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_1_right": {
+          "volume": 78.61476216731518,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_-1_right": {
+          "volume": 78.61476216731506,
+          "faces": 114,
+          "edges": 293
+        }
+      }
+    },
+    {
+      "parameter": "lc_carrier_port_tangent_width",
+      "changed_expression": "19 mm",
+      "restored_expression": "18 mm",
+      "changed": {
+        "CANDIDATE_motor_carrier_1": {
+          "volume": 78.56637383125,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_-1": {
+          "volume": 78.56637383125,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_1_right": {
+          "volume": 78.5655821736297,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_-1_right": {
+          "volume": 78.56558217362965,
+          "faces": 114,
+          "edges": 293
+        }
+      },
+      "restored": {
+        "CANDIDATE_motor_carrier_1": {
+          "volume": 78.61555382493542,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_-1": {
+          "volume": 78.61555382493542,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_1_right": {
+          "volume": 78.61476216731518,
+          "faces": 114,
+          "edges": 293
+        },
+        "CANDIDATE_motor_carrier_-1_right": {
+          "volume": 78.61476216731506,
+          "faces": 114,
+          "edges": 293
+        }
+      }
+    }
+  ],
+  "construction_master_bodies": 0,
+  "master_features": 16,
+  "paths": [
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/cohesive-motor-carrier-1-right.step",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/cohesive-motor-carrier--1-right.step"
+  ],
+  "saved": false
+}

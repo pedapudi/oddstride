@@ -1,0 +1,72 @@
+{
+  "name": "Tinfox / warm fox",
+  "version": 1,
+  "direction": "A restrained precision-instrument finish with warm ivory surfaces, fox-orange outer limb panels, charcoal lower legs and small functional accents.",
+  "colors": {
+    "ivory": "#E7DFD0",
+    "fox": "#CD642F",
+    "charcoal": "#303632",
+    "paw": "#171C19",
+    "metal": "#A1AAA4",
+    "glass": "#193C3B",
+    "accent": "#E89451",
+    "interference": "#B73882"
+  },
+  "rules": [
+    {
+      "pattern": "(foot|sole|bumper)",
+      "role": "paw"
+    },
+    {
+      "pattern": "(head_lens|lens_|iris_|head_visor|sensor_window|sensor_bezel|depth_sensor|status_display$)",
+      "role": "glass"
+    },
+    {
+      "pattern": "lidar_cap",
+      "role": "fox"
+    },
+    {
+      "pattern": "(lidar|head_camera|camera_[+-]?[0-9]|_motor$)",
+      "role": "charcoal"
+    },
+    {
+      "pattern": "_port_.*_(plug|boot)$",
+      "role": "accent"
+    },
+    {
+      "pattern": "_port_",
+      "role": "charcoal"
+    },
+    {
+      "pattern": "(thigh_outer|equipment_head_lid|power_button|status_display_dial|lidar_cap|body_aft)",
+      "role": "fox"
+    },
+    {
+      "pattern": "(shin_inner|shin_outer|motor_carrier|motor_mount_ring|battery_cassette|battery_skid|hip_hub|roll_cartridge|chassis_)",
+      "role": "charcoal"
+    },
+    {
+      "pattern": "(body_|belly_|side_panel|front_fascia|equipment_head_lower|neck_left|neck_right|thigh_inner)",
+      "role": "ivory"
+    },
+    {
+      "pattern": "(input_crank|output_pivot)",
+      "role": "fox"
+    }
+  ],
+  "material_defaults": {
+    "petg": "ivory",
+    "aluminum": "metal",
+    "steel": "metal",
+    "rubber": "paw",
+    "envelope": "charcoal",
+    "fabric": "charcoal"
+  },
+  "studio_notes": [
+    "Keep the same part-to-color assignments as the CAD viewer.",
+    "Use matte ivory and orange polymer, satin charcoal structural finishes, subdued metal and reflective dark optical surfaces.",
+    "Express the fox character through color placement and a friendly face; do not add decorative appendages that compromise mobility or serviceability.",
+    "Reserve orange for the outer thighs, head crown and selected service controls. Keep labels small, legible and functional.",
+    "Interference highlighting is a review overlay, not a manufactured finish."
+  ]
+}

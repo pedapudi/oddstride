@@ -1,0 +1,25 @@
+{
+  "rows": [
+    {
+      "part": "slim-thigh-structural-stock",
+      "geometry": true,
+      "sections": true
+    },
+    {
+      "part": "slim-thigh-continuous-exterior-stock",
+      "geometry": true,
+      "sections": false
+    },
+    {
+      "part": "slim-thigh-land-stock",
+      "geometry": false,
+      "sections": true
+    }
+  ],
+  "passed": false,
+  "source_files": {
+    "slim_limb.py": "861c37a7e65f61910072a47b058560a13bb433513d8b68cc31d369bda125654b",
+    "seamless_limb.py": "47ceb1a9f328c1973f9cd57a9436ad29d903e762a85ba6c87015d0d78a949272"
+  },
+  "scope": "Intermediate construction comparison only; completed shell must still match frozen b968 final parts."
+}

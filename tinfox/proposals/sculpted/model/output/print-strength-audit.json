@@ -1,0 +1,121 @@
+{
+  "model_sha256": "144a84e88daed50139f890480e9f1a1740cfb20c773e740ba6b4e9c1b9eede5e",
+  "status": "Unqualified structural prototype",
+  "orientations": [
+    {
+      "part": "shin_outer",
+      "long_axis_above_bed_deg": 1.2722218725854067e-14,
+      "bearing_axis_from_vertical_deg": 90.0,
+      "print_bounds_mm": [
+        166.0,
+        34.0,
+        24.496089935302745
+      ],
+      "orientation": "Fore/aft exterior down, split face upward. Limb length and bearing axis lie in the bed plane."
+    },
+    {
+      "part": "shin_outer_right",
+      "long_axis_above_bed_deg": 1.2722218725854067e-14,
+      "bearing_axis_from_vertical_deg": 90.0,
+      "print_bounds_mm": [
+        166.0,
+        34.0,
+        24.496089935302745
+      ],
+      "orientation": "Fore/aft exterior down, split face upward. Limb length and bearing axis lie in the bed plane."
+    },
+    {
+      "part": "thigh_inner",
+      "long_axis_above_bed_deg": 1.2722218725854067e-14,
+      "bearing_axis_from_vertical_deg": 0.0,
+      "print_bounds_mm": [
+        98.0,
+        237.97821044921875,
+        58.00000000000003
+      ],
+      "orientation": "Motor axis near vertical; leg length lies along the bed."
+    },
+    {
+      "part": "thigh_inner_right",
+      "long_axis_above_bed_deg": 1.2722218725854067e-14,
+      "bearing_axis_from_vertical_deg": 0.0,
+      "print_bounds_mm": [
+        98.0,
+        237.97821044921875,
+        58.00000000000003
+      ],
+      "orientation": "Motor axis near vertical; leg length lies along the bed."
+    },
+    {
+      "part": "thigh_outer",
+      "long_axis_above_bed_deg": 1.2722218725854067e-14,
+      "bearing_axis_from_vertical_deg": 0.0,
+      "print_bounds_mm": [
+        98.99850082397461,
+        238.2503776550293,
+        44.299999237060604
+      ],
+      "orientation": "Exterior down, open structural cavity up; leg length along the bed."
+    },
+    {
+      "part": "thigh_outer_right",
+      "long_axis_above_bed_deg": 1.2722218725854067e-14,
+      "bearing_axis_from_vertical_deg": 0.0,
+      "print_bounds_mm": [
+        98.99850082397461,
+        238.2503776550293,
+        44.299999237060604
+      ],
+      "orientation": "Exterior down, open structural cavity up; leg length along the bed."
+    },
+    {
+      "part": "shin_inner",
+      "long_axis_above_bed_deg": 1.2722218725854067e-14,
+      "bearing_axis_from_vertical_deg": 90.0,
+      "print_bounds_mm": [
+        166.0,
+        34.0,
+        24.49999618530274
+      ],
+      "orientation": "Fore/aft exterior down, split face upward. Limb length and bearing axis lie in the bed plane."
+    },
+    {
+      "part": "shin_inner_right",
+      "long_axis_above_bed_deg": 1.2722218725854067e-14,
+      "bearing_axis_from_vertical_deg": 90.0,
+      "print_bounds_mm": [
+        166.0,
+        34.0,
+        24.49999618530274
+      ],
+      "orientation": "Fore/aft exterior down, split face upward. Limb length and bearing axis lie in the bed plane."
+    }
+  ],
+  "transmission_screen": {
+    "minimum_moment_arm_mm": 12.931275550434405,
+    "peak_motor_torque_Nm": 17,
+    "rated_motor_torque_Nm": 6,
+    "rod_force_at_peak_N": 1314.642158362244,
+    "rod_force_at_rated_N": 463.99135001020375,
+    "outer_fork_ear_thickness_mm": 7.8,
+    "hypothetical_average_pin_bearing_pressure_MPa": 14.04532220472483,
+    "scope": "Quasi-static linkage equilibrium over modeled knee range. Equal reactions assumed for the two fork ears. External impact can exceed this load. Pin bearing pressure is not a tensile stress or a failure prediction."
+  },
+  "minimum_shin_section_modulus_y_mm3": 1007.253485242227,
+  "material_reference": {
+    "name": "Bambu PETG HF TDS V1.0",
+    "source": "https://store.bblcdn.com/3a230e260a3a47c2b0db0156e07eef91.pdf",
+    "tensile_XY_MPa": 34,
+    "tensile_Z_MPa": 23,
+    "HDT_at_1_8_MPa_C": 62,
+    "coupon_conditions": "100% infill, 255 C nozzle, 70 C bed, 200 mm/s; specimens annealed and dried at 75 C for 8 h. Manufacturer discourages annealing complex PETG HF parts because of deformation.",
+    "use": "Illustrates anisotropy. Not a material allowable for these parts, another PETG formulation or an unannealed print."
+  },
+  "qualification_required": [
+    "Same-filament coupons printed with the actual profile, dry material and expected motor-adjacent temperature",
+    "Full leg static tests in forward/back bending, lateral bending, torsion and pushrod load; measure residual deformation and bearing alignment",
+    "Sustained-load creep and clamp-retention tests at service temperature",
+    "Repeated gait loads, controlled impacts and post-test inspection of hole edges, root fillets and layers"
+  ],
+  "scope": "Orientation and analytical load screen. No orthotropic FEA, slicer toolpath inspection, destructive tests or lifetime qualification."
+}

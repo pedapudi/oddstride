@@ -1,0 +1,17 @@
+{
+  "retired_exports": [
+    {
+      "former_path": "exports/motor-complex-restore-pr_bearing_center_span-motor_carrier_1.step",
+      "diagnostic_path": "audits/diagnostics/empty-hidden-carrier-span-export.step",
+      "sha256": "15508794b656cab7a870bdfceab7589877573960183077d28101be34e70e7ff5",
+      "reason": "Empty visibility-filtered export, explicitly excluded from all release allowlists."
+    },
+    {
+      "former_path": "exports/motor-complex-native/assembled-motor-complex.3mf",
+      "diagnostic_path": "audits/diagnostics/empty-hidden-bench-export.3mf",
+      "sha256": "176b516e11cda824602b4a05725b1b7ccb2ac01f3c6579369821be229176a206",
+      "reason": "Empty visibility-filtered export, explicitly excluded from all release allowlists."
+    }
+  ],
+  "published_geometry_affected": false
+}

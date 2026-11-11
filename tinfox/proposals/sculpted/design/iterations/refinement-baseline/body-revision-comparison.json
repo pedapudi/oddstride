@@ -1,0 +1,435 @@
+{
+  "baseline_model_sha256": "d289382312c67d607ae42eb40229edd7500df32403f1ffbc8be0dc520688b409",
+  "model_sha256": "24b3c16db86814d909769acf61e71565eed122890c3cb0818f033e14f235ddc6",
+  "limb_meshes_unchanged": true,
+  "changed_limb_meshes": [],
+  "before": {
+    "rigid_shell_dimensions_xyz_mm": [
+      477.4,
+      222.4,
+      106.5
+    ],
+    "rigid_shell_bounds_mm": [
+      [
+        -232.0,
+        -111.2,
+        -48.0
+      ],
+      [
+        245.4,
+        111.2,
+        58.5
+      ]
+    ],
+    "body_shell_and_fascia_mass_kg": 0.361024,
+    "battery_side_panels_mass_kg": 0.059222,
+    "front_fascia_bounds_xyz_mm": [
+      2.019035768362869,
+      179.01903576836287,
+      71.01903576836287
+    ],
+    "complete_base_mass_kg": 12.481696000000001
+  },
+  "after": {
+    "rigid_shell_dimensions_xyz_mm": [
+      477.4,
+      222.4,
+      103.50891
+    ],
+    "rigid_shell_bounds_mm": [
+      [
+        -232.0,
+        -111.2,
+        -48.00229
+      ],
+      [
+        245.4,
+        111.2,
+        55.50662
+      ]
+    ],
+    "body_shell_and_fascia_mass_kg": 0.33498500000000003,
+    "battery_side_panels_mass_kg": 0.058928,
+    "front_fascia_bounds_xyz_mm": [
+      4.390442707525239,
+      200.67831394851157,
+      88.17984977939089
+    ],
+    "complete_base_mass_kg": 12.464821000000002
+  },
+  "body_mass_delta_kg": -0.02603899999999998,
+  "front_opening_width_mm": {
+    "before": 154,
+    "after": 168
+  },
+  "nominal_front_corner_radius_mm": 18,
+  "central_roof_height_mm": 49.5,
+  "shoulder_crown_height_mm": 55.5,
+  "fit_checks": [
+    {
+      "parts": [
+        "body_nose_surround",
+        "front_fascia"
+      ],
+      "intersection_mm3": 0,
+      "distance_mm": 0.0
+    },
+    {
+      "parts": [
+        "body_nose_surround",
+        "body_front_0"
+      ],
+      "intersection_mm3": 0,
+      "distance_mm": 0.2999923428185202
+    }
+  ],
+  "skin_checks": {
+    "nominal_envelope_min_mm": 1.58954517,
+    "finished_fascia_min_mm": 1.5341630199999998,
+    "return_tongue_min_sampled_section_mm2": 25.568693104035834,
+    "sample_count": 76,
+    "scope": "Exact CAD line intersections along actual tessellated surface normals; analytic targets select nearby outer surface samples. Material intervals are classified inside the solid and summed. Nominal envelope samples exclude openings and mounting ribs. Finished fascia and attachment tongue are checked separately; samples do not establish every local minimum, print strength, sealing or load capacity."
+  },
+  "preset_minimum_gap_mm": {
+    "stand": 1.5214772778511119,
+    "studio": 1.5120851576899597,
+    "raised": 1.505374547073913,
+    "crouch": 1.5037258061599132,
+    "reach": 1.5023884001913785,
+    "fold": 1.5431095157442556,
+    "splay": 1.5180461777473582,
+    "side_reach": 1.5180461777473582
+  },
+  "transition_intersections": 0,
+  "joint_interval_changes": [],
+  "battery_fit": {
+    "intersections": [],
+    "scope": "Battery envelope versus all checked rigid meshes, including fixed body parts. Adapter and electrical-contact fits remain unselected."
+  },
+  "fixed_packaging": {
+    "intersections": [],
+    "scope": "Torso covers versus fixed frame, shelf, cassette rails and roll assemblies; also frame versus roll motors. Intended bolted interfaces excluded."
+  },
+  "printability": {
+    "parts": [
+      {
+        "part": "body_aft_0",
+        "bounds_mm": [
+          106.06936262199974,
+          222.413325097854,
+          66.31338538831908
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "belly_aft_0",
+        "bounds_mm": [
+          106.0680419585349,
+          222.413325097854,
+          38.294062474513666
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "body_center_0",
+        "bounds_mm": [
+          250.81332509785403,
+          222.413325097854,
+          59.50666264892705
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "belly_center_0",
+        "bounds_mm": [
+          250.81332509785403,
+          222.413325097854,
+          38.00938057552263
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "body_front_0",
+        "bounds_mm": [
+          106.01822515114077,
+          222.413325097854,
+          65.93706609336523
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "belly_front_0",
+        "bounds_mm": [
+          106.02681871553378,
+          222.413325097854,
+          38.18779693217895
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_side_panel_-1",
+        "bounds_mm": [
+          228.90726677455254,
+          2.4063723331419737,
+          62.00550247885275
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_access_latch_-1",
+        "bounds_mm": [
+          22.003109130996304,
+          1.8031091309963188,
+          4.0031091309963
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_side_panel_1",
+        "bounds_mm": [
+          228.90726677455254,
+          2.4063723331419737,
+          62.00550247885275
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_access_latch_1",
+        "bounds_mm": [
+          22.003109130996304,
+          1.8031091309963188,
+          4.0031091309963
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_latch_-1",
+        "bounds_mm": [
+          18.01243592398521,
+          5.012435923985208,
+          9.012435923985208
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_latch_1",
+        "bounds_mm": [
+          18.01243592398521,
+          5.012435923985208,
+          9.012435923985208
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_rail_-90.5",
+        "bounds_mm": [
+          134.0124359239852,
+          5.013325097853993,
+          61.01243592398521
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_rail_90.5",
+        "bounds_mm": [
+          134.0124359239852,
+          5.013325097853993,
+          61.01243592398521
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "battery_cassette",
+        "bounds_mm": [
+          140.09048508140984,
+          194.08254981315224,
+          64.72143870204114
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "body_nose_surround",
+        "bounds_mm": [
+          29.879543816073266,
+          202.60498016689652,
+          93.36427588374738
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "front_fascia",
+        "bounds_mm": [
+          4.390442707525239,
+          200.67831394851157,
+          88.17984977939089
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "sensor_bezel",
+        "bounds_mm": [
+          3.2228428820354225,
+          174.02284288203543,
+          46.022842882035434
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "power_button",
+        "bounds_mm": [
+          9.009062601128178,
+          9.00000020000001,
+          1.0090626011281785
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_shoulder_cover",
+        "bounds_mm": [
+          104.48761093305765,
+          91.6953022930574,
+          104.50424252122129
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_thigh_inner",
+        "bounds_mm": [
+          98.67878837884668,
+          58.83898361550385,
+          238.00000020000004
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_thigh_outer",
+        "bounds_mm": [
+          98.37972239084586,
+          22.401269937341894,
+          238.16494931398486
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_hip_index",
+        "bounds_mm": [
+          2.002020357750297,
+          0.5020203577502969,
+          8.002020357750297
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_shin_inner",
+        "bounds_mm": [
+          44.041798369615066,
+          16.904905970117582,
+          158.51161076188652
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_shin_outer",
+        "bounds_mm": [
+          44.041798369615066,
+          16.90490597011761,
+          158.51161076188654
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FL_knee_bezel",
+        "bounds_mm": [
+          36.00000020000005,
+          1.6362498045127154,
+          36.03624980451269
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_shoulder_cover",
+        "bounds_mm": [
+          104.48761093305765,
+          91.6953022930574,
+          104.50424252122129
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_thigh_inner",
+        "bounds_mm": [
+          98.67878837884668,
+          58.83898361550385,
+          238.00000020000004
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_thigh_outer",
+        "bounds_mm": [
+          98.37972239084586,
+          22.401269937341894,
+          238.16494931398486
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_hip_index",
+        "bounds_mm": [
+          2.002020357750297,
+          0.5020203577502969,
+          8.002020357750297
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_shin_inner",
+        "bounds_mm": [
+          44.041798369615066,
+          16.90490597011759,
+          158.51161076188654
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_shin_outer",
+        "bounds_mm": [
+          44.041798369615066,
+          16.90490597011761,
+          158.51161076188654
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "FR_knee_bezel",
+        "bounds_mm": [
+          36.00000020000005,
+          1.6362498045127154,
+          36.03624980451269
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "RL_shoulder_cover",
+        "bounds_mm": [
+          104.48761093308039,
+          91.69530229306875,
+          104.50424252124401
+        ],
+        "fits_rotated_bounding_box": true
+      },
+      {
+        "part": "RR_shoulder_cover",
+        "bounds_mm": [
+          104.48761093308039,
+          91.69530229306875,
+          104.50424252124401
+        ],
+        "fits_rotated_bounding_box": true
+      }
+    ],
+    "all_fit": true,
+    "scope": "Bounding boxes only; intended leg print orientation has shell joint plane on the bed. Slicer supports, overhangs and material setup not validated."
+  },
+  "scope": "Actual CAD meshes, exact-solid interface checks and sampled CAD skin paths. Sweeps compare the same joint definitions and sample spacing. No loaded locomotion, deformation, sealing or final fastener qualification."
+}

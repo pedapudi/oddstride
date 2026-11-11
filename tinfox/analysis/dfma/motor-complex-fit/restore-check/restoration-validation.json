@@ -1,0 +1,136 @@
+{
+  "part": "motor_carrier_1",
+  "scope": "Independent numerical and exported-surface restoration audit only. No geometry changes, tolerance changes, MCP access, release preparation or authority change.",
+  "before": {
+    "path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/motor-complex-fit/restore-check/input-pre/motor_carrier_1.step",
+    "sha256": "b4d3fa0141de0d3b877e1bfaaff0440a3edf00a92207b44899f0f57a88b3c721"
+  },
+  "after": {
+    "path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/motor-complex-fit/restore-check/exports/post-restore-motor_carrier_1.step",
+    "source_path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-post-restore-motor_carrier_1.step",
+    "sha256": "494774b9043435aa75deceb844b74b353eb592ec83329f15620c1771bea1f9a6"
+  },
+  "preserved_native_diagnostics": [
+    {
+      "path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/motor-complex-fit/restore-check/input-pre/motor-complex-family-low-accuracy-diagnostic.json",
+      "sha256": "097da18f9efc268c41b4628f770ddd331861ecab1398266ce880a746198ade03",
+      "accuracy": "default",
+      "maximum_native_volume_delta_mm3": 0.04282450409664307,
+      "bounds_delta_mm": 0,
+      "absolute_volume_threshold_mm3": 0.002,
+      "passed": false
+    },
+    {
+      "path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/motor-complex-fit/restore-check/input-pre/motor-complex-family-very-high-diagnostic.json",
+      "sha256": "c63c1e95c4dae0d5f03ebbef6521e25aea1417785fcf22cd4fb84b9d3a42c1dd",
+      "accuracy": "VeryHigh",
+      "maximum_native_volume_delta_mm3": 0.007148320277337916,
+      "bounds_delta_mm": 0,
+      "absolute_volume_threshold_mm3": 0.002,
+      "passed": false
+    }
+  ],
+  "excluded_empty_export": {
+    "status": "excluded_empty_export_diagnostic",
+    "source_path": "tinfox/proposals/sculpted/model/fusion_native/exports/motor-complex-restore-pr_bearing_center_span-motor_carrier_1.step",
+    "frozen_path": "tinfox/analysis/dfma/motor-complex-fit/restore-check/excluded-empty-post-restore.step",
+    "sha256": "15508794b656cab7a870bdfceab7589877573960183077d28101be34e70e7ff5",
+    "bytes": 3857,
+    "has_solid_or_surface_model_entities": false,
+    "reason": "Visibility/export-selection failure reported by owner. Not compared to pre-edit geometry and not classified as a restoration geometry defect.",
+    "replacement_required": true
+  },
+  "exact_solid_validity_passed": true,
+  "native_restore_bounds_gate": {
+    "maximum_error_mm": 0.0,
+    "threshold_mm": 1e-05,
+    "passed": true
+  },
+  "independent_span_volume_restore_gate": {
+    "before_mm3": 89974.37532094825,
+    "after_mm3": 89974.37490369391,
+    "absolute_difference_mm3": 0.0004172543413005769,
+    "threshold_mm3": 0.002,
+    "passed": true,
+    "integration": {
+      "method": "Adaptive Gauss-Kronrod with B-spline spans; unchanged 0.1% volume gate",
+      "convergence": {
+        "source": [
+          {
+            "requested_error": 1e-07,
+            "volume_mm3": 89974.3765654926,
+            "estimated_error": 1.106234854189086e-07
+          },
+          {
+            "requested_error": 1e-09,
+            "volume_mm3": 89974.37532255088,
+            "estimated_error": 1.2018416257053362e-09
+          },
+          {
+            "requested_error": 1e-11,
+            "volume_mm3": 89974.37532093792,
+            "estimated_error": 1.209100844048127e-11
+          },
+          {
+            "requested_error": 1e-12,
+            "volume_mm3": 89974.37532094825,
+            "estimated_error": 1.073233553258263e-12
+          }
+        ],
+        "native": [
+          {
+            "requested_error": 1e-07,
+            "volume_mm3": 89974.37614659907,
+            "estimated_error": 1.1062698932536517e-07
+          },
+          {
+            "requested_error": 1e-09,
+            "volume_mm3": 89974.3749053023,
+            "estimated_error": 1.2019509385891167e-09
+          },
+          {
+            "requested_error": 1e-11,
+            "volume_mm3": 89974.37490368346,
+            "estimated_error": 1.2091375149637756e-11
+          },
+          {
+            "requested_error": 1e-12,
+            "volume_mm3": 89974.37490369391,
+            "estimated_error": 1.0732564428855108e-12
+          }
+        ]
+      },
+      "reason": "Independent converged integration of native physical-property restoration drift; all geometric thresholds remain unchanged."
+    }
+  },
+  "existing_translation_gates": {
+    "geometry_passed": true,
+    "sections_passed": true,
+    "geometry_tolerances": {
+      "sampled_surface_mm": 0.05,
+      "relative_volume": 0.001,
+      "relative_area": 0.001,
+      "cylinder_position_radius_mm": 0.0001,
+      "cylinder_axis_component": 0.0001
+    },
+    "section_tolerances": {
+      "sampled_distance_mm": 0.05,
+      "relative_perimeter": 0.002,
+      "section_to_own_solid_mm": 0.005
+    }
+  },
+  "independent_restored_geometry_passed": true,
+  "geometry_report": {
+    "path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/motor-complex-fit/restore-check/audits/post-restore-motor_carrier_1-geometry.json",
+    "sha256": "06f091a9838a02f6e70cdfb96fb60e28e15802bc4cf6c3583471efce2eb261a0"
+  },
+  "sections_report": {
+    "path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/motor-complex-fit/restore-check/audits/post-restore-motor_carrier_1-sections.json",
+    "sha256": "bc30b932daafaca4d2e5ef7fa0753341759128942273aa2dcd94d1d4cef9cdee"
+  },
+  "limitations": [
+    "Both original native physical-property assertions remain recorded as failures. The independent method does not rewrite them.",
+    "The owner reports this final post-restore body matches the native fingerprints after both span and M4-clearance restore checkpoints. The comparison directly certifies only the two retained STEP inputs.",
+    "Surface and section samples are finite. This audit does not certify physical strength, manufacturing fits, or other components."
+  ]
+}

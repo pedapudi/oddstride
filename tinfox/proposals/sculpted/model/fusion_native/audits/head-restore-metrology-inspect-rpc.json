@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"message\": \"{\\\"hip_x\\\": \\\"185 mm\\\", \\\"nose_end_x\\\": \\\"245.4 mm\\\", \\\"parameter_binding_rolled_back\\\": true, \\\"accuracy\\\": \\\"\\\\nThe different accuracy settings for calculating area and physical property related values.\\\\nThe higher the accuracy setting, the longer it will take to perform the calculations.\\\\n\\\\nAttributes:\\\\n    LowCalculationAccuracy: Sets the calculation accuracy to low, which returns results within a +/- 1% error margin.\\\\n    MediumCalculationAccuracy: Sets the calculation accuracy to medium, which returns results within a +/- 0.5% error margin.\\\\n    HighCalculationAccuracy: Sets the calculation accuracy to high, which returns results within a +/- 0.1% error margin.\\\\n    VeryHighCalculationAccuracy: Sets the calculation accuracy to very high, which returns results within a +/- 0.01% error margin.\\\\n\\\", \\\"mesh\\\": \\\"Returns the mesh manager object for this body.\\\", \\\"meshcalculator\\\": \\\"\\\\nCreates a new MeshCalculator which is used to calculate\\\\nnew triangular meshes based on various parameters that control the calculation.\\\\nReturns the new MeshCalculator object or null if the creation failed.\\\\n\\\", \\\"measure\\\": \\\"\\\\nMeasures the minimum distance between the two input geometries.\\\\ngeometryOne : The first geometry to measure from. This can be an Occurrence, BRepBody, BRepFace, BRepEdge, BRepVertex,\\\\nConstructionPlane, ConstructionAxis, ConstructionPoint, and any sketch entity. The temporary geometry supported are the Plane and Point3D objects.\\\\ngeometryTwo : The second geometry to measure from. This can be an Occurrence, BRepBody, BRepFace, BRepEdge, BRepVertex,\\\\nConstructionPlane, ConstructionAxis, ConstructionPoint, and any sketch entity. The temporary geometry supported are the Plane and Point3D objects.\\\\nA MeasureResults object that contains the distance and the two points on the geometry that the distance that\\\\nwas measured between them in centimeters.\\\\n\\\"}\\n\",\n    \"success\": true\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

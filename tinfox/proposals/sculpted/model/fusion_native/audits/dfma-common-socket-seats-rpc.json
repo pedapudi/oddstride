@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"error\": \"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 102, in <module>\\n  File \\\"<string>\\\", line 100, in run\\n  File \\\"tinfox_native.py\\\", line 829, in run\\n  File \\\"tinfox_native.py\\\", line 149, in loft\\n  File \\\"/Users/sunil/Library/Application Support/Autodesk/webdeploy/production/b9041698fad88cba44b05d94f431a86999b9c5ba/Autodesk Fusion.app/Contents/Api/Python/packages/adsk/fusion.py\\\", line 50706, in add\\n    return _fusion.LoftFeatures_add(self, input)\\n           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\\nRuntimeError: 3 : No target body found to cut or intersect!\\n\",\n    \"success\": false\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

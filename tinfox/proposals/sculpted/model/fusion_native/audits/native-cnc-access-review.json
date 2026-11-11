@@ -1,0 +1,819 @@
+{
+  "updated_utc": "2026-10-28T23:52:18.536906+00:00",
+  "source_model_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "rule": "AGENTS.md CNC access and undercuts",
+  "all_custom_parts_compliant": false,
+  "review_method": "Construction and interface inspection; no complete cutter or holder simulation. Unreviewed features remain unverified.",
+  "parts": {
+    "body_center_0": {
+      "state": "unverified",
+      "source_step_sha256": "63385268fa391a57bc91db4f2ac666e76ac22225506480ab3bef4799daa9518c",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "cd7e2cd07ee02efe1433fb60096a0b0fa55e753c27ba0afd7ddd878dcc50ec7e",
+      "native_export_path": "exports/current-body-cover-native.step"
+    },
+    "belly_center_0": {
+      "state": "unverified",
+      "source_step_sha256": "3499ce59d99c0a6c770aee07d907f1ea75002e36fa71bf46e85f7a7630969cc5",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "984161825bc294f79d0dac76b60f9cd56a8b206275320daa5661f778ae64bfb8",
+      "native_export_path": "exports/frame-checkpoint-belly_center_0.step"
+    },
+    "battery_side_panel_-1": {
+      "state": "unverified",
+      "source_step_sha256": "eb0d6d2f90f6bb93a09dec17ae76f222ebac6669b26fa63c8284d86cdd4013ea",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "a84868847dfae64f7444a5e6a7b6de5942bab73c5ee62aa25189e1030f89bf1a",
+      "native_export_path": "exports/battery_side_panel_-1.step"
+    },
+    "battery_access_latch_-1": {
+      "state": "unverified",
+      "source_step_sha256": "57ba96e3f65c5b4c4c9d7f8b2fd4c44e613dbb18c9f5100e1efe9ca8da7fc3ae",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "0f76e046fd6bedfa49d413b978a9e355888f1917dbe3a65a2482076dd6bc85ff",
+      "native_export_path": "exports/battery_access_latch_-1.step"
+    },
+    "battery_side_panel_1": {
+      "state": "unverified",
+      "source_step_sha256": "22c9ca7e483ad4ccb5bbf7e829e7c244110ba120ef4c38c0eb05dca3439bb0c5",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "8077657459fd68c1a0c4c77b4eb3d19d0fe9ffbe1c997eae7426bb2b33a6eef0",
+      "native_export_path": "exports/battery_side_panel_1.step"
+    },
+    "battery_access_latch_1": {
+      "state": "unverified",
+      "source_step_sha256": "50118aa5d833e1a5413042356f869606a392bff8f968e03aa94c433abe7b3b6d",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "39ede371417ca9f778ea899dd15a4b3d969202fe932fcdaccf354b579c96b1a6",
+      "native_export_path": "exports/battery_access_latch_1.step"
+    },
+    "battery_latch_-1": {
+      "state": "unverified",
+      "source_step_sha256": "f874c940219037130955e137db944fd211ce4a7d12f02f549903e34c9a37fdd3",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "dd68d341e8ce747d895d34a3aeefc27ce95d9472a0bd473437983a6ceaf1e930",
+      "native_export_path": "exports/battery_latch_-1.step"
+    },
+    "battery_latch_1": {
+      "state": "unverified",
+      "source_step_sha256": "1216edfeef93ff0cb3223c3cd12d1369d5426b7c05618cd1a55b4dd15bf6fa1d",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "6801d9f6f81631626b175198b5520efc4737d69f30090063ecf66e385ec8b415",
+      "native_export_path": "exports/battery_latch_1.step"
+    },
+    "battery_cassette": {
+      "state": "suspected_trapped_access",
+      "source_step_sha256": "d63ec864b972627134bdee37c486a36f1a502664dbfe0b58c9cd7f7361277c59",
+      "setups": [
+        "+Z open-top roughing",
+        "Opposed +/-Y pilot and attachment drilling"
+      ],
+      "notes": [
+        "Top-loading M3 nut pockets are open from +Z; that does not establish access to the separate guide windows.",
+        "Do not remove structural bridges or gussets without a new load-path and assembly review."
+      ],
+      "locations": [
+        {
+          "feature": "Internal guide windows beneath upper gussets",
+          "local_bounds_mm": {
+            "x": [
+              -56,
+              56
+            ],
+            "abs_y": [
+              88,
+              97
+            ],
+            "z": [
+              -56.5,
+              -5.5
+            ]
+          },
+          "concern": "The closed outer side wall blocks a direct lateral approach to the guide window; the upper gusset obstructs some top approaches. Standard tool and holder access requires an explicit setup study.",
+          "source": "source/frame_cassette_intent.py: build"
+        }
+      ],
+      "native_export_sha256": "5183c4ead165fc388e0fd17b6f4d8076de2d61b458f1a09093ce1fa62c91eeed",
+      "native_export_path": "exports/frame-checkpoint-battery_cassette.step"
+    },
+    "battery_skid": {
+      "state": "unverified",
+      "source_step_sha256": "d70f79575a2e77557fd1ad1d860c247293f674e6a09d127c132628e44e233497",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "6679ba197052708bf40dc1a7d9302fea3786e4b01336c47a42a4559bf39788af",
+      "native_export_path": "exports/frame-checkpoint-battery_skid.step"
+    },
+    "chassis_beam_-102": {
+      "state": "unverified",
+      "source_step_sha256": "bd400166a3a932a729a0d752b2ee95bb9b77aaeab4fab8f59fc2f106d7d06a19",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "38d2aaf4139833774a7bfb81e8434ae819e09d41772f2e6d8bc8068d1a773957",
+      "native_export_path": "exports/frame-intent-left-rail-final.step"
+    },
+    "chassis_beam_102": {
+      "state": "unverified",
+      "source_step_sha256": "f267ce582c83b03c741eda200a43f5d287e3b4efb664de1c63f6359203b8b755",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "6e7039c958cd2e7bbe2e9c58254048e7de43b184af98710a1d6e74d8b1c19c47",
+      "native_export_path": "exports/frame-intent-right-rail-final.step"
+    },
+    "chassis_crossmember_-121": {
+      "state": "unverified",
+      "source_step_sha256": "82d1bd89cadaacfd723235b5e88b04c949264b549519957a778e4c87c9d87cb2",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "922ff28016a6b6c6b5bec7af279e0db2b0cdf27743a97036314b98d2136dc0cb",
+      "native_export_path": "exports/frame-intent-rear-tie-final.step"
+    },
+    "chassis_crossmember_121": {
+      "state": "unverified",
+      "source_step_sha256": "6bf4e78d7e620d7870d738a7f4c29d82de6d0a884cec3fa0c143314270c92173",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "28e50b5f48c05115ebf1a40b234c2e0f0dc8f47c5d10657e3b8642114dc682c8",
+      "native_export_path": "exports/frame-intent-front-tie-final.step"
+    },
+    "chassis_lower_brace": {
+      "state": "unverified",
+      "source_step_sha256": "fe527e39fd83b3d16fd1767db7ef5e48cc067e52504b7e9780d25e99fc3668fd",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "e524c15c5206769ee436f99f8fc82e116ae409dc818ba9fa325d881f93059eb0",
+      "native_export_path": "exports/frame-checkpoint-chassis_lower_brace.step"
+    },
+    "electronics_shelf": {
+      "state": "unverified",
+      "source_step_sha256": "c4d0aca0f42fe6dec318d8d3f7c286b7a032ba05876591a2a994601b8211bcfe",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "784fdbbc2788e44d69b1f8b61e6054e6d7b871d402c9df96a07eac665cb93070",
+      "native_export_path": "exports/frame-checkpoint-electronics_shelf.step"
+    },
+    "lidar_lid": {
+      "state": "unverified",
+      "source_step_sha256": "ef988aea46f1e6b31738d970502aa9ebfe42c0dbc6bad3478a35154519fa005d",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "03cdcb8e41616866a21a24fbd78a8a826b029e9da65123ad98e482dbbe0ca2c4",
+      "native_export_path": "exports/current-lidar-lid-native.step"
+    },
+    "body_nose_surround": {
+      "state": "unverified",
+      "source_step_sha256": "8fc31da7330e69c2b53a36b90fffab6680a4430d2c113a404aac55807a42d269",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "d33c253ed1e95194010597928c1c92f9810d80b0c265f1be53857f86918614cb",
+      "native_export_path": "exports/current-sensor-cradle-family-restored.step"
+    },
+    "front_fascia": {
+      "state": "unverified",
+      "source_step_sha256": "b1ed4be5c9e6167cf2df65641f56895fee8ed2dde8b41d1a1bed7fce7943e4b6",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "d26c33b60a82110edc061c2a3836d38c7c29bca69aeb2cd29bea68afb6819ac9",
+      "native_export_path": "exports/current-sensor-hood-family-restored.step"
+    },
+    "power_button": {
+      "state": "unverified",
+      "source_step_sha256": "4a87104d202a10119692b30cb905ece3a11e6a37838993bbf9eff82d691d2a99",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "b648a205ce503f65426cc7e496ff9eee4d124a881c05da6b25fdbd19661219b5",
+      "native_export_path": "exports/power_button.step"
+    },
+    "roll_cartridge_1": {
+      "state": "unverified",
+      "source_step_sha256": "ea9fb891bc282d7313f29384df410c2f58448991e39056fa9ff9f8890eca9c15",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "6b202fb0bb4da9e953a62e5cbbc9285c03eec932121b44a5f4693b58eef0a226",
+      "native_export_path": "exports/roll_cartridge_1.step"
+    },
+    "motor_carrier_1": {
+      "state": "unverified",
+      "source_step_sha256": "8424c2c1bce38e2b76c1140da282669d2e185c3c6b5f2a449a124c7c35a9c934",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "981262258c5dafd074f647545943a401768fbee67da01105f05b6033373b5bb7",
+      "native_export_path": "exports/cohesive-motor-carrier-1.step"
+    },
+    "hip_hub": {
+      "state": "unverified",
+      "source_step_sha256": "231863061c80f4d8204baf0395a54f30bc2761ac2ca760ff66bb37b136c2b71c",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "8619a49f395f8a593f5a4be9c4911152cd8d87826e9b2507b1a09cac9bf21aca",
+      "native_export_path": "exports/hip_hub.step"
+    },
+    "motor_mount_ring": {
+      "state": "unverified",
+      "source_step_sha256": "17ccd1aac5109e059c0cf9827cb362ce99e92f6036ba2800a3809768ded9cba9",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "2b81c8804494c6ba64aaa5f92041efbdfc5b37814002ff44642522ab6339d4e7",
+      "native_export_path": "exports/motor_mount_ring.step"
+    },
+    "pod_sleeve_90": {
+      "state": "unverified",
+      "source_step_sha256": "c387e88a064c9e182861c91826f60c63819ce24cfe14ae7efbcaa45de217fedc",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "7175dd051ecc023c1184cf7c03deb9b96c029e533b52edf5765148495a17439e",
+      "native_export_path": "exports/pod_sleeve_90.step"
+    },
+    "pod_sleeve_210": {
+      "state": "unverified",
+      "source_step_sha256": "f4161c86a8df337a36a53b7ad67c3d2ce5f390cd4d889086d0b26a26f263b7ab",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "8196682c85c4b96448bfdd6d7f62bca0b35aa01ac90e8a9adb4ac8a12135a1c7",
+      "native_export_path": "exports/pod_sleeve_210.step"
+    },
+    "pod_sleeve_330": {
+      "state": "unverified",
+      "source_step_sha256": "79e5dd089e44acbb647773857af9bd14b30f14c0504d1a07d896db12dbb003ef",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "41220edcbd045c1cfdaccb0f7772cf460fcbdf98780fa05562f25ef6631e2a10",
+      "native_export_path": "exports/pod_sleeve_330.step"
+    },
+    "thigh_inner": {
+      "state": "suspected_return_ledge",
+      "source_step_sha256": "9b9841da933392b33fb4449069ebfa7dabdfae639bae6608b80f6ce12800a7c0",
+      "setups": [
+        "Opposed local +/-Y faces of separated structural half"
+      ],
+      "notes": [
+        "These are frozen native baseline interfaces, not the new slim browser candidate.",
+        "A compliant revision must preserve stator support, motor location and screw access."
+      ],
+      "locations": [
+        {
+          "feature": "Motor flange recess and adjacent case/crank returns",
+          "local_datums_mm": {
+            "flange_radius": 48.3,
+            "flange_y_left": [
+              50.3,
+              53.7
+            ],
+            "case_opening_radius": 41.25,
+            "additional_shoulder_cavity_radius": 45
+          },
+          "concern": "The larger flange clearance lies behind smaller axial openings. Direct +/-Y milling can leave a reverse ledge. Alternative straight-tool setups have not been demonstrated; reflected part uses opposite Y signs.",
+          "source": "source/cut_thigh_motor_interfaces.py"
+        }
+      ],
+      "native_export_sha256": "95f5c087a5650e6d0099327ffa593d8c4f3fae32d13ad1e449e0bb68df36faf9",
+      "native_export_path": "exports/cohesive-thigh-inner-final.step"
+    },
+    "thigh_outer": {
+      "state": "unverified",
+      "source_step_sha256": "8399701b44961cac3ae5a191dac43c3d434d130d85fbe70e282c31b0acb9345a",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "1f3d8943f6ed8ebdd0640a7bd63d8dd47d6099b0f6e365d5b4a557e678914dce",
+      "native_export_path": "exports/cohesive-thigh-outer-final.step"
+    },
+    "sleeve_0": {
+      "state": "unverified",
+      "source_step_sha256": "88404ecfba8529271606db6842f60bfd8737939a3587a86fc29a22be031e5197",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "1507e1ce05b5bb62472baf2c97042a057a9a08958607e953135c69b0072aa201",
+      "native_export_path": "exports/cohesive-sleeve-0.step"
+    },
+    "sleeve_1": {
+      "state": "unverified",
+      "source_step_sha256": "95ffd8e90f123ce3fb503b66def14263005af7ee9df2e3781ae713e9843ee51e",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "afefa316800abc7daf864a8206bd20ad567e5f3ec0c86148628f6e4ff52b181c",
+      "native_export_path": "exports/cohesive-sleeve-1.step"
+    },
+    "input_crank": {
+      "state": "unverified",
+      "source_step_sha256": "aa29713f87d285758ef60af545e1f366e32e1b4e50815318dedba2a9db9d2272",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "51a5b7f102cb58735c88e3ca9f54d81baf1cd93099d5587bdcd0b90dc10181c0",
+      "native_export_path": "exports/cohesive-input-crank.step"
+    },
+    "pushrod": {
+      "state": "unverified",
+      "source_step_sha256": "f533c69ae21628ed9e741ec9e38c89f9567352f825202801254faaa89fd10eda",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "ce473e6158d140711510ebeb45051f5cdedb4061cdeb13a7f2e5ac8bb4e85d02",
+      "native_export_path": "exports/cohesive-pushrod.step"
+    },
+    "knee_axle": {
+      "state": "unverified",
+      "source_step_sha256": "57fbb51e52579d384f6bba94b2eaf2c8c293bc3cf0c03be10e0c784e9ca1b26b",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "594f8d7627bbb68e76498b426eb50a052f9d0d0f7c2d2509cf927c3fd7f0455e",
+      "native_export_path": "exports/cohesive-knee-axle.step"
+    },
+    "knee_inner_spacer": {
+      "state": "unverified",
+      "source_step_sha256": "b6f3c122e310eb1b6fa3aea5364045c6bf012d2d42e2d3e1daa79a85d96781c6",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "c4cd61a3ef977b5fdc7bdeebb459675c71c968b1e6221d5c47c2c753faaf6e49",
+      "native_export_path": "exports/cohesive-knee-inner-spacer.step"
+    },
+    "shin_inner": {
+      "state": "opposite_face_setup_required_unverified",
+      "source_step_sha256": "1383832fa3bba62b472bf31a483989e010cb0aaefffd6338da59fbea0eb37065",
+      "setups": [
+        "Inner seat: approach outer local Y51 face toward +Y",
+        "Outer seat: approach outer local Y85 face toward -Y",
+        "Machine open structural cavity from the Y67 split; reflect directions for right-hand parts"
+      ],
+      "notes": [
+        "Preserve full annular bearing support and the verified extraction paths.",
+        "No bearing backup material was removed in this review."
+      ],
+      "locations": [
+        {
+          "feature": "Axial bearing seats and backup shoulders",
+          "nominal_mm": {
+            "bearing_od": 28,
+            "bearing_width": 8,
+            "inner_bearing_y_left": [
+              53,
+              61
+            ],
+            "outer_bearing_y_left": [
+              77,
+              85
+            ],
+            "split_y_left": 67
+          },
+          "concern": "A bearing shoulder is not inherently an undercut: each axial seat can be reached from its outer face. Machining solely from the clamshell split would hide the seat behind its backup lip. Cutter, chamfer and extraction-hole access still require review.",
+          "source": "source/cohesive_limb_intent.py: hollow and bearing seat features"
+        }
+      ],
+      "native_export_sha256": "733a6ae0cf954d0e9a024f48a9afe2b2871593e0e48068f25af15756a8cd0285",
+      "native_export_path": "exports/cohesive-shin-inner-final.step"
+    },
+    "shin_outer": {
+      "state": "opposite_face_setup_required_unverified",
+      "source_step_sha256": "f2c3d57d1ec3de30c3ac2a3a573a500a82be7fe9fcd3b7522d389366fe76f4a8",
+      "setups": [
+        "Inner seat: approach outer local Y51 face toward +Y",
+        "Outer seat: approach outer local Y85 face toward -Y",
+        "Machine open structural cavity from the Y67 split; reflect directions for right-hand parts"
+      ],
+      "notes": [
+        "Preserve full annular bearing support and the verified extraction paths.",
+        "No bearing backup material was removed in this review."
+      ],
+      "locations": [
+        {
+          "feature": "Axial bearing seats and backup shoulders",
+          "nominal_mm": {
+            "bearing_od": 28,
+            "bearing_width": 8,
+            "inner_bearing_y_left": [
+              53,
+              61
+            ],
+            "outer_bearing_y_left": [
+              77,
+              85
+            ],
+            "split_y_left": 67
+          },
+          "concern": "A bearing shoulder is not inherently an undercut: each axial seat can be reached from its outer face. Machining solely from the clamshell split would hide the seat behind its backup lip. Cutter, chamfer and extraction-hole access still require review.",
+          "source": "source/cohesive_limb_intent.py: hollow and bearing seat features"
+        }
+      ],
+      "native_export_sha256": "0bbb2622f6ca5c4900658a1eb651e935bf33077a10dd3606a96410e144f6cdb9",
+      "native_export_path": "exports/cohesive-shin-outer-final.step"
+    },
+    "shin_clamp_sleeve_37": {
+      "state": "unverified",
+      "source_step_sha256": "488aa92fc7df80bbf02505cba4b54a27464c48cee2a4a44debce6b7d7b3d446d",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "0bb49fdc8fe7bd16a792ac3458337b826173354cb39c42914c4a20a113aaa919",
+      "native_export_path": "exports/shin_clamp_sleeve_37.step"
+    },
+    "shin_clamp_sleeve_105": {
+      "state": "unverified",
+      "source_step_sha256": "3ccddb9db2d689c944ebf2ea5213fc38a7a34f36f3383f288020ccb49f8bb03e",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "29883126bafcd835d22c7dcaa9bd510fe149e25d47753118c0b51ee78bd8b272",
+      "native_export_path": "exports/shin_clamp_sleeve_105.step"
+    },
+    "foot": {
+      "state": "unverified",
+      "source_step_sha256": "ea6994176e2b085d1e0ebab009da2feca7f3f16fd3456b5fd0fd9e5e2397b102",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "d4e0c4d45430380abefaac8f3f611a36c34d15de952d1af374e5f0f5521c53ee",
+      "native_export_path": "exports/cohesive-foot.step"
+    },
+    "roll_cartridge_1_right": {
+      "state": "unverified",
+      "source_step_sha256": "a7fa8a423cd44bf9ba7fb3e3c9c1c77063ffb2549273c5374ff4b27d98ad49ec",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "6bfab07f913efef3fb78d2b8f2216a5cbf0b0747854da939c98f6ab3f8f7ce86",
+      "native_export_path": "exports/roll_cartridge_1_right.step"
+    },
+    "motor_carrier_1_right": {
+      "state": "unverified",
+      "source_step_sha256": "099793a160165b314d1f513a7e6834ca1996c4b63851766237140ccbedc08579",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "894d37b688fa4c404befced8ce7e96c33b04e0599641e08e5e5ae430c705f4e2",
+      "native_export_path": "exports/cohesive-motor-carrier-1-right.step"
+    },
+    "hip_hub_right": {
+      "state": "unverified",
+      "source_step_sha256": "6b0a50298fba5749f0d8dd2313c1ec65e5b6357684a21dc82ab4d14188700f6e",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "db0b0d50d18ba80d77d2c20420f84faa16208ffda859373147da69f45ad4081a",
+      "native_export_path": "exports/hip_hub_right.step"
+    },
+    "motor_mount_ring_right": {
+      "state": "unverified",
+      "source_step_sha256": "4ba0724246aaa72db6737dc935fce96a962f0dfb30d84695855d22bf4ac6745b",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "af7b27fbb1a235ac7725b29886908a09abae0cc84f46bfb885bc8e4649d097d2",
+      "native_export_path": "exports/motor_mount_ring_right.step"
+    },
+    "pod_sleeve_90_right": {
+      "state": "unverified",
+      "source_step_sha256": "799bddf4d456608863d57fffbae07d2bf81007c5e7c68a51bf4625e71b26bde8",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "b43b2ddda8b3aaca39d1e4818b5763221947fb1b41859637e8f6cfae12167708",
+      "native_export_path": "exports/pod_sleeve_90_right.step"
+    },
+    "pod_sleeve_210_right": {
+      "state": "unverified",
+      "source_step_sha256": "e3fdf956b4a5378162a25ebedec60b34e24f414533bc03634d568c82f72966fb",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "16dc33f133a20563385a3b08fd732f12c431aa8f69982807c2263766c7b3473d",
+      "native_export_path": "exports/pod_sleeve_210_right.step"
+    },
+    "pod_sleeve_330_right": {
+      "state": "unverified",
+      "source_step_sha256": "afa82dfecaf296e9b257c99a48e2bb8359a89792fe1053c4e83d01e3b0bee3be",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "7fcf3d6db07446319e23c142baa07f2e29790ca76748b55e7304873b23c320f3",
+      "native_export_path": "exports/pod_sleeve_330_right.step"
+    },
+    "thigh_inner_right": {
+      "state": "suspected_return_ledge",
+      "source_step_sha256": "99a41ce6d8a555e50c5e3b09d30c9d358f7d314b443b6bd98ff0936a566c94c2",
+      "setups": [
+        "Opposed local +/-Y faces of separated structural half"
+      ],
+      "notes": [
+        "These are frozen native baseline interfaces, not the new slim browser candidate.",
+        "A compliant revision must preserve stator support, motor location and screw access."
+      ],
+      "locations": [
+        {
+          "feature": "Motor flange recess and adjacent case/crank returns",
+          "local_datums_mm": {
+            "flange_radius": 48.3,
+            "flange_y_left": [
+              50.3,
+              53.7
+            ],
+            "case_opening_radius": 41.25,
+            "additional_shoulder_cavity_radius": 45
+          },
+          "concern": "The larger flange clearance lies behind smaller axial openings. Direct +/-Y milling can leave a reverse ledge. Alternative straight-tool setups have not been demonstrated; reflected part uses opposite Y signs.",
+          "source": "source/cut_thigh_motor_interfaces.py"
+        }
+      ],
+      "native_export_sha256": "6400f6b14303ff01ea0446574838c777da5abd000d1ad738e49fb520af2de0d1",
+      "native_export_path": "exports/cohesive-thigh-inner-right-final.step"
+    },
+    "thigh_outer_right": {
+      "state": "unverified",
+      "source_step_sha256": "d8ae5d33c27422be10ec9be0bb278a7b34fd668e43ce96943016a2c6d5675019",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "ec0d9ff7269b5f2325b374f313359a62d6f549046a49c90c999460c2a64d3744",
+      "native_export_path": "exports/cohesive-thigh-outer-right-final.step"
+    },
+    "sleeve_0_right": {
+      "state": "unverified",
+      "source_step_sha256": "849ecedabd8c1f002e8c88753cd7d2bb2373c2ad35236f4715259704a4084218",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "5ef315dc7dbe652d7a3f0560560ef2849de4b0f32164d70e6e909067322bc774",
+      "native_export_path": "exports/cohesive-sleeve-0-right.step"
+    },
+    "sleeve_1_right": {
+      "state": "unverified",
+      "source_step_sha256": "cdec935097ecc5f33f32c7025d9ac0bd296a46771ea704326872b6b19aef57c5",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "4d8bba2797ef076902c7f7b017bc1780f1725cd2977a62b0636d34b009c88122",
+      "native_export_path": "exports/cohesive-sleeve-1-right.step"
+    },
+    "input_crank_right": {
+      "state": "unverified",
+      "source_step_sha256": "71ad89d9af2de752dd5caae492380280b430feff61d924274c138f25df7e1415",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "93b9d6665e27caf62943cef9857ab3692f497be7a4a46a84f053365ec77a48be",
+      "native_export_path": "exports/cohesive-input-crank-right.step"
+    },
+    "pushrod_right": {
+      "state": "unverified",
+      "source_step_sha256": "76677428ca2000404b9047f210e66de7e3fa8ad61570867123b8fccdb9834df5",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "3bdc4a72f356327f5e6b4d2f19ff80a292c1bb7732f25b009e0956f96f5b5ea3",
+      "native_export_path": "exports/cohesive-pushrod-right.step"
+    },
+    "knee_axle_right": {
+      "state": "unverified",
+      "source_step_sha256": "a8906fb541de7d9b400c45c756837dac036e784bdb952485b879c852d3055267",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "5a302f4e3e012c15c759310d12fd739dc723e1b9594fe38d763217c90e44a9a4",
+      "native_export_path": "exports/cohesive-knee-axle-right.step"
+    },
+    "knee_inner_spacer_right": {
+      "state": "unverified",
+      "source_step_sha256": "e79ffea78131008eba9d30008c2661dc566fb91788ce102a281152370127a78b",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "f05aa8a2c28fc5835bd384ae82edfd690d527b915ce0237ba03f5913c130fb2c",
+      "native_export_path": "exports/cohesive-knee-inner-spacer-right.step"
+    },
+    "shin_inner_right": {
+      "state": "opposite_face_setup_required_unverified",
+      "source_step_sha256": "3b83ca3f0204402ef4faca289c412482d4d752726a17cc1a10bcda65affc28cf",
+      "setups": [
+        "Inner seat: approach outer local Y51 face toward +Y",
+        "Outer seat: approach outer local Y85 face toward -Y",
+        "Machine open structural cavity from the Y67 split; reflect directions for right-hand parts"
+      ],
+      "notes": [
+        "Preserve full annular bearing support and the verified extraction paths.",
+        "No bearing backup material was removed in this review."
+      ],
+      "locations": [
+        {
+          "feature": "Axial bearing seats and backup shoulders",
+          "nominal_mm": {
+            "bearing_od": 28,
+            "bearing_width": 8,
+            "inner_bearing_y_left": [
+              53,
+              61
+            ],
+            "outer_bearing_y_left": [
+              77,
+              85
+            ],
+            "split_y_left": 67
+          },
+          "concern": "A bearing shoulder is not inherently an undercut: each axial seat can be reached from its outer face. Machining solely from the clamshell split would hide the seat behind its backup lip. Cutter, chamfer and extraction-hole access still require review.",
+          "source": "source/cohesive_limb_intent.py: hollow and bearing seat features"
+        }
+      ],
+      "native_export_sha256": "03f8716426593a842f69a0677ac1b734b7e62c52adc930125ac98918c8df43b0",
+      "native_export_path": "exports/cohesive-shin-inner-right-final.step"
+    },
+    "shin_outer_right": {
+      "state": "opposite_face_setup_required_unverified",
+      "source_step_sha256": "3a863f3910861c0b6640e36c45a6151272b650850f06cf324a0a5eba534750e5",
+      "setups": [
+        "Inner seat: approach outer local Y51 face toward +Y",
+        "Outer seat: approach outer local Y85 face toward -Y",
+        "Machine open structural cavity from the Y67 split; reflect directions for right-hand parts"
+      ],
+      "notes": [
+        "Preserve full annular bearing support and the verified extraction paths.",
+        "No bearing backup material was removed in this review."
+      ],
+      "locations": [
+        {
+          "feature": "Axial bearing seats and backup shoulders",
+          "nominal_mm": {
+            "bearing_od": 28,
+            "bearing_width": 8,
+            "inner_bearing_y_left": [
+              53,
+              61
+            ],
+            "outer_bearing_y_left": [
+              77,
+              85
+            ],
+            "split_y_left": 67
+          },
+          "concern": "A bearing shoulder is not inherently an undercut: each axial seat can be reached from its outer face. Machining solely from the clamshell split would hide the seat behind its backup lip. Cutter, chamfer and extraction-hole access still require review.",
+          "source": "source/cohesive_limb_intent.py: hollow and bearing seat features"
+        }
+      ],
+      "native_export_sha256": "ba3c477b0bf671ce616e5ddb6854dd3e75302c3582f3efc3dbf5a3ef83c181a1",
+      "native_export_path": "exports/cohesive-shin-outer-right-final.step"
+    },
+    "shin_clamp_sleeve_37_right": {
+      "state": "unverified",
+      "source_step_sha256": "31bcaefe8b0e961cd03d3f482e7d4774d8186a336b6f347cedab2dc02607888e",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "60adf59904b1f7ec59e76b9ee3a5431693fcbbba6375175f34e1b2e495649284",
+      "native_export_path": "exports/shin_clamp_sleeve_37_right.step"
+    },
+    "shin_clamp_sleeve_105_right": {
+      "state": "unverified",
+      "source_step_sha256": "8ae34dfce8b9fc032ce5d14f14665906139731438f533fea59a36a78ef03f715",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "fa74bc4ac10d9d5d23437f3a2cd26468616c911d44d634eb2a3a0d49ea5b1c6f",
+      "native_export_path": "exports/shin_clamp_sleeve_105_right.step"
+    },
+    "foot_right": {
+      "state": "unverified",
+      "source_step_sha256": "ef3df51046056ffd29610e63fa006d8f99ac59f8c52e917975c1fe2ef115d9ec",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "82d4de10ec0b140b295a8eefb0b2acb03a3d7bddb871a42b909a118424d0a8fb",
+      "native_export_path": "exports/cohesive-foot-right.step"
+    },
+    "roll_cartridge_-1": {
+      "state": "unverified",
+      "source_step_sha256": "5f2e80726996b3adac596cec76aa3c4cd09fdab43434d5f98008886791c8ccc6",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "a7e18e632c9c1d8b194589d7f2a0e04ee5ce079b511e422edd7ea56e8bef1e59",
+      "native_export_path": "exports/roll_cartridge_-1.step"
+    },
+    "motor_carrier_-1": {
+      "state": "unverified",
+      "source_step_sha256": "f54ecc8db4e4605a53e47f646dd234ffb605c7a9952feaf47429b2ac24937d53",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "73d46c9335330f449319704294b30180f10ab94583d09ae73df81b84ee6fe9ad",
+      "native_export_path": "exports/cohesive-motor-carrier--1.step"
+    },
+    "roll_cartridge_-1_right": {
+      "state": "unverified",
+      "source_step_sha256": "2648d57ceca0e710e5c37b9de701f596ef8de16843fac5ccd74c96975ce1c165",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "b1990a389ad00f8e63b700050abf49d4516ecd2d007325365e282cd1a9ef5513",
+      "native_export_path": "exports/roll_cartridge_-1_right.step"
+    },
+    "motor_carrier_-1_right": {
+      "state": "unverified",
+      "source_step_sha256": "1edf10391c732a2db367d70e0e6d61887c1f0807df778d48df406241506a559d",
+      "setups": [],
+      "notes": [
+        "No complete straight-tool reach or holder-clearance audit has been performed."
+      ],
+      "native_export_sha256": "9e82edd0441a2d739dcdfafee96fc83b32d62c2ce993df820c5b53220f505160",
+      "native_export_path": "exports/cohesive-motor-carrier--1-right.step"
+    }
+  },
+  "source_files": {
+    "frame_cassette_intent.py": "d9f3dcd8a838a816185630c9d2083340c8257b75ba309428626776deb5eb8efb",
+    "cohesive_thigh_intent.py": "ba3e6e1dccbfab0ce70d8399f5a5d2a4ed1420c7bb12524e1ee6b388a3b34663",
+    "cut_thigh_motor_interfaces.py": "e3d9fcd40682487b48dab99b2156e5f11420d58a0d0a86c643a5bd3b5b7c6a5c",
+    "cohesive_limb_intent.py": "86284a56021a5c0f8cb53d8266792e8a3d2bbb6d389edac16e66f313cce5a866"
+  },
+  "scope": "Frozen native migration baseline. No geometry altered. Newer generated review candidates require their own audit."
+}

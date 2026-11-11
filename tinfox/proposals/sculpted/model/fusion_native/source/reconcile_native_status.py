@@ -1,0 +1,20 @@
+"""Publish verified subsystem state without promoting the CAD migration."""
+import json,datetime,shutil
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];stamp=datetime.datetime.now(datetime.UTC).isoformat()
+versions={role:max(int(p.name.split('-v')[1].split('-')[0]) for p in (ROOT/'audits').glob(role+'-v*-save-verification.json')) for role in ['chassis','leg','head']};records={}
+for role,version in versions.items():
+ r=json.loads((ROOT/'audits'/f'{role}-v{version}-save-verification.json').read_text());assert r['version']==version and r['complete'] and not r['modified'];records[role]=r
+old=ROOT/'manifests/head-status.json';archive=ROOT/'snapshots/status/head-status-v19.json';archive.parent.mkdir(exist_ok=True)
+if not archive.exists():shutil.copyfile(old,archive)
+head=records['head'];parts={p['part']:p for p in head['parts']};components=[]
+for key,label in [('front_fascia','current-sensor-hood-family-restored'),('body_nose_surround','current-sensor-cradle-family-restored')]:
+ geometry=json.loads((ROOT/'audits'/f'{label}-geometry.json').read_text());sections=json.loads((ROOT/'audits'/f'{label}-sections.json').read_text());assert geometry['geometric_gate_passed'] and sections['section_gate_passed'];row=parts[key];components.append({'id':key,'features':row['features'],'sketches':row['sketches'],'bodies':row['bodies'],'geometry_report':f'audits/{label}-geometry.json','section_report':f'audits/{label}-sections.json','native_step_sha256':geometry['native_step_sha256']})
+status={'updated_utc':stamp,'cloud_file_id':head['file_id'],'saved_version':head['version'],'save_verified':True,'editable_files':head['editable_files'],'native_checkpoint':'exports/Tinfox-Head-family-linked-checkpoint.f3d','source_model_sha256':'929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6','physical_components':components,'construction_components':[{'id':p['part'],'features':p['features'],'sketches':p['sketches'],'bodies':p['bodies']} for p in head['parts'] if p['part'].startswith('DESIGN_MASTER_')],'family_parameters':{'shared_edit_and_restore_passed':True,'edited_report':'audits/head-datum-propagation-edited.json','restored_report':'audits/head-datum-propagation-restored.json','refresh_function':'source/refresh_native_family.py','refresh_requirement':'Reapply the existing native datum selection and verify every derived parameter. Fusion can report a current reference while retaining stale values.'},'interface_and_removal_evidence':['audits/current-native-sensor-fixed-fit.json','audits/current-sensor-fit-input/sensor-service.json','audits/whole-native-robot-motion-service.json'],'source_of_truth_changed':False,'manufacturing_ready':False,'remaining':['Frame dimensions and fixed reference placements need additional family bindings.','Physical print fits, strength and loaded performance remain unqualified.'],'historical_status':str(archive.relative_to(ROOT))}
+old.write_text(json.dumps(status,indent=2))
+legfile=ROOT/'manifests/cohesive-leg-status.json';leg=json.loads(legfile.read_text());leg.update(updated_utc=stamp,saved_version=records['leg']['version'],save_verified=True,active_candidate=None,verified_working_stage='Four assembled legs with 80 native custom instances, 248 reference items and 24 driven pose frames. Shared hip placement edits and restoration pass.',current_operation='Remaining family and process-tolerance bindings',native_checkpoint='exports/Tinfox-Leg-family-linked-checkpoint.f3d',remaining=['Remaining motor-pilot and connector process allowances.','Physical fits, strength and loaded performance qualification.']);legfile.write_text(json.dumps(leg,indent=2))
+subsfile=ROOT/'manifests/subsystems.json';subs=json.loads(subsfile.read_text())
+for role,version in versions.items():
+ subs['subsystems'][role].update(version=version,save_verified=True,verification_report=f'audits/{role}-v{version}-save-verification.json')
+subs['migration_gate_passed']=False;subs['updated_utc']=stamp;subsfile.write_text(json.dumps(subs,indent=2))
+print({'saved_versions':versions,'head_physical_components':len(components),'source_of_truth':False})

@@ -1,0 +1,85 @@
+{
+  "part": "pod_sleeve_330",
+  "source_step_sha256": "79e5dd089e44acbb647773857af9bd14b30f14c0504d1a07d896db12dbb003ef",
+  "native_step_sha256": "41220edcbd045c1cfdaccb0f7772cf460fcbdf98780fa05562f25ef6631e2a10",
+  "source_volume_mm3": 485.56456053883846,
+  "native_volume_mm3": 485.56456053880197,
+  "relative_volume_error": 7.515679247295431e-14,
+  "volume_integration": {
+    "method": "Adaptive Gauss integration of exact BRep surfaces",
+    "requested_relative_error": 1e-09,
+    "estimated_source_error": 5.970947359328576e-16,
+    "estimated_native_error": 5.970947359328597e-16
+  },
+  "source_area_mm2": 1256.134406611423,
+  "native_area_mm2": 1256.1344066113427,
+  "relative_area_error": 6.38967510236265e-14,
+  "conservative_brep_bounds_error_max_mm": 1.0658141036401503e-13,
+  "sampled_boundary_bounds_error_max_mm": 1.0658141036401503e-13,
+  "surface_deviation": {
+    "native_to_source": {
+      "samples": 1000,
+      "max_mm": 1.2079226507921703e-13,
+      "rms_mm": 7.55348202633345e-14
+    },
+    "source_to_native": {
+      "samples": 1000,
+      "max_mm": 1.1234667099445443e-13,
+      "rms_mm": 7.57146550954719e-14
+    }
+  },
+  "source_cylinders": [
+    [
+      1.7,
+      37.672105064623,
+      0.0,
+      -21.75,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      2.5,
+      37.672105064623,
+      0.0,
+      -21.75,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "native_cylinders": [
+    [
+      1.7,
+      37.6721050646231,
+      0.0,
+      -21.75,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      2.5,
+      37.6721050646231,
+      0.0,
+      -21.75,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "cylinder_position_radius_error_max_mm": 1.0658141036401503e-13,
+  "cylinder_axis_component_error_max": 0.0,
+  "native_solid_count": 2,
+  "source_solid_count": 2,
+  "critical_cylinder_gate_passed": true,
+  "geometric_gate_passed": true,
+  "tolerances": {
+    "sampled_surface_mm": 0.05,
+    "relative_volume": 0.001,
+    "cylinder_position_radius_mm": 0.0001,
+    "cylinder_axis_component": 0.0001
+  },
+  "bounds_note": "Conservative BRep bounds can include untrimmed NURBS surface extents. Sampled boundary bounds use a 0.02 mm tessellation and describe the trimmed physical boundary.",
+  "scope": "Exact native STEP geometry. Sampled symmetric surface checks are finite, not a mathematical Hausdorff proof. Native editability and assembly migration gates are separate."
+}

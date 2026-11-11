@@ -1,0 +1,23 @@
+{
+  "source_model_sha256": "f1f1c97f613eb1516102e39bb675f14b8ea0904ef8a361ddbbb0b48b0ed1a09c",
+  "checker": "Every current mesh vertex to the faces of the native Chassis18 rail STEP.",
+  "diagnostic_tolerance_mm": 0.002,
+  "diagnostic_reason": "The initial check reused the purchased-reference helper threshold. It is stricter than the existing custom-part surface-comparison gate and does not replace that gate.",
+  "passed": false,
+  "checks": [
+    {
+      "part": "chassis_beam_-102",
+      "vertices_checked": 38778,
+      "maximum_vertex_boundary_distance_mm": 0.0006637046550982287,
+      "bounds_error_mm": 0.00019846425780656318,
+      "diagnostic_passed": true
+    },
+    {
+      "part": "chassis_beam_102",
+      "vertices_checked": 39065,
+      "maximum_vertex_boundary_distance_mm": 0.0034790314416331793,
+      "bounds_error_mm": 0.00019846425780656318,
+      "diagnostic_passed": false
+    }
+  ]
+}

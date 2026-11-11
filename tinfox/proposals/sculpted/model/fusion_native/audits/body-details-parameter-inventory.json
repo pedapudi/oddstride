@@ -1,0 +1,306 @@
+{
+  "lidar_lid": [
+    {
+      "name": "d1112",
+      "expression": "lidar_lid_4234_makeCylinder_offset",
+      "value": 7.4,
+      "owner": "4234 makeCylinder datum"
+    },
+    {
+      "name": "d1113",
+      "expression": "0.00 mm",
+      "value": 0.0,
+      "owner": "4234 makeCylinder datum"
+    },
+    {
+      "name": "d1114",
+      "expression": "lidar_lid_4234_makeCylinder_diameter",
+      "value": 5.4,
+      "owner": "4234 makeCylinder profile"
+    },
+    {
+      "name": "d1117",
+      "expression": "lidar_lid_4234_makeCylinder_cylinder_depth",
+      "value": 0.2,
+      "owner": "4234 makeCylinder cylinder"
+    },
+    {
+      "name": "d1118",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "owner": "4234 makeCylinder cylinder"
+    },
+    {
+      "name": "d1123",
+      "expression": "saddle_x - 82 mm",
+      "value": 3.8999999999999986,
+      "owner": "Shared sensor seat placement"
+    },
+    {
+      "name": "d1124",
+      "expression": "0 mm",
+      "value": 0.0,
+      "owner": "Shared sensor seat placement"
+    },
+    {
+      "name": "d1127",
+      "expression": "saddle_sensor_lid_bottom_z - 74 mm",
+      "value": 2.799999999999999,
+      "owner": "Shared sensor seat placement"
+    }
+  ],
+  "power_button": [
+    {
+      "name": "d1120",
+      "expression": "power_button_1628_makeCylinder_offset",
+      "value": 4.93,
+      "owner": "1628 makeCylinder datum"
+    },
+    {
+      "name": "d1121",
+      "expression": "0.00 mm",
+      "value": 0.0,
+      "owner": "1628 makeCylinder datum"
+    },
+    {
+      "name": "d1122",
+      "expression": "power_button_1628_makeCylinder_diameter",
+      "value": 0.9,
+      "owner": "1628 makeCylinder profile"
+    },
+    {
+      "name": "d1125",
+      "expression": "power_button_1628_makeCylinder_cylinder_depth",
+      "value": 0.1,
+      "owner": "1628 makeCylinder cylinder"
+    },
+    {
+      "name": "d1126",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "owner": "1628 makeCylinder cylinder"
+    }
+  ],
+  "battery_latch_-1": [
+    {
+      "name": "d1197",
+      "expression": "battery_latch__1_0577_makeBox_offset",
+      "value": -0.45,
+      "owner": "0577 makeBox datum"
+    },
+    {
+      "name": "d1198",
+      "expression": "0.00 mm",
+      "value": 0.0,
+      "owner": "0577 makeBox datum"
+    },
+    {
+      "name": "d1200",
+      "expression": "battery_latch__1_0577_makeBox_stock_depth",
+      "value": 0.9,
+      "owner": "0577 makeBox stock"
+    },
+    {
+      "name": "d1201",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "owner": "0577 makeBox stock"
+    },
+    {
+      "name": "d1203",
+      "expression": "1",
+      "value": 1.0,
+      "owner": "0582 fillet edge rounds"
+    },
+    {
+      "name": "d1204",
+      "expression": "battery_latch__1_0582_fillet_radius",
+      "value": 0.2,
+      "owner": "0582 fillet edge rounds"
+    }
+  ],
+  "battery_access_latch_-1": [
+    {
+      "name": "d1188",
+      "expression": "battery_access_latch__1_0526_makeBox_offset",
+      "value": -0.2,
+      "owner": "0526 makeBox datum"
+    },
+    {
+      "name": "d1189",
+      "expression": "0.00 mm",
+      "value": 0.0,
+      "owner": "0526 makeBox datum"
+    },
+    {
+      "name": "d1191",
+      "expression": "battery_access_latch__1_0526_makeBox_stock_depth",
+      "value": 0.4,
+      "owner": "0526 makeBox stock"
+    },
+    {
+      "name": "d1192",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "owner": "0526 makeBox stock"
+    },
+    {
+      "name": "d1194",
+      "expression": "1",
+      "value": 1.0,
+      "owner": "0531 fillet edge rounds"
+    },
+    {
+      "name": "d1195",
+      "expression": "battery_access_latch__1_0531_fillet_radius",
+      "value": 0.05,
+      "owner": "0531 fillet edge rounds"
+    }
+  ],
+  "battery_side_panel_-1": [
+    {
+      "name": "d1206",
+      "expression": "battery_side_panel__1_0497_extrudeLinear_offset",
+      "value": -9.72,
+      "owner": "0497 extrudeLinear datum"
+    },
+    {
+      "name": "d1207",
+      "expression": "0.00 mm",
+      "value": 0.0,
+      "owner": "0497 extrudeLinear datum"
+    },
+    {
+      "name": "d1209",
+      "expression": "battery_side_panel__1_0497_extrudeLinear_extrusion_depth",
+      "value": -0.16000000000000003,
+      "owner": "0497 extrudeLinear extrusion"
+    },
+    {
+      "name": "d1210",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "owner": "0497 extrudeLinear extrusion"
+    },
+    {
+      "name": "d1212",
+      "expression": "1",
+      "value": 1.0,
+      "owner": "0499 fillet edge rounds"
+    },
+    {
+      "name": "d1213",
+      "expression": "battery_side_panel__1_0499_fillet_radius",
+      "value": 0.05,
+      "owner": "0499 fillet edge rounds"
+    },
+    {
+      "name": "d1215",
+      "expression": "battery_side_panel__1_0500_makeBox_offset",
+      "value": -1.1,
+      "owner": "0500 makeBox datum"
+    },
+    {
+      "name": "d1216",
+      "expression": "0.00 mm",
+      "value": 0.0,
+      "owner": "0500 makeBox datum"
+    },
+    {
+      "name": "d1218",
+      "expression": "battery_side_panel__1_0500_makeBox_stock_depth",
+      "value": 2.2,
+      "owner": "0500 makeBox stock"
+    },
+    {
+      "name": "d1219",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "owner": "0500 makeBox stock"
+    },
+    {
+      "name": "d1221",
+      "expression": "battery_side_panel__1_0506_makeBox_offset",
+      "value": -1.1,
+      "owner": "0506 makeBox datum"
+    },
+    {
+      "name": "d1222",
+      "expression": "0.00 mm",
+      "value": 0.0,
+      "owner": "0506 makeBox datum"
+    },
+    {
+      "name": "d1224",
+      "expression": "battery_side_panel__1_0506_makeBox_stock_depth",
+      "value": 2.2,
+      "owner": "0506 makeBox stock"
+    },
+    {
+      "name": "d1225",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "owner": "0506 makeBox stock"
+    },
+    {
+      "name": "d1227",
+      "expression": "battery_side_panel__1_0512_makeCylinder_offset",
+      "value": -9.600000000000001,
+      "owner": "0512 makeCylinder datum"
+    },
+    {
+      "name": "d1228",
+      "expression": "0.00 mm",
+      "value": 0.0,
+      "owner": "0512 makeCylinder datum"
+    },
+    {
+      "name": "d1229",
+      "expression": "battery_side_panel__1_0512_makeCylinder_diameter",
+      "value": 0.34,
+      "owner": "0512 makeCylinder profile"
+    },
+    {
+      "name": "d1232",
+      "expression": "battery_side_panel__1_0512_makeCylinder_cylinder_depth",
+      "value": -0.5,
+      "owner": "0512 makeCylinder cylinder"
+    },
+    {
+      "name": "d1233",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "owner": "0512 makeCylinder cylinder"
+    },
+    {
+      "name": "d1235",
+      "expression": "battery_side_panel__1_0514_makeCylinder_offset",
+      "value": -9.600000000000001,
+      "owner": "0514 makeCylinder datum"
+    },
+    {
+      "name": "d1236",
+      "expression": "0.00 mm",
+      "value": 0.0,
+      "owner": "0514 makeCylinder datum"
+    },
+    {
+      "name": "d1237",
+      "expression": "battery_side_panel__1_0514_makeCylinder_diameter",
+      "value": 0.34,
+      "owner": "0514 makeCylinder profile"
+    },
+    {
+      "name": "d1240",
+      "expression": "battery_side_panel__1_0514_makeCylinder_cylinder_depth",
+      "value": -0.5,
+      "owner": "0514 makeCylinder cylinder"
+    },
+    {
+      "name": "d1241",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "owner": "0514 makeCylinder cylinder"
+    }
+  ]
+}

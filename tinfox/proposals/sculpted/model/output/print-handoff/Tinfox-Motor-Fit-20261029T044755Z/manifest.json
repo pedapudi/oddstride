@@ -1,0 +1,110 @@
+{
+  "source_model_sha256": "b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6",
+  "units": "mm",
+  "printer_envelope_mm": [
+    325,
+    320,
+    325
+  ],
+  "parts": [
+    {
+      "part": "01-thigh-case-gauge-80p50",
+      "role": "Diagnostic case-clearance gauge, not a robot component",
+      "bore_mm": 80.5,
+      "gauge_height_mm": 8,
+      "outer_diameter_mm": 90.8,
+      "source_dimension": "slim_limb.CASE_BORE_RADIUS"
+    },
+    {
+      "part": "02-hip-case-gauge-81p50",
+      "role": "Diagnostic case-clearance gauge, not a robot component",
+      "bore_mm": 81.5,
+      "gauge_height_mm": 8,
+      "outer_diameter_mm": 88.0,
+      "source_dimension": "paired_roll.PARAMETERS.carrier_motor_bore_mm"
+    },
+    {
+      "part": "03-knee-stator-plate",
+      "role": "Reusable current motor-complex part",
+      "source_part": "motor_mount_ring",
+      "source_stl_sha256": "ccb4cd74257fe165a55463073e3122531d2f88cf5c84e77202e1cea46939b435"
+    },
+    {
+      "part": "04-hip-stator-flange",
+      "role": "Reusable current motor-complex part",
+      "source_part": "hip_stator_closure_1",
+      "source_stl_sha256": "e0a47aae42ce813df72ee23cb7a5809f5362aa7f8ccd41d5f8ea2a0a931317e4"
+    },
+    {
+      "part": "05-hip-output-hub",
+      "role": "Reusable current motor-complex part",
+      "source_part": "hip_hub",
+      "source_stl_sha256": "4f872337a4adea040ac56e9ce884368265e6d39bc3b0673b2c0f84f76aa55411"
+    }
+  ],
+  "objects": 5,
+  "sliced": false,
+  "plate_bounds_mm": {
+    "01-thigh-case-gauge-80p50": [
+      [
+        10.0,
+        10.0,
+        0.0
+      ],
+      [
+        100.79882702770139,
+        110.6994355264408,
+        8.0
+      ]
+    ],
+    "02-hip-case-gauge-81p50": [
+      [
+        110.7988270277014,
+        10.0,
+        0.0
+      ],
+      [
+        198.79846229471207,
+        109.79990881665819,
+        8.0
+      ]
+    ],
+    "04-hip-stator-flange": [
+      [
+        208.79846229471207,
+        10.0,
+        0.0
+      ],
+      [
+        297.798447035923,
+        106.9981689453125,
+        3.1000001430511475
+      ]
+    ],
+    "03-knee-stator-plate": [
+      [
+        10.0,
+        120.6994355264408,
+        0.0
+      ],
+      [
+        94.34398651123047,
+        209.1916459146244,
+        4.5
+      ]
+    ],
+    "05-hip-output-hub": [
+      [
+        104.34398651123047,
+        120.6994355264408,
+        0.0
+      ],
+      [
+        191.33377838134766,
+        196.4494355264408,
+        9.5
+      ]
+    ]
+  },
+  "scope": "Unpowered RS02 radial case-clearance and mounting-interface fit checks; not a complete motor-complex release."
+}

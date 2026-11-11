@@ -1,0 +1,40 @@
+{
+  "saved_version": 20,
+  "working_modified": true,
+  "candidate_only": true,
+  "old_static_plate_unchanged": true,
+  "old_native_stand_interference_mm3": 14.876869389835047,
+  "exports": [
+    {
+      "part": "motor_mount_ring",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/knee-seated-native-motor_mount_ring.step",
+      "features": 10,
+      "sketches": 6,
+      "faces": 39,
+      "cones": 9,
+      "volume_mm3": 8001.418283825594
+    },
+    {
+      "part": "motor_mount_ring_right",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/knee-seated-native-motor_mount_ring_right.step",
+      "features": 3,
+      "sketches": 0,
+      "faces": 39,
+      "cones": 9,
+      "volume_mm3": 8001.418283825602
+    }
+  ],
+  "elapsed_seconds": 174.0258214159985,
+  "hardware_override": {
+    "item": "Knee stator to plate",
+    "specification": "M3 x 8 DIN7991, 90 degree head, nominal 5.9 mm head diameter",
+    "quantity": 9,
+    "head_top_y_mm": 53.5,
+    "seat_bottom_y_mm": 52.25,
+    "tip_y_mm": 45.5,
+    "nominal_motor_penetration_mm": 4.9,
+    "lower_plate_web_mm": 1.75,
+    "minimum_edge_land_mm": 1.05,
+    "status": "Native candidate. Exact export seating and crank sweeps pending; polymer preload and operating strength unqualified."
+  }
+}

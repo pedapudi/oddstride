@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "source_model_sha256": "f1f1c97f613eb1516102e39bb675f14b8ea0904ef8a361ddbbb0b48b0ed1a09c",
+  "qualified_source_body_sha256": "729b1d80c0597fde72c9e7db1d2b6d7d6890a0bda5a4f44e8aca6490b933bc9c",
+  "checks": [
+    {
+      "part": "chassis_beam_-102",
+      "source_step": "snapshots/body-revisions/729b1d80c0597fde72c9e7db1d2b6d7d6890a0bda5a4f44e8aca6490b933bc9c/step/chassis_beam_-102.step",
+      "source_step_sha256": "68aa7e0f6500dc5709b2526ee2b3f77d5a389e9e3ff9c14bce8fb2941e10eeaf",
+      "current_mesh_sha256": "2d9e7aa7da7482e709fc91dd70a424ab554ee4a4ab89fb2537b372cda3f16a74",
+      "exact_source_comparison": {
+        "bounds_error_mm": 0.00019846425780656318,
+        "all_mesh_vertices_boundary_error_mm": 8.169587688764372e-06,
+        "vertices_checked": 38778,
+        "valid_solid_count": 1
+      },
+      "qualified_native_audit": "audits/cohesive-body-left-rail-geometry.json",
+      "qualified_native_audit_sha256": "b568db808ae138013488db6aca7bd8de758bd753fff1186f2881e61abbd944fa",
+      "qualified_native_step_sha256": "a29d0ac915aa1316301d2b0241679ee3c269dcedd058512203564ddf68a24757"
+    },
+    {
+      "part": "chassis_beam_102",
+      "source_step": "snapshots/body-revisions/729b1d80c0597fde72c9e7db1d2b6d7d6890a0bda5a4f44e8aca6490b933bc9c/step/chassis_beam_102.step",
+      "source_step_sha256": "c8e3fb4512dffc8a108851367e2f6da9552ec2b5913b00073fbd552c98ce2fe7",
+      "current_mesh_sha256": "1df5bb3393ee220a5d6e4068774a9fcd1506e6a3ec2448c660fe5e0c821ec585",
+      "exact_source_comparison": {
+        "bounds_error_mm": 0.00019846425780656318,
+        "all_mesh_vertices_boundary_error_mm": 8.169587688764372e-06,
+        "vertices_checked": 39065,
+        "valid_solid_count": 1
+      },
+      "qualified_native_audit": "audits/cohesive-body-right-rail-geometry.json",
+      "qualified_native_audit_sha256": "f9c718ce641d8730b6f57e4358b0d84adf2d924e361f47dd44590776a23589a1",
+      "qualified_native_step_sha256": "e8f833af9af134156102f3f40b10b29ea55be863488625054e257fa6560e2674"
+    }
+  ],
+  "preserved_strict_native_diagnostic": "audits/current-rail-native-vertex-strict-diagnostic.json",
+  "scope": "Current rail tessellations bind to the exact source STEP files used by the retained native geometry audits. This supports reuse of those unchanged native geometry/interface/parameter results; assembly placement and physical qualification remain separate."
+}

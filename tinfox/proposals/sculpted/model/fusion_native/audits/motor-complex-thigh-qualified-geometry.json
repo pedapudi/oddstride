@@ -1,0 +1,17 @@
+{
+  "part": "thigh_outer",
+  "source_sha256": "5371a23c585301b15cc4a8a1a991a10e513a9479e20a572b150ba1b0a584683e",
+  "native_step_sha256": "bd72171a1c4826480f1d4afac933152f4454a979e1c19662c7b8928d60209421",
+  "surface_gate_passed": true,
+  "volume_gate_passed": true,
+  "cylinder_gate_passed": true,
+  "area_gate_passed": true,
+  "section_gate_passed": true,
+  "evidence": [
+    "audits/motor-complex-native-thigh_outer-geometry.json",
+    "audits/motor-complex-thigh-area-convergence.json",
+    "audits/motor-complex-thigh-temporary-native-section-comparison.json"
+  ],
+  "scope": "Exact revised outer-thigh source comparison; native assembly, edits and saved-state promotion are separate. Original unstable area and STEP section diagnostics preserved.",
+  "passed": true
+}

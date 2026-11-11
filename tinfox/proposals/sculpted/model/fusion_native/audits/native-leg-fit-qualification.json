@@ -1,0 +1,847 @@
+{
+  "passed": true,
+  "saved": false,
+  "cases": [
+    {
+      "case": "Bearing seat allowance",
+      "edits": {
+        "fit_bearing_seat_diametral_allowance": "0.1 mm"
+      },
+      "geometry_checks": {
+        "bearing_checks": [
+          {
+            "part": "shin_inner",
+            "finished_seat_diameter_mm": 28.1,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer",
+            "finished_seat_diameter_mm": 28.1,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_inner_right",
+            "finished_seat_diameter_mm": 28.1,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer_right",
+            "finished_seat_diameter_mm": 28.1,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          }
+        ],
+        "seams": [
+          {
+            "part": "shin_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "thigh_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          }
+        ],
+        "fork_gap_mm": 8.4,
+        "fork_total_nominal_side_clearance_mm": 0.39999999999999947,
+        "fixed_rod_center_mm": 70.0,
+        "spacer_length_mm": 16.000000000000007,
+        "shell_pin_bore_diameter_mm": 6.100000000000001,
+        "crank_pin_bore_diameter_mm": 6.100000000000001,
+        "carrier_motor_case_diameter_mm": 83.0
+      },
+      "passed": true,
+      "seconds": 11.543033333000494
+    },
+    {
+      "case": "Printed shell compensation only",
+      "edits": {
+        "fit_print_hole_compensation": "0.1 mm"
+      },
+      "geometry_checks": {
+        "bearing_checks": [
+          {
+            "part": "shin_inner",
+            "finished_seat_diameter_mm": 28.1,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer",
+            "finished_seat_diameter_mm": 28.1,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_inner_right",
+            "finished_seat_diameter_mm": 28.1,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer_right",
+            "finished_seat_diameter_mm": 28.1,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          }
+        ],
+        "seams": [
+          {
+            "part": "shin_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "thigh_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          }
+        ],
+        "fork_gap_mm": 8.4,
+        "fork_total_nominal_side_clearance_mm": 0.39999999999999947,
+        "fixed_rod_center_mm": 70.0,
+        "spacer_length_mm": 16.000000000000007,
+        "shell_pin_bore_diameter_mm": 6.200000000000001,
+        "crank_pin_bore_diameter_mm": 6.100000000000001,
+        "carrier_motor_case_diameter_mm": 83.0
+      },
+      "passed": true,
+      "seconds": 16.53942954199738
+    },
+    {
+      "case": "CNC part compensation only",
+      "edits": {
+        "fit_cnc_hole_compensation": "0.04 mm"
+      },
+      "geometry_checks": {
+        "bearing_checks": [
+          {
+            "part": "shin_inner",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_inner_right",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer_right",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          }
+        ],
+        "seams": [
+          {
+            "part": "shin_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "thigh_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          }
+        ],
+        "fork_gap_mm": 8.4,
+        "fork_total_nominal_side_clearance_mm": 0.39999999999999947,
+        "fixed_rod_center_mm": 70.0,
+        "spacer_length_mm": 16.000000000000007,
+        "shell_pin_bore_diameter_mm": 6.100000000000001,
+        "crank_pin_bore_diameter_mm": 6.140000000000001,
+        "carrier_motor_case_diameter_mm": 83.04
+      },
+      "passed": true,
+      "seconds": 20.07114625000395
+    },
+    {
+      "case": "Select CNC shells",
+      "edits": {
+        "fit_print_hole_compensation": "0.1 mm",
+        "fit_cnc_hole_compensation": "0.04 mm",
+        "fit_process_cnc": "1"
+      },
+      "geometry_checks": {
+        "bearing_checks": [
+          {
+            "part": "shin_inner",
+            "finished_seat_diameter_mm": 28.040000000000003,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer",
+            "finished_seat_diameter_mm": 28.040000000000003,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_inner_right",
+            "finished_seat_diameter_mm": 28.040000000000003,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer_right",
+            "finished_seat_diameter_mm": 28.040000000000003,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          }
+        ],
+        "seams": [
+          {
+            "part": "shin_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "thigh_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          }
+        ],
+        "fork_gap_mm": 8.4,
+        "fork_total_nominal_side_clearance_mm": 0.39999999999999947,
+        "fixed_rod_center_mm": 70.0,
+        "spacer_length_mm": 16.000000000000007,
+        "shell_pin_bore_diameter_mm": 6.140000000000001,
+        "crank_pin_bore_diameter_mm": 6.140000000000001,
+        "carrier_motor_case_diameter_mm": 83.04
+      },
+      "passed": true,
+      "seconds": 18.259845082997344
+    },
+    {
+      "case": "Tight fork exercise",
+      "edits": {
+        "fit_fork_total_side_clearance": "0.2 mm"
+      },
+      "geometry_checks": {
+        "bearing_checks": [
+          {
+            "part": "shin_inner",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_inner_right",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer_right",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          }
+        ],
+        "seams": [
+          {
+            "part": "shin_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "thigh_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          }
+        ],
+        "fork_gap_mm": 8.200000000000001,
+        "fork_total_nominal_side_clearance_mm": 0.20000000000000018,
+        "fixed_rod_center_mm": 70.0,
+        "spacer_length_mm": 16.000000000000007,
+        "shell_pin_bore_diameter_mm": 6.100000000000001,
+        "crank_pin_bore_diameter_mm": 6.100000000000001,
+        "carrier_motor_case_diameter_mm": 83.0
+      },
+      "passed": true,
+      "seconds": 25.92441995901754
+    },
+    {
+      "case": "Loose fork exercise",
+      "edits": {
+        "fit_fork_total_side_clearance": "0.6 mm"
+      },
+      "geometry_checks": {
+        "bearing_checks": [
+          {
+            "part": "shin_inner",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_inner_right",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer_right",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          }
+        ],
+        "seams": [
+          {
+            "part": "shin_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "thigh_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          }
+        ],
+        "fork_gap_mm": 8.600000000000001,
+        "fork_total_nominal_side_clearance_mm": 0.6000000000000005,
+        "fixed_rod_center_mm": 70.0,
+        "spacer_length_mm": 16.000000000000007,
+        "shell_pin_bore_diameter_mm": 6.100000000000001,
+        "crank_pin_bore_diameter_mm": 6.100000000000001,
+        "carrier_motor_case_diameter_mm": 83.0
+      },
+      "passed": true,
+      "seconds": 11.887031167017994
+    },
+    {
+      "case": "Relieve both seam faces",
+      "edits": {
+        "fit_shell_total_seam_gap": "0.2 mm"
+      },
+      "geometry_checks": {
+        "bearing_checks": [
+          {
+            "part": "shin_inner",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_inner_right",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer_right",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          }
+        ],
+        "seams": [
+          {
+            "part": "shin_inner",
+            "mating_face_y_mm": 66.90000000000002,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer",
+            "mating_face_y_mm": 67.10000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_inner_right",
+            "mating_face_y_mm": -66.90000000000002,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer_right",
+            "mating_face_y_mm": -67.10000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "thigh_inner",
+            "mating_face_y_mm": 66.90000000000002,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer",
+            "mating_face_y_mm": 67.10000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_inner_right",
+            "mating_face_y_mm": -66.90000000000002,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer_right",
+            "mating_face_y_mm": -67.10000000000001,
+            "planar_faces_verified": 2
+          }
+        ],
+        "fork_gap_mm": 8.4,
+        "fork_total_nominal_side_clearance_mm": 0.39999999999999947,
+        "fixed_rod_center_mm": 70.0,
+        "spacer_length_mm": 16.000000000000007,
+        "shell_pin_bore_diameter_mm": 6.100000000000001,
+        "crank_pin_bore_diameter_mm": 6.100000000000001,
+        "carrier_motor_case_diameter_mm": 83.0
+      },
+      "passed": true,
+      "seconds": 14.564574166986858
+    },
+    {
+      "case": "Axial spacer adjustment",
+      "edits": {
+        "fit_spacer_length_adjustment": "0.1 mm"
+      },
+      "geometry_checks": {
+        "bearing_checks": [
+          {
+            "part": "shin_inner",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_inner_right",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          },
+          {
+            "part": "shin_outer_right",
+            "finished_seat_diameter_mm": 28.000000000000004,
+            "seat_bracket_pass": true,
+            "axial_land_witness_pass": true
+          }
+        ],
+        "seams": [
+          {
+            "part": "shin_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "shin_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 1
+          },
+          {
+            "part": "thigh_inner",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer",
+            "mating_face_y_mm": 67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_inner_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          },
+          {
+            "part": "thigh_outer_right",
+            "mating_face_y_mm": -67.00000000000001,
+            "planar_faces_verified": 2
+          }
+        ],
+        "fork_gap_mm": 8.4,
+        "fork_total_nominal_side_clearance_mm": 0.39999999999999947,
+        "fixed_rod_center_mm": 70.0,
+        "spacer_length_mm": 16.1,
+        "shell_pin_bore_diameter_mm": 6.100000000000001,
+        "crank_pin_bore_diameter_mm": 6.100000000000001,
+        "carrier_motor_case_diameter_mm": 83.0
+      },
+      "passed": true,
+      "seconds": 12.924164832977112
+    }
+  ],
+  "baseline": {
+    "bearing_checks": [
+      {
+        "part": "shin_inner",
+        "finished_seat_diameter_mm": 28.000000000000004,
+        "seat_bracket_pass": true,
+        "axial_land_witness_pass": true
+      },
+      {
+        "part": "shin_outer",
+        "finished_seat_diameter_mm": 28.000000000000004,
+        "seat_bracket_pass": true,
+        "axial_land_witness_pass": true
+      },
+      {
+        "part": "shin_inner_right",
+        "finished_seat_diameter_mm": 28.000000000000004,
+        "seat_bracket_pass": true,
+        "axial_land_witness_pass": true
+      },
+      {
+        "part": "shin_outer_right",
+        "finished_seat_diameter_mm": 28.000000000000004,
+        "seat_bracket_pass": true,
+        "axial_land_witness_pass": true
+      }
+    ],
+    "seams": [
+      {
+        "part": "shin_inner",
+        "mating_face_y_mm": 67.00000000000001,
+        "planar_faces_verified": 1
+      },
+      {
+        "part": "shin_outer",
+        "mating_face_y_mm": 67.00000000000001,
+        "planar_faces_verified": 1
+      },
+      {
+        "part": "shin_inner_right",
+        "mating_face_y_mm": -67.00000000000001,
+        "planar_faces_verified": 1
+      },
+      {
+        "part": "shin_outer_right",
+        "mating_face_y_mm": -67.00000000000001,
+        "planar_faces_verified": 1
+      },
+      {
+        "part": "thigh_inner",
+        "mating_face_y_mm": 67.00000000000001,
+        "planar_faces_verified": 2
+      },
+      {
+        "part": "thigh_outer",
+        "mating_face_y_mm": 67.00000000000001,
+        "planar_faces_verified": 2
+      },
+      {
+        "part": "thigh_inner_right",
+        "mating_face_y_mm": -67.00000000000001,
+        "planar_faces_verified": 2
+      },
+      {
+        "part": "thigh_outer_right",
+        "mating_face_y_mm": -67.00000000000001,
+        "planar_faces_verified": 2
+      }
+    ],
+    "fork_gap_mm": 8.4,
+    "fork_total_nominal_side_clearance_mm": 0.39999999999999947,
+    "fixed_rod_center_mm": 70.0,
+    "spacer_length_mm": 16.000000000000007,
+    "shell_pin_bore_diameter_mm": 6.100000000000001,
+    "crank_pin_bore_diameter_mm": 6.100000000000001,
+    "carrier_motor_case_diameter_mm": 83.0
+  },
+  "restored": {
+    "bearing_checks": [
+      {
+        "part": "shin_inner",
+        "finished_seat_diameter_mm": 28.000000000000004,
+        "seat_bracket_pass": true,
+        "axial_land_witness_pass": true
+      },
+      {
+        "part": "shin_outer",
+        "finished_seat_diameter_mm": 28.000000000000004,
+        "seat_bracket_pass": true,
+        "axial_land_witness_pass": true
+      },
+      {
+        "part": "shin_inner_right",
+        "finished_seat_diameter_mm": 28.000000000000004,
+        "seat_bracket_pass": true,
+        "axial_land_witness_pass": true
+      },
+      {
+        "part": "shin_outer_right",
+        "finished_seat_diameter_mm": 28.000000000000004,
+        "seat_bracket_pass": true,
+        "axial_land_witness_pass": true
+      }
+    ],
+    "seams": [
+      {
+        "part": "shin_inner",
+        "mating_face_y_mm": 67.00000000000001,
+        "planar_faces_verified": 1
+      },
+      {
+        "part": "shin_outer",
+        "mating_face_y_mm": 67.00000000000001,
+        "planar_faces_verified": 1
+      },
+      {
+        "part": "shin_inner_right",
+        "mating_face_y_mm": -67.00000000000001,
+        "planar_faces_verified": 1
+      },
+      {
+        "part": "shin_outer_right",
+        "mating_face_y_mm": -67.00000000000001,
+        "planar_faces_verified": 1
+      },
+      {
+        "part": "thigh_inner",
+        "mating_face_y_mm": 67.00000000000001,
+        "planar_faces_verified": 2
+      },
+      {
+        "part": "thigh_outer",
+        "mating_face_y_mm": 67.00000000000001,
+        "planar_faces_verified": 2
+      },
+      {
+        "part": "thigh_inner_right",
+        "mating_face_y_mm": -67.00000000000001,
+        "planar_faces_verified": 2
+      },
+      {
+        "part": "thigh_outer_right",
+        "mating_face_y_mm": -67.00000000000001,
+        "planar_faces_verified": 2
+      }
+    ],
+    "fork_gap_mm": 8.4,
+    "fork_total_nominal_side_clearance_mm": 0.39999999999999947,
+    "fixed_rod_center_mm": 70.0,
+    "spacer_length_mm": 16.000000000000007,
+    "shell_pin_bore_diameter_mm": 6.100000000000001,
+    "crank_pin_bore_diameter_mm": 6.100000000000001,
+    "carrier_motor_case_diameter_mm": 83.0
+  },
+  "baseline_geometry_restored": true,
+  "maximum_restored_bound_error_cm": 0.0,
+  "elapsed_seconds": 145.5333670419932,
+  "physical_fit_qualified": false,
+  "scope": "Deterministic CAD edit exercises and complete seat/land witnesses. Manufacturing variation is not yet measured; these are not production fit profiles or loaded strength tests."
+}

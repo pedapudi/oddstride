@@ -1,0 +1,54 @@
+{
+  "part": "thigh_outer",
+  "diagnostic_passed": false,
+  "first_mismatch": {
+    "node": 2049,
+    "operation": "profileCut",
+    "expected_volume_mm3": 306407.2544694741,
+    "native_volume_mm3": 310024.3206365455,
+    "relative_error": 0.011804766742008567,
+    "native_bodies": 1
+  },
+  "elapsed_seconds": 1.6473390000010113,
+  "trace": [
+    {
+      "node": 2041,
+      "operation": "extrudeLinear",
+      "expected_volume_mm3": 313004.1362775718,
+      "native_volume_mm3": 313011.41121807473,
+      "relative_error": 2.324231426927488e-05,
+      "native_bodies": 1
+    },
+    {
+      "node": 2045,
+      "operation": "fillet",
+      "expected_volume_mm3": 310015.5457779877,
+      "native_volume_mm3": 310024.3206365455,
+      "relative_error": 2.8304575939161907e-05,
+      "native_bodies": 1
+    },
+    {
+      "node": 2049,
+      "operation": "profileCut",
+      "expected_volume_mm3": 306407.2544694741,
+      "native_volume_mm3": 310024.3206365455,
+      "relative_error": 0.011804766742008567,
+      "native_bodies": 1
+    }
+  ],
+  "slowest_native_features": [
+    {
+      "feature": "2041 extrudeLinear extrusion",
+      "seconds_since_previous_feature": 0.7973899169992364
+    },
+    {
+      "feature": "2049 profileCut direct roof cut",
+      "seconds_since_previous_feature": 0.5528183750011522
+    },
+    {
+      "feature": "2045 fillet edge rounds",
+      "seconds_since_previous_feature": 0.26710375000038766
+    }
+  ],
+  "scope": "Isolated diagnostic only; no part was added to the native master."
+}

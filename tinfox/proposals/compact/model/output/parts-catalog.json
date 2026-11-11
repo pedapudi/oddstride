@@ -1,0 +1,2546 @@
+{
+  "model_sha256": "26dc3e75cbdbc009a4c43802ad7746045052365b9068d46fa1c1d88d5b37584a",
+  "units": "mm",
+  "status": "Nominal engineering CAD; not a release for manufacture. STEP retains solids without a native feature timeline. Local assembly coordinates are preserved.",
+  "parts": [
+    {
+      "id": "roll_cartridge_1",
+      "title": "Fixed roll-motor and bearing mount",
+      "category": "Mounts",
+      "role": "Bolts the roll stator to the chassis and houses the roll bearing.",
+      "interfaces": "Nine \u00d83.4 mm stator holes on a 73 mm pitch circle; 66.2 mm nominal bearing bore.",
+      "manufacturing": "Machined aluminum; bearing retention, screw engagement and fits need review.",
+      "variant": "front left",
+      "quantity": 1,
+      "instances": [
+        "FL_roll_cartridge"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "mass_kg": 0.045979,
+      "step": "step-parts/roll_cartridge_1.step",
+      "step_sha256": "6b50269407b26213c4e34956350be605962653a946615b95cca3e4b23dbee86f",
+      "stl": "stl/roll_cartridge_1.stl",
+      "print_stl": null
+    },
+    {
+      "id": "roll_cartridge_1_right",
+      "title": "Fixed roll-motor and bearing mount",
+      "category": "Mounts",
+      "role": "Bolts the roll stator to the chassis and houses the roll bearing.",
+      "interfaces": "Nine \u00d83.4 mm stator holes on a 73 mm pitch circle; 66.2 mm nominal bearing bore.",
+      "manufacturing": "Machined aluminum; bearing retention, screw engagement and fits need review.",
+      "variant": "front right",
+      "quantity": 1,
+      "instances": [
+        "FR_roll_cartridge"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "mass_kg": 0.045979,
+      "step": "step-parts/roll_cartridge_1_right.step",
+      "step_sha256": "ccd3158bbc850a5e18eac833f163f676412090afaa6c57df42ba7a84c585ea16",
+      "stl": "stl/roll_cartridge_1_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "roll_cartridge_-1",
+      "title": "Fixed roll-motor and bearing mount",
+      "category": "Mounts",
+      "role": "Bolts the roll stator to the chassis and houses the roll bearing.",
+      "interfaces": "Nine \u00d83.4 mm stator holes on a 73 mm pitch circle; 66.2 mm nominal bearing bore.",
+      "manufacturing": "Machined aluminum; bearing retention, screw engagement and fits need review.",
+      "variant": "rear left",
+      "quantity": 1,
+      "instances": [
+        "RL_roll_cartridge"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "mass_kg": 0.045979,
+      "step": "step-parts/roll_cartridge_-1.step",
+      "step_sha256": "634098278d274e3833a68fafa63fcf18405e705dd8804e7262e4cda9cf79f106",
+      "stl": "stl/roll_cartridge_-1.stl",
+      "print_stl": null
+    },
+    {
+      "id": "roll_cartridge_-1_right",
+      "title": "Fixed roll-motor and bearing mount",
+      "category": "Mounts",
+      "role": "Bolts the roll stator to the chassis and houses the roll bearing.",
+      "interfaces": "Nine \u00d83.4 mm stator holes on a 73 mm pitch circle; 66.2 mm nominal bearing bore.",
+      "manufacturing": "Machined aluminum; bearing retention, screw engagement and fits need review.",
+      "variant": "rear right",
+      "quantity": 1,
+      "instances": [
+        "RR_roll_cartridge"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        17.39687064157969,
+        82.00000020000002,
+        82.08256874361221
+      ],
+      "mass_kg": 0.045979,
+      "step": "step-parts/roll_cartridge_-1_right.step",
+      "step_sha256": "58a848cf3f8d589444559f4bb4451cb52a37338d15cc52ede89c7cd6b7edc969",
+      "stl": "stl/roll_cartridge_-1_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "hip_hub",
+      "title": "Hip-output coupling",
+      "category": "Mounts",
+      "role": "Connects the hip output to the proximal knee-motor support ties.",
+      "interfaces": "Six \u00d84.4 mm output holes on a 24 mm pitch circle; three tie positions at 43.5 mm radius.",
+      "manufacturing": "Machined aluminum; select screws and confirm output pilot clearance.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_hip_hub",
+        "RL_hip_hub"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        96.00000020000003,
+        8.068471675190619,
+        96.09666581203382
+      ],
+      "mass_kg": 0.062676,
+      "step": "step-parts/hip_hub.step",
+      "step_sha256": "d577d79ae5db014444e933038a1f27e0e5578ead65292869419b0b41ef7a0bf7",
+      "stl": "stl/hip_hub.stl",
+      "print_stl": null
+    },
+    {
+      "id": "hip_hub_right",
+      "title": "Hip-output coupling",
+      "category": "Mounts",
+      "role": "Connects the hip output to the proximal knee-motor support ties.",
+      "interfaces": "Six \u00d84.4 mm output holes on a 24 mm pitch circle; three tie positions at 43.5 mm radius.",
+      "manufacturing": "Machined aluminum; select screws and confirm output pilot clearance.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_hip_hub",
+        "RR_hip_hub"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        96.00000020000003,
+        8.068471675190619,
+        96.09666581203382
+      ],
+      "mass_kg": 0.062676,
+      "step": "step-parts/hip_hub_right.step",
+      "step_sha256": "ccb26f2a03d392e63758630d27a59b1b3ec835a1c90f051f276a07225c842dbb",
+      "stl": "stl/hip_hub_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "motor_mount_ring",
+      "title": "Knee-motor stator plate",
+      "category": "Mounts",
+      "role": "Spreads knee-stator loads into the metal ties and the integrated thigh cradle.",
+      "interfaces": "Nine \u00d83.4 mm stator holes on a 73 mm pitch circle; three tie positions at 43.5 mm radius.",
+      "manufacturing": "3 mm aluminum plate; finish holes and verify motor-face contact.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_motor_mount_ring",
+        "RL_motor_mount_ring"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        96.00000020000003,
+        3.0966658120338195,
+        96.09666581203382
+      ],
+      "mass_kg": 0.034845,
+      "step": "step-parts/motor_mount_ring.step",
+      "step_sha256": "6c1bc386f385f2e174bb6225683740ec10116b5c3eef0ba45ac2758e81dc225c",
+      "stl": "stl/motor_mount_ring.stl",
+      "print_stl": null
+    },
+    {
+      "id": "motor_mount_ring_right",
+      "title": "Knee-motor stator plate",
+      "category": "Mounts",
+      "role": "Spreads knee-stator loads into the metal ties and the integrated thigh cradle.",
+      "interfaces": "Nine \u00d83.4 mm stator holes on a 73 mm pitch circle; three tie positions at 43.5 mm radius.",
+      "manufacturing": "3 mm aluminum plate; finish holes and verify motor-face contact.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_motor_mount_ring",
+        "RR_motor_mount_ring"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        96.00000020000003,
+        3.0966658120338195,
+        96.09666581203382
+      ],
+      "mass_kg": 0.034845,
+      "step": "step-parts/motor_mount_ring_right.step",
+      "step_sha256": "6f0b34e540e3203b22ce82415fb65d2bbbab7faa4f8578260a5378866a1bda96",
+      "stl": "stl/motor_mount_ring_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "knee_drive_adapter",
+      "title": "Knee-output spacer adapter",
+      "category": "Mounts",
+      "role": "Connects the knee actuator output to the input crank.",
+      "interfaces": "Six \u00d84.4 mm output holes on a 24 mm pitch circle.",
+      "manufacturing": "Machined aluminum; verify pilot, screw lengths and axial stack.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_knee_drive_adapter",
+        "RL_knee_drive_adapter"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        36.00000020000001,
+        6.626180469925828,
+        36.03624980451268
+      ],
+      "mass_kg": 0.011979,
+      "step": "step-parts/knee_drive_adapter.step",
+      "step_sha256": "d6e9ac6a8653b5231c854aabb92ac0eeacbfe834ea918de34ff86704dc1e2e69",
+      "stl": "stl/knee_drive_adapter.stl",
+      "print_stl": null
+    },
+    {
+      "id": "knee_drive_adapter_right",
+      "title": "Knee-output spacer adapter",
+      "category": "Mounts",
+      "role": "Connects the knee actuator output to the input crank.",
+      "interfaces": "Six \u00d84.4 mm output holes on a 24 mm pitch circle.",
+      "manufacturing": "Machined aluminum; verify pilot, screw lengths and axial stack.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_knee_drive_adapter",
+        "RR_knee_drive_adapter"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        36.00000020000001,
+        6.626180469925828,
+        36.03624980451268
+      ],
+      "mass_kg": 0.011979,
+      "step": "step-parts/knee_drive_adapter_right.step",
+      "step_sha256": "5b7d8522900fba71eb21965a5dddd5fbfbe281a77648884e73b033ab403566e6",
+      "stl": "stl/knee_drive_adapter_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "motor_carrier_1",
+      "title": "Roll-output / hip-motor carrier",
+      "category": "Mounts",
+      "role": "Carries the hip-pitch stator on the roll actuator output.",
+      "interfaces": "Perpendicular motor axes; six \u00d84.4 mm roll-output holes on a 24 mm pitch circle and nine \u00d83.4 mm hip-stator holes on a 73 mm pitch circle.",
+      "manufacturing": "Machined aluminum; check tool access, bearing journal tolerance and motor datums.",
+      "variant": "front left",
+      "quantity": 1,
+      "instances": [
+        "FL_motor_carrier"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        111.33458265308748,
+        58.02843648174449,
+        88.07821159450467
+      ],
+      "mass_kg": 0.139536,
+      "step": "step-parts/motor_carrier_1.step",
+      "step_sha256": "23b62ac016a594e0042b848d9c100bb06d2be5e2f935edfad9d546aaca2325d6",
+      "stl": "stl/motor_carrier_1.stl",
+      "print_stl": null
+    },
+    {
+      "id": "motor_carrier_1_right",
+      "title": "Roll-output / hip-motor carrier",
+      "category": "Mounts",
+      "role": "Carries the hip-pitch stator on the roll actuator output.",
+      "interfaces": "Perpendicular motor axes; six \u00d84.4 mm roll-output holes on a 24 mm pitch circle and nine \u00d83.4 mm hip-stator holes on a 73 mm pitch circle.",
+      "manufacturing": "Machined aluminum; check tool access, bearing journal tolerance and motor datums.",
+      "variant": "front right",
+      "quantity": 1,
+      "instances": [
+        "FR_motor_carrier"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        111.33458265308748,
+        58.02843648174449,
+        88.07821159450467
+      ],
+      "mass_kg": 0.139536,
+      "step": "step-parts/motor_carrier_1_right.step",
+      "step_sha256": "bd79d823f9968f32e22469d3c751bac027fb3c9268b9ab6534e9d6f001354fb9",
+      "stl": "stl/motor_carrier_1_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "motor_carrier_-1",
+      "title": "Roll-output / hip-motor carrier",
+      "category": "Mounts",
+      "role": "Carries the hip-pitch stator on the roll actuator output.",
+      "interfaces": "Perpendicular motor axes; six \u00d84.4 mm roll-output holes on a 24 mm pitch circle and nine \u00d83.4 mm hip-stator holes on a 73 mm pitch circle.",
+      "manufacturing": "Machined aluminum; check tool access, bearing journal tolerance and motor datums.",
+      "variant": "rear left",
+      "quantity": 1,
+      "instances": [
+        "RL_motor_carrier"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        111.33458265309002,
+        58.02843648174449,
+        88.07821159450467
+      ],
+      "mass_kg": 0.139536,
+      "step": "step-parts/motor_carrier_-1.step",
+      "step_sha256": "fcc224e83598158bbc9c742301e6ebb61225a3b326f353c525533dbb4100c714",
+      "stl": "stl/motor_carrier_-1.stl",
+      "print_stl": null
+    },
+    {
+      "id": "motor_carrier_-1_right",
+      "title": "Roll-output / hip-motor carrier",
+      "category": "Mounts",
+      "role": "Carries the hip-pitch stator on the roll actuator output.",
+      "interfaces": "Perpendicular motor axes; six \u00d84.4 mm roll-output holes on a 24 mm pitch circle and nine \u00d83.4 mm hip-stator holes on a 73 mm pitch circle.",
+      "manufacturing": "Machined aluminum; check tool access, bearing journal tolerance and motor datums.",
+      "variant": "rear right",
+      "quantity": 1,
+      "instances": [
+        "RR_motor_carrier"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        111.33458265309002,
+        58.02843648174449,
+        88.07821159450467
+      ],
+      "mass_kg": 0.139536,
+      "step": "step-parts/motor_carrier_-1_right.step",
+      "step_sha256": "554c815884cc7a84ea2bc9c5c52134bf697e0aa3d3189ea1dfd5b2cc92c21f0c",
+      "stl": "stl/motor_carrier_-1_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "hip_index",
+      "title": "Hip index",
+      "category": "Limbs",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_hip_index",
+        "RL_hip_index"
+      ],
+      "material": "petg",
+      "color": "#f66c27",
+      "bounds_mm": [
+        2.002020357750297,
+        0.5020203577502969,
+        8.002020357750297
+      ],
+      "mass_kg": 1e-05,
+      "step": "step-parts/hip_index.step",
+      "step_sha256": "35033c04d2b74860a881f00d223ea260369aa3a9cb77ed67d3aab2297dac4f32",
+      "stl": "stl/hip_index.stl",
+      "print_stl": "print-stl/hip_index.stl"
+    },
+    {
+      "id": "hip_index_right",
+      "title": "Hip index",
+      "category": "Limbs",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_hip_index",
+        "RR_hip_index"
+      ],
+      "material": "petg",
+      "color": "#f66c27",
+      "bounds_mm": [
+        2.002020357750297,
+        0.5020203577502969,
+        8.002020357750297
+      ],
+      "mass_kg": 1e-05,
+      "step": "step-parts/hip_index_right.step",
+      "step_sha256": "8d7805281735d586a35f1a613fdc98b3e96f606819057fa8d23d3dd55861bc35",
+      "stl": "stl/hip_index_right.stl",
+      "print_stl": "print-stl/hip_index_right.stl"
+    },
+    {
+      "id": "shin_inner",
+      "title": "Inner structural shin",
+      "category": "Limbs",
+      "role": "Supports the knee-bearing carrier and joins the foot end.",
+      "interfaces": "6001-size bearing housed in a separate metal carrier.",
+      "manufacturing": "PETG prototype; use both halves and qualify the printed load path.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_shin_inner",
+        "RL_shin_inner"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        44.041798369615066,
+        16.91601359825909,
+        181.52132337630127
+      ],
+      "mass_kg": 0.041119,
+      "step": "step-parts/shin_inner.step",
+      "step_sha256": "423fcfec3b09fadd25613e0044135e5eeac6c970572777ea2e9f7b1724206f72",
+      "stl": "stl/shin_inner.stl",
+      "print_stl": "print-stl/shin_inner.stl"
+    },
+    {
+      "id": "shin_inner_right",
+      "title": "Inner structural shin",
+      "category": "Limbs",
+      "role": "Supports the knee-bearing carrier and joins the foot end.",
+      "interfaces": "6001-size bearing housed in a separate metal carrier.",
+      "manufacturing": "PETG prototype; use both halves and qualify the printed load path.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_shin_inner",
+        "RR_shin_inner"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        44.041798369615066,
+        16.91601359825909,
+        181.52132337630127
+      ],
+      "mass_kg": 0.041119,
+      "step": "step-parts/shin_inner_right.step",
+      "step_sha256": "127fda3c118efef8dba605da487177b580e4bc99644ca5cfa9ac41e2ab2a4f2f",
+      "stl": "stl/shin_inner_right.stl",
+      "print_stl": "print-stl/shin_inner_right.stl"
+    },
+    {
+      "id": "thigh_inner",
+      "title": "Integrated motor cradle / inner thigh",
+      "category": "Limbs",
+      "role": "Combines the recessed knee-motor housing and inner structural thigh half.",
+      "interfaces": "170 mm hip-to-knee spacing; metal stator plate and compression sleeves distribute motor loads.",
+      "manufacturing": "PETG prototype; joint fits and printed strength remain unqualified.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_thigh_inner",
+        "RL_thigh_inner"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        98.41275196283217,
+        58.99894180844802,
+        238.21854580538837
+      ],
+      "mass_kg": 0.128857,
+      "step": "step-parts/thigh_inner.step",
+      "step_sha256": "505b99a4fe5082546e0394cc129c33cd80119f64449ccfca9421a159bb51fa49",
+      "stl": "stl/thigh_inner.stl",
+      "print_stl": "print-stl/thigh_inner.stl"
+    },
+    {
+      "id": "thigh_inner_right",
+      "title": "Integrated motor cradle / inner thigh",
+      "category": "Limbs",
+      "role": "Combines the recessed knee-motor housing and inner structural thigh half.",
+      "interfaces": "170 mm hip-to-knee spacing; metal stator plate and compression sleeves distribute motor loads.",
+      "manufacturing": "PETG prototype; joint fits and printed strength remain unqualified.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_thigh_inner",
+        "RR_thigh_inner"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        98.41275196283217,
+        58.99894180844802,
+        238.21854580538837
+      ],
+      "mass_kg": 0.128857,
+      "step": "step-parts/thigh_inner_right.step",
+      "step_sha256": "8c617bc72a5fcd4e8047d908123c08b760cb4fe73a594abfecb3d27fd3bdf91e",
+      "stl": "stl/thigh_inner_right.stl",
+      "print_stl": "print-stl/thigh_inner_right.stl"
+    },
+    {
+      "id": "knee_bezel",
+      "title": "Knee bezel",
+      "category": "Limbs",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_knee_bezel",
+        "RL_knee_bezel"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        35.20000020000004,
+        1.2354442577457547,
+        35.23544425774577
+      ],
+      "mass_kg": 0.000882,
+      "step": "step-parts/knee_bezel.step",
+      "step_sha256": "0763637c801a4b229d0599e85e64512f18a9fb3cdb969ed2419e4da50666921e",
+      "stl": "stl/knee_bezel.stl",
+      "print_stl": "print-stl/knee_bezel.stl"
+    },
+    {
+      "id": "knee_bezel_right",
+      "title": "Knee bezel",
+      "category": "Limbs",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_knee_bezel",
+        "RR_knee_bezel"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        35.20000020000004,
+        1.2354442577457547,
+        35.23544425774577
+      ],
+      "mass_kg": 0.000882,
+      "step": "step-parts/knee_bezel_right.step",
+      "step_sha256": "d6e1d6aed7c8eb946fa5ef254b2ba073d10eb1f80d463b80bd3c13b16c310b44",
+      "stl": "stl/knee_bezel_right.stl",
+      "print_stl": "print-stl/knee_bezel_right.stl"
+    },
+    {
+      "id": "shin_outer",
+      "title": "Outer structural shin",
+      "category": "Limbs",
+      "role": "Closes the curved shin around the bearing carriers and knee rocker.",
+      "interfaces": "Pairs with the inner shin and through-fasteners.",
+      "manufacturing": "PETG prototype; use both halves and qualify the printed load path.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_shin_outer",
+        "RL_shin_outer"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        44.041798369615066,
+        16.9160135982591,
+        181.52132337630127
+      ],
+      "mass_kg": 0.041119,
+      "step": "step-parts/shin_outer.step",
+      "step_sha256": "9b0cfebd86ab6416447b94ee484e7c137e507dbd8e5b7e119f592b04b9808a74",
+      "stl": "stl/shin_outer.stl",
+      "print_stl": "print-stl/shin_outer.stl"
+    },
+    {
+      "id": "shin_outer_right",
+      "title": "Outer structural shin",
+      "category": "Limbs",
+      "role": "Closes the curved shin around the bearing carriers and knee rocker.",
+      "interfaces": "Pairs with the inner shin and through-fasteners.",
+      "manufacturing": "PETG prototype; use both halves and qualify the printed load path.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_shin_outer",
+        "RR_shin_outer"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        44.041798369615066,
+        16.916013598259084,
+        181.52132337630127
+      ],
+      "mass_kg": 0.041119,
+      "step": "step-parts/shin_outer_right.step",
+      "step_sha256": "1fbeb5f165a1dfcd995bea564ee8d51f66894be732dc9e34f0271e3fd225dc70",
+      "stl": "stl/shin_outer_right.stl",
+      "print_stl": "print-stl/shin_outer_right.stl"
+    },
+    {
+      "id": "thigh_outer",
+      "title": "Sculpted outer thigh",
+      "category": "Limbs",
+      "role": "Closes the structural thigh sandwich and provides a recessed cap seat.",
+      "interfaces": "Variable outer depth; 170 mm hip-to-knee spacing; removable fasteners.",
+      "manufacturing": "PETG prototype; preserve the wall geometry and review supports in the slicer.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_thigh_outer",
+        "RL_thigh_outer"
+      ],
+      "material": "petg",
+      "color": "#d9d6cc",
+      "bounds_mm": [
+        98.43387903323054,
+        22.55719803823132,
+        238.1249918575655
+      ],
+      "mass_kg": 0.062755,
+      "step": "step-parts/thigh_outer.step",
+      "step_sha256": "bc913ca397b08c81e12f6f8aefe86b2bc3564bb701171fec9f42e62ef65dcd87",
+      "stl": "stl/thigh_outer.stl",
+      "print_stl": "print-stl/thigh_outer.stl"
+    },
+    {
+      "id": "thigh_outer_right",
+      "title": "Sculpted outer thigh",
+      "category": "Limbs",
+      "role": "Closes the structural thigh sandwich and provides a recessed cap seat.",
+      "interfaces": "Variable outer depth; 170 mm hip-to-knee spacing; removable fasteners.",
+      "manufacturing": "PETG prototype; preserve the wall geometry and review supports in the slicer.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_thigh_outer",
+        "RR_thigh_outer"
+      ],
+      "material": "petg",
+      "color": "#d9d6cc",
+      "bounds_mm": [
+        98.43387903323054,
+        22.55719803823132,
+        238.1249918575655
+      ],
+      "mass_kg": 0.062755,
+      "step": "step-parts/thigh_outer_right.step",
+      "step_sha256": "a6050d17b9d1166aedd280bcdab01775774fe1347709c27b647fa1798cd331a7",
+      "stl": "stl/thigh_outer_right.stl",
+      "print_stl": "print-stl/thigh_outer_right.stl"
+    },
+    {
+      "id": "shoulder_cover_-1",
+      "title": "Shoulder cover -1",
+      "category": "Limbs",
+      "role": "Open-back protective sleeve rotates with the roll carrier. Its 1.5 mm wall and short rear overhang preserve opposite-shoulder clearance; it carries no joint load.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "rear left",
+      "quantity": 1,
+      "instances": [
+        "RL_shoulder_cover"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        76.80298956096853,
+        41.98109266190871,
+        83.0455529541569
+      ],
+      "mass_kg": 0.016953,
+      "step": "step-parts/shoulder_cover_-1.step",
+      "step_sha256": "d14bc81836d65b50f0a3da624bdddb3e3449e4c7f40523a31e95e73b4146fd75",
+      "stl": "stl/shoulder_cover_-1.stl",
+      "print_stl": "print-stl/shoulder_cover_-1.stl"
+    },
+    {
+      "id": "shoulder_cover_-1_right",
+      "title": "Shoulder cover -1",
+      "category": "Limbs",
+      "role": "Open-back protective sleeve rotates with the roll carrier. Its 1.5 mm wall and short rear overhang preserve opposite-shoulder clearance; it carries no joint load.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "rear right",
+      "quantity": 1,
+      "instances": [
+        "RR_shoulder_cover"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        76.80298956096853,
+        41.98109266190871,
+        83.0455529541569
+      ],
+      "mass_kg": 0.016953,
+      "step": "step-parts/shoulder_cover_-1_right.step",
+      "step_sha256": "e54c511e353d0ec7a29e6c65212ec9262117b61736bfbb83a505942e5ecdd8e8",
+      "stl": "stl/shoulder_cover_-1_right.stl",
+      "print_stl": "print-stl/shoulder_cover_-1_right.stl"
+    },
+    {
+      "id": "shoulder_cover_1",
+      "title": "Shoulder cover 1",
+      "category": "Limbs",
+      "role": "Open-back protective sleeve rotates with the roll carrier. Its 1.5 mm wall and short rear overhang preserve opposite-shoulder clearance; it carries no joint load.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "front left",
+      "quantity": 1,
+      "instances": [
+        "FL_shoulder_cover"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        76.80298956096851,
+        41.98109266190871,
+        83.0455529541569
+      ],
+      "mass_kg": 0.016953,
+      "step": "step-parts/shoulder_cover_1.step",
+      "step_sha256": "aa17378083dc96f8a9f329a487934e6713c2035e4db5ce19f48d3b03bf6b70c5",
+      "stl": "stl/shoulder_cover_1.stl",
+      "print_stl": "print-stl/shoulder_cover_1.stl"
+    },
+    {
+      "id": "shoulder_cover_1_right",
+      "title": "Shoulder cover 1",
+      "category": "Limbs",
+      "role": "Open-back protective sleeve rotates with the roll carrier. Its 1.5 mm wall and short rear overhang preserve opposite-shoulder clearance; it carries no joint load.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "front right",
+      "quantity": 1,
+      "instances": [
+        "FR_shoulder_cover"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        76.80298956096851,
+        41.98109266190871,
+        83.0455529541569
+      ],
+      "mass_kg": 0.016953,
+      "step": "step-parts/shoulder_cover_1_right.step",
+      "step_sha256": "8491ec2d7d682ad892555617312e3c8840586565bc169712bfef91fa9903fd57",
+      "stl": "stl/shoulder_cover_1_right.stl",
+      "print_stl": "print-stl/shoulder_cover_1_right.stl"
+    },
+    {
+      "id": "input_crank",
+      "title": "Knee input crank",
+      "category": "Transmission",
+      "role": "Converts actuator rotation into pushrod travel.",
+      "interfaces": "22 mm crank radius; six output-interface holes and \u00d86 mm rod-pin hole.",
+      "manufacturing": "Machined aluminum; final pins, washers and retention remain to be selected.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_input_crank",
+        "RL_input_crank"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        47.017967130983656,
+        5.035934061967303,
+        36.01018143474454
+      ],
+      "mass_kg": 0.011399,
+      "step": "step-parts/input_crank.step",
+      "step_sha256": "ec1ff3cac9cbf907dbc0a4eea3433d869ea08cbd9ddf0cd930d45a8bb6e59f30",
+      "stl": "stl/input_crank.stl",
+      "print_stl": null
+    },
+    {
+      "id": "input_crank_right",
+      "title": "Knee input crank",
+      "category": "Transmission",
+      "role": "Converts actuator rotation into pushrod travel.",
+      "interfaces": "22 mm crank radius; six output-interface holes and \u00d86 mm rod-pin hole.",
+      "manufacturing": "Machined aluminum; final pins, washers and retention remain to be selected.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_input_crank",
+        "RR_input_crank"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        47.017967130983656,
+        5.035934061967303,
+        36.01018143474454
+      ],
+      "mass_kg": 0.011399,
+      "step": "step-parts/input_crank_right.step",
+      "step_sha256": "6beacbdc483aeee9fa643524c62351e58e96101e0bb1b58eb185624330c50599",
+      "stl": "stl/input_crank_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "output_crank",
+      "title": "Knee output rocker",
+      "category": "Transmission",
+      "role": "Transfers pushrod load to the shin at the rear of the knee.",
+      "interfaces": "22 mm crank radius; installed \u221278\u00b0 phase; \u00d86 mm rod-pin hole.",
+      "manufacturing": "Machined aluminum; final pins, washers and retention remain to be selected.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_output_crank",
+        "RL_output_crank"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        44.03842854843887,
+        5.043888224322764,
+        50.53704481458715
+      ],
+      "mass_kg": 0.018072,
+      "step": "step-parts/output_crank.step",
+      "step_sha256": "ece557dcf83e1f6facccbd78311fea65ee62392ffe543be60e488fed0f834f81",
+      "stl": "stl/output_crank.stl",
+      "print_stl": null
+    },
+    {
+      "id": "output_crank_right",
+      "title": "Knee output rocker",
+      "category": "Transmission",
+      "role": "Transfers pushrod load to the shin at the rear of the knee.",
+      "interfaces": "22 mm crank radius; installed \u221278\u00b0 phase; \u00d86 mm rod-pin hole.",
+      "manufacturing": "Machined aluminum; final pins, washers and retention remain to be selected.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_output_crank",
+        "RR_output_crank"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        44.03842854843887,
+        5.043888224322764,
+        50.53704481458715
+      ],
+      "mass_kg": 0.018072,
+      "step": "step-parts/output_crank_right.step",
+      "step_sha256": "b0c0a0c6772445ab73f93a020b32a290a48c15e606c044207c92db8994c6f460",
+      "stl": "stl/output_crank_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pushrod",
+      "title": "Knee pushrod",
+      "category": "Transmission",
+      "role": "Joins the equal-radius input and output cranks.",
+      "interfaces": "170 mm eye spacing; \u00d86 mm pin holes.",
+      "manufacturing": "Steel part; pinned joints and fatigue strength need qualification.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_pushrod",
+        "RL_pushrod"
+      ],
+      "material": "steel",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        12.012083401504269,
+        6.01208340150427,
+        182.00000020000002
+      ],
+      "mass_kg": 0.053531,
+      "step": "step-parts/pushrod.step",
+      "step_sha256": "45622e6d4ae49567406644d0351ffa668d371da5ebb203fb364f1a5cd18d10c8",
+      "stl": "stl/pushrod.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pushrod_right",
+      "title": "Knee pushrod",
+      "category": "Transmission",
+      "role": "Joins the equal-radius input and output cranks.",
+      "interfaces": "170 mm eye spacing; \u00d86 mm pin holes.",
+      "manufacturing": "Steel part; pinned joints and fatigue strength need qualification.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_pushrod",
+        "RR_pushrod"
+      ],
+      "material": "steel",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        12.012083401504269,
+        6.01208340150427,
+        182.00000020000002
+      ],
+      "mass_kg": 0.053531,
+      "step": "step-parts/pushrod_right.step",
+      "step_sha256": "cbd7c38e9b613cb9c0ac4f5a17998a92eb71e1913c1cce7a6844e229bb3d13a9",
+      "stl": "stl/pushrod_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "battery_cassette",
+      "title": "Battery cassette",
+      "category": "Body",
+      "role": "Rounded structural underside enclosure; pack adapters and contacts remain unselected.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "battery_cassette"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        140.09048508140984,
+        194.08254981315224,
+        64.72143870204114
+      ],
+      "mass_kg": 0.158718,
+      "step": "step-parts/battery_cassette.step",
+      "step_sha256": "3e880127531523614741838bcede2d01aa47a75f02568cc22a1e7ba1b46b2280",
+      "stl": "stl/battery_cassette.stl",
+      "print_stl": "print-stl/battery_cassette.stl"
+    },
+    {
+      "id": "battery_latch_-1",
+      "title": "Battery latch -1",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "battery_latch_-1"
+      ],
+      "material": "petg",
+      "color": "#f66c27",
+      "bounds_mm": [
+        18.00373091719557,
+        1.4037309171955599,
+        7.003730917195568
+      ],
+      "mass_kg": 0.000214,
+      "step": "step-parts/battery_latch_-1.step",
+      "step_sha256": "5df04b368af26fa5ac030bae81822f88ef93e45be446cc995e43222e59a0aa62",
+      "stl": "stl/battery_latch_-1.stl",
+      "print_stl": "print-stl/battery_latch_-1.stl"
+    },
+    {
+      "id": "battery_latch_1",
+      "title": "Battery latch 1",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "battery_latch_1"
+      ],
+      "material": "petg",
+      "color": "#f66c27",
+      "bounds_mm": [
+        18.00373091719557,
+        1.4037309171955599,
+        7.003730917195568
+      ],
+      "mass_kg": 0.000214,
+      "step": "step-parts/battery_latch_1.step",
+      "step_sha256": "032bbf5dcaaaa55f57373769c5988e7caeb9521d89d5b2113e32035396dede35",
+      "stl": "stl/battery_latch_1.stl",
+      "print_stl": "print-stl/battery_latch_1.stl"
+    },
+    {
+      "id": "battery_rail_-90.5",
+      "title": "Battery rail -90.5",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "battery_rail_-90.5"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        134.0124359239852,
+        5.013325097853993,
+        61.01243592398521
+      ],
+      "mass_kg": 0.019309,
+      "step": "step-parts/battery_rail_-90.5.step",
+      "step_sha256": "1ffe10fc0c8a88821b3e4cee67283f07b243c8f6b8b037fdb21bc62e60a8e22d",
+      "stl": "stl/battery_rail_-90.5.stl",
+      "print_stl": "print-stl/battery_rail_-90.5.stl"
+    },
+    {
+      "id": "battery_rail_90.5",
+      "title": "Battery rail 90.5",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "battery_rail_90.5"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        134.0124359239852,
+        5.013325097853993,
+        61.01243592398521
+      ],
+      "mass_kg": 0.019309,
+      "step": "step-parts/battery_rail_90.5.step",
+      "step_sha256": "404c35b508fede85a9a3c18b76bb89c7d559eb163977fc4b7ce23b229acc9f1e",
+      "stl": "stl/battery_rail_90.5.stl",
+      "print_stl": "print-stl/battery_rail_90.5.stl"
+    },
+    {
+      "id": "battery_skid",
+      "title": "Battery skid",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "battery_skid"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        138.02855355254428,
+        190.02855355254428,
+        1.5285535525443095
+      ],
+      "mass_kg": 0.105409,
+      "step": "step-parts/battery_skid.step",
+      "step_sha256": "eddef5ce334e7e2ef63abfdabcc59d002d4b81bef1e40dbd3faf2be2cb1a26fe",
+      "stl": "stl/battery_skid.stl",
+      "print_stl": null
+    },
+    {
+      "id": "belly_aft_0",
+      "title": "Belly aft 0",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "belly_aft_0"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        116.01203493116385,
+        139.29251621285619,
+        43.279812594237384
+      ],
+      "mass_kg": 0.012742,
+      "step": "step-parts/belly_aft_0.step",
+      "step_sha256": "705c5cdff1774ad1210fddcf5966785fed647ce6f98c54f74837a97604d863c3",
+      "stl": "stl/belly_aft_0.stl",
+      "print_stl": "print-stl/belly_aft_0.stl"
+    },
+    {
+      "id": "belly_center_0",
+      "title": "Belly center 0",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "belly_center_0"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        239.61603122878785,
+        212.6004250846488,
+        40.313545975657725
+      ],
+      "mass_kg": 0.067564,
+      "step": "step-parts/belly_center_0.step",
+      "step_sha256": "f287965ed901f62d79f8a26ef902589bbd818c57d26d73679d5090bab3966424",
+      "stl": "stl/belly_center_0.stl",
+      "print_stl": "print-stl/belly_center_0.stl"
+    },
+    {
+      "id": "belly_front_0",
+      "title": "Belly front 0",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "belly_front_0"
+      ],
+      "material": "petg",
+      "color": "#202321",
+      "bounds_mm": [
+        122.90924188087168,
+        168.45300631795078,
+        13.25830564278263
+      ],
+      "mass_kg": 0.009213,
+      "step": "step-parts/belly_front_0.step",
+      "step_sha256": "6d5c8c3289cfa25717c8cbdf036c7ddc27136a38d3fd979985ea9b82ccfebb16",
+      "stl": "stl/belly_front_0.stl",
+      "print_stl": "print-stl/belly_front_0.stl"
+    },
+    {
+      "id": "body_aft_0",
+      "title": "Body aft 0",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "body_aft_0"
+      ],
+      "material": "petg",
+      "color": "#d9d6cc",
+      "bounds_mm": [
+        116.01037001846099,
+        139.35878907354456,
+        63.31570508926973
+      ],
+      "mass_kg": 0.018339,
+      "step": "step-parts/body_aft_0.step",
+      "step_sha256": "c0a957c547ed5ea0df59ead28ab7e5993c8faba39014d301464657371e86b624",
+      "stl": "stl/body_aft_0.stl",
+      "print_stl": "print-stl/body_aft_0.stl"
+    },
+    {
+      "id": "body_center_0",
+      "title": "Body center 0",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "body_center_0"
+      ],
+      "material": "petg",
+      "color": "#d9d6cc",
+      "bounds_mm": [
+        239.61765106739256,
+        213.37453103882194,
+        61.05712747280582
+      ],
+      "mass_kg": 0.15828,
+      "step": "step-parts/body_center_0.step",
+      "step_sha256": "61ec1b3d53ebedf9da5a87038d9be8c036b7a8463017a4cce1241941ba684577",
+      "stl": "stl/body_center_0.stl",
+      "print_stl": "print-stl/body_center_0.stl"
+    },
+    {
+      "id": "body_front_0",
+      "title": "Body front 0",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "body_front_0"
+      ],
+      "material": "petg",
+      "color": "#d9d6cc",
+      "bounds_mm": [
+        123.06236729105306,
+        180.15378713756488,
+        93.27203776371965
+      ],
+      "mass_kg": 0.014485,
+      "step": "step-parts/body_front_0.step",
+      "step_sha256": "6feb7fa6b5f904f0f0d9b863721cc7801d6f718b6d34f59a284394453f703a53",
+      "stl": "stl/body_front_0.stl",
+      "print_stl": "print-stl/body_front_0.stl"
+    },
+    {
+      "id": "chassis_beam_-97",
+      "title": "Chassis beam -97",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "chassis_beam_-97"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        264.00497448959413,
+        2.015228654690276,
+        54.004974489594105
+      ],
+      "mass_kg": 0.026567,
+      "step": "step-parts/chassis_beam_-97.step",
+      "step_sha256": "f47cda21ae73b87e752b3e05fa499dd914009f08be32916ba53411da4dc28c85",
+      "stl": "stl/chassis_beam_-97.stl",
+      "print_stl": null
+    },
+    {
+      "id": "chassis_beam_97",
+      "title": "Chassis beam 97",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "chassis_beam_97"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        264.00497448959413,
+        2.015228654690276,
+        54.004974489594105
+      ],
+      "mass_kg": 0.026567,
+      "step": "step-parts/chassis_beam_97.step",
+      "step_sha256": "97544d8e9c191ad98d8c491c14099ef6b917b04a9012085beec3cf02739c35d2",
+      "stl": "stl/chassis_beam_97.stl",
+      "print_stl": null
+    },
+    {
+      "id": "electronics_shelf",
+      "title": "Electronics shelf",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "electronics_shelf"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        134.0031091309963,
+        188.00310913099628,
+        1.5228428820354347
+      ],
+      "mass_kg": 0.042077,
+      "step": "step-parts/electronics_shelf.step",
+      "step_sha256": "4593b45595dbb829dcc9b667bb0af96d7406e4550058ca6b55e4c999c155838b",
+      "stl": "stl/electronics_shelf.stl",
+      "print_stl": null
+    },
+    {
+      "id": "lidar_lid",
+      "title": "Lidar lid",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "lidar_lid"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        54.054374606769045,
+        54.00000020000003,
+        2.054374606769045
+      ],
+      "mass_kg": 0.012367,
+      "step": "step-parts/lidar_lid.step",
+      "step_sha256": "a59608ba3d979bf0c90f191c848c6a92c8bf16d09929d8cb1d0536055d263c4e",
+      "stl": "stl/lidar_lid.stl",
+      "print_stl": null
+    },
+    {
+      "id": "nose_panel",
+      "title": "Nose panel",
+      "category": "Body",
+      "role": "1.6 mm removable cosmetic face sits flush inside the rounded body rim; counterbores clear the provisional low-head screw envelopes. Final optics and screws remain unselected.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "nose_panel"
+      ],
+      "material": "petg",
+      "color": "#d9d6cc",
+      "bounds_mm": [
+        1.6304571093805862,
+        156.03045710938056,
+        76.03045710938058
+      ],
+      "mass_kg": 0.01164,
+      "step": "step-parts/nose_panel.step",
+      "step_sha256": "a55a783f1561f088a198b2144ad9e97b7842e8ebc7218138b6f6273951728268",
+      "stl": "stl/nose_panel.stl",
+      "print_stl": "print-stl/nose_panel.stl"
+    },
+    {
+      "id": "power_button",
+      "title": "Power button",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Printed fit prototype.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "power_button"
+      ],
+      "material": "petg",
+      "color": "#f66c27",
+      "bounds_mm": [
+        9.009062601128178,
+        9.00000020000001,
+        1.0090626011281785
+      ],
+      "mass_kg": 8.1e-05,
+      "step": "step-parts/power_button.step",
+      "step_sha256": "47818345dfd047dca7ab32876173109aff148adad8f424ea1dfc84445ebd7381",
+      "stl": "stl/power_button.stl",
+      "print_stl": "print-stl/power_button.stl"
+    },
+    {
+      "id": "sensor_bezel",
+      "title": "Sensor bezel",
+      "category": "Body",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "sensor_bezel"
+      ],
+      "material": "aluminum",
+      "color": "#545c58",
+      "bounds_mm": [
+        2.219035768362886,
+        150.01903576836287,
+        42.01903576836286
+      ],
+      "mass_kg": 0.00437,
+      "step": "step-parts/sensor_bezel.step",
+      "step_sha256": "865d65c3003f3049d9ae76410fdb6b01d77eb0b58b3f26d0430cfc908f5c93f4",
+      "stl": "stl/sensor_bezel.stl",
+      "print_stl": null
+    },
+    {
+      "id": "nose_standoff_-68_-30",
+      "title": "Sensor-panel support tab",
+      "category": "Body",
+      "role": "Joins the inset nose panel to the surrounding body rim.",
+      "interfaces": "Two \u00d83 mm holes; front contact faces meet the panel and the rear face of the rim.",
+      "manufacturing": "Machined aluminum; select screws/nuts and verify thread engagement and panel stiffness.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "nose_standoff_-68_-30"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        2.605257953852771,
+        18.702656465267196,
+        10.203382216834044
+      ],
+      "mass_kg": 0.000557,
+      "step": "step-parts/nose_standoff_-68_-30.step",
+      "step_sha256": "bc8f418215ff7b557cedb8316ebb2f7b64b3dfc53f0ba2b7bf2c3c3379d3da08",
+      "stl": "stl/nose_standoff_-68_-30.stl",
+      "print_stl": null
+    },
+    {
+      "id": "nose_standoff_-68_30",
+      "title": "Sensor-panel support tab",
+      "category": "Body",
+      "role": "Joins the inset nose panel to the surrounding body rim.",
+      "interfaces": "Two \u00d83 mm holes; front contact faces meet the panel and the rear face of the rim.",
+      "manufacturing": "Machined aluminum; select screws/nuts and verify thread engagement and panel stiffness.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "nose_standoff_-68_30"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        2.605247042040702,
+        18.702727309833335,
+        10.20511748058501
+      ],
+      "mass_kg": 0.000557,
+      "step": "step-parts/nose_standoff_-68_30.step",
+      "step_sha256": "0d56de224791eb4773c11412fcef11b92cd900a2fbb5b3cfba1c273435d779f4",
+      "stl": "stl/nose_standoff_-68_30.stl",
+      "print_stl": null
+    },
+    {
+      "id": "nose_standoff_68_-30",
+      "title": "Sensor-panel support tab",
+      "category": "Body",
+      "role": "Joins the inset nose panel to the surrounding body rim.",
+      "interfaces": "Two \u00d83 mm holes; front contact faces meet the panel and the rear face of the rim.",
+      "manufacturing": "Machined aluminum; select screws/nuts and verify thread engagement and panel stiffness.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "nose_standoff_68_-30"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        2.605257953852771,
+        18.702656465267196,
+        10.203382216834044
+      ],
+      "mass_kg": 0.000557,
+      "step": "step-parts/nose_standoff_68_-30.step",
+      "step_sha256": "d339fe23be8a3aa1cae43b52025d94d66edf48a8e6fdc9277eadcf584f25aec1",
+      "stl": "stl/nose_standoff_68_-30.stl",
+      "print_stl": null
+    },
+    {
+      "id": "nose_standoff_68_30",
+      "title": "Sensor-panel support tab",
+      "category": "Body",
+      "role": "Joins the inset nose panel to the surrounding body rim.",
+      "interfaces": "Two \u00d83 mm holes; front contact faces meet the panel and the rear face of the rim.",
+      "manufacturing": "Machined aluminum; select screws/nuts and verify thread engagement and panel stiffness.",
+      "variant": "body",
+      "quantity": 1,
+      "instances": [
+        "nose_standoff_68_30"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        2.605247042040702,
+        18.702727309833335,
+        10.20511748058501
+      ],
+      "mass_kg": 0.000557,
+      "step": "step-parts/nose_standoff_68_30.step",
+      "step_sha256": "17ac143292cac4b2f5486549b1066e164a85b46f26c8fed49f0bad7bd5c363d5",
+      "stl": "stl/nose_standoff_68_30.stl",
+      "print_stl": null
+    },
+    {
+      "id": "bearing_67",
+      "title": "Bearing 67",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_bearing_67",
+        "RL_bearing_67"
+      ],
+      "material": "steel",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        28.000000200000006,
+        8.0281943368432,
+        28.028194336843196
+      ],
+      "mass_kg": 0.022,
+      "step": "step-parts/bearing_67.step",
+      "step_sha256": "032cddae4e93462ce4b88b32f66c91063fb5ce7a9772d135b34f68705ecb9266",
+      "stl": "stl/bearing_67.stl",
+      "print_stl": null
+    },
+    {
+      "id": "bearing_67_right",
+      "title": "Bearing 67",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_bearing_67",
+        "RR_bearing_67"
+      ],
+      "material": "steel",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        28.000000200000006,
+        8.0281943368432,
+        28.028194336843196
+      ],
+      "mass_kg": 0.022,
+      "step": "step-parts/bearing_67_right.step",
+      "step_sha256": "759f0192aae3a1cb67a913b2c38d041636672c7fbdc60e27d5e6b7f44978c7e7",
+      "stl": "stl/bearing_67_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "bearing_91",
+      "title": "Bearing 91",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_bearing_91",
+        "RL_bearing_91"
+      ],
+      "material": "steel",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        28.000000200000006,
+        8.0281943368432,
+        28.028194336843196
+      ],
+      "mass_kg": 0.022,
+      "step": "step-parts/bearing_91.step",
+      "step_sha256": "418fa10263ef03995f82f64eaf3284049c73532b019f7b7617cb9e02baafdfb1",
+      "stl": "stl/bearing_91.stl",
+      "print_stl": null
+    },
+    {
+      "id": "bearing_91_right",
+      "title": "Bearing 91",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_bearing_91",
+        "RR_bearing_91"
+      ],
+      "material": "steel",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        28.000000200000006,
+        8.0281943368432,
+        28.028194336843196
+      ],
+      "mass_kg": 0.022,
+      "step": "step-parts/bearing_91_right.step",
+      "step_sha256": "ac9f98abff2e0ca683ec32605e09a568eff1c971866ba04fdaeefca8263f6713",
+      "stl": "stl/bearing_91_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "bolt_0",
+      "title": "Bolt 0",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_bolt_0",
+        "RL_bolt_0"
+      ],
+      "material": "steel",
+      "color": "#202321",
+      "bounds_mm": [
+        7.600000200000014,
+        46.00584041406039,
+        7.607652894286019
+      ],
+      "mass_kg": 0.005053,
+      "step": "step-parts/bolt_0.step",
+      "step_sha256": "49fa773f0a4f5e04468d102c780a7ec9e8a9afd2468f333d2dc3391d68a7a50e",
+      "stl": "stl/bolt_0.stl",
+      "print_stl": null
+    },
+    {
+      "id": "bolt_0_right",
+      "title": "Bolt 0",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_bolt_0",
+        "RR_bolt_0"
+      ],
+      "material": "steel",
+      "color": "#202321",
+      "bounds_mm": [
+        7.600000200000014,
+        46.00584041406039,
+        7.607652894286019
+      ],
+      "mass_kg": 0.005053,
+      "step": "step-parts/bolt_0_right.step",
+      "step_sha256": "9282034c16d633c5d0cb79a4d8a7d3946980e7363fa2c1f8743f3a1d8fbeb623",
+      "stl": "stl/bolt_0_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "bolt_1",
+      "title": "Bolt 1",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_bolt_1",
+        "RL_bolt_1"
+      ],
+      "material": "steel",
+      "color": "#202321",
+      "bounds_mm": [
+        7.600000200000011,
+        46.00584041406039,
+        7.607652894286005
+      ],
+      "mass_kg": 0.005053,
+      "step": "step-parts/bolt_1.step",
+      "step_sha256": "00f9ef5aaf5ef3cc0890a07aac0d3bd228e990f9baae25ef6fc86d957f6c915b",
+      "stl": "stl/bolt_1.stl",
+      "print_stl": null
+    },
+    {
+      "id": "bolt_1_right",
+      "title": "Bolt 1",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_bolt_1",
+        "RR_bolt_1"
+      ],
+      "material": "steel",
+      "color": "#202321",
+      "bounds_mm": [
+        7.600000200000011,
+        46.00584041406039,
+        7.607652894286005
+      ],
+      "mass_kg": 0.005053,
+      "step": "step-parts/bolt_1_right.step",
+      "step_sha256": "2aba09aa586c44cf5aa09bc5be947f98bed53f1d285d0bc92919bafd5fb91650",
+      "stl": "stl/bolt_1_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "cap_bezel",
+      "title": "Cap bezel",
+      "category": "Hardware",
+      "role": "Thin seated finish gasket around the removable cap.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_cap_bezel",
+        "RL_cap_bezel"
+      ],
+      "material": "rubber",
+      "color": "#202321",
+      "bounds_mm": [
+        84.00000020000003,
+        0.48458261052959983,
+        84.0845826105296
+      ],
+      "mass_kg": 0.00022,
+      "step": "step-parts/cap_bezel.step",
+      "step_sha256": "d2fe7b84559375af07431880cad4439d45c2ca2da952f12affd2ad85276fd2db",
+      "stl": "stl/cap_bezel.stl",
+      "print_stl": null
+    },
+    {
+      "id": "cap_bezel_right",
+      "title": "Cap bezel",
+      "category": "Hardware",
+      "role": "Thin seated finish gasket around the removable cap.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_cap_bezel",
+        "RR_cap_bezel"
+      ],
+      "material": "rubber",
+      "color": "#202321",
+      "bounds_mm": [
+        84.00000020000003,
+        0.48458261052959983,
+        84.0845826105296
+      ],
+      "mass_kg": 0.00022,
+      "step": "step-parts/cap_bezel_right.step",
+      "step_sha256": "8eca701d6621c7c1c0d8d387eb721523090ba7313c6c7113aad5443d91dd4214",
+      "stl": "stl/cap_bezel_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "foot",
+      "title": "Foot",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_foot",
+        "RL_foot"
+      ],
+      "material": "rubber",
+      "color": "#191e1b",
+      "bounds_mm": [
+        32.190274854973715,
+        32.1580529842958,
+        30.147512783392926
+      ],
+      "mass_kg": 0.017975,
+      "step": "step-parts/foot.step",
+      "step_sha256": "845715769f3b903a2f4581a383fa221a015fc2350cb92d849651ca7cf5e4ffcd",
+      "stl": "stl/foot.stl",
+      "print_stl": null
+    },
+    {
+      "id": "foot_right",
+      "title": "Foot",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_foot",
+        "RR_foot"
+      ],
+      "material": "rubber",
+      "color": "#191e1b",
+      "bounds_mm": [
+        32.19027485497373,
+        32.1580529842958,
+        30.147512783392926
+      ],
+      "mass_kg": 0.017975,
+      "step": "step-parts/foot_right.step",
+      "step_sha256": "a390117a8409c9a8d6142af5163d0f80b9b2cbc8993ebdd9ec39cdf8629c8e9c",
+      "stl": "stl/foot_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "hip_disc",
+      "title": "Hip disc",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_hip_disc",
+        "RL_hip_disc"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        80.00000020000003,
+        1.1805548766948277,
+        80.08055487669485
+      ],
+      "mass_kg": 0.014872,
+      "step": "step-parts/hip_disc.step",
+      "step_sha256": "0d6512b99c5996c063cd62ad8f08cfd63f076056c4f4c48c7834d889307d0a4d",
+      "stl": "stl/hip_disc.stl",
+      "print_stl": null
+    },
+    {
+      "id": "hip_disc_right",
+      "title": "Hip disc",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_hip_disc",
+        "RR_hip_disc"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        80.00000020000003,
+        1.1805548766948277,
+        80.08055487669485
+      ],
+      "mass_kg": 0.014872,
+      "step": "step-parts/hip_disc_right.step",
+      "step_sha256": "c061a12a9c728f712cc39ab1d421ed98ffdef70c8f0f0c2257d8f0fe10c7ea53",
+      "stl": "stl/hip_disc_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "knee_axle",
+      "title": "Knee axle",
+      "category": "Hardware",
+      "role": "Fixed 12 x 8 mm tubular shaft ties the thigh cheeks; shin rotates on two bearings.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_knee_axle",
+        "RL_knee_axle"
+      ],
+      "material": "steel",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        12.00000020000007,
+        44.0120834015043,
+        12.012083401504299
+      ],
+      "mass_kg": 0.021702,
+      "step": "step-parts/knee_axle.step",
+      "step_sha256": "d41bf214dcdbac921759e882ccf199840a7eb64abe58ec9ed556226d4cfcff14",
+      "stl": "stl/knee_axle.stl",
+      "print_stl": null
+    },
+    {
+      "id": "knee_axle_right",
+      "title": "Knee axle",
+      "category": "Hardware",
+      "role": "Fixed 12 x 8 mm tubular shaft ties the thigh cheeks; shin rotates on two bearings.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_knee_axle",
+        "RR_knee_axle"
+      ],
+      "material": "steel",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        12.00000020000007,
+        44.0120834015043,
+        12.012083401504299
+      ],
+      "mass_kg": 0.021702,
+      "step": "step-parts/knee_axle_right.step",
+      "step_sha256": "5c952b13abb8e8bb887e171a69f81749dcf4aab8f54aa682cd18a72dd46d70bd",
+      "stl": "stl/knee_axle_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "knee_end_cap",
+      "title": "Knee end cap",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_knee_end_cap",
+        "RL_knee_end_cap"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        22.00000020000007,
+        1.522152736091158,
+        22.02215273609113
+      ],
+      "mass_kg": 0.001409,
+      "step": "step-parts/knee_end_cap.step",
+      "step_sha256": "d5703e00b16ca7a53d882a0ed46e031b7060cb31aa14eeb4ba55dcc40da00a63",
+      "stl": "stl/knee_end_cap.stl",
+      "print_stl": null
+    },
+    {
+      "id": "knee_end_cap_right",
+      "title": "Knee end cap",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_knee_end_cap",
+        "RR_knee_end_cap"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        22.00000020000007,
+        1.522152736091158,
+        22.02215273609113
+      ],
+      "mass_kg": 0.001409,
+      "step": "step-parts/knee_end_cap_right.step",
+      "step_sha256": "0362807b736236a55c74362dfadd92ed9c12c4b6321825bd60c639460b7af4b1",
+      "stl": "stl/knee_end_cap_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "knee_inner_spacer",
+      "title": "Knee inner spacer",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_knee_inner_spacer",
+        "RL_knee_inner_spacer"
+      ],
+      "material": "steel",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        16.000000200000027,
+        16.016111135338996,
+        16.016111135338974
+      ],
+      "mass_kg": 0.010811,
+      "step": "step-parts/knee_inner_spacer.step",
+      "step_sha256": "4a5222324ef23950ccc8289de8fe5664affa7f527e76e8fa1354c8141cb6842e",
+      "stl": "stl/knee_inner_spacer.stl",
+      "print_stl": null
+    },
+    {
+      "id": "knee_inner_spacer_right",
+      "title": "Knee inner spacer",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_knee_inner_spacer",
+        "RR_knee_inner_spacer"
+      ],
+      "material": "steel",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        16.000000200000027,
+        16.016111135338996,
+        16.016111135338974
+      ],
+      "mass_kg": 0.010811,
+      "step": "step-parts/knee_inner_spacer_right.step",
+      "step_sha256": "583be2dd6552a3955549c0c00ffcb6b5bfa5a13de422f3ee682aeb3a653ff5e5",
+      "stl": "stl/knee_inner_spacer_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pod_sleeve_210",
+      "title": "Pod sleeve 210",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_pod_sleeve_210",
+        "RL_pod_sleeve_210"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        5.000000200000002,
+        49.00503486729343,
+        5.005034867293439
+      ],
+      "mass_kg": 0.001311,
+      "step": "step-parts/pod_sleeve_210.step",
+      "step_sha256": "40fc798da7bd8055631a1cc105b73fec022f9603d4564578b118a4afaa4bcada",
+      "stl": "stl/pod_sleeve_210.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pod_sleeve_210_right",
+      "title": "Pod sleeve 210",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_pod_sleeve_210",
+        "RR_pod_sleeve_210"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        5.000000200000002,
+        49.00503486729343,
+        5.005034867293439
+      ],
+      "mass_kg": 0.001311,
+      "step": "step-parts/pod_sleeve_210_right.step",
+      "step_sha256": "cc90c410ff3e00659fc5b33db54c8a5dd362083b1051fefcaa77444de912fa96",
+      "stl": "stl/pod_sleeve_210_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pod_sleeve_330",
+      "title": "Pod sleeve 330",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_pod_sleeve_330",
+        "RL_pod_sleeve_330"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        5.000000200000002,
+        49.00503486729343,
+        5.005034867293439
+      ],
+      "mass_kg": 0.001311,
+      "step": "step-parts/pod_sleeve_330.step",
+      "step_sha256": "2c6f7393f606ebf23184bdb73206ef384853bf0a52e32343b727eea94752882d",
+      "stl": "stl/pod_sleeve_330.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pod_sleeve_330_right",
+      "title": "Pod sleeve 330",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_pod_sleeve_330",
+        "RR_pod_sleeve_330"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        5.000000200000002,
+        49.00503486729343,
+        5.005034867293439
+      ],
+      "mass_kg": 0.001311,
+      "step": "step-parts/pod_sleeve_330_right.step",
+      "step_sha256": "4edb0ec01dd9621e4dcb10bd4d287004899850f8122ed496b21fadc15e3bd010",
+      "stl": "stl/pod_sleeve_330_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pod_sleeve_90",
+      "title": "Pod sleeve 90",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_pod_sleeve_90",
+        "RL_pod_sleeve_90"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        5.00000020000001,
+        49.00503486729343,
+        5.005034867293432
+      ],
+      "mass_kg": 0.001311,
+      "step": "step-parts/pod_sleeve_90.step",
+      "step_sha256": "c89ebc8d35f4ff44bbbf8fb75e2699e4deda649c9be987a0de38f26e4b5872ee",
+      "stl": "stl/pod_sleeve_90.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pod_sleeve_90_right",
+      "title": "Pod sleeve 90",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_pod_sleeve_90",
+        "RR_pod_sleeve_90"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        5.00000020000001,
+        49.00503486729343,
+        5.005034867293432
+      ],
+      "mass_kg": 0.001311,
+      "step": "step-parts/pod_sleeve_90_right.step",
+      "step_sha256": "bb3a598ed92e5f68f8e3fab5d3ca3f9e47105d882c071638c00b21a50767d375",
+      "stl": "stl/pod_sleeve_90_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pod_tie_210",
+      "title": "Pod tie 210",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_pod_tie_210",
+        "RL_pod_tie_210"
+      ],
+      "material": "steel",
+      "color": "#202321",
+      "bounds_mm": [
+        5.600000200000011,
+        61.00433001387236,
+        5.605639027368653
+      ],
+      "mass_kg": 0.003798,
+      "step": "step-parts/pod_tie_210.step",
+      "step_sha256": "d2c11907d045580d821acf917317d8025365d06a438b8460b0ea8296d812c2b5",
+      "stl": "stl/pod_tie_210.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pod_tie_210_right",
+      "title": "Pod tie 210",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_pod_tie_210",
+        "RR_pod_tie_210"
+      ],
+      "material": "steel",
+      "color": "#202321",
+      "bounds_mm": [
+        5.600000200000011,
+        61.00433001387236,
+        5.605639027368653
+      ],
+      "mass_kg": 0.003798,
+      "step": "step-parts/pod_tie_210_right.step",
+      "step_sha256": "76194bbdaf6bd1b2035ce75388f66f1d41bda52d28f3e8b7827a0097d0bade12",
+      "stl": "stl/pod_tie_210_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pod_tie_330",
+      "title": "Pod tie 330",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_pod_tie_330",
+        "RL_pod_tie_330"
+      ],
+      "material": "steel",
+      "color": "#202321",
+      "bounds_mm": [
+        5.600000200000011,
+        61.00433001387236,
+        5.605639027368653
+      ],
+      "mass_kg": 0.003798,
+      "step": "step-parts/pod_tie_330.step",
+      "step_sha256": "104174e8153969457f89e28936718d309719ae7bc2ce80daada097c56d63eec2",
+      "stl": "stl/pod_tie_330.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pod_tie_330_right",
+      "title": "Pod tie 330",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_pod_tie_330",
+        "RR_pod_tie_330"
+      ],
+      "material": "steel",
+      "color": "#202321",
+      "bounds_mm": [
+        5.600000200000011,
+        61.00433001387236,
+        5.605639027368653
+      ],
+      "mass_kg": 0.003798,
+      "step": "step-parts/pod_tie_330_right.step",
+      "step_sha256": "50ebcdc1f888f4fcbefae5cc11828ce559e1469f43cea3536f106ae20f4bd779",
+      "stl": "stl/pod_tie_330_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pod_tie_90",
+      "title": "Pod tie 90",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_pod_tie_90",
+        "RL_pod_tie_90"
+      ],
+      "material": "steel",
+      "color": "#202321",
+      "bounds_mm": [
+        5.600000200000012,
+        61.00433001387236,
+        5.605639027368639
+      ],
+      "mass_kg": 0.003798,
+      "step": "step-parts/pod_tie_90.step",
+      "step_sha256": "70feef7d487f653d5219ce72f3b5bd98a0b4ae338416edba1dd15b6a7aca6964",
+      "stl": "stl/pod_tie_90.stl",
+      "print_stl": null
+    },
+    {
+      "id": "pod_tie_90_right",
+      "title": "Pod tie 90",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_pod_tie_90",
+        "RR_pod_tie_90"
+      ],
+      "material": "steel",
+      "color": "#202321",
+      "bounds_mm": [
+        5.600000200000012,
+        61.00433001387236,
+        5.605639027368639
+      ],
+      "mass_kg": 0.003798,
+      "step": "step-parts/pod_tie_90_right.step",
+      "step_sha256": "08dc15370968bc9d9139ac04481a8472e34332f35b682c28a841ca3266943894",
+      "stl": "stl/pod_tie_90_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "shin_carrier_67",
+      "title": "Shin carrier 67",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_shin_carrier_67",
+        "RL_shin_carrier_67"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        44.00000020000001,
+        10.039042783284508,
+        44.044305272182164
+      ],
+      "mass_kg": 0.013032,
+      "step": "step-parts/shin_carrier_67.step",
+      "step_sha256": "fac76b6f1fc919247713848632899f5b8e3cdf64121b4bd22e8734ce82906334",
+      "stl": "stl/shin_carrier_67.stl",
+      "print_stl": null
+    },
+    {
+      "id": "shin_carrier_67_right",
+      "title": "Shin carrier 67",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_shin_carrier_67",
+        "RR_shin_carrier_67"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        44.00000020000001,
+        10.039042783284508,
+        44.044305272182164
+      ],
+      "mass_kg": 0.013032,
+      "step": "step-parts/shin_carrier_67_right.step",
+      "step_sha256": "6cdecdec14bcedc907d736c69c0b5533d81fc54bf17b133b772bf2f7ccb042a7",
+      "stl": "stl/shin_carrier_67_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "shin_carrier_91",
+      "title": "Shin carrier 91",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_shin_carrier_91",
+        "RL_shin_carrier_91"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        34.0000002,
+        8.034235937595298,
+        34.034235937595305
+      ],
+      "mass_kg": 0.00612,
+      "step": "step-parts/shin_carrier_91.step",
+      "step_sha256": "7411b654eb94ae08f9127400bcfe9d2e1d37b24573afd599f711fdaf62c36246",
+      "stl": "stl/shin_carrier_91.stl",
+      "print_stl": null
+    },
+    {
+      "id": "shin_carrier_91_right",
+      "title": "Shin carrier 91",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_shin_carrier_91",
+        "RR_shin_carrier_91"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        34.0000002,
+        8.034235937595298,
+        34.034235937595305
+      ],
+      "mass_kg": 0.00612,
+      "step": "step-parts/shin_carrier_91_right.step",
+      "step_sha256": "37f85d20ab281d3563a99c56d4c5fa5f6da8740a7e44c5ce7463c0bb8dd9b391",
+      "stl": "stl/shin_carrier_91_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "sleeve_0",
+      "title": "Sleeve 0",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_sleeve_0",
+        "RL_sleeve_0"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        8.000000200000017,
+        38.00805566766949,
+        8.008055667669495
+      ],
+      "mass_kg": 0.003597,
+      "step": "step-parts/sleeve_0.step",
+      "step_sha256": "aa71a2a07b54e064be33835fcc73269e48337a9a6566ae6f01c9ad97a1c33b3d",
+      "stl": "stl/sleeve_0.stl",
+      "print_stl": null
+    },
+    {
+      "id": "sleeve_0_right",
+      "title": "Sleeve 0",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_sleeve_0",
+        "RR_sleeve_0"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        8.000000200000017,
+        38.00805566766949,
+        8.008055667669495
+      ],
+      "mass_kg": 0.003597,
+      "step": "step-parts/sleeve_0_right.step",
+      "step_sha256": "67d628d6e590472a4887bf4e10109808f626eb12625d8931721c72eb9b82eb0a",
+      "stl": "stl/sleeve_0_right.stl",
+      "print_stl": null
+    },
+    {
+      "id": "sleeve_1",
+      "title": "Sleeve 1",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front left, rear left",
+      "quantity": 2,
+      "instances": [
+        "FL_sleeve_1",
+        "RL_sleeve_1"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        8.000000200000017,
+        38.00805566766949,
+        8.008055667669495
+      ],
+      "mass_kg": 0.003597,
+      "step": "step-parts/sleeve_1.step",
+      "step_sha256": "db8174fcbe185b8cb0a9d81b44b54d540aa89468a27b9d09de871171a0fa0a34",
+      "stl": "stl/sleeve_1.stl",
+      "print_stl": null
+    },
+    {
+      "id": "sleeve_1_right",
+      "title": "Sleeve 1",
+      "category": "Hardware",
+      "role": "Separate component of the exported assembly.",
+      "interfaces": "See the solid geometry and mating assembly.",
+      "manufacturing": "Nominal solid; manufacturing details require review.",
+      "variant": "front right, rear right",
+      "quantity": 2,
+      "instances": [
+        "FR_sleeve_1",
+        "RR_sleeve_1"
+      ],
+      "material": "aluminum",
+      "color": "#b4b5b0",
+      "bounds_mm": [
+        8.000000200000017,
+        38.00805566766949,
+        8.008055667669495
+      ],
+      "mass_kg": 0.003597,
+      "step": "step-parts/sleeve_1_right.step",
+      "step_sha256": "ead5ce2aa2c31c12ec305b8a683ae571a1ed548f6048582a3d8cac326d130bac",
+      "stl": "stl/sleeve_1_right.stl",
+      "print_stl": null
+    }
+  ]
+}

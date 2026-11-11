@@ -1,0 +1,121 @@
+{
+  "part": "electronics_shelf",
+  "source_step_sha256": "c4d0aca0f42fe6dec318d8d3f7c286b7a032ba05876591a2a994601b8211bcfe",
+  "native_step_sha256": "d330018b323a66e400d12c150bdefba8c0217206a3794704be2fb8ccadc8a595",
+  "sections": [
+    {
+      "axis": "X",
+      "offset_mm": -33.5,
+      "source_edges": 16,
+      "native_edges": 16,
+      "source_perimeter_mm": 200.0,
+      "native_perimeter_mm": 200.00000000000006,
+      "relative_perimeter_error": 2.842170943040401e-16,
+      "symmetric_sampled_error_max_mm": 1.4210854715202004e-14,
+      "samples": 272,
+      "pass": true
+    },
+    {
+      "axis": "X",
+      "offset_mm": 0.0,
+      "source_edges": 4,
+      "native_edges": 4,
+      "source_perimeter_mm": 380.0,
+      "native_perimeter_mm": 380.00000000000006,
+      "relative_perimeter_error": 1.495879443705474e-16,
+      "symmetric_sampled_error_max_mm": 1.4210854715202004e-14,
+      "samples": 398,
+      "pass": true
+    },
+    {
+      "axis": "X",
+      "offset_mm": 33.5,
+      "source_edges": 16,
+      "native_edges": 16,
+      "source_perimeter_mm": 200.0,
+      "native_perimeter_mm": 200.00000000000006,
+      "relative_perimeter_error": 2.842170943040401e-16,
+      "symmetric_sampled_error_max_mm": 1.4210854715202004e-14,
+      "samples": 272,
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": -46.5,
+      "source_edges": 20,
+      "native_edges": 20,
+      "source_perimeter_mm": 150.39999999999998,
+      "native_perimeter_mm": 150.40000000000003,
+      "relative_perimeter_error": 3.77948263702181e-16,
+      "symmetric_sampled_error_max_mm": 1.4210854715202004e-14,
+      "samples": 240,
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": 0.0,
+      "source_edges": 12,
+      "native_edges": 12,
+      "source_perimeter_mm": 148.0,
+      "native_perimeter_mm": 148.00000000000006,
+      "relative_perimeter_error": 3.8407715446491904e-16,
+      "symmetric_sampled_error_max_mm": 1.4210854715202004e-14,
+      "samples": 200,
+      "pass": true
+    },
+    {
+      "axis": "Y",
+      "offset_mm": 46.5,
+      "source_edges": 20,
+      "native_edges": 20,
+      "source_perimeter_mm": 150.39999999999998,
+      "native_perimeter_mm": 150.40000000000003,
+      "relative_perimeter_error": 3.77948263702181e-16,
+      "symmetric_sampled_error_max_mm": 1.4210854715202004e-14,
+      "samples": 240,
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": 4.5,
+      "source_edges": 76,
+      "native_edges": 76,
+      "source_perimeter_mm": 1620.4459912361363,
+      "native_perimeter_mm": 1620.4459912361074,
+      "relative_perimeter_error": 1.7820067399631407e-14,
+      "symmetric_sampled_error_max_mm": 2.071232074740692e-12,
+      "samples": 1816,
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": 5.5,
+      "source_edges": 76,
+      "native_edges": 76,
+      "source_perimeter_mm": 1620.4459912361363,
+      "native_perimeter_mm": 1620.4459912361074,
+      "relative_perimeter_error": 1.7820067399631407e-14,
+      "symmetric_sampled_error_max_mm": 2.071232074740692e-12,
+      "samples": 1816,
+      "pass": true
+    },
+    {
+      "axis": "Z",
+      "offset_mm": 6.5,
+      "source_edges": 76,
+      "native_edges": 76,
+      "source_perimeter_mm": 1620.4459912361363,
+      "native_perimeter_mm": 1620.4459912361074,
+      "relative_perimeter_error": 1.7820067399631407e-14,
+      "symmetric_sampled_error_max_mm": 2.071232074740692e-12,
+      "samples": 1816,
+      "pass": true
+    }
+  ],
+  "section_gate_passed": true,
+  "tolerances": {
+    "sampled_distance_mm": 0.05,
+    "relative_perimeter": 0.002
+  },
+  "scope": "Nine sampled planar cuts supplement the full-surface comparison. They do not replace functional datums, service-path or editability audits."
+}

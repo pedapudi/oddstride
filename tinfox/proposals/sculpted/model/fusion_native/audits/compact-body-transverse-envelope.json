@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "constant_section_service_cover",
+    "valid": true,
+    "solids": 1,
+    "source_volume_mm3": 216886.2133864604,
+    "candidate_volume_mm3": 216886.2133866108,
+    "relative_volume_error": 6.933566206072682e-13,
+    "maximum_boundary_error_mm": 8.492885334353155e-11,
+    "passed": true
+  },
+  {
+    "stage": "constant_section_rounded_cover",
+    "valid": true,
+    "solids": 1,
+    "source_volume_mm3": 301471.78751770826,
+    "candidate_volume_mm3": 301471.78765533504,
+    "relative_volume_error": 4.565162686486123e-10,
+    "maximum_boundary_error_mm": 8.289324765843126e-11,
+    "passed": true
+  },
+  {
+    "stage": "constant_section_current_cover",
+    "valid": true,
+    "solids": 1,
+    "source_volume_mm3": 259366.72022571537,
+    "candidate_volume_mm3": 259366.72028360568,
+    "relative_volume_error": 2.231986921675526e-10,
+    "maximum_boundary_error_mm": 1.0699086249344102e-09,
+    "passed": true
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "description": "Heavier cartridge design before the 10 kg target and sculpted torso revision.",
+  "model_sha256": "ad15071d7445ac311aa4facdfe723fe11da37cfa35ca02e714dd653e170f4b6c",
+  "mass": {
+    "categories_kg": {
+      "fabric": 0.144,
+      "petg": 3.033281,
+      "batteries": 2.2,
+      "aluminum": 3.062624,
+      "envelope": 0.0,
+      "motors": 4.860000000000002,
+      "steel": 1.800159999999999,
+      "rubber": 0.085004,
+      "compute_sensors_wiring_allowance": 1.4,
+      "unmodeled_mounts_cables_fasteners_allowance": 0.4
+    },
+    "base_kg": 16.985069000000003,
+    "status": "CAD solid volumes at PETG/aluminum/steel density, nominal motors, assumed packs and electronics. Not a weighed robot."
+  },
+  "battery_allowance_kg": 2.2,
+  "electronics_allowance_kg": 1.4
+}

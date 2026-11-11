@@ -1,0 +1,11 @@
+"""Bind installed native leg instances and purchased references to the frozen target."""
+import gzip,json,sys
+from pathlib import Path
+from run_native import rpc
+ROOT=Path(__file__).resolve().parents[1];target=json.loads((ROOT/'manifests/whole-robot-integration-target.json').read_text());model=json.loads(gzip.decompress((ROOT/target['reference_model']).read_bytes()));refs=json.loads((ROOT/'manifests/whole-purchased-reference-groups.json').read_text());reference_parts={p['name']:p for p in refs['parts']};mapping=json.loads((ROOT/'manifests/whole-native-component-map-candidate.json').read_text())['parts'];expected={p['name']:{f:p.get(f)for f in ['name','mesh','leg','group']}for p in model['parts']if p['name']in reference_parts or p['mesh']in mapping or p['mesh'].startswith('bench_stock_')};sys.path.insert(0,str(ROOT.parent));import kinematics as k
+k.P.update(model['parameters']);frames={leg:{name:m.tolist()for name,m in k.frames(leg,model['poses']['stand'][leg]).items()}for leg in k.LEGS};legs=[sys.argv[1]]if len(sys.argv)>1 else None
+s=(ROOT/'source/native_documents.py').read_text()+'\nimport adsk.core as core,adsk.fusion as fusion,json,time\n'+(ROOT/'source/current_assembly_inspection.py').read_text()+'''
+def run(_context:str):
+ app=core.Application.get();doc=authoring_document(app,'leg');doc.activate();d=fusion.Design.cast(app.activeProduct);tick=time.monotonic();result,bodies=current_native_instances(d,EXPECTED,REFERENCES,FRAMES,LEGS);result.update(saved_version=doc.dataFile.versionNumber,working_modified=doc.isModified,target_model_sha256=TARGET,elapsed_seconds=time.monotonic()-tick,scope='Current standing native group transforms and every installed custom/reference identity. Geometry fidelity, moving clearance and saved/reopen authority gates remain separately recorded.');print(json.dumps(result))
+'''.replace('EXPECTED',repr(expected)).replace('REFERENCES',repr(reference_parts)).replace('FRAMES',repr(frames)).replace('LEGS',repr(legs)).replace('TARGET',repr(target['model_sha256']))
+compile(s,'audit_current_native_legs.py','exec');tag='current-native-installed-'+(legs[0]if legs else'all');r=rpc(s,tag,timeout=600,read_only=True);assert r[0]['success'],r;record=json.loads(r[0]['message']);(ROOT/'audits'/(tag+'.json')).write_text(json.dumps(record,indent=2));print({k:v for k,v in record.items()if k not in ['instances','frames']})

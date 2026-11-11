@@ -1,0 +1,195 @@
+{
+  "save_requested": true,
+  "version": 5,
+  "complete": false,
+  "modified": false,
+  "before": {
+    "features": 112,
+    "sketches": 43,
+    "faces": 72,
+    "edges": 216
+  },
+  "after": {
+    "features": 15,
+    "sketches": 6,
+    "faces": 72,
+    "edges": 216
+  },
+  "parts": [
+    {
+      "part": "body_center_0",
+      "features": 96,
+      "sketches": 59,
+      "bodies": 1
+    },
+    {
+      "part": "lidar_lid",
+      "features": 2,
+      "sketches": 1,
+      "bodies": 1
+    },
+    {
+      "part": "power_button",
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1
+    },
+    {
+      "part": "battery_cassette",
+      "features": 81,
+      "sketches": 32,
+      "bodies": 1
+    },
+    {
+      "part": "electronics_shelf",
+      "features": 36,
+      "sketches": 15,
+      "bodies": 1
+    },
+    {
+      "part": "chassis_beam_102",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1
+    },
+    {
+      "part": "battery_latch_-1",
+      "features": 3,
+      "sketches": 1,
+      "bodies": 1
+    },
+    {
+      "part": "chassis_lower_brace",
+      "features": 26,
+      "sketches": 11,
+      "bodies": 1
+    },
+    {
+      "part": "battery_access_latch_-1",
+      "features": 3,
+      "sketches": 1,
+      "bodies": 1
+    },
+    {
+      "part": "chassis_beam_-102",
+      "features": 77,
+      "sketches": 34,
+      "bodies": 1
+    },
+    {
+      "part": "chassis_crossmember_-121",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1
+    },
+    {
+      "part": "battery_side_panel_1",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1
+    },
+    {
+      "part": "belly_center_0",
+      "features": 15,
+      "sketches": 6,
+      "bodies": 1
+    },
+    {
+      "part": "chassis_crossmember_121",
+      "features": 22,
+      "sketches": 16,
+      "bodies": 1
+    },
+    {
+      "part": "battery_access_latch_1",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1
+    },
+    {
+      "part": "battery_skid",
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1
+    },
+    {
+      "part": "battery_latch_1",
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1
+    },
+    {
+      "part": "battery_side_panel_-1",
+      "features": 12,
+      "sketches": 5,
+      "bodies": 1
+    }
+  ],
+  "capacity": {
+    "personal_plan": true,
+    "editable_file_count": 4,
+    "max_editable_file_count": 10,
+    "available_slots": 6,
+    "known_tinfox_editable_files": [
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:cwZZGJRSR5aVlwkk9TcEUA",
+        "name": "Tinfox - Head",
+        "part": "subsystem_head",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+        "name": "Tinfox - Native Master Assembly",
+        "part": "native_master",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:R7U8KNNBSA6o3YwVNF2ZQQ",
+        "name": "Tinfox - Chassis",
+        "part": "subsystem_chassis",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": true,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+        "name": "Tinfox - Leg module",
+        "part": "subsystem_leg",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": true,
+        "protected": true,
+        "manual_read_only_candidate": false
+      }
+    ],
+    "unmanaged_editable_file_count": 0,
+    "manual_read_only_candidates": [],
+    "unsaved_open_documents": 0,
+    "status_change_api_supported": false,
+    "status_note": "isReadOnly has no setter. The separately guarded set_document_editability.py invokes Fusion Make Editable/Make Read-Only commands and independently verifies status. Read-only can also reflect permissions or another editor.",
+    "new_cloud_files": 0,
+    "reserved_free_slots": 1,
+    "required_available_slots": 1,
+    "master_file_id": "urn:adsk.wipprod:dm.lineage:R7U8KNNBSA6o3YwVNF2ZQQ"
+  },
+  "paths": [
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/compact-lower-shell-final.step",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/Tinfox-Chassis-shared-shell-checkpoint.f3d"
+  ],
+  "elapsed_seconds": 43.98077333299443,
+  "source_of_truth_changed": false
+}

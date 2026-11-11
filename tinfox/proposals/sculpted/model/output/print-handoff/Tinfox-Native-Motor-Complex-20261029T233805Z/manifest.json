@@ -1,0 +1,953 @@
+{
+  "source_kind": "fusion-native",
+  "source_manifest_sha256": "634c9f4991e0f67bd73750ee33f552e96935e85200b7c383464f7bab32c0640f",
+  "source_manifest_relative": "manifests/dfma-integrated-motor-complex-exports.json",
+  "units": "mm",
+  "motor_count_required": 3,
+  "limb_components": 10,
+  "sliced": false,
+  "layout_bed_mm": [
+    325,
+    320,
+    325
+  ],
+  "layout_nozzle_mode": "single",
+  "hardware_overrides": [],
+  "print_orientation_overrides": {
+    "thigh_inner": {
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": -90
+    },
+    "thigh_outer": {
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": -90
+    },
+    "motor_carrier_1": {
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": 90
+    }
+  },
+  "parts": [
+    {
+      "part": "motor_carrier_1",
+      "quantity": 1,
+      "source": {
+        "component_part_number": "DFMA_REAR_LOADED_CUP_FL",
+        "saved_version": 37,
+        "features": 26,
+        "sketches": 19,
+        "native_bounds_mm": [
+          -71.5,
+          -48.4,
+          -44.0,
+          49.0,
+          29.000000000000004,
+          44.0
+        ],
+        "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+        "native_step": "exports/dfma-socket-fit-leg37/motor_carrier_1.step",
+        "native_step_sha256": "bece9f52922146b0386df118a8cde93dce3f1aab383cfb3d697d206eaae85894",
+        "native_3mf": "exports/dfma-socket-fit-leg37/motor_carrier_1.3mf",
+        "native_3mf_sha256": "4cc8753bec73571c2a89177ee14159879ffdeb9ab3b60b72627fdd613530cfc4"
+      },
+      "print_transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          11.25
+        ],
+        [
+          0.0,
+          6.123233995736766e-17,
+          -1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          6.123233995736766e-17,
+          48.4
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_mm": [
+        120.5,
+        87.998,
+        77.4
+      ],
+      "native_3mf_step_volume_relative_error": 2.830354991325347e-05
+    },
+    {
+      "part": "roll_cartridge_1",
+      "quantity": 1,
+      "source": {
+        "component_part_number": "DFMA_ROLL_HOUSING_FL",
+        "saved_version": 37,
+        "features": 13,
+        "sketches": 8,
+        "native_bounds_mm": [
+          -74.50000000000001,
+          -37.798780658685665,
+          -39.4454829849456,
+          -50.5,
+          39.99999999999999,
+          39.4454829849456
+        ],
+        "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+        "native_step": "exports/dfma-socket-fit-leg37/roll_cartridge_1.step",
+        "native_step_sha256": "2f05f28cabd727129cb644137c1b8d68ef199a29731fa4891cac6b29faa22222",
+        "native_3mf": "exports/dfma-socket-fit-leg37/roll_cartridge_1.3mf",
+        "native_3mf_sha256": "8c52c65f385d00362085a8b2289bab315486192eb503c9fea433309d57430de2"
+      },
+      "print_transform_mm": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          -1.0,
+          3.552713678800501e-15
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.1006080000000011
+        ],
+        [
+          1.0,
+          0.0,
+          6.123233995736766e-17,
+          74.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_mm": [
+        78.89096800000002,
+        77.798784,
+        24.0
+      ],
+      "native_3mf_step_volume_relative_error": 5.1428012752575176e-05
+    },
+    {
+      "part": "roll_stator_backplate_1",
+      "quantity": 1,
+      "source": {
+        "component_part_number": "DFMA_ROLL_BACKPLATE_FL",
+        "saved_version": 37,
+        "features": 5,
+        "sketches": 3,
+        "native_bounds_mm": [
+          -77.50000000000001,
+          -41.00000000000001,
+          -41.00000000000001,
+          -71.5,
+          41.00000000000001,
+          41.00000000000001
+        ],
+        "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+        "native_step": "exports/dfma-socket-fit-leg37/roll_stator_backplate_1.step",
+        "native_step_sha256": "73c73b8ee6b51d34173bd3feceb9ac01739eade1a011f499cd623e102ebd5124",
+        "native_3mf": "exports/dfma-socket-fit-leg37/roll_stator_backplate_1.3mf",
+        "native_3mf_sha256": "54363efce92ee10c14e1981beafe777bacfab6c65577bf15ab98012b5fa33253"
+      },
+      "print_transform_mm": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          -1.0,
+          7.105427357601002e-15
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          1.0,
+          0.0,
+          6.123233995736766e-17,
+          77.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_mm": [
+        82.0,
+        81.998,
+        6.0
+      ],
+      "native_3mf_step_volume_relative_error": 1.9054504591404834e-05
+    },
+    {
+      "part": "roll_outer_retainer_1",
+      "quantity": 1,
+      "source": {
+        "component_part_number": "DFMA_SHARED_ROLL_CAP_FL",
+        "saved_version": 37,
+        "features": 3,
+        "sketches": 2,
+        "native_bounds_mm": [
+          -50.50000000000001,
+          -40.5,
+          -40.5,
+          -47.5,
+          40.5,
+          40.5
+        ],
+        "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+        "native_step": "exports/dfma-socket-fit-leg37/roll_outer_retainer_1.step",
+        "native_step_sha256": "205c3c937f8fe5017b8405b6f7faed46dfb0688ab4ff9ae91302eedcb8b7b952",
+        "native_3mf": "exports/dfma-socket-fit-leg37/roll_outer_retainer_1.3mf",
+        "native_3mf_sha256": "5daec7e3f75c9554b3fb819ed6f94e4ce98a93d72321e223ab115f027e5a0a1f"
+      },
+      "print_transform_mm": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          -1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          1.0,
+          0.0,
+          6.123233995736766e-17,
+          50.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_mm": [
+        81.0,
+        81.0,
+        3.0
+      ],
+      "native_3mf_step_volume_relative_error": 1.6665152796709317e-05
+    },
+    {
+      "part": "roll_inner_backplate_1",
+      "quantity": 1,
+      "source": {
+        "component_part_number": "CANDIDATE_pr_roll_inner_backplate_1",
+        "saved_version": 37,
+        "features": 3,
+        "sketches": 2,
+        "native_bounds_mm": [
+          -73.5,
+          -26.25,
+          -26.25,
+          -71.5,
+          26.25,
+          26.25
+        ],
+        "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+        "native_step": "exports/dfma-socket-fit-leg37/roll_inner_backplate_1.step",
+        "native_step_sha256": "6a7e18a414ac15eed7e637b2a070dece8e5de090ce1068f79abeed2692713986",
+        "native_3mf": "exports/dfma-socket-fit-leg37/roll_inner_backplate_1.3mf",
+        "native_3mf_sha256": "cd8eefab8b627951b37e0bcc6634a503f6f639caddcc49b19297d6d77efc7d60"
+      },
+      "print_transform_mm": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          -1.0,
+          3.552713678800501e-15
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          1.0,
+          0.0,
+          6.123233995736766e-17,
+          73.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_mm": [
+        52.5,
+        52.5,
+        2.0
+      ],
+      "native_3mf_step_volume_relative_error": 5.077382886388864e-05
+    },
+    {
+      "part": "roll_inner_spacer_1",
+      "quantity": 1,
+      "source": {
+        "component_part_number": "CANDIDATE_pr_roll_inner_spacer_1",
+        "saved_version": 37,
+        "features": 1,
+        "sketches": 1,
+        "native_bounds_mm": [
+          -64.5,
+          -26.25,
+          -26.25,
+          -57.5,
+          26.25,
+          26.25
+        ],
+        "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+        "native_step": "exports/dfma-socket-fit-leg37/roll_inner_spacer_1.step",
+        "native_step_sha256": "7794a803f113cc5c30df680048195fa0a22e0a608c0a2862728ba355e5642023",
+        "native_3mf": "exports/dfma-socket-fit-leg37/roll_inner_spacer_1.3mf",
+        "native_3mf_sha256": "17db5cfaf4ce058c17bc2b2aadcc875bb9d5f6d6ade5ffe8e7e8917c713b9360"
+      },
+      "print_transform_mm": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          -1.0,
+          3.552713678800501e-15
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          1.0,
+          0.0,
+          6.123233995736766e-17,
+          64.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_mm": [
+        52.5,
+        52.5,
+        7.0
+      ],
+      "native_3mf_step_volume_relative_error": 5.10631996908595e-05
+    },
+    {
+      "part": "roll_outer_spacer_1",
+      "quantity": 1,
+      "source": {
+        "component_part_number": "CANDIDATE_pr_roll_outer_spacer_1",
+        "saved_version": 37,
+        "features": 1,
+        "sketches": 1,
+        "native_bounds_mm": [
+          -64.5,
+          -32.45,
+          -32.45,
+          -57.5,
+          32.45,
+          32.45
+        ],
+        "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+        "native_step": "exports/dfma-socket-fit-leg37/roll_outer_spacer_1.step",
+        "native_step_sha256": "0a6e3ef02d0f1df3e4f225cc7b768570731dbc9c8261df8aa50988750c4ebe02",
+        "native_3mf": "exports/dfma-socket-fit-leg37/roll_outer_spacer_1.3mf",
+        "native_3mf_sha256": "7afc8f4092fdba27aaf3cea681fc88815aed9beb37e847dd603d9f4de4cc27b3"
+      },
+      "print_transform_mm": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          -1.0,
+          0.000497000000006409
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          1.0,
+          0.0,
+          6.123233995736766e-17,
+          64.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_mm": [
+        64.89900600000001,
+        64.899504,
+        7.0
+      ],
+      "native_3mf_step_volume_relative_error": 2.076824384427045e-05
+    },
+    {
+      "part": "thigh_inner",
+      "quantity": 1,
+      "source": {
+        "component_part_number": "DFMA_THIGH_PRIMARY_FL",
+        "saved_version": 37,
+        "features": 22,
+        "sketches": 14,
+        "native_bounds_mm": [
+          -45.58933669274409,
+          0.0,
+          -191.5,
+          28.616214065524083,
+          67.0,
+          51.000000000000014
+        ],
+        "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+        "native_step": "exports/dfma-socket-fit-leg37/thigh_inner.step",
+        "native_step_sha256": "fef1444699941c4913abd2ebd52a65104cbaabbde6d068c8ae97fcf31354a6aa",
+        "native_3mf": "exports/dfma-socket-fit-leg37/thigh_inner.3mf",
+        "native_3mf_sha256": "f2df539acfaef9007410f665bfda1558ea0b4703858c686ed0ff344a056a6a9b"
+      },
+      "print_transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          8.486537000000002
+        ],
+        [
+          0.0,
+          6.123233995736766e-17,
+          1.0,
+          70.25
+        ],
+        [
+          0.0,
+          -1.0,
+          6.123233995736766e-17,
+          67.00000000000001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_mm": [
+        74.205502,
+        242.5,
+        67.00000000000001
+      ],
+      "native_3mf_step_volume_relative_error": 1.43795708172436e-06
+    },
+    {
+      "part": "thigh_outer",
+      "quantity": 1,
+      "source": {
+        "component_part_number": "DFMA_THIGH_SECONDARY_FL",
+        "saved_version": 37,
+        "features": 11,
+        "sketches": 5,
+        "native_bounds_mm": [
+          -45.58933669274409,
+          9.000000000000004,
+          -191.5,
+          44.71220316700585,
+          97.00000000000001,
+          51.000000000000014
+        ],
+        "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+        "native_step": "exports/dfma-socket-fit-leg37/thigh_outer.step",
+        "native_step_sha256": "99cc2eadaf77d530e46775748e600b75f320bfae9e0f81e32d2510e2ba4b4749",
+        "native_3mf": "exports/dfma-socket-fit-leg37/thigh_outer.3mf",
+        "native_3mf_sha256": "18d12290f6783ff0ff373dac2ed8dab960db825ffe1259e773758a98c0952dc0"
+      },
+      "print_transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.43856600000000157
+        ],
+        [
+          0.0,
+          6.123233995736766e-17,
+          1.0,
+          70.25
+        ],
+        [
+          0.0,
+          -1.0,
+          6.123233995736766e-17,
+          97.00000000000001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_mm": [
+        90.301444,
+        242.5,
+        88.00000000000001
+      ],
+      "native_3mf_step_volume_relative_error": 1.0665108658908115e-05
+    },
+    {
+      "part": "input_crank",
+      "quantity": 1,
+      "source": {
+        "component_part_number": "CANDIDATE_mc_input_crank",
+        "saved_version": 37,
+        "features": 18,
+        "sketches": 12,
+        "native_bounds_mm": [
+          -18.0,
+          54.400000000000006,
+          -18.0,
+          38.50000000000001,
+          86.0,
+          18.0
+        ],
+        "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+        "native_step": "exports/dfma-socket-fit-leg37/input_crank.step",
+        "native_step_sha256": "a81266264783f62ca16a7703f63388a06baa2cba48ec1f7ebbd13b780bb9aa17",
+        "native_3mf": "exports/dfma-socket-fit-leg37/input_crank.3mf",
+        "native_3mf_sha256": "c0f2a40098898e61101071614db4a916418491d3f697de906278189e71523178"
+      },
+      "print_transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -10.25
+        ],
+        [
+          0.0,
+          6.123233995736766e-17,
+          -1.0,
+          -3.552713678800501e-15
+        ],
+        [
+          0.0,
+          1.0,
+          6.123233995736766e-17,
+          -54.4
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_mm": [
+        56.5,
+        36.0,
+        31.6
+      ],
+      "native_3mf_step_volume_relative_error": 3.1031400951061125e-05
+    },
+    {
+      "part": "fit-only-stator-compression-tube",
+      "quantity": 4,
+      "source": {
+        "component_part_number": "DFMA_STATOR_TUBE_34",
+        "saved_version": 37,
+        "features": 1,
+        "sketches": 1,
+        "native_bounds_mm": [
+          -3.0000000000000004,
+          0.0,
+          -3.0000000000000004,
+          3.0000000000000004,
+          39.0,
+          3.0000000000000004
+        ],
+        "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+        "native_3mf": "exports/dfma-socket-fit-leg37/fit-only-stator-compression-tube.3mf",
+        "native_3mf_sha256": "b67f8c22c54b5f6be0a9233039677a28aab874103054bc564dce5d65679e528a",
+        "part": "fit-only-stator-compression-tube",
+        "quantity": 4,
+        "nominal_od_id_length_mm": [
+          6,
+          4,
+          39
+        ]
+      },
+      "print_transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          6.123233995736766e-17,
+          -1.0,
+          -1.1102230246251565e-15
+        ],
+        [
+          0.0,
+          1.0,
+          6.123233995736766e-17,
+          1.8369701987210297e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_mm": [
+        6.0,
+        6.000000000000002,
+        39.0
+      ],
+      "status": "Optional printed dimensional surrogate; finger-tight unpowered fit only."
+    },
+    {
+      "part": "fit-only-thigh-clamp-sleeve",
+      "quantity": 2,
+      "source": {
+        "component_part_number": "DFMA_CLAMP_TUBE_31",
+        "saved_version": 37,
+        "features": 1,
+        "sketches": 1,
+        "native_bounds_mm": [
+          -4.0,
+          0.0,
+          -4.0,
+          4.0,
+          29.000000000000004,
+          4.0
+        ],
+        "coordinate_system": "Native component coordinates in millimetres; print orientation is a separate recorded transform.",
+        "native_3mf": "exports/dfma-socket-fit-leg37/fit-only-thigh-clamp-sleeve.3mf",
+        "native_3mf_sha256": "04b51e4983c3aa939aa9c8230284b484baf4cbde67a5c94ad308b28214416f3e",
+        "part": "fit-only-thigh-clamp-sleeve",
+        "quantity": 2,
+        "nominal_od_id_length_mm": [
+          8,
+          4.3,
+          29
+        ]
+      },
+      "print_transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          6.123233995736766e-17,
+          -1.0,
+          -8.881784197001252e-16
+        ],
+        [
+          0.0,
+          1.0,
+          6.123233995736766e-17,
+          2.4492935982947064e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "bounds_mm": [
+        8.0,
+        8.000000000000002,
+        29.0
+      ],
+      "status": "Optional printed dimensional surrogate; finger-tight unpowered fit only."
+    }
+  ],
+  "plates": [
+    {
+      "file": "plates/01-roll-and-hip-carrier.3mf",
+      "objects": [
+        "motor_carrier_1",
+        "roll_cartridge_1",
+        "roll_stator_backplate_1",
+        "roll_outer_retainer_1",
+        "roll_inner_backplate_1",
+        "roll_inner_spacer_1",
+        "roll_outer_spacer_1"
+      ],
+      "bounds_mm": {
+        "motor_carrier_1": [
+          [
+            10.0,
+            10.0,
+            0.0
+          ],
+          [
+            130.5,
+            97.998,
+            77.4
+          ]
+        ],
+        "roll_stator_backplate_1": [
+          [
+            140.5,
+            10.0,
+            0.0
+          ],
+          [
+            222.5,
+            91.998,
+            6.0
+          ]
+        ],
+        "roll_outer_retainer_1": [
+          [
+            232.5,
+            10.0,
+            0.0
+          ],
+          [
+            313.5,
+            91.0,
+            3.0
+          ]
+        ],
+        "roll_cartridge_1": [
+          [
+            10.0,
+            107.99799999999999,
+            0.0
+          ],
+          [
+            88.89096800000002,
+            185.796784,
+            24.0
+          ]
+        ],
+        "roll_outer_spacer_1": [
+          [
+            98.89096800000003,
+            107.99800000000002,
+            0.0
+          ],
+          [
+            163.78997400000003,
+            172.897504,
+            7.0
+          ]
+        ],
+        "roll_inner_backplate_1": [
+          [
+            173.78997400000003,
+            107.99799999999999,
+            0.0
+          ],
+          [
+            226.28997400000003,
+            160.498,
+            2.0
+          ]
+        ],
+        "roll_inner_spacer_1": [
+          [
+            236.28997400000003,
+            107.99799999999999,
+            0.0
+          ],
+          [
+            288.78997400000003,
+            160.498,
+            7.0
+          ]
+        ]
+      }
+    },
+    {
+      "file": "plates/02-thigh-motor-housing.3mf",
+      "objects": [
+        "thigh_inner",
+        "thigh_outer"
+      ],
+      "bounds_mm": {
+        "thigh_inner": [
+          [
+            10.0,
+            10.0,
+            0.0
+          ],
+          [
+            84.205502,
+            252.5,
+            67.00000000000001
+          ]
+        ],
+        "thigh_outer": [
+          [
+            94.205502,
+            10.0,
+            0.0
+          ],
+          [
+            184.506946,
+            252.5,
+            88.00000000000001
+          ]
+        ]
+      }
+    },
+    {
+      "file": "plates/03-motor-flanges-and-crank.3mf",
+      "objects": [
+        "input_crank"
+      ],
+      "bounds_mm": {
+        "input_crank": [
+          [
+            10.0,
+            10.0,
+            0.0
+          ],
+          [
+            66.5,
+            46.0,
+            31.6
+          ]
+        ]
+      }
+    },
+    {
+      "file": "plates/04-optional-fit-only-sleeves.3mf",
+      "objects": [
+        "fit-only-thigh-clamp-sleeve-1",
+        "fit-only-thigh-clamp-sleeve-2",
+        "fit-only-stator-compression-tube-1",
+        "fit-only-stator-compression-tube-2",
+        "fit-only-stator-compression-tube-3",
+        "fit-only-stator-compression-tube-4"
+      ],
+      "bounds_mm": {
+        "fit-only-thigh-clamp-sleeve-1": [
+          [
+            10.0,
+            10.0,
+            0.0
+          ],
+          [
+            18.0,
+            18.0,
+            29.0
+          ]
+        ],
+        "fit-only-thigh-clamp-sleeve-2": [
+          [
+            28.0,
+            10.0,
+            0.0
+          ],
+          [
+            36.0,
+            18.0,
+            29.0
+          ]
+        ],
+        "fit-only-stator-compression-tube-1": [
+          [
+            46.0,
+            10.0,
+            0.0
+          ],
+          [
+            52.0,
+            16.000000000000004,
+            39.0
+          ]
+        ],
+        "fit-only-stator-compression-tube-2": [
+          [
+            62.0,
+            10.0,
+            0.0
+          ],
+          [
+            68.0,
+            16.000000000000004,
+            39.0
+          ]
+        ],
+        "fit-only-stator-compression-tube-3": [
+          [
+            78.0,
+            10.0,
+            0.0
+          ],
+          [
+            84.0,
+            16.000000000000004,
+            39.0
+          ]
+        ],
+        "fit-only-stator-compression-tube-4": [
+          [
+            94.0,
+            10.0,
+            0.0
+          ],
+          [
+            100.0,
+            16.000000000000004,
+            39.0
+          ]
+        ]
+      }
+    }
+  ],
+  "scope": "Detached supported unpowered fit assembly only."
+}

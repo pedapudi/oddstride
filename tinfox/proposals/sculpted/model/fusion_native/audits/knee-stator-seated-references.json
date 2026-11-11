@@ -1,0 +1,191 @@
+{
+  "saved_version": 20,
+  "working_modified": true,
+  "candidate_only": true,
+  "references": [
+    {
+      "name": "Knee stator M3x8 20",
+      "component": "BENCH_REFERENCE_KNEE_DIN7991_20",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/knee-seated-reference-20.step",
+      "bounds_mm": [
+        31.348780658685662,
+        45.50000000000001,
+        9.533735231386906,
+        37.24878065868566,
+        53.50000000000001,
+        15.433735231386908
+      ],
+      "volume_mm3": 69.64897823039854
+    },
+    {
+      "name": "Knee stator M3x8 60",
+      "component": "BENCH_REFERENCE_KNEE_DIN7991_60",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/knee-seated-reference-60.step",
+      "bounds_mm": [
+        15.300000000000008,
+        45.50000000000001,
+        28.659927238132013,
+        21.200000000000006,
+        53.50000000000001,
+        34.55992723813201
+      ],
+      "volume_mm3": 69.64897823040236
+    },
+    {
+      "name": "Knee stator M3x8 100",
+      "component": "BENCH_REFERENCE_KNEE_DIN7991_100",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/knee-seated-reference-100.step",
+      "bounds_mm": [
+        -9.288158484842956,
+        45.50000000000001,
+        32.995482984945596,
+        -3.388158484842956,
+        53.50000000000001,
+        38.895482984945595
+      ],
+      "volume_mm3": 69.64897823040366
+    },
+    {
+      "name": "Knee stator M3x8 140",
+      "component": "BENCH_REFERENCE_KNEE_DIN7991_140",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/knee-seated-reference-140.step",
+      "bounds_mm": [
+        -30.910622173842697,
+        45.50000000000001,
+        20.511747753558698,
+        -25.010622173842698,
+        53.50000000000001,
+        26.411747753558696
+      ],
+      "volume_mm3": 69.6489782304003
+    },
+    {
+      "name": "Knee stator M3x8 180",
+      "component": "BENCH_REFERENCE_KNEE_DIN7991_180",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/knee-seated-reference-180.step",
+      "bounds_mm": [
+        -39.45,
+        45.50000000000001,
+        -2.9499999999999957,
+        -33.550000000000004,
+        53.50000000000001,
+        2.9500000000000046
+      ],
+      "volume_mm3": 69.64897823039784
+    },
+    {
+      "name": "Knee stator M3x8 220",
+      "component": "BENCH_REFERENCE_KNEE_DIN7991_220",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/knee-seated-reference-220.step",
+      "bounds_mm": [
+        -30.910622173842704,
+        45.50000000000001,
+        -26.411747753558686,
+        -25.010622173842705,
+        53.50000000000001,
+        -20.511747753558687
+      ],
+      "volume_mm3": 69.64897823040032
+    },
+    {
+      "name": "Knee stator M3x8 260",
+      "component": "BENCH_REFERENCE_KNEE_DIN7991_260",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/knee-seated-reference-260.step",
+      "bounds_mm": [
+        -9.288158484842956,
+        45.50000000000001,
+        -38.895482984945595,
+        -3.388158484842956,
+        53.50000000000001,
+        -32.995482984945596
+      ],
+      "volume_mm3": 69.64897823040367
+    },
+    {
+      "name": "Knee stator M3x8 300",
+      "component": "BENCH_REFERENCE_KNEE_DIN7991_300",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/knee-seated-reference-300.step",
+      "bounds_mm": [
+        15.300000000000008,
+        45.50000000000001,
+        -34.55992723813201,
+        21.200000000000006,
+        53.50000000000001,
+        -28.659927238132013
+      ],
+      "volume_mm3": 69.64897823040234
+    },
+    {
+      "name": "Knee stator M3x8 340",
+      "component": "BENCH_REFERENCE_KNEE_DIN7991_340",
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/knee-seated-reference-340.step",
+      "bounds_mm": [
+        31.348780658685662,
+        45.50000000000001,
+        -15.433735231386905,
+        37.24878065868566,
+        53.50000000000001,
+        -9.533735231386904
+      ],
+      "volume_mm3": 69.64897823039855
+    }
+  ],
+  "native_checks": [
+    {
+      "angle_deg": 20,
+      "plate_interference_mm3": 0,
+      "all_crank_y_rotations_axial_gap_lower_bound_mm": 0.8999999999999986,
+      "gap_note": "Whole-crank bound includes its lower axial hub; local fork/head gap is assessed separately on exported solids."
+    },
+    {
+      "angle_deg": 60,
+      "plate_interference_mm3": 0,
+      "all_crank_y_rotations_axial_gap_lower_bound_mm": 0.8999999999999986,
+      "gap_note": "Whole-crank bound includes its lower axial hub; local fork/head gap is assessed separately on exported solids."
+    },
+    {
+      "angle_deg": 100,
+      "plate_interference_mm3": 0,
+      "all_crank_y_rotations_axial_gap_lower_bound_mm": 0.8999999999999986,
+      "gap_note": "Whole-crank bound includes its lower axial hub; local fork/head gap is assessed separately on exported solids."
+    },
+    {
+      "angle_deg": 140,
+      "plate_interference_mm3": 0,
+      "all_crank_y_rotations_axial_gap_lower_bound_mm": 0.8999999999999986,
+      "gap_note": "Whole-crank bound includes its lower axial hub; local fork/head gap is assessed separately on exported solids."
+    },
+    {
+      "angle_deg": 180,
+      "plate_interference_mm3": 0,
+      "all_crank_y_rotations_axial_gap_lower_bound_mm": 0.8999999999999986,
+      "gap_note": "Whole-crank bound includes its lower axial hub; local fork/head gap is assessed separately on exported solids."
+    },
+    {
+      "angle_deg": 220,
+      "plate_interference_mm3": 0,
+      "all_crank_y_rotations_axial_gap_lower_bound_mm": 0.8999999999999986,
+      "gap_note": "Whole-crank bound includes its lower axial hub; local fork/head gap is assessed separately on exported solids."
+    },
+    {
+      "angle_deg": 260,
+      "plate_interference_mm3": 0,
+      "all_crank_y_rotations_axial_gap_lower_bound_mm": 0.8999999999999986,
+      "gap_note": "Whole-crank bound includes its lower axial hub; local fork/head gap is assessed separately on exported solids."
+    },
+    {
+      "angle_deg": 300,
+      "plate_interference_mm3": 0,
+      "all_crank_y_rotations_axial_gap_lower_bound_mm": 0.8999999999999986,
+      "gap_note": "Whole-crank bound includes its lower axial hub; local fork/head gap is assessed separately on exported solids."
+    },
+    {
+      "angle_deg": 340,
+      "plate_interference_mm3": 0,
+      "all_crank_y_rotations_axial_gap_lower_bound_mm": 0.8999999999999986,
+      "gap_note": "Whole-crank bound includes its lower axial hub; local fork/head gap is assessed separately on exported solids."
+    }
+  ],
+  "elapsed_seconds": 80.97460329195019,
+  "scope": "Nominal reference seating and aligned crank clearance. Not stock availability or printed preload qualification."
+}

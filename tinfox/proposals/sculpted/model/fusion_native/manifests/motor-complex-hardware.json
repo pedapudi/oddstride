@@ -1,0 +1,2132 @@
+{
+  "source_model_sha256": "b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6",
+  "geometry_role": "Purchased hardware/vendor references only. No custom structure is imported. Exact stock and physical fit remain to be measured.",
+  "path": "snapshots/motor-complex-reference-hardware/motor-complex-purchased-references.step",
+  "sha256": "7ddbdfc46898f2547281a9014f205322e9ab86d46e4d60ef8d67268a295ea1c8",
+  "parts": [
+    {
+      "name": "Roll motor",
+      "role": "vendor_motor",
+      "provenance": {
+        "source_step": "snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/roll_motor_1.step",
+        "sha256": "577d8f0cdd58ad4b399d7eb2bd45ba8f1a2a073e79f87d44dd745620d597a4a2",
+        "translation_mm": [
+          -11.2,
+          0,
+          0
+        ],
+        "frozen_motor_vertex_samples": 940,
+        "max_vertex_error_mm": 5.734285926249076e-07
+      },
+      "bounds_mm": [
+        -123.9,
+        -39.25000000000001,
+        -39.25,
+        -78.5,
+        39.25,
+        39.25
+      ],
+      "volume_mm3": 204403.2064883337
+    },
+    {
+      "name": "Hip pitch motor",
+      "role": "vendor_motor",
+      "provenance": {
+        "source_step": "snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/hip_motor.step",
+        "sha256": "860d272a7da0e0dd0e8584b3e0e54713af5f51bf3989f394848d8e23f399eb09",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "frozen_motor_vertex_samples": 940,
+        "max_vertex_error_mm": 5.73428592694993e-07
+      },
+      "bounds_mm": [
+        -39.25,
+        -45.4,
+        -39.25,
+        39.25,
+        0.0,
+        39.25
+      ],
+      "volume_mm3": 204403.20648833364
+    },
+    {
+      "name": "Knee pitch motor",
+      "role": "vendor_motor",
+      "provenance": {
+        "source_step": "snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/knee_motor.step",
+        "sha256": "fefb5120a4922808a37df220dceb6552e6b94fbf18c66aa098657ab5d7c8e6ba",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "frozen_motor_vertex_samples": 940,
+        "max_vertex_error_mm": 5.427400517481689e-07
+      },
+      "bounds_mm": [
+        -39.25,
+        9.0,
+        -39.25,
+        39.25,
+        54.4,
+        39.25
+      ],
+      "volume_mm3": 204403.20648833356
+    },
+    {
+      "name": "FL_bolt_0",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/bolt_0.step",
+        "sha256": "16609f1de5e55750aa94fedacdd2f93255c4e3ded00960dba494b4d307edd29a",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -39.8,
+        54.8,
+        -69.8,
+        -32.2,
+        82.0,
+        -62.2
+      ],
+      "volume_mm3": 413.96138077821473
+    },
+    {
+      "name": "FL_bolt_1",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/bolt_1.step",
+        "sha256": "d6ff1b83863ae00d4e99e2c88ecd19e69ca5f123e3abbbbc44c4ff00b8caf9e5",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        1.2000000000000002,
+        54.8,
+        -73.8,
+        8.8,
+        82.0,
+        -66.2
+      ],
+      "volume_mm3": 413.96138077821473
+    },
+    {
+      "name": "FL_hip_port_-1_socket",
+      "role": "connector_socket",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_hip_port_-1_socket_paired_front1.step",
+        "sha256": "7500f208f45f0524776457146d9024b7444f617d38d079b2393d5a0ed1589a9d",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -27.27950418638111,
+        -40.2,
+        -33.30498103637,
+        -10.8736219418593,
+        -35.0,
+        -18.82465512811
+      ],
+      "volume_mm3": 245.95999999985855
+    },
+    {
+      "name": "FL_hip_port_-1_plug",
+      "role": "connector_plug",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_hip_port_-1_plug_paired_front1.step",
+        "sha256": "aa9d633be3d9e31ea8558df97a069241adef8f4612bcca99a8caa273bbcb783b",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -30.004486226765813,
+        -39.7,
+        -37.84734209076163,
+        -13.109727509477674,
+        -35.5,
+        -21.06076069573
+      ],
+      "volume_mm3": 609.5880000000645
+    },
+    {
+      "name": "FL_hip_port_-1_boot",
+      "role": "connector_boot",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_hip_port_-1_boot_paired_front1.step",
+        "sha256": "7aba273f7bcaeac289dde73b554a911592a47f43a8f0684f3c18f198371dbeaf",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -35.2281223215,
+        -42.1,
+        -44.293381927050696,
+        -18.39887229838,
+        -33.1,
+        -28.9786144156
+      ],
+      "volume_mm3": 1080.0000000002226
+    },
+    {
+      "name": "FL_hip_port_-1_cable",
+      "role": "connector_cable",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_hip_port_-1_cable_paired_front1.step",
+        "sha256": "c142a6ceaea350834d82afecfc247c8b54d4d213a03d0a9df55affb87f2b922b",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -31.02222411108,
+        -33.6,
+        -41.1043505459,
+        -24.02222411108,
+        -11.6,
+        -34.1043505459
+      ],
+      "volume_mm3": 846.6592201424494
+    },
+    {
+      "name": "FL_hip_port_1_socket",
+      "role": "connector_socket",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_hip_port_1_socket_paired_front1.step",
+        "sha256": "37571589528bd885e45e04a110bab6484ac4c1ec106b712e7c87e36156814212",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        10.87362194186243,
+        -40.2,
+        18.824655128116,
+        27.27950418638457,
+        -35.0,
+        33.304981036374485
+      ],
+      "volume_mm3": 245.9600000000205
+    },
+    {
+      "name": "FL_hip_port_1_plug",
+      "role": "connector_plug",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_hip_port_1_plug_paired_front1.step",
+        "sha256": "72a45886eb150145e7317dfa5e7c780b0a0795e4967bff0cf370405c2fffd476",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        13.10972750948471,
+        -39.7,
+        21.060760695738,
+        30.004486226769288,
+        -35.5,
+        37.84734209076029
+      ],
+      "volume_mm3": 609.5880000000094
+    },
+    {
+      "name": "FL_hip_port_1_boot",
+      "role": "connector_boot",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_hip_port_1_boot_paired_front1.step",
+        "sha256": "7d393da7a19051cf78b1a7b0bd4baad7f834e9a2c7c80ddfdb1313b985324c5a",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        18.39887229838543,
+        -42.1,
+        28.978614415604,
+        35.22812232150357,
+        -33.1,
+        44.293381927053694
+      ],
+      "volume_mm3": 1080.0000000000152
+    },
+    {
+      "name": "FL_hip_port_1_cable",
+      "role": "connector_cable",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_hip_port_1_cable_paired_front1.step",
+        "sha256": "2fc459bea932b5cc172e71afc973ac90cb9b8b6d6ae778415e41a6f4bc649527",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        24.022224111089002,
+        -33.6,
+        34.104350545901,
+        31.022224111089002,
+        -11.6,
+        41.104350545901
+      ],
+      "volume_mm3": 846.6592201424494
+    },
+    {
+      "name": "FL_knee_port_-1_socket",
+      "role": "connector_socket",
+      "provenance": {
+        "source_step": "snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/FL_knee_port_-1_socket.step",
+        "sha256": "379460868e84c11fdfa8039431206ddb1d249ebe3e4130f8f7b3793e6105ab6e",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        4.611876168382036,
+        14.2,
+        -35.70004022218104,
+        21.457149975983967,
+        19.4,
+        -23.40635432091
+      ],
+      "volume_mm3": 245.96000000005648
+    },
+    {
+      "name": "FL_knee_port_-1_plug",
+      "role": "connector_plug",
+      "provenance": {
+        "source_step": "snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/FL_knee_port_-1_plug.step",
+        "sha256": "fb3babb570b35d6bfe8982db4546bf80c63e6cfa3f3ef70528237d41274aa524",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        6.721484111103836,
+        14.7,
+        -41.276093489401624,
+        22.737322522623167,
+        18.9,
+        -25.51596226363
+      ],
+      "volume_mm3": 609.5880000002124
+    },
+    {
+      "name": "FL_knee_port_-1_boot",
+      "role": "connector_boot",
+      "provenance": {
+        "source_step": "snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/FL_knee_port_-1_boot.step",
+        "sha256": "56946aefad28de7d1d904b1b6817f69287c4950ef5ace3532a5b9309e908cd8a",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        9.844577760116673,
+        12.300000000001,
+        -48.22559731442111,
+        26.797335148688017,
+        21.300000000001,
+        -34.85274052634
+      ],
+      "volume_mm3": 1079.9999999996746
+    },
+    {
+      "name": "FL_knee_port_-1_cable",
+      "role": "connector_cable",
+      "provenance": {
+        "source_step": "snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/FL_knee_port_-1_cable.step",
+        "sha256": "887e95cdf085bf246520985dd4aa0f3461cb2695804ae38a57dc71273f32071e",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        15.305210810020998,
+        20.8,
+        -46.1371205218,
+        22.305210810021,
+        42.8,
+        -39.1371205218
+      ],
+      "volume_mm3": 846.6592201424494
+    },
+    {
+      "name": "FL_knee_port_1_socket",
+      "role": "connector_socket",
+      "provenance": {
+        "source_step": "snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/FL_knee_port_1_socket.step",
+        "sha256": "9e969502fa278ed92b3c5c3da2800bddc697a986d61748dce1580b984f2fd40b",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -21.45714997598352,
+        14.2,
+        23.406354320914,
+        -4.611876168382828,
+        19.4,
+        35.7000402221862
+      ],
+      "volume_mm3": 245.9600000000425
+    },
+    {
+      "name": "FL_knee_port_1_plug",
+      "role": "connector_plug",
+      "provenance": {
+        "source_step": "snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/FL_knee_port_1_plug.step",
+        "sha256": "3cc47629b79e0045f19a435272535592fd344f337fc6dec137676232010ad373",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -22.737322522612807,
+        14.7,
+        25.515962263637,
+        -6.721484111107191,
+        18.9,
+        41.2760934894
+      ],
+      "volume_mm3": 609.5879999997844
+    },
+    {
+      "name": "FL_knee_port_1_boot",
+      "role": "connector_boot",
+      "provenance": {
+        "source_step": "snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/FL_knee_port_1_boot.step",
+        "sha256": "cc0afbbdc87b78335f8e25b18272d2dd9514e9b48f2a37883dbc37d2dbb7ef7b",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -26.797335148682215,
+        12.3,
+        34.852740526341,
+        -9.844577760114483,
+        21.3,
+        48.225597314425
+      ],
+      "volume_mm3": 1079.999999999567
+    },
+    {
+      "name": "FL_knee_port_1_cable",
+      "role": "connector_cable",
+      "provenance": {
+        "source_step": "snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/FL_knee_port_1_cable.step",
+        "sha256": "7f35c230cbfc4bfeff3c8016d6ab306bacc7b6eff28ff2eb3f01554057550cf0",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -22.30521081002,
+        20.8,
+        39.137120521802,
+        -15.30521081002,
+        42.8,
+        46.137120521802
+      ],
+      "volume_mm3": 846.6592201424493
+    },
+    {
+      "name": "FL_roll_port_-1_socket",
+      "role": "connector_socket",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_roll_port_-1_socket_paired_front1.step",
+        "sha256": "20cfb57979638cdbb67a2ffee49e6948f95741b001e57a0651dddefa50722baf",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -118.7,
+        10.87362194186195,
+        -33.30498103637014,
+        -113.5,
+        27.279504186385047,
+        -18.82465512811
+      ],
+      "volume_mm3": 245.95999999992043
+    },
+    {
+      "name": "FL_roll_port_-1_plug",
+      "role": "connector_plug",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_roll_port_-1_plug_paired_front1.step",
+        "sha256": "b4a735feeaa152bb27d4c0d3aa775885da3a4b0b4e9d35b8fdee9f3d91246f6d",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -118.2,
+        13.109727509482324,
+        -37.84734209076,
+        -114.0,
+        30.004486226771675,
+        -21.06076069573
+      ],
+      "volume_mm3": 609.588000000142
+    },
+    {
+      "name": "FL_roll_port_-1_boot",
+      "role": "connector_boot",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_roll_port_-1_boot_paired_front1.step",
+        "sha256": "23831e12f526cd5812e7578b2fa31666974527007634a1b748927553600bcdb8",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -120.6,
+        18.39887229838495,
+        -44.293381927050696,
+        -111.6,
+        35.228122321504046,
+        -28.9786144156
+      ],
+      "volume_mm3": 1080.0000000000218
+    },
+    {
+      "name": "FL_roll_port_-1_cable",
+      "role": "connector_cable",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_roll_port_-1_cable_paired_front1.step",
+        "sha256": "fa81e02254113a12a535ddbd91dda735b3ff96f056ec5eea09cee6ed7359942a",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -112.1,
+        24.022224111089,
+        -41.1043505459,
+        -90.1,
+        31.022224111089,
+        -34.1043505459
+      ],
+      "volume_mm3": 846.6592201424493
+    },
+    {
+      "name": "FL_roll_port_1_socket",
+      "role": "connector_socket",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_roll_port_1_socket_paired_front1.step",
+        "sha256": "0382fc41a7e55c79931f41686e5b444beef6d531a6fc6d42a0ef45e176776157",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -118.7,
+        -27.279504186380635,
+        18.824655128116,
+        -113.5,
+        -10.87362194185978,
+        33.304981036374
+      ],
+      "volume_mm3": 245.95999999995965
+    },
+    {
+      "name": "FL_roll_port_1_plug",
+      "role": "connector_plug",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_roll_port_1_plug_paired_front1.step",
+        "sha256": "c565d09ba0dbc7168f9835e355135e217985ac0d54ce82c075fd16aee61a77bb",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -118.2,
+        -30.004486226763433,
+        21.06076069573792,
+        -114.0,
+        -13.10972750948,
+        37.84734209076267
+      ],
+      "volume_mm3": 609.587999999932
+    },
+    {
+      "name": "FL_roll_port_1_boot",
+      "role": "connector_boot",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_roll_port_1_boot_paired_front1.step",
+        "sha256": "a8054dfa9e1dcd73dc09a1cc24e6d3e60a78ed6657c135a0ca25cca37fe6e6fd",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -120.6,
+        -35.2281223215,
+        28.978614415603346,
+        -111.6,
+        -18.39887229838,
+        44.293381927053694
+      ],
+      "volume_mm3": 1080.0000000002162
+    },
+    {
+      "name": "FL_roll_port_1_cable",
+      "role": "connector_cable",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/FL_roll_port_1_cable_paired_front1.step",
+        "sha256": "3ef6a2e92ca4efd3b9d8954f89327c7d39dd94d6bf28a6f38d534d8be6e8fabd",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -112.1,
+        -31.02222411108,
+        34.104350545901,
+        -90.1,
+        -24.02222411108,
+        41.104350545901
+      ],
+      "volume_mm3": 846.6592201424493
+    },
+    {
+      "name": "FL_thigh_clamp_nut_0",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/thigh_clamp_nut_0.step",
+        "sha256": "041b22e9604d467b1dbd6bc31c897f94f4602c071d9a1943e06a065c338da9b7",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -40.041451884323536,
+        77.0,
+        -69.5,
+        -31.95854811566646,
+        80.2,
+        -62.5
+      ],
+      "volume_mm3": 95.58039734745162
+    },
+    {
+      "name": "FL_thigh_clamp_nut_1",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/thigh_clamp_nut_1.step",
+        "sha256": "1af7ed2e49b9f046ccc5bbd27c0099d73ab16572f8273090bf8576d3595a0269",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        0.9585481156764644,
+        77.0,
+        -73.5,
+        9.041451884333537,
+        80.2,
+        -66.5
+      ],
+      "volume_mm3": 95.58039734745157
+    },
+    {
+      "name": "FL_thigh_clamp_washer_0_inner",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/thigh_clamp_washer_0_inner.step",
+        "sha256": "3ea72d9426ef398763d02acff12d8a99c531929da93bd83ce28f2d8b23cf64fa",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -42.0,
+        57.0,
+        -72.0,
+        -30.0,
+        58.0,
+        -60.0
+      ],
+      "volume_mm3": 98.57532348801593
+    },
+    {
+      "name": "FL_thigh_clamp_washer_0_outer",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/thigh_clamp_washer_0_outer.step",
+        "sha256": "695fef451e29abe275a203d535af8c7207d46d1512b2ac17f6c09d729d7406ec",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -42.0,
+        76.0,
+        -72.0,
+        -30.0,
+        77.0,
+        -60.0
+      ],
+      "volume_mm3": 98.57532348801593
+    },
+    {
+      "name": "FL_thigh_clamp_washer_1_inner",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/thigh_clamp_washer_1_inner.step",
+        "sha256": "c6e7afccc9e9bf0173a46888af608a70f1201f6cbce18ea30407682776ffe787",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -1.0,
+        57.0,
+        -76.0,
+        11.0,
+        58.0,
+        -64.0
+      ],
+      "volume_mm3": 98.57532348801591
+    },
+    {
+      "name": "FL_thigh_clamp_washer_1_outer",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/thigh_clamp_washer_1_outer.step",
+        "sha256": "dd904ea8b4f989a1ab5f3ec9a7f3be7c6333614f1cc86944f2cda8d3e27e4602",
+        "translation_mm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -1.0,
+        76.0,
+        -76.0,
+        11.0,
+        77.0,
+        -64.0
+      ],
+      "volume_mm3": 98.57532348801591
+    },
+    {
+      "name": "FL_roll_bearing_6810_0",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_bearing_6810_1_0.step",
+        "sha256": "3aacf6f05c1b321adc109cf9f3bf7e1cab7980db0d86ff65ef4380212bc2ff74",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -76.5,
+        -32.5,
+        -32.5,
+        -69.5,
+        32.5,
+        32.5
+      ],
+      "volume_mm3": 9483.682823024394
+    },
+    {
+      "name": "FL_roll_bearing_6810_1",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_bearing_6810_1_1.step",
+        "sha256": "defb3138a6d56231850e9cf47cb1a8cda7ae06d06d18a4729e4c51b0a4ce6473",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -62.5,
+        -32.5,
+        -32.5,
+        -55.5,
+        32.5,
+        32.5
+      ],
+      "volume_mm3": 9483.682823024394
+    },
+    {
+      "name": "FL_roll_stator_bolt_0",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_stator_bolt_0_front1.step",
+        "sha256": "7a46017820761e44d0421a5ad890cf4bfe265a25c4800c55aae9c00b674ca125",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -85.5,
+        33.7,
+        -2.8,
+        -53.85,
+        39.3,
+        2.8
+      ],
+      "volume_mm3": 252.69714668414494
+    },
+    {
+      "name": "FL_roll_stator_bolt_40",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_stator_bolt_40_front1.step",
+        "sha256": "c0761fe07f9e2353bdf7354540a49bb80747fa5d322227d71d94969d3d3e197d",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -85.5,
+        25.160622173843,
+        20.661747753559,
+        -53.85,
+        30.760622173843,
+        26.261747753559
+      ],
+      "volume_mm3": 252.69714668414494
+    },
+    {
+      "name": "FL_roll_stator_bolt_80",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_stator_bolt_80_front1.step",
+        "sha256": "ce39661d8e3abcb76e9e9399f943f298d494285b4e31a5196c491b8872a63c6b",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -85.5,
+        3.5381584848430006,
+        33.145482984946,
+        -53.85,
+        9.138158484843,
+        38.745482984946
+      ],
+      "volume_mm3": 252.69714668414494
+    },
+    {
+      "name": "FL_roll_stator_bolt_120",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_stator_bolt_120_front1.step",
+        "sha256": "f945d8e86addc14be584005dbbf16fa8802d08cf20bbc8707c78f01a1191b4d2",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -85.5,
+        -21.05,
+        28.809927238131998,
+        -53.85,
+        -15.45,
+        34.409927238132
+      ],
+      "volume_mm3": 252.69714668414525
+    },
+    {
+      "name": "FL_roll_stator_bolt_160",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_stator_bolt_160_front1.step",
+        "sha256": "430a84e8e8baec3f364106516311968af27c59de4faea1d004bcf4e4f8002dc5",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -85.5,
+        -37.09878065868,
+        9.683735231387,
+        -53.85,
+        -31.49878065868,
+        15.283735231387
+      ],
+      "volume_mm3": 252.69714668414494
+    },
+    {
+      "name": "FL_roll_stator_bolt_200",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_stator_bolt_200_front1.step",
+        "sha256": "d165fd96a438b7ba62a60b1407744850d37dcd3d77a4ee0a8fe50e599d7f1f92",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -85.5,
+        -37.09878065868,
+        -15.28373523138,
+        -53.85,
+        -31.49878065868,
+        -9.683735231380002
+      ],
+      "volume_mm3": 252.69714668414494
+    },
+    {
+      "name": "FL_roll_stator_bolt_240",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_stator_bolt_240_front1.step",
+        "sha256": "31210a18c664be9988ad910a45e32bbf70651fbc9c9ef6420eb048d98c8ccc01",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -85.5,
+        -21.05,
+        -34.409927238129995,
+        -53.85,
+        -15.45,
+        -28.809927238129998
+      ],
+      "volume_mm3": 252.69714668414494
+    },
+    {
+      "name": "FL_roll_stator_bolt_280",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_stator_bolt_280_front1.step",
+        "sha256": "e3d9244f173de8cd46b8412c59c120a8330a9d6725d16b878c14e0a72ccdba17",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -85.5,
+        3.5381584848430006,
+        -38.74548298494,
+        -53.85,
+        9.138158484843,
+        -33.14548298494
+      ],
+      "volume_mm3": 252.69714668414494
+    },
+    {
+      "name": "FL_roll_stator_bolt_320",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_stator_bolt_320_front1.step",
+        "sha256": "34e4bc7f9c491343dab46eb311d9c6f1a82587c0e8d1499ebbbc43f42af56236",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -85.5,
+        25.160622173843,
+        -26.26174775355,
+        -53.85,
+        30.760622173843,
+        -20.66174775355
+      ],
+      "volume_mm3": 252.69714668414494
+    },
+    {
+      "name": "FL_roll_retainer_bolt_20",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_retainer_bolt_20_front1.step",
+        "sha256": "97731fdf712a6fc98c821311533d1bb34168be4ed9fc95faf71d47cca2781ffe",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -78.5,
+        31.968626969079,
+        9.854745303049999,
+        -51.85,
+        37.568626969079,
+        15.45474530305
+      ],
+      "volume_mm3": 217.35422933126048
+    },
+    {
+      "name": "FL_roll_retainer_nut_20",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_retainer_nut_20_front1.step",
+        "sha256": "16713be72197033802bd0760b56d58f75ad38ed9ddadc3fc49aa66c262aab69f",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -78.0,
+        31.593200488535043,
+        9.90474530305,
+        -75.6,
+        37.94405344962221,
+        15.404745303050001
+      ],
+      "volume_mm3": 45.90884398536857
+    },
+    {
+      "name": "FL_roll_retainer_bolt_140",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_retainer_bolt_140_front1.step",
+        "sha256": "cbdddcf5874d45da81337e5fe43445676fceb2683338dbeb73add4a5064f65ee",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -78.5,
+        -31.1436443954,
+        20.983141558402,
+        -51.85,
+        -25.543644395399998,
+        26.583141558402
+      ],
+      "volume_mm3": 217.35422933126048
+    },
+    {
+      "name": "FL_roll_retainer_nut_140",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_retainer_nut_140_front1.step",
+        "sha256": "214938fce5829b3a31dc225a361f810a223ecc6dbf2bf10238539192f75d2d9f",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -78.0,
+        -31.519070875941708,
+        21.033141558402,
+        -75.6,
+        -25.16821791485,
+        26.533141558405347
+      ],
+      "volume_mm3": 45.9088439853636
+    },
+    {
+      "name": "FL_roll_retainer_bolt_260",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_retainer_bolt_260_front1.step",
+        "sha256": "0d896337500c27dd1c5c405a3a1556c469f4bcc7c1d73af045d57c324e17312f",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -78.5,
+        -9.224982573676,
+        -39.23788686145,
+        -51.85,
+        -3.624982573676,
+        -33.63788686145
+      ],
+      "volume_mm3": 217.35422933126046
+    },
+    {
+      "name": "FL_roll_retainer_nut_260",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_retainer_nut_260_front1.step",
+        "sha256": "f739cc1ac3dbd62cdb45802be741d2c897cfcb10c1d6244fd73eb5707a5346d9",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -78.0,
+        -9.600409054219956,
+        -39.18788686145,
+        -75.6,
+        -3.249556093132793,
+        -33.68788686145
+      ],
+      "volume_mm3": 45.908843985368534
+    },
+    {
+      "name": "FL_carrier_closure_bolt_90",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/carrier_closure_bolt_90_front1.step",
+        "sha256": "beff3657d8d064e60f146b241645dab11fadaf9b256ec8996ee02cb6609820b4",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -3.8,
+        -16.1,
+        43.2,
+        3.8,
+        2.1,
+        50.8
+      ],
+      "volume_mm3": 300.8640452489843
+    },
+    {
+      "name": "FL_carrier_closure_washer_90",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/carrier_closure_washer_90_front1.step",
+        "sha256": "fb8f69a1418ed2850ab80f15134e74ad7b478df9cef2ae04309b53358e68794d",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -4.5,
+        -0.9,
+        42.5,
+        4.5,
+        -0.09999999999999998,
+        51.5
+      ],
+      "volume_mm3": 39.27619135518045
+    },
+    {
+      "name": "FL_carrier_closure_nut_90",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/carrier_closure_nut_90_front1.step",
+        "sha256": "5b2a5d966ee221d2e65578f068ef5c44af44fa7b053f0ec78f50002cb1747c56",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -3.500000000000002,
+        -15.1,
+        42.95854811567172,
+        3.5,
+        -11.9,
+        51.04145188432828
+      ],
+      "volume_mm3": 95.58039734745712
+    },
+    {
+      "name": "FL_carrier_closure_bolt_215",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/carrier_closure_bolt_215_front1.step",
+        "sha256": "301b7bfd9d92ed3c6e2990fcea30e77f7ad8ae76fe78552bcc7c6b06c4ae1ce5",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -42.300146081579996,
+        -16.1,
+        -30.75809250849,
+        -34.70014608158,
+        2.1,
+        -23.15809250849
+      ],
+      "volume_mm3": 300.8640452489843
+    },
+    {
+      "name": "FL_carrier_closure_washer_215",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/carrier_closure_washer_215_front1.step",
+        "sha256": "aa144af53ca3b67c481a7a5cce2ac2ff6f39e7fb0d4923bc5b3ae39d8222d56a",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -43.00014608158,
+        -0.9,
+        -31.45809250849,
+        -34.00014608158,
+        -0.09999999999999998,
+        -22.45809250849
+      ],
+      "volume_mm3": 39.276191355180465
+    },
+    {
+      "name": "FL_carrier_closure_nut_215",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/carrier_closure_nut_215_front1.step",
+        "sha256": "e130aaa3a4ccca3b2e001f66d251e7d94447d587968e135e5800744639ebb825",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -42.16294539528,
+        -15.1,
+        -30.98416544825325,
+        -34.83734676788,
+        -11.9,
+        -22.93201956873
+      ],
+      "volume_mm3": 95.58039734738945
+    },
+    {
+      "name": "FL_carrier_closure_bolt_325",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/carrier_closure_bolt_325_front1.step",
+        "sha256": "c57f7c41b736d0aee244cce2137a0a8c5448a52921fbbe2ddc2c4f83ca76393b",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        34.700146081583,
+        -16.1,
+        -30.75809250849,
+        42.300146081582994,
+        2.1,
+        -23.15809250849
+      ],
+      "volume_mm3": 300.8640452489843
+    },
+    {
+      "name": "FL_carrier_closure_washer_325",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/carrier_closure_washer_325_front1.step",
+        "sha256": "1ab6e4711624ef00d1bbc5cc3e27351e66b321a40372f7e0844a6c19e82b6039",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        34.000146081583,
+        -0.9,
+        -31.45809250849,
+        43.000146081583,
+        -0.09999999999999998,
+        -22.45809250849
+      ],
+      "volume_mm3": 39.276191355180465
+    },
+    {
+      "name": "FL_carrier_closure_nut_325",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/carrier_closure_nut_325_front1.step",
+        "sha256": "841d915597886a87009adbb468da4628c16c1428cdb4d78c8f8ad7178d9ffa2c",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        34.837346767883,
+        -15.1,
+        -30.98416544825307,
+        42.162945395283764,
+        -11.9,
+        -22.93201956873
+      ],
+      "volume_mm3": 95.58039734745621
+    },
+    {
+      "name": "FL_hip_stator_bolt_0",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/hip_stator_bolt_0_front1.step",
+        "sha256": "f088eae339b44b0a9ac6bd12dd4cb2870c493daccd52b97d4856ee7a7e873da8",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        33.55,
+        -8.9,
+        -2.95,
+        39.45,
+        -0.8999999999999997,
+        2.95
+      ],
+      "volume_mm3": 69.64897823039956
+    },
+    {
+      "name": "FL_hip_stator_bolt_40",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/hip_stator_bolt_40_front1.step",
+        "sha256": "5c9e18ecff1f6abc108d417600770127e1e2db7070d400126f7800d6683f61f9",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        25.010622173843,
+        -8.9,
+        20.511747753559,
+        30.910622173843,
+        -0.9,
+        26.411747753559
+      ],
+      "volume_mm3": 69.64897823039955
+    },
+    {
+      "name": "FL_hip_stator_bolt_80",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/hip_stator_bolt_80_front1.step",
+        "sha256": "67eba0c0871c59dd81dd3fcec2d37233506ea5756d877c76a68221b8424dba4f",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        3.3881584848429993,
+        -8.9,
+        32.995482984945994,
+        9.288158484842999,
+        -0.8999999999999984,
+        38.895482984946
+      ],
+      "volume_mm3": 69.64897823039962
+    },
+    {
+      "name": "FL_hip_stator_bolt_120",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/hip_stator_bolt_120_front1.step",
+        "sha256": "018bbf19ed842abf1d255f5ddec0d967fb5fe1336dde95512cb66b0d175e3fe2",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -21.2,
+        -8.9,
+        28.659927238132,
+        -15.3,
+        -0.9,
+        34.559927238132
+      ],
+      "volume_mm3": 69.6489782303996
+    },
+    {
+      "name": "FL_hip_stator_bolt_160",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/hip_stator_bolt_160_front1.step",
+        "sha256": "3040e8050af337aa2ff544f7fb54681268f41005be3c0bf651ca92ae3ec9ccfc",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -37.248780658680005,
+        -8.9,
+        9.533735231386999,
+        -31.348780658680003,
+        -0.899999999999999,
+        15.433735231387
+      ],
+      "volume_mm3": 69.64897823039958
+    },
+    {
+      "name": "FL_hip_stator_bolt_200",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/hip_stator_bolt_200_front1.step",
+        "sha256": "a3493ee6dcee5a8ccf63db37bb2856cf4be2c6df35d3ef425aad790958361f1f",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -37.248780658680005,
+        -8.9,
+        -15.433735231380002,
+        -31.348780658680003,
+        -0.9,
+        -9.53373523138
+      ],
+      "volume_mm3": 69.64897823040022
+    },
+    {
+      "name": "FL_hip_stator_bolt_240",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/hip_stator_bolt_240_front1.step",
+        "sha256": "85da7376149763eec621ea85c1045a34c0284ce471ece44cb8b3add34ff992bb",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -21.2,
+        -8.9,
+        -34.55992723813,
+        -15.3,
+        -0.9,
+        -28.65992723813
+      ],
+      "volume_mm3": 69.64897823039955
+    },
+    {
+      "name": "FL_hip_stator_bolt_280",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/hip_stator_bolt_280_front1.step",
+        "sha256": "1ef97bb46db069fb1e3bc8d148b340ee844b64cbb68f98efbc226791b1cc38d6",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        3.3881584848429993,
+        -8.9,
+        -38.89548298494,
+        9.288158484842999,
+        -0.8999999999999984,
+        -32.99548298494
+      ],
+      "volume_mm3": 69.64897823039962
+    },
+    {
+      "name": "FL_hip_stator_bolt_320",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/hip_stator_bolt_320_front1.step",
+        "sha256": "a83e1e3fcf4d1a9e6ff90fa635fdfeb277dbdb83929d1abc690484d58c91a870",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        25.010622173843,
+        -8.9,
+        -26.41174775355,
+        30.910622173843,
+        -0.9,
+        -20.51174775355
+      ],
+      "volume_mm3": 69.64897823039956
+    },
+    {
+      "name": "FL_roll_output_bolt_0",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_output_bolt_0_front1.step",
+        "sha256": "397efdc6210d8bf841fc02b61b216af7d54a3086a15c117b30de94b5e0384905",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -82.5,
+        7.7,
+        -4.3,
+        -57.5,
+        16.3,
+        4.3
+      ],
+      "volume_mm3": 360.13856823942274
+    },
+    {
+      "name": "FL_roll_output_bolt_60",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_output_bolt_60_front1.step",
+        "sha256": "0b28e98d830775b5b6503e2d6cd13aee6d12bacfb3f9cfcbda3d8441c1ae639f",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -82.5,
+        1.7000000000000002,
+        6.0923048454129995,
+        -57.5,
+        10.3,
+        14.692304845412998
+      ],
+      "volume_mm3": 360.13856823942257
+    },
+    {
+      "name": "FL_roll_output_bolt_120",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_output_bolt_120_front1.step",
+        "sha256": "3e453a055c9b6a3994766e893905e2940e1e6e3ff252363164343c2e32409c17",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -82.5,
+        -10.3,
+        6.0923048454129995,
+        -57.5,
+        -1.7000000000000002,
+        14.692304845412998
+      ],
+      "volume_mm3": 360.13856823942257
+    },
+    {
+      "name": "FL_roll_output_bolt_180",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_output_bolt_180_front1.step",
+        "sha256": "336775b9131e765cff5eb6a20ad9b35ff2c389916e7c18b3acd488dae3182142",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -82.5,
+        -16.3,
+        -4.299999999999998,
+        -57.5,
+        -7.7,
+        4.300000000000002
+      ],
+      "volume_mm3": 360.13856823942274
+    },
+    {
+      "name": "FL_roll_output_bolt_240",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_output_bolt_240_front1.step",
+        "sha256": "28738f0eb99d03ebbf2c74eee1378e443f2a656d4627dcc324b11e93d1d1a41b",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -82.5,
+        -10.3,
+        -14.69230484541,
+        -57.5,
+        -1.7000000000000002,
+        -6.092304845410001
+      ],
+      "volume_mm3": 360.13856823942274
+    },
+    {
+      "name": "FL_roll_output_bolt_300",
+      "role": "standard_hardware",
+      "provenance": {
+        "source_step": "snapshots/paired-bearing-target/b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6/step/roll_output_bolt_300_front1.step",
+        "sha256": "4ffce5a74a03c807ecd44fb2de043d4ea16c3ae858e0cec4f222a1262bad070d",
+        "translation_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "bounds_mm": [
+        -82.5,
+        1.7000000000000002,
+        -14.69230484541,
+        -57.5,
+        10.3,
+        -6.092304845410001
+      ],
+      "volume_mm3": 360.13856823942274
+    },
+    {
+      "name": "Pod M3x60 screw 90",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3x60 socket screw; underhead Y61"
+      },
+      "bounds_mm": [
+        -2.7499999999999973,
+        1.0,
+        40.75,
+        2.7500000000000027,
+        64.0,
+        46.25
+      ],
+      "volume_mm3": 495.3898915629403
+    },
+    {
+      "name": "Pod M3 nut 90",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3 ordinary 5.5 AF nut; Y2.6..5"
+      },
+      "bounds_mm": [
+        -3.1754264805429395,
+        2.599999999999999,
+        40.75,
+        3.1754264805429444,
+        5.0,
+        46.25
+      ],
+      "volume_mm3": 45.908843985365365
+    },
+    {
+      "name": "Pod M3x60 screw 210",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3x60 socket screw; underhead Y61"
+      },
+      "bounds_mm": [
+        -40.42210506462308,
+        1.0,
+        -24.500000000000004,
+        -34.92210506462308,
+        64.0,
+        -19.000000000000004
+      ],
+      "volume_mm3": 495.38989156294065
+    },
+    {
+      "name": "Pod M3 nut 210",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3 ordinary 5.5 AF nut; Y2.6..5"
+      },
+      "bounds_mm": [
+        -40.84753154516602,
+        2.6,
+        -24.500000000000004,
+        -34.496678584080136,
+        5.0,
+        -19.0
+      ],
+      "volume_mm3": 45.90884398536532
+    },
+    {
+      "name": "Pod M3x60 screw 330",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3x60 socket screw; underhead Y61"
+      },
+      "bounds_mm": [
+        34.92210506462307,
+        1.0,
+        -24.500000000000018,
+        40.42210506462307,
+        64.0,
+        -19.000000000000018
+      ],
+      "volume_mm3": 495.38989156294053
+    },
+    {
+      "name": "Pod M3 nut 330",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3 ordinary 5.5 AF nut; Y2.6..5"
+      },
+      "bounds_mm": [
+        34.49667858408013,
+        2.6,
+        -24.500000000000018,
+        40.847531545166014,
+        5.0,
+        -19.000000000000014
+      ],
+      "volume_mm3": 45.90884398536531
+    },
+    {
+      "name": "Hip output M4x8 0",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "Hip output M4x8",
+        "source": "Final independent motor-complex release checker"
+      },
+      "bounds_mm": [
+        8.5,
+        -4.3,
+        -3.5,
+        15.5,
+        7.7,
+        3.5
+      ],
+      "volume_mm3": 254.4690049407733
+    },
+    {
+      "name": "Knee output M4x12 0",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "Knee output M4x12",
+        "source": "Final independent motor-complex release checker"
+      },
+      "bounds_mm": [
+        8.5,
+        49.0,
+        -3.5,
+        15.5,
+        65.0,
+        3.5
+      ],
+      "volume_mm3": 304.73448739821
+    },
+    {
+      "name": "Hip output M4x8 60",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "Hip output M4x8",
+        "source": "Final independent motor-complex release checker"
+      },
+      "bounds_mm": [
+        2.5000000000000018,
+        -4.3,
+        6.892304845413264,
+        9.500000000000002,
+        7.7,
+        13.892304845413264
+      ],
+      "volume_mm3": 254.4690049407733
+    },
+    {
+      "name": "Knee output M4x12 60",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "Knee output M4x12",
+        "source": "Final independent motor-complex release checker"
+      },
+      "bounds_mm": [
+        2.5000000000000018,
+        49.0,
+        6.892304845413264,
+        9.500000000000002,
+        65.0,
+        13.892304845413264
+      ],
+      "volume_mm3": 304.73448739821
+    },
+    {
+      "name": "Hip output M4x8 120",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "Hip output M4x8",
+        "source": "Final independent motor-complex release checker"
+      },
+      "bounds_mm": [
+        -9.499999999999996,
+        -4.3,
+        6.892304845413264,
+        -2.4999999999999973,
+        7.7,
+        13.892304845413264
+      ],
+      "volume_mm3": 254.4690049407733
+    },
+    {
+      "name": "Knee output M4x12 120",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "Knee output M4x12",
+        "source": "Final independent motor-complex release checker"
+      },
+      "bounds_mm": [
+        -9.499999999999996,
+        49.0,
+        6.892304845413264,
+        -2.4999999999999973,
+        65.0,
+        13.892304845413264
+      ],
+      "volume_mm3": 304.73448739821
+    },
+    {
+      "name": "Hip output M4x8 180",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "Hip output M4x8",
+        "source": "Final independent motor-complex release checker"
+      },
+      "bounds_mm": [
+        -15.5,
+        -4.3,
+        -3.4999999999999987,
+        -8.5,
+        7.7,
+        3.5000000000000013
+      ],
+      "volume_mm3": 254.4690049407733
+    },
+    {
+      "name": "Knee output M4x12 180",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "Knee output M4x12",
+        "source": "Final independent motor-complex release checker"
+      },
+      "bounds_mm": [
+        -15.5,
+        49.0,
+        -3.4999999999999987,
+        -8.5,
+        65.0,
+        3.5000000000000013
+      ],
+      "volume_mm3": 304.73448739821
+    },
+    {
+      "name": "Hip output M4x8 240",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "Hip output M4x8",
+        "source": "Final independent motor-complex release checker"
+      },
+      "bounds_mm": [
+        -9.500000000000005,
+        -4.3,
+        -13.89230484541326,
+        -2.5000000000000053,
+        7.7,
+        -6.8923048454132605
+      ],
+      "volume_mm3": 254.46900494077326
+    },
+    {
+      "name": "Knee output M4x12 240",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "Knee output M4x12",
+        "source": "Final independent motor-complex release checker"
+      },
+      "bounds_mm": [
+        -9.500000000000005,
+        49.0,
+        -13.89230484541326,
+        -2.5000000000000053,
+        65.0,
+        -6.8923048454132605
+      ],
+      "volume_mm3": 304.7344873982099
+    },
+    {
+      "name": "Hip output M4x8 300",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "Hip output M4x8",
+        "source": "Final independent motor-complex release checker"
+      },
+      "bounds_mm": [
+        2.5000000000000018,
+        -4.3,
+        -13.892304845413264,
+        9.500000000000002,
+        7.7,
+        -6.892304845413264
+      ],
+      "volume_mm3": 254.4690049407733
+    },
+    {
+      "name": "Knee output M4x12 300",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "Knee output M4x12",
+        "source": "Final independent motor-complex release checker"
+      },
+      "bounds_mm": [
+        2.5000000000000018,
+        49.0,
+        -13.892304845413264,
+        9.500000000000002,
+        65.0,
+        -6.892304845413264
+      ],
+      "volume_mm3": 304.73448739821
+    },
+    {
+      "name": "Knee stator M3x8 20",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3x8 socket screw; underhead Y53.5"
+      },
+      "bounds_mm": [
+        31.548780658685658,
+        45.5,
+        9.733735231386907,
+        37.04878065868566,
+        56.5,
+        15.233735231386907
+      ],
+      "volume_mm3": 127.82355109293474
+    },
+    {
+      "name": "Knee stator M3x8 60",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3x8 socket screw; underhead Y53.5"
+      },
+      "bounds_mm": [
+        15.500000000000004,
+        45.5,
+        28.85992723813201,
+        21.000000000000004,
+        56.5,
+        34.359927238132016
+      ],
+      "volume_mm3": 127.82355109293471
+    },
+    {
+      "name": "Knee stator M3x8 100",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3x8 socket screw; underhead Y53.5"
+      },
+      "bounds_mm": [
+        -9.088158484842957,
+        45.5,
+        33.19548298494559,
+        -3.588158484842956,
+        56.5,
+        38.69548298494559
+      ],
+      "volume_mm3": 127.82355109293472
+    },
+    {
+      "name": "Knee stator M3x8 140",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3x8 socket screw; underhead Y53.5"
+      },
+      "bounds_mm": [
+        -30.710622173842694,
+        45.5,
+        20.71174775355869,
+        -25.210622173842694,
+        56.5,
+        26.21174775355869
+      ],
+      "volume_mm3": 127.8235510929347
+    },
+    {
+      "name": "Knee stator M3x8 180",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3x8 socket screw; underhead Y53.5"
+      },
+      "bounds_mm": [
+        -39.25,
+        45.5,
+        -2.7499999999999956,
+        -33.75,
+        56.5,
+        2.7500000000000044
+      ],
+      "volume_mm3": 127.82355109293474
+    },
+    {
+      "name": "Knee stator M3x8 220",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3x8 socket screw; underhead Y53.5"
+      },
+      "bounds_mm": [
+        -30.710622173842697,
+        45.5,
+        -26.211747753558683,
+        -25.210622173842697,
+        56.5,
+        -20.711747753558683
+      ],
+      "volume_mm3": 127.8235510929347
+    },
+    {
+      "name": "Knee stator M3x8 260",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3x8 socket screw; underhead Y53.5"
+      },
+      "bounds_mm": [
+        -9.088158484842957,
+        45.5,
+        -38.69548298494559,
+        -3.588158484842957,
+        56.5,
+        -33.19548298494559
+      ],
+      "volume_mm3": 127.82355109293471
+    },
+    {
+      "name": "Knee stator M3x8 300",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3x8 socket screw; underhead Y53.5"
+      },
+      "bounds_mm": [
+        15.500000000000004,
+        45.5,
+        -34.35992723813201,
+        21.000000000000004,
+        56.5,
+        -28.85992723813201
+      ],
+      "volume_mm3": 127.82355109293471
+    },
+    {
+      "name": "Knee stator M3x8 340",
+      "role": "standard_hardware",
+      "provenance": {
+        "spec": "M3x8 socket screw; underhead Y53.5"
+      },
+      "bounds_mm": [
+        31.548780658685658,
+        45.5,
+        -15.233735231386904,
+        37.04878065868566,
+        56.5,
+        -9.733735231386904
+      ],
+      "volume_mm3": 127.82355109293472
+    }
+  ],
+  "motors": 3,
+  "connectors": 24
+}

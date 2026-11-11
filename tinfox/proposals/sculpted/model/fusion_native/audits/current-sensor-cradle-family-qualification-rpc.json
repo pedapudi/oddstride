@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"message\": \"{\\\"passed\\\": true, \\\"saved\\\": false, \\\"baseline\\\": {\\\"volume_cm3\\\": 22.404984899546747, \\\"bounds_mm\\\": [85.0, -32.0, 42.80000000000001, 174.00000000000003, 32.0, 60.00000000000001], \\\"M3_wall_probe\\\": 0, \\\"M4_wall_probe\\\": 0}, \\\"edits\\\": [{\\\"parameter\\\": \\\"saddle_x\\\", \\\"expression\\\": \\\"126 mm\\\", \\\"edited\\\": {\\\"volume_cm3\\\": 22.40498489954675, \\\"bounds_mm\\\": [90.0, -32.0, 42.80000000000001, 179.00000000000003, 32.0, 60.00000000000001], \\\"M3_wall_probe\\\": 0, \\\"M4_wall_probe\\\": 0}, \\\"restored\\\": true}, {\\\"parameter\\\": \\\"saddle_split_z\\\", \\\"expression\\\": \\\"62 mm\\\", \\\"edited\\\": {\\\"volume_cm3\\\": 23.495392004802042, \\\"bounds_mm\\\": [85.0, -32.0, 42.80000000000001, 174.00000000000003, 32.0, 62.000000000000014], \\\"M3_wall_probe\\\": 2, \\\"M4_wall_probe\\\": 0}, \\\"restored\\\": true}, {\\\"parameter\\\": \\\"saddle_fastener_diametral_clearance\\\", \\\"expression\\\": \\\".6 mm\\\", \\\"edited\\\": {\\\"volume_cm3\\\": 22.35974596533506, \\\"bounds_mm\\\": [85.0, -32.0, 42.80000000000001, 174.00000000000003, 32.0, 60.00000000000001], \\\"M3_wall_probe\\\": 2, \\\"M4_wall_probe\\\": 2}, \\\"restored\\\": true}], \\\"path\\\": \\\"/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/current-sensor-cradle-restored.step\\\", \\\"elapsed_seconds\\\": 68.63360787497368, \\\"scope\\\": \\\"Sensor cradle geometry and two shared fastener interfaces. Manufactured process fits and complete Head assembly remain unqualified.\\\"}\\n\",\n    \"success\": true\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

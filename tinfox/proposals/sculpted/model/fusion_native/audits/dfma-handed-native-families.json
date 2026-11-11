@@ -1,0 +1,104 @@
+{
+  "parts": [
+    {
+      "part_number": "DFMA_ROLL_HOUSING_RL",
+      "source": "DFMA_ROLL_HOUSING_FL",
+      "plane": "YZ",
+      "features": 3,
+      "faces": 64,
+      "seconds": 32.91654133301927
+    },
+    {
+      "part_number": "DFMA_ROLL_HOUSING_FR",
+      "source": "DFMA_ROLL_HOUSING_FL",
+      "plane": "XZ",
+      "features": 3,
+      "faces": 64,
+      "seconds": 65.81560949998675
+    },
+    {
+      "part_number": "DFMA_ROLL_HOUSING_RR",
+      "source": "DFMA_ROLL_HOUSING_RL",
+      "plane": "XZ",
+      "features": 3,
+      "faces": 64,
+      "seconds": 97.77776712499326
+    },
+    {
+      "part_number": "DFMA_ROLL_BACKPLATE_RL",
+      "source": "DFMA_ROLL_BACKPLATE_FL",
+      "plane": "YZ",
+      "features": 3,
+      "faces": 17,
+      "seconds": 129.7850217500236
+    },
+    {
+      "part_number": "DFMA_ROLL_BACKPLATE_FR",
+      "source": "DFMA_ROLL_BACKPLATE_FL",
+      "plane": "XZ",
+      "features": 3,
+      "faces": 17,
+      "seconds": 136.21472729102243
+    },
+    {
+      "part_number": "DFMA_ROLL_BACKPLATE_RR",
+      "source": "DFMA_ROLL_BACKPLATE_RL",
+      "plane": "XZ",
+      "features": 3,
+      "faces": 17,
+      "seconds": 142.8021264160052
+    },
+    {
+      "part_number": "DFMA_SHARED_ROLL_CAP_RL",
+      "source": "DFMA_SHARED_ROLL_CAP_FL",
+      "plane": "YZ",
+      "features": 3,
+      "faces": 15,
+      "seconds": 149.2761981249787
+    },
+    {
+      "part_number": "DFMA_SHARED_ROLL_CAP_FR",
+      "source": "DFMA_SHARED_ROLL_CAP_FL",
+      "plane": "XZ",
+      "features": 3,
+      "faces": 15,
+      "seconds": 155.8109942500014
+    },
+    {
+      "part_number": "DFMA_SHARED_ROLL_CAP_RR",
+      "source": "DFMA_SHARED_ROLL_CAP_RL",
+      "plane": "XZ",
+      "features": 3,
+      "faces": 15,
+      "seconds": 162.31898641597945
+    },
+    {
+      "part_number": "DFMA_THIGH_PRIMARY_FR",
+      "source": "DFMA_THIGH_PRIMARY_FL",
+      "plane": "XZ",
+      "features": 3,
+      "faces": 108,
+      "seconds": 168.88318120798795
+    },
+    {
+      "part_number": "DFMA_THIGH_SECONDARY_FR",
+      "source": "DFMA_THIGH_SECONDARY_FL",
+      "plane": "XZ",
+      "features": 3,
+      "faces": 125,
+      "seconds": 175.47967929102015
+    },
+    {
+      "part_number": "DFMA_REAR_LOADED_CUP_RR",
+      "source": "DFMA_REAR_LOADED_CUP_RL",
+      "plane": "XZ",
+      "features": 3,
+      "faces": 99,
+      "seconds": 182.05001808301313
+    }
+  ],
+  "saved_version": 38,
+  "modified": true,
+  "seconds": 182.7899943329976,
+  "scope": "Handed native feature derivatives only. No motor reference geometry is mirrored or changed; installed mating checks remain pending."
+}

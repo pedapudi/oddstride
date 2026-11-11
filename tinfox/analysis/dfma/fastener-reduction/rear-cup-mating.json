@@ -1,0 +1,301 @@
+{
+  "source": {
+    "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/dfma-whole-adoption/DFMA_REAR_LOADED_CUP_RL.step",
+    "sha256": "28c580ce677e50e81418ca0fa1e888c226ac4ce945a6c9fd175c74eceb1f2184",
+    "valid": true,
+    "solids": 1
+  },
+  "references": {
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/hip_motor.step": {
+      "sha256": "860d272a7da0e0dd0e8584b3e0e54713af5f51bf3989f394848d8e23f399eb09",
+      "translation_mm": [
+        -5,
+        0,
+        0
+      ]
+    },
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/RL_hip_port_-1_socket.step": {
+      "sha256": "959899e17decd9227d0b832e47248f0eec686697d845ec51083e70b350cb0a13",
+      "translation_mm": [
+        -5,
+        0,
+        0
+      ]
+    },
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/RL_hip_port_-1_plug.step": {
+      "sha256": "624f27e9f4a472917c274e8b2176dd9485a9bd85c280b5c468b5e6af38bc2fb5",
+      "translation_mm": [
+        -5,
+        0,
+        0
+      ]
+    },
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/RL_hip_port_-1_boot.step": {
+      "sha256": "f51494b4af877bd01567a56d6bde777dd0558c6f7af398a06c7ec902d287ca96",
+      "translation_mm": [
+        -5,
+        0,
+        0
+      ]
+    },
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/RL_hip_port_-1_cable.step": {
+      "sha256": "65cbb0ed0bbfe697db4e80423809adaef03c87a268ed24cc7f0d9814ae94b1f6",
+      "translation_mm": [
+        -5,
+        0,
+        0
+      ]
+    },
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/RL_hip_port_1_socket.step": {
+      "sha256": "c016c4dcfb8a95ba986075d6ea6c5817d22e8c839ef9502c38db56f2f3c55181",
+      "translation_mm": [
+        -5,
+        0,
+        0
+      ]
+    },
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/RL_hip_port_1_plug.step": {
+      "sha256": "313aa04ee67c1df7c82045eeaef5f8d4c07188f94b05936fba5c68a03c4d2212",
+      "translation_mm": [
+        -5,
+        0,
+        0
+      ]
+    },
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/RL_hip_port_1_boot.step": {
+      "sha256": "91af9026c52440ecd7ee955c1c2e5fa08b98b7ea5c1b3382ec22868d6a2acec4",
+      "translation_mm": [
+        -5,
+        0,
+        0
+      ]
+    },
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/RL_hip_port_1_cable.step": {
+      "sha256": "225ffc0b5e821328f064c7188466be29f963bd9621e78f10f5b6462a729fc263",
+      "translation_mm": [
+        -5,
+        0,
+        0
+      ]
+    },
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/snapshots/current-hardware/929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6/exact-reference-step/roll_motor_-1.step": {
+      "sha256": "7e60085f63e4ad0fb59927fdfe98de3381762e01e175b51dff6b42ccee99ae65",
+      "translation_mm": [
+        6.2,
+        0,
+        0
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "rear hip motor at barrel centerX\u22125",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear hip port-1 socket",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear hip port-1 plug",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear hip port-1 boot",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear hip port-1 cable",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear hip port1 socket",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear hip port1 plug",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear hip port1 boot",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear hip port1 cable",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll motor corrected paired datumX+73.5",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "hip socket0",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "hip socket40",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "hip socket80",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "hip socket120",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "hip socket160",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "hip socket200",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "hip socket240",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "hip socket280",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "hip socket320",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll socket0",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll3AF driver0",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll socket60",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll3AF driver60",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll socket120",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll3AF driver120",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll socket180",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll3AF driver180",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll socket240",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll3AF driver240",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll socket300",
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "name": "rear roll3AF driver300",
+      "overlap_mm3": 0.0,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "coupling_seat": {
+    "rear_underhead_x_mm": 52.5,
+    "head_extent_x_mm": [
+      48.5,
+      52.5
+    ],
+    "screw_M4x25_tip_x_mm": 77.5,
+    "motor_output_face_x_mm": 73.5,
+    "nominal_penetration_mm": 4,
+    "driver_approach": "from negativeX before motor/adjacent assembly blocks access"
+  },
+  "limitations": [
+    "Nominal reference motor/connector bodies and modeled socket heads, not physical harness bending or tolerance qualification.",
+    "Only rear cup mating and coupling orientation checked."
+  ],
+  "rear_roll_socket_floor_contact": [
+    {
+      "clock_degrees": 0,
+      "area_mm2": 20.388936321797754,
+      "expected_mm2": 20.388936321797758,
+      "passed": true
+    },
+    {
+      "clock_degrees": 60,
+      "area_mm2": 20.388936321797754,
+      "expected_mm2": 20.388936321797758,
+      "passed": true
+    },
+    {
+      "clock_degrees": 120,
+      "area_mm2": 20.388936321797754,
+      "expected_mm2": 20.388936321797758,
+      "passed": true
+    },
+    {
+      "clock_degrees": 180,
+      "area_mm2": 20.388936321797754,
+      "expected_mm2": 20.388936321797758,
+      "passed": true
+    },
+    {
+      "clock_degrees": 240,
+      "area_mm2": 20.388936321797754,
+      "expected_mm2": 20.388936321797758,
+      "passed": true
+    },
+    {
+      "clock_degrees": 300,
+      "area_mm2": 20.388936321797754,
+      "expected_mm2": 20.388936321797758,
+      "passed": true
+    }
+  ]
+}

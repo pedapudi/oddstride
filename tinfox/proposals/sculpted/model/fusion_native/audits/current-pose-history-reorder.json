@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "saved_version": 28,
+  "working_modified": true,
+  "journal": {
+    "stage": "complete",
+    "elapsed_seconds": 1860.990486041992
+  },
+  "new_pose_mates": 24,
+  "rebound_child_occurrences": 128,
+  "all_physical_occurrences_precede_pose_mates": true,
+  "timeline_at_end": true,
+  "reused_existing_datum_sketches": true,
+  "saved": false,
+  "scope": "Actual committed state reconciles the timed-out mutation. Standing placement was independently rechecked for all592 items; moving edit/restore gate remains pending.",
+  "transport_timeout": {
+    "tag": "current-pose-history-reorder",
+    "pid": 3531198,
+    "started_utc": "2026-10-29T11:57:24.912333+00:00",
+    "state": "execution_state_unknown",
+    "read_only": false,
+    "script_sha256": "b0bae7c25cd7bf25c25730eb5c11d5a3082a18c2e79f24c4b97d02ee0d5c7bd6",
+    "script_archive": "snapshots/executed-scripts/b0bae7c25cd7bf25c25730eb5c11d5a3082a18c2e79f24c4b97d02ee0d5c7bd6.py.gz",
+    "elapsed_seconds": 1800.0557565629715,
+    "error": "timed out"
+  },
+  "standing_audit_sha256": "28e498b13a4f592dfd8ca0a7acbbc077a8a456b50b07235f6adfd3f32b64db88"
+}

@@ -1,0 +1,43 @@
+{
+  "model_sha256": "cef9a90c7bd6c74c486f7393ecea85527adad04bf0ff09ae7ad54913e1a4ec2e",
+  "plates": [
+    {
+      "part": "thigh_inner",
+      "instances": 2,
+      "bounds_mm": [
+        [
+          7.0,
+          7.0,
+          0.0
+        ],
+        [
+          111.0,
+          254.64452,
+          62.22109
+        ]
+      ],
+      "sha256": "d164d15b23afa234968f59924b31937da7e0b34bac4db24a2e45bd4edaeca3c0",
+      "passed": true
+    },
+    {
+      "part": "thigh_outer",
+      "instances": 2,
+      "bounds_mm": [
+        [
+          7.0,
+          7.0,
+          0.0
+        ],
+        [
+          111.0,
+          253.24035,
+          49.7
+        ]
+      ],
+      "sha256": "5ee37fc518a644365e4b5b420eddc6ad82354a6431346ab96d4adebd97555cd6",
+      "passed": true
+    }
+  ],
+  "proper_rotation_and_oriented_volume_checks": 4,
+  "scope": "3MF reopened with part and removable support geometry, scale, bounds and volumes checked. No slicing or G-code validation."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"error\": \"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 132, in <module>\\n  File \\\"<string>\\\", line 130, in run\\n  File \\\"tinfox_native.py\\\", line 244, in run\\n  File \\\"tinfox_native.py\\\", line 207, in finish\\n  File \\\"tinfox_native.py\\\", line 160, in build\\n  File \\\"tinfox_native.py\\\", line 173, in build\\n  File \\\"tinfox_native.py\\\", line 160, in build\\n  File \\\"tinfox_native.py\\\", line 160, in build\\n  File \\\"tinfox_native.py\\\", line 160, in build\\n  [Previous line repeated 3 more times]\\n  File \\\"tinfox_native.py\\\", line 173, in build\\n  File \\\"tinfox_native.py\\\", line 160, in build\\n  File \\\"tinfox_native.py\\\", line 160, in build\\n  File \\\"tinfox_native.py\\\", line 160, in build\\n  [Previous line repeated 12 more times]\\n  File \\\"tinfox_native.py\\\", line 162, in build\\n  File \\\"tinfox_native.py\\\", line 86, in boolean\\n  File \\\"/Users/sunil/Library/Application Support/Autodesk/webdeploy/production/7698c9b1a08b85444b2eb3d6ec1ab6ea0789097a/Autodesk Fusion.app/Contents/Api/Python/packages/adsk/fusion.py\\\", line 23160, in add\\n    return _fusion.CombineFeatures_add(self, input)\\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\\nRuntimeError: 3 : Combine2 / Compute Failed // ASM_INCONS_FACE -   There was a problem combining geometry together.\\n    If attempting a Join/Cut/Intersect, try to ensure that the bodies have a clear overlap (problems can occur where faces and edges are nearly coincident).\\n\",\n    \"success\": false\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

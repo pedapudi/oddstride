@@ -1,0 +1,245 @@
+{
+  "model_sha256": "26dc3e75cbdbc009a4c43802ad7746045052365b9068d46fa1c1d88d5b37584a",
+  "baseline_model_sha256": "3cf92b464b15bda6a43c7bd99891539db4de54dd5f9791cf2ef818de00aedce0",
+  "limb_meshes_unchanged": true,
+  "changed_limb_meshes": [],
+  "before": {
+    "shell_min_mm": [
+      -236.0,
+      -106.0,
+      -53.0
+    ],
+    "shell_max_mm": [
+      236.0,
+      106.0,
+      53.0
+    ],
+    "shell_extent_mm": [
+      472.0,
+      212.0,
+      106.0
+    ],
+    "front_plane_y_span_mm": 134.0,
+    "nose_panel_bounds_mm": [
+      1.2228428820354509,
+      106.82284288203542,
+      66.82284288203542
+    ],
+    "sensor_window_bounds_mm": [
+      2.015228654690304,
+      94.01522865469029,
+      30.01522865469029
+    ],
+    "rigid_cover_and_face_mass_kg": 0.285321,
+    "printed_body_parts_mass_kg": 0.483166,
+    "base_mass_kg": 12.021304,
+    "minimum_preset_gap_mm": 1.5023884001913785,
+    "front_station_nominal_width_mm": 134
+  },
+  "after": {
+    "shell_min_mm": [
+      -236.0,
+      -106.0,
+      -53.01117
+    ],
+    "shell_max_mm": [
+      243.0,
+      106.0,
+      53.01117
+    ],
+    "shell_extent_mm": [
+      479.0,
+      212.0,
+      106.02234
+    ],
+    "front_plane_y_span_mm": 174.5551,
+    "nose_panel_bounds_mm": [
+      1.6304571093805862,
+      156.03045710938056,
+      76.03045710938058
+    ],
+    "sensor_window_bounds_mm": [
+      1.4171322115266207,
+      146.0171322115266,
+      38.01713221152658
+    ],
+    "rigid_cover_and_face_mass_kg": 0.292263,
+    "printed_body_parts_mass_kg": 0.490108,
+    "base_mass_kg": 12.030049,
+    "minimum_preset_gap_mm": 1.5023884001913785,
+    "front_station_nominal_width_mm": 178
+  },
+  "front_body_to_moving_parts": {
+    "stand": {
+      "minimum_gap_mm": 8.200438783093595,
+      "parts": [
+        "body_front_0",
+        "FL_thigh_inner"
+      ]
+    },
+    "studio_comparison": {
+      "minimum_gap_mm": 8.19221315704434,
+      "parts": [
+        "body_front_0",
+        "FL_thigh_inner"
+      ]
+    },
+    "raised": {
+      "minimum_gap_mm": 8.180608748686582,
+      "parts": [
+        "body_front_0",
+        "FL_thigh_inner"
+      ]
+    },
+    "crouch": {
+      "minimum_gap_mm": 8.471576367403111,
+      "parts": [
+        "body_front_0",
+        "FL_thigh_inner"
+      ]
+    },
+    "reach": {
+      "minimum_gap_mm": 8.166991707833782,
+      "parts": [
+        "body_front_0",
+        "FR_thigh_inner"
+      ]
+    },
+    "fold": {
+      "minimum_gap_mm": 8.44006519430731,
+      "parts": [
+        "body_front_0",
+        "FL_thigh_inner"
+      ]
+    },
+    "splay": {
+      "minimum_gap_mm": 8.038408029350176,
+      "parts": [
+        "body_front_0",
+        "FL_thigh_inner"
+      ]
+    },
+    "side_reach": {
+      "minimum_gap_mm": 1.9394034831376608,
+      "parts": [
+        "belly_front_0",
+        "FL_thigh_inner"
+      ]
+    }
+  },
+  "wall_thickness_regions": {
+    "roof": {
+      "sample_count": 40,
+      "minimum_normal_ray_thickness_mm": 1.5316788874156215,
+      "minimum_normal_corrected_thickness_mm": 1.531096731732403,
+      "minimum_axis_thickness_mm": 1.5342199999999977,
+      "maximum_axis_thickness_mm": 1.8684200000000004
+    },
+    "display_pocket": {
+      "sample_count": 2,
+      "minimum_normal_ray_thickness_mm": 0.9996446323113192,
+      "minimum_normal_corrected_thickness_mm": 0.9996446317419135,
+      "minimum_axis_thickness_mm": 1.0,
+      "maximum_axis_thickness_mm": 1.0
+    },
+    "left_side": {
+      "sample_count": 21,
+      "minimum_normal_ray_thickness_mm": 1.5994314143388217,
+      "minimum_normal_corrected_thickness_mm": 1.5994314143388277,
+      "minimum_axis_thickness_mm": 1.5999999999999943,
+      "maximum_axis_thickness_mm": 1.6000000000000085
+    },
+    "right_side": {
+      "sample_count": 21,
+      "minimum_normal_ray_thickness_mm": 1.5994314143388217,
+      "minimum_normal_corrected_thickness_mm": 1.5994314143388277,
+      "minimum_axis_thickness_mm": 1.5999999999999943,
+      "maximum_axis_thickness_mm": 1.6000000000000085
+    },
+    "front_rim": {
+      "sample_count": 22,
+      "minimum_normal_ray_thickness_mm": 1.5305407022525457,
+      "minimum_normal_corrected_thickness_mm": 1.1505847796053161,
+      "minimum_axis_thickness_mm": 1.3147299999999973,
+      "maximum_axis_thickness_mm": 2.3086299999999937
+    },
+    "rear_cap": {
+      "sample_count": 15,
+      "minimum_normal_ray_thickness_mm": 1.5999999999999908,
+      "minimum_normal_corrected_thickness_mm": 1.599999999999994,
+      "minimum_axis_thickness_mm": 1.5999999999999943,
+      "maximum_axis_thickness_mm": 1.5999999999999943
+    }
+  },
+  "nose_panel_nominal_mm": 1.6,
+  "panel_counterbore_floor_mm": 1.049999999999983,
+  "support_tabs": [
+    {
+      "part": "nose_standoff_-68_-30",
+      "solid_count": 1,
+      "panel_distance_mm": 0.0,
+      "rim_distance_mm": 0.0,
+      "panel_intersection_mm3": 0.0,
+      "rim_intersection_mm3": 0.0
+    },
+    {
+      "part": "nose_standoff_-68_30",
+      "solid_count": 1,
+      "panel_distance_mm": 0.0,
+      "rim_distance_mm": 0.0,
+      "panel_intersection_mm3": 0.0,
+      "rim_intersection_mm3": 0.0
+    },
+    {
+      "part": "nose_standoff_68_-30",
+      "solid_count": 1,
+      "panel_distance_mm": 0.0,
+      "rim_distance_mm": 0.0,
+      "panel_intersection_mm3": 0.0,
+      "rim_intersection_mm3": 0.0
+    },
+    {
+      "part": "nose_standoff_68_30",
+      "solid_count": 1,
+      "panel_distance_mm": 0.0,
+      "rim_distance_mm": 0.0,
+      "panel_intersection_mm3": 0.0,
+      "rim_intersection_mm3": 0.0
+    }
+  ],
+  "head_cover_intersections": [],
+  "tool_access_intersections": [],
+  "fixed_packaging": {
+    "intersections": [],
+    "scope": "Torso covers versus fixed frame, shelf, cassette rails and roll assemblies; also frame versus roll motors. Intended bolted interfaces excluded."
+  },
+  "battery_fit": {
+    "intersections": [],
+    "scope": "Battery envelope versus all checked rigid meshes, including fixed body parts. Adapter and electrical-contact fits remain unselected."
+  },
+  "all_print_envelopes_fit": true,
+  "scope": "Actual CAD meshes and exact STEP support contacts. The nose station is a design dimension; front-plane span is smaller because of the leading-edge blend. The front-only extension preserves motor locations and every limb mesh. Wall samples do not prove a global minimum; flexible gaiters, final optics, screws, tolerance stacks and loaded performance remain unqualified.",
+  "individual_joint_clear_interval_changes": [],
+  "folded_hip_clear_interval_changes": [],
+  "coordinated_roll_before": {
+    "samples": 121,
+    "clear_intervals_deg": [
+      [
+        -60,
+        60
+      ]
+    ],
+    "pose_rule": "left roll = a, right roll = -a; front hip -35 degrees, rear hip 35 degrees, knee -70 degrees. Free-space motion, not a grounded gait."
+  },
+  "coordinated_roll_after": {
+    "samples": 121,
+    "clear_intervals_deg": [
+      [
+        -60,
+        60
+      ]
+    ],
+    "pose_rule": "left roll = a, right roll = -a; front hip -35 degrees, rear hip 35 degrees, knee -70 degrees. Free-space motion, not a grounded gait."
+  },
+  "transition_intersections": 0
+}

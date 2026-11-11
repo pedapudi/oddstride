@@ -1,0 +1,43 @@
+"""Perpendicular motor carrier from two turned profiles and a rounded elbow."""
+class CohesiveCarrierIntent(CohesiveCrankIntent):
+ def parameters(self):
+  g=self.g
+  dims={'lc_carrier_shell_outer':43.5,'lc_carrier_shell_inner':41.5,'lc_carrier_shell_rear':-48.4,'lc_carrier_rear_wall':2,'lc_carrier_rear_bore':12,'lc_carrier_flange_radius':44,'lc_carrier_flange_bore':27,'lc_carrier_flange_y':-3.9,'lc_carrier_flange_depth':3,'lc_carrier_lip_depth':3.5,'lc_carrier_bridge_x':-49,'lc_carrier_bridge_width':18,'lc_carrier_bridge_depth':28,'lc_carrier_bridge_height':40,'lc_carrier_bridge_y':-25,'lc_carrier_bridge_radius':2,'lc_carrier_journal_start':-67.3,'lc_carrier_journal_shoulder':-54,'lc_carrier_journal_end':-49.5,'lc_carrier_journal_radius':24.95,'lc_carrier_journal_flange_radius':29,'lc_carrier_shaft_bore':7,'lc_carrier_stator_pcd':36.5,'lc_carrier_stator_hole':1.7,'lc_carrier_port_tangent_width':18,'lc_carrier_port_start_radius':30.1,'lc_carrier_port_depth':21,'lc_carrier_port_y':-43.6,'lc_carrier_port_axial_width':12,'lc_carrier_cable_radius':5,'lc_carrier_cable_center_radius':46.6,'lc_carrier_cable_y':-35.6,'lc_carrier_cable_depth':27}
+  for key,value in dims.items():g.parameter(key,value,comment='Carrier structural or vendor interface dimension; hardware fits independent of limb scale')
+  g.parameter('lc_carrier_port_angle',36.2,'deg');g.parameter('lc_carrier_stator_bolt_count',9,'');g.parameter('lc_carrier_front_y','lc_carrier_flange_y+lc_carrier_flange_depth');g.parameter('lc_carrier_lip_y','lc_carrier_front_y-lc_carrier_lip_depth')
+ def polygon(self,plane,expressions,name):
+  g=self.g;sk=self.c.sketches.add(plane);sk.name=name;sk.isComputeDeferred=True;points=[];xs={};ys={}
+  for x,y in expressions:
+   p=g.skeleton_point(sk,x,y);g.point_dimensions(sk,p,None if x in xs else x,None if y in ys else y)
+   if x in xs:sk.geometricConstraints.addVerticalPoints(xs[x],p)
+   if y in ys:sk.geometricConstraints.addHorizontalPoints(ys[y],p)
+   xs[x]=p;ys[y]=p;points.append(p)
+  for i,p in enumerate(points):sk.sketchCurves.sketchLines.addByTwoPoints(p,points[(i+1)%len(points)])
+  sk.isComputeDeferred=False;assert sk.profiles.count==1,(name,sk.profiles.count);return sk
+ def revolve(self,expressions,axis,name):
+  sk=self.polygon(self.c.xYConstructionPlane,expressions,name+' section');inp=self.c.features.revolveFeatures.createInput(sk.profiles.item(0),axis,fusion.FeatureOperations.NewBodyFeatureOperation);inp.setAngleExtent(False,self.g.value('360 deg'));f=self.c.features.revolveFeatures.add(inp);f.name=name;sk.isLightBulbOn=False;return f.bodies.item(0)
+ def stock(self):
+  self.parameters();g=self.g;c=self.c
+  shell=self.revolve([('lc_carrier_rear_bore','lc_carrier_shell_rear'),('lc_carrier_shell_outer','lc_carrier_shell_rear'),('lc_carrier_shell_outer','lc_carrier_lip_y'),('lc_carrier_flange_radius','lc_carrier_lip_y'),('lc_carrier_flange_radius','lc_carrier_front_y'),('lc_carrier_shell_inner','lc_carrier_front_y'),('lc_carrier_shell_inner','lc_carrier_shell_rear+lc_carrier_rear_wall'),('lc_carrier_rear_bore','lc_carrier_shell_rear+lc_carrier_rear_wall')],c.yConstructionAxis,'Turned hip motor enclosure')
+  window=self.rounded_box('-45 mm','0 mm','20 mm','46 mm','-51 mm','54 mm','2 mm','Roll journal side window');shell=g.combine(shell,[window],fusion.FeatureOperations.CutFeatureOperation,'Open shell for perpendicular journal')
+  sk=self.circles('lc_carrier_flange_y',[('0 mm','0 mm','lc_carrier_flange_radius'),('0 mm','0 mm','lc_carrier_flange_bore')],'Hip stator mounting flange');profile=next(p for p in sk.profiles if p.profileLoops.count==2);inp=c.features.extrudeFeatures.createInput(profile,fusion.FeatureOperations.JoinFeatureOperation);inp.participantBodies=[shell];inp.setDistanceExtent(False,g.value('lc_carrier_flange_depth'));f=c.features.extrudeFeatures.add(inp);f.name='Integral hip stator flange';shell=f.bodies.item(0);sk.isLightBulbOn=False
+  bridge=self.rounded_box('lc_carrier_bridge_x','0 mm','lc_carrier_bridge_width','lc_carrier_bridge_height','lc_carrier_bridge_y','lc_carrier_bridge_depth','lc_carrier_bridge_radius','Structural elbow bridge');opening=self.rounded_box('lc_carrier_bridge_x','0 mm','22 mm','23 mm','-20.5 mm','15 mm','4 mm','Elbow central opening');bridge=g.combine(bridge,[opening],fusion.FeatureOperations.CutFeatureOperation,'Open elbow web')
+  journal=self.revolve([('lc_carrier_journal_start','0 mm'),('lc_carrier_journal_start','lc_carrier_journal_radius'),('lc_carrier_journal_shoulder','lc_carrier_journal_radius'),('lc_carrier_journal_shoulder','lc_carrier_journal_flange_radius'),('lc_carrier_journal_end','lc_carrier_journal_flange_radius'),('lc_carrier_journal_end','0 mm')],c.xConstructionAxis,'Turned roll bearing journal')
+  body=g.combine(shell,[bridge,journal],fusion.FeatureOperations.JoinFeatureOperation,'Integral perpendicular carrier');relief=self.rounded_box('-45 mm','0 mm','12 mm','44 mm','1 mm','6 mm','1 mm','Moving thigh tie screw relief');return g.combine(body,[relief],fusion.FeatureOperations.CutFeatureOperation,'Provide tie screw axial clearance')
+ def x_circle(self,x,y,z,r,name):
+  g=self.g;plane=g.plane(self.c.yZConstructionPlane,x,name+' datum');sk=self.c.sketches.add(plane);sk.name=name;p=g.skeleton_point(sk,'-('+z+')',y);g.point_dimensions(sk,p,'-('+z+')',y);circle=sk.sketchCurves.sketchCircles.addByCenterRadius(p.geometry,g.mm(r)/10);sk.geometricConstraints.addCoincident(circle.centerSketchPoint,p);dim=sk.sketchDimensions.addRadialDimension(circle,core.Point3D.create(.4,.4,0));dim.parameter.expression=r;return sk
+ def pattern(self,seed,axis,count,name):
+  objects=core.ObjectCollection.create();objects.add(seed);inp=self.c.features.circularPatternFeatures.createInput(objects,axis);inp.quantity=self.g.value(count);inp.totalAngle=self.g.value('360 deg');inp.patternComputeOption=fusion.PatternComputeOptions.AdjustPatternCompute;f=self.c.features.circularPatternFeatures.add(inp);f.name=name;return self.c.bRepBodies.item(0)
+ def interfaces(self,body,front=1):
+  g=self.g;c=self.c;self.parameters()
+  sk=self.circles('lc_carrier_flange_y-1 mm',[('lc_carrier_stator_pcd','0 mm','lc_carrier_stator_hole')],'Hip stator bolt seed');body=self.extrude_all(sk,'lc_carrier_flange_depth+2 mm','Hip stator bolt seed',fusion.FeatureOperations.CutFeatureOperation,body);body=self.pattern(c.features.extrudeFeatures.item(c.features.extrudeFeatures.count-1),c.yConstructionAxis,'lc_carrier_stator_bolt_count','Nine hip stator bolt holes')
+  start='-68 mm' if front>0 else '45 mm';sk=self.x_circle(start,'lc_rs02_output_pcd_radius','0 mm','lc_rs02_output_hole_radius','Roll motor output bolt seed');body=self.extrude_all(sk,'23 mm','Roll motor output bolt seed',fusion.FeatureOperations.CutFeatureOperation,body);body=self.pattern(c.features.extrudeFeatures.item(c.features.extrudeFeatures.count-1),c.xConstructionAxis,'lc_rs02_output_bolt_count','Six roll motor output bolt holes')
+  sk=self.x_circle(start,'0 mm','0 mm','lc_carrier_shaft_bore','Roll shaft passage');body=self.extrude_all(sk,'23 mm','Roll shaft passage',fusion.FeatureOperations.CutFeatureOperation,body)
+  plane=g.plane(c.xZConstructionPlane,'lc_carrier_port_y','Opposed radial motor port datum');sk=c.sketches.add(plane);sk.name='Opposed rectangular connector windows';sk.isComputeDeferred=True
+  for sign in [-1,1]:
+   points=[]
+   for r,t in [('lc_carrier_port_start_radius','-lc_carrier_port_tangent_width/2'),('lc_carrier_port_start_radius+lc_carrier_port_depth','-lc_carrier_port_tangent_width/2'),('lc_carrier_port_start_radius+lc_carrier_port_depth','lc_carrier_port_tangent_width/2'),('lc_carrier_port_start_radius','lc_carrier_port_tangent_width/2')]:
+    x=f'{sign}*(('+r+')*sin(lc_carrier_port_angle)+('+t+')*cos(lc_carrier_port_angle))';z=f'{-sign}*(('+r+')*cos(lc_carrier_port_angle)-('+t+')*sin(lc_carrier_port_angle))';p=g.skeleton_point(sk,x,z);g.point_dimensions(sk,p,x,z);points.append(p)
+   for i,p in enumerate(points):sk.sketchCurves.sketchLines.addByTwoPoints(p,points[(i+1)%4])
+  sk.isComputeDeferred=False;assert sk.profiles.count==2;body=self.extrude_all(sk,'lc_carrier_port_axial_width','Two motor connector windows',fusion.FeatureOperations.CutFeatureOperation,body)
+  definitions=[(f'{sign}*lc_carrier_cable_center_radius*sin(lc_carrier_port_angle)',f'{sign}*lc_carrier_cable_center_radius*cos(lc_carrier_port_angle)','lc_carrier_cable_radius') for sign in [-1,1]];sk=self.circles('lc_carrier_cable_y',definitions,'Opposed cable bend passages');return self.extrude_all(sk,'lc_carrier_cable_depth','Two protected cable passages',fusion.FeatureOperations.CutFeatureOperation,body)

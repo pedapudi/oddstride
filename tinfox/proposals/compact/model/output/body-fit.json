@@ -1,0 +1,1582 @@
+{
+  "model_sha256": "26dc3e75cbdbc009a4c43802ad7746045052365b9068d46fa1c1d88d5b37584a",
+  "shell_regions": {
+    "roof": {
+      "sample_count": 40,
+      "minimum_normal_ray_thickness_mm": 1.5316788874156215,
+      "minimum_normal_corrected_thickness_mm": 1.531096731732403,
+      "minimum_axis_thickness_mm": 1.5342199999999977,
+      "maximum_axis_thickness_mm": 1.8684200000000004
+    },
+    "display_pocket": {
+      "sample_count": 2,
+      "minimum_normal_ray_thickness_mm": 0.9996446323113192,
+      "minimum_normal_corrected_thickness_mm": 0.9996446317419135,
+      "minimum_axis_thickness_mm": 1.0,
+      "maximum_axis_thickness_mm": 1.0
+    },
+    "left_side": {
+      "sample_count": 21,
+      "minimum_normal_ray_thickness_mm": 1.5994314143388217,
+      "minimum_normal_corrected_thickness_mm": 1.5994314143388277,
+      "minimum_axis_thickness_mm": 1.5999999999999943,
+      "maximum_axis_thickness_mm": 1.6000000000000085
+    },
+    "right_side": {
+      "sample_count": 21,
+      "minimum_normal_ray_thickness_mm": 1.5994314143388217,
+      "minimum_normal_corrected_thickness_mm": 1.5994314143388277,
+      "minimum_axis_thickness_mm": 1.5999999999999943,
+      "maximum_axis_thickness_mm": 1.6000000000000085
+    },
+    "front_rim": {
+      "sample_count": 22,
+      "minimum_normal_ray_thickness_mm": 1.5305407022525457,
+      "minimum_normal_corrected_thickness_mm": 1.1505847796053161,
+      "minimum_axis_thickness_mm": 1.3147299999999973,
+      "maximum_axis_thickness_mm": 2.3086299999999937
+    },
+    "rear_cap": {
+      "sample_count": 15,
+      "minimum_normal_ray_thickness_mm": 1.5999999999999908,
+      "minimum_normal_corrected_thickness_mm": 1.599999999999994,
+      "minimum_axis_thickness_mm": 1.5999999999999943,
+      "maximum_axis_thickness_mm": 1.5999999999999943
+    }
+  },
+  "wall_samples": [
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -110,
+        -55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -110,
+        -30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -110,
+        0
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -110,
+        30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -110,
+        55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -80,
+        -55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -80,
+        -30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -80,
+        0
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -80,
+        30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -80,
+        55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -40,
+        -55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599432266412858,
+      "normal_corrected_thickness_mm": 1.5994314116981132
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -40,
+        -30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.5994322664128584,
+      "normal_corrected_thickness_mm": 1.5994314116981132
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -40,
+        0
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.5994322664128584,
+      "normal_corrected_thickness_mm": 1.5994314116981132
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -40,
+        30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.5994322664128584,
+      "normal_corrected_thickness_mm": 1.5994314116981132
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        -40,
+        55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.5994322664128584,
+      "normal_corrected_thickness_mm": 1.5994314116981132
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        0,
+        -55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.5994314116981128,
+      "normal_corrected_thickness_mm": 1.599431410787063
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        0,
+        -30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.5994314116981125,
+      "normal_corrected_thickness_mm": 1.599431410787063
+    },
+    {
+      "region": "display_pocket",
+      "axis": 2,
+      "point": [
+        0,
+        0
+      ],
+      "axis_thickness_mm": 1.0,
+      "normal_ray_thickness_mm": 0.9996446323113192,
+      "normal_corrected_thickness_mm": 0.9996446317419135
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        0,
+        30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.5994314116981125,
+      "normal_corrected_thickness_mm": 1.599431410787063
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        0,
+        55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599431411698113,
+      "normal_corrected_thickness_mm": 1.599431410787063
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        40,
+        -55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.5994322664128524,
+      "normal_corrected_thickness_mm": 1.5994314116858888
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        40,
+        -30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.5994322664128524,
+      "normal_corrected_thickness_mm": 1.5994314116858888
+    },
+    {
+      "region": "display_pocket",
+      "axis": 2,
+      "point": [
+        40,
+        0
+      ],
+      "axis_thickness_mm": 1.0,
+      "normal_ray_thickness_mm": 0.9996454870275516,
+      "normal_corrected_thickness_mm": 0.9996446323113198
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        40,
+        30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.5994322664128524,
+      "normal_corrected_thickness_mm": 1.5994314116858888
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        40,
+        55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.5994322664128524,
+      "normal_corrected_thickness_mm": 1.5994314116858888
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        80,
+        -55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        80,
+        -30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        80,
+        0
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        80,
+        30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        80,
+        55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        110,
+        -55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        110,
+        -30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        110,
+        0
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        110,
+        30
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        110,
+        55
+      ],
+      "axis_thickness_mm": 1.6000000000000014,
+      "normal_ray_thickness_mm": 1.599999999999998,
+      "normal_corrected_thickness_mm": 1.6000000000000014
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        145,
+        0
+      ],
+      "axis_thickness_mm": 1.5785699999999991,
+      "normal_ray_thickness_mm": 1.5705596858325894,
+      "normal_corrected_thickness_mm": 1.5701857949155453
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        170,
+        0
+      ],
+      "axis_thickness_mm": 1.5342199999999977,
+      "normal_ray_thickness_mm": 1.5316788874156215,
+      "normal_corrected_thickness_mm": 1.531096731732403
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        195,
+        0
+      ],
+      "axis_thickness_mm": 1.5918700000000001,
+      "normal_ray_thickness_mm": 1.586062831921867,
+      "normal_corrected_thickness_mm": 1.5860457831844836
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        215,
+        0
+      ],
+      "axis_thickness_mm": 1.6483299999999943,
+      "normal_ray_thickness_mm": 1.6371258054994424,
+      "normal_corrected_thickness_mm": 1.6370754625853916
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        230,
+        -30
+      ],
+      "axis_thickness_mm": 1.8684200000000004,
+      "normal_ray_thickness_mm": null,
+      "normal_corrected_thickness_mm": 1.8390853998551238
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        230,
+        0
+      ],
+      "axis_thickness_mm": 1.8684200000000004,
+      "normal_ray_thickness_mm": 1.847253881740254,
+      "normal_corrected_thickness_mm": 1.845021993184703
+    },
+    {
+      "region": "roof",
+      "axis": 2,
+      "point": [
+        230,
+        30
+      ],
+      "axis_thickness_mm": 1.8684200000000004,
+      "normal_ray_thickness_mm": null,
+      "normal_corrected_thickness_mm": 1.8390851500047123
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        -110,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999914,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        -110,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999914,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        -110,
+        15
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        -110,
+        15
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        -110,
+        30
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        -110,
+        30
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        -80,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999914,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        -80,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999914,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        -80,
+        15
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999914,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        -80,
+        15
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999914,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        -80,
+        30
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999914,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        -80,
+        30
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999914,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        -40,
+        0
+      ],
+      "axis_thickness_mm": 1.6000000000000085,
+      "normal_ray_thickness_mm": 1.599434746487603,
+      "normal_corrected_thickness_mm": 1.599431414338842
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        -40,
+        0
+      ],
+      "axis_thickness_mm": 1.6000000000000085,
+      "normal_ray_thickness_mm": 1.599434746487603,
+      "normal_corrected_thickness_mm": 1.599431414338842
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        -40,
+        15
+      ],
+      "axis_thickness_mm": 1.6000000000000085,
+      "normal_ray_thickness_mm": 1.5994347464876038,
+      "normal_corrected_thickness_mm": 1.599431414338842
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        -40,
+        15
+      ],
+      "axis_thickness_mm": 1.6000000000000085,
+      "normal_ray_thickness_mm": 1.5994347464876033,
+      "normal_corrected_thickness_mm": 1.599431414338842
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        -40,
+        30
+      ],
+      "axis_thickness_mm": 1.6000000000000085,
+      "normal_ray_thickness_mm": 1.5994347464876038,
+      "normal_corrected_thickness_mm": 1.599431414338842
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        -40,
+        30
+      ],
+      "axis_thickness_mm": 1.6000000000000085,
+      "normal_ray_thickness_mm": 1.5994347464876033,
+      "normal_corrected_thickness_mm": 1.599431414338842
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        0,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5994314143388217,
+      "normal_corrected_thickness_mm": 1.5994314143388277
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        0,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5994314143388217,
+      "normal_corrected_thickness_mm": 1.5994314143388277
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        0,
+        15
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5994314143388217,
+      "normal_corrected_thickness_mm": 1.5994314143388277
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        0,
+        15
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5994314143388217,
+      "normal_corrected_thickness_mm": 1.5994314143388277
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        0,
+        30
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5994314143388217,
+      "normal_corrected_thickness_mm": 1.5994314143388277
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        0,
+        30
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5994314143388217,
+      "normal_corrected_thickness_mm": 1.5994314143388277
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        40,
+        0
+      ],
+      "axis_thickness_mm": 1.6000000000000085,
+      "normal_ray_thickness_mm": 1.5994347464876033,
+      "normal_corrected_thickness_mm": 1.599431414338842
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        40,
+        0
+      ],
+      "axis_thickness_mm": 1.6000000000000085,
+      "normal_ray_thickness_mm": 1.599434746487604,
+      "normal_corrected_thickness_mm": 1.599431414338842
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        40,
+        15
+      ],
+      "axis_thickness_mm": 1.6000000000000085,
+      "normal_ray_thickness_mm": 1.5994347464876033,
+      "normal_corrected_thickness_mm": 1.599431414338842
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        40,
+        15
+      ],
+      "axis_thickness_mm": 1.6000000000000085,
+      "normal_ray_thickness_mm": 1.5994347464876033,
+      "normal_corrected_thickness_mm": 1.599431414338842
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        40,
+        30
+      ],
+      "axis_thickness_mm": 1.6000000000000085,
+      "normal_ray_thickness_mm": 1.5994347464876033,
+      "normal_corrected_thickness_mm": 1.599431414338842
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        40,
+        30
+      ],
+      "axis_thickness_mm": 1.6000000000000085,
+      "normal_ray_thickness_mm": 1.5994347464876033,
+      "normal_corrected_thickness_mm": 1.599431414338842
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        80,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        80,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.599999999999991,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        80,
+        15
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        80,
+        15
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.599999999999991,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        80,
+        30
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        80,
+        30
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.599999999999991,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        110,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999914,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        110,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999914,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        110,
+        15
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        110,
+        15
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "left_side",
+      "axis": 1,
+      "point": [
+        110,
+        30
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "right_side",
+      "axis": 1,
+      "point": [
+        110,
+        30
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        -82,
+        -40
+      ],
+      "axis_thickness_mm": 1.3147299999999973,
+      "normal_ray_thickness_mm": 1.5305407022525457,
+      "normal_corrected_thickness_mm": 1.1519381691227089
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        -82,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.599999999999991,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        -82,
+        40
+      ],
+      "axis_thickness_mm": 2.3086299999999937,
+      "normal_ray_thickness_mm": 2.229196386903787,
+      "normal_corrected_thickness_mm": 1.9907834050139497
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        -80,
+        -40
+      ],
+      "axis_thickness_mm": 1.8356699999999933,
+      "normal_ray_thickness_mm": 1.7640927867582772,
+      "normal_corrected_thickness_mm": 1.7185676279230842
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        -80,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.599999999999991,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        -80,
+        40
+      ],
+      "axis_thickness_mm": 2.246399999999994,
+      "normal_ray_thickness_mm": 1.9878751204680687,
+      "normal_corrected_thickness_mm": 1.695029836233412
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        -60,
+        -40
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        -60,
+        40
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.599999999999991,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        -30,
+        -40
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        -30,
+        40
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        0,
+        -40
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999908,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        0,
+        40
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.599999999999991,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        30,
+        -40
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        30,
+        40
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999917,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        60,
+        -40
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        60,
+        40
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        80,
+        -40
+      ],
+      "axis_thickness_mm": 1.8356400000000122,
+      "normal_ray_thickness_mm": 1.7611648255727685,
+      "normal_corrected_thickness_mm": 1.7184967311846469
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        80,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.599999999999991,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        80,
+        40
+      ],
+      "axis_thickness_mm": 2.248899999999992,
+      "normal_ray_thickness_mm": 2.0635800225288454,
+      "normal_corrected_thickness_mm": 1.5936938949920212
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        82,
+        -40
+      ],
+      "axis_thickness_mm": 1.3147299999999973,
+      "normal_ray_thickness_mm": 1.5323353965470043,
+      "normal_corrected_thickness_mm": 1.1505847796053161
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        82,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.599999999999991,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "front_rim",
+      "axis": 0,
+      "point": [
+        82,
+        40
+      ],
+      "axis_thickness_mm": 2.2984399999999994,
+      "normal_ray_thickness_mm": 2.2063562880676018,
+      "normal_corrected_thickness_mm": 1.9062899078130096
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        -50,
+        -25
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.599999999999991,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        -50,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        -50,
+        25
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        -30,
+        -25
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.599999999999991,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        -30,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        -30,
+        25
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        0,
+        -25
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.599999999999991,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        0,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        0,
+        25
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        30,
+        -25
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999914,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        30,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.599999999999994
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        30,
+        25
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        50,
+        -25
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999908,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        50,
+        0
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    },
+    {
+      "region": "rear_cap",
+      "axis": 0,
+      "point": [
+        50,
+        25
+      ],
+      "axis_thickness_mm": 1.5999999999999943,
+      "normal_ray_thickness_mm": 1.5999999999999912,
+      "normal_corrected_thickness_mm": 1.5999999999999943
+    }
+  ],
+  "void_samples_skipped": [
+    {
+      "region": "roof",
+      "point": [
+        145,
+        -55
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        145,
+        -30
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        145,
+        30
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        145,
+        55
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        170,
+        -55
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        170,
+        -30
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        170,
+        30
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        170,
+        55
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        195,
+        -55
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        195,
+        -30
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        195,
+        30
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        195,
+        55
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        215,
+        -55
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        215,
+        -30
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        215,
+        30
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        215,
+        55
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        230,
+        -55
+      ]
+    },
+    {
+      "region": "roof",
+      "point": [
+        230,
+        55
+      ]
+    },
+    {
+      "region": "front_rim",
+      "point": [
+        -60,
+        0
+      ]
+    },
+    {
+      "region": "front_rim",
+      "point": [
+        -30,
+        0
+      ]
+    },
+    {
+      "region": "front_rim",
+      "point": [
+        0,
+        0
+      ]
+    },
+    {
+      "region": "front_rim",
+      "point": [
+        30,
+        0
+      ]
+    },
+    {
+      "region": "front_rim",
+      "point": [
+        60,
+        0
+      ]
+    }
+  ],
+  "nose_panel_nominal_mm": 1.6,
+  "minimum_sampled_panel_counterbore_floor_mm": 1.049999999999983,
+  "support_tabs": [
+    {
+      "part": "nose_standoff_-68_-30",
+      "solid_count": 1,
+      "panel_distance_mm": 0.0,
+      "rim_distance_mm": 0.0,
+      "panel_intersection_mm3": 0.0,
+      "rim_intersection_mm3": 0.0
+    },
+    {
+      "part": "nose_standoff_-68_30",
+      "solid_count": 1,
+      "panel_distance_mm": 0.0,
+      "rim_distance_mm": 0.0,
+      "panel_intersection_mm3": 0.0,
+      "rim_intersection_mm3": 0.0
+    },
+    {
+      "part": "nose_standoff_68_-30",
+      "solid_count": 1,
+      "panel_distance_mm": 0.0,
+      "rim_distance_mm": 0.0,
+      "panel_intersection_mm3": 0.0,
+      "rim_intersection_mm3": 0.0
+    },
+    {
+      "part": "nose_standoff_68_30",
+      "solid_count": 1,
+      "panel_distance_mm": 0.0,
+      "rim_distance_mm": 0.0,
+      "panel_intersection_mm3": 0.0,
+      "rim_intersection_mm3": 0.0
+    }
+  ],
+  "head_cover_intersections": [],
+  "tool_access_intersections": [],
+  "scope": "Printed rigid covers only. Wall rays start on the exported outer surface and run inward along its triangle normal. The auxiliary axis-ray correction is a conservative approximation. Neither method is a global minimum proof. Intentional openings are recorded as skipped samples. Tab contacts use exact STEP solids. Head fits and straight \u00d85 mm \u00d720 mm access envelopes use CAD meshes. Screw envelopes remain provisional; final screw selection, tolerances and loaded retention remain unqualified."
+}

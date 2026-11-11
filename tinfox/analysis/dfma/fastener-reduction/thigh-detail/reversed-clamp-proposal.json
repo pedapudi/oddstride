@@ -1,0 +1,122 @@
+{
+  "scope": "Current detailed native thigh; reversed-clamp proposal route only, before revised floor construction",
+  "sources": {
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/dfma-architecture-v1/dfma-thigh-primary-detailed.step": "4909ffed568ad0c16231410bef115b43e2a75f46fa3a0b864efa4630eb42e59d",
+    "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/dfma-architecture-v1/dfma-thigh-secondary-detailed.step": "17a865404a3570e2123cea4799e7528f7f818d52388e8f654395b3a277e1ce23"
+  },
+  "rows": [
+    {
+      "center_xz_mm": [
+        -36,
+        -66
+      ],
+      "socket_proxy": {
+        "OD_mm": 10,
+        "axial_interval_mm": [
+          -15,
+          57
+        ],
+        "overlap_mm3": {
+          "primary": 0.0,
+          "secondary": 0.0
+        }
+      },
+      "ordinary_M4_nut": {
+        "AF_mm": 7,
+        "thickness_mm": 3.2,
+        "interval_y_mm": [
+          53.8,
+          57
+        ],
+        "overlap_mm3": {
+          "primary": 0.0,
+          "secondary": 0.0
+        }
+      },
+      "inner_washer_land_contact_mm2": 60.28716302238813,
+      "current_outer_floor_probe": [
+        {
+          "y": 88.999,
+          "existing_floor_area_mm2": 0
+        },
+        {
+          "y": 89,
+          "existing_floor_area_mm2": 0
+        },
+        {
+          "y": 89.001,
+          "existing_floor_area_mm2": 0
+        }
+      ]
+    },
+    {
+      "center_xz_mm": [
+        5,
+        -70
+      ],
+      "socket_proxy": {
+        "OD_mm": 10,
+        "axial_interval_mm": [
+          -15,
+          57
+        ],
+        "overlap_mm3": {
+          "primary": 0.0,
+          "secondary": 0.0
+        }
+      },
+      "ordinary_M4_nut": {
+        "AF_mm": 7,
+        "thickness_mm": 3.2,
+        "interval_y_mm": [
+          53.8,
+          57
+        ],
+        "overlap_mm3": {
+          "primary": 0.0,
+          "secondary": 0.0
+        }
+      },
+      "inner_washer_land_contact_mm2": 60.28716302238831,
+      "current_outer_floor_probe": [
+        {
+          "y": 88.999,
+          "existing_floor_area_mm2": 0
+        },
+        {
+          "y": 89,
+          "existing_floor_area_mm2": 0
+        },
+        {
+          "y": 89.001,
+          "existing_floor_area_mm2": 0
+        }
+      ]
+    }
+  ],
+  "proposed_stack": {
+    "M4x40_underhead_y": 90,
+    "tip_y": 50,
+    "inner_nut_y": [
+      53.8,
+      57
+    ],
+    "projection_mm": 3.8,
+    "washers_y": [
+      [
+        57,
+        58
+      ],
+      [
+        89,
+        90
+      ]
+    ],
+    "sleeve_y": [
+      58,
+      89
+    ],
+    "sleeve_length_mm": 31
+  },
+  "qualification": "Outer Y89 washer floor is not present in old geometry; actual revised floor support needs the new export."
+}

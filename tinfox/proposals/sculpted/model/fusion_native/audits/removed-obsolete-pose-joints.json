@@ -1,0 +1,950 @@
+{
+  "passed": true,
+  "saved": false,
+  "deleted_pose_joints": [
+    {
+      "name": "RR Parallel link position pose",
+      "old_index": 810
+    },
+    {
+      "name": "RR Knee drive phase pose",
+      "old_index": 808
+    },
+    {
+      "name": "RR Knee pitch pose",
+      "old_index": 806
+    },
+    {
+      "name": "RR Hip pitch pose",
+      "old_index": 803
+    },
+    {
+      "name": "RR Hip roll pose",
+      "old_index": 800
+    },
+    {
+      "name": "RR Hip mounting position pose",
+      "old_index": 797
+    },
+    {
+      "name": "RL Parallel link position pose",
+      "old_index": 792
+    },
+    {
+      "name": "RL Knee drive phase pose",
+      "old_index": 790
+    },
+    {
+      "name": "RL Knee pitch pose",
+      "old_index": 788
+    },
+    {
+      "name": "RL Hip pitch pose",
+      "old_index": 785
+    },
+    {
+      "name": "RL Hip roll pose",
+      "old_index": 782
+    },
+    {
+      "name": "RL Hip mounting position pose",
+      "old_index": 779
+    },
+    {
+      "name": "FR Parallel link position pose",
+      "old_index": 774
+    },
+    {
+      "name": "FR Knee drive phase pose",
+      "old_index": 772
+    },
+    {
+      "name": "FR Knee pitch pose",
+      "old_index": 770
+    },
+    {
+      "name": "FR Hip pitch pose",
+      "old_index": 767
+    },
+    {
+      "name": "FR Hip roll pose",
+      "old_index": 764
+    },
+    {
+      "name": "FR Hip mounting position pose",
+      "old_index": 761
+    },
+    {
+      "name": "FL Parallel link position pose",
+      "old_index": 756
+    },
+    {
+      "name": "FL Knee drive phase pose",
+      "old_index": 754
+    },
+    {
+      "name": "FL Knee pitch pose",
+      "old_index": 752
+    },
+    {
+      "name": "FL Hip pitch pose",
+      "old_index": 749
+    },
+    {
+      "name": "FL Hip roll pose",
+      "old_index": 746
+    },
+    {
+      "name": "FL Hip mounting position pose",
+      "old_index": 743
+    }
+  ],
+  "retained_historical_modules": 4,
+  "deleted_custom_definitions": 0,
+  "rebound_occurrences": 20,
+  "definition_checks": [
+    {
+      "part": "knee_inner_spacer",
+      "maximum_vertex_error_mm": 0,
+      "topology_and_bounds_preserved": true
+    },
+    {
+      "part": "shin_clamp_sleeve_37",
+      "maximum_vertex_error_mm": 0,
+      "topology_and_bounds_preserved": true
+    },
+    {
+      "part": "shin_clamp_sleeve_105",
+      "maximum_vertex_error_mm": 0,
+      "topology_and_bounds_preserved": true
+    },
+    {
+      "part": "foot",
+      "maximum_vertex_error_mm": 0,
+      "topology_and_bounds_preserved": true
+    },
+    {
+      "part": "pushrod",
+      "maximum_vertex_error_mm": 0,
+      "topology_and_bounds_preserved": true
+    },
+    {
+      "part": "knee_inner_spacer_right",
+      "maximum_vertex_error_mm": 0,
+      "topology_and_bounds_preserved": true
+    },
+    {
+      "part": "shin_clamp_sleeve_37_right",
+      "maximum_vertex_error_mm": 0,
+      "topology_and_bounds_preserved": true
+    },
+    {
+      "part": "shin_clamp_sleeve_105_right",
+      "maximum_vertex_error_mm": 0,
+      "topology_and_bounds_preserved": true
+    },
+    {
+      "part": "foot_right",
+      "maximum_vertex_error_mm": 0,
+      "topology_and_bounds_preserved": true
+    },
+    {
+      "part": "pushrod_right",
+      "maximum_vertex_error_mm": 0,
+      "topology_and_bounds_preserved": true
+    }
+  ],
+  "standing_checks": [
+    {
+      "part": "CANDIDATE_pr_roll_cartridge_1",
+      "leg": "FL",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_stator_backplate_1",
+      "leg": "FL",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_outer_retainer_1",
+      "leg": "FL",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_outer_spacer_1",
+      "leg": "FL",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CURRENT_REFERENCE_FL_mount",
+      "leg": "FL",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_rc_motor_carrier_1",
+      "leg": "FL",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_rc_hip_stator_closure_1",
+      "leg": "FL",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_inner_backplate_1",
+      "leg": "FL",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_inner_spacer_1",
+      "leg": "FL",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CURRENT_REFERENCE_FL_roll",
+      "leg": "FL",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_hc_hip_hub",
+      "leg": "FL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_ks_motor_mount_ring",
+      "leg": "FL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_pod_sleeve_90",
+      "leg": "FL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_pod_sleeve_210",
+      "leg": "FL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_pod_sleeve_330",
+      "leg": "FL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_sl_thigh_inner",
+      "leg": "FL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_mc_thigh_outer",
+      "leg": "FL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_sleeve_0",
+      "leg": "FL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_sleeve_1",
+      "leg": "FL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_knee_axle",
+      "leg": "FL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "knee_inner_spacer",
+      "leg": "FL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CURRENT_REFERENCE_FL_thigh",
+      "leg": "FL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_round_shin_inner",
+      "leg": "FL",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "CANDIDATE_round_shin_outer",
+      "leg": "FL",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "shin_clamp_sleeve_37",
+      "leg": "FL",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "shin_clamp_sleeve_105",
+      "leg": "FL",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "foot",
+      "leg": "FL",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "CURRENT_REFERENCE_FL_knee",
+      "leg": "FL",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "CANDIDATE_mc_input_crank",
+      "leg": "FL",
+      "group": "crank",
+      "matrix_error_cm": 1.1102230246251565e-16
+    },
+    {
+      "part": "CURRENT_REFERENCE_FL_crank",
+      "leg": "FL",
+      "group": "crank",
+      "matrix_error_cm": 1.1102230246251565e-16
+    },
+    {
+      "part": "pushrod",
+      "leg": "FL",
+      "group": "rod",
+      "matrix_error_cm": 3.552713678800501e-15
+    },
+    {
+      "part": "CURRENT_REFERENCE_FL_rod",
+      "leg": "FL",
+      "group": "rod",
+      "matrix_error_cm": 3.552713678800501e-15
+    },
+    {
+      "part": "CANDIDATE_wf_roll_cartridge_1_right",
+      "leg": "FR",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_wf_roll_stator_backplate_1_right",
+      "leg": "FR",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_outer_retainer_1_right",
+      "leg": "FR",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_outer_spacer_1_right",
+      "leg": "FR",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CURRENT_REFERENCE_FR_mount",
+      "leg": "FR",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_wf_motor_carrier_1_right",
+      "leg": "FR",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_wf_hip_stator_closure_1_right",
+      "leg": "FR",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_inner_backplate_1_right",
+      "leg": "FR",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_inner_spacer_1_right",
+      "leg": "FR",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CURRENT_REFERENCE_FR_roll",
+      "leg": "FR",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_hc_hip_hub_right",
+      "leg": "FR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_ks_motor_mount_ring_right",
+      "leg": "FR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_pod_sleeve_90_right",
+      "leg": "FR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_pod_sleeve_210_right",
+      "leg": "FR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_pod_sleeve_330_right",
+      "leg": "FR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_sl_thigh_inner_right",
+      "leg": "FR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_mc_thigh_outer_right",
+      "leg": "FR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_sleeve_0_right",
+      "leg": "FR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_sleeve_1_right",
+      "leg": "FR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_knee_axle_right",
+      "leg": "FR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "knee_inner_spacer_right",
+      "leg": "FR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CURRENT_REFERENCE_FR_thigh",
+      "leg": "FR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_round_shin_inner_right",
+      "leg": "FR",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "CANDIDATE_round_shin_outer_right",
+      "leg": "FR",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "shin_clamp_sleeve_37_right",
+      "leg": "FR",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "shin_clamp_sleeve_105_right",
+      "leg": "FR",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "foot_right",
+      "leg": "FR",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "CURRENT_REFERENCE_FR_knee",
+      "leg": "FR",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "CANDIDATE_mc_input_crank_right",
+      "leg": "FR",
+      "group": "crank",
+      "matrix_error_cm": 1.1102230246251565e-16
+    },
+    {
+      "part": "CURRENT_REFERENCE_FR_crank",
+      "leg": "FR",
+      "group": "crank",
+      "matrix_error_cm": 1.1102230246251565e-16
+    },
+    {
+      "part": "pushrod_right",
+      "leg": "FR",
+      "group": "rod",
+      "matrix_error_cm": 3.552713678800501e-15
+    },
+    {
+      "part": "CURRENT_REFERENCE_FR_rod",
+      "leg": "FR",
+      "group": "rod",
+      "matrix_error_cm": 3.552713678800501e-15
+    },
+    {
+      "part": "CANDIDATE_wf_roll_cartridge_-1",
+      "leg": "RL",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_wf_roll_stator_backplate_-1",
+      "leg": "RL",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_outer_retainer_-1",
+      "leg": "RL",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_outer_spacer_-1",
+      "leg": "RL",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CURRENT_REFERENCE_RL_mount",
+      "leg": "RL",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_rc_motor_carrier_-1",
+      "leg": "RL",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_wf_hip_stator_closure_-1",
+      "leg": "RL",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_inner_backplate_-1",
+      "leg": "RL",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_inner_spacer_-1",
+      "leg": "RL",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CURRENT_REFERENCE_RL_roll",
+      "leg": "RL",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_hc_hip_hub",
+      "leg": "RL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_ks_motor_mount_ring",
+      "leg": "RL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_pod_sleeve_90",
+      "leg": "RL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_pod_sleeve_210",
+      "leg": "RL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_pod_sleeve_330",
+      "leg": "RL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_sl_thigh_inner",
+      "leg": "RL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_mc_thigh_outer",
+      "leg": "RL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_sleeve_0",
+      "leg": "RL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_sleeve_1",
+      "leg": "RL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_knee_axle",
+      "leg": "RL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "knee_inner_spacer",
+      "leg": "RL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CURRENT_REFERENCE_RL_thigh",
+      "leg": "RL",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_round_shin_inner",
+      "leg": "RL",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "CANDIDATE_round_shin_outer",
+      "leg": "RL",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "shin_clamp_sleeve_37",
+      "leg": "RL",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "shin_clamp_sleeve_105",
+      "leg": "RL",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "foot",
+      "leg": "RL",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "CURRENT_REFERENCE_RL_knee",
+      "leg": "RL",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "CANDIDATE_mc_input_crank",
+      "leg": "RL",
+      "group": "crank",
+      "matrix_error_cm": 1.1102230246251565e-16
+    },
+    {
+      "part": "CURRENT_REFERENCE_RL_crank",
+      "leg": "RL",
+      "group": "crank",
+      "matrix_error_cm": 1.1102230246251565e-16
+    },
+    {
+      "part": "pushrod",
+      "leg": "RL",
+      "group": "rod",
+      "matrix_error_cm": 8.881784197001252e-16
+    },
+    {
+      "part": "CURRENT_REFERENCE_RL_rod",
+      "leg": "RL",
+      "group": "rod",
+      "matrix_error_cm": 4.440892098500626e-16
+    },
+    {
+      "part": "CANDIDATE_wf_roll_cartridge_-1_right",
+      "leg": "RR",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_wf_roll_stator_backplate_-1_right",
+      "leg": "RR",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_outer_retainer_-1_right",
+      "leg": "RR",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_outer_spacer_-1_right",
+      "leg": "RR",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CURRENT_REFERENCE_RR_mount",
+      "leg": "RR",
+      "group": "mount",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_wf_motor_carrier_-1_right",
+      "leg": "RR",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_wf_hip_stator_closure_-1_right",
+      "leg": "RR",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_inner_backplate_-1_right",
+      "leg": "RR",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_pr_roll_inner_spacer_-1_right",
+      "leg": "RR",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CURRENT_REFERENCE_RR_roll",
+      "leg": "RR",
+      "group": "roll",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_hc_hip_hub_right",
+      "leg": "RR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_ks_motor_mount_ring_right",
+      "leg": "RR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_pod_sleeve_90_right",
+      "leg": "RR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_pod_sleeve_210_right",
+      "leg": "RR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_pod_sleeve_330_right",
+      "leg": "RR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_sl_thigh_inner_right",
+      "leg": "RR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_mc_thigh_outer_right",
+      "leg": "RR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_sleeve_0_right",
+      "leg": "RR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_sleeve_1_right",
+      "leg": "RR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_bt_knee_axle_right",
+      "leg": "RR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "knee_inner_spacer_right",
+      "leg": "RR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CURRENT_REFERENCE_RR_thigh",
+      "leg": "RR",
+      "group": "thigh",
+      "matrix_error_cm": 0.0
+    },
+    {
+      "part": "CANDIDATE_round_shin_inner_right",
+      "leg": "RR",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "CANDIDATE_round_shin_outer_right",
+      "leg": "RR",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "shin_clamp_sleeve_37_right",
+      "leg": "RR",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "shin_clamp_sleeve_105_right",
+      "leg": "RR",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "foot_right",
+      "leg": "RR",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "CURRENT_REFERENCE_RR_knee",
+      "leg": "RR",
+      "group": "knee",
+      "matrix_error_cm": 1.7763568394002505e-15
+    },
+    {
+      "part": "CANDIDATE_mc_input_crank_right",
+      "leg": "RR",
+      "group": "crank",
+      "matrix_error_cm": 1.1102230246251565e-16
+    },
+    {
+      "part": "CURRENT_REFERENCE_RR_crank",
+      "leg": "RR",
+      "group": "crank",
+      "matrix_error_cm": 1.1102230246251565e-16
+    },
+    {
+      "part": "pushrod_right",
+      "leg": "RR",
+      "group": "rod",
+      "matrix_error_cm": 8.881784197001252e-16
+    },
+    {
+      "part": "CURRENT_REFERENCE_RR_rod",
+      "leg": "RR",
+      "group": "rod",
+      "matrix_error_cm": 4.440892098500626e-16
+    }
+  ],
+  "elapsed_seconds": 2350.7634436659864,
+  "scope": "Permanent obsolete solver retirement. Current shared native part geometry and standing placement preserved; moving pose checks follow.",
+  "separate_readback": {
+    "passed": true,
+    "old_pose_joints": 0,
+    "current_pose_joints": 24,
+    "old_construction_modules_retained": 4,
+    "saved_version": 28,
+    "modified": true,
+    "timeline_at_end": true
+  },
+  "transport_timeout": {
+    "tag": "remove-obsolete-pose-joints",
+    "pid": 3533960,
+    "started_utc": "2026-10-29T12:59:18.602432+00:00",
+    "state": "execution_state_unknown",
+    "read_only": false,
+    "script_sha256": "6c58d06bed212c08970cb6f7d10d0129a85dd26eae19622489c8c3748df49ccf",
+    "script_archive": "snapshots/executed-scripts/6c58d06bed212c08970cb6f7d10d0129a85dd26eae19622489c8c3748df49ccf.py.gz",
+    "elapsed_seconds": 1800.0149765919778,
+    "error": "timed out"
+  },
+  "remote_journal_sha256": "bae39a5892b3ce78469f44e512973e90095b873895023cf2d213f52e01e4c6e6"
+}

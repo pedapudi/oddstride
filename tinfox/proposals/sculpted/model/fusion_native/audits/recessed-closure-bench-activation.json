@@ -1,0 +1,60 @@
+{
+  "saved_version": 22,
+  "working_modified": true,
+  "candidate_only": true,
+  "retired_active_occurrences": [
+    {
+      "part": "CANDIDATE_pr_hip_stator_closure_1",
+      "action": "Superseded active occurrence removed; native construction parent retained hidden."
+    },
+    {
+      "part": "CANDIDATE_pr_motor_carrier_1",
+      "action": "Superseded active occurrence removed; native construction parent retained hidden."
+    },
+    {
+      "reference": "FL_carrier_closure_bolt_90",
+      "part_number": "BENCH_REFERENCE_FL_carrier_closure_bolt_90",
+      "action": "Removed superseded active button occurrence"
+    },
+    {
+      "reference": "FL_carrier_closure_washer_90",
+      "part_number": "BENCH_REFERENCE_FL_carrier_closure_washer_90",
+      "action": "Removed separate closure washer; the standard button now bears on its recessed floor."
+    },
+    {
+      "reference": "FL_carrier_closure_bolt_215",
+      "part_number": "BENCH_REFERENCE_FL_carrier_closure_bolt_215",
+      "action": "Removed superseded active button occurrence"
+    },
+    {
+      "reference": "FL_carrier_closure_washer_215",
+      "part_number": "BENCH_REFERENCE_FL_carrier_closure_washer_215",
+      "action": "Removed separate closure washer; the standard button now bears on its recessed floor."
+    },
+    {
+      "reference": "FL_carrier_closure_bolt_325",
+      "part_number": "BENCH_REFERENCE_FL_carrier_closure_bolt_325",
+      "action": "Removed superseded active button occurrence"
+    },
+    {
+      "reference": "FL_carrier_closure_washer_325",
+      "part_number": "BENCH_REFERENCE_FL_carrier_closure_washer_325",
+      "action": "Removed separate closure washer; the standard button now bears on its recessed floor."
+    }
+  ],
+  "retained_hidden_reference_parents": [
+    "BENCH_REFERENCE_FL_carrier_closure_bolt_90",
+    "BENCH_REFERENCE_FL_carrier_closure_bolt_215",
+    "BENCH_REFERENCE_FL_carrier_closure_bolt_325"
+  ],
+  "assembly_inventory": {
+    "custom_parts": 13,
+    "cut_stock_bodies": 8,
+    "purchased_references": 100,
+    "motors": 3,
+    "connector_bodies": 24,
+    "total_visible_bodies": 121
+  },
+  "elapsed_seconds": 48.11740229098359,
+  "scope": "Working revision only. Exact assembled pair classification and saved export gates remain pending."
+}

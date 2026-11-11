@@ -1,0 +1,31 @@
+{
+  "part": "shin_outer",
+  "source_model_sha256": "37b8a0d12bbc1f01429a199a88e8e4225732683e799e84593bb03849de3afa59",
+  "source_mesh_sha256": "23b65d58cf5ccfffb6eb3679fbf9b07152396e13309547d683194004e7e3d61c",
+  "mesh_identity_exact": true,
+  "probe_point_mm": [
+    14.456977652729044,
+    69.16885682435795,
+    -55.34324266650307
+  ],
+  "comparisons": {
+    "original": {
+      "adaptive_volume_mm3": 42032.14435840244,
+      "anomaly_point_distance_mm": 0.0,
+      "valid": true
+    },
+    "brep_roundtrip": {
+      "adaptive_volume_mm3": 42032.144358402365,
+      "anomaly_point_distance_mm": 0.0,
+      "valid": true
+    },
+    "step_roundtrip": {
+      "adaptive_volume_mm3": 42035.56047745056,
+      "anomaly_point_distance_mm": 0.06474019072224955,
+      "valid": true
+    }
+  },
+  "source_brep": "snapshots/brep/shin_outer.brep",
+  "source_brep_sha256": "e35171360d9ee94c1c3f9221c57f6d13d806105e477918b4d626a14080ece933",
+  "scope": "Source regeneration matches every frozen quantized mesh coordinate and triangle exactly. Lossless BRep reference is for audits only; native custom-part authoring never imports it. STEP source remains preserved; its round-trip distance discrepancy is recorded."
+}

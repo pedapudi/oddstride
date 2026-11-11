@@ -1,0 +1,56 @@
+{
+  "variants": [
+    {
+      "variant": "printed",
+      "base_mass_kg": 12.259445477422151,
+      "custom_limb_mass_kg": 2.2704194580543797,
+      "relief_savings_kg": 0,
+      "mass_categories": {
+        "steel": 1.056808019367769,
+        "petg": 3.1866604580543805,
+        "envelope": 0.008232000000000001,
+        "batteries": 1.4,
+        "aluminum": 0.3791769999999999,
+        "motors": 4.860000000000002,
+        "rubber": 0.168568,
+        "compute_sensors_wiring_allowance": 0.8,
+        "unmodeled_mounts_cables_fasteners_allowance": 0.4
+      }
+    },
+    {
+      "variant": "hybrid",
+      "base_mass_kg": 13.123118483316714,
+      "custom_limb_mass_kg": 3.163484483316712,
+      "relief_savings_kg": 0.06466501222985366,
+      "mass_categories": {
+        "steel": 1.254284194356626,
+        "petg": 2.3058410216464815,
+        "envelope": 0.008232000000000001,
+        "batteries": 1.4,
+        "aluminum": 1.9261932673136049,
+        "motors": 4.860000000000002,
+        "rubber": 0.168568,
+        "compute_sensors_wiring_allowance": 0.8,
+        "unmodeled_mounts_cables_fasteners_allowance": 0.4
+      }
+    },
+    {
+      "variant": "cnc",
+      "base_mass_kg": 14.239098568108677,
+      "custom_limb_mass_kg": 4.279464568108675,
+      "relief_savings_kg": 0.5133509325347841,
+      "mass_categories": {
+        "steel": 1.254284194356626,
+        "petg": 0.916241,
+        "envelope": 0.008232000000000001,
+        "batteries": 1.4,
+        "aluminum": 4.431773373752049,
+        "motors": 4.860000000000002,
+        "rubber": 0.168568,
+        "compute_sensors_wiring_allowance": 0.8,
+        "unmodeled_mounts_cables_fasteners_allowance": 0.4
+      }
+    }
+  ],
+  "scope": "Material-volume estimates, not measured masses. Body and payload assumptions are shared."
+}

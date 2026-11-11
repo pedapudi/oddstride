@@ -1,0 +1,47 @@
+{
+  "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+  "saved_version": 63,
+  "save_verification": "audits/current-master-v63-save-verification.json",
+  "assembly_audit": "audits/current-master-assembly-refresh.json",
+  "subsystem_versions": {
+    "chassis": 18,
+    "leg": 30,
+    "head": 22
+  },
+  "mapped_source_items": 420,
+  "physical_custom_instances": 100,
+  "reference_items_including_nonphysical_envelope": 320,
+  "excluded_nonphysical_reference": "electronics_clearance",
+  "source_of_truth": false,
+  "open_gates": [
+    "Saved Master reopen and native whole review export.",
+    "Independent browser/motion parity and explicit whole low-profile authority approval."
+  ],
+  "exports": {
+    "step": "exports/Tinfox-native-robot-candidate.step",
+    "f3d": "exports/Tinfox-Master-v60-motion-audited.f3d",
+    "preview": "exports/Tinfox-native-robot-clean-view.png",
+    "step_scope": "Earlier protected baseline assembly; not the current body or latest limb revision.",
+    "review_model": "exports/native-review-model.json.gz",
+    "review_model_scope": "Protected earlier low-profile baseline, pending current native refresh."
+  },
+  "updated_utc": "2026-10-29T07:30:51.488093+00:00",
+  "whole_robot_comparison": "audits/whole-native-robot-motion-service.json",
+  "shared_family_edit_reports": [
+    "audits/leg-datum-propagation-edited.json",
+    "audits/leg-datum-propagation-restored.json",
+    "audits/head-datum-propagation-edited.json",
+    "audits/head-datum-propagation-restored.json"
+  ],
+  "physical_qualification_remaining": [
+    "CNC process/tool access qualification where unreviewed, manufacturing fits, structural strength, continuous motion and loaded performance; these are separate from CAD-authority scope."
+  ],
+  "source_reference_sha256": "3db72f97655f566a3fea51562266fa7e245074df96fe8a46aa1fe4c3bfbb2834",
+  "scope": "Saved current body revision with the earlier Leg14 and Head22 definitions. Latest corrected clamps, slimmer/rounded limbs and the newly requested standard roll-bearing redesign are not yet included.",
+  "independent_reference_visibility": "audits/master-reference-visibility-checkpoint.json",
+  "local_archive_saved_version": 60,
+  "local_archive_is_current": false,
+  "targeted_native_interface_review": "audits/native-master-critical-interfaces.json",
+  "assembly_target": "manifests/native-assembly-target.json",
+  "partial_native_scope": "manifests/motor-complex-native-exports.json"
+}

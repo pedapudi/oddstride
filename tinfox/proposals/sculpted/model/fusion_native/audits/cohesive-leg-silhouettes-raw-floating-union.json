@@ -1,0 +1,33 @@
+{
+  "views": [
+    {
+      "view": "side",
+      "source_area_mm2": 18364.88392057103,
+      "native_area_mm2": 18362.485615549445,
+      "symmetric_difference_area_mm2": 3.6228262086658165,
+      "relative_difference_area": 0.0001972692135890816,
+      "boundary_hausdorff_mm": 0.1221585468106285,
+      "pass": false
+    },
+    {
+      "view": "front",
+      "source_area_mm2": 12298.209155796329,
+      "native_area_mm2": 12298.210636301175,
+      "symmetric_difference_area_mm2": 0.006642715679920654,
+      "relative_difference_area": 5.401368277095729e-07,
+      "boundary_hausdorff_mm": 0.3352142227865329,
+      "pass": false
+    },
+    {
+      "view": "isometric",
+      "source_area_mm2": 20320.44224767817,
+      "native_area_mm2": 20319.452028551514,
+      "symmetric_difference_area_mm2": 1.1161622819381185,
+      "relative_difference_area": 5.49280506956315e-05,
+      "boundary_hausdorff_mm": 0.009775332265548501,
+      "pass": true
+    }
+  ],
+  "passed": false,
+  "scope": "External projected silhouettes at 0.01 mm source/native tessellation; excludes projected internal holes and disconnected triangulation fragments smaller than 0.00001 mm2. Internal features are audited by exact BRep surfaces and sections."
+}

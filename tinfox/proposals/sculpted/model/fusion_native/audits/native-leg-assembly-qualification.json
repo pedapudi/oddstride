@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "saved": false,
+  "checks": [
+    {
+      "case": "stand",
+      "maximum_matrix_component_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 3.580361673049448e-15,
+      "physical_instances_checked": 80,
+      "seconds": 11.623688457999378
+    },
+    {
+      "case": "studio",
+      "maximum_matrix_component_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 5.0242958677880805e-15,
+      "physical_instances_checked": 80,
+      "seconds": 12.366842333984096
+    },
+    {
+      "case": "raised",
+      "maximum_matrix_component_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 7.944109290391274e-15,
+      "physical_instances_checked": 80,
+      "seconds": 12.788149874977535
+    },
+    {
+      "case": "crouch",
+      "maximum_matrix_component_error_cm": 7.105427357601002e-15,
+      "maximum_vertex_error_cm": 8.881784197001252e-15,
+      "physical_instances_checked": 80,
+      "seconds": 12.605635874992004
+    },
+    {
+      "case": "reach",
+      "maximum_matrix_component_error_cm": 7.105427357601002e-15,
+      "maximum_vertex_error_cm": 1.507288760336424e-14,
+      "physical_instances_checked": 80,
+      "seconds": 13.10587641701568
+    },
+    {
+      "case": "fold",
+      "maximum_matrix_component_error_cm": 2.220446049250313e-15,
+      "maximum_vertex_error_cm": 2.6645352591003757e-15,
+      "physical_instances_checked": 80,
+      "seconds": 13.65329695798573
+    },
+    {
+      "case": "splay",
+      "maximum_matrix_component_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 6.153480596427404e-15,
+      "physical_instances_checked": 80,
+      "seconds": 13.709111917007249
+    },
+    {
+      "case": "side_reach",
+      "maximum_matrix_component_error_cm": 5.329070518200751e-15,
+      "maximum_vertex_error_cm": 8.702335715267317e-15,
+      "physical_instances_checked": 80,
+      "seconds": 13.014816667011473
+    },
+    {
+      "case": "Edit lc_thigh_length",
+      "maximum_matrix_component_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 3.580361673049448e-15,
+      "physical_instances_checked": 80,
+      "seconds": 19.057573333004257
+    },
+    {
+      "case": "Edit lc_hip_x",
+      "maximum_matrix_component_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 3.580361673049448e-15,
+      "physical_instances_checked": 80,
+      "seconds": 17.44315683399327
+    },
+    {
+      "case": "Edit lc_roll_y",
+      "maximum_matrix_component_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 3.580361673049448e-15,
+      "physical_instances_checked": 80,
+      "seconds": 12.38751829098328
+    },
+    {
+      "case": "Edit lc_pitch_offset",
+      "maximum_matrix_component_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 3.580361673049448e-15,
+      "physical_instances_checked": 80,
+      "seconds": 12.856924082996557
+    },
+    {
+      "case": "Restored stand",
+      "maximum_matrix_component_error_cm": 3.552713678800501e-15,
+      "maximum_vertex_error_cm": 3.580361673049448e-15,
+      "physical_instances_checked": 80,
+      "seconds": 13.209569541999372
+    }
+  ],
+  "definition_geometry_restored": true,
+  "maximum_restored_bound_error_cm": 0.0,
+  "physical_instances": 80,
+  "unique_definitions": 44,
+  "native_pose_mates": 24,
+  "elapsed_seconds": 203.06806616700487,
+  "limitation": "Native driven poses, not dynamic free joints. No collision-free claim for every tested pose."
+}

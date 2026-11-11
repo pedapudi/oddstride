@@ -1,0 +1,105 @@
+{
+  "model_sha256": "2b2acb9502af31591117f85635a9aa326cc1e15a72f86ebee7384ad9d99175a3",
+  "source_model_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "part_changes": [
+    {
+      "part": "thigh_inner",
+      "source_volume_mm3": 62495.131312266334,
+      "candidate_volume_mm3": 89419.63648173554
+    },
+    {
+      "part": "thigh_outer",
+      "source_volume_mm3": 115472.17368711463,
+      "candidate_volume_mm3": 111792.92807060793
+    },
+    {
+      "part": "shin_inner",
+      "source_volume_mm3": 55434.78522768066,
+      "candidate_volume_mm3": 47699.65986702496
+    },
+    {
+      "part": "shin_outer",
+      "source_volume_mm3": 60449.18529737552,
+      "candidate_volume_mm3": 51556.94123828044
+    }
+  ],
+  "geometry": "Crowned thigh face, softened continuous perimeter and tapered motor cup; rounded shin crosssections and one uninterrupted cam-to-stem side profile. Both halves derive from each segment master.",
+  "mechanism": "Original actuator orientation, 28 mm crank radius, pushrod plane, bearing positions and foot spacing retained.",
+  "clear_named_poses": [
+    "stand",
+    "studio",
+    "raised",
+    "crouch",
+    "reach",
+    "fold",
+    "splay",
+    "side_reach",
+    "sample_0_0_-140",
+    "sample_0_0_-90",
+    "sample_0_0_-60",
+    "sample_0_30_-140",
+    "sample_0_30_-90",
+    "sample_0_30_-60",
+    "sample_0_65_-140",
+    "sample_0_65_-90",
+    "sample_0_65_-60",
+    "sample_45_0_-140",
+    "sample_45_0_-90",
+    "sample_45_0_-60",
+    "sample_45_30_-140",
+    "sample_45_30_-90",
+    "sample_45_30_-60"
+  ],
+  "previously_clear_poses_lost": [],
+  "added_pairs_in_already_invalid_poses": [
+    {
+      "pose": "sample_-45_30_-140",
+      "added_pairs": [
+        [
+          "FL_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "belly_center_0"
+        ]
+      ]
+    },
+    {
+      "pose": "sample_-45_30_-90",
+      "added_pairs": [
+        [
+          "FL_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "belly_center_0"
+        ]
+      ]
+    },
+    {
+      "pose": "sample_-45_30_-60",
+      "added_pairs": [
+        [
+          "FL_thigh_inner",
+          "belly_center_0"
+        ],
+        [
+          "FR_thigh_inner",
+          "belly_center_0"
+        ]
+      ]
+    }
+  ],
+  "knee_samples": 109,
+  "clear_knee_samples": 109,
+  "mass_change_whole_robot_kg": 0.03361888187671551,
+  "manufacturing_scope": "Two structural halves per segment, open internal pockets, complete bearing seats and retained extraction paths. Curved skins need ball-end finishing for CNC and slicer orientation/support review for printing. Existing metal ring/ties retained; no part-count or overall-width reduction claimed.",
+  "unqualified": [
+    "material strength/fatigue",
+    "physical printed bearing fit",
+    "manufacturing variation and elastic deflection",
+    "thermal behavior and flexible cables"
+  ]
+}

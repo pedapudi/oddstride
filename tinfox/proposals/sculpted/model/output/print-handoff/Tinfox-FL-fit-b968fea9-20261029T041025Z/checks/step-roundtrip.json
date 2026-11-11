@@ -1,0 +1,2735 @@
+{
+  "model_sha256": "b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6",
+  "parts": [
+    {
+      "part": "knee_axle",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004144330551799188,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 3984.521232456094,
+      "step_volume_error_mm3": 8.913048077374697e-11
+    },
+    {
+      "part": "axle_bolt",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.000414118011112538,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1274.848481349692,
+      "step_volume_error_mm3": 1.9099388737231493e-11
+    },
+    {
+      "part": "axle_nut",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.000227111856184687,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 143.16268702907166,
+      "step_volume_error_mm3": 2.637534635141492e-11
+    },
+    {
+      "part": "axle_washer_inner",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004135935338747792,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 185.58330282550943,
+      "step_volume_error_mm3": 3.325340003357269e-12
+    },
+    {
+      "part": "axle_washer_outer",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004167711314639351,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 185.58330282550943,
+      "step_volume_error_mm3": 4.433786671143025e-12
+    },
+    {
+      "part": "thigh_inner",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 5.4167241499752736e-05,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 70861.60883822599,
+      "step_volume_error_mm3": 3.668319550342858e-06
+    },
+    {
+      "part": "thigh_outer",
+      "mesh": {
+        "mesher": "Gmsh STEP surface triangulation",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 9.298598972695505e-05,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 184975.16508209458,
+      "step_volume_error_mm3": 9.357056114822626e-06
+    },
+    {
+      "part": "roll_cartridge_1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00042760069119878976,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 23313.19542246499,
+      "step_volume_error_mm3": 2.2300017008092254e-05
+    },
+    {
+      "part": "roll_stator_backplate_1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0003888645376329649,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 9081.443942548949,
+      "step_volume_error_mm3": 1.6916601452976465e-10
+    },
+    {
+      "part": "roll_outer_retainer_1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00033525647035117606,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1883.9164441642702,
+      "step_volume_error_mm3": 1.2614691513590515e-09
+    },
+    {
+      "part": "motor_carrier_1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00035733700470325525,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 89974.56822667207,
+      "step_volume_error_mm3": 1.4282733900472522e-05
+    },
+    {
+      "part": "hip_stator_closure_1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0003026668688151098,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 11882.12511524672,
+      "step_volume_error_mm3": 9.531504474580288e-10
+    },
+    {
+      "part": "roll_inner_backplate_1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041438275587856236,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 3839.1675943561295,
+      "step_volume_error_mm3": 1.5916157281026244e-10
+    },
+    {
+      "part": "roll_inner_spacer_1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143748194975086,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1353.775106284913,
+      "step_volume_error_mm3": 2.546585164964199e-11
+    },
+    {
+      "part": "roll_outer_spacer_1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004144770175180313,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1336.0172538104998,
+      "step_volume_error_mm3": 3.2741809263825417e-11
+    },
+    {
+      "part": "roll_bearing_6810_1_0",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143918263097104,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 9483.682823024168,
+      "step_volume_error_mm3": 2.0372681319713593e-10
+    },
+    {
+      "part": "roll_bearing_6810_1_1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143918263106694,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 9483.682823024168,
+      "step_volume_error_mm3": 2.0372681319713593e-10
+    },
+    {
+      "part": "roll_stator_bolt_0_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143841750498431,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.723243935382925e-12
+    },
+    {
+      "part": "roll_stator_bolt_40_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041417443127329866,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414795,
+      "step_volume_error_mm3": 3.666400516522117e-12
+    },
+    {
+      "part": "roll_stator_bolt_80_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041429139145873967,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.780087354243733e-12
+    },
+    {
+      "part": "roll_stator_bolt_120_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041416222011597057,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.382183422218077e-12
+    },
+    {
+      "part": "roll_stator_bolt_160_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141838120283014,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414795,
+      "step_volume_error_mm3": 3.609557097661309e-12
+    },
+    {
+      "part": "roll_stator_bolt_200_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141838120285263,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.666400516522117e-12
+    },
+    {
+      "part": "roll_stator_bolt_240_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041416222011597057,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.723243935382925e-12
+    },
+    {
+      "part": "roll_stator_bolt_280_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.000414291391459302,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.780087354243733e-12
+    },
+    {
+      "part": "roll_stator_bolt_320_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041417443127329866,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414795,
+      "step_volume_error_mm3": 3.666400516522117e-12
+    },
+    {
+      "part": "roll_retainer_bolt_20_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041416210132967434,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 217.3542293312629,
+      "step_volume_error_mm3": 3.0127011996228248e-12
+    },
+    {
+      "part": "roll_retainer_nut_20_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015374043514125818,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 45.908843985365394,
+      "step_volume_error_mm3": 3.197442310920451e-12
+    },
+    {
+      "part": "roll_retainer_bolt_140_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041421642034943177,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 217.35422933126284,
+      "step_volume_error_mm3": 2.9558577807620168e-12
+    },
+    {
+      "part": "roll_retainer_nut_140_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015376313956891525,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 45.90884398536542,
+      "step_volume_error_mm3": 1.7905676941154525e-12
+    },
+    {
+      "part": "roll_retainer_bolt_260_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141429970375012,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 217.3542293312629,
+      "step_volume_error_mm3": 3.069544618483633e-12
+    },
+    {
+      "part": "roll_retainer_nut_260_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015385809811037235,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 45.90884398536542,
+      "step_volume_error_mm3": 3.140598892059643e-12
+    },
+    {
+      "part": "carrier_closure_bolt_90_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041438162274523593,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 300.8640452489865,
+      "step_volume_error_mm3": 2.8990143619012088e-12
+    },
+    {
+      "part": "carrier_closure_washer_90_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143782425168015,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 39.276191355179506,
+      "step_volume_error_mm3": 8.668621376273222e-13
+    },
+    {
+      "part": "carrier_closure_nut_90_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017410470315685865,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 95.58039734745074,
+      "step_volume_error_mm3": 6.45172804070171e-12
+    },
+    {
+      "part": "carrier_closure_bolt_215_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143914521056913,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 300.8640452489866,
+      "step_volume_error_mm3": 2.9558577807620168e-12
+    },
+    {
+      "part": "carrier_closure_washer_215_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041443451068272564,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 39.27619135517951,
+      "step_volume_error_mm3": 8.668621376273222e-13
+    },
+    {
+      "part": "carrier_closure_nut_215_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017454611555324997,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 95.58039734745077,
+      "step_volume_error_mm3": 4.305888978706207e-11
+    },
+    {
+      "part": "carrier_closure_bolt_325_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041432008310498923,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 300.8640452489866,
+      "step_volume_error_mm3": 2.9558577807620168e-12
+    },
+    {
+      "part": "carrier_closure_washer_325_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143993415800087,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 39.27619135517951,
+      "step_volume_error_mm3": 8.668621376273222e-13
+    },
+    {
+      "part": "carrier_closure_nut_325_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0001747370343466702,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 95.58039734745076,
+      "step_volume_error_mm3": 2.7554847292776685e-11
+    },
+    {
+      "part": "hip_stator_bolt_0_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006863142488432251,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039165,
+      "step_volume_error_mm3": 7.744915819785092e-12
+    },
+    {
+      "part": "hip_stator_bolt_40_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006860889351230485,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039163,
+      "step_volume_error_mm3": 7.73070496506989e-12
+    },
+    {
+      "part": "hip_stator_bolt_80_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862479776524077,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039169,
+      "step_volume_error_mm3": 7.73070496506989e-12
+    },
+    {
+      "part": "hip_stator_bolt_120_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862204542267221,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039169,
+      "step_volume_error_mm3": 7.73070496506989e-12
+    },
+    {
+      "part": "hip_stator_bolt_160_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862144597915397,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039166,
+      "step_volume_error_mm3": 7.759126674500294e-12
+    },
+    {
+      "part": "hip_stator_bolt_200_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862272396217299,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039162,
+      "step_volume_error_mm3": 8.44124770082999e-12
+    },
+    {
+      "part": "hip_stator_bolt_240_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006861911131707566,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039163,
+      "step_volume_error_mm3": 7.73070496506989e-12
+    },
+    {
+      "part": "hip_stator_bolt_280_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862491875182608,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039169,
+      "step_volume_error_mm3": 7.73070496506989e-12
+    },
+    {
+      "part": "hip_stator_bolt_320_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006860968114892369,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039162,
+      "step_volume_error_mm3": 7.744915819785092e-12
+    },
+    {
+      "part": "roll_output_bolt_0_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998353798785014,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 5.434230843093246e-11
+    },
+    {
+      "part": "roll_output_bolt_60_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998107784540922,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 5.4285465012071654e-11
+    },
+    {
+      "part": "roll_output_bolt_120_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.000599810547724832,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393673,
+      "step_volume_error_mm3": 5.434230843093246e-11
+    },
+    {
+      "part": "roll_output_bolt_180_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.000599835226718861,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 5.4285465012071654e-11
+    },
+    {
+      "part": "roll_output_bolt_240_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998100859279071,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 5.434230843093246e-11
+    },
+    {
+      "part": "roll_output_bolt_300_front1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998101798513998,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 5.434230843093246e-11
+    },
+    {
+      "part": "knee_axle_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004144330551799188,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 3984.521232456094,
+      "step_volume_error_mm3": 8.731149137020111e-11
+    },
+    {
+      "part": "axle_bolt_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.000414118011112538,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1274.848481349692,
+      "step_volume_error_mm3": 2.0463630789890885e-11
+    },
+    {
+      "part": "axle_nut_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.000227111856184687,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 143.16268702907166,
+      "step_volume_error_mm3": 3.2230218494078144e-11
+    },
+    {
+      "part": "axle_washer_inner_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004135935338747792,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 185.58330282550943,
+      "step_volume_error_mm3": 4.746425474877469e-12
+    },
+    {
+      "part": "axle_washer_outer_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004167711314639351,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 185.58330282550943,
+      "step_volume_error_mm3": 3.666400516522117e-12
+    },
+    {
+      "part": "thigh_inner_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 5.4167241499752736e-05,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 70861.60883822599,
+      "step_volume_error_mm3": 2.59448861470446e-05
+    },
+    {
+      "part": "thigh_outer_right",
+      "mesh": {
+        "mesher": "Gmsh STEP surface triangulation",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00010583427077391742,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 184975.16508209458,
+      "step_volume_error_mm3": 0.016129813389852643
+    },
+    {
+      "part": "roll_cartridge_1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004276006911992579,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 23313.19542246499,
+      "step_volume_error_mm3": 1.9123050151392817e-05
+    },
+    {
+      "part": "roll_stator_backplate_1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0003888645376329649,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 9081.443942548949,
+      "step_volume_error_mm3": 1.4479155652225018e-09
+    },
+    {
+      "part": "roll_outer_retainer_1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00033525647035117606,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1883.9164441642702,
+      "step_volume_error_mm3": 1.5063505998114124e-09
+    },
+    {
+      "part": "motor_carrier_1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00035733700470325525,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 89974.56822667207,
+      "step_volume_error_mm3": 7.330621883738786e-05
+    },
+    {
+      "part": "hip_stator_closure_1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0003026668688151098,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 11882.12511524672,
+      "step_volume_error_mm3": 2.7539499569684267e-09
+    },
+    {
+      "part": "roll_inner_backplate_1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041438275587098156,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 3839.1675943561295,
+      "step_volume_error_mm3": 1.5825207810848951e-10
+    },
+    {
+      "part": "roll_inner_spacer_1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143748194975086,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1353.775106284913,
+      "step_volume_error_mm3": 3.456079866737127e-11
+    },
+    {
+      "part": "roll_outer_spacer_1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004144770175180313,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1336.0172538104998,
+      "step_volume_error_mm3": 3.2741809263825417e-11
+    },
+    {
+      "part": "roll_bearing_6810_1_0_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143918263097104,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 9483.682823024168,
+      "step_volume_error_mm3": 2.091837814077735e-10
+    },
+    {
+      "part": "roll_bearing_6810_1_1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143918263106694,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 9483.682823024168,
+      "step_volume_error_mm3": 2.091837814077735e-10
+    },
+    {
+      "part": "roll_stator_bolt_0_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143841750498431,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.552713678800501e-12
+    },
+    {
+      "part": "roll_stator_bolt_40_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041417443127453584,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414795,
+      "step_volume_error_mm3": 3.609557097661309e-12
+    },
+    {
+      "part": "roll_stator_bolt_80_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041429139145918956,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414798,
+      "step_volume_error_mm3": 3.581135388230905e-12
+    },
+    {
+      "part": "roll_stator_bolt_120_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141622201169824,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414827,
+      "step_volume_error_mm3": 3.694822225952521e-12
+    },
+    {
+      "part": "roll_stator_bolt_160_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141838120288638,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414795,
+      "step_volume_error_mm3": 3.609557097661309e-12
+    },
+    {
+      "part": "roll_stator_bolt_200_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141838120285263,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.552713678800501e-12
+    },
+    {
+      "part": "roll_stator_bolt_240_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141622201152957,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.552713678800501e-12
+    },
+    {
+      "part": "roll_stator_bolt_280_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041429139145918956,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414798,
+      "step_volume_error_mm3": 3.581135388230905e-12
+    },
+    {
+      "part": "roll_stator_bolt_320_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141744312727363,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414795,
+      "step_volume_error_mm3": 3.609557097661309e-12
+    },
+    {
+      "part": "roll_retainer_bolt_20_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041416210132967434,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 217.3542293312629,
+      "step_volume_error_mm3": 2.9558577807620168e-12
+    },
+    {
+      "part": "roll_retainer_nut_20_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015374043514125818,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 45.908843985365394,
+      "step_volume_error_mm3": 8.201084256143076e-11
+    },
+    {
+      "part": "roll_retainer_bolt_140_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041421642034969317,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 217.3542293312629,
+      "step_volume_error_mm3": 2.9558577807620168e-12
+    },
+    {
+      "part": "roll_retainer_nut_140_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015376313956891525,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 45.90884398536542,
+      "step_volume_error_mm3": 4.440892098500626e-12
+    },
+    {
+      "part": "roll_retainer_bolt_260_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141429970375012,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 217.3542293312629,
+      "step_volume_error_mm3": 2.8990143619012088e-12
+    },
+    {
+      "part": "roll_retainer_nut_260_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015385809811037235,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 45.90884398536542,
+      "step_volume_error_mm3": 4.426681243785424e-12
+    },
+    {
+      "part": "carrier_closure_bolt_90_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041438162274523593,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 300.8640452489865,
+      "step_volume_error_mm3": 3.0127011996228248e-12
+    },
+    {
+      "part": "carrier_closure_washer_90_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143782425168015,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 39.276191355179506,
+      "step_volume_error_mm3": 8.597567102697212e-13
+    },
+    {
+      "part": "carrier_closure_nut_90_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017410470315685865,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 95.58039734745074,
+      "step_volume_error_mm3": 9.478640095039736e-12
+    },
+    {
+      "part": "carrier_closure_bolt_215_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143914521056913,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 300.8640452489866,
+      "step_volume_error_mm3": 3.0127011996228248e-12
+    },
+    {
+      "part": "carrier_closure_washer_215_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041443451068272564,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 39.27619135517951,
+      "step_volume_error_mm3": 8.668621376273222e-13
+    },
+    {
+      "part": "carrier_closure_nut_215_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017454611555324997,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 95.58039734745077,
+      "step_volume_error_mm3": 3.694822225952521e-13
+    },
+    {
+      "part": "carrier_closure_bolt_325_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041432008310498923,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 300.8640452489866,
+      "step_volume_error_mm3": 3.0127011996228248e-12
+    },
+    {
+      "part": "carrier_closure_washer_325_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143993415800087,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 39.27619135517951,
+      "step_volume_error_mm3": 8.739675649849232e-13
+    },
+    {
+      "part": "carrier_closure_nut_325_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0001747370343466702,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 95.58039734745076,
+      "step_volume_error_mm3": 5.009326287108706e-11
+    },
+    {
+      "part": "hip_stator_bolt_0_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006863142488432251,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039165,
+      "step_volume_error_mm3": 1.0672351891116705e-11
+    },
+    {
+      "part": "hip_stator_bolt_40_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006860889351230485,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039163,
+      "step_volume_error_mm3": 1.0686562745831907e-11
+    },
+    {
+      "part": "hip_stator_bolt_80_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862479776524077,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039169,
+      "step_volume_error_mm3": 1.0700773600547109e-11
+    },
+    {
+      "part": "hip_stator_bolt_120_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862204542267221,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039169,
+      "step_volume_error_mm3": 1.0686562745831907e-11
+    },
+    {
+      "part": "hip_stator_bolt_160_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862144597915397,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039166,
+      "step_volume_error_mm3": 1.0686562745831907e-11
+    },
+    {
+      "part": "hip_stator_bolt_200_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862272396217299,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039162,
+      "step_volume_error_mm3": 1.1382894626876805e-11
+    },
+    {
+      "part": "hip_stator_bolt_240_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006861911131707566,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039163,
+      "step_volume_error_mm3": 1.0686562745831907e-11
+    },
+    {
+      "part": "hip_stator_bolt_280_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862491875182608,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039169,
+      "step_volume_error_mm3": 1.0700773600547109e-11
+    },
+    {
+      "part": "hip_stator_bolt_320_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006860968114892369,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039162,
+      "step_volume_error_mm3": 1.0700773600547109e-11
+    },
+    {
+      "part": "roll_output_bolt_0_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998353798785014,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 7.673861546209082e-11
+    },
+    {
+      "part": "roll_output_bolt_60_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998107784561439,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393675,
+      "step_volume_error_mm3": 7.651124178664759e-11
+    },
+    {
+      "part": "roll_output_bolt_120_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998105477249897,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 7.66249286243692e-11
+    },
+    {
+      "part": "roll_output_bolt_180_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.000599835226718861,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 7.66249286243692e-11
+    },
+    {
+      "part": "roll_output_bolt_240_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998100859279071,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 7.673861546209082e-11
+    },
+    {
+      "part": "roll_output_bolt_300_front1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998101798513998,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 7.673861546209082e-11
+    },
+    {
+      "part": "roll_cartridge_-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004276006911992579,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 23313.19542246499,
+      "step_volume_error_mm3": 1.9121715013170615e-05
+    },
+    {
+      "part": "roll_stator_backplate_-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0003888645376329649,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 9081.443942548949,
+      "step_volume_error_mm3": 1.482476363889873e-09
+    },
+    {
+      "part": "roll_outer_retainer_-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00033525647035117606,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1883.9164441642702,
+      "step_volume_error_mm3": 1.2564669304993004e-09
+    },
+    {
+      "part": "motor_carrier_-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00034564643553503926,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 89974.5681558241,
+      "step_volume_error_mm3": 2.323897206224501e-06
+    },
+    {
+      "part": "hip_stator_closure_-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00030266648386791453,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 11882.12511524672,
+      "step_volume_error_mm3": 1.5224941307678819e-09
+    },
+    {
+      "part": "roll_inner_backplate_-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041438275587098156,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 3839.1675943561295,
+      "step_volume_error_mm3": 1.5825207810848951e-10
+    },
+    {
+      "part": "roll_inner_spacer_-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143748194975086,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1353.775106284913,
+      "step_volume_error_mm3": 3.456079866737127e-11
+    },
+    {
+      "part": "roll_outer_spacer_-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004144770175180313,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1336.0172538104998,
+      "step_volume_error_mm3": 3.2741809263825417e-11
+    },
+    {
+      "part": "roll_bearing_6810_-1_0",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143918263097104,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 9483.682823024168,
+      "step_volume_error_mm3": 2.091837814077735e-10
+    },
+    {
+      "part": "roll_bearing_6810_-1_1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143918263106694,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 9483.682823024168,
+      "step_volume_error_mm3": 2.091837814077735e-10
+    },
+    {
+      "part": "roll_stator_bolt_0_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143841750498431,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.552713678800501e-12
+    },
+    {
+      "part": "roll_stator_bolt_40_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041417443127453584,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414795,
+      "step_volume_error_mm3": 3.609557097661309e-12
+    },
+    {
+      "part": "roll_stator_bolt_80_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041429139145918956,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414798,
+      "step_volume_error_mm3": 3.581135388230905e-12
+    },
+    {
+      "part": "roll_stator_bolt_120_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141622201169824,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414827,
+      "step_volume_error_mm3": 3.694822225952521e-12
+    },
+    {
+      "part": "roll_stator_bolt_160_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141838120288638,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414795,
+      "step_volume_error_mm3": 3.609557097661309e-12
+    },
+    {
+      "part": "roll_stator_bolt_200_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141838120285263,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.552713678800501e-12
+    },
+    {
+      "part": "roll_stator_bolt_240_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141622201152957,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.552713678800501e-12
+    },
+    {
+      "part": "roll_stator_bolt_280_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041429139145918956,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414798,
+      "step_volume_error_mm3": 3.581135388230905e-12
+    },
+    {
+      "part": "roll_stator_bolt_320_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141744312727363,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414795,
+      "step_volume_error_mm3": 3.609557097661309e-12
+    },
+    {
+      "part": "roll_retainer_bolt_20_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041416210132967434,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 217.3542293312629,
+      "step_volume_error_mm3": 2.9558577807620168e-12
+    },
+    {
+      "part": "roll_retainer_nut_20_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015374043514125818,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 45.908843985365394,
+      "step_volume_error_mm3": 4.483524662646232e-12
+    },
+    {
+      "part": "roll_retainer_bolt_140_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041421642034969317,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 217.3542293312629,
+      "step_volume_error_mm3": 2.9558577807620168e-12
+    },
+    {
+      "part": "roll_retainer_nut_140_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015376313956891525,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 45.90884398536542,
+      "step_volume_error_mm3": 7.986500349943526e-12
+    },
+    {
+      "part": "roll_retainer_bolt_260_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141429970375012,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 217.3542293312629,
+      "step_volume_error_mm3": 2.8990143619012088e-12
+    },
+    {
+      "part": "roll_retainer_nut_260_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015385809811037235,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 45.90884398536542,
+      "step_volume_error_mm3": 4.426681243785424e-12
+    },
+    {
+      "part": "carrier_closure_bolt_90_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143816227448581,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 300.8640452489865,
+      "step_volume_error_mm3": 2.8990143619012088e-12
+    },
+    {
+      "part": "carrier_closure_washer_90_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041437824251716333,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 39.276191355179506,
+      "step_volume_error_mm3": 8.668621376273222e-13
+    },
+    {
+      "part": "carrier_closure_nut_90_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017410470315715605,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 95.58039734745071,
+      "step_volume_error_mm3": 6.480149750132114e-12
+    },
+    {
+      "part": "carrier_closure_bolt_215_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041432008310498923,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 300.8640452489866,
+      "step_volume_error_mm3": 2.9558577807620168e-12
+    },
+    {
+      "part": "carrier_closure_washer_215_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041439934157838057,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 39.27619135517951,
+      "step_volume_error_mm3": 8.597567102697212e-13
+    },
+    {
+      "part": "carrier_closure_nut_215_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017473703434949507,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 95.58039734745078,
+      "step_volume_error_mm3": 4.3087311496492475e-11
+    },
+    {
+      "part": "carrier_closure_bolt_325_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143914521056913,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 300.8640452489866,
+      "step_volume_error_mm3": 2.8990143619012088e-12
+    },
+    {
+      "part": "carrier_closure_washer_325_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041443451068290654,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 39.27619135517951,
+      "step_volume_error_mm3": 8.668621376273222e-13
+    },
+    {
+      "part": "carrier_closure_nut_325_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017454611555116852,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 95.58039734745074,
+      "step_volume_error_mm3": 2.7554847292776685e-11
+    },
+    {
+      "part": "hip_stator_bolt_0_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862180099181406,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039163,
+      "step_volume_error_mm3": 7.759126674500294e-12
+    },
+    {
+      "part": "hip_stator_bolt_40_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006861427245067079,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039162,
+      "step_volume_error_mm3": 7.744915819785092e-12
+    },
+    {
+      "part": "hip_stator_bolt_80_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862511891045822,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039169,
+      "step_volume_error_mm3": 7.73070496506989e-12
+    },
+    {
+      "part": "hip_stator_bolt_120_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006861607074792697,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039168,
+      "step_volume_error_mm3": 7.744915819785092e-12
+    },
+    {
+      "part": "hip_stator_bolt_160_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006861587504489674,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039166,
+      "step_volume_error_mm3": 7.744915819785092e-12
+    },
+    {
+      "part": "hip_stator_bolt_200_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006861652149887732,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039163,
+      "step_volume_error_mm3": 8.427036846114788e-12
+    },
+    {
+      "part": "hip_stator_bolt_240_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.000686130260554481,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039162,
+      "step_volume_error_mm3": 7.744915819785092e-12
+    },
+    {
+      "part": "hip_stator_bolt_280_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862515820509872,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039169,
+      "step_volume_error_mm3": 7.73070496506989e-12
+    },
+    {
+      "part": "hip_stator_bolt_320_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006861508955275084,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039162,
+      "step_volume_error_mm3": 7.744915819785092e-12
+    },
+    {
+      "part": "roll_output_bolt_0_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998353798785014,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 7.673861546209082e-11
+    },
+    {
+      "part": "roll_output_bolt_60_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998107784561439,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393675,
+      "step_volume_error_mm3": 7.651124178664759e-11
+    },
+    {
+      "part": "roll_output_bolt_120_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998105477249897,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 7.66249286243692e-11
+    },
+    {
+      "part": "roll_output_bolt_180_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.000599835226718861,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 7.66249286243692e-11
+    },
+    {
+      "part": "roll_output_bolt_240_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998100859279071,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 7.673861546209082e-11
+    },
+    {
+      "part": "roll_output_bolt_300_front-1",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998101798513998,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 7.673861546209082e-11
+    },
+    {
+      "part": "roll_cartridge_-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004276006911992579,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 23313.19542246499,
+      "step_volume_error_mm3": 2.2301315766526386e-05
+    },
+    {
+      "part": "roll_stator_backplate_-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0003888645376329649,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 9081.443942548949,
+      "step_volume_error_mm3": 4.4019543565809727e-10
+    },
+    {
+      "part": "roll_outer_retainer_-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00033525647035117606,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1883.9164441642702,
+      "step_volume_error_mm3": 1.3249064068077132e-09
+    },
+    {
+      "part": "motor_carrier_-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00034564643553503926,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 89974.5681558241,
+      "step_volume_error_mm3": 8.365015673916787e-05
+    },
+    {
+      "part": "hip_stator_closure_-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00030266648386791453,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 11882.12511524672,
+      "step_volume_error_mm3": 3.0759110813960433e-09
+    },
+    {
+      "part": "roll_inner_backplate_-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041438275587098156,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 3839.1675943561295,
+      "step_volume_error_mm3": 1.5916157281026244e-10
+    },
+    {
+      "part": "roll_inner_spacer_-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143748194975086,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1353.775106284913,
+      "step_volume_error_mm3": 2.546585164964199e-11
+    },
+    {
+      "part": "roll_outer_spacer_-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004144770175180313,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 1336.0172538104998,
+      "step_volume_error_mm3": 3.2741809263825417e-11
+    },
+    {
+      "part": "roll_bearing_6810_-1_0_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143918263097104,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 9483.682823024168,
+      "step_volume_error_mm3": 2.0372681319713593e-10
+    },
+    {
+      "part": "roll_bearing_6810_-1_1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143918263106694,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 9483.682823024168,
+      "step_volume_error_mm3": 2.0372681319713593e-10
+    },
+    {
+      "part": "roll_stator_bolt_0_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143841750498431,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.723243935382925e-12
+    },
+    {
+      "part": "roll_stator_bolt_40_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041417443127453584,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414795,
+      "step_volume_error_mm3": 3.666400516522117e-12
+    },
+    {
+      "part": "roll_stator_bolt_80_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041429139145918956,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414798,
+      "step_volume_error_mm3": 3.751665644813329e-12
+    },
+    {
+      "part": "roll_stator_bolt_120_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141622201169824,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414827,
+      "step_volume_error_mm3": 3.637978807091713e-12
+    },
+    {
+      "part": "roll_stator_bolt_160_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141838120288638,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414795,
+      "step_volume_error_mm3": 3.609557097661309e-12
+    },
+    {
+      "part": "roll_stator_bolt_200_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141838120285263,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.666400516522117e-12
+    },
+    {
+      "part": "roll_stator_bolt_240_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141622201152957,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.697146684148,
+      "step_volume_error_mm3": 3.723243935382925e-12
+    },
+    {
+      "part": "roll_stator_bolt_280_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041429139145918956,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414798,
+      "step_volume_error_mm3": 3.751665644813329e-12
+    },
+    {
+      "part": "roll_stator_bolt_320_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141744312727363,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 252.69714668414795,
+      "step_volume_error_mm3": 3.666400516522117e-12
+    },
+    {
+      "part": "roll_retainer_bolt_20_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041416210132967434,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 217.3542293312629,
+      "step_volume_error_mm3": 3.0127011996228248e-12
+    },
+    {
+      "part": "roll_retainer_nut_20_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015374043514125818,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 45.908843985365394,
+      "step_volume_error_mm3": 8.073186563706258e-11
+    },
+    {
+      "part": "roll_retainer_bolt_140_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041421642034969317,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 217.3542293312629,
+      "step_volume_error_mm3": 3.0127011996228248e-12
+    },
+    {
+      "part": "roll_retainer_nut_140_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015376313956891525,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 45.90884398536542,
+      "step_volume_error_mm3": 3.154809746774845e-12
+    },
+    {
+      "part": "roll_retainer_bolt_260_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004141429970375012,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 217.3542293312629,
+      "step_volume_error_mm3": 3.069544618483633e-12
+    },
+    {
+      "part": "roll_retainer_nut_260_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00015385809811037235,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 45.90884398536542,
+      "step_volume_error_mm3": 3.140598892059643e-12
+    },
+    {
+      "part": "carrier_closure_bolt_90_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143816227448581,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 300.8640452489865,
+      "step_volume_error_mm3": 3.0127011996228248e-12
+    },
+    {
+      "part": "carrier_closure_washer_90_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041437824251716333,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 39.276191355179506,
+      "step_volume_error_mm3": 8.597567102697212e-13
+    },
+    {
+      "part": "carrier_closure_nut_90_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017410470315715605,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 95.58039734745071,
+      "step_volume_error_mm3": 9.50706180447014e-12
+    },
+    {
+      "part": "carrier_closure_bolt_215_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041432008310498923,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 300.8640452489866,
+      "step_volume_error_mm3": 3.0127011996228248e-12
+    },
+    {
+      "part": "carrier_closure_washer_215_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041439934157838057,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 39.27619135517951,
+      "step_volume_error_mm3": 8.668621376273222e-13
+    },
+    {
+      "part": "carrier_closure_nut_215_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017473703434949507,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 95.58039734745078,
+      "step_volume_error_mm3": 3.268496584496461e-13
+    },
+    {
+      "part": "carrier_closure_bolt_325_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0004143914521056913,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 300.8640452489866,
+      "step_volume_error_mm3": 3.0127011996228248e-12
+    },
+    {
+      "part": "carrier_closure_washer_325_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00041443451068290654,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 39.27619135517951,
+      "step_volume_error_mm3": 8.739675649849232e-13
+    },
+    {
+      "part": "carrier_closure_nut_325_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017454611555116852,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 95.58039734745074,
+      "step_volume_error_mm3": 5.0107473725802265e-11
+    },
+    {
+      "part": "hip_stator_bolt_0_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862180099181406,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039163,
+      "step_volume_error_mm3": 1.0686562745831907e-11
+    },
+    {
+      "part": "hip_stator_bolt_40_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006861427245067079,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039162,
+      "step_volume_error_mm3": 1.0700773600547109e-11
+    },
+    {
+      "part": "hip_stator_bolt_80_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862511891045822,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039169,
+      "step_volume_error_mm3": 1.0686562745831907e-11
+    },
+    {
+      "part": "hip_stator_bolt_120_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006861607074792697,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039168,
+      "step_volume_error_mm3": 1.0700773600547109e-11
+    },
+    {
+      "part": "hip_stator_bolt_160_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006861587504489674,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039166,
+      "step_volume_error_mm3": 1.0686562745831907e-11
+    },
+    {
+      "part": "hip_stator_bolt_200_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006861652149887732,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039163,
+      "step_volume_error_mm3": 1.1368683772161603e-11
+    },
+    {
+      "part": "hip_stator_bolt_240_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.000686130260554481,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039162,
+      "step_volume_error_mm3": 1.0700773600547109e-11
+    },
+    {
+      "part": "hip_stator_bolt_280_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006862515820509872,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039169,
+      "step_volume_error_mm3": 1.0686562745831907e-11
+    },
+    {
+      "part": "hip_stator_bolt_320_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0006861508955275084,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 69.64897823039162,
+      "step_volume_error_mm3": 1.0700773600547109e-11
+    },
+    {
+      "part": "roll_output_bolt_0_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998353798785014,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 5.434230843093246e-11
+    },
+    {
+      "part": "roll_output_bolt_60_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998107784561439,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393675,
+      "step_volume_error_mm3": 5.417177817435004e-11
+    },
+    {
+      "part": "roll_output_bolt_120_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998105477249897,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 5.4285465012071654e-11
+    },
+    {
+      "part": "roll_output_bolt_180_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.000599835226718861,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 5.4285465012071654e-11
+    },
+    {
+      "part": "roll_output_bolt_240_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998100859279071,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 5.434230843093246e-11
+    },
+    {
+      "part": "roll_output_bolt_300_front-1_right",
+      "mesh": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.0005998101798513998,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "volume_mm3": 360.1385682393674,
+      "step_volume_error_mm3": 5.434230843093246e-11
+    }
+  ]
+}

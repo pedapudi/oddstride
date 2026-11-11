@@ -1,0 +1,32 @@
+[
+  {
+    "part": "thigh_outer",
+    "input_step_sha256": "444e1937618b2f33438fbc0684d8eedcad4b366b791220c9fcfe778d1a02c0e2",
+    "output_step_sha256": "5371a23c585301b15cc4a8a1a991a10e513a9479e20a572b150ba1b0a584683e",
+    "operation": "Three straight diameter6.4 mm socket-head/driver channels, Y61..110, radius43.5 mm at90/210/330 degrees. Inboard stator-plate silhouette passage, coreR40.8/lobeR4.8, Y-5..55.2. Includes prior0.6 mm knee-stub removal.",
+    "removed_volume_mm3": 11583.27836298893,
+    "mesh_check": {
+      "mesher": "Gmsh STEP surface triangulation",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0003413264897516958,
+      "mesher_warnings": [],
+      "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+    }
+  },
+  {
+    "part": "input_crank",
+    "input_step_sha256": "aa29713f87d285758ef60af545e1f366e32e1b4e50815318dedba2a9db9d2272",
+    "output_step_sha256": "dd3324222cfd270d35d6ce4497abd78b69aff1240762aca6465ea7f356763e9e",
+    "operation": "Six diameter8 mm output-screw head counterbores opened through the arm, Y61..90; original Y61 seating plane preserved.",
+    "removed_volume_mm3": 39.577765831445504,
+    "mesh_check": {
+      "mesher": "OpenCascade",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00017134457586994123,
+      "mesher_warnings": [],
+      "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+    }
+  }
+]

@@ -1,0 +1,169 @@
+{
+  "model_sha256": "8f781a5487185a13f330d2838e8918c01c34ef13d87c52db980e227ed5853969",
+  "checks": [
+    {
+      "carrier": 1,
+      "part": "hip_hub",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 1.3999999999999997,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": 1,
+      "part": "thigh_inner",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 4.109516482927312,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": 1,
+      "part": "thigh_outer",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 3.220189167905712,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": 1,
+      "part": "pod_tie_90",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 2.0,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": 1,
+      "part": "pod_tie_210",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 2.9934083787507406,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": 1,
+      "part": "pod_tie_330",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 2.9934083787490477,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": 1,
+      "part": "pod_sleeve_90",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 3.5,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": 1,
+      "part": "pod_sleeve_210",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 8.588143990217006,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": 1,
+      "part": "pod_sleeve_330",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 8.588143990216679,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": -1,
+      "part": "hip_hub",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 1.3999999999999997,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": -1,
+      "part": "thigh_inner",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 4.109516482927312,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": -1,
+      "part": "thigh_outer",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 3.220189167905712,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": -1,
+      "part": "pod_tie_90",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 2.0,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": -1,
+      "part": "pod_tie_210",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 2.9934083787507384,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": -1,
+      "part": "pod_tie_330",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 2.9934083787490517,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": -1,
+      "part": "pod_sleeve_90",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 3.5,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": -1,
+      "part": "pod_sleeve_210",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 8.588143990217004,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    },
+    {
+      "carrier": -1,
+      "part": "pod_sleeve_330",
+      "sample_step_deg": 1,
+      "collision_angles": [],
+      "minimum_mesh_gap_at_quadrant_samples_mm": 8.58814399021668,
+      "distance_sample_step_deg": 90,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Nominal rigid carrier/pod clearance over one full hip revolution at one-degree steps. Does not test torso contacts, tolerances or elastic deflection."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"error\": \"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 980, in <module>\\n  File \\\"<string>\\\", line 978, in run\\n  File \\\"tinfox_native.py\\\", line 301, in run\\n  File \\\"tinfox_native.py\\\", line 271, in finish\\n  File \\\"tinfox_native.py\\\", line 213, in build\\n  File \\\"tinfox_native.py\\\", line 213, in build\\n  File \\\"tinfox_native.py\\\", line 213, in build\\n  [Previous line repeated 71 more times]\\n  File \\\"tinfox_native.py\\\", line 260, in build\\n  File \\\"/Users/sunil/Library/Application Support/Autodesk/webdeploy/production/7698c9b1a08b85444b2eb3d6ec1ab6ea0789097a/Autodesk Fusion.app/Contents/Api/Python/packages/adsk/fusion.py\\\", line 36446, in add\\n    return _fusion.FilletFeatures_add(self, input)\\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\\nRuntimeError: 3 : Fillet2 / Compute Failed // ASM_BL_UNFIN_SHEET -   The fillet/chamfer could not be created at the requested size.\\n    Try adjusting the size, deselecting some of the edges (try disabling Tangent Chain), or using multiple separate operations.\\n\",\n    \"success\": false\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "passed": true,
+  "saved": false,
+  "baseline": {
+    "lower": {
+      "bounds_mm": [
+        -125.39999999999999,
+        -111.20000000000002,
+        -48.00000000000001,
+        125.4,
+        111.20000000000002,
+        -10.3
+      ],
+      "volume_mm3": 104303.76863068088,
+      "features": 15,
+      "faces": 72
+    },
+    "upper": {
+      "bounds_mm": [
+        -131.99999999999997,
+        -114.8768599630991,
+        -10.0,
+        125.40000000000003,
+        114.8768599630991,
+        55.50000000000001
+      ],
+      "volume_mm3": 327637.65671368287,
+      "features": 96,
+      "faces": 257
+    },
+    "motor_radius_mm": 39.25,
+    "motor_setback_mm": 67.30000000000001
+  },
+  "edits": [
+    {
+      "parameter": "cover_hip_x",
+      "expression": "195 mm",
+      "edited": {
+        "lower": {
+          "bounds_mm": [
+            -135.39999999999998,
+            -111.20000000000002,
+            -48.00000000000001,
+            135.4,
+            111.20000000000002,
+            -10.3
+          ],
+          "volume_mm3": 119532.18079622499,
+          "features": 15,
+          "faces": 72
+        },
+        "upper": {
+          "bounds_mm": [
+            -142.0,
+            -114.8768599630991,
+            -10.0,
+            135.40000000000003,
+            114.8768599630991,
+            55.50000000000001
+          ],
+          "volume_mm3": 219654.6712985919,
+          "features": 96,
+          "faces": 257
+        },
+        "motor_radius_mm": 39.25,
+        "motor_setback_mm": 67.30000000000001
+      },
+      "restored": true,
+      "elapsed_seconds": 27.528073833993403
+    },
+    {
+      "parameter": "cover_roll_y",
+      "expression": "73 mm",
+      "edited": {
+        "lower": {
+          "bounds_mm": [
+            -125.39999999999999,
+            -116.20000000000002,
+            -48.00000000000001,
+            125.4,
+            116.20000000000002,
+            -10.300000000000002
+          ],
+          "volume_mm3": 113002.3369159452,
+          "features": 15,
+          "faces": 70
+        },
+        "upper": {
+          "bounds_mm": [
+            -131.99999999999997,
+            -119.87685996309912,
+            -10.0,
+            125.40000000000003,
+            119.87685996309912,
+            55.50000000000001
+          ],
+          "volume_mm3": 392302.0064649538,
+          "features": 96,
+          "faces": 257
+        },
+        "motor_radius_mm": 39.25,
+        "motor_setback_mm": 67.30000000000001
+      },
+      "restored": true,
+      "elapsed_seconds": 10.337807834002888
+    },
+    {
+      "parameter": "cover_wall",
+      "expression": "3.2 mm",
+      "edited": {
+        "lower": {
+          "bounds_mm": [
+            -125.39999999999999,
+            -111.20000000000002,
+            -48.00000000000001,
+            125.4,
+            111.20000000000002,
+            -10.300000000000002
+          ],
+          "volume_mm3": 118412.171395927,
+          "features": 15,
+          "faces": 72
+        },
+        "upper": {
+          "bounds_mm": [
+            -131.99999999999997,
+            -114.8768599630991,
+            -10.0,
+            125.40000000000003,
+            114.8768599630991,
+            55.50000000000001
+          ],
+          "volume_mm3": 342481.41034570924,
+          "features": 96,
+          "faces": 261
+        },
+        "motor_radius_mm": 39.25,
+        "motor_setback_mm": 67.30000000000001
+      },
+      "restored": true,
+      "elapsed_seconds": 6.432743375014979
+    },
+    {
+      "parameter": "body_shell_seam_gap",
+      "expression": ".5 mm",
+      "edited": {
+        "lower": {
+          "bounds_mm": [
+            -125.39999999999999,
+            -111.20000000000002,
+            -48.00000000000001,
+            125.4,
+            111.20000000000002,
+            -10.499999999999998
+          ],
+          "volume_mm3": 104024.50766450136,
+          "features": 15,
+          "faces": 72
+        },
+        "upper": {
+          "bounds_mm": [
+            -131.99999999999997,
+            -114.8768599630991,
+            -10.0,
+            125.40000000000003,
+            114.8768599630991,
+            55.50000000000001
+          ],
+          "volume_mm3": 327728.9183390062,
+          "features": 96,
+          "faces": 257
+        },
+        "motor_radius_mm": 39.25,
+        "motor_setback_mm": 67.30000000000001
+      },
+      "restored": true,
+      "elapsed_seconds": 1.7198850410059094
+    }
+  ],
+  "automatic_recompute_verified_against_computeAll": true,
+  "automatic_lower_volume_error_mm3": 0.0,
+  "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/compact-lower-shell-restored.step",
+  "elapsed_seconds": 64.8061972919968,
+  "scope": "Shared upper/lower enclosure hip spacing, width, wall and seam edits; selected motor interface dimensions stay independent. No whole-chassis size or structural load qualification."
+}

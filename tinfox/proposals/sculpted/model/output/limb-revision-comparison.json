@@ -1,0 +1,323 @@
+{
+  "previous_model_sha256": "24b3c16db86814d909769acf61e71565eed122890c3cb0818f033e14f235ddc6",
+  "model_sha256": "144a84e88daed50139f890480e9f1a1740cfb20c773e740ba6b4e9c1b9eede5e",
+  "pose_deg": [
+    0,
+    30,
+    -60
+  ],
+  "before": {
+    "hip_pitch": {
+      "moving_mass_kg": 1.0590709999999994,
+      "inertia_about_axis_kg_m2": 0.011647042005575273
+    },
+    "knee": {
+      "moving_mass_kg": 0.19114599999999998,
+      "inertia_about_axis_kg_m2": 0.0013891993547582343
+    }
+  },
+  "after": {
+    "hip_pitch": {
+      "moving_mass_kg": 1.1734599999999997,
+      "inertia_about_axis_kg_m2": 0.013500555302380295
+    },
+    "knee": {
+      "moving_mass_kg": 0.21237199999999995,
+      "inertia_about_axis_kg_m2": 0.0014613058019829627
+    }
+  },
+  "deltas": {
+    "hip_pitch": {
+      "moving_mass_kg": 0.1143890000000003,
+      "inertia_about_axis_kg_m2": 0.0018535132968050226,
+      "moving_mass_kg_percent": 10.800881149611353,
+      "inertia_about_axis_kg_m2_percent": 15.914026032685147
+    },
+    "knee": {
+      "moving_mass_kg": 0.021225999999999967,
+      "inertia_about_axis_kg_m2": 7.210644722472834e-05,
+      "moving_mass_kg_percent": 11.104600671737819,
+      "inertia_about_axis_kg_m2_percent": 5.190503938671731
+    }
+  },
+  "scope": "One front-left limb. Moving mass uses modeled part masses. Inertia uses tessellated solids scaled to each nominal mass, transformed into a fixed pose and summed about hip-pitch or knee axes. No motor rotor/gear inertia, commanded acceleration, controller or gait model; no claim of globally optimal motion.",
+  "base_mass_kg": {
+    "before": 12.464821000000002,
+    "after": 13.187786000000001
+  },
+  "preset_clearance_mm": {
+    "stand": {
+      "before": 1.5214772778511119,
+      "after": 1.5
+    },
+    "studio": {
+      "before": 1.5120851576899597,
+      "after": 1.5
+    },
+    "raised": {
+      "before": 1.505374547073913,
+      "after": 1.5
+    },
+    "crouch": {
+      "before": 1.5037258061599132,
+      "after": 1.5
+    },
+    "reach": {
+      "before": 1.5023884001913785,
+      "after": 1.5
+    },
+    "fold": {
+      "before": 1.5431095157442556,
+      "after": 1.5
+    },
+    "splay": {
+      "before": 1.5180461777473582,
+      "after": 1.5
+    },
+    "side_reach": {
+      "before": 1.5180461777473582,
+      "after": 1.5180461777473582
+    }
+  },
+  "structure": {
+    "before": {
+      "shin_screen_section_mm": {
+        "z_mm": -75,
+        "area_mm2": 255.40040644901836,
+        "Iy_mm4": 15501.23856105001,
+        "Ix_mm4": 27931.56987097758,
+        "section_modulus_y_mm3": 1082.4951378055036
+      },
+      "gross_Iy_mm4": 15501.23856105001,
+      "gross_Ix_mm4": 27931.56987097758,
+      "maximum_case_moment_Nm": 13.780970037367037,
+      "gross_bending_stress_MPa": 12.730745438085394,
+      "coupon_strength_needed_for_factor_2_MPa": 25.46149087617079,
+      "shaft_12x8mm_conservative_bending_MPa": 86.91166989706818,
+      "rod_force_at_17Nm_and_worst_transmission_angle_N": 1314.642158362244,
+      "rod_ideal_pinned_euler_N": 4345.1702614260985,
+      "ideal_buckling_ratio": 3.305211409650234,
+      "pin_6mm_single_shear_bending_MPa": 247.97842714115484,
+      "pin_6mm_nominal_vm_MPa": 260.7276775609115,
+      "pin_material_yield_needed_for_factor_2_MPa": 521.455355121823,
+      "fixed_shaft_span_assumption_mm": 36,
+      "section_model": "Smallest sampled sagittal section modulus from both CAD shin halves, at 5 mm intervals from z=-35 to -145 mm; 0.2 mm slice thickness. Applies the maximum case joint moment uniformly as a conservative bending screen.",
+      "limitations": "Gross-section linear screens omit holes, stress concentration, open-fork torsion, shaft retention, torsion/bending interaction, local buckling, layer anisotropy, creep, fatigue, fastener slip, bearing seats and impacts. Pin bending assumes 4 mm overhang and must be recalculated for the selected shoulder-pin stack. Required coupon strength is not an assigned PETG allowable. Metal grade and joints also require qualification."
+    },
+    "after": {
+      "shin_screen_section_mm": {
+        "z_mm": -75,
+        "area_mm2": 249.2070267200125,
+        "Iy_mm4": 14162.760873353538,
+        "Ix_mm4": 28260.654756946744,
+        "section_modulus_y_mm3": 1007.253485242227
+      },
+      "gross_Iy_mm4": 14162.760873353538,
+      "gross_Ix_mm4": 28260.654756946744,
+      "maximum_case_moment_Nm": 14.457912202302932,
+      "gross_bending_stress_MPa": 14.35379714653065,
+      "coupon_strength_needed_for_factor_2_MPa": 28.7075942930613,
+      "shaft_12x8_4mm_conservative_bending_MPa": 112.17605517801283,
+      "rod_force_at_17Nm_and_worst_transmission_angle_N": 1314.642158362244,
+      "rod_ideal_pinned_euler_N": 4345.1702614260985,
+      "ideal_buckling_ratio": 3.305211409650234,
+      "pin_6mm_double_shear_bending_MPa": 220.08085408777492,
+      "pin_6mm_nominal_vm_MPa": 223.73418986764375,
+      "pin_material_yield_needed_for_factor_2_MPa": 447.4683797352875,
+      "fixed_shaft_span_assumption_mm": 44,
+      "section_model": "Smallest sampled sagittal section modulus from the assembled CAD shin halves, at 5 mm intervals along the sampled member; 0.2 mm slice thickness. Applies the maximum case joint moment uniformly as a conservative bending screen.",
+      "limitations": "Gross-section linear screens omit holes, stress concentration, open-fork torsion, shaft retention, torsion/bending interaction, local buckling, layer anisotropy, creep, fatigue, fastener slip, bearing seats and impacts. Pin bending assumes a central load over a 14.2 mm support-centroid span in double shear. Thread-root stress, fit and fork flexibility require separate checks. Required coupon strength is not an assigned PETG allowable. Metal grade and joints also require qualification."
+    }
+  },
+  "minimum_shin_section_modulus_y_mm3": {
+    "before": 1082.4951387758863,
+    "after": 1007.253485242227
+  },
+  "minimum_sampled_groove_wall_mm": 3.8488515645269032,
+  "minimum_thigh_section_modulus_y_mm3": {
+    "before": 1424.4118070717375,
+    "after": 1419.8628223472588
+  },
+  "thigh_section_samples": {
+    "before": [
+      {
+        "z_mm": -65,
+        "section_modulus_y_mm3": 5865.421096798438
+      },
+      {
+        "z_mm": -70,
+        "section_modulus_y_mm3": 3371.1461115182715
+      },
+      {
+        "z_mm": -75,
+        "section_modulus_y_mm3": 3046.046971417965
+      },
+      {
+        "z_mm": -80,
+        "section_modulus_y_mm3": 2756.1006373247615
+      },
+      {
+        "z_mm": -85,
+        "section_modulus_y_mm3": 2501.8740916447773
+      },
+      {
+        "z_mm": -90,
+        "section_modulus_y_mm3": 2282.07367549899
+      },
+      {
+        "z_mm": -95,
+        "section_modulus_y_mm3": 2095.1034373377715
+      },
+      {
+        "z_mm": -100,
+        "section_modulus_y_mm3": 1938.791535389238
+      },
+      {
+        "z_mm": -105,
+        "section_modulus_y_mm3": 1842.6517705223282
+      },
+      {
+        "z_mm": -110,
+        "section_modulus_y_mm3": 1709.0034537375816
+      },
+      {
+        "z_mm": -115,
+        "section_modulus_y_mm3": 1630.1572698930875
+      },
+      {
+        "z_mm": -120,
+        "section_modulus_y_mm3": 1570.618516442356
+      },
+      {
+        "z_mm": -125,
+        "section_modulus_y_mm3": 1525.8525481659526
+      },
+      {
+        "z_mm": -130,
+        "section_modulus_y_mm3": 1489.8802588045166
+      },
+      {
+        "z_mm": -135,
+        "section_modulus_y_mm3": 1457.1522228962767
+      },
+      {
+        "z_mm": -140,
+        "section_modulus_y_mm3": 1428.6029446833177
+      },
+      {
+        "z_mm": -145,
+        "section_modulus_y_mm3": 1424.4118070717375
+      },
+      {
+        "z_mm": -150,
+        "section_modulus_y_mm3": 1452.6770842858987
+      },
+      {
+        "z_mm": -155,
+        "section_modulus_y_mm3": 1506.2950307836427
+      }
+    ],
+    "after": [
+      {
+        "z_mm": -65,
+        "section_modulus_y_mm3": 5763.50044810279
+      },
+      {
+        "z_mm": -70,
+        "section_modulus_y_mm3": 3296.1337045771534
+      },
+      {
+        "z_mm": -75,
+        "section_modulus_y_mm3": 3034.0471930369304
+      },
+      {
+        "z_mm": -80,
+        "section_modulus_y_mm3": 2802.7562316246517
+      },
+      {
+        "z_mm": -85,
+        "section_modulus_y_mm3": 2599.4095878902936
+      },
+      {
+        "z_mm": -90,
+        "section_modulus_y_mm3": 2422.498937483785
+      },
+      {
+        "z_mm": -95,
+        "section_modulus_y_mm3": 2268.9321463849265
+      },
+      {
+        "z_mm": -100,
+        "section_modulus_y_mm3": 2135.0975104595113
+      },
+      {
+        "z_mm": -105,
+        "section_modulus_y_mm3": 2056.1533991902115
+      },
+      {
+        "z_mm": -110,
+        "section_modulus_y_mm3": 1910.2938550103004
+      },
+      {
+        "z_mm": -115,
+        "section_modulus_y_mm3": 1813.370902575983
+      },
+      {
+        "z_mm": -120,
+        "section_modulus_y_mm3": 1724.750048518068
+      },
+      {
+        "z_mm": -125,
+        "section_modulus_y_mm3": 1642.364947399494
+      },
+      {
+        "z_mm": -130,
+        "section_modulus_y_mm3": 1564.365618073903
+      },
+      {
+        "z_mm": -135,
+        "section_modulus_y_mm3": 1492.0841769379056
+      },
+      {
+        "z_mm": -140,
+        "section_modulus_y_mm3": 1437.7090774239782
+      },
+      {
+        "z_mm": -145,
+        "section_modulus_y_mm3": 1419.8628223472588
+      },
+      {
+        "z_mm": -150,
+        "section_modulus_y_mm3": 1431.3730184045305
+      },
+      {
+        "z_mm": -155,
+        "section_modulus_y_mm3": 1521.0768936890543
+      }
+    ]
+  },
+  "nominal_bending_screen": {
+    "thigh": {
+      "case": "stair_reach_60_percent",
+      "moment_Nm": 14.441398638135738,
+      "section_modulus_y_mm3": 1419.8628223472588,
+      "nominal_M_over_W_MPa": 10.170981598251732
+    },
+    "shin": {
+      "case": "unloaded_3g_landing_screen",
+      "moment_Nm": 14.307676628402994,
+      "section_modulus_y_mm3": 1007.253485242227,
+      "nominal_M_over_W_MPa": 14.204643456718589
+    },
+    "scope": "Sagittal bending about each local pitch Y axis. Each maximum prescribed joint moment is applied uniformly to that member and divided by its smallest sampled section modulus. This compares nominal geometric utilization only under a common material allowable; transmission point forces, distributed loads, holes, torsion, fatigue and print anisotropy are excluded."
+  },
+  "comparison_summary": {
+    "moving_leg_mass_delta_g": 114.3890000000003,
+    "hip_pitch_inertia_change_percent": 15.914026032685147,
+    "knee_pitch_inertia_change_percent": 5.190503938671731,
+    "shin_section_modulus_change_percent": -6.950761332632349,
+    "thigh_section_modulus_change_percent": -0.3193588189801977,
+    "fold_min_thigh_shin_gap_mm_before": 1.8747301769215217,
+    "fold_min_thigh_shin_gap_mm_after": 1.5960156831881893
+  }
+}

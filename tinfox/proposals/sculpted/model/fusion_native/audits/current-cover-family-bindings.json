@@ -1,0 +1,308 @@
+{
+  "passed": true,
+  "saved": false,
+  "bindings": [
+    {
+      "parameter": "cover_half_length",
+      "before": "125.4 mm",
+      "after": "cover_hip_x-59.6 mm",
+      "kind": "Family datum"
+    },
+    {
+      "parameter": "cover_half_width",
+      "before": "111.2 mm",
+      "after": "cover_roll_y+43.2 mm",
+      "kind": "Family datum"
+    },
+    {
+      "parameter": "cover_boss_x",
+      "before": "112 mm",
+      "after": "cover_half_length-13.4 mm",
+      "kind": "Family datum"
+    },
+    {
+      "parameter": "cover_boss_y",
+      "before": "106.25 mm",
+      "after": "cover_half_width-4.95 mm",
+      "kind": "Family datum"
+    },
+    {
+      "parameter": "saddle_cover_crossmember_x",
+      "before": "121 mm",
+      "after": "cover_hip_x-64 mm",
+      "kind": "Family datum"
+    },
+    {
+      "parameter": "saddle_cover_rail_y",
+      "before": "99.5 mm",
+      "after": "cover_half_width-11.7 mm",
+      "kind": "Family datum"
+    },
+    {
+      "parameter": "saddle_cover_service_x",
+      "before": "149 mm",
+      "after": "cover_hip_x-36 mm",
+      "kind": "Family datum"
+    },
+    {
+      "parameter": "saddle_cover_old_seat_x",
+      "before": "82 mm",
+      "after": "cover_hip_x-103 mm",
+      "kind": "Family datum"
+    },
+    {
+      "parameter": "saddle_cover_roof_z",
+      "before": "55.5 mm",
+      "after": "cover_roof_z+6 mm",
+      "kind": "Family datum"
+    },
+    {
+      "parameter": "d391",
+      "before": "( 46.75 mm ) - ( 5.5 mm ) / 2",
+      "after": "( (cover_roof_z-2.75 mm) ) - ( 5.5 mm ) / 2",
+      "owner": "Roof stiffening rib datum"
+    },
+    {
+      "parameter": "d393",
+      "before": "-( ( 0 mm ) - ( 170 mm ) / 2 )",
+      "after": "-( ( 0 mm ) - ( (2*cover_half_width-52.4 mm) ) / 2 )",
+      "owner": "Roof stiffening rib rectangle"
+    },
+    {
+      "parameter": "d395",
+      "before": "( 0 mm ) + ( 170 mm ) / 2",
+      "after": "( 0 mm ) + ( (2*cover_half_width-52.4 mm) ) / 2",
+      "owner": "Roof stiffening rib rectangle"
+    },
+    {
+      "parameter": "d441",
+      "before": "( 103.5 mm ) - ( 5.4 mm ) / 2",
+      "after": "( (cover_half_width-7.7 mm) ) - ( 5.4 mm ) / 2",
+      "owner": "Open mounting boss channel rectangle"
+    },
+    {
+      "parameter": "d447",
+      "before": "( 103.5 mm ) + ( 5.4 mm ) / 2",
+      "after": "( (cover_half_width-7.7 mm) ) + ( 5.4 mm ) / 2",
+      "owner": "Open mounting boss channel rectangle"
+    },
+    {
+      "parameter": "d486",
+      "before": "( 101.5 mm ) - ( 4 mm ) / 2",
+      "after": "( (cover_half_width-9.7 mm) ) - ( 4 mm ) / 2",
+      "owner": "Inner boss release tool rectangle"
+    },
+    {
+      "parameter": "d491",
+      "before": "( 101.5 mm ) + ( 4 mm ) / 2",
+      "after": "( (cover_half_width-9.7 mm) ) + ( 4 mm ) / 2",
+      "owner": "Inner boss release tool rectangle"
+    },
+    {
+      "parameter": "d518",
+      "before": "101 mm",
+      "after": "(cover_half_width-10.2 mm)",
+      "owner": "Lateral cover screw hole datum"
+    },
+    {
+      "parameter": "d640",
+      "before": "45.8 mm",
+      "after": "(cover_roof_z-3.7 mm)",
+      "owner": "Open old roof datum"
+    },
+    {
+      "parameter": "d642",
+      "before": "( 0 mm ) + ( 139 mm ) / 2 - ( 32 mm )",
+      "after": "( 0 mm ) + ( (2*cover_half_width-83.4 mm) ) / 2 - ( 32 mm )",
+      "owner": "Open old roof outline"
+    },
+    {
+      "parameter": "d643",
+      "before": "( 0 mm ) + ( 207 mm ) / 2 - ( 32 mm )",
+      "after": "( 0 mm ) + ( (2*cover_half_length-43.8 mm) ) / 2 - ( 32 mm )",
+      "owner": "Open old roof outline"
+    },
+    {
+      "parameter": "d644",
+      "before": "-( ( 0 mm ) - ( 207 mm ) / 2 + ( 32 mm ) )",
+      "after": "-( ( 0 mm ) - ( (2*cover_half_length-43.8 mm) ) / 2 + ( 32 mm ) )",
+      "owner": "Open old roof outline"
+    },
+    {
+      "parameter": "d645",
+      "before": "-( ( 0 mm ) - ( 139 mm ) / 2 + ( 32 mm ) )",
+      "after": "-( ( 0 mm ) - ( (2*cover_half_width-83.4 mm) ) / 2 + ( 32 mm ) )",
+      "owner": "Open old roof outline"
+    },
+    {
+      "parameter": "d652",
+      "before": "( 55 mm ) - ( 20 mm ) / 2",
+      "after": "( (cover_roof_z+5.5 mm) ) - ( 20 mm ) / 2",
+      "owner": "Display aperture tool datum"
+    },
+    {
+      "parameter": "d663",
+      "before": "118.8 mm",
+      "after": "(cover_hip_x-66.2 mm)",
+      "owner": "Upper half roll cuff section"
+    },
+    {
+      "parameter": "d664",
+      "before": "128 mm",
+      "after": "(cover_hip_x-57 mm)",
+      "owner": "Upper half roll cuff section"
+    },
+    {
+      "parameter": "d666",
+      "before": "132 mm",
+      "after": "(cover_hip_x-53 mm)",
+      "owner": "Upper half roll cuff section"
+    },
+    {
+      "parameter": "d668",
+      "before": "135 mm",
+      "after": "(cover_hip_x-50 mm)",
+      "owner": "Upper half roll cuff section"
+    },
+    {
+      "parameter": "d683",
+      "before": "( 121 mm ) - ( 9 mm ) / 2",
+      "after": "( (cover_hip_x-64 mm) ) - ( 9 mm ) / 2",
+      "owner": "Cuff structural root rectangle"
+    },
+    {
+      "parameter": "d685",
+      "before": "( 121 mm ) + ( 9 mm ) / 2",
+      "after": "( (cover_hip_x-64 mm) ) + ( 9 mm ) / 2",
+      "owner": "Cuff structural root rectangle"
+    },
+    {
+      "parameter": "d698",
+      "before": "-( ( 0 mm ) - ( 184 mm ) / 2 )",
+      "after": "-( ( 0 mm ) - ( (2*cover_half_width-38.4 mm) ) / 2 )",
+      "owner": "Crossmember underside clearance rectangle"
+    },
+    {
+      "parameter": "d699",
+      "before": "( 121 mm ) - ( 14 mm ) / 2",
+      "after": "( (cover_hip_x-64 mm) ) - ( 14 mm ) / 2",
+      "owner": "Crossmember underside clearance rectangle"
+    },
+    {
+      "parameter": "d700",
+      "before": "( 0 mm ) + ( 184 mm ) / 2",
+      "after": "( 0 mm ) + ( (2*cover_half_width-38.4 mm) ) / 2",
+      "owner": "Crossmember underside clearance rectangle"
+    },
+    {
+      "parameter": "d701",
+      "before": "( 121 mm ) + ( 14 mm ) / 2",
+      "after": "( (cover_hip_x-64 mm) ) + ( 14 mm ) / 2",
+      "owner": "Crossmember underside clearance rectangle"
+    },
+    {
+      "parameter": "d709",
+      "before": "( 125.5 mm ) - ( 14 mm ) / 2",
+      "after": "( (cover_hip_x-59.5 mm) ) - ( 14 mm ) / 2",
+      "owner": "Upper cuff ear tool rectangle"
+    },
+    {
+      "parameter": "d711",
+      "before": "( 125.5 mm ) + ( 14 mm ) / 2",
+      "after": "( (cover_hip_x-59.5 mm) ) + ( 14 mm ) / 2",
+      "owner": "Upper cuff ear tool rectangle"
+    },
+    {
+      "parameter": "d741",
+      "before": "-( ( 0 mm ) - ( 204 mm ) / 2 )",
+      "after": "-( ( 0 mm ) - ( (2*cover_half_width-18.4 mm) ) / 2 )",
+      "owner": "Obsolete front lip relief rectangle"
+    },
+    {
+      "parameter": "d742",
+      "before": "( 122 mm ) - ( 18 mm ) / 2",
+      "after": "( (cover_hip_x-63 mm) ) - ( 18 mm ) / 2",
+      "owner": "Obsolete front lip relief rectangle"
+    },
+    {
+      "parameter": "d743",
+      "before": "( 0 mm ) + ( 204 mm ) / 2",
+      "after": "( 0 mm ) + ( (2*cover_half_width-18.4 mm) ) / 2",
+      "owner": "Obsolete front lip relief rectangle"
+    },
+    {
+      "parameter": "d744",
+      "before": "( 122 mm ) + ( 18 mm ) / 2",
+      "after": "( (cover_hip_x-63 mm) ) + ( 18 mm ) / 2",
+      "owner": "Obsolete front lip relief rectangle"
+    },
+    {
+      "parameter": "d750",
+      "before": "( 138 mm ) - ( 24 mm ) / 2",
+      "after": "( (cover_hip_x-47 mm) ) - ( 24 mm ) / 2",
+      "owner": "Former cradle relief rectangle"
+    },
+    {
+      "parameter": "d752",
+      "before": "( 138 mm ) + ( 24 mm ) / 2",
+      "after": "( (cover_hip_x-47 mm) ) + ( 24 mm ) / 2",
+      "owner": "Former cradle relief rectangle"
+    },
+    {
+      "parameter": "d755",
+      "before": "45 mm",
+      "after": "(cover_roof_z-4.5 mm)",
+      "owner": "Obsolete lidar seat tool datum"
+    },
+    {
+      "parameter": "d782",
+      "before": "-( ( 0 mm ) - ( 264 mm ) / 2 )",
+      "after": "-( ( 0 mm ) - ( (2*cover_half_length+13.2 mm) ) / 2 )",
+      "owner": "Left rail release tool rectangle"
+    },
+    {
+      "parameter": "d784",
+      "before": "( 0 mm ) + ( 264 mm ) / 2",
+      "after": "( 0 mm ) + ( (2*cover_half_length+13.2 mm) ) / 2",
+      "owner": "Left rail release tool rectangle"
+    },
+    {
+      "parameter": "d789",
+      "before": "-( ( 0 mm ) - ( 206 mm ) / 2 )",
+      "after": "-( ( 0 mm ) - ( (2*cover_half_width-16.4 mm) ) / 2 )",
+      "owner": "Left crossmember release tool rectangle"
+    },
+    {
+      "parameter": "d791",
+      "before": "( 0 mm ) + ( 206 mm ) / 2",
+      "after": "( 0 mm ) + ( (2*cover_half_width-16.4 mm) ) / 2",
+      "owner": "Left crossmember release tool rectangle"
+    },
+    {
+      "parameter": "d798",
+      "before": "-( ( 0 mm ) - ( 264 mm ) / 2 )",
+      "after": "-( ( 0 mm ) - ( (2*cover_half_length+13.2 mm) ) / 2 )",
+      "owner": "Right rail release tool rectangle"
+    },
+    {
+      "parameter": "d800",
+      "before": "( 0 mm ) + ( 264 mm ) / 2",
+      "after": "( 0 mm ) + ( (2*cover_half_length+13.2 mm) ) / 2",
+      "owner": "Right rail release tool rectangle"
+    },
+    {
+      "parameter": "d805",
+      "before": "-( ( 0 mm ) - ( 206 mm ) / 2 )",
+      "after": "-( ( 0 mm ) - ( (2*cover_half_width-16.4 mm) ) / 2 )",
+      "owner": "Right crossmember release tool rectangle"
+    },
+    {
+      "parameter": "d807",
+      "before": "( 0 mm ) + ( 206 mm ) / 2",
+      "after": "( 0 mm ) + ( (2*cover_half_width-16.4 mm) ) / 2",
+      "owner": "Right crossmember release tool rectangle"
+    }
+  ],
+  "elapsed_seconds": 150.58484120797948,
+  "scope": "Cover family geometry. Other chassis components and vendor hardware remain independent; whole-robot family propagation is a separate gate."
+}

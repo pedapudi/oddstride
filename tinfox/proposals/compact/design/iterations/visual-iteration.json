@@ -1,0 +1,186 @@
+[
+  {
+    "iteration": 1,
+    "render": "01-studio.png",
+    "observed_mismatches": [
+      "Tilted flat soles look detached from ground",
+      "Roof openings show square bites",
+      "Front sensor lacks panel hierarchy",
+      "Cap slash almost vertical",
+      "Flat shin lacks studio relief detail"
+    ],
+    "geometry_corrections": [
+      "Replace flat sole with hemispherical contact and tapered boot upper",
+      "Use ruled torso patches and raise shoulder crowns above circular articulation relief",
+      "Create separate recessed nose panel and four standoffs",
+      "Rotate the actual cap engraving to account for standing hip angle",
+      "Add shallow shin channels and knee transition inset"
+    ],
+    "engineering_findings": [
+      "10 mm inward hip offset failed the splayed pose because opposite covers meet; reduced inward shift to 5 mm and moved frame rails accordingly",
+      "Expanded root swept relief to avoid central body interference"
+    ],
+    "pose": "stand [0, 30,-60]"
+  },
+  {
+    "iteration": 2,
+    "render": "02-studio.png",
+    "observed_mismatches": [
+      "Shoulder seams read as deep wide slots",
+      "Knee inset ends in a square tab",
+      "Nose panel appears attached outside body",
+      "Cap rim lacks dark definition",
+      "Battery release was hidden behind cassette wall"
+    ],
+    "geometry_corrections": [
+      "Align all shoulder/gaiter and center cover boundaries to a 0.4 mm split",
+      "Replace knee inset by a circular crescent at the bearing transition",
+      "Extend end shell 4 mm and recess the nose panel within a continuous rim",
+      "Add a seated 0.4 mm dark cap gasket and recessed index fill",
+      "Place the release tab on the actual cassette surface"
+    ],
+    "engineering_findings": [
+      "All 7 presets clear with 5 mm inward hip placement; minimum 1.5016 mm",
+      "Fixed motor/frame and battery envelopes clear; new surfaces need a fresh full sweep"
+    ],
+    "pose": "stand [0, 30,-60]"
+  },
+  {
+    "iteration": 3,
+    "render": "03-studio.png",
+    "pose": "studio_comparison [0, 45,-75]",
+    "observed_mismatches": [
+      "Shoulder seams remained visually too wide despite the nominal 0.4 mm panel split"
+    ],
+    "geometry_corrections": [
+      "Correct the stale 120 mm gaiter clipping box to 132 mm; the older box began 5 mm beyond the swept boundary, leaving a visible neutral-cover gap"
+    ],
+    "engineering_findings": [
+      "Studio comparison pose has 1.512 mm minimum checked gap",
+      "All 8 presets, fixed packaging and battery envelopes clear",
+      "Rounded knee inset stays within the previous cheek envelope and preserves the axle seat"
+    ],
+    "remaining_differences": [
+      "The neutral gaiter deformations are provisional",
+      "Actual optics, cables, display graphics and finish processes remain unselected",
+      "The tool-battery cassette remains more prominent than the reference"
+    ]
+  },
+  {
+    "iteration": 4,
+    "render": "04-studio.png",
+    "pose": "studio_comparison [0,45,-75]",
+    "observed_mismatches": [
+      "Visual geometry accepted; full transition sweep identified opposite motor-cup interference near 40 degrees of roll"
+    ],
+    "geometry_corrections": [
+      "Replace closed-back decorative cups with open-back protective sleeves: 1.5 mm wall, 0.75 mm radial motor clearance, shortened rear overhang. The load-bearing carrier is retained."
+    ],
+    "engineering_findings": [
+      "All endpoints cleared, but 6 interpolated side-reach transition samples did not. A new full sweep is required after the sleeve correction."
+    ],
+    "remaining_differences": [
+      "Flexible seals, wiring, exact optics and loaded performance remain unqualified."
+    ]
+  },
+  {
+    "iteration": 5,
+    "render": "05-studio.png",
+    "pose": "studio_comparison [0,45,-75]",
+    "model_sha256": "1717e1a2a5169ea5efba3cc4ab16202054af50640a29d67e9673f1be35f0c947",
+    "geometry_corrections": [
+      "Open-back protective sleeves clear the opposite shoulder through the complete coordinated roll sweep.",
+      "Hidden two-hole support tabs now connect the recessed nose panel to its surrounding body rim.",
+      "Nose fascia prints broad-face down; cassette and button retain flat underside orientation."
+    ],
+    "engineering_findings": [
+      "All 9 model checks pass.",
+      "All 8 preset gaps exceed 1.5 mm; sampled transitions contain zero collisions.",
+      "Coordinated roll clears \u221260\u00b0 to 60\u00b0; fixed packaging and battery audits contain no intersections.",
+      "Exact-solid checks verify nose-tab contact with both panel and rim without overlap."
+    ],
+    "remaining_differences": [
+      "The neutral flexible gaiters and their attachments remain provisional.",
+      "Actual optics, display graphics, wiring and finishes remain unselected.",
+      "The underside tool-battery cassette remains more prominent than in the studio reference.",
+      "Loaded locomotion and printed strength remain unqualified."
+    ]
+  },
+  {
+    "iteration": 6,
+    "render": "06-studio.png",
+    "pose": "studio_comparison [0, 45, -75]",
+    "reference_mismatches": [
+      "The previous shin bowed behind the knee-to-foot chord; the studio reference bows forward and narrows through its waist."
+    ],
+    "geometry_corrections": [
+      "Reverse the bow using approximate projected image landmarks, with a +14 mm peak, a narrower waist and modest lower flare.",
+      "Rebuild both structural halves, cavity, bolt bosses and recessed channel around the new stations."
+    ],
+    "engineering_findings": [
+      "The first revision passed the normal studio pose but intersected the thigh during extreme fold; crouch clearance was below 1.5 mm."
+    ],
+    "remaining_differences": [
+      "The lower recovery and upper transverse depth require refinement to preserve the target poses."
+    ]
+  },
+  {
+    "iteration": 7,
+    "render": "07-studio.png",
+    "pose": "studio_comparison [0, 45, -75]",
+    "model_sha256": "b4f7ef491f49c176b6453cc6d513244e3d6f93bed19fef275be3de93d938f13e",
+    "geometry_corrections": [
+      "Return the lower curve earlier and reduce upper transverse depth locally by 2 mm to preserve crouch and fold.",
+      "Keep the approved +14 mm forward sweep, knee and foot centers, and the torso and thigh geometry."
+    ],
+    "engineering_findings": [
+      "All 10 tests pass; all 8 preset gaps exceed 1.5 mm.",
+      "All 808 transition samples and 121 coordinated-roll samples are free of checked intersections.",
+      "Minimum sampled groove skin is 4.64 mm; bolt-edge ligaments are 8.93 and 9.59 mm.",
+      "Minimum sampled combined shin section modulus is 881.6 mm\u00b3; printed strength remains unqualified."
+    ],
+    "remaining_differences": [
+      "The lower curve recovers earlier than the unconstrained studio concept to retain folded clearance.",
+      "Flexible seals, wiring, loaded performance and material qualification remain unresolved."
+    ]
+  },
+  {
+    "iteration": 8,
+    "render": "08-studio.png",
+    "pose": "studio_comparison [0, 45, -75]",
+    "reference_mismatches": [
+      "The prior shin had a compound curve and lower flare; the whole limb needed a simpler profile."
+    ],
+    "geometry_corrections": [
+      "Use one shallow 3.5 mm shin arc with a continuous taper and no lower flare.",
+      "Narrow the sagittal thigh web, simplify the circular knee termination, and remove the cosmetic knee inset."
+    ],
+    "engineering_findings": [
+      "The extra transverse thigh recess reduced the folded thigh-to-shin gap to 0.38 mm."
+    ],
+    "remaining_differences": [
+      "Restore the outer thigh web position to preserve folded clearance."
+    ]
+  },
+  {
+    "iteration": 9,
+    "render": "09-studio.png",
+    "pose": "studio_comparison [0, 45, -75]",
+    "model_sha256": "3cf92b464b15bda6a43c7bd99891539db4de54dd5f9791cf2ef818de00aedce0",
+    "geometry_corrections": [
+      "Restore the outer thigh transverse position while retaining the slimmer sagittal contour and simpler shin.",
+      "Retain fixed motor seats, bearing axes, transmission and foot centers."
+    ],
+    "engineering_findings": [
+      "All 10 tests pass; all 8 preset gaps exceed 1.5 mm. All 808 transition samples have zero checked intersections.",
+      "Exported shin sections taper monotonically and have one curvature sign. Minimum sampled groove skin is 3.73 mm.",
+      "Paired folded thigh-to-shin clearance increases from 1.60 to 1.86 mm.",
+      "Per moving leg: mass falls 10.3 g, hip-pitch inertia falls 3.6%, and complete distal knee-pitch inertia falls 9.9%.",
+      "Shin section modulus rises 9.2%; thigh section modulus falls 19.9%. The prescribed sagittal M/W screen is 9.42 MPa for thigh and 14.11 MPa for shin."
+    ],
+    "remaining_differences": [
+      "Printed strength, local joint load transfer, roll/frontal loads, torsion, creep and fatigue remain unqualified.",
+      "Flexible gaiters, cables, cooling and exact commercial packs remain unresolved."
+    ]
+  }
+]

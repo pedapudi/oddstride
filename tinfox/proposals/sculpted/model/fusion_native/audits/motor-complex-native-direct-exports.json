@@ -1,0 +1,4344 @@
+{
+  "saved": false,
+  "document_file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+  "checkpoint_version_at_export": 19,
+  "working_modified": true,
+  "custom_parts": [
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/hip_hub.3mf",
+      "sha256": "6c7191f6d44830ff6f23cf39e60dccddafa6779486cb955c65a4cbc66cc5c078",
+      "bytes": 4688497,
+      "part": "hip_hub",
+      "component_part_number": "CANDIDATE_sl_hip_hub",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -43.49489761534433,
+        0.0,
+        -27.750000000000018,
+        43.49489761534435,
+        9.500000000000002,
+        48.00000000000001
+      ],
+      "features": 17,
+      "sketches": 9,
+      "faces": 98,
+      "native_volume_mm3": 18276.11616371595
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/motor_mount_ring.3mf",
+      "sha256": "bcda889f7d29e6e2017ba477b1515208784bcf30a4f8682a6eb6ab6ee1f97a22",
+      "bytes": 726032,
+      "part": "motor_mount_ring",
+      "component_part_number": "CANDIDATE_sl_motor_mount_ring",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -42.172105064623075,
+        50.50000000000001,
+        -40.50000000000001,
+        42.17210506462309,
+        55.00000000000001,
+        48.00000000000001
+      ],
+      "features": 8,
+      "sketches": 5,
+      "faces": 30,
+      "native_volume_mm3": 8094.929752655104
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/thigh_inner.3mf",
+      "sha256": "91411109b59a09bb0526bd9e64a2ef1795d8b354fe0276f6464af5b432ece40b",
+      "bytes": 1544096,
+      "part": "thigh_inner",
+      "component_part_number": "CANDIDATE_sl_thigh_inner",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -45.58933669274409,
+        9.0,
+        -191.5,
+        26.035138585656277,
+        67.00000000000001,
+        40.08248273791217
+      ],
+      "features": 9,
+      "sketches": 8,
+      "faces": 81,
+      "native_volume_mm3": 70861.89511182174
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/thigh_outer.3mf",
+      "sha256": "dfcb0c23ee2a1ed600a4691e8382718eca6d37275b77e00f75fb21068ecc2642",
+      "bytes": 6991540,
+      "part": "thigh_outer",
+      "component_part_number": "CANDIDATE_mc_thigh_outer",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -45.58933669274409,
+        9.0,
+        -191.5,
+        44.71220316700585,
+        97.00000000000001,
+        51.000000000000014
+      ],
+      "features": 3,
+      "sketches": 2,
+      "faces": 175,
+      "native_volume_mm3": 173094.56584561605
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/input_crank.3mf",
+      "sha256": "534e47934a8eac4a9b254654ec641e5da34d390e46d2f000489aa804980fd521",
+      "bytes": 2481533,
+      "part": "input_crank",
+      "component_part_number": "CANDIDATE_mc_input_crank",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -18.0,
+        54.400000000000006,
+        -18.0,
+        38.50000000000001,
+        86.0,
+        18.0
+      ],
+      "features": 18,
+      "sketches": 12,
+      "faces": 77,
+      "native_volume_mm3": 14720.943888934502
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/roll_cartridge_1.3mf",
+      "sha256": "5bfe6de4e2f5aba3dc6d0523b1e313f3070436577b4087f834fc79b2e92f263e",
+      "bytes": 5928557,
+      "part": "roll_cartridge_1",
+      "component_part_number": "CANDIDATE_pr_roll_cartridge_1",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -74.50000000000001,
+        -37.798780658685665,
+        -40.9378868614517,
+        -50.5,
+        39.99999999999999,
+        39.445482984945606
+      ],
+      "features": 18,
+      "sketches": 11,
+      "faces": 94,
+      "native_volume_mm3": 23313.19384065411
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/roll_stator_backplate_1.3mf",
+      "sha256": "c5089cdd374450c90639ab5b000ce1a5cb5ed5d36261bbc8219da2c461a4e782",
+      "bytes": 524082,
+      "part": "roll_stator_backplate_1",
+      "component_part_number": "CANDIDATE_pr_roll_stator_backplate_1",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -77.50000000000001,
+        -41.00000000000001,
+        -41.00000000000001,
+        -71.5,
+        41.00000000000001,
+        41.00000000000001
+      ],
+      "features": 8,
+      "sketches": 5,
+      "faces": 40,
+      "native_volume_mm3": 9081.443942548914
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/roll_inner_spacer_1.3mf",
+      "sha256": "d34538f04287487fe940e1886e8fe4f705344f55ee0abc6952f7b8894f8f6096",
+      "bytes": 36097,
+      "part": "roll_inner_spacer_1",
+      "component_part_number": "CANDIDATE_pr_roll_inner_spacer_1",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -64.5,
+        -26.25,
+        -26.25,
+        -57.5,
+        26.25,
+        26.25
+      ],
+      "features": 1,
+      "sketches": 1,
+      "faces": 4,
+      "native_volume_mm3": 1353.7751062849156
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/roll_outer_spacer_1.3mf",
+      "sha256": "c8afe611b82945329797772d70624b737b20e30797eb9c5109aeb706cfa0fd31",
+      "bytes": 38755,
+      "part": "roll_outer_spacer_1",
+      "component_part_number": "CANDIDATE_pr_roll_outer_spacer_1",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -64.5,
+        -32.45,
+        -32.45,
+        -57.5,
+        32.45,
+        32.45
+      ],
+      "features": 1,
+      "sketches": 1,
+      "faces": 4,
+      "native_volume_mm3": 1336.0172538104962
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/roll_inner_backplate_1.3mf",
+      "sha256": "c3aa8c3f9d046af829e745478e76dbfd356fd3ef755845ccf9697596c94dca66",
+      "bytes": 234724,
+      "part": "roll_inner_backplate_1",
+      "component_part_number": "CANDIDATE_pr_roll_inner_backplate_1",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -73.5,
+        -26.25,
+        -26.25,
+        -71.5,
+        26.25,
+        26.25
+      ],
+      "features": 3,
+      "sketches": 2,
+      "faces": 10,
+      "native_volume_mm3": 3839.1675943561286
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/roll_outer_retainer_1.3mf",
+      "sha256": "d6a492bdca2f61c0f06dfcdb90324bc99d14ea1cd5781b28550942866fa273fb",
+      "bytes": 328752,
+      "part": "roll_outer_retainer_1",
+      "component_part_number": "CANDIDATE_pr_roll_outer_retainer_1",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -50.5,
+        -36.0,
+        -40.9378868614517,
+        -48.5,
+        39.2686269690786,
+        36.00000000000001
+      ],
+      "features": 7,
+      "sketches": 4,
+      "faces": 30,
+      "native_volume_mm3": 1883.916444164241
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/motor_carrier_1.3mf",
+      "sha256": "95fa8c7bae96f0323ca317ebc5cb17a1124565d5f97397746d7a9479f58add82",
+      "bytes": 3213470,
+      "part": "motor_carrier_1",
+      "component_part_number": "CANDIDATE_pr_motor_carrier_1",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -71.5,
+        -48.4,
+        -44.0,
+        49.50014608158261,
+        29.000000000000004,
+        53.00000000000001
+      ],
+      "features": 21,
+      "sketches": 15,
+      "faces": 113,
+      "native_volume_mm3": 89974.51500690017
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/hip_stator_closure_1.3mf",
+      "sha256": "dc3d2ac3d45f09f77664408aabfd2b05aefed4a8b58b5094023a5be3574679e1",
+      "bytes": 739167,
+      "part": "hip_stator_closure_1",
+      "component_part_number": "CANDIDATE_pr_hip_stator_closure_1",
+      "coordinate_system": "Canonical native part coordinates, millimetres; no print orientation applied.",
+      "native_bounds_mm": [
+        -39.50014608158262,
+        -4.0,
+        -44.0,
+        49.50014608158261,
+        -0.8999999999999997,
+        53.00000000000001
+      ],
+      "features": 8,
+      "sketches": 8,
+      "faces": 36,
+      "native_volume_mm3": 11882.125115246772
+    }
+  ],
+  "optional_fit_stock": [
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/fit-only-pod-long-sleeve.3mf",
+      "sha256": "30436d6295625b7781e3c1627e9cf89a51c090ee1d42b4dcaa142a455dd2ebac",
+      "bytes": 839773,
+      "part": "fit-only-pod-long-sleeve",
+      "quantity": 3,
+      "nominal_od_id_length_mm": [
+        5,
+        3.4,
+        41
+      ],
+      "native_bounds_mm": [
+        -2.4999999999999973,
+        9.5,
+        41.00000000000001,
+        2.5000000000000027,
+        50.50000000000001,
+        46.00000000000001
+      ],
+      "coordinate_system": "Native cut-stock body coordinates; print placement is a separate transform.",
+      "purpose": "Optional printed dimensional surrogate; actual clamp load requires the specified metal stock."
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/fit-only-pod-short-sleeve.3mf",
+      "sha256": "2fc005e5975da86f183d23fc15aeb4d073d246ccec2668f3cbad02a31cce5777",
+      "bytes": 151101,
+      "part": "fit-only-pod-short-sleeve",
+      "quantity": 3,
+      "nominal_od_id_length_mm": [
+        5,
+        3.4,
+        6
+      ],
+      "native_bounds_mm": [
+        -2.4999999999999973,
+        55.00000000000001,
+        41.00000000000001,
+        2.5000000000000027,
+        61.000000000000014,
+        46.00000000000001
+      ],
+      "coordinate_system": "Native cut-stock body coordinates; print placement is a separate transform.",
+      "purpose": "Optional printed dimensional surrogate; actual clamp load requires the specified metal stock."
+    },
+    {
+      "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/fit-only-thigh-clamp-sleeve.3mf",
+      "sha256": "8d161ea0a8d529c9d8b2239edd95d96b2e499beb814a80a7d555decf8322b307",
+      "bytes": 275976,
+      "part": "fit-only-thigh-clamp-sleeve",
+      "quantity": 2,
+      "nominal_od_id_length_mm": [
+        8,
+        4.3,
+        18
+      ],
+      "native_bounds_mm": [
+        -40.0,
+        58.00000000000001,
+        -70.0,
+        -32.0,
+        76.0,
+        -62.000000000000014
+      ],
+      "coordinate_system": "Native cut-stock body coordinates; print placement is a separate transform.",
+      "purpose": "Optional printed dimensional surrogate; actual clamp load requires the specified metal stock."
+    }
+  ],
+  "references_3mf": {
+    "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/purchased-references.3mf",
+    "sha256": "99d24254f08b7b032634b7fce41b521e143879ea85b4753a77df176146537dff",
+    "bytes": 16592157
+  },
+  "assembly_3mf": {
+    "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/assembled-motor-complex.3mf",
+    "sha256": "176b516e11cda824602b4a05725b1b7ccb2ac01f3c6579369821be229176a206",
+    "bytes": 1773
+  },
+  "review_model": {
+    "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/native-bench-review.json.gz",
+    "sha256": "875cade0a6fb628a0858d2c21f7401b449fac70a6a42ad71a6670d04d9b9f21c",
+    "model_sha256": "8f3f6290c7e8b9fb6985bb2a46b62597e1666ca7816bf00e39d766862b232a8d",
+    "parts": 124,
+    "custom_parts": 13,
+    "motors": 3,
+    "connector_bodies": 24
+  },
+  "parameters": {
+    "stator_axial_datum": {
+      "expression": "50.5 mm",
+      "value_internal": 5.050000000000001,
+      "unit": "mm"
+    },
+    "stator_outer_diameter": {
+      "expression": "96 mm",
+      "value_internal": 9.600000000000001,
+      "unit": "mm"
+    },
+    "stator_bore": {
+      "expression": "60 mm",
+      "value_internal": 6.0,
+      "unit": "mm"
+    },
+    "stator_thickness": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "stator_motor_pcd": {
+      "expression": "73 mm",
+      "value_internal": 7.300000000000001,
+      "unit": "mm"
+    },
+    "stator_motor_clock": {
+      "expression": "20 deg",
+      "value_internal": 0.3490658503988659,
+      "unit": "deg"
+    },
+    "stator_clearance": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "stator_motor_hole_count": {
+      "expression": "9",
+      "value_internal": 9.0,
+      "unit": ""
+    },
+    "stator_tie_pcd": {
+      "expression": "87 mm",
+      "value_internal": 8.700000000000001,
+      "unit": "mm"
+    },
+    "stator_tie_hole_count": {
+      "expression": "3",
+      "value_internal": 3.0,
+      "unit": ""
+    },
+    "hip_hub_1789_makeCylinder_diameter": {
+      "expression": "40 mm",
+      "value_internal": 4.0,
+      "unit": "mm"
+    },
+    "hip_hub_1789_makeCylinder_cylinder_depth": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "hip_hub_1790_makeCylinder_offset": {
+      "expression": "-1 mm",
+      "value_internal": -0.1,
+      "unit": "mm"
+    },
+    "hip_hub_1790_makeCylinder_diameter": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "hip_hub_1790_makeCylinder_cylinder_depth": {
+      "expression": "7 mm",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "hip_hub_1792_makeCylinder_offset": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "hip_hub_1792_makeCylinder_diameter": {
+      "expression": "96 mm",
+      "value_internal": 9.600000000000001,
+      "unit": "mm"
+    },
+    "hip_hub_1792_makeCylinder_cylinder_depth": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "hip_hub_1793_makeCylinder_offset": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "hip_hub_1793_makeCylinder_diameter": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "hip_hub_1793_makeCylinder_cylinder_depth": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "hip_hub_1796_makeCylinder_offset": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "hip_hub_1796_makeCylinder_diameter": {
+      "expression": "18 mm",
+      "value_internal": 1.8,
+      "unit": "mm"
+    },
+    "hip_hub_1796_makeCylinder_cylinder_depth": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "hip_hub_1798_makeCylinder_offset": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "hip_hub_1798_makeCylinder_diameter": {
+      "expression": "18 mm",
+      "value_internal": 1.8,
+      "unit": "mm"
+    },
+    "hip_hub_1798_makeCylinder_cylinder_depth": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "hip_hub_1800_makeCylinder_offset": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "hip_hub_1800_makeCylinder_diameter": {
+      "expression": "18 mm",
+      "value_internal": 1.8,
+      "unit": "mm"
+    },
+    "hip_hub_1800_makeCylinder_cylinder_depth": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "hip_hub_1802_makeCylinder_diameter": {
+      "expression": "4.4 mm",
+      "value_internal": 0.44000000000000006,
+      "unit": "mm"
+    },
+    "hip_hub_1802_makeCylinder_cylinder_depth": {
+      "expression": "13 mm",
+      "value_internal": 1.3,
+      "unit": "mm"
+    },
+    "hip_hub_1804_makeCylinder_offset": {
+      "expression": "3.7 mm",
+      "value_internal": 0.37000000000000005,
+      "unit": "mm"
+    },
+    "hip_hub_1804_makeCylinder_diameter": {
+      "expression": "7.6 mm",
+      "value_internal": 0.76,
+      "unit": "mm"
+    },
+    "hip_hub_1804_makeCylinder_cylinder_depth": {
+      "expression": "4.5 mm",
+      "value_internal": 0.45,
+      "unit": "mm"
+    },
+    "hip_hub_1807_makeCylinder_diameter": {
+      "expression": "4.4 mm",
+      "value_internal": 0.44000000000000006,
+      "unit": "mm"
+    },
+    "hip_hub_1807_makeCylinder_cylinder_depth": {
+      "expression": "13 mm",
+      "value_internal": 1.3,
+      "unit": "mm"
+    },
+    "hip_hub_1809_makeCylinder_offset": {
+      "expression": "3.7 mm",
+      "value_internal": 0.37000000000000005,
+      "unit": "mm"
+    },
+    "hip_hub_1809_makeCylinder_diameter": {
+      "expression": "7.6 mm",
+      "value_internal": 0.76,
+      "unit": "mm"
+    },
+    "hip_hub_1809_makeCylinder_cylinder_depth": {
+      "expression": "4.5 mm",
+      "value_internal": 0.45,
+      "unit": "mm"
+    },
+    "hip_hub_1812_makeCylinder_diameter": {
+      "expression": "4.4 mm",
+      "value_internal": 0.44000000000000006,
+      "unit": "mm"
+    },
+    "hip_hub_1812_makeCylinder_cylinder_depth": {
+      "expression": "13 mm",
+      "value_internal": 1.3,
+      "unit": "mm"
+    },
+    "hip_hub_1814_makeCylinder_offset": {
+      "expression": "3.7 mm",
+      "value_internal": 0.37000000000000005,
+      "unit": "mm"
+    },
+    "hip_hub_1814_makeCylinder_diameter": {
+      "expression": "7.6 mm",
+      "value_internal": 0.76,
+      "unit": "mm"
+    },
+    "hip_hub_1814_makeCylinder_cylinder_depth": {
+      "expression": "4.5 mm",
+      "value_internal": 0.45,
+      "unit": "mm"
+    },
+    "hip_hub_1817_makeCylinder_diameter": {
+      "expression": "4.4 mm",
+      "value_internal": 0.44000000000000006,
+      "unit": "mm"
+    },
+    "hip_hub_1817_makeCylinder_cylinder_depth": {
+      "expression": "13 mm",
+      "value_internal": 1.3,
+      "unit": "mm"
+    },
+    "hip_hub_1819_makeCylinder_offset": {
+      "expression": "3.7 mm",
+      "value_internal": 0.37000000000000005,
+      "unit": "mm"
+    },
+    "hip_hub_1819_makeCylinder_diameter": {
+      "expression": "7.6 mm",
+      "value_internal": 0.76,
+      "unit": "mm"
+    },
+    "hip_hub_1819_makeCylinder_cylinder_depth": {
+      "expression": "4.5 mm",
+      "value_internal": 0.45,
+      "unit": "mm"
+    },
+    "hip_hub_1822_makeCylinder_diameter": {
+      "expression": "4.4 mm",
+      "value_internal": 0.44000000000000006,
+      "unit": "mm"
+    },
+    "hip_hub_1822_makeCylinder_cylinder_depth": {
+      "expression": "13 mm",
+      "value_internal": 1.3,
+      "unit": "mm"
+    },
+    "hip_hub_1824_makeCylinder_offset": {
+      "expression": "3.7 mm",
+      "value_internal": 0.37000000000000005,
+      "unit": "mm"
+    },
+    "hip_hub_1824_makeCylinder_diameter": {
+      "expression": "7.6 mm",
+      "value_internal": 0.76,
+      "unit": "mm"
+    },
+    "hip_hub_1824_makeCylinder_cylinder_depth": {
+      "expression": "4.5 mm",
+      "value_internal": 0.45,
+      "unit": "mm"
+    },
+    "hip_hub_1827_makeCylinder_diameter": {
+      "expression": "4.4 mm",
+      "value_internal": 0.44000000000000006,
+      "unit": "mm"
+    },
+    "hip_hub_1827_makeCylinder_cylinder_depth": {
+      "expression": "13 mm",
+      "value_internal": 1.3,
+      "unit": "mm"
+    },
+    "hip_hub_1829_makeCylinder_offset": {
+      "expression": "3.7 mm",
+      "value_internal": 0.37000000000000005,
+      "unit": "mm"
+    },
+    "hip_hub_1829_makeCylinder_diameter": {
+      "expression": "7.6 mm",
+      "value_internal": 0.76,
+      "unit": "mm"
+    },
+    "hip_hub_1829_makeCylinder_cylinder_depth": {
+      "expression": "4.5 mm",
+      "value_internal": 0.45,
+      "unit": "mm"
+    },
+    "hip_hub_1832_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "hip_hub_1832_makeCylinder_cylinder_depth": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "hip_hub_1834_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "hip_hub_1834_makeCylinder_cylinder_depth": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "hip_hub_1836_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "hip_hub_1836_makeCylinder_cylinder_depth": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "shin_clamp_sleeve_37_3579_cut_annulus_outer_offset": {
+      "expression": "58 mm",
+      "value_internal": 5.800000000000001,
+      "unit": "mm"
+    },
+    "shin_clamp_sleeve_37_3579_cut_annulus_outer_diameter": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "shin_clamp_sleeve_37_3579_cut_bore": {
+      "expression": "4.3 mm",
+      "value_internal": 0.43,
+      "unit": "mm"
+    },
+    "shin_clamp_sleeve_37_3579_cut_thickness": {
+      "expression": "18 mm",
+      "value_internal": 1.8,
+      "unit": "mm"
+    },
+    "shin_clamp_sleeve_105_3583_cut_annulus_outer_offset": {
+      "expression": "58 mm",
+      "value_internal": 5.800000000000001,
+      "unit": "mm"
+    },
+    "shin_clamp_sleeve_105_3583_cut_annulus_outer_diameter": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "shin_clamp_sleeve_105_3583_cut_bore": {
+      "expression": "4.3 mm",
+      "value_internal": 0.43,
+      "unit": "mm"
+    },
+    "shin_clamp_sleeve_105_3583_cut_thickness": {
+      "expression": "18 mm",
+      "value_internal": 1.8,
+      "unit": "mm"
+    },
+    "pod_sleeve_90_1873_cut_annulus_outer_offset": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "pod_sleeve_90_1873_cut_annulus_outer_diameter": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "pod_sleeve_90_1873_cut_bore": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "pod_sleeve_90_1873_cut_thickness": {
+      "expression": "42.5 mm",
+      "value_internal": 4.25,
+      "unit": "mm"
+    },
+    "pod_sleeve_90_1876_cut_annulus_outer_offset": {
+      "expression": "57.5 mm",
+      "value_internal": 5.75,
+      "unit": "mm"
+    },
+    "pod_sleeve_90_1876_cut_annulus_outer_diameter": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "pod_sleeve_90_1876_cut_bore": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "pod_sleeve_90_1876_cut_thickness": {
+      "expression": "3.5 mm",
+      "value_internal": 0.35000000000000003,
+      "unit": "mm"
+    },
+    "pod_sleeve_210_1885_cut_annulus_outer_offset": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "pod_sleeve_210_1885_cut_annulus_outer_diameter": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "pod_sleeve_210_1885_cut_bore": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "pod_sleeve_210_1885_cut_thickness": {
+      "expression": "42.5 mm",
+      "value_internal": 4.25,
+      "unit": "mm"
+    },
+    "pod_sleeve_210_1888_cut_annulus_outer_offset": {
+      "expression": "57.5 mm",
+      "value_internal": 5.75,
+      "unit": "mm"
+    },
+    "pod_sleeve_210_1888_cut_annulus_outer_diameter": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "pod_sleeve_210_1888_cut_bore": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "pod_sleeve_210_1888_cut_thickness": {
+      "expression": "3.5 mm",
+      "value_internal": 0.35000000000000003,
+      "unit": "mm"
+    },
+    "pod_sleeve_330_1897_cut_annulus_outer_offset": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "pod_sleeve_330_1897_cut_annulus_outer_diameter": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "pod_sleeve_330_1897_cut_bore": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "pod_sleeve_330_1897_cut_thickness": {
+      "expression": "42.5 mm",
+      "value_internal": 4.25,
+      "unit": "mm"
+    },
+    "pod_sleeve_330_1900_cut_annulus_outer_offset": {
+      "expression": "57.5 mm",
+      "value_internal": 5.75,
+      "unit": "mm"
+    },
+    "pod_sleeve_330_1900_cut_annulus_outer_diameter": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "pod_sleeve_330_1900_cut_bore": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "pod_sleeve_330_1900_cut_thickness": {
+      "expression": "3.5 mm",
+      "value_internal": 0.35000000000000003,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1656_cut_annulus_outer_offset": {
+      "expression": "-60.3 mm",
+      "value_internal": -6.03,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1656_cut_annulus_outer_diameter": {
+      "expression": "72 mm",
+      "value_internal": 7.2,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1656_cut_bore": {
+      "expression": "66.2 mm",
+      "value_internal": 6.620000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1656_cut_thickness": {
+      "expression": "16.3 mm",
+      "value_internal": 1.6300000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1659_cut_annulus_outer_offset": {
+      "expression": "-55 mm",
+      "value_internal": -5.5,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1659_cut_annulus_outer_diameter": {
+      "expression": "72 mm",
+      "value_internal": 7.2,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1659_cut_bore": {
+      "expression": "61 mm",
+      "value_internal": 6.1000000000000005,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1659_cut_thickness": {
+      "expression": "1 mm",
+      "value_internal": 0.1,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1661_makeBox_offset": {
+      "expression": "-5.5 mm",
+      "value_internal": -0.55,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1661_makeBox_stock_depth": {
+      "expression": "11 mm",
+      "value_internal": 1.1,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1666_fillet_radius": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1668_makeCylinder_offset": {
+      "expression": "7 mm",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1668_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1668_makeCylinder_cylinder_depth": {
+      "expression": "30 mm",
+      "value_internal": 3.0,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1671_makeBox_offset": {
+      "expression": "-5.5 mm",
+      "value_internal": -0.55,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1671_makeBox_stock_depth": {
+      "expression": "11 mm",
+      "value_internal": 1.1,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1676_fillet_radius": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1678_makeCylinder_offset": {
+      "expression": "7 mm",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1678_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1678_makeCylinder_cylinder_depth": {
+      "expression": "30 mm",
+      "value_internal": 3.0,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1635_cut_annulus_outer_offset": {
+      "expression": "-61.3 mm",
+      "value_internal": -6.13,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1635_cut_annulus_outer_diameter": {
+      "expression": "82 mm",
+      "value_internal": 8.200000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1635_cut_bore": {
+      "expression": "54 mm",
+      "value_internal": 5.4,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1635_cut_thickness": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1636_makeCylinder_offset": {
+      "expression": "-62.3 mm",
+      "value_internal": -6.23,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1636_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1636_makeCylinder_cylinder_depth": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1638_makeCylinder_offset": {
+      "expression": "-62.3 mm",
+      "value_internal": -6.23,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1638_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1638_makeCylinder_cylinder_depth": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1640_makeCylinder_offset": {
+      "expression": "-62.3 mm",
+      "value_internal": -6.23,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1640_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1640_makeCylinder_cylinder_depth": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1642_makeCylinder_offset": {
+      "expression": "-62.3 mm",
+      "value_internal": -6.23,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1642_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1642_makeCylinder_cylinder_depth": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1644_makeCylinder_offset": {
+      "expression": "-62.3 mm",
+      "value_internal": -6.23,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1644_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1644_makeCylinder_cylinder_depth": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1646_makeCylinder_offset": {
+      "expression": "-62.3 mm",
+      "value_internal": -6.23,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1646_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1646_makeCylinder_cylinder_depth": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1648_makeCylinder_offset": {
+      "expression": "-62.3 mm",
+      "value_internal": -6.23,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1648_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1648_makeCylinder_cylinder_depth": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1650_makeCylinder_offset": {
+      "expression": "-62.3 mm",
+      "value_internal": -6.23,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1650_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1650_makeCylinder_cylinder_depth": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1652_makeCylinder_offset": {
+      "expression": "-62.3 mm",
+      "value_internal": -6.23,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1652_makeCylinder_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1652_makeCylinder_cylinder_depth": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1682_makeCylinder_offset": {
+      "expression": "27 mm",
+      "value_internal": 2.7,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1682_makeCylinder_diameter": {
+      "expression": "3.6 mm",
+      "value_internal": 0.36000000000000004,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1682_makeCylinder_cylinder_depth": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1684_makeCylinder_offset": {
+      "expression": "-60 mm",
+      "value_internal": -6.0,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1684_makeCylinder_diameter": {
+      "expression": "66.2 mm",
+      "value_internal": 6.620000000000001,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1684_makeCylinder_cylinder_depth": {
+      "expression": "17 mm",
+      "value_internal": 1.7000000000000002,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1688_cut_annulus_outer_offset": {
+      "expression": "-55 mm",
+      "value_internal": -5.5,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1688_cut_annulus_outer_diameter": {
+      "expression": "72 mm",
+      "value_internal": 7.2,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1688_cut_bore": {
+      "expression": "61 mm",
+      "value_internal": 6.1000000000000005,
+      "unit": "mm"
+    },
+    "roll_cartridge_1_1688_cut_thickness": {
+      "expression": "1 mm",
+      "value_internal": 0.1,
+      "unit": "mm"
+    },
+    "lc_crank_phase": {
+      "expression": "-78 deg",
+      "value_internal": -1.361356816555577,
+      "unit": "deg"
+    },
+    "lc_thigh_length": {
+      "expression": "170 mm",
+      "value_internal": 17.0,
+      "unit": "mm"
+    },
+    "lc_shank_foot_center": {
+      "expression": "148 mm",
+      "value_internal": 14.8,
+      "unit": "mm"
+    },
+    "lc_profile_tip_setback": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "lc_shin_half_width": {
+      "expression": "11 mm",
+      "value_internal": 1.1,
+      "unit": "mm"
+    },
+    "lc_shin_curve_amplitude": {
+      "expression": "14 mm",
+      "value_internal": 1.4000000000000001,
+      "unit": "mm"
+    },
+    "lc_bearing_od": {
+      "expression": "28 mm",
+      "value_internal": 2.8000000000000003,
+      "unit": "mm"
+    },
+    "lc_bearing_id": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "lc_bearing_width": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "lc_knee_radial_land": {
+      "expression": "7 mm",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "lc_shin_y_min": {
+      "expression": "51 mm",
+      "value_internal": 5.1000000000000005,
+      "unit": "mm"
+    },
+    "lc_shin_width": {
+      "expression": "lc_inner_bearing_lead + lc_bearing_span + lc_bearing_width",
+      "value_internal": 3.4000000000000004,
+      "unit": "mm"
+    },
+    "lc_shin_split_offset": {
+      "expression": "16 mm",
+      "value_internal": 1.6,
+      "unit": "mm"
+    },
+    "lc_crank_radius": {
+      "expression": "28 mm",
+      "value_internal": 2.8000000000000003,
+      "unit": "mm"
+    },
+    "lc_pin_eye_radius": {
+      "expression": "10.5 mm",
+      "value_internal": 1.05,
+      "unit": "mm"
+    },
+    "lc_shin_edge_radius": {
+      "expression": "1.2 mm",
+      "value_internal": 0.12,
+      "unit": "mm"
+    },
+    "lc_shin_profile_length": {
+      "expression": "lc_shank_foot_center - lc_profile_tip_setback",
+      "value_internal": 13.600000000000001,
+      "unit": "mm"
+    },
+    "lc_knee_crown_radius": {
+      "expression": "lc_bearing_od / 2 + lc_knee_radial_land",
+      "value_internal": 2.1,
+      "unit": "mm"
+    },
+    "lc_shin_y_max": {
+      "expression": "lc_shin_y_min + lc_shin_width",
+      "value_internal": 8.5,
+      "unit": "mm"
+    },
+    "lc_shin_split_y": {
+      "expression": "lc_shin_y_min + lc_shin_split_offset",
+      "value_internal": 6.700000000000001,
+      "unit": "mm"
+    },
+    "lc_pin_x": {
+      "expression": "lc_crank_radius * cos(lc_crank_phase)",
+      "value_internal": 0.5821527342897265,
+      "unit": "mm"
+    },
+    "lc_pin_z": {
+      "expression": "-lc_crank_radius * sin(lc_crank_phase)",
+      "value_internal": 2.738813282054656,
+      "unit": "mm"
+    },
+    "lc_cam_tangent_angle": {
+      "expression": "acos(( lc_knee_crown_radius - lc_pin_eye_radius ) / lc_crank_radius)",
+      "value_internal": 1.1863995522992574,
+      "unit": "deg"
+    },
+    "lc_shell_wall": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "lc_web_tip_margin": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "lc_web_top_width": {
+      "expression": "22 mm",
+      "value_internal": 2.2,
+      "unit": "mm"
+    },
+    "lc_web_tip_width": {
+      "expression": "14 mm",
+      "value_internal": 1.4000000000000001,
+      "unit": "mm"
+    },
+    "lc_web_tip_center_x": {
+      "expression": "1 mm",
+      "value_internal": 0.1,
+      "unit": "mm"
+    },
+    "lc_web_corner_radius": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "lc_clamp_land_radius": {
+      "expression": "8.6 mm",
+      "value_internal": 0.86,
+      "unit": "mm"
+    },
+    "lc_clamp_x": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "lc_clamp_upper_z": {
+      "expression": "-30 mm",
+      "value_internal": -3.0,
+      "unit": "mm"
+    },
+    "lc_clamp_lower_z": {
+      "expression": "-( 105 / 136 ) * lc_shin_profile_length",
+      "value_internal": -10.500000000000002,
+      "unit": "mm"
+    },
+    "lc_inner_bearing_lead": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "lc_bearing_span": {
+      "expression": "24 mm",
+      "value_internal": 2.4000000000000004,
+      "unit": "mm"
+    },
+    "lc_bearing_fit_allowance": {
+      "expression": "( fit_bearing_seat_diametral_allowance + fit_hole_compensation ) / 2",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "lc_shaft_channel_radius": {
+      "expression": "8.2 mm",
+      "value_internal": 0.82,
+      "unit": "mm"
+    },
+    "lc_pocket_y": {
+      "expression": "lc_shin_y_min + lc_shell_wall",
+      "value_internal": 5.500000000000001,
+      "unit": "mm"
+    },
+    "lc_pocket_depth": {
+      "expression": "lc_shin_width - 2 * lc_shell_wall",
+      "value_internal": 2.6000000000000005,
+      "unit": "mm"
+    },
+    "lc_web_top_z": {
+      "expression": "-( lc_knee_crown_radius + lc_shell_wall )",
+      "value_internal": -2.5,
+      "unit": "mm"
+    },
+    "lc_web_bottom_z": {
+      "expression": "-( lc_shin_profile_length - lc_web_tip_margin )",
+      "value_internal": -12.8,
+      "unit": "mm"
+    },
+    "lc_bearing_inner_y": {
+      "expression": "lc_shin_y_min + lc_inner_bearing_lead",
+      "value_internal": 5.300000000000001,
+      "unit": "mm"
+    },
+    "lc_bearing_outer_y": {
+      "expression": "lc_bearing_inner_y + lc_bearing_span",
+      "value_internal": 7.700000000000001,
+      "unit": "mm"
+    },
+    "lc_bearing_seat_radius": {
+      "expression": "lc_bearing_od / 2 + lc_bearing_fit_allowance",
+      "value_internal": 1.4000000000000001,
+      "unit": "mm"
+    },
+    "lc_rod_length": {
+      "expression": "lc_thigh_length",
+      "value_internal": 17.0,
+      "unit": "mm"
+    },
+    "lc_rod_stem_half_width": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "lc_rod_eye_half_width": {
+      "expression": "7.5 mm",
+      "value_internal": 0.75,
+      "unit": "mm"
+    },
+    "lc_rod_taper_length": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "lc_rod_clearance": {
+      "expression": "1 mm",
+      "value_internal": 0.1,
+      "unit": "mm"
+    },
+    "lc_rod_channel_y": {
+      "expression": "fit_fork_center_y - lc_rod_thickness / 2 - fit_rod_body_side_clearance",
+      "value_internal": 6.65,
+      "unit": "mm"
+    },
+    "lc_rod_channel_width": {
+      "expression": "lc_rod_thickness + 2 * fit_rod_body_side_clearance",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "lc_knee_min": {
+      "expression": "-156 deg",
+      "value_internal": -2.722713633111154,
+      "unit": "deg"
+    },
+    "lc_knee_max": {
+      "expression": "-48 deg",
+      "value_internal": -0.8377580409572782,
+      "unit": "deg"
+    },
+    "lc_rod_base_angle": {
+      "expression": "atan(lc_rod_taper_length / lc_rod_stem_half_width)",
+      "value_internal": 1.3258176636680326,
+      "unit": "deg"
+    },
+    "lc_rod_tip_angle": {
+      "expression": "atan(( lc_rod_length - lc_rod_taper_length ) / lc_rod_stem_half_width)",
+      "value_internal": 1.5518112662960561,
+      "unit": "deg"
+    },
+    "lc_rod_mid_radius": {
+      "expression": "sqrt(lc_rod_taper_length ^ 2 + lc_rod_stem_half_width ^ 2)",
+      "value_internal": 1.2369316876852983,
+      "unit": "mm"
+    },
+    "lc_rod_tip_radius": {
+      "expression": "sqrt(( lc_rod_length - lc_rod_taper_length ) ^ 2 + lc_rod_stem_half_width ^ 2)",
+      "value_internal": 15.802847844613325,
+      "unit": "mm"
+    },
+    "lc_rod_tangent_angle": {
+      "expression": "acos(lc_rod_eye_half_width / lc_rod_mid_radius)",
+      "value_internal": 0.9193476196004431,
+      "unit": "deg"
+    },
+    "lc_rod_chord_normal": {
+      "expression": "( lc_knee_min + lc_knee_max ) / 2 + 270 deg",
+      "value_internal": 2.9321531433504737,
+      "unit": "deg"
+    },
+    "lc_bushing_flange_radius": {
+      "expression": "6.3 mm",
+      "value_internal": 0.63,
+      "unit": "mm"
+    },
+    "lc_pin_eye_clearance_radius": {
+      "expression": "8.5 mm",
+      "value_internal": 0.8500000000000001,
+      "unit": "mm"
+    },
+    "lc_pin_head_clearance": {
+      "expression": "( fit_shoulder_head_nominal_diameter + fit_pin_head_diametral_clearance + fit_hole_compensation ) / 2",
+      "value_internal": 0.53,
+      "unit": "mm"
+    },
+    "lc_pin_shoulder_clearance": {
+      "expression": "( fit_shoulder_pin_nominal_od + fit_pin_journal_diametral_clearance + fit_hole_compensation ) / 2",
+      "value_internal": 0.30500000000000005,
+      "unit": "mm"
+    },
+    "lc_pin_thread_clearance": {
+      "expression": "( fit_shoulder_thread_nominal_diameter + fit_pin_thread_diametral_clearance + fit_hole_compensation ) / 2",
+      "value_internal": 0.27,
+      "unit": "mm"
+    },
+    "lc_pin_nut_af": {
+      "expression": "fit_m5_nut_nominal_af + fit_m5_nut_total_af_clearance + fit_hole_compensation",
+      "value_internal": 0.8200000000000001,
+      "unit": "mm"
+    },
+    "lc_clamp_sleeve_radius": {
+      "expression": "( fit_compression_sleeve_nominal_od + fit_shin_sleeve_diametral_clearance + fit_hole_compensation ) / 2",
+      "value_internal": 0.405,
+      "unit": "mm"
+    },
+    "lc_clamp_bolt_radius": {
+      "expression": "( fit_m4_nominal_diameter + fit_m4_hole_diametral_clearance + fit_hole_compensation ) / 2",
+      "value_internal": 0.22000000000000003,
+      "unit": "mm"
+    },
+    "lc_clamp_head_radius": {
+      "expression": "( fit_m4_socket_head_nominal_diameter + fit_m4_head_diametral_clearance + fit_hole_compensation ) / 2",
+      "value_internal": 0.41000000000000003,
+      "unit": "mm"
+    },
+    "lc_clamp_nut_af": {
+      "expression": "fit_m4_nut_nominal_af + fit_m4_nut_total_af_clearance + fit_hole_compensation",
+      "value_internal": 0.7200000000000001,
+      "unit": "mm"
+    },
+    "lc_extraction_radius": {
+      "expression": "1.3 mm",
+      "value_internal": 0.13,
+      "unit": "mm"
+    },
+    "lc_motor_case_radius": {
+      "expression": "fit_rs02_case_nominal_diameter / 2",
+      "value_internal": 4.1000000000000005,
+      "unit": "mm"
+    },
+    "lc_thigh_motor_radial_margin": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "lc_thigh_knee_radial_margin": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "lc_thigh_inner_y": {
+      "expression": "47 mm",
+      "value_internal": 4.7,
+      "unit": "mm"
+    },
+    "lc_thigh_outer_y": {
+      "expression": "100 mm",
+      "value_internal": 10.0,
+      "unit": "mm"
+    },
+    "lc_thigh_outer_edge_radius": {
+      "expression": "7 mm",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "lc_thigh_inner_edge_radius": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "lc_thigh_hip_radius": {
+      "expression": "lc_motor_case_radius + lc_thigh_motor_radial_margin",
+      "value_internal": 4.9,
+      "unit": "mm"
+    },
+    "lc_thigh_knee_radius": {
+      "expression": "lc_knee_crown_radius + lc_thigh_knee_radial_margin",
+      "value_internal": 2.3000000000000003,
+      "unit": "mm"
+    },
+    "lc_thigh_width": {
+      "expression": "lc_thigh_outer_y - lc_thigh_inner_y",
+      "value_internal": 5.3,
+      "unit": "mm"
+    },
+    "lc_thigh_clamp_rear_x": {
+      "expression": "-38 mm",
+      "value_internal": -3.8000000000000003,
+      "unit": "mm"
+    },
+    "lc_thigh_clamp_front_x": {
+      "expression": "26 mm",
+      "value_internal": 2.6,
+      "unit": "mm"
+    },
+    "lc_thigh_land_rear_radius": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "lc_thigh_land_front_radius": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "lc_thigh_stator_land_radius": {
+      "expression": "5.2 mm",
+      "value_internal": 0.52,
+      "unit": "mm"
+    },
+    "lc_thigh_stator_land_depth": {
+      "expression": "13 mm",
+      "value_internal": 1.3,
+      "unit": "mm"
+    },
+    "lc_stator_tie_radius": {
+      "expression": "43.5 mm",
+      "value_internal": 4.3500000000000005,
+      "unit": "mm"
+    },
+    "lc_thigh_clamp_rear_z": {
+      "expression": "-( 70 / 170 ) * lc_thigh_length",
+      "value_internal": -7.0,
+      "unit": "mm"
+    },
+    "lc_thigh_clamp_front_z": {
+      "expression": "-( 48 / 170 ) * lc_thigh_length",
+      "value_internal": -4.8,
+      "unit": "mm"
+    },
+    "lc_rs02_body_fit": {
+      "expression": "fit_motor_case_radial_clearance + fit_hole_compensation / 2",
+      "value_internal": 0.025,
+      "unit": "mm"
+    },
+    "lc_rs02_case_end_y": {
+      "expression": "50.5 mm",
+      "value_internal": 5.050000000000001,
+      "unit": "mm"
+    },
+    "lc_rs02_flange_radius": {
+      "expression": "48.3 mm",
+      "value_internal": 4.83,
+      "unit": "mm"
+    },
+    "lc_rs02_flange_y": {
+      "expression": "50.3 mm",
+      "value_internal": 5.03,
+      "unit": "mm"
+    },
+    "lc_rs02_flange_width": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "lc_rs02_crank_radius": {
+      "expression": "40.2 mm",
+      "value_internal": 4.0200000000000005,
+      "unit": "mm"
+    },
+    "lc_rs02_crank_y": {
+      "expression": "53.5 mm",
+      "value_internal": 5.3500000000000005,
+      "unit": "mm"
+    },
+    "lc_rs02_crank_width": {
+      "expression": "38 mm",
+      "value_internal": 3.8000000000000003,
+      "unit": "mm"
+    },
+    "lc_stator_tie_hole_radius": {
+      "expression": "2.8 mm",
+      "value_internal": 0.27999999999999997,
+      "unit": "mm"
+    },
+    "lc_stator_tie_counterbore_radius": {
+      "expression": "3.1 mm",
+      "value_internal": 0.31000000000000005,
+      "unit": "mm"
+    },
+    "lc_stator_tie_counterbore_y": {
+      "expression": "60 mm",
+      "value_internal": 6.0,
+      "unit": "mm"
+    },
+    "lc_stator_tie_counterbore_depth": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "lc_knee_cavity_radius": {
+      "expression": "53 mm",
+      "value_internal": 5.300000000000001,
+      "unit": "mm"
+    },
+    "lc_knee_cavity_y": {
+      "expression": "50.5 mm",
+      "value_internal": 5.050000000000001,
+      "unit": "mm"
+    },
+    "lc_knee_cavity_width": {
+      "expression": "40.5 mm",
+      "value_internal": 4.05,
+      "unit": "mm"
+    },
+    "lc_knee_cavity_edge": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "lc_thigh_rod_clearance_radius": {
+      "expression": "9 mm",
+      "value_internal": 0.9,
+      "unit": "mm"
+    },
+    "lc_thigh_rod_channel_y": {
+      "expression": "65.5 mm",
+      "value_internal": 6.550000000000001,
+      "unit": "mm"
+    },
+    "lc_thigh_rod_channel_width": {
+      "expression": "9 mm",
+      "value_internal": 0.9,
+      "unit": "mm"
+    },
+    "lc_thigh_rod_upper_angle": {
+      "expression": "-( lc_knee_max + lc_crank_phase )",
+      "value_internal": 2.199114857512855,
+      "unit": "deg"
+    },
+    "lc_thigh_rod_lower_angle": {
+      "expression": "-( lc_knee_min + lc_crank_phase )",
+      "value_internal": 4.084070449666731,
+      "unit": "deg"
+    },
+    "lc_thigh_rod_upper_x": {
+      "expression": "lc_crank_radius * cos(lc_thigh_rod_upper_angle)",
+      "value_internal": -1.6457987064189246,
+      "unit": "mm"
+    },
+    "lc_thigh_rod_upper_z": {
+      "expression": "lc_crank_radius * sin(lc_thigh_rod_upper_angle)",
+      "value_internal": 2.265247584249853,
+      "unit": "mm"
+    },
+    "lc_thigh_rod_lower_x": {
+      "expression": "lc_crank_radius * cos(lc_thigh_rod_lower_angle)",
+      "value_internal": -1.6457987064189252,
+      "unit": "mm"
+    },
+    "lc_thigh_rod_lower_z": {
+      "expression": "-lc_thigh_length + lc_crank_radius * sin(lc_thigh_rod_lower_angle)",
+      "value_internal": -19.265247584249853,
+      "unit": "mm"
+    },
+    "lc_thigh_rod_chord_normal": {
+      "expression": "atan(( lc_thigh_rod_lower_x - lc_thigh_rod_upper_x ) / ( lc_thigh_rod_upper_z - lc_thigh_rod_lower_z ))",
+      "value_internal": -3.0939084752202275e-17,
+      "unit": "deg"
+    },
+    "lc_folded_foot_clearance_radius": {
+      "expression": "23.5 mm",
+      "value_internal": 2.35,
+      "unit": "mm"
+    },
+    "lc_stop_radial_gap": {
+      "expression": "fit_outer_race_radial_gap",
+      "value_internal": 0.03,
+      "unit": "mm"
+    },
+    "lc_stop_axial_gap": {
+      "expression": "fit_outer_race_axial_gap",
+      "value_internal": 0.03,
+      "unit": "mm"
+    },
+    "lc_stop_recess_depth": {
+      "expression": "1 mm",
+      "value_internal": 0.1,
+      "unit": "mm"
+    },
+    "lc_stop_race_land_width": {
+      "expression": "1.3 mm",
+      "value_internal": 0.13,
+      "unit": "mm"
+    },
+    "lc_stop_shaft_relief_radius": {
+      "expression": "8.2 mm",
+      "value_internal": 0.82,
+      "unit": "mm"
+    },
+    "lc_inner_stop_boss_radius": {
+      "expression": "11.2 mm",
+      "value_internal": 1.1199999999999999,
+      "unit": "mm"
+    },
+    "lc_axle_fit_radius": {
+      "expression": "( fit_axle_nominal_od + fit_axle_hole_diametral_clearance + fit_hole_compensation ) / 2",
+      "value_internal": 0.6100000000000001,
+      "unit": "mm"
+    },
+    "lc_outer_stop_overlap": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "lc_stop_outer_radius": {
+      "expression": "lc_bearing_od / 2 - lc_stop_radial_gap",
+      "value_internal": 1.37,
+      "unit": "mm"
+    },
+    "lc_stop_recess_radius": {
+      "expression": "lc_stop_outer_radius - lc_stop_race_land_width",
+      "value_internal": 1.2400000000000002,
+      "unit": "mm"
+    },
+    "lc_inner_stop_end": {
+      "expression": "lc_bearing_inner_y - lc_stop_axial_gap",
+      "value_internal": 5.2700000000000005,
+      "unit": "mm"
+    },
+    "lc_outer_stop_start": {
+      "expression": "lc_bearing_outer_y + lc_bearing_width + lc_stop_axial_gap",
+      "value_internal": 8.530000000000001,
+      "unit": "mm"
+    },
+    "lc_outer_stop_base_radius": {
+      "expression": "lc_bearing_od / 2 + 2 mm",
+      "value_internal": 1.6,
+      "unit": "mm"
+    },
+    "lc_outer_stop_base_y": {
+      "expression": "lc_knee_cavity_y + lc_knee_cavity_width",
+      "value_internal": 9.100000000000001,
+      "unit": "mm"
+    },
+    "lc_axle_head_clearance_radius": {
+      "expression": "7.2 mm",
+      "value_internal": 0.7200000000000001,
+      "unit": "mm"
+    },
+    "lc_axle_nut_clearance_radius": {
+      "expression": "9.2 mm",
+      "value_internal": 0.9199999999999999,
+      "unit": "mm"
+    },
+    "lc_axle_head_end_y": {
+      "expression": "49.4 mm",
+      "value_internal": 4.94,
+      "unit": "mm"
+    },
+    "lc_axle_nut_start_y": {
+      "expression": "94.3 mm",
+      "value_internal": 9.43,
+      "unit": "mm"
+    },
+    "lc_thigh_clamp_sleeve_radius": {
+      "expression": "( fit_compression_sleeve_nominal_od + fit_thigh_sleeve_diametral_clearance + fit_hole_compensation ) / 2",
+      "value_internal": 0.41000000000000003,
+      "unit": "mm"
+    },
+    "lc_thigh_clamp_head_radius": {
+      "expression": "( fit_m4_socket_head_nominal_diameter + fit_thigh_head_diametral_clearance + fit_hole_compensation ) / 2",
+      "value_internal": 0.44000000000000006,
+      "unit": "mm"
+    },
+    "lc_thigh_rear_sleeve_start": {
+      "expression": "58 mm",
+      "value_internal": 5.800000000000001,
+      "unit": "mm"
+    },
+    "lc_thigh_rear_sleeve_end": {
+      "expression": "76 mm",
+      "value_internal": 7.6000000000000005,
+      "unit": "mm"
+    },
+    "lc_thigh_front_sleeve_start": {
+      "expression": "48 mm",
+      "value_internal": 4.800000000000001,
+      "unit": "mm"
+    },
+    "lc_thigh_front_sleeve_end": {
+      "expression": "90 mm",
+      "value_internal": 9.0,
+      "unit": "mm"
+    },
+    "lc_thigh_rear_head_start": {
+      "expression": "43 mm",
+      "value_internal": 4.3,
+      "unit": "mm"
+    },
+    "lc_thigh_front_head_start": {
+      "expression": "42 mm",
+      "value_internal": 4.2,
+      "unit": "mm"
+    },
+    "lc_knee_spacer_outer_radius": {
+      "expression": "7.75 mm",
+      "value_internal": 0.775,
+      "unit": "mm"
+    },
+    "lc_knee_spacer_start": {
+      "expression": "lc_bearing_inner_y + lc_bearing_width",
+      "value_internal": 6.1000000000000005,
+      "unit": "mm"
+    },
+    "lc_knee_spacer_length": {
+      "expression": "lc_bearing_span - lc_bearing_width + fit_spacer_length_adjustment",
+      "value_internal": 1.6000000000000003,
+      "unit": "mm"
+    },
+    "lc_drive_coupling_radius": {
+      "expression": "18 mm",
+      "value_internal": 1.8,
+      "unit": "mm"
+    },
+    "lc_drive_coupling_bore": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "lc_drive_face_y": {
+      "expression": "54.4 mm",
+      "value_internal": 5.44,
+      "unit": "mm"
+    },
+    "lc_drive_coupling_depth": {
+      "expression": "7.4 mm",
+      "value_internal": 0.7400000000000001,
+      "unit": "mm"
+    },
+    "lc_drive_plate_y": {
+      "expression": "61 mm",
+      "value_internal": 6.1000000000000005,
+      "unit": "mm"
+    },
+    "lc_drive_plate_thickness": {
+      "expression": "fit_fork_center_y - lc_drive_fork_gap / 2 - lc_drive_plate_y",
+      "value_internal": 0.47999999999999954,
+      "unit": "mm"
+    },
+    "lc_drive_plate_half_height": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "lc_drive_near_ear_y": {
+      "expression": "55.8 mm",
+      "value_internal": 5.58,
+      "unit": "mm"
+    },
+    "lc_drive_near_ear_depth": {
+      "expression": "fit_fork_center_y - lc_drive_fork_gap / 2 - lc_drive_near_ear_y",
+      "value_internal": 1.0,
+      "unit": "mm"
+    },
+    "lc_drive_fork_gap": {
+      "expression": "lc_rod_thickness + 2 * fit_bushing_flange_thickness + fit_fork_total_side_clearance",
+      "value_internal": 0.8400000000000001,
+      "unit": "mm"
+    },
+    "lc_drive_far_ear_depth": {
+      "expression": "fit_fork_far_end_y - lc_drive_far_ear_y",
+      "value_internal": 1.1799999999999997,
+      "unit": "mm"
+    },
+    "lc_drive_bridge_width": {
+      "expression": "14 mm",
+      "value_internal": 1.4000000000000001,
+      "unit": "mm"
+    },
+    "lc_drive_bridge_height": {
+      "expression": "4.8 mm",
+      "value_internal": 0.48,
+      "unit": "mm"
+    },
+    "lc_drive_bridge_y": {
+      "expression": "59.8 mm",
+      "value_internal": 5.98,
+      "unit": "mm"
+    },
+    "lc_drive_bridge_depth": {
+      "expression": "22.2 mm",
+      "value_internal": 2.22,
+      "unit": "mm"
+    },
+    "lc_drive_bridge_z": {
+      "expression": "-10.3 mm",
+      "value_internal": -1.03,
+      "unit": "mm"
+    },
+    "lc_drive_bridge_radius": {
+      "expression": "0.7 mm",
+      "value_internal": 0.06999999999999999,
+      "unit": "mm"
+    },
+    "lc_drive_pad_height": {
+      "expression": "5.2 mm",
+      "value_internal": 0.52,
+      "unit": "mm"
+    },
+    "lc_drive_pad_z": {
+      "expression": "-7.7 mm",
+      "value_internal": -0.77,
+      "unit": "mm"
+    },
+    "lc_drive_pad_radius": {
+      "expression": "0.8 mm",
+      "value_internal": 0.08000000000000002,
+      "unit": "mm"
+    },
+    "lc_drive_near_pad_depth": {
+      "expression": "fit_fork_center_y - lc_drive_fork_gap / 2 - lc_drive_bridge_y",
+      "value_internal": 0.5999999999999996,
+      "unit": "mm"
+    },
+    "lc_drive_far_pad_depth": {
+      "expression": "fit_fork_far_bridge_end_y - lc_drive_far_ear_y",
+      "value_internal": 0.7800000000000011,
+      "unit": "mm"
+    },
+    "lc_rs02_output_pcd_radius": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "lc_rs02_output_hole_radius": {
+      "expression": "( fit_m4_nominal_diameter + fit_m4_hole_diametral_clearance + fit_hole_compensation ) / 2",
+      "value_internal": 0.22000000000000003,
+      "unit": "mm"
+    },
+    "lc_rs02_output_head_radius": {
+      "expression": "( fit_m4_socket_head_nominal_diameter + fit_output_head_diametral_clearance + fit_hole_compensation ) / 2",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "lc_drive_far_ear_y": {
+      "expression": "fit_fork_center_y + lc_drive_fork_gap / 2",
+      "value_internal": 7.42,
+      "unit": "mm"
+    },
+    "lc_drive_bridge_center_x": {
+      "expression": "lc_crank_radius - 1 mm",
+      "value_internal": 2.7,
+      "unit": "mm"
+    },
+    "lc_rs02_output_bolt_count": {
+      "expression": "6",
+      "value_internal": 6.0,
+      "unit": ""
+    },
+    "lc_carrier_shell_outer": {
+      "expression": "43.5 mm",
+      "value_internal": 4.3500000000000005,
+      "unit": "mm"
+    },
+    "lc_carrier_shell_inner": {
+      "expression": "fit_rs02_case_nominal_diameter / 2 + fit_carrier_case_radial_clearance + fit_carrier_hole_compensation / 2",
+      "value_internal": 4.15,
+      "unit": "mm"
+    },
+    "lc_carrier_shell_rear": {
+      "expression": "-48.4 mm",
+      "value_internal": -4.84,
+      "unit": "mm"
+    },
+    "lc_carrier_rear_wall": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "lc_carrier_rear_bore": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "lc_carrier_flange_radius": {
+      "expression": "44 mm",
+      "value_internal": 4.4,
+      "unit": "mm"
+    },
+    "lc_carrier_flange_bore": {
+      "expression": "27 mm",
+      "value_internal": 2.7,
+      "unit": "mm"
+    },
+    "lc_carrier_flange_y": {
+      "expression": "-3.9 mm",
+      "value_internal": -0.39,
+      "unit": "mm"
+    },
+    "lc_carrier_flange_depth": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "lc_carrier_lip_depth": {
+      "expression": "3.5 mm",
+      "value_internal": 0.35000000000000003,
+      "unit": "mm"
+    },
+    "lc_carrier_bridge_x": {
+      "expression": "-49 mm",
+      "value_internal": -4.9,
+      "unit": "mm"
+    },
+    "lc_carrier_bridge_width": {
+      "expression": "18 mm",
+      "value_internal": 1.8,
+      "unit": "mm"
+    },
+    "lc_carrier_bridge_depth": {
+      "expression": "28 mm",
+      "value_internal": 2.8000000000000003,
+      "unit": "mm"
+    },
+    "lc_carrier_bridge_height": {
+      "expression": "40 mm",
+      "value_internal": 4.0,
+      "unit": "mm"
+    },
+    "lc_carrier_bridge_y": {
+      "expression": "-25 mm",
+      "value_internal": -2.5,
+      "unit": "mm"
+    },
+    "lc_carrier_bridge_radius": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "lc_carrier_journal_start": {
+      "expression": "-67.3 mm",
+      "value_internal": -6.73,
+      "unit": "mm"
+    },
+    "lc_carrier_journal_shoulder": {
+      "expression": "-54 mm",
+      "value_internal": -5.4,
+      "unit": "mm"
+    },
+    "lc_carrier_journal_end": {
+      "expression": "-49.5 mm",
+      "value_internal": -4.95,
+      "unit": "mm"
+    },
+    "lc_carrier_journal_radius": {
+      "expression": "24.95 mm",
+      "value_internal": 2.495,
+      "unit": "mm"
+    },
+    "lc_carrier_journal_flange_radius": {
+      "expression": "29 mm",
+      "value_internal": 2.9000000000000004,
+      "unit": "mm"
+    },
+    "lc_carrier_shaft_bore": {
+      "expression": "7 mm",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "lc_carrier_stator_pcd": {
+      "expression": "36.5 mm",
+      "value_internal": 3.6500000000000004,
+      "unit": "mm"
+    },
+    "lc_carrier_stator_hole": {
+      "expression": "( fit_m3_nominal_diameter + fit_m3_hole_diametral_clearance + fit_carrier_hole_compensation ) / 2",
+      "value_internal": 0.17000000000000004,
+      "unit": "mm"
+    },
+    "lc_carrier_port_tangent_width": {
+      "expression": "18 mm",
+      "value_internal": 1.8,
+      "unit": "mm"
+    },
+    "lc_carrier_port_start_radius": {
+      "expression": "30.1 mm",
+      "value_internal": 3.0100000000000002,
+      "unit": "mm"
+    },
+    "lc_carrier_port_depth": {
+      "expression": "21 mm",
+      "value_internal": 2.1,
+      "unit": "mm"
+    },
+    "lc_carrier_port_y": {
+      "expression": "-43.6 mm",
+      "value_internal": -4.36,
+      "unit": "mm"
+    },
+    "lc_carrier_port_axial_width": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "lc_carrier_cable_radius": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "lc_carrier_cable_center_radius": {
+      "expression": "46.6 mm",
+      "value_internal": 4.66,
+      "unit": "mm"
+    },
+    "lc_carrier_cable_y": {
+      "expression": "-35.6 mm",
+      "value_internal": -3.5600000000000005,
+      "unit": "mm"
+    },
+    "lc_carrier_cable_depth": {
+      "expression": "27 mm",
+      "value_internal": 2.7,
+      "unit": "mm"
+    },
+    "lc_carrier_port_angle": {
+      "expression": "36.2 deg",
+      "value_internal": 0.6318091892219474,
+      "unit": "deg"
+    },
+    "lc_carrier_stator_bolt_count": {
+      "expression": "9",
+      "value_internal": 9.0,
+      "unit": ""
+    },
+    "lc_carrier_front_y": {
+      "expression": "lc_carrier_flange_y + lc_carrier_flange_depth",
+      "value_internal": -0.08999999999999997,
+      "unit": "mm"
+    },
+    "lc_carrier_lip_y": {
+      "expression": "lc_carrier_front_y - lc_carrier_lip_depth",
+      "value_internal": -0.44,
+      "unit": "mm"
+    },
+    "lc_rod_eye_radius": {
+      "expression": "7.5 mm",
+      "value_internal": 0.75,
+      "unit": "mm"
+    },
+    "lc_rod_eye_bore": {
+      "expression": "( fit_bushing_nominal_od + fit_rod_bushing_diametral_allowance + fit_cnc_hole_compensation ) / 2",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "lc_rod_eye_transition": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "lc_rod_thickness": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "lc_compression_sleeve_outer_radius": {
+      "expression": "fit_compression_sleeve_nominal_od / 2",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "lc_rear_sleeve_inner_radius": {
+      "expression": "2.15 mm",
+      "value_internal": 0.215,
+      "unit": "mm"
+    },
+    "lc_front_sleeve_inner_radius": {
+      "expression": "2.2 mm",
+      "value_internal": 0.22000000000000003,
+      "unit": "mm"
+    },
+    "lc_axle_outer_radius": {
+      "expression": "fit_axle_nominal_od / 2",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "lc_axle_inner_radius": {
+      "expression": "4.2 mm",
+      "value_internal": 0.42000000000000004,
+      "unit": "mm"
+    },
+    "lc_axle_outer_overhang": {
+      "expression": "9.5 mm",
+      "value_internal": 0.9500000000000001,
+      "unit": "mm"
+    },
+    "lc_rod_y": {
+      "expression": "fit_fork_center_y - lc_rod_thickness / 2",
+      "value_internal": 6.7,
+      "unit": "mm"
+    },
+    "lc_axle_end_y": {
+      "expression": "lc_bearing_outer_y + lc_bearing_width + lc_axle_outer_overhang",
+      "value_internal": 9.450000000000001,
+      "unit": "mm"
+    },
+    "lc_foot_radius": {
+      "expression": "22 mm",
+      "value_internal": 2.2,
+      "unit": "mm"
+    },
+    "lc_foot_neck_radius": {
+      "expression": "9 mm",
+      "value_internal": 0.9,
+      "unit": "mm"
+    },
+    "lc_foot_neck_height": {
+      "expression": "20 mm",
+      "value_internal": 2.0,
+      "unit": "mm"
+    },
+    "lc_foot_tilt": {
+      "expression": "30 deg",
+      "value_internal": 0.5235987755982988,
+      "unit": "deg"
+    },
+    "lc_foot_center_y": {
+      "expression": "lc_shin_split_y",
+      "value_internal": 6.700000000000001,
+      "unit": "mm"
+    },
+    "lc_hip_x": {
+      "expression": "robot_hip_x_Ref",
+      "value_internal": 18.5,
+      "unit": "mm"
+    },
+    "lc_roll_y": {
+      "expression": "robot_roll_y_Ref",
+      "value_internal": 6.800000000000001,
+      "unit": "mm"
+    },
+    "lc_pitch_offset": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "pose_FL_roll": {
+      "expression": "0 deg",
+      "value_internal": 0.0,
+      "unit": "deg"
+    },
+    "pose_FL_hip": {
+      "expression": "30 deg",
+      "value_internal": 0.5235987755982988,
+      "unit": "deg"
+    },
+    "pose_FL_knee": {
+      "expression": "-60 deg",
+      "value_internal": -1.0471975511965976,
+      "unit": "deg"
+    },
+    "pose_FR_roll": {
+      "expression": "0 deg",
+      "value_internal": 0.0,
+      "unit": "deg"
+    },
+    "pose_FR_hip": {
+      "expression": "30 deg",
+      "value_internal": 0.5235987755982988,
+      "unit": "deg"
+    },
+    "pose_FR_knee": {
+      "expression": "-60 deg",
+      "value_internal": -1.0471975511965976,
+      "unit": "deg"
+    },
+    "pose_RL_roll": {
+      "expression": "0 deg",
+      "value_internal": 0.0,
+      "unit": "deg"
+    },
+    "pose_RL_hip": {
+      "expression": "30 deg",
+      "value_internal": 0.5235987755982988,
+      "unit": "deg"
+    },
+    "pose_RL_knee": {
+      "expression": "-60 deg",
+      "value_internal": -1.0471975511965976,
+      "unit": "deg"
+    },
+    "pose_RR_roll": {
+      "expression": "0 deg",
+      "value_internal": 0.0,
+      "unit": "deg"
+    },
+    "pose_RR_hip": {
+      "expression": "30 deg",
+      "value_internal": 0.5235987755982988,
+      "unit": "deg"
+    },
+    "pose_RR_knee": {
+      "expression": "-60 deg",
+      "value_internal": -1.0471975511965976,
+      "unit": "deg"
+    },
+    "fit_axle_nominal_od": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "fit_shoulder_pin_nominal_od": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "fit_shoulder_thread_nominal_diameter": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "fit_shoulder_head_nominal_diameter": {
+      "expression": "10 mm",
+      "value_internal": 1.0,
+      "unit": "mm"
+    },
+    "fit_m4_nominal_diameter": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "fit_m3_nominal_diameter": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "fit_m4_nut_nominal_af": {
+      "expression": "7 mm",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "fit_m5_nut_nominal_af": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "fit_m4_socket_head_nominal_diameter": {
+      "expression": "7 mm",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "fit_bushing_nominal_od": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "fit_bushing_flange_thickness": {
+      "expression": "1 mm",
+      "value_internal": 0.1,
+      "unit": "mm"
+    },
+    "fit_compression_sleeve_nominal_od": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "fit_rs02_case_nominal_diameter": {
+      "expression": "82 mm",
+      "value_internal": 8.200000000000001,
+      "unit": "mm"
+    },
+    "fit_process_cnc": {
+      "expression": "0",
+      "value_internal": 0.0,
+      "unit": ""
+    },
+    "fit_print_hole_compensation": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "fit_cnc_hole_compensation": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "fit_print_seam_compensation": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "fit_cnc_seam_compensation": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "fit_crank_process_cnc": {
+      "expression": "1",
+      "value_internal": 1.0,
+      "unit": ""
+    },
+    "fit_carrier_process_cnc": {
+      "expression": "1",
+      "value_internal": 1.0,
+      "unit": ""
+    },
+    "fit_hole_compensation": {
+      "expression": "( 1 - fit_process_cnc ) * fit_print_hole_compensation + fit_process_cnc * fit_cnc_hole_compensation",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "fit_crank_hole_compensation": {
+      "expression": "( 1 - fit_crank_process_cnc ) * fit_print_hole_compensation + fit_crank_process_cnc * fit_cnc_hole_compensation",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "fit_carrier_hole_compensation": {
+      "expression": "( 1 - fit_carrier_process_cnc ) * fit_print_hole_compensation + fit_carrier_process_cnc * fit_cnc_hole_compensation",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "fit_seam_compensation": {
+      "expression": "( 1 - fit_process_cnc ) * fit_print_seam_compensation + fit_process_cnc * fit_cnc_seam_compensation",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "fit_bearing_seat_diametral_allowance": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "fit_axle_hole_diametral_clearance": {
+      "expression": "0.2 mm",
+      "value_internal": 0.020000000000000004,
+      "unit": "mm"
+    },
+    "fit_pin_journal_diametral_clearance": {
+      "expression": "0.1 mm",
+      "value_internal": 0.010000000000000002,
+      "unit": "mm"
+    },
+    "fit_pin_thread_diametral_clearance": {
+      "expression": "0.4 mm",
+      "value_internal": 0.04000000000000001,
+      "unit": "mm"
+    },
+    "fit_pin_head_diametral_clearance": {
+      "expression": "0.6 mm",
+      "value_internal": 0.06,
+      "unit": "mm"
+    },
+    "fit_m4_hole_diametral_clearance": {
+      "expression": "0.4 mm",
+      "value_internal": 0.04000000000000001,
+      "unit": "mm"
+    },
+    "fit_m3_hole_diametral_clearance": {
+      "expression": "0.4 mm",
+      "value_internal": 0.04000000000000001,
+      "unit": "mm"
+    },
+    "fit_m4_nut_total_af_clearance": {
+      "expression": "0.2 mm",
+      "value_internal": 0.020000000000000004,
+      "unit": "mm"
+    },
+    "fit_m5_nut_total_af_clearance": {
+      "expression": "0.2 mm",
+      "value_internal": 0.020000000000000004,
+      "unit": "mm"
+    },
+    "fit_m4_head_diametral_clearance": {
+      "expression": "1.2 mm",
+      "value_internal": 0.12,
+      "unit": "mm"
+    },
+    "fit_output_head_diametral_clearance": {
+      "expression": "1 mm",
+      "value_internal": 0.1,
+      "unit": "mm"
+    },
+    "fit_thigh_head_diametral_clearance": {
+      "expression": "1.8 mm",
+      "value_internal": 0.18000000000000002,
+      "unit": "mm"
+    },
+    "fit_rod_bushing_diametral_allowance": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "fit_shin_sleeve_diametral_clearance": {
+      "expression": "0.1 mm",
+      "value_internal": 0.010000000000000002,
+      "unit": "mm"
+    },
+    "fit_thigh_sleeve_diametral_clearance": {
+      "expression": "0.2 mm",
+      "value_internal": 0.020000000000000004,
+      "unit": "mm"
+    },
+    "fit_fork_total_side_clearance": {
+      "expression": "0.4 mm",
+      "value_internal": 0.04000000000000001,
+      "unit": "mm"
+    },
+    "fit_rod_body_side_clearance": {
+      "expression": "0.5 mm",
+      "value_internal": 0.05,
+      "unit": "mm"
+    },
+    "fit_spacer_length_adjustment": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "fit_outer_race_axial_gap": {
+      "expression": "0.3 mm",
+      "value_internal": 0.03,
+      "unit": "mm"
+    },
+    "fit_outer_race_radial_gap": {
+      "expression": "0.3 mm",
+      "value_internal": 0.03,
+      "unit": "mm"
+    },
+    "fit_motor_case_radial_clearance": {
+      "expression": "0.25 mm",
+      "value_internal": 0.025,
+      "unit": "mm"
+    },
+    "fit_carrier_case_radial_clearance": {
+      "expression": "0.5 mm",
+      "value_internal": 0.05,
+      "unit": "mm"
+    },
+    "fit_shell_total_seam_gap": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "fit_fork_center_y": {
+      "expression": "70 mm",
+      "value_internal": 7.0,
+      "unit": "mm"
+    },
+    "fit_fork_far_end_y": {
+      "expression": "86 mm",
+      "value_internal": 8.6,
+      "unit": "mm"
+    },
+    "fit_fork_far_bridge_end_y": {
+      "expression": "82 mm",
+      "value_internal": 8.200000000000001,
+      "unit": "mm"
+    },
+    "fit_crank_pin_shoulder_radius": {
+      "expression": "( fit_shoulder_pin_nominal_od + fit_pin_journal_diametral_clearance + fit_crank_hole_compensation ) / 2",
+      "value_internal": 0.30500000000000005,
+      "unit": "mm"
+    },
+    "fit_crank_pin_head_radius": {
+      "expression": "( fit_shoulder_head_nominal_diameter + fit_pin_head_diametral_clearance + fit_crank_hole_compensation ) / 2",
+      "value_internal": 0.53,
+      "unit": "mm"
+    },
+    "fit_crank_pin_nut_af": {
+      "expression": "fit_m5_nut_nominal_af + fit_m5_nut_total_af_clearance + fit_crank_hole_compensation",
+      "value_internal": 0.8200000000000001,
+      "unit": "mm"
+    },
+    "fit_crank_output_hole_radius": {
+      "expression": "( fit_m4_nominal_diameter + fit_m4_hole_diametral_clearance + fit_crank_hole_compensation ) / 2",
+      "value_internal": 0.22000000000000003,
+      "unit": "mm"
+    },
+    "fit_crank_output_head_radius": {
+      "expression": "( fit_m4_socket_head_nominal_diameter + fit_output_head_diametral_clearance + fit_crank_hole_compensation ) / 2",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "fit_carrier_output_hole_radius": {
+      "expression": "( fit_m4_nominal_diameter + fit_m4_hole_diametral_clearance + fit_carrier_hole_compensation ) / 2",
+      "value_internal": 0.22000000000000003,
+      "unit": "mm"
+    },
+    "fit_metal_spacer_axle_bore_radius": {
+      "expression": "( fit_axle_nominal_od + fit_axle_hole_diametral_clearance + fit_cnc_hole_compensation ) / 2",
+      "value_internal": 0.6100000000000001,
+      "unit": "mm"
+    },
+    "tol_bearing_od_minus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_bearing_od_plus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_bearing_id_minus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_bearing_id_plus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_bearing_width_minus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_bearing_width_plus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_bearing_seat_minus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_bearing_seat_plus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_axle_od_minus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_axle_od_plus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_fork_gap_minus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_fork_gap_plus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_rod_thickness_minus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_rod_thickness_plus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_bushing_flange_minus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_bushing_flange_plus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_spacer_length_minus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_spacer_length_plus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_bearing_station_span_minus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "tol_bearing_station_span_plus": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "stack_bearing_seat_min": {
+      "expression": "2 * lc_bearing_seat_radius - tol_bearing_seat_minus - lc_bearing_od - tol_bearing_od_plus",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "stack_bearing_seat_max": {
+      "expression": "2 * lc_bearing_seat_radius + tol_bearing_seat_plus - lc_bearing_od + tol_bearing_od_minus",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "stack_axle_running_min": {
+      "expression": "lc_bearing_id - tol_bearing_id_minus - fit_axle_nominal_od - tol_axle_od_plus",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "stack_axle_running_max": {
+      "expression": "lc_bearing_id + tol_bearing_id_plus - fit_axle_nominal_od + tol_axle_od_minus",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "stack_fork_side_min": {
+      "expression": "lc_drive_fork_gap - tol_fork_gap_minus - lc_rod_thickness - tol_rod_thickness_plus - 2 * ( fit_bushing_flange_thickness + tol_bushing_flange_plus )",
+      "value_internal": 0.03999999999999998,
+      "unit": "mm"
+    },
+    "stack_fork_side_max": {
+      "expression": "lc_drive_fork_gap + tol_fork_gap_plus - lc_rod_thickness + tol_rod_thickness_minus - 2 * ( fit_bushing_flange_thickness - tol_bushing_flange_minus )",
+      "value_internal": 0.03999999999999998,
+      "unit": "mm"
+    },
+    "stack_spacer_excess_min": {
+      "expression": "lc_knee_spacer_length - tol_spacer_length_minus - ( lc_bearing_span + tol_bearing_station_span_plus - lc_bearing_width + tol_bearing_width_minus )",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "stack_spacer_excess_max": {
+      "expression": "lc_knee_spacer_length + tol_spacer_length_plus - ( lc_bearing_span - tol_bearing_station_span_minus - lc_bearing_width - tol_bearing_width_plus )",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "sm_tie_radius": {
+      "expression": "43.5 mm",
+      "value_internal": 4.3500000000000005,
+      "unit": "mm"
+    },
+    "sm_stator_outer_radius": {
+      "expression": "40.5 mm",
+      "value_internal": 4.05,
+      "unit": "mm"
+    },
+    "sm_stator_lobe_radius": {
+      "expression": "4.5 mm",
+      "value_internal": 0.45,
+      "unit": "mm"
+    },
+    "sm_stator_base_y": {
+      "expression": "sm_stator_mount_plane - sm_stator_thickness",
+      "value_internal": 5.050000000000001,
+      "unit": "mm"
+    },
+    "sm_stator_thickness": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "sm_stator_pad_thickness": {
+      "expression": "1.5 mm",
+      "value_internal": 0.15000000000000002,
+      "unit": "mm"
+    },
+    "sm_stator_bore_radius": {
+      "expression": "30 mm",
+      "value_internal": 3.0,
+      "unit": "mm"
+    },
+    "sm_hub_base_y": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "sm_hub_thickness": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "sm_hub_corner_radius": {
+      "expression": "5.5 mm",
+      "value_internal": 0.55,
+      "unit": "mm"
+    },
+    "sm_hub_collar_radius": {
+      "expression": "20 mm",
+      "value_internal": 2.0,
+      "unit": "mm"
+    },
+    "sm_hub_shaft_radius": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "sm_hub_tie_pad_radius": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "sm_hub_tie_pad_thickness": {
+      "expression": "1.5 mm",
+      "value_internal": 0.15000000000000002,
+      "unit": "mm"
+    },
+    "sm_hub_head_radius": {
+      "expression": "sm_hub_head_nominal_radius + sm_output_head_diametral_compensation / 2",
+      "value_internal": 0.38,
+      "unit": "mm"
+    },
+    "sm_hub_head_start_y": {
+      "expression": "3.7 mm",
+      "value_internal": 0.37000000000000005,
+      "unit": "mm"
+    },
+    "sm_hub_head_depth": {
+      "expression": "4.5 mm",
+      "value_internal": 0.45,
+      "unit": "mm"
+    },
+    "sm_hub_rib_width": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "sm_hub_rib_depth": {
+      "expression": "4.5 mm",
+      "value_internal": 0.45,
+      "unit": "mm"
+    },
+    "sm_hub_rib_length": {
+      "expression": "20 mm",
+      "value_internal": 2.0,
+      "unit": "mm"
+    },
+    "sm_hub_rib_center_radius": {
+      "expression": "27 mm",
+      "value_internal": 2.7,
+      "unit": "mm"
+    },
+    "sm_hub_rib_start_y": {
+      "expression": "0.5 mm",
+      "value_internal": 0.05,
+      "unit": "mm"
+    },
+    "sm_hub_rib_radius": {
+      "expression": "1.2 mm",
+      "value_internal": 0.12,
+      "unit": "mm"
+    },
+    "sm_rotating_envelope_radius": {
+      "expression": "48 mm",
+      "value_internal": 4.800000000000001,
+      "unit": "mm"
+    },
+    "sm_tie_hole_radius": {
+      "expression": "lc_carrier_stator_hole + sm_fastener_diametral_compensation / 2",
+      "value_internal": 0.17000000000000004,
+      "unit": "mm"
+    },
+    "sm_stator_pcd_radius": {
+      "expression": "lc_carrier_stator_pcd",
+      "value_internal": 3.6500000000000004,
+      "unit": "mm"
+    },
+    "sm_stator_hole_radius": {
+      "expression": "lc_carrier_stator_hole + sm_fastener_diametral_compensation / 2",
+      "value_internal": 0.17000000000000004,
+      "unit": "mm"
+    },
+    "sm_output_pcd_radius": {
+      "expression": "lc_rs02_output_pcd_radius",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "sm_output_hole_radius": {
+      "expression": "lc_rs02_output_hole_radius + sm_output_hole_diametral_compensation / 2",
+      "value_internal": 0.22000000000000003,
+      "unit": "mm"
+    },
+    "sm_stator_pad_y": {
+      "expression": "sm_stator_base_y + sm_stator_thickness",
+      "value_internal": 5.3500000000000005,
+      "unit": "mm"
+    },
+    "sm_hub_pad_y": {
+      "expression": "sm_hub_base_y + sm_hub_thickness",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "sm_tie_count": {
+      "expression": "3",
+      "value_internal": 3.0,
+      "unit": ""
+    },
+    "sm_stator_tangent_angle": {
+      "expression": "acos(( sm_stator_outer_radius - sm_stator_lobe_radius ) / sm_tie_radius)",
+      "value_internal": 0.5960024391875142,
+      "unit": "deg"
+    },
+    "sm_stator_mount_plane": {
+      "expression": "53.5 mm",
+      "value_internal": 5.3500000000000005,
+      "unit": "mm"
+    },
+    "sm_fastener_diametral_compensation": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "sm_output_hole_diametral_compensation": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "sm_output_head_diametral_compensation": {
+      "expression": "0 mm",
+      "value_internal": 0.0,
+      "unit": "mm"
+    },
+    "sm_hub_head_nominal_radius": {
+      "expression": "3.8 mm",
+      "value_internal": 0.38,
+      "unit": "mm"
+    },
+    "sm_tube_outer_diameter": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "sm_tube_inner_diameter": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "sm_upper_tube_end_y": {
+      "expression": "61 mm",
+      "value_internal": 6.1000000000000005,
+      "unit": "mm"
+    },
+    "sm_lower_tube_start_y": {
+      "expression": "sm_hub_pad_y + sm_hub_tie_pad_thickness",
+      "value_internal": 0.9500000000000001,
+      "unit": "mm"
+    },
+    "sm_lower_tube_length": {
+      "expression": "sm_stator_base_y - sm_lower_tube_start_y",
+      "value_internal": 4.1000000000000005,
+      "unit": "mm"
+    },
+    "sm_upper_tube_start_y": {
+      "expression": "sm_stator_pad_y + sm_stator_pad_thickness",
+      "value_internal": 5.500000000000001,
+      "unit": "mm"
+    },
+    "sm_upper_tube_length": {
+      "expression": "sm_upper_tube_end_y - sm_upper_tube_start_y",
+      "value_internal": 0.5999999999999996,
+      "unit": "mm"
+    },
+    "rs_wall": {
+      "expression": "lc_shell_wall",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "rs_center_y": {
+      "expression": "lc_shin_y_min + lc_shin_width / 2",
+      "value_internal": 6.800000000000001,
+      "unit": "mm"
+    },
+    "rs_outer_start_z": {
+      "expression": "-lc_knee_crown_radius + 3 mm",
+      "value_internal": -1.8,
+      "unit": "mm"
+    },
+    "rs_outer_end_z": {
+      "expression": "-lc_shin_profile_length",
+      "value_internal": -13.600000000000001,
+      "unit": "mm"
+    },
+    "rs_inner_start_z": {
+      "expression": "-lc_knee_crown_radius - 5 mm",
+      "value_internal": -2.6,
+      "unit": "mm"
+    },
+    "rs_inner_end_z": {
+      "expression": "-lc_shin_profile_length + 8 mm",
+      "value_internal": -12.8,
+      "unit": "mm"
+    },
+    "rs_inner_top_radius": {
+      "expression": "0.8 mm",
+      "value_internal": 0.08000000000000002,
+      "unit": "mm"
+    },
+    "rs_outer_width_0": {
+      "expression": "44 mm",
+      "value_internal": 4.4,
+      "unit": "mm"
+    },
+    "rs_outer_radius_0": {
+      "expression": "1.2 mm",
+      "value_internal": 0.12,
+      "unit": "mm"
+    },
+    "rs_outer_width_1": {
+      "expression": "35 mm",
+      "value_internal": 3.5,
+      "unit": "mm"
+    },
+    "rs_outer_radius_1": {
+      "expression": "9 mm",
+      "value_internal": 0.9,
+      "unit": "mm"
+    },
+    "rs_outer_width_2": {
+      "expression": "32 mm",
+      "value_internal": 3.2,
+      "unit": "mm"
+    },
+    "rs_outer_radius_2": {
+      "expression": "11 mm",
+      "value_internal": 1.1,
+      "unit": "mm"
+    },
+    "rs_outer_width_3": {
+      "expression": "29 mm",
+      "value_internal": 2.9000000000000004,
+      "unit": "mm"
+    },
+    "rs_outer_radius_3": {
+      "expression": "11 mm",
+      "value_internal": 1.1,
+      "unit": "mm"
+    },
+    "rs_outer_width_4": {
+      "expression": "25 mm",
+      "value_internal": 2.5,
+      "unit": "mm"
+    },
+    "rs_outer_radius_4": {
+      "expression": "10 mm",
+      "value_internal": 1.0,
+      "unit": "mm"
+    },
+    "rs_inner_width_0": {
+      "expression": "40 mm",
+      "value_internal": 4.0,
+      "unit": "mm"
+    },
+    "rs_inner_radius_0": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "rs_inner_width_1": {
+      "expression": "35 mm",
+      "value_internal": 3.5,
+      "unit": "mm"
+    },
+    "rs_inner_radius_1": {
+      "expression": "9 mm",
+      "value_internal": 0.9,
+      "unit": "mm"
+    },
+    "rs_inner_width_2": {
+      "expression": "32 mm",
+      "value_internal": 3.2,
+      "unit": "mm"
+    },
+    "rs_inner_radius_2": {
+      "expression": "11 mm",
+      "value_internal": 1.1,
+      "unit": "mm"
+    },
+    "rs_inner_width_3": {
+      "expression": "29 mm",
+      "value_internal": 2.9000000000000004,
+      "unit": "mm"
+    },
+    "rs_inner_radius_3": {
+      "expression": "11 mm",
+      "value_internal": 1.1,
+      "unit": "mm"
+    },
+    "rs_inner_width_4": {
+      "expression": "26 mm",
+      "value_internal": 2.6,
+      "unit": "mm"
+    },
+    "rs_inner_radius_4": {
+      "expression": "10 mm",
+      "value_internal": 1.0,
+      "unit": "mm"
+    },
+    "rs_washer_nominal_od": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "rs_washer_access_diametral_allowance": {
+      "expression": "0.4 mm",
+      "value_internal": 0.04000000000000001,
+      "unit": "mm"
+    },
+    "rs_washer_access_radius": {
+      "expression": "( rs_washer_nominal_od + rs_washer_access_diametral_allowance ) / 2",
+      "value_internal": 0.6200000000000001,
+      "unit": "mm"
+    },
+    "rs_sleeve_start": {
+      "expression": "lc_shin_y_min + 7 mm",
+      "value_internal": 5.800000000000001,
+      "unit": "mm"
+    },
+    "rs_sleeve_length": {
+      "expression": "18 mm",
+      "value_internal": 1.8,
+      "unit": "mm"
+    },
+    "rs_sleeve_end": {
+      "expression": "rs_sleeve_start + rs_sleeve_length",
+      "value_internal": 7.6000000000000005,
+      "unit": "mm"
+    },
+    "st_hip_half_width": {
+      "expression": "44.5 mm",
+      "value_internal": 4.45,
+      "unit": "mm"
+    },
+    "st_hip_crown_height": {
+      "expression": "51 mm",
+      "value_internal": 5.1000000000000005,
+      "unit": "mm"
+    },
+    "st_knee_radius": {
+      "expression": "21.5 mm",
+      "value_internal": 2.15,
+      "unit": "mm"
+    },
+    "st_rear_clamp_flare": {
+      "expression": "3.5 mm",
+      "value_internal": 0.35000000000000003,
+      "unit": "mm"
+    },
+    "st_root_y": {
+      "expression": "9 mm",
+      "value_internal": 0.9,
+      "unit": "mm"
+    },
+    "st_cap_y": {
+      "expression": "94 mm",
+      "value_internal": 9.4,
+      "unit": "mm"
+    },
+    "st_wall": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "st_inner_face": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "st_waist_skin": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "st_outer_edge_radius": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "st_cavity_floor_y": {
+      "expression": "lc_thigh_inner_y + st_inner_face",
+      "value_internal": 5.300000000000001,
+      "unit": "mm"
+    },
+    "st_cavity_top_y": {
+      "expression": "st_cap_y - 4 mm",
+      "value_internal": 9.0,
+      "unit": "mm"
+    },
+    "pr_bearing_id": {
+      "expression": "50 mm",
+      "value_internal": 5.0,
+      "unit": "mm"
+    },
+    "pr_bearing_od": {
+      "expression": "65 mm",
+      "value_internal": 6.5,
+      "unit": "mm"
+    },
+    "pr_bearing_width": {
+      "expression": "7 mm",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "pr_bearing_center_span": {
+      "expression": "14 mm",
+      "value_internal": 1.4000000000000001,
+      "unit": "mm"
+    },
+    "pr_seat_diametral_allowance": {
+      "expression": "0.15 mm",
+      "value_internal": 0.015,
+      "unit": "mm"
+    },
+    "pr_journal_diametral_clearance": {
+      "expression": "0.1 mm",
+      "value_internal": 0.010000000000000002,
+      "unit": "mm"
+    },
+    "pr_original_motor_face_x": {
+      "expression": "-67.3 mm",
+      "value_internal": -6.73,
+      "unit": "mm"
+    },
+    "pr_motor_shift_x": {
+      "expression": "-6.2 mm",
+      "value_internal": -0.6200000000000001,
+      "unit": "mm"
+    },
+    "pr_inner_backplate_thickness": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "pr_housing_rear_overhang": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "pr_stator_plate_thickness": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "pr_housing_radius": {
+      "expression": "36 mm",
+      "value_internal": 3.6,
+      "unit": "mm"
+    },
+    "pr_stator_plate_radius": {
+      "expression": "41 mm",
+      "value_internal": 4.1000000000000005,
+      "unit": "mm"
+    },
+    "pr_outer_race_opening": {
+      "expression": "63 mm",
+      "value_internal": 6.300000000000001,
+      "unit": "mm"
+    },
+    "pr_inner_race_land_diameter": {
+      "expression": "52.5 mm",
+      "value_internal": 5.25,
+      "unit": "mm"
+    },
+    "pr_retainer_thickness": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "pr_spacer_diametral_clearance": {
+      "expression": "0.1 mm",
+      "value_internal": 0.010000000000000002,
+      "unit": "mm"
+    },
+    "pr_axial_passage_radius": {
+      "expression": "7 mm",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "pr_retainer_lug_radius": {
+      "expression": "37 mm",
+      "value_internal": 3.7,
+      "unit": "mm"
+    },
+    "pr_retainer_lug_size": {
+      "expression": "4.5 mm",
+      "value_internal": 0.45,
+      "unit": "mm"
+    },
+    "pr_retainer_bolt_radius": {
+      "expression": "( mc_m3_shank_nominal + mc_m3_through_diametral_allowance + fit_carrier_hole_compensation ) / 2",
+      "value_internal": 0.17000000000000004,
+      "unit": "mm"
+    },
+    "pr_stator_head_clearance_radius": {
+      "expression": "3.15 mm",
+      "value_internal": 0.315,
+      "unit": "mm"
+    },
+    "pr_motor_output_bolt_radius": {
+      "expression": "fit_carrier_output_hole_radius",
+      "value_internal": 0.22000000000000003,
+      "unit": "mm"
+    },
+    "pr_motor_output_pcd_radius": {
+      "expression": "lc_rs02_output_pcd_radius",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "pr_stator_pcd_radius": {
+      "expression": "lc_carrier_stator_pcd",
+      "value_internal": 3.6500000000000004,
+      "unit": "mm"
+    },
+    "pr_pitch_x_offset": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "pr_motor_face_x": {
+      "expression": "pr_original_motor_face_x + pr_motor_shift_x",
+      "value_internal": -7.3500000000000005,
+      "unit": "mm"
+    },
+    "pr_bearing_rear_x": {
+      "expression": "pr_motor_face_x + pr_inner_backplate_thickness",
+      "value_internal": -7.15,
+      "unit": "mm"
+    },
+    "pr_bearing_front_x": {
+      "expression": "pr_bearing_rear_x + pr_bearing_center_span",
+      "value_internal": -5.75,
+      "unit": "mm"
+    },
+    "pr_bearing_end_x": {
+      "expression": "pr_bearing_front_x + pr_bearing_width",
+      "value_internal": -5.05,
+      "unit": "mm"
+    },
+    "pr_housing_back_x": {
+      "expression": "pr_motor_face_x - pr_housing_rear_overhang",
+      "value_internal": -7.750000000000001,
+      "unit": "mm"
+    },
+    "pr_housing_split_x": {
+      "expression": "pr_housing_back_x + pr_stator_plate_thickness",
+      "value_internal": -7.450000000000001,
+      "unit": "mm"
+    },
+    "pr_seat_radius": {
+      "expression": "( pr_bearing_od + pr_seat_diametral_allowance + fit_carrier_hole_compensation ) / 2",
+      "value_internal": 3.2575,
+      "unit": "mm"
+    },
+    "pr_journal_radius": {
+      "expression": "( pr_bearing_id - pr_journal_diametral_clearance ) / 2",
+      "value_internal": 2.495,
+      "unit": "mm"
+    },
+    "pr_race_spacing": {
+      "expression": "pr_bearing_center_span - pr_bearing_width",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "pr_inner_land_radius": {
+      "expression": "pr_inner_race_land_diameter / 2",
+      "value_internal": 2.625,
+      "unit": "mm"
+    },
+    "pr_outer_open_radius": {
+      "expression": "pr_outer_race_opening / 2",
+      "value_internal": 3.1500000000000004,
+      "unit": "mm"
+    },
+    "st_case_outer_radius": {
+      "expression": "45.4 mm",
+      "value_internal": 4.54,
+      "unit": "mm"
+    },
+    "st_case_back_y": {
+      "expression": "51 mm",
+      "value_internal": 5.1000000000000005,
+      "unit": "mm"
+    },
+    "st_face_crown_radius": {
+      "expression": "500 mm",
+      "value_internal": 50.0,
+      "unit": "mm"
+    },
+    "st_face_crown_center_y": {
+      "expression": "st_cap_y - st_face_crown_radius",
+      "value_internal": -40.6,
+      "unit": "mm"
+    },
+    "st_waist_floor_y": {
+      "expression": "86 mm",
+      "value_internal": 8.6,
+      "unit": "mm"
+    },
+    "st_waist_blend_radius": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "st_roof_inner_offset": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "st_guard_width": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "st_guard_depth": {
+      "expression": "19 mm",
+      "value_internal": 1.9000000000000001,
+      "unit": "mm"
+    },
+    "st_guard_height": {
+      "expression": "10 mm",
+      "value_internal": 1.0,
+      "unit": "mm"
+    },
+    "st_guard_radius": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "st_guard_center_y": {
+      "expression": "41.5 mm",
+      "value_internal": 4.15,
+      "unit": "mm"
+    },
+    "st_guard_center_z": {
+      "expression": "45 mm",
+      "value_internal": 4.5,
+      "unit": "mm"
+    },
+    "st_rear_clamp_x": {
+      "expression": "-36 mm",
+      "value_internal": -3.6,
+      "unit": "mm"
+    },
+    "st_rear_clamp_z": {
+      "expression": "-( 66 / 170 ) * lc_thigh_length",
+      "value_internal": -6.6000000000000005,
+      "unit": "mm"
+    },
+    "st_front_clamp_x": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "st_front_clamp_z": {
+      "expression": "-( 70 / 170 ) * lc_thigh_length",
+      "value_internal": -7.0,
+      "unit": "mm"
+    },
+    "st_clamp_land_radius": {
+      "expression": "8.8 mm",
+      "value_internal": 0.8800000000000001,
+      "unit": "mm"
+    },
+    "st_tie_land_radius": {
+      "expression": "5.2 mm",
+      "value_internal": 0.52,
+      "unit": "mm"
+    },
+    "st_case_reference_radius": {
+      "expression": "40 mm",
+      "value_internal": 4.0,
+      "unit": "mm"
+    },
+    "st_case_radial_allowance": {
+      "expression": "0.25 mm",
+      "value_internal": 0.025,
+      "unit": "mm"
+    },
+    "st_stator_radial_allowance": {
+      "expression": "0.3 mm",
+      "value_internal": 0.03,
+      "unit": "mm"
+    },
+    "st_knee_cheek_radius": {
+      "expression": "45 mm",
+      "value_internal": 4.5,
+      "unit": "mm"
+    },
+    "st_knee_cheek_y": {
+      "expression": "45 mm",
+      "value_internal": 4.5,
+      "unit": "mm"
+    },
+    "st_knee_cheek_thickness": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "st_knee_chamber_y": {
+      "expression": "50.5 mm",
+      "value_internal": 5.050000000000001,
+      "unit": "mm"
+    },
+    "st_knee_chamber_width": {
+      "expression": "36 mm",
+      "value_internal": 3.6,
+      "unit": "mm"
+    },
+    "st_knee_chamber_radius": {
+      "expression": "53 mm",
+      "value_internal": 5.300000000000001,
+      "unit": "mm"
+    },
+    "st_knee_chamber_fillet": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "st_output_tail_y": {
+      "expression": "85.5 mm",
+      "value_internal": 8.55,
+      "unit": "mm"
+    },
+    "st_output_tail_width": {
+      "expression": "3.5 mm",
+      "value_internal": 0.35000000000000003,
+      "unit": "mm"
+    },
+    "st_output_tail_radius": {
+      "expression": "4.25 mm",
+      "value_internal": 0.42500000000000004,
+      "unit": "mm"
+    },
+    "st_rod_stem_clearance_radius": {
+      "expression": "4.5 mm",
+      "value_internal": 0.45,
+      "unit": "mm"
+    },
+    "st_case_fit_radius": {
+      "expression": "st_case_reference_radius + st_case_radial_allowance",
+      "value_internal": 4.025,
+      "unit": "mm"
+    },
+    "st_pocket_radius": {
+      "expression": "sm_stator_outer_radius + st_stator_radial_allowance",
+      "value_internal": 4.08,
+      "unit": "mm"
+    },
+    "st_pocket_lobe_radius": {
+      "expression": "sm_stator_lobe_radius + st_stator_radial_allowance",
+      "value_internal": 0.48,
+      "unit": "mm"
+    },
+    "st_pocket_tangent_angle": {
+      "expression": "acos(( st_pocket_radius - st_pocket_lobe_radius ) / sm_tie_radius)",
+      "value_internal": 0.5960024391875139,
+      "unit": "deg"
+    },
+    "st_motor_port_angle": {
+      "expression": "-23.8 deg",
+      "value_internal": -0.41538836197465046,
+      "unit": "deg"
+    },
+    "st_motor_port_face_y": {
+      "expression": "54.4 mm",
+      "value_internal": 5.44,
+      "unit": "mm"
+    },
+    "st_motor_port_rear_offset": {
+      "expression": "37.6 mm",
+      "value_internal": 3.7600000000000002,
+      "unit": "mm"
+    },
+    "st_motor_port_width": {
+      "expression": "18 mm",
+      "value_internal": 1.8,
+      "unit": "mm"
+    },
+    "st_motor_port_axial_width": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "st_motor_port_start_radius": {
+      "expression": "30.1 mm",
+      "value_internal": 3.0100000000000002,
+      "unit": "mm"
+    },
+    "st_motor_port_radial_depth": {
+      "expression": "21 mm",
+      "value_internal": 2.1,
+      "unit": "mm"
+    },
+    "st_motor_cable_radius": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "st_motor_cable_center_radius": {
+      "expression": "46.6 mm",
+      "value_internal": 4.66,
+      "unit": "mm"
+    },
+    "st_motor_cable_depth": {
+      "expression": "27 mm",
+      "value_internal": 2.7,
+      "unit": "mm"
+    },
+    "st_service_window_center_y": {
+      "expression": "31.5 mm",
+      "value_internal": 3.1500000000000004,
+      "unit": "mm"
+    },
+    "st_service_window_height": {
+      "expression": "50 mm",
+      "value_internal": 5.0,
+      "unit": "mm"
+    },
+    "st_lower_window_center_y": {
+      "expression": "39.6 mm",
+      "value_internal": 3.9600000000000004,
+      "unit": "mm"
+    },
+    "st_split_cup_y": {
+      "expression": "50.3 mm",
+      "value_internal": 5.03,
+      "unit": "mm"
+    },
+    "st_split_stem_y": {
+      "expression": "67 mm",
+      "value_internal": 6.7,
+      "unit": "mm"
+    },
+    "st_split_upper_z": {
+      "expression": "-( 38 / 170 ) * lc_thigh_length",
+      "value_internal": -3.8000000000000003,
+      "unit": "mm"
+    },
+    "st_split_lower_z": {
+      "expression": "-( 82 / 170 ) * lc_thigh_length",
+      "value_internal": -8.2,
+      "unit": "mm"
+    },
+    "st_split_radius": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "st_stop_radial_gap": {
+      "expression": "0.3 mm",
+      "value_internal": 0.03,
+      "unit": "mm"
+    },
+    "st_stop_axial_gap": {
+      "expression": "0.3 mm",
+      "value_internal": 0.03,
+      "unit": "mm"
+    },
+    "st_stop_recess_depth": {
+      "expression": "1 mm",
+      "value_internal": 0.1,
+      "unit": "mm"
+    },
+    "st_stop_race_land_width": {
+      "expression": "1.3 mm",
+      "value_internal": 0.13,
+      "unit": "mm"
+    },
+    "st_stop_shaft_relief_radius": {
+      "expression": "8.2 mm",
+      "value_internal": 0.82,
+      "unit": "mm"
+    },
+    "st_inner_stop_boss_radius": {
+      "expression": "11.2 mm",
+      "value_internal": 1.1199999999999999,
+      "unit": "mm"
+    },
+    "st_axle_nominal_diameter": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "st_axle_diametral_allowance": {
+      "expression": "0.2 mm",
+      "value_internal": 0.020000000000000004,
+      "unit": "mm"
+    },
+    "st_outer_stop_base_y": {
+      "expression": "91 mm",
+      "value_internal": 9.1,
+      "unit": "mm"
+    },
+    "st_outer_stop_base_radius": {
+      "expression": "16 mm",
+      "value_internal": 1.6,
+      "unit": "mm"
+    },
+    "st_outer_stop_top_y": {
+      "expression": "st_cap_y + 3 mm",
+      "value_internal": 9.700000000000001,
+      "unit": "mm"
+    },
+    "st_axle_fit_radius": {
+      "expression": "( st_axle_nominal_diameter + st_axle_diametral_allowance ) / 2",
+      "value_internal": 0.6100000000000001,
+      "unit": "mm"
+    },
+    "st_stop_outer_radius": {
+      "expression": "lc_bearing_od / 2 - st_stop_radial_gap",
+      "value_internal": 1.37,
+      "unit": "mm"
+    },
+    "st_stop_recess_radius": {
+      "expression": "st_stop_outer_radius - st_stop_race_land_width",
+      "value_internal": 1.2400000000000002,
+      "unit": "mm"
+    },
+    "st_inner_stop_end": {
+      "expression": "lc_bearing_inner_y - st_stop_axial_gap",
+      "value_internal": 5.2700000000000005,
+      "unit": "mm"
+    },
+    "st_outer_stop_start": {
+      "expression": "lc_bearing_outer_y + lc_bearing_width + st_stop_axial_gap",
+      "value_internal": 8.530000000000001,
+      "unit": "mm"
+    },
+    "st_clamp_sleeve_od": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "st_clamp_sleeve_diametral_allowance": {
+      "expression": "0.2 mm",
+      "value_internal": 0.020000000000000004,
+      "unit": "mm"
+    },
+    "st_clamp_sleeve_length": {
+      "expression": "18 mm",
+      "value_internal": 1.8,
+      "unit": "mm"
+    },
+    "st_clamp_sleeve_start_y": {
+      "expression": "58 mm",
+      "value_internal": 5.800000000000001,
+      "unit": "mm"
+    },
+    "st_clamp_washer_od": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "st_clamp_washer_diametral_allowance": {
+      "expression": "0.4 mm",
+      "value_internal": 0.04000000000000001,
+      "unit": "mm"
+    },
+    "st_knee_washer_od": {
+      "expression": "15 mm",
+      "value_internal": 1.5,
+      "unit": "mm"
+    },
+    "st_knee_washer_diametral_allowance": {
+      "expression": "0.4 mm",
+      "value_internal": 0.04000000000000001,
+      "unit": "mm"
+    },
+    "st_knee_washer_inner_floor_y": {
+      "expression": "49.4 mm",
+      "value_internal": 4.94,
+      "unit": "mm"
+    },
+    "st_knee_washer_outer_floor_y": {
+      "expression": "94 mm",
+      "value_internal": 9.4,
+      "unit": "mm"
+    },
+    "st_clamp_sleeve_radius": {
+      "expression": "( st_clamp_sleeve_od + st_clamp_sleeve_diametral_allowance ) / 2",
+      "value_internal": 0.41000000000000003,
+      "unit": "mm"
+    },
+    "st_clamp_washer_access_radius": {
+      "expression": "( st_clamp_washer_od + st_clamp_washer_diametral_allowance ) / 2",
+      "value_internal": 0.6200000000000001,
+      "unit": "mm"
+    },
+    "st_clamp_outer_floor_y": {
+      "expression": "st_clamp_sleeve_start_y + st_clamp_sleeve_length",
+      "value_internal": 7.6000000000000005,
+      "unit": "mm"
+    },
+    "st_knee_washer_access_radius": {
+      "expression": "( st_knee_washer_od + st_knee_washer_diametral_allowance ) / 2",
+      "value_internal": 0.77,
+      "unit": "mm"
+    },
+    "bt_pod_od": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "bt_pod_id": {
+      "expression": "3.4 mm",
+      "value_internal": 0.34,
+      "unit": "mm"
+    },
+    "bt_pod_short_length": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "bt_clamp_od": {
+      "expression": "8 mm",
+      "value_internal": 0.8,
+      "unit": "mm"
+    },
+    "bt_clamp_id": {
+      "expression": "4.3 mm",
+      "value_internal": 0.43,
+      "unit": "mm"
+    },
+    "bt_knee_axle_od": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "bt_knee_axle_id": {
+      "expression": "5.5 mm",
+      "value_internal": 0.55,
+      "unit": "mm"
+    },
+    "bt_pod_start_y": {
+      "expression": "sm_hub_pad_y + sm_hub_tie_pad_thickness",
+      "value_internal": 0.9500000000000001,
+      "unit": "mm"
+    },
+    "bt_pod_long_length": {
+      "expression": "sm_stator_base_y - bt_pod_start_y",
+      "value_internal": 4.1000000000000005,
+      "unit": "mm"
+    },
+    "bt_pod_short_y": {
+      "expression": "sm_stator_pad_y + sm_stator_pad_thickness",
+      "value_internal": 5.500000000000001,
+      "unit": "mm"
+    },
+    "bt_knee_axle_length": {
+      "expression": "st_knee_washer_outer_floor_y - st_knee_washer_inner_floor_y",
+      "value_internal": 4.46,
+      "unit": "mm"
+    },
+    "st_crown_root_radius": {
+      "expression": "21 mm",
+      "value_internal": 2.1,
+      "unit": "mm"
+    },
+    "st_crown_middle_radius": {
+      "expression": "20 mm",
+      "value_internal": 2.0,
+      "unit": "mm"
+    },
+    "st_crown_middle_parameter": {
+      "expression": "0.28533935033142227",
+      "value_internal": 0.28533935033142227,
+      "unit": ""
+    },
+    "mc_head_access_overrun": {
+      "expression": "4 mm",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "mc_thigh_head_access_diameter": {
+      "expression": "mc_m3_socket_head_diameter + mc_m3_head_access_diametral_allowance + fit_hole_compensation",
+      "value_internal": 0.64,
+      "unit": "mm"
+    },
+    "mc_thigh_access_overrun": {
+      "expression": "16 mm",
+      "value_internal": 1.6,
+      "unit": "mm"
+    },
+    "mc_thigh_insertion_start_y": {
+      "expression": "-5 mm",
+      "value_internal": -0.5,
+      "unit": "mm"
+    },
+    "mc_thigh_insertion_stop_clearance": {
+      "expression": "0.2 mm",
+      "value_internal": 0.020000000000000004,
+      "unit": "mm"
+    },
+    "mc_thigh_head_seat_y": {
+      "expression": "bt_pod_short_y + bt_pod_short_length",
+      "value_internal": 6.100000000000001,
+      "unit": "mm"
+    },
+    "mc_thigh_access_end_y": {
+      "expression": "st_cap_y + mc_thigh_access_overrun",
+      "value_internal": 11.0,
+      "unit": "mm"
+    },
+    "mc_thigh_insertion_end_y": {
+      "expression": "sm_stator_pad_y + sm_stator_pad_thickness + mc_thigh_insertion_stop_clearance",
+      "value_internal": 5.5200000000000005,
+      "unit": "mm"
+    },
+    "ph_column_radius": {
+      "expression": "3.5 mm",
+      "value_internal": 0.35000000000000003,
+      "unit": "mm"
+    },
+    "ph_stator_hole_radius": {
+      "expression": "( mc_m3_shank_nominal + mc_m3_through_diametral_allowance + fit_carrier_hole_compensation ) / 2",
+      "value_internal": 0.17000000000000004,
+      "unit": "mm"
+    },
+    "ph_stator_plate_bore_radius": {
+      "expression": "27 mm",
+      "value_internal": 2.7,
+      "unit": "mm"
+    },
+    "ph_retainer_nut_af": {
+      "expression": "5.8 mm",
+      "value_internal": 0.58,
+      "unit": "mm"
+    },
+    "ph_retainer_bolt_length": {
+      "expression": "25 mm",
+      "value_internal": 2.5,
+      "unit": "mm"
+    },
+    "ph_retainer_tip_offset": {
+      "expression": "0.5 mm",
+      "value_internal": 0.05,
+      "unit": "mm"
+    },
+    "ph_retainer_nut_thickness": {
+      "expression": "2.4 mm",
+      "value_internal": 0.24,
+      "unit": "mm"
+    },
+    "ph_ear_x": {
+      "expression": "-59.5 mm",
+      "value_internal": -5.95,
+      "unit": "mm"
+    },
+    "ph_ear_y": {
+      "expression": "26.5 mm",
+      "value_internal": 2.6500000000000004,
+      "unit": "mm"
+    },
+    "ph_lower_ear_z": {
+      "expression": "-12 mm",
+      "value_internal": -1.2000000000000002,
+      "unit": "mm"
+    },
+    "ph_upper_ear_z": {
+      "expression": "24 mm",
+      "value_internal": 2.4000000000000004,
+      "unit": "mm"
+    },
+    "ph_ear_width": {
+      "expression": "11 mm",
+      "value_internal": 1.1,
+      "unit": "mm"
+    },
+    "ph_ear_depth": {
+      "expression": "13 mm",
+      "value_internal": 1.3,
+      "unit": "mm"
+    },
+    "ph_ear_height": {
+      "expression": "11 mm",
+      "value_internal": 1.1,
+      "unit": "mm"
+    },
+    "ph_ear_round": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "ph_ear_hole_radius": {
+      "expression": "1.7 mm",
+      "value_internal": 0.17,
+      "unit": "mm"
+    },
+    "ph_nut_pocket_end_x": {
+      "expression": "pr_bearing_end_x + pr_retainer_thickness - ph_retainer_bolt_length + ph_retainer_tip_offset + ph_retainer_nut_thickness",
+      "value_internal": -7.06,
+      "unit": "mm"
+    },
+    "pc_outer_radius": {
+      "expression": "44 mm",
+      "value_internal": 4.4,
+      "unit": "mm"
+    },
+    "pc_motor_bore": {
+      "expression": "mc_rs02_case_diameter + pc_case_diametral_allowance + fit_carrier_hole_compensation",
+      "value_internal": 8.15,
+      "unit": "mm"
+    },
+    "pc_split_y": {
+      "expression": "-4 mm",
+      "value_internal": -0.4,
+      "unit": "mm"
+    },
+    "pc_rear_y": {
+      "expression": "-48.4 mm",
+      "value_internal": -4.84,
+      "unit": "mm"
+    },
+    "pc_rear_wall": {
+      "expression": "2.5 mm",
+      "value_internal": 0.25,
+      "unit": "mm"
+    },
+    "pc_rear_bore": {
+      "expression": "12 mm",
+      "value_internal": 1.2000000000000002,
+      "unit": "mm"
+    },
+    "pc_closure_front_y": {
+      "expression": "-0.9 mm",
+      "value_internal": -0.09000000000000001,
+      "unit": "mm"
+    },
+    "pc_closure_bore": {
+      "expression": "27 mm",
+      "value_internal": 2.7,
+      "unit": "mm"
+    },
+    "pc_lug_pcd_radius": {
+      "expression": "47 mm",
+      "value_internal": 4.7,
+      "unit": "mm"
+    },
+    "pc_lug_radius": {
+      "expression": "6 mm",
+      "value_internal": 0.6000000000000001,
+      "unit": "mm"
+    },
+    "pc_lug_start_y": {
+      "expression": "-11.9 mm",
+      "value_internal": -1.1900000000000002,
+      "unit": "mm"
+    },
+    "pc_pilot_radius": {
+      "expression": "4.8 mm",
+      "value_internal": 0.48,
+      "unit": "mm"
+    },
+    "pc_pilot_length": {
+      "expression": "1 mm",
+      "value_internal": 0.1,
+      "unit": "mm"
+    },
+    "pc_pilot_clearance": {
+      "expression": "( pc_pilot_diametral_allowance + fit_carrier_hole_compensation ) / 2",
+      "value_internal": 0.015,
+      "unit": "mm"
+    },
+    "pc_pilot_axial_clearance": {
+      "expression": "0.1 mm",
+      "value_internal": 0.010000000000000002,
+      "unit": "mm"
+    },
+    "pc_closure_screw_radius": {
+      "expression": "( mc_m4_shank_nominal + mc_m4_through_diametral_allowance + fit_carrier_hole_compensation ) / 2",
+      "value_internal": 0.22000000000000003,
+      "unit": "mm"
+    },
+    "pc_motor_screw_radius": {
+      "expression": "( mc_m3_shank_nominal + mc_m3_through_diametral_allowance + fit_carrier_hole_compensation ) / 2",
+      "value_internal": 0.17000000000000004,
+      "unit": "mm"
+    },
+    "pc_motor_head_radius": {
+      "expression": "3.15 mm",
+      "value_internal": 0.315,
+      "unit": "mm"
+    },
+    "pc_motor_head_depth": {
+      "expression": "1.45 mm",
+      "value_internal": 0.145,
+      "unit": "mm"
+    },
+    "pc_output_head_radius": {
+      "expression": "4.65 mm",
+      "value_internal": 0.4650000000000001,
+      "unit": "mm"
+    },
+    "pc_output_seat_radius": {
+      "expression": "4.5 mm",
+      "value_internal": 0.45,
+      "unit": "mm"
+    },
+    "pc_output_seat_depth": {
+      "expression": "2.3 mm",
+      "value_internal": 0.22999999999999998,
+      "unit": "mm"
+    },
+    "pc_output_recess": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "pc_journal_shoulder_depth": {
+      "expression": "0.8 mm",
+      "value_internal": 0.08000000000000002,
+      "unit": "mm"
+    },
+    "pc_journal_flange_depth": {
+      "expression": "0.9 mm",
+      "value_internal": 0.09000000000000001,
+      "unit": "mm"
+    },
+    "pc_journal_flange_radius": {
+      "expression": "29 mm",
+      "value_internal": 2.9000000000000004,
+      "unit": "mm"
+    },
+    "pc_web_fillet": {
+      "expression": "2 mm",
+      "value_internal": 0.2,
+      "unit": "mm"
+    },
+    "pc_tool_window_width": {
+      "expression": "90 mm",
+      "value_internal": 9.0,
+      "unit": "mm"
+    },
+    "pc_tool_window_depth": {
+      "expression": "22 mm",
+      "value_internal": 2.2,
+      "unit": "mm"
+    },
+    "pc_tool_window_height": {
+      "expression": "32 mm",
+      "value_internal": 3.2,
+      "unit": "mm"
+    },
+    "pc_tool_window_radius": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "pc_closure_depth": {
+      "expression": "pc_closure_front_y - pc_split_y",
+      "value_internal": 0.31,
+      "unit": "mm"
+    },
+    "pc_port_angle": {
+      "expression": "36.2 deg",
+      "value_internal": 0.6318091892219474,
+      "unit": "deg"
+    },
+    "pc_port_inner_radius": {
+      "expression": "30.1 mm",
+      "value_internal": 3.0100000000000002,
+      "unit": "mm"
+    },
+    "pc_port_depth": {
+      "expression": "21 mm",
+      "value_internal": 2.1,
+      "unit": "mm"
+    },
+    "pc_port_width": {
+      "expression": "18 mm",
+      "value_internal": 1.8,
+      "unit": "mm"
+    },
+    "pc_port_start_y": {
+      "expression": "-44.2 mm",
+      "value_internal": -4.420000000000001,
+      "unit": "mm"
+    },
+    "pc_port_axial_width": {
+      "expression": "40 mm",
+      "value_internal": 4.0,
+      "unit": "mm"
+    },
+    "pc_cable_center_radius": {
+      "expression": "46.6 mm",
+      "value_internal": 4.66,
+      "unit": "mm"
+    },
+    "pc_cable_radius": {
+      "expression": "5 mm",
+      "value_internal": 0.5,
+      "unit": "mm"
+    },
+    "pc_cable_y": {
+      "expression": "-35.6 mm",
+      "value_internal": -3.5600000000000005,
+      "unit": "mm"
+    },
+    "pc_cable_length": {
+      "expression": "27 mm",
+      "value_internal": 2.7,
+      "unit": "mm"
+    },
+    "pc_web_end_x": {
+      "expression": "-40.8 mm + pr_pitch_x_offset",
+      "value_internal": -3.58,
+      "unit": "mm"
+    },
+    "pc_web_start_x": {
+      "expression": "pr_bearing_end_x + 1 mm",
+      "value_internal": -4.95,
+      "unit": "mm"
+    },
+    "mc_m3_shank_nominal": {
+      "expression": "fit_m3_nominal_diameter",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "mc_m4_shank_nominal": {
+      "expression": "fit_m4_nominal_diameter",
+      "value_internal": 0.4,
+      "unit": "mm"
+    },
+    "mc_m3_through_diametral_allowance": {
+      "expression": "fit_m3_hole_diametral_clearance",
+      "value_internal": 0.04000000000000001,
+      "unit": "mm"
+    },
+    "mc_m4_through_diametral_allowance": {
+      "expression": "fit_m4_hole_diametral_clearance",
+      "value_internal": 0.04000000000000001,
+      "unit": "mm"
+    },
+    "mc_rs02_case_diameter": {
+      "expression": "78.5 mm",
+      "value_internal": 7.8500000000000005,
+      "unit": "mm"
+    },
+    "pc_case_diametral_allowance": {
+      "expression": "3 mm",
+      "value_internal": 0.30000000000000004,
+      "unit": "mm"
+    },
+    "pc_pilot_diametral_allowance": {
+      "expression": "0.3 mm",
+      "value_internal": 0.03,
+      "unit": "mm"
+    },
+    "mc_m3_socket_head_diameter": {
+      "expression": "5.5 mm",
+      "value_internal": 0.55,
+      "unit": "mm"
+    },
+    "mc_m3_head_access_diametral_allowance": {
+      "expression": "0.9 mm",
+      "value_internal": 0.09000000000000001,
+      "unit": "mm"
+    },
+    "mc_m4_socket_head_diameter": {
+      "expression": "7 mm",
+      "value_internal": 0.7000000000000001,
+      "unit": "mm"
+    },
+    "mc_m4_head_access_diametral_allowance": {
+      "expression": "1 mm",
+      "value_internal": 0.1,
+      "unit": "mm"
+    }
+  },
+  "files": [
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/hip_hub.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/motor_mount_ring.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/thigh_inner.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/thigh_outer.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/input_crank.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/roll_cartridge_1.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/roll_stator_backplate_1.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/roll_inner_spacer_1.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/roll_outer_spacer_1.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/roll_inner_backplate_1.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/roll_outer_retainer_1.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/motor_carrier_1.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/hip_stator_closure_1.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/fit-only-pod-long-sleeve.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/fit-only-pod-short-sleeve.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/fit-only-thigh-clamp-sleeve.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/purchased-references.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/assembled-motor-complex.3mf",
+    "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/native-bench-review.json.gz"
+  ],
+  "mesh_tolerances": {
+    "surface_mm": 0.01,
+    "normal_radians": 0.03
+  },
+  "elapsed_seconds": 121.72003229201073,
+  "native_source_of_truth": false
+}

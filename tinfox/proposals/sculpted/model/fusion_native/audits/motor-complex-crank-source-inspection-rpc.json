@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"message\": \"{\\\"sources\\\": [{\\\"name\\\": \\\"Integrated knee drive crank\\\", \\\"count\\\": 1, \\\"bounds\\\": [[-1.8, 5.44, -1.8, 3.8500000000000005, 8.6, 1.8]], \\\"features\\\": [[\\\"Annular motor coupling\\\", 0], [\\\"Single radial drive arm\\\", 0], [\\\"Near fork ear (1)\\\", 0], [\\\"Far fork ear (1)\\\", 0], [\\\"Fork bridge\\\", 0], [\\\"Fork bridge edge radii\\\", 0], [\\\"Near bridge root\\\", 0], [\\\"Near bridge root edge radii\\\", 0], [\\\"Far bridge root\\\", 0], [\\\"Far bridge root edge radii\\\", 0], [\\\"Integral bridged fork\\\", 0], [\\\"Motor mounting bores seed (1)\\\", 0], [\\\"Motor mounting bores circular pattern\\\", 0], [\\\"Motor screw head pockets seed (1)\\\", 0], [\\\"Motor screw head pockets circular pattern\\\", 0], [\\\"Shoulder screw head (1)\\\", 0], [\\\"Six millimeter shoulder journal (1)\\\", 0], [\\\"Captured M5 nut pocket\\\", 0]]}], \\\"params\\\": {\\\"lc_drive_plate_y\\\": \\\"61 mm\\\", \\\"lc_drive_far_ear_y\\\": \\\"fit_fork_center_y + lc_drive_fork_gap / 2\\\", \\\"lc_drive_far_ear_depth\\\": \\\"fit_fork_far_end_y - lc_drive_far_ear_y\\\", \\\"lc_rs02_output_pcd_radius\\\": \\\"12 mm\\\", \\\"lc_rs02_output_head_radius\\\": \\\"( fit_m4_socket_head_nominal_diameter + fit_output_head_diametral_clearance + fit_hole_compensation ) / 2\\\", \\\"lc_crank_radius\\\": \\\"28 mm\\\"}, \\\"candidates\\\": []}\\n\",\n    \"success\": true\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

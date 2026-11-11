@@ -1,0 +1,66 @@
+{
+  "model_sha256": "beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8",
+  "checks": [
+    {
+      "family": "thigh",
+      "clamp": 0,
+      "center_xz_mm": [
+        -36,
+        -66
+      ],
+      "head_inner_shell_overlap_after_0_1mm_inward_mm3": 0,
+      "nut_outer_shell_overlap_after_0_1mm_inward_mm3": 0,
+      "nominal_head_diameter_mm": 7.6,
+      "sleeve_od_mm": 8,
+      "seat_clearance_bore_mm": 8.2,
+      "nut_across_flats_mm": 7,
+      "nut_maximum_diameter_mm": 8.08290376865476
+    },
+    {
+      "family": "thigh",
+      "clamp": 1,
+      "center_xz_mm": [
+        5,
+        -70
+      ],
+      "head_inner_shell_overlap_after_0_1mm_inward_mm3": 0,
+      "nut_outer_shell_overlap_after_0_1mm_inward_mm3": 0,
+      "nominal_head_diameter_mm": 7.6,
+      "sleeve_od_mm": 8,
+      "seat_clearance_bore_mm": 8.2,
+      "nut_across_flats_mm": 7,
+      "nut_maximum_diameter_mm": 8.08290376865476
+    },
+    {
+      "family": "shin",
+      "clamp": 37,
+      "center_xz_mm": [
+        2,
+        -30
+      ],
+      "head_inner_shell_overlap_after_0_1mm_inward_mm3": 0,
+      "nut_outer_shell_overlap_after_0_1mm_inward_mm3": 0,
+      "nominal_head_diameter_mm": 7.6,
+      "sleeve_od_mm": 8,
+      "seat_clearance_bore_mm": 8.2,
+      "nut_across_flats_mm": 7,
+      "nut_maximum_diameter_mm": 8.08290376865476
+    },
+    {
+      "family": "shin",
+      "clamp": 105,
+      "center_xz_mm": [
+        2,
+        -105
+      ],
+      "head_inner_shell_overlap_after_0_1mm_inward_mm3": 0,
+      "nut_outer_shell_overlap_after_0_1mm_inward_mm3": 0,
+      "nominal_head_diameter_mm": 7.6,
+      "sleeve_od_mm": 8,
+      "seat_clearance_bore_mm": 8.2,
+      "nut_across_flats_mm": 7,
+      "nut_maximum_diameter_mm": 8.08290376865476
+    }
+  ],
+  "scope": "Exact-solid footprint/intersection check only. Does not simulate preload or material deformation. Zero engagement with a receiving face means this nominal stack does not demonstrate axial clamping of the shells."
+}

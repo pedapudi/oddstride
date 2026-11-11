@@ -1,0 +1,247 @@
+{
+  "source_kind": "native-interfaces-with-generated-gauges",
+  "source_manifest_sha256": "9459ed17c86b648915166a39016a8f214cf3aa4263f4cb24a3156f14aeead078",
+  "parts": [
+    {
+      "part": "01-thigh-case-gauge-80p50",
+      "source_kind": "generated-auxiliary-gauge",
+      "source_package": "Tinfox-Motor-Fit-20261029T044755Z",
+      "source_stl_sha256": "2502f178976a7e9b74f42a65669f7f74e3e1135b0b137063babdb570f8d84624",
+      "robot_component": false
+    },
+    {
+      "part": "02-hip-case-gauge-81p50",
+      "source_kind": "generated-auxiliary-gauge",
+      "source_package": "Tinfox-Motor-Fit-20261029T044755Z",
+      "source_stl_sha256": "a26926baf32a27b21417182c56a3497f2c9ced431d57827dc6824c2514e8d2dd",
+      "robot_component": false
+    },
+    {
+      "part": "03-knee-stator-plate",
+      "source_kind": "fusion-native",
+      "native_part": "motor_mount_ring",
+      "native_source": {
+        "component_part_number": "CANDIDATE_ks_motor_mount_ring",
+        "native_step": "exports/knee-seated-native-motor_mount_ring.step",
+        "native_step_sha256": "1feea5b2799277ec15b48702da9a63591eb6f7748854689c92943510ba183074",
+        "saved_version": 24,
+        "state": "canonical_native",
+        "assembly_translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "native_3mf": "exports/motor-complex-leg23-native/motor_mount_ring.3mf",
+        "native_3mf_sha256": "31b864926062addf3e9f081c195eceeb0d7d4d55a240583221f79542df5b1c75",
+        "native_bounds_mm": [
+          -42.172105064623075,
+          50.50000000000001,
+          -40.5,
+          42.17210506462309,
+          55.00000000000001,
+          48.000000000000014
+        ],
+        "native_volume_mm3": 8001.418283825592,
+        "native_feature_count": 10,
+        "native_sketch_count": 6,
+        "export_checkpoint_version": 23,
+        "saved_native_fingerprint": {
+          "features": 10,
+          "sketches": 6,
+          "faces": 39,
+          "edges": 74,
+          "volume_mm3": 8001.418283825592,
+          "bounds_mm": [
+            -42.172105064623075,
+            50.50000000000001,
+            -40.5,
+            42.17210506462309,
+            55.00000000000001,
+            48.000000000000014
+          ]
+        },
+        "geometry_comparison_evidence": [
+          {
+            "path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/knee-stator-seats/native-seat-validation.json",
+            "sha256": "54eecff93e55a9acc771cf0d5dc68eb6f5c9383a695f5d58901edd0792943705"
+          }
+        ]
+      }
+    },
+    {
+      "part": "04-hip-stator-flange",
+      "source_kind": "fusion-native",
+      "native_part": "hip_stator_closure_1",
+      "native_source": {
+        "component_part_number": "CANDIDATE_rc_hip_stator_closure_1",
+        "native_step": "exports/recessed-restored-hip_stator_closure_1.step",
+        "native_step_sha256": "d2f32933385ef7c7330eee501238f8722257ed535f627bd8d8953011bfc3c419",
+        "saved_version": 24,
+        "state": "canonical_native",
+        "assembly_translation_mm": [
+          -5,
+          0,
+          0
+        ],
+        "native_3mf": "exports/motor-complex-leg23-native/hip_stator_closure_1.3mf",
+        "native_3mf_sha256": "09675a0c358db2a0eee3e698a9d1ec4bca17ec284ff8f8bc3883c2befa2d978d",
+        "native_bounds_mm": [
+          -39.50014608158262,
+          -5.1,
+          -44.0,
+          49.50014608158261,
+          -0.8999999999999997,
+          53.00000000000001
+        ],
+        "native_volume_mm3": 12042.90240247952,
+        "native_feature_count": 9,
+        "native_sketch_count": 9,
+        "export_checkpoint_version": 23,
+        "saved_native_fingerprint": {
+          "features": 9,
+          "sketches": 9,
+          "faces": 45,
+          "edges": 68,
+          "volume_mm3": 12042.90240247952,
+          "bounds_mm": [
+            -39.50014608158262,
+            -5.1,
+            -44.0,
+            49.50014608158261,
+            -0.8999999999999997,
+            53.00000000000001
+          ]
+        },
+        "geometry_comparison_evidence": [
+          {
+            "path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/knee-stator-seats/native-closure-validation.json",
+            "sha256": "f7999584341468d892bc522f6f3e81f55fd884f3bc8f11ec9b4587c0164a4a8d"
+          }
+        ]
+      }
+    },
+    {
+      "part": "05-hip-output-hub",
+      "source_kind": "fusion-native",
+      "native_part": "hip_hub",
+      "native_source": {
+        "component_part_number": "CANDIDATE_hc_hip_hub",
+        "native_step": "exports/case-relieved-native-hip_hub.step",
+        "native_step_sha256": "71782a60f159e538f4920f20e89bc28ecec2bb14ac35695f09882a707627f3cb",
+        "saved_version": 24,
+        "state": "canonical_native",
+        "assembly_translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "native_3mf": "exports/motor-complex-leg23-native/hip_hub.3mf",
+        "native_3mf_sha256": "2a1ce0e14b90630c533848936a4d77c4f631ab04745c299048672e367cbd84ad",
+        "native_bounds_mm": [
+          -43.49489761534433,
+          0.0,
+          -27.750000000000018,
+          43.49489761534435,
+          9.5,
+          48.00000000000001
+        ],
+        "native_volume_mm3": 18244.89847897021,
+        "native_feature_count": 2,
+        "native_sketch_count": 1,
+        "export_checkpoint_version": 23,
+        "saved_native_fingerprint": {
+          "features": 2,
+          "sketches": 1,
+          "faces": 104,
+          "edges": 225,
+          "volume_mm3": 18244.89847897021,
+          "bounds_mm": [
+            -43.49489761534433,
+            0.0,
+            -27.750000000000018,
+            43.49489761534435,
+            9.5,
+            48.00000000000001
+          ]
+        },
+        "geometry_comparison_evidence": [
+          {
+            "path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/knee-stator-seats/native-hub-relief-validation.json",
+            "sha256": "3d807b94ea6603c577cf8a9ae7b869edc7f66c9432afc6ad490d1af4562be20e"
+          }
+        ]
+      }
+    }
+  ],
+  "units": "mm",
+  "sliced": false,
+  "objects": 5,
+  "layout_bed_mm": [
+    325,
+    320,
+    325
+  ],
+  "plate_bounds_mm": {
+    "01-thigh-case-gauge-80p50": [
+      [
+        10.0,
+        10.0,
+        0.0
+      ],
+      [
+        100.798828125,
+        110.69943618774414,
+        8.0
+      ]
+    ],
+    "02-hip-case-gauge-81p50": [
+      [
+        110.798828125,
+        10.0,
+        0.0
+      ],
+      [
+        198.7984619140625,
+        109.79990768432617,
+        8.0
+      ]
+    ],
+    "04-hip-stator-flange": [
+      [
+        208.7984619140625,
+        10.0,
+        0.0
+      ],
+      [
+        297.7987518310547,
+        107.0,
+        4.199999809265137
+      ]
+    ],
+    "03-knee-stator-plate": [
+      [
+        10.0,
+        120.69943618774414,
+        0.0
+      ],
+      [
+        94.34420776367188,
+        209.19845962524414,
+        4.5
+      ]
+    ],
+    "05-hip-output-hub": [
+      [
+        104.34420776367188,
+        120.69943618774414,
+        0.0
+      ],
+      [
+        191.33399963378906,
+        196.4494285583496,
+        9.5
+      ]
+    ]
+  },
+  "knee_stator_countersinks": 9
+}

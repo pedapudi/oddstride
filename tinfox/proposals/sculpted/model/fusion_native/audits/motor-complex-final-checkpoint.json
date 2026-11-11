@@ -1,0 +1,670 @@
+{
+  "save_requested": true,
+  "previous_version": 19,
+  "version_at_return": 19,
+  "complete_at_return": false,
+  "modified_at_return": false,
+  "capacity": {
+    "personal_plan": true,
+    "editable_file_count": 4,
+    "max_editable_file_count": 10,
+    "available_slots": 6,
+    "known_tinfox_editable_files": [
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:cwZZGJRSR5aVlwkk9TcEUA",
+        "name": "Tinfox - Head",
+        "part": "subsystem_head",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:7_ejr6qRQtezEex5HEj7xw",
+        "name": "Tinfox - Native Master Assembly",
+        "part": "native_master",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:R7U8KNNBSA6o3YwVNF2ZQQ",
+        "name": "Tinfox - Chassis",
+        "part": "subsystem_chassis",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": false,
+        "protected": false,
+        "manual_read_only_candidate": false
+      },
+      {
+        "file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ",
+        "name": "Tinfox - Leg module",
+        "part": "subsystem_leg",
+        "project_id": "a.YnVzaW5lc3M6Z21haWw0ODYwNjAzIzIwMjYxMDI1MTE2MDE1MzI4MQ",
+        "is_read_only": false,
+        "upload_complete": true,
+        "open_modified": true,
+        "protected": true,
+        "manual_read_only_candidate": false
+      }
+    ],
+    "unmanaged_editable_file_count": 0,
+    "manual_read_only_candidates": [],
+    "unsaved_open_documents": 0,
+    "status_change_api_supported": false,
+    "status_note": "isReadOnly has no setter. The separately guarded set_document_editability.py invokes Fusion Make Editable/Make Read-Only commands and independently verifies status. Read-only can also reflect permissions or another editor.",
+    "new_cloud_files": 0,
+    "reserved_free_slots": 1,
+    "required_available_slots": 1,
+    "master_file_id": "urn:adsk.wipprod:dm.lineage:Uoyid7qvSf2B89DwCbvTLQ"
+  },
+  "visible_body_count": 124,
+  "root_inventory": [
+    {
+      "part_number": "shin_design_master",
+      "name": "Shin shared design master",
+      "root_visible": false,
+      "features": 22,
+      "sketches": 19,
+      "bodies": 0,
+      "unhealthy_features": [],
+      "classification": "Hidden baseline or native construction; conservatively retained"
+    },
+    {
+      "part_number": "thigh_design_master",
+      "name": "Thigh shared design master",
+      "root_visible": false,
+      "features": 28,
+      "sketches": 15,
+      "bodies": 0,
+      "unhealthy_features": [],
+      "classification": "Hidden baseline or native construction; conservatively retained"
+    },
+    {
+      "part_number": "carrier_design_master",
+      "name": "Carrier shared design master",
+      "root_visible": false,
+      "features": 16,
+      "sketches": 7,
+      "bodies": 0,
+      "unhealthy_features": [],
+      "classification": "Hidden baseline or native construction; conservatively retained"
+    },
+    {
+      "part_number": "ASSEMBLY_FL",
+      "name": "FL leg",
+      "root_visible": false,
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0,
+      "unhealthy_features": [],
+      "classification": "Retired visible robot assembly; hidden with obsolete motion joints suppressed"
+    },
+    {
+      "part_number": "ASSEMBLY_FR",
+      "name": "FR leg",
+      "root_visible": false,
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0,
+      "unhealthy_features": [],
+      "classification": "Retired visible robot assembly; hidden with obsolete motion joints suppressed"
+    },
+    {
+      "part_number": "ASSEMBLY_RL",
+      "name": "RL leg",
+      "root_visible": false,
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0,
+      "unhealthy_features": [],
+      "classification": "Retired visible robot assembly; hidden with obsolete motion joints suppressed"
+    },
+    {
+      "part_number": "ASSEMBLY_RR",
+      "name": "RR leg",
+      "root_visible": false,
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0,
+      "unhealthy_features": [],
+      "classification": "Retired visible robot assembly; hidden with obsolete motion joints suppressed"
+    },
+    {
+      "part_number": "CANDIDATE_sl_motor_mount_ring",
+      "name": "Tangent-lobed knee stator mount",
+      "root_visible": false,
+      "features": 8,
+      "sketches": 5,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "CANDIDATE_sl_hip_hub",
+      "name": "Rounded ribbed hip output hub",
+      "root_visible": false,
+      "features": 17,
+      "sketches": 9,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "CANDIDATE_sl_hip_hub_right",
+      "name": "Rounded ribbed hip output hub right handed",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_sl_motor_mount_ring_right",
+      "name": "Tangent-lobed knee stator mount right handed",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_round_shin_master",
+      "name": "Rounded shin shared structural master",
+      "root_visible": false,
+      "features": 27,
+      "sketches": 85,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_round_shin_inner",
+      "name": "Rounded inner shin shell",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_round_shin_inner_right",
+      "name": "Right rounded inner shin shell",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_round_shin_outer",
+      "name": "Rounded outer shin shell",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_round_shin_outer_right",
+      "name": "Right rounded outer shin shell",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_sl_thigh_master",
+      "name": "Closed thigh shared structural master",
+      "root_visible": false,
+      "features": 66,
+      "sketches": 32,
+      "bodies": 2,
+      "unhealthy_features": [],
+      "classification": "Retained native construction dependency of corrected thigh"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_inner_spacer_1",
+      "name": "Inner bearing race spacer",
+      "root_visible": false,
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_outer_spacer_1",
+      "name": "Outer bearing race spacer",
+      "root_visible": false,
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_inner_backplate_1",
+      "name": "Motor-side inner race support",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 2,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_outer_retainer_1",
+      "name": "Removable passive outer-race retainer",
+      "root_visible": false,
+      "features": 7,
+      "sketches": 4,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_inner_spacer_-1",
+      "name": "Rear left inner bearing race spacer",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_inner_spacer_1_right",
+      "name": "Front right inner bearing race spacer",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_inner_spacer_-1_right",
+      "name": "Rear right inner bearing race spacer",
+      "root_visible": false,
+      "features": 5,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_outer_spacer_-1",
+      "name": "Rear left outer bearing race spacer",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_outer_spacer_1_right",
+      "name": "Front right outer bearing race spacer",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_outer_spacer_-1_right",
+      "name": "Rear right outer bearing race spacer",
+      "root_visible": false,
+      "features": 5,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_inner_backplate_-1",
+      "name": "Rear left motor-side inner race support",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_inner_backplate_1_right",
+      "name": "Front right motor-side inner race support",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_inner_backplate_-1_right",
+      "name": "Rear right motor-side inner race support",
+      "root_visible": false,
+      "features": 5,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_outer_retainer_-1",
+      "name": "Rear left removable passive outer-race retainer",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_outer_retainer_1_right",
+      "name": "Front right removable passive outer-race retainer",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_outer_retainer_-1_right",
+      "name": "Rear right removable passive outer-race retainer",
+      "root_visible": false,
+      "features": 5,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_sl_thigh_inner",
+      "name": "Inner closed structural thigh",
+      "root_visible": false,
+      "features": 9,
+      "sketches": 8,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "CANDIDATE_sl_thigh_outer",
+      "name": "Outer closed structural thigh",
+      "root_visible": false,
+      "features": 10,
+      "sketches": 9,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Retained native construction dependency of corrected thigh"
+    },
+    {
+      "part_number": "CANDIDATE_sl_thigh_inner_right",
+      "name": "Right inner closed structural thigh",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_sl_thigh_outer_right",
+      "name": "Right outer closed structural thigh",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_bt_knee_axle",
+      "name": "Knee Axle",
+      "root_visible": false,
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Native cut-stock family; active bench instances and deferred full-limb variants"
+    },
+    {
+      "part_number": "CANDIDATE_bt_sleeve_0",
+      "name": "Sleeve 0",
+      "root_visible": false,
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Native cut-stock family; active bench instances and deferred full-limb variants"
+    },
+    {
+      "part_number": "CANDIDATE_bt_sleeve_1",
+      "name": "Sleeve 1",
+      "root_visible": false,
+      "features": 1,
+      "sketches": 1,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Native cut-stock family; active bench instances and deferred full-limb variants"
+    },
+    {
+      "part_number": "CANDIDATE_bt_pod_sleeve_90",
+      "name": "Pod Sleeve 90",
+      "root_visible": false,
+      "features": 2,
+      "sketches": 2,
+      "bodies": 2,
+      "unhealthy_features": [],
+      "classification": "Native cut-stock family; active bench instances and deferred full-limb variants"
+    },
+    {
+      "part_number": "CANDIDATE_bt_pod_sleeve_210",
+      "name": "Pod Sleeve 210",
+      "root_visible": false,
+      "features": 2,
+      "sketches": 2,
+      "bodies": 2,
+      "unhealthy_features": [],
+      "classification": "Native cut-stock family; active bench instances and deferred full-limb variants"
+    },
+    {
+      "part_number": "CANDIDATE_bt_pod_sleeve_330",
+      "name": "Pod Sleeve 330",
+      "root_visible": false,
+      "features": 2,
+      "sketches": 2,
+      "bodies": 2,
+      "unhealthy_features": [],
+      "classification": "Native cut-stock family; active bench instances and deferred full-limb variants"
+    },
+    {
+      "part_number": "CANDIDATE_bt_knee_axle_right",
+      "name": "Right knee axle",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Native cut-stock family; active bench instances and deferred full-limb variants"
+    },
+    {
+      "part_number": "CANDIDATE_bt_sleeve_0_right",
+      "name": "Right sleeve 0",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Native cut-stock family; active bench instances and deferred full-limb variants"
+    },
+    {
+      "part_number": "CANDIDATE_bt_sleeve_1_right",
+      "name": "Right sleeve 1",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Native cut-stock family; active bench instances and deferred full-limb variants"
+    },
+    {
+      "part_number": "CANDIDATE_bt_pod_sleeve_90_right",
+      "name": "Right pod sleeve 90",
+      "root_visible": false,
+      "features": 4,
+      "sketches": 0,
+      "bodies": 2,
+      "unhealthy_features": [],
+      "classification": "Native cut-stock family; active bench instances and deferred full-limb variants"
+    },
+    {
+      "part_number": "CANDIDATE_bt_pod_sleeve_210_right",
+      "name": "Right pod sleeve 210",
+      "root_visible": false,
+      "features": 4,
+      "sketches": 0,
+      "bodies": 2,
+      "unhealthy_features": [],
+      "classification": "Native cut-stock family; active bench instances and deferred full-limb variants"
+    },
+    {
+      "part_number": "CANDIDATE_bt_pod_sleeve_330_right",
+      "name": "Right pod sleeve 330",
+      "root_visible": false,
+      "features": 4,
+      "sketches": 0,
+      "bodies": 2,
+      "unhealthy_features": [],
+      "classification": "Native cut-stock family; active bench instances and deferred full-limb variants"
+    },
+    {
+      "part_number": "CANDIDATE_mc_input_crank",
+      "name": "Input crank - open mounting screw access",
+      "root_visible": false,
+      "features": 18,
+      "sketches": 12,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "CANDIDATE_mc_input_crank_right",
+      "name": "Right input crank - open mounting screw access",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_mc_thigh_outer",
+      "name": "Outer thigh - removable motor-complex cover",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 2,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "CANDIDATE_mc_thigh_outer_right",
+      "name": "Right outer thigh - removable motor-complex cover",
+      "root_visible": false,
+      "features": 3,
+      "sketches": 0,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Hidden migration/deferred family; dependency removal not proven, conservatively retained"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_cartridge_1",
+      "name": "Paired bearing through-bore cartridge",
+      "root_visible": false,
+      "features": 18,
+      "sketches": 11,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "CANDIDATE_pr_roll_stator_backplate_1",
+      "name": "Removable roll stator plate and outer-race stop",
+      "root_visible": false,
+      "features": 8,
+      "sketches": 5,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "CANDIDATE_pr_hip_stator_closure_1",
+      "name": "Removable hip motor stator closure",
+      "root_visible": false,
+      "features": 8,
+      "sketches": 8,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "CANDIDATE_pr_motor_carrier_1",
+      "name": "Open motor cup with paired-bearing journal",
+      "root_visible": false,
+      "features": 21,
+      "sketches": 15,
+      "bodies": 1,
+      "unhealthy_features": [],
+      "classification": "Published bench native definition; root occurrence hidden, shared bench occurrence current"
+    },
+    {
+      "part_number": "BENCH_PURCHASED_LIBRARY",
+      "name": "Purchased bench reference library - construction",
+      "root_visible": false,
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0,
+      "unhealthy_features": [],
+      "classification": "Shared purchased-reference parent; current child occurrence is inside bench"
+    },
+    {
+      "part_number": "BENCH_MOTOR_COMPLEX",
+      "name": "Motor complex - paired 6810 bench assembly",
+      "root_visible": true,
+      "features": 0,
+      "sketches": 0,
+      "bodies": 0,
+      "unhealthy_features": [],
+      "classification": "Current visible static assembly"
+    }
+  ],
+  "deleted_documents": 0,
+  "deleted_components": 0,
+  "retired_solver_report": "audits/retired-leg-solver-cleanup.json",
+  "assembly_3mf": {
+    "path": "/var/folders/77/45r48wbx2yx5htnv4ysll6n40000gn/T/tinfox-native/motor-complex-native/assembled-motor-complex.3mf",
+    "sha256": "beea36e8066c4bf985381fcc98b6bf8b0a2f3d4fc8091b2f60100e4f5fd6818e",
+    "bytes": 47536801
+  },
+  "native_source_of_truth": false
+}

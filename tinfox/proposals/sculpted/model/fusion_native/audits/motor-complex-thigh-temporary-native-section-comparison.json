@@ -1,0 +1,132 @@
+{
+  "native_section_file_sha256": "be2d6fa7a912b70486c49f3264d4ac8e35cbfbccf60c82f1b7b4e61960ec29d2",
+  "source_model_sha256": "b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6",
+  "authorized_revision_overlay": "snapshots/motor-complex-20261029T050757Z/geometry-corrections.json",
+  "sections": [
+    {
+      "part": "thigh_outer",
+      "axis": "X",
+      "offset_mm": -23.012275669204662,
+      "source_to_native_mm": 0.0009538212085020203,
+      "native_to_source_mm": 1.3760525753525599e-05,
+      "source_perimeter_mm": 503.5975658696775,
+      "native_perimeter_mm": 503.5984547311914,
+      "relative_perimeter_error": 1.765023451514871e-06,
+      "native_stroke_points_requiring_boundary_bracket": 0,
+      "native_boundary_bracket_passed": true,
+      "passed": true
+    },
+    {
+      "part": "thigh_outer",
+      "axis": "X",
+      "offset_mm": -0.43753224404360935,
+      "source_to_native_mm": 0.0009667617031806275,
+      "native_to_source_mm": 6.40496942282503e-05,
+      "source_perimeter_mm": 711.6349963917953,
+      "native_perimeter_mm": 711.6344866217979,
+      "relative_perimeter_error": 7.16336324067448e-07,
+      "native_stroke_points_requiring_boundary_bracket": 0,
+      "native_boundary_bracket_passed": true,
+      "passed": true
+    },
+    {
+      "part": "thigh_outer",
+      "axis": "X",
+      "offset_mm": 22.13721118111745,
+      "source_to_native_mm": 0.000932112050635634,
+      "native_to_source_mm": 2.6853010989059792e-05,
+      "source_perimeter_mm": 442.66205957576403,
+      "native_perimeter_mm": 442.66206277993035,
+      "relative_perimeter_error": 7.238402862012359e-09,
+      "native_stroke_points_requiring_boundary_bracket": 0,
+      "native_boundary_bracket_passed": true,
+      "passed": true
+    },
+    {
+      "part": "thigh_outer",
+      "axis": "Y",
+      "offset_mm": 31.0,
+      "source_to_native_mm": 0.0009802250040674742,
+      "native_to_source_mm": 1.9622165700548546e-09,
+      "source_perimeter_mm": 182.50054848097272,
+      "native_perimeter_mm": 182.50054860870716,
+      "relative_perimeter_error": 6.999126260224211e-10,
+      "native_stroke_points_requiring_boundary_bracket": 0,
+      "native_boundary_bracket_passed": true,
+      "passed": true
+    },
+    {
+      "part": "thigh_outer",
+      "axis": "Y",
+      "offset_mm": 53.0,
+      "source_to_native_mm": 0.0009968986113700192,
+      "native_to_source_mm": 1.035506481285116e-05,
+      "source_perimeter_mm": 565.325255193386,
+      "native_perimeter_mm": 565.3238794019841,
+      "relative_perimeter_error": 2.4336280563173786e-06,
+      "native_stroke_points_requiring_boundary_bracket": 0,
+      "native_boundary_bracket_passed": true,
+      "passed": true
+    },
+    {
+      "part": "thigh_outer",
+      "axis": "Y",
+      "offset_mm": 75.0,
+      "source_to_native_mm": 0.000998690857421991,
+      "native_to_source_mm": 1.8902118714265855e-05,
+      "source_perimeter_mm": 906.2208620838296,
+      "native_perimeter_mm": 906.2190843616439,
+      "relative_perimeter_error": 1.961687553302781e-06,
+      "native_stroke_points_requiring_boundary_bracket": 0,
+      "native_boundary_bracket_passed": true,
+      "passed": true
+    },
+    {
+      "part": "thigh_outer",
+      "axis": "Z",
+      "offset_mm": -130.87500134811305,
+      "source_to_native_mm": 0.0005340770183958453,
+      "native_to_source_mm": 2.792731729983605e-06,
+      "source_perimeter_mm": 82.11074069512631,
+      "native_perimeter_mm": 82.11074766665284,
+      "relative_perimeter_error": 8.490395375995034e-08,
+      "native_stroke_points_requiring_boundary_bracket": 0,
+      "native_boundary_bracket_passed": true,
+      "passed": true
+    },
+    {
+      "part": "thigh_outer",
+      "axis": "Z",
+      "offset_mm": -70.2500026962261,
+      "source_to_native_mm": 0.0007163714657854947,
+      "native_to_source_mm": 3.7152062227900598e-06,
+      "source_perimeter_mm": 309.827056404356,
+      "native_perimeter_mm": 309.8270808598797,
+      "relative_perimeter_error": 7.89328214209722e-08,
+      "native_stroke_points_requiring_boundary_bracket": 0,
+      "native_boundary_bracket_passed": true,
+      "passed": true
+    },
+    {
+      "part": "thigh_outer",
+      "axis": "Z",
+      "offset_mm": -9.625004044339164,
+      "source_to_native_mm": 0.0007073551913375621,
+      "native_to_source_mm": 8.31249089626611e-06,
+      "source_perimeter_mm": 421.5462923930093,
+      "native_perimeter_mm": 421.54628277216005,
+      "relative_perimeter_error": 2.282275856449375e-08,
+      "native_stroke_points_requiring_boundary_bracket": 0,
+      "native_boundary_bracket_passed": true,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Direct Fusion section curves, native boundary containment and frozen source cuts at the original nine planes per half. Does not erase the separate STEP face-distance self-consistency diagnostics.",
+  "tolerances": {
+    "section_distance_mm": 0.05,
+    "relative_perimeter": 0.002,
+    "native_curve_stroke_mm": 0.001,
+    "native_boundary_bracket_mm": 0.0049
+  }
+}

@@ -1,0 +1,3497 @@
+{
+  "source_model_sha256": {
+    "low": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+    "high": "34aac4cfa17fbd5958e9ab45ff4c31c06dc13ca221783cd33223d7fbe41a55c2"
+  },
+  "parts": [
+    {
+      "variant": "low",
+      "key": "body_center_0",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/body_center_0.step",
+      "source_sha256": "63385268fa391a57bc91db4f2ac666e76ac22225506480ab3bef4799daa9518c",
+      "native_sha256": "5fe29bec425ea0ac498d1c6f93c9d0a41f54fa29e8d1c1f4e2af45c58536b81d",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 259366.72022571537,
+      "native_volume_mm3": 301463.96873465023,
+      "relative_volume_error": 0.16230782604761124,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "belly_center_0",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/belly_center_0.step",
+      "source_sha256": "3499ce59d99c0a6c770aee07d907f1ea75002e36fa71bf46e85f7a7630969cc5",
+      "native_sha256": "539c1466bab6b80aeb23adc097513ff253fa89f9d14340588a094767249c08e6",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 104303.83620743791,
+      "native_volume_mm3": 104304.14365971487,
+      "relative_volume_error": 2.9476602984073533e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 2.6517405341215843e-08
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0012069301488152058
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 2.2026824808563106e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "battery_side_panel_-1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_side_panel_-1.step",
+      "source_sha256": "eb0d6d2f90f6bb93a09dec17ae76f222ebac6669b26fa63c8284d86cdd4013ea",
+      "native_sha256": "a84868847dfae64f7444a5e6a7b6de5942bab73c5ee62aa25189e1030f89bf1a",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 12158.319924827525,
+      "native_volume_mm3": 12158.31992480222,
+      "relative_volume_error": 2.08135505058187e-12,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 6.636362645809572e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.621871735395822e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 1.0178524689763435e-11,
+      "cylinder_axis_error": 1.238453783969362e-13,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "battery_access_latch_-1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_access_latch_-1.step",
+      "source_sha256": "57ba96e3f65c5b4c4c9d7f8b2fd4c44e613dbb18c9f5100e1efe9ca8da7fc3ae",
+      "native_sha256": "0f76e046fd6bedfa49d413b978a9e355888f1917dbe3a65a2482076dd6bc85ff",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 152.60147322786102,
+      "native_volume_mm3": 152.60147184053136,
+      "relative_volume_error": 9.091194413683658e-09,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.5888218580782548e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.944109290391274e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "battery_side_panel_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_side_panel_1.step",
+      "source_sha256": "22c9ca7e483ad4ccb5bbf7e829e7c244110ba120ef4c38c0eb05dca3439bb0c5",
+      "native_sha256": "8077657459fd68c1a0c4c77b4eb3d19d0fe9ffbe1c997eae7426bb2b33a6eef0",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 12158.319924827549,
+      "native_volume_mm3": 12158.319924802216,
+      "relative_volume_error": 2.0835991798054666e-12,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 5.990410463502453e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.621871735395822e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 1.0178524689763435e-11,
+      "cylinder_axis_error": 1.238453783969362e-13,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "battery_access_latch_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_access_latch_1.step",
+      "source_sha256": "50118aa5d833e1a5413042356f869606a392bff8f968e03aa94c433abe7b3b6d",
+      "native_sha256": "39ede371417ca9f778ea899dd15a4b3d969202fe932fcdaccf354b579c96b1a6",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 152.60147322786102,
+      "native_volume_mm3": 152.60147184053136,
+      "relative_volume_error": 9.091194413683658e-09,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.464821375527116e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.32410687763558e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "battery_latch_-1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_latch_-1.step",
+      "source_sha256": "f874c940219037130955e137db944fd211ce4a7d12f02f549903e34c9a37fdd3",
+      "native_sha256": "dd68d341e8ce747d895d34a3aeefc27ce95d9472a0bd473437983a6ceaf1e930",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 710.837733925513,
+      "native_volume_mm3": 710.8377279220092,
+      "relative_volume_error": 8.445674064088344e-09,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.464821375527116e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.32410687763558e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "battery_latch_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_latch_1.step",
+      "source_sha256": "1216edfeef93ff0cb3223c3cd12d1369d5426b7c05618cd1a55b4dd15bf6fa1d",
+      "native_sha256": "6801d9f6f81631626b175198b5520efc4737d69f30090063ecf66e385ec8b415",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 710.837733925513,
+      "native_volume_mm3": 710.8377279220092,
+      "relative_volume_error": 8.445674064088344e-09,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.464821375527116e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.160723346098895e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "battery_cassette",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_cassette.step",
+      "source_sha256": "d63ec864b972627134bdee37c486a36f1a502664dbfe0b58c9cd7f7361277c59",
+      "native_sha256": "b23aff8d5b6e90cbc7f406e5297b396c078347c220c027d20284f5ef8c05b72e",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 170340.04929259937,
+      "native_volume_mm3": 170342.22169141573,
+      "relative_volume_error": 1.2753306256392999e-05,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.0008224746343873145
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0004073605230968884
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.992007221626409e-16,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "battery_skid",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_skid.step",
+      "source_sha256": "d70f79575a2e77557fd1ad1d860c247293f674e6a09d127c132628e44e233497",
+      "native_sha256": "70e652331ef266199820a14d6ab5a2cbf4eac3094acea40a9663f40b30e9e4c2",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 39040.287520586455,
+      "native_volume_mm3": 39040.28752058636,
+      "relative_volume_error": 2.422816403042814e-15,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.4210854715202004e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 2.0097183471152322e-14
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "chassis_beam_-102",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/chassis_beam_-102.step",
+      "source_sha256": "bd400166a3a932a729a0d752b2ee95bb9b77aaeab4fab8f59fc2f106d7d06a19",
+      "native_sha256": "b402ac8891ed2280a3d66826a593489d39e78d2ee2e05541c6f3b277599be879",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 17500.414363577816,
+      "native_volume_mm3": 17500.461625432923,
+      "relative_volume_error": 2.700613489757615e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 2.517133328826612e-08
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0007307640245352477
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.769962616701378e-15,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "chassis_beam_102",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/chassis_beam_102.step",
+      "source_sha256": "f267ce582c83b03c741eda200a43f5d287e3b4efb664de1c63f6359203b8b755",
+      "native_sha256": "df1cae0bacc4b64073fe8194c3336fd42f3b9da2c465a7df6cd92b385e29543b",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 17500.41436355634,
+      "native_volume_mm3": 17500.459679819007,
+      "relative_volume_error": 2.5894394112065245e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 2.2485781931632646e-08
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0008562949439669264
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.769962616701378e-15,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "chassis_crossmember_-121",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/chassis_crossmember_-121.step",
+      "source_sha256": "82d1bd89cadaacfd723235b5e88b04c949264b549519957a778e4c87c9d87cb2",
+      "native_sha256": "a633c60030dcf1d27a82e5b5bc428c38801e200ebfa85e8a987c4e8e61f6e537",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 4698.510848799365,
+      "native_volume_mm3": 4698.510010271777,
+      "relative_volume_error": 1.7846667056583397e-07,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 6.995508846936477e-13
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.031501618211288e-13
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "chassis_crossmember_121",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/chassis_crossmember_121.step",
+      "source_sha256": "6bf4e78d7e620d7870d738a7f4c29d82de6d0a884cec3fa0c143314270c92173",
+      "native_sha256": "e94ac5422ddc09f75f388d0c28c62c0c1b34b89df3b4256b81bc4bf67786bcaf",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 4637.689615026392,
+      "native_volume_mm3": 4698.510010480532,
+      "relative_volume_error": 0.013114373859147177,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "chassis_lower_brace",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/chassis_lower_brace.step",
+      "source_sha256": "fe527e39fd83b3d16fd1767db7ef5e48cc067e52504b7e9780d25e99fc3668fd",
+      "native_sha256": "f650d3023b6ec5dd65c5007ac640676168d17ec57c62efeae1170c773341263d",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 30235.25028474825,
+      "native_volume_mm3": 30235.250278678694,
+      "relative_volume_error": 2.0074437918871882e-10,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 5.803143289966653e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.045920019260886e-14
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "electronics_shelf",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/electronics_shelf.step",
+      "source_sha256": "c4d0aca0f42fe6dec318d8d3f7c286b7a032ba05876591a2a994601b8211bcfe",
+      "native_sha256": "d330018b323a66e400d12c150bdefba8c0217206a3794704be2fb8ccadc8a595",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 69626.65926135902,
+      "native_volume_mm3": 69626.65926135943,
+      "relative_volume_error": 5.85197725579228e-15,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.5888218580782548e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 1.5888218580782548e-14
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.992007221626409e-15,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "lidar_lid",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/lidar_lid.step",
+      "source_sha256": "ef988aea46f1e6b31738d970502aa9ebfe42c0dbc6bad3478a35154519fa005d",
+      "native_sha256": "d3f9cbd99928c0a191cd6fc32ec393691bd9efb4770c9baf10c3ee4495bd471a",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 4580.442088933917,
+      "native_volume_mm3": 4580.44208893325,
+      "relative_volume_error": 1.457433798178865e-13,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 48.010415536631214
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 48.010415536631214
+        }
+      },
+      "critical_cylinders_passed": false,
+      "cylinder_error_mm": 39.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "body_nose_surround",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/body_nose_surround.step",
+      "state": "native_export_missing",
+      "passed": false
+    },
+    {
+      "variant": "low",
+      "key": "front_fascia",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/front_fascia.step",
+      "source_sha256": "b1ed4be5c9e6167cf2df65641f56895fee8ed2dde8b41d1a1bed7fce7943e4b6",
+      "native_sha256": "df6b30db8f21ae5545a9adb1ab27c9bbe851df2e8ee3f9cc209e5f5e9601a1ad",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 113393.92655424078,
+      "native_volume_mm3": 27232.19472973756,
+      "relative_volume_error": 0.7598443271411778,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "power_button",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/power_button.step",
+      "source_sha256": "4a87104d202a10119692b30cb905ece3a11e6a37838993bbf9eff82d691d2a99",
+      "native_sha256": "b648a205ce503f65426cc7e496ff9eee4d124a881c05da6b25fdbd19661219b5",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 63.617251235193294,
+      "native_volume_mm3": 63.617251235184014,
+      "relative_volume_error": 1.4586748010724097e-13,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.944109290391274e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 3.552713678800501e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "roll_cartridge_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/roll_cartridge_1.step",
+      "source_sha256": "ea9fb891bc282d7313f29384df410c2f58448991e39056fa9ff9f8890eca9c15",
+      "native_sha256": "6b202fb0bb4da9e953a62e5cbbc9285c03eec932121b44a5f4693b58eef0a226",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 17005.020971085676,
+      "native_volume_mm3": 17005.06215955543,
+      "relative_volume_error": 2.422135781148746e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.0005845379322785099
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0012303498722625959
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 8.700595799382427e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "motor_carrier_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/motor_carrier_1.step",
+      "source_sha256": "8424c2c1bce38e2b76c1140da282669d2e185c3c6b5f2a449a124c7c35a9c934",
+      "native_sha256": "c9825cc02fe2a6133c722e569f6369ebf3c3016e749918d9b91b345ccedc6a4d",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 78614.80798773827,
+      "native_volume_mm3": 79452.44702775331,
+      "relative_volume_error": 0.010654977878285853,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "hip_hub",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/hip_hub.step",
+      "source_sha256": "231863061c80f4d8204baf0395a54f30bc2761ac2ca760ff66bb37b136c2b71c",
+      "native_sha256": "8619a49f395f8a593f5a4be9c4911152cd8d87826e9b2507b1a09cac9bf21aca",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 23213.196701448458,
+      "native_volume_mm3": 23213.19670144859,
+      "relative_volume_error": 5.641930266637062e-15,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.357205982752212e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.572874009326965e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 7.602807272633072e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "motor_mount_ring",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/motor_mount_ring.step",
+      "source_sha256": "17ccd1aac5109e059c0cf9827cb362ce99e92f6036ba2800a3809768ded9cba9",
+      "native_sha256": "2b81c8804494c6ba64aaa5f92041efbdfc5b37814002ff44642522ab6339d4e7",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 12905.536957240718,
+      "native_volume_mm3": 12905.536957168384,
+      "relative_volume_error": 5.60487586537972e-12,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 8.520356270153135e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 9.098102279357706e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 8.700595799382427e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "pod_sleeve_90",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pod_sleeve_90.step",
+      "source_sha256": "c387e88a064c9e182861c91826f60c63819ce24cfe14ae7efbcaa45de217fedc",
+      "native_sha256": "7175dd051ecc023c1184cf7c03deb9b96c029e533b52edf5765148495a17439e",
+      "valid": true,
+      "source_solids": 2,
+      "native_solids": 2,
+      "source_volume_mm3": 485.5645605388381,
+      "native_volume_mm3": 485.56456053880254,
+      "relative_volume_error": 7.328372599387762e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.136584070361083e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 2.6645352591003757e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 4.898826221422483e-28,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "pod_sleeve_210",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pod_sleeve_210.step",
+      "source_sha256": "f4161c86a8df337a36a53b7ad67c3d2ce5f390cd4d889086d0b26a26f263b7ab",
+      "native_sha256": "8196682c85c4b96448bfdd6d7f62bca0b35aa01ac90e8a9adb4ac8a12135a1c7",
+      "valid": true,
+      "source_solids": 2,
+      "native_solids": 2,
+      "source_volume_mm3": 485.5645605388385,
+      "native_volume_mm3": 485.56456053880197,
+      "relative_volume_error": 7.52738591278966e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 3.105415219463157e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 3.1064453841869746e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 3.105071755271638e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "pod_sleeve_330",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pod_sleeve_330.step",
+      "source_sha256": "79e5dd089e44acbb647773857af9bd14b30f14c0504d1a07d896db12dbb003ef",
+      "native_sha256": "41220edcbd045c1cfdaccb0f7772cf460fcbdf98780fa05562f25ef6631e2a10",
+      "valid": true,
+      "source_solids": 2,
+      "native_solids": 2,
+      "source_volume_mm3": 485.56456053883846,
+      "native_volume_mm3": 485.56456053880197,
+      "relative_volume_error": 7.515679247295431e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.0869213824647059e-13
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 1.0869213824647059e-13
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 1.0658141036401503e-13,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "thigh_inner",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-thigh-inner-final.step",
+      "source_sha256": "9b9841da933392b33fb4449069ebfa7dabdfae639bae6608b80f6ce12800a7c0",
+      "native_sha256": "95f5c087a5650e6d0099327ffa593d8c4f3fae32d13ad1e449e0bb68df36faf9",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 62555.38668943875,
+      "native_volume_mm3": 62485.76736209826,
+      "relative_volume_error": 0.0011129229795367873,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.008739753576833608
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.007861397312902278
+        }
+      },
+      "critical_cylinders_passed": false,
+      "cylinder_error_mm": 3.105071755271638e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [
+        [
+          45.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "thigh_outer",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-thigh-outer-final.step",
+      "source_sha256": "8399701b44961cac3ae5a191dac43c3d434d130d85fbe70e282c31b0acb9345a",
+      "native_sha256": "1f3d8943f6ed8ebdd0640a7bd63d8dd47d6099b0f6e365d5b4a557e678914dce",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 114028.53654653532,
+      "native_volume_mm3": 115782.37812381348,
+      "relative_volume_error": 0.015380725127191403,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "sleeve_0",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/sleeve_0.step",
+      "source_sha256": "88404ecfba8529271606db6842f60bfd8737939a3587a86fc29a22be031e5197",
+      "native_sha256": "8e25ec9ed7aa54785b35c73eedf48b93ab8033289b6414fb2d3bfe8d0fc509ef",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 643.382467491921,
+      "native_volume_mm3": 1472.527308590501,
+      "relative_volume_error": 1.2887277521422225,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "sleeve_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/sleeve_1.step",
+      "source_sha256": "95ffd8e90f123ce3fb503b66def14263005af7ee9df2e3781ae713e9843ee51e",
+      "native_sha256": "f8f4e82fb78381edfc5bc342a33afcec166ec86d8eb4dbaa93dc81150dd3e1a0",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 1472.5273085906074,
+      "native_volume_mm3": 1472.5273085905005,
+      "relative_volume_error": 7.257293418931757e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.944109290391274e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 3.552713678800501e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "input_crank",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/input_crank.step",
+      "source_sha256": "aa29713f87d285758ef60af545e1f366e32e1b4e50815318dedba2a9db9d2272",
+      "native_sha256": "b899eca3b8e4c40357b87a9e4810420a41f6a9736dba2badde5c2b1af38372dd",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 14760.51928405281,
+      "native_volume_mm3": 15325.640282692313,
+      "relative_volume_error": 0.038285983559538876,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "pushrod",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pushrod.step",
+      "source_sha256": "f533c69ae21628ed9e741ec9e38c89f9567352f825202801254faaa89fd10eda",
+      "native_sha256": "2f85c614179c08c4d91948c7cd87ccc4b9f74eef9c109fd852fc8b35e7877ecd",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 7225.101731096673,
+      "native_volume_mm3": 7225.101731091252,
+      "relative_volume_error": 7.502438891948833e-13,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.327471962526033e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.105427357601002e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 4.4408920985006005e-16,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "knee_axle",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/knee_axle.step",
+      "source_sha256": "57fbb51e52579d384f6bba94b2eaf2c8c293bc3cf0c03be10e0c784e9ca1b26b",
+      "native_sha256": "768772a50417470a38e7a37a313ba30bdeccfbb081e38fd7554cb6e149511c66",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 2601.3518145078833,
+      "native_volume_mm3": 2601.351814507687,
+      "relative_volume_error": 7.551875701215621e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 8.43769498715119e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.549516567451064e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "knee_inner_spacer",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-knee-inner-spacer.step",
+      "source_sha256": "b6f3c122e310eb1b6fa3aea5364045c6bf012d2d42e2d3e1daa79a85d96781c6",
+      "native_sha256": "c4cd61a3ef977b5fdc7bdeebb459675c71c968b1e6221d5c47c2c753faaf6e49",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 1148.691937858573,
+      "native_volume_mm3": 1148.6919378584882,
+      "relative_volume_error": 7.383213736002334e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 2.847716647714797e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 8.881784197001252e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "shin_inner",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-shin-inner-final.step",
+      "source_sha256": "1383832fa3bba62b472bf31a483989e010cb0aaefffd6338da59fbea0eb37065",
+      "native_sha256": "733a6ae0cf954d0e9a024f48a9afe2b2871593e0e48068f25af15756a8cd0285",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 55441.65379794393,
+      "native_volume_mm3": 55432.5968250736,
+      "relative_volume_error": 0.00016336043840506565,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.006918504113907177
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.00732799320168983
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.976020010071807e-12,
+      "cylinder_axis_error": 4.103661854770735e-13,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "shin_outer",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-shin-outer-final.step",
+      "source_sha256": "f2c3d57d1ec3de30c3ac2a3a573a500a82be7fe9fcd3b7522d389366fe76f4a8",
+      "native_sha256": "0bbb2622f6ca5c4900658a1eb651e935bf33077a10dd3606a96410e144f6cdb9",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 60463.83943079188,
+      "native_volume_mm3": 60444.75630491368,
+      "relative_volume_error": 0.0003156122081866984,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.00800392042221787
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.005788574358299855
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.976020010071807e-12,
+      "cylinder_axis_error": 4.103661854770735e-13,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "shin_clamp_sleeve_37",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/shin_clamp_sleeve_37.step",
+      "source_sha256": "488aa92fc7df80bbf02505cba4b54a27464c48cee2a4a44debce6b7d7b3d446d",
+      "native_sha256": "0bb49fdc8fe7bd16a792ac3458337b826173354cb39c42914c4a20a113aaa919",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 643.3824674919218,
+      "native_volume_mm3": 643.3824674918746,
+      "relative_volume_error": 7.33312454695745e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.444291678311382e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 3.66205343881779e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "shin_clamp_sleeve_105",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/shin_clamp_sleeve_105.step",
+      "source_sha256": "3ccddb9db2d689c944ebf2ea5213fc38a7a34f36f3383f288020ccb49f8bb03e",
+      "native_sha256": "29883126bafcd835d22c7dcaa9bd510fe149e25d47753118c0b51ee78bd8b272",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 643.382467491921,
+      "native_volume_mm3": 643.3824674918744,
+      "relative_volume_error": 7.244773648801345e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 5.329070518200751e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 4.884981308350689e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "foot",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/foot.step",
+      "source_sha256": "ea6994176e2b085d1e0ebab009da2feca7f3f16fd3456b5fd0fd9e5e2397b102",
+      "native_sha256": "c6e59b4ff02745d81579d364e76fbd3c5e88fda4e04d8c3f08e6ff9e2b874648",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 36645.48052869114,
+      "native_volume_mm3": 36645.44332239604,
+      "relative_volume_error": 1.0153037856145276e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.002638697484766057
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.00253388077877346
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0,
+      "cylinder_axis_error": 0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "roll_cartridge_1_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/roll_cartridge_1_right.step",
+      "source_sha256": "a7fa8a423cd44bf9ba7fb3e3c9c1c77063ffb2549273c5374ff4b27d98ad49ec",
+      "native_sha256": "6bfab07f913efef3fb78d2b8f2216a5cbf0b0747854da939c98f6ab3f8f7ce86",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 17005.020971076374,
+      "native_volume_mm3": 17005.062159604444,
+      "relative_volume_error": 2.4221392105372135e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.00012700955491381984
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0013610894649337877
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 8.700595799382427e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "motor_carrier_1_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/motor_carrier_1_right.step",
+      "source_sha256": "099793a160165b314d1f513a7e6834ca1996c4b63851766237140ccbedc08579",
+      "native_sha256": "854cf5b268a1ef6118e9db828f59869683f0141c2795d6581a0145a187ccd1b1",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 78614.80798774313,
+      "native_volume_mm3": 79452.44702776082,
+      "relative_volume_error": 0.010654977878318884,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "hip_hub_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/hip_hub_right.step",
+      "source_sha256": "6b0a50298fba5749f0d8dd2313c1ec65e5b6357684a21dc82ab4d14188700f6e",
+      "native_sha256": "db0b0d50d18ba80d77d2c20420f84faa16208ffda859373147da69f45ad4081a",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 23213.19670144739,
+      "native_volume_mm3": 23213.19670144859,
+      "relative_volume_error": 5.171769411084212e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.357205982752212e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.572874009326965e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 7.602807272633072e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "motor_mount_ring_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/motor_mount_ring_right.step",
+      "source_sha256": "4ba0724246aaa72db6737dc935fce96a962f0dfb30d84695855d22bf4ac6745b",
+      "native_sha256": "af7b27fbb1a235ac7725b29886908a09abae0cc84f46bfb885bc8e4649d097d2",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 12905.536957240152,
+      "native_volume_mm3": 12905.536957168384,
+      "relative_volume_error": 5.561041524633268e-12,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 8.425560663141013e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 9.098102279357706e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 8.700595799382427e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "pod_sleeve_90_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pod_sleeve_90_right.step",
+      "source_sha256": "799bddf4d456608863d57fffbae07d2bf81007c5e7c68a51bf4625e71b26bde8",
+      "native_sha256": "b43b2ddda8b3aaca39d1e4818b5763221947fb1b41859637e8f6cfae12167708",
+      "valid": true,
+      "source_solids": 2,
+      "native_solids": 2,
+      "source_volume_mm3": 485.56456053882727,
+      "native_volume_mm3": 485.56456053880254,
+      "relative_volume_error": 5.0923994899900126e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 2.220446049250313e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 2.220446049250313e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 4.898826221422483e-28,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "pod_sleeve_210_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pod_sleeve_210_right.step",
+      "source_sha256": "e3fdf956b4a5378162a25ebedec60b34e24f414533bc03634d568c82f72966fb",
+      "native_sha256": "16dc33f133a20563385a3b08fd732f12c431aa8f69982807c2263766c7b3473d",
+      "valid": true,
+      "source_solids": 2,
+      "native_solids": 2,
+      "source_volume_mm3": 485.5645605388279,
+      "native_volume_mm3": 485.56456053880197,
+      "relative_volume_error": 5.338239465368834e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 3.105415219463157e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 3.1064453841869746e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 3.105071755271638e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "pod_sleeve_330_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pod_sleeve_330_right.step",
+      "source_sha256": "afa82dfecaf296e9b257c99a48e2bb8359a89792fe1053c4e83d01e3b0bee3be",
+      "native_sha256": "7fcf3d6db07446319e23c142baa07f2e29790ca76748b55e7304873b23c320f3",
+      "valid": true,
+      "source_solids": 2,
+      "native_solids": 2,
+      "source_volume_mm3": 485.56456053882795,
+      "native_volume_mm3": 485.56456053880197,
+      "relative_volume_error": 5.3499461308630635e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.103058955909832e-13
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 1.0869213824647059e-13
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 1.0658141036401503e-13,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "thigh_inner_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-thigh-inner-right-final.step",
+      "source_sha256": "99a41ce6d8a555e50c5e3b09d30c9d358f7d314b443b6bd98ff0936a566c94c2",
+      "native_sha256": "6400f6b14303ff01ea0446574838c777da5abd000d1ad738e49fb520af2de0d1",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 62555.38642874747,
+      "native_volume_mm3": 62486.52694493147,
+      "relative_volume_error": 0.0011007762520088005,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.31847238732855726
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.007826813515569459
+        }
+      },
+      "critical_cylinders_passed": false,
+      "cylinder_error_mm": 3.105071755271638e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [
+        [
+          45.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "thigh_outer_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-thigh-outer-right-final.step",
+      "source_sha256": "d8ae5d33c27422be10ec9be0bb278a7b34fd668e43ce96943016a2c6d5675019",
+      "native_sha256": "ec0d9ff7269b5f2325b374f313359a62d6f549046a49c90c999460c2a64d3744",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 114028.53562433197,
+      "native_volume_mm3": 115782.37296400552,
+      "relative_volume_error": 0.01538068808891476,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "sleeve_0_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/sleeve_0_right.step",
+      "source_sha256": "849ecedabd8c1f002e8c88753cd7d2bb2373c2ad35236f4715259704a4084218",
+      "native_sha256": "66affffd64ecb2de9bf8658940b735b76dc751eb0948984726bc2a98ee1cb388",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 643.3824674919069,
+      "native_volume_mm3": 1472.527308590501,
+      "relative_volume_error": 1.2887277521422726,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "sleeve_1_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/sleeve_1_right.step",
+      "source_sha256": "cdec935097ecc5f33f32c7025d9ac0bd296a46771ea704326872b6b19aef57c5",
+      "native_sha256": "ffd0a941a7aee9d7cb4d423b35664215f88c2d3e5bcfcad1262438b988155b66",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 1472.527308590575,
+      "native_volume_mm3": 1472.5273085905005,
+      "relative_volume_error": 5.064664343424826e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.944109290391274e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.105427357601002e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "input_crank_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/input_crank_right.step",
+      "source_sha256": "71ad89d9af2de752dd5caae492380280b430feff61d924274c138f25df7e1415",
+      "native_sha256": "2f48d791a5dbb6a136985ff9abae9ebdce96cc3b80afa5e102ad1fe4de96faac",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 14760.519284659487,
+      "native_volume_mm3": 15325.640282702152,
+      "relative_volume_error": 0.038285983517530535,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "pushrod_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pushrod_right.step",
+      "source_sha256": "76677428ca2000404b9047f210e66de7e3fa8ad61570867123b8fccdb9834df5",
+      "native_sha256": "e27001387fededace8e037ea57b008cd8bef80fba9949fc0d527f2d06db4fe84",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 7225.101731096692,
+      "native_volume_mm3": 7225.101731091252,
+      "relative_volume_error": 7.528873659856688e-13,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.327471962526033e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.105427357601002e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 4.4408920985006005e-16,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "knee_axle_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/knee_axle_right.step",
+      "source_sha256": "a8906fb541de7d9b400c45c756837dac036e784bdb952485b879c852d3055267",
+      "native_sha256": "f9e7f10abd81e4af97f6c94877ba78e4a523e971635f3da427eca4f8caff9b01",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 2601.351814507826,
+      "native_volume_mm3": 2601.351814507687,
+      "relative_volume_error": 5.349245288361183e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 8.881784197001252e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.549516567451064e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "knee_inner_spacer_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-knee-inner-spacer-right.step",
+      "source_sha256": "e79ffea78131008eba9d30008c2661dc566fb91788ce102a281152370127a78b",
+      "native_sha256": "f05aa8a2c28fc5835bd384ae82edfd690d527b915ce0237ba03f5913c130fb2c",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 1148.6919378585483,
+      "native_volume_mm3": 1148.6919378584882,
+      "relative_volume_error": 5.225652617438762e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 2.847716647714797e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 8.881784197001252e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "shin_inner_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-shin-inner-right-final.step",
+      "source_sha256": "3b83ca3f0204402ef4faca289c412482d4d752726a17cc1a10bcda65affc28cf",
+      "native_sha256": "03f8716426593a842f69a0677ac1b734b7e62c52adc930125ac98918c8df43b0",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 55441.65381160114,
+      "native_volume_mm3": 55432.596825073604,
+      "relative_volume_error": 0.00016336068469956238,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.007862423500274886
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.006632739626542146
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.976020010071807e-12,
+      "cylinder_axis_error": 4.103661854770735e-13,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "shin_outer_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-shin-outer-right-final.step",
+      "source_sha256": "3a863f3910861c0b6640e36c45a6151272b650850f06cf324a0a5eba534750e5",
+      "native_sha256": "ba3c477b0bf671ce616e5ddb6854dd3e75302c3582f3efc3dbf5a3ef83c181a1",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 60463.839431856424,
+      "native_volume_mm3": 60444.7563050383,
+      "relative_volume_error": 0.00031561222372634626,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.007298460141925743
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0076763718106963455
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.976020010071807e-12,
+      "cylinder_axis_error": 4.103661854770735e-13,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "shin_clamp_sleeve_37_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/shin_clamp_sleeve_37_right.step",
+      "source_sha256": "31bcaefe8b0e961cd03d3f482e7d4774d8186a336b6f347cedab2dc02607888e",
+      "native_sha256": "60adf59904b1f7ec59e76b9ee3a5431693fcbbba6375175f34e1b2e495649284",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 643.3824674919077,
+      "native_volume_mm3": 643.3824674918746,
+      "relative_volume_error": 5.1420222726859386e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.444291678311382e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 3.66205343881779e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "shin_clamp_sleeve_105_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/shin_clamp_sleeve_105_right.step",
+      "source_sha256": "8ae34dfce8b9fc032ce5d14f14665906139731438f533fea59a36a78ef03f715",
+      "native_sha256": "fa74bc4ac10d9d5d23437f3a2cd26468616c911d44d634eb2a3a0d49ea5b1c6f",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 643.382467491907,
+      "native_volume_mm3": 643.3824674918744,
+      "relative_volume_error": 5.071341554161051e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 5.329070518200751e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 4.884981308350689e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "foot_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/foot_right.step",
+      "source_sha256": "ef3df51046056ffd29610e63fa006d8f99ac59f8c52e917975c1fe2ef115d9ec",
+      "native_sha256": "aff1b0317f03232bd9c4877552012e678ffb54a7378f79b4ae2c2f54f478dc4a",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 36645.48052869156,
+      "native_volume_mm3": 36645.443322396095,
+      "relative_volume_error": 1.0153037953434627e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.0028023610495823627
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.002234999672354083
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0,
+      "cylinder_axis_error": 0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "roll_cartridge_-1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/roll_cartridge_-1.step",
+      "source_sha256": "5f2e80726996b3adac596cec76aa3c4cd09fdab43434d5f98008886791c8ccc6",
+      "native_sha256": "a7e18e632c9c1d8b194589d7f2a0e04ee5ce079b511e422edd7ea56e8bef1e59",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 17005.020971079182,
+      "native_volume_mm3": 17005.062159604444,
+      "relative_volume_error": 2.4221390453785557e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.0001270095503776334
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0013610894649337877
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 8.700595799382427e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "motor_carrier_-1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/motor_carrier_-1.step",
+      "source_sha256": "f54ecc8db4e4605a53e47f646dd234ffb605c7a9952feaf47429b2ac24937d53",
+      "native_sha256": "5b9e8fd9e6aa0ee6d38328c0dd209780c0ba38405ed188eafe42b82e8f50f152",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 78614.80798778044,
+      "native_volume_mm3": 79452.44893774133,
+      "relative_volume_error": 0.010655002173268487,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "low",
+      "key": "roll_cartridge_-1_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/roll_cartridge_-1_right.step",
+      "source_sha256": "2648d57ceca0e710e5c37b9de701f596ef8de16843fac5ccd74c96975ce1c165",
+      "native_sha256": "b1990a389ad00f8e63b700050abf49d4516ecd2d007325365e282cd1a9ef5513",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 17005.02097109422,
+      "native_volume_mm3": 17005.06215955543,
+      "relative_volume_error": 2.422135278612881e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.0005845379354978115
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0012303498722625959
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 8.700595799382427e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "low",
+      "key": "motor_carrier_-1_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/motor_carrier_-1_right.step",
+      "source_sha256": "1edf10391c732a2db367d70e0e6d61887c1f0807df778d48df406241506a559d",
+      "native_sha256": "843140ff5625371054e796f18053a6a20cc9bbfad5024ce0ee75965045e9d5dc",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 78614.80798776208,
+      "native_volume_mm3": 79452.44893778092,
+      "relative_volume_error": 0.010655002174008244,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "battery_side_panel_-1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_side_panel_-1.step",
+      "source_sha256": "eb0d6d2f90f6bb93a09dec17ae76f222ebac6669b26fa63c8284d86cdd4013ea",
+      "native_sha256": "a84868847dfae64f7444a5e6a7b6de5942bab73c5ee62aa25189e1030f89bf1a",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 12158.319924827525,
+      "native_volume_mm3": 12158.31992480222,
+      "relative_volume_error": 2.08135505058187e-12,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 6.636362645809572e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.621871735395822e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 1.0178524689763435e-11,
+      "cylinder_axis_error": 1.238453783969362e-13,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "battery_access_latch_-1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_access_latch_-1.step",
+      "source_sha256": "57ba96e3f65c5b4c4c9d7f8b2fd4c44e613dbb18c9f5100e1efe9ca8da7fc3ae",
+      "native_sha256": "0f76e046fd6bedfa49d413b978a9e355888f1917dbe3a65a2482076dd6bc85ff",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 152.60147322786102,
+      "native_volume_mm3": 152.60147184053136,
+      "relative_volume_error": 9.091194413683658e-09,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.5888218580782548e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.944109290391274e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "battery_side_panel_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_side_panel_1.step",
+      "source_sha256": "22c9ca7e483ad4ccb5bbf7e829e7c244110ba120ef4c38c0eb05dca3439bb0c5",
+      "native_sha256": "8077657459fd68c1a0c4c77b4eb3d19d0fe9ffbe1c997eae7426bb2b33a6eef0",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 12158.319924827549,
+      "native_volume_mm3": 12158.319924802216,
+      "relative_volume_error": 2.0835991798054666e-12,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 5.990410463502453e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.621871735395822e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 1.0178524689763435e-11,
+      "cylinder_axis_error": 1.238453783969362e-13,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "battery_access_latch_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_access_latch_1.step",
+      "source_sha256": "50118aa5d833e1a5413042356f869606a392bff8f968e03aa94c433abe7b3b6d",
+      "native_sha256": "39ede371417ca9f778ea899dd15a4b3d969202fe932fcdaccf354b579c96b1a6",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 152.60147322786102,
+      "native_volume_mm3": 152.60147184053136,
+      "relative_volume_error": 9.091194413683658e-09,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.464821375527116e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.32410687763558e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "battery_latch_-1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_latch_-1.step",
+      "source_sha256": "f874c940219037130955e137db944fd211ce4a7d12f02f549903e34c9a37fdd3",
+      "native_sha256": "dd68d341e8ce747d895d34a3aeefc27ce95d9472a0bd473437983a6ceaf1e930",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 710.837733925513,
+      "native_volume_mm3": 710.8377279220092,
+      "relative_volume_error": 8.445674064088344e-09,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.464821375527116e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.32410687763558e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "battery_latch_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_latch_1.step",
+      "source_sha256": "1216edfeef93ff0cb3223c3cd12d1369d5426b7c05618cd1a55b4dd15bf6fa1d",
+      "native_sha256": "6801d9f6f81631626b175198b5520efc4737d69f30090063ecf66e385ec8b415",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 710.837733925513,
+      "native_volume_mm3": 710.8377279220092,
+      "relative_volume_error": 8.445674064088344e-09,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.464821375527116e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.160723346098895e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "battery_cassette",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_cassette.step",
+      "source_sha256": "d63ec864b972627134bdee37c486a36f1a502664dbfe0b58c9cd7f7361277c59",
+      "native_sha256": "b23aff8d5b6e90cbc7f406e5297b396c078347c220c027d20284f5ef8c05b72e",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 170340.04929259937,
+      "native_volume_mm3": 170342.22169141573,
+      "relative_volume_error": 1.2753306256392999e-05,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.0008224746343873145
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0004073605230968884
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.992007221626409e-16,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "battery_skid",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/battery_skid.step",
+      "source_sha256": "d70f79575a2e77557fd1ad1d860c247293f674e6a09d127c132628e44e233497",
+      "native_sha256": "70e652331ef266199820a14d6ab5a2cbf4eac3094acea40a9663f40b30e9e4c2",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 39040.287520586455,
+      "native_volume_mm3": 39040.28752058636,
+      "relative_volume_error": 2.422816403042814e-15,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.4210854715202004e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 2.0097183471152322e-14
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "chassis_crossmember_-121",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/chassis_crossmember_-121.step",
+      "source_sha256": "82d1bd89cadaacfd723235b5e88b04c949264b549519957a778e4c87c9d87cb2",
+      "native_sha256": "a633c60030dcf1d27a82e5b5bc428c38801e200ebfa85e8a987c4e8e61f6e537",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 4698.510848799365,
+      "native_volume_mm3": 4698.510010271777,
+      "relative_volume_error": 1.7846667056583397e-07,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 6.995508846936477e-13
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.031501618211288e-13
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "chassis_crossmember_121",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/chassis_crossmember_121.step",
+      "source_sha256": "084262c8f4e39197b6d244fb8cef3f0391b9445e35302d29bb85734d3a4f7c86",
+      "native_sha256": "e94ac5422ddc09f75f388d0c28c62c0c1b34b89df3b4256b81bc4bf67786bcaf",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 4698.510848799365,
+      "native_volume_mm3": 4698.510010480532,
+      "relative_volume_error": 1.7842224044401004e-07,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 6.995508846936477e-13
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 6.989732803968395e-13
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "chassis_lower_brace",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/chassis_lower_brace.step",
+      "source_sha256": "fe527e39fd83b3d16fd1767db7ef5e48cc067e52504b7e9780d25e99fc3668fd",
+      "native_sha256": "f650d3023b6ec5dd65c5007ac640676168d17ec57c62efeae1170c773341263d",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 30235.25028474825,
+      "native_volume_mm3": 30235.250278678694,
+      "relative_volume_error": 2.0074437918871882e-10,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 5.803143289966653e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.045920019260886e-14
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "electronics_shelf",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/electronics_shelf.step",
+      "source_sha256": "c4d0aca0f42fe6dec318d8d3f7c286b7a032ba05876591a2a994601b8211bcfe",
+      "native_sha256": "d330018b323a66e400d12c150bdefba8c0217206a3794704be2fb8ccadc8a595",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 69626.65926135902,
+      "native_volume_mm3": 69626.65926135943,
+      "relative_volume_error": 5.85197725579228e-15,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.5888218580782548e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 1.5888218580782548e-14
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.992007221626409e-15,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "lidar_lid_shoulder",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/lidar_lid_shoulder.step",
+      "state": "source_export_missing",
+      "passed": false
+    },
+    {
+      "variant": "high",
+      "key": "power_button",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/power_button.step",
+      "source_sha256": "4a87104d202a10119692b30cb905ece3a11e6a37838993bbf9eff82d691d2a99",
+      "native_sha256": "b648a205ce503f65426cc7e496ff9eee4d124a881c05da6b25fdbd19661219b5",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 63.617251235193294,
+      "native_volume_mm3": 63.617251235184014,
+      "relative_volume_error": 1.4586748010724097e-13,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.944109290391274e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 3.552713678800501e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "roll_cartridge_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/roll_cartridge_1.step",
+      "source_sha256": "ea9fb891bc282d7313f29384df410c2f58448991e39056fa9ff9f8890eca9c15",
+      "native_sha256": "6b202fb0bb4da9e953a62e5cbbc9285c03eec932121b44a5f4693b58eef0a226",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 17005.020971085676,
+      "native_volume_mm3": 17005.06215955543,
+      "relative_volume_error": 2.422135781148746e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.0005845379322785099
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0012303498722625959
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 8.700595799382427e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "motor_carrier_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/motor_carrier_1.step",
+      "source_sha256": "8424c2c1bce38e2b76c1140da282669d2e185c3c6b5f2a449a124c7c35a9c934",
+      "native_sha256": "c9825cc02fe2a6133c722e569f6369ebf3c3016e749918d9b91b345ccedc6a4d",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 78614.80798773827,
+      "native_volume_mm3": 79452.44702775331,
+      "relative_volume_error": 0.010654977878285853,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "hip_hub",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/hip_hub.step",
+      "source_sha256": "231863061c80f4d8204baf0395a54f30bc2761ac2ca760ff66bb37b136c2b71c",
+      "native_sha256": "8619a49f395f8a593f5a4be9c4911152cd8d87826e9b2507b1a09cac9bf21aca",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 23213.196701448458,
+      "native_volume_mm3": 23213.19670144859,
+      "relative_volume_error": 5.641930266637062e-15,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.357205982752212e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.572874009326965e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 7.602807272633072e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "motor_mount_ring",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/motor_mount_ring.step",
+      "source_sha256": "17ccd1aac5109e059c0cf9827cb362ce99e92f6036ba2800a3809768ded9cba9",
+      "native_sha256": "2b81c8804494c6ba64aaa5f92041efbdfc5b37814002ff44642522ab6339d4e7",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 12905.536957240718,
+      "native_volume_mm3": 12905.536957168384,
+      "relative_volume_error": 5.60487586537972e-12,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 8.520356270153135e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 9.098102279357706e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 8.700595799382427e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "pod_sleeve_90",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pod_sleeve_90.step",
+      "source_sha256": "c387e88a064c9e182861c91826f60c63819ce24cfe14ae7efbcaa45de217fedc",
+      "native_sha256": "7175dd051ecc023c1184cf7c03deb9b96c029e533b52edf5765148495a17439e",
+      "valid": true,
+      "source_solids": 2,
+      "native_solids": 2,
+      "source_volume_mm3": 485.5645605388381,
+      "native_volume_mm3": 485.56456053880254,
+      "relative_volume_error": 7.328372599387762e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.136584070361083e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 2.6645352591003757e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 4.898826221422483e-28,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "pod_sleeve_210",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pod_sleeve_210.step",
+      "source_sha256": "f4161c86a8df337a36a53b7ad67c3d2ce5f390cd4d889086d0b26a26f263b7ab",
+      "native_sha256": "8196682c85c4b96448bfdd6d7f62bca0b35aa01ac90e8a9adb4ac8a12135a1c7",
+      "valid": true,
+      "source_solids": 2,
+      "native_solids": 2,
+      "source_volume_mm3": 485.5645605388385,
+      "native_volume_mm3": 485.56456053880197,
+      "relative_volume_error": 7.52738591278966e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 3.105415219463157e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 3.1064453841869746e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 3.105071755271638e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "pod_sleeve_330",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pod_sleeve_330.step",
+      "source_sha256": "79e5dd089e44acbb647773857af9bd14b30f14c0504d1a07d896db12dbb003ef",
+      "native_sha256": "41220edcbd045c1cfdaccb0f7772cf460fcbdf98780fa05562f25ef6631e2a10",
+      "valid": true,
+      "source_solids": 2,
+      "native_solids": 2,
+      "source_volume_mm3": 485.56456053883846,
+      "native_volume_mm3": 485.56456053880197,
+      "relative_volume_error": 7.515679247295431e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.0869213824647059e-13
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 1.0869213824647059e-13
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 1.0658141036401503e-13,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "thigh_inner",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-thigh-inner-final.step",
+      "source_sha256": "9b9841da933392b33fb4449069ebfa7dabdfae639bae6608b80f6ce12800a7c0",
+      "native_sha256": "95f5c087a5650e6d0099327ffa593d8c4f3fae32d13ad1e449e0bb68df36faf9",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 62555.38668943875,
+      "native_volume_mm3": 62485.76736209826,
+      "relative_volume_error": 0.0011129229795367873,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.008739753576833608
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.007861397312902278
+        }
+      },
+      "critical_cylinders_passed": false,
+      "cylinder_error_mm": 3.105071755271638e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [
+        [
+          45.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "thigh_outer",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-thigh-outer-final.step",
+      "source_sha256": "8399701b44961cac3ae5a191dac43c3d434d130d85fbe70e282c31b0acb9345a",
+      "native_sha256": "1f3d8943f6ed8ebdd0640a7bd63d8dd47d6099b0f6e365d5b4a557e678914dce",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 114028.53654653532,
+      "native_volume_mm3": 115782.37812381348,
+      "relative_volume_error": 0.015380725127191403,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "sleeve_0",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/sleeve_0.step",
+      "source_sha256": "88404ecfba8529271606db6842f60bfd8737939a3587a86fc29a22be031e5197",
+      "native_sha256": "8e25ec9ed7aa54785b35c73eedf48b93ab8033289b6414fb2d3bfe8d0fc509ef",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 643.382467491921,
+      "native_volume_mm3": 1472.527308590501,
+      "relative_volume_error": 1.2887277521422225,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "sleeve_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/sleeve_1.step",
+      "source_sha256": "95ffd8e90f123ce3fb503b66def14263005af7ee9df2e3781ae713e9843ee51e",
+      "native_sha256": "f8f4e82fb78381edfc5bc342a33afcec166ec86d8eb4dbaa93dc81150dd3e1a0",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 1472.5273085906074,
+      "native_volume_mm3": 1472.5273085905005,
+      "relative_volume_error": 7.257293418931757e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.944109290391274e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 3.552713678800501e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "input_crank",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/input_crank.step",
+      "source_sha256": "aa29713f87d285758ef60af545e1f366e32e1b4e50815318dedba2a9db9d2272",
+      "native_sha256": "b899eca3b8e4c40357b87a9e4810420a41f6a9736dba2badde5c2b1af38372dd",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 14760.51928405281,
+      "native_volume_mm3": 15325.640282692313,
+      "relative_volume_error": 0.038285983559538876,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "pushrod",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pushrod.step",
+      "source_sha256": "f533c69ae21628ed9e741ec9e38c89f9567352f825202801254faaa89fd10eda",
+      "native_sha256": "2f85c614179c08c4d91948c7cd87ccc4b9f74eef9c109fd852fc8b35e7877ecd",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 7225.101731096673,
+      "native_volume_mm3": 7225.101731091252,
+      "relative_volume_error": 7.502438891948833e-13,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.327471962526033e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.105427357601002e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 4.4408920985006005e-16,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "knee_axle",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/knee_axle.step",
+      "source_sha256": "57fbb51e52579d384f6bba94b2eaf2c8c293bc3cf0c03be10e0c784e9ca1b26b",
+      "native_sha256": "768772a50417470a38e7a37a313ba30bdeccfbb081e38fd7554cb6e149511c66",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 2601.3518145078833,
+      "native_volume_mm3": 2601.351814507687,
+      "relative_volume_error": 7.551875701215621e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 8.43769498715119e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.549516567451064e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "knee_inner_spacer",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-knee-inner-spacer.step",
+      "source_sha256": "b6f3c122e310eb1b6fa3aea5364045c6bf012d2d42e2d3e1daa79a85d96781c6",
+      "native_sha256": "c4cd61a3ef977b5fdc7bdeebb459675c71c968b1e6221d5c47c2c753faaf6e49",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 1148.691937858573,
+      "native_volume_mm3": 1148.6919378584882,
+      "relative_volume_error": 7.383213736002334e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 2.847716647714797e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 8.881784197001252e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "shin_inner",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-shin-inner-final.step",
+      "source_sha256": "1383832fa3bba62b472bf31a483989e010cb0aaefffd6338da59fbea0eb37065",
+      "native_sha256": "733a6ae0cf954d0e9a024f48a9afe2b2871593e0e48068f25af15756a8cd0285",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 55441.65379794393,
+      "native_volume_mm3": 55432.5968250736,
+      "relative_volume_error": 0.00016336043840506565,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.006918504113907177
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.00732799320168983
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.976020010071807e-12,
+      "cylinder_axis_error": 4.103661854770735e-13,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "shin_outer",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-shin-outer-final.step",
+      "source_sha256": "f2c3d57d1ec3de30c3ac2a3a573a500a82be7fe9fcd3b7522d389366fe76f4a8",
+      "native_sha256": "0bbb2622f6ca5c4900658a1eb651e935bf33077a10dd3606a96410e144f6cdb9",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 60463.83943079188,
+      "native_volume_mm3": 60444.75630491368,
+      "relative_volume_error": 0.0003156122081866984,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.00800392042221787
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.005788574358299855
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.976020010071807e-12,
+      "cylinder_axis_error": 4.103661854770735e-13,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "shin_clamp_sleeve_37",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/shin_clamp_sleeve_37.step",
+      "source_sha256": "488aa92fc7df80bbf02505cba4b54a27464c48cee2a4a44debce6b7d7b3d446d",
+      "native_sha256": "0bb49fdc8fe7bd16a792ac3458337b826173354cb39c42914c4a20a113aaa919",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 643.3824674919218,
+      "native_volume_mm3": 643.3824674918746,
+      "relative_volume_error": 7.33312454695745e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.444291678311382e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 3.66205343881779e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "shin_clamp_sleeve_105",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/shin_clamp_sleeve_105.step",
+      "source_sha256": "3ccddb9db2d689c944ebf2ea5213fc38a7a34f36f3383f288020ccb49f8bb03e",
+      "native_sha256": "29883126bafcd835d22c7dcaa9bd510fe149e25d47753118c0b51ee78bd8b272",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 643.382467491921,
+      "native_volume_mm3": 643.3824674918744,
+      "relative_volume_error": 7.244773648801345e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 5.329070518200751e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 4.884981308350689e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "foot",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/foot.step",
+      "source_sha256": "ea6994176e2b085d1e0ebab009da2feca7f3f16fd3456b5fd0fd9e5e2397b102",
+      "native_sha256": "c6e59b4ff02745d81579d364e76fbd3c5e88fda4e04d8c3f08e6ff9e2b874648",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 36645.48052869114,
+      "native_volume_mm3": 36645.44332239604,
+      "relative_volume_error": 1.0153037856145276e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.002638697484766057
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.00253388077877346
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0,
+      "cylinder_axis_error": 0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "roll_cartridge_1_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/roll_cartridge_1_right.step",
+      "source_sha256": "a7fa8a423cd44bf9ba7fb3e3c9c1c77063ffb2549273c5374ff4b27d98ad49ec",
+      "native_sha256": "6bfab07f913efef3fb78d2b8f2216a5cbf0b0747854da939c98f6ab3f8f7ce86",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 17005.020971076374,
+      "native_volume_mm3": 17005.062159604444,
+      "relative_volume_error": 2.4221392105372135e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.00012700955491381984
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0013610894649337877
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 8.700595799382427e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "motor_carrier_1_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/motor_carrier_1_right.step",
+      "source_sha256": "099793a160165b314d1f513a7e6834ca1996c4b63851766237140ccbedc08579",
+      "native_sha256": "854cf5b268a1ef6118e9db828f59869683f0141c2795d6581a0145a187ccd1b1",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 78614.80798774313,
+      "native_volume_mm3": 79452.44702776082,
+      "relative_volume_error": 0.010654977878318884,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "hip_hub_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/hip_hub_right.step",
+      "source_sha256": "6b0a50298fba5749f0d8dd2313c1ec65e5b6357684a21dc82ab4d14188700f6e",
+      "native_sha256": "db0b0d50d18ba80d77d2c20420f84faa16208ffda859373147da69f45ad4081a",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 23213.19670144739,
+      "native_volume_mm3": 23213.19670144859,
+      "relative_volume_error": 5.171769411084212e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.357205982752212e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.572874009326965e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 7.602807272633072e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "motor_mount_ring_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/motor_mount_ring_right.step",
+      "source_sha256": "4ba0724246aaa72db6737dc935fce96a962f0dfb30d84695855d22bf4ac6745b",
+      "native_sha256": "af7b27fbb1a235ac7725b29886908a09abae0cc84f46bfb885bc8e4649d097d2",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 12905.536957240152,
+      "native_volume_mm3": 12905.536957168384,
+      "relative_volume_error": 5.561041524633268e-12,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 8.425560663141013e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 9.098102279357706e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 8.700595799382427e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "pod_sleeve_90_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pod_sleeve_90_right.step",
+      "source_sha256": "799bddf4d456608863d57fffbae07d2bf81007c5e7c68a51bf4625e71b26bde8",
+      "native_sha256": "b43b2ddda8b3aaca39d1e4818b5763221947fb1b41859637e8f6cfae12167708",
+      "valid": true,
+      "source_solids": 2,
+      "native_solids": 2,
+      "source_volume_mm3": 485.56456053882727,
+      "native_volume_mm3": 485.56456053880254,
+      "relative_volume_error": 5.0923994899900126e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 2.220446049250313e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 2.220446049250313e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 4.898826221422483e-28,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "pod_sleeve_210_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pod_sleeve_210_right.step",
+      "source_sha256": "e3fdf956b4a5378162a25ebedec60b34e24f414533bc03634d568c82f72966fb",
+      "native_sha256": "16dc33f133a20563385a3b08fd732f12c431aa8f69982807c2263766c7b3473d",
+      "valid": true,
+      "source_solids": 2,
+      "native_solids": 2,
+      "source_volume_mm3": 485.5645605388279,
+      "native_volume_mm3": 485.56456053880197,
+      "relative_volume_error": 5.338239465368834e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 3.105415219463157e-12
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 3.1064453841869746e-12
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 3.105071755271638e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "pod_sleeve_330_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pod_sleeve_330_right.step",
+      "source_sha256": "afa82dfecaf296e9b257c99a48e2bb8359a89792fe1053c4e83d01e3b0bee3be",
+      "native_sha256": "7fcf3d6db07446319e23c142baa07f2e29790ca76748b55e7304873b23c320f3",
+      "valid": true,
+      "source_solids": 2,
+      "native_solids": 2,
+      "source_volume_mm3": 485.56456053882795,
+      "native_volume_mm3": 485.56456053880197,
+      "relative_volume_error": 5.3499461308630635e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 1.103058955909832e-13
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 1.0869213824647059e-13
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 1.0658141036401503e-13,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "thigh_inner_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-thigh-inner-right-final.step",
+      "source_sha256": "99a41ce6d8a555e50c5e3b09d30c9d358f7d314b443b6bd98ff0936a566c94c2",
+      "native_sha256": "6400f6b14303ff01ea0446574838c777da5abd000d1ad738e49fb520af2de0d1",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 62555.38642874747,
+      "native_volume_mm3": 62486.52694493147,
+      "relative_volume_error": 0.0011007762520088005,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.31847238732855726
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.007826813515569459
+        }
+      },
+      "critical_cylinders_passed": false,
+      "cylinder_error_mm": 3.105071755271638e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [
+        [
+          45.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "thigh_outer_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-thigh-outer-right-final.step",
+      "source_sha256": "d8ae5d33c27422be10ec9be0bb278a7b34fd668e43ce96943016a2c6d5675019",
+      "native_sha256": "ec0d9ff7269b5f2325b374f313359a62d6f549046a49c90c999460c2a64d3744",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 114028.53562433197,
+      "native_volume_mm3": 115782.37296400552,
+      "relative_volume_error": 0.01538068808891476,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "sleeve_0_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/sleeve_0_right.step",
+      "source_sha256": "849ecedabd8c1f002e8c88753cd7d2bb2373c2ad35236f4715259704a4084218",
+      "native_sha256": "66affffd64ecb2de9bf8658940b735b76dc751eb0948984726bc2a98ee1cb388",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 643.3824674919069,
+      "native_volume_mm3": 1472.527308590501,
+      "relative_volume_error": 1.2887277521422726,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "sleeve_1_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/sleeve_1_right.step",
+      "source_sha256": "cdec935097ecc5f33f32c7025d9ac0bd296a46771ea704326872b6b19aef57c5",
+      "native_sha256": "ffd0a941a7aee9d7cb4d423b35664215f88c2d3e5bcfcad1262438b988155b66",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 1472.527308590575,
+      "native_volume_mm3": 1472.5273085905005,
+      "relative_volume_error": 5.064664343424826e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.944109290391274e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.105427357601002e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "input_crank_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/input_crank_right.step",
+      "source_sha256": "71ad89d9af2de752dd5caae492380280b430feff61d924274c138f25df7e1415",
+      "native_sha256": "2f48d791a5dbb6a136985ff9abae9ebdce96cc3b80afa5e102ad1fe4de96faac",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 14760.519284659487,
+      "native_volume_mm3": 15325.640282702152,
+      "relative_volume_error": 0.038285983517530535,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "pushrod_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/pushrod_right.step",
+      "source_sha256": "76677428ca2000404b9047f210e66de7e3fa8ad61570867123b8fccdb9834df5",
+      "native_sha256": "e27001387fededace8e037ea57b008cd8bef80fba9949fc0d527f2d06db4fe84",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 7225.101731096692,
+      "native_volume_mm3": 7225.101731091252,
+      "relative_volume_error": 7.528873659856688e-13,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.327471962526033e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.105427357601002e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 4.4408920985006005e-16,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "knee_axle_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/knee_axle_right.step",
+      "source_sha256": "a8906fb541de7d9b400c45c756837dac036e784bdb952485b879c852d3055267",
+      "native_sha256": "f9e7f10abd81e4af97f6c94877ba78e4a523e971635f3da427eca4f8caff9b01",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 2601.351814507826,
+      "native_volume_mm3": 2601.351814507687,
+      "relative_volume_error": 5.349245288361183e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 8.881784197001252e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 7.549516567451064e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "knee_inner_spacer_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-knee-inner-spacer-right.step",
+      "source_sha256": "e79ffea78131008eba9d30008c2661dc566fb91788ce102a281152370127a78b",
+      "native_sha256": "f05aa8a2c28fc5835bd384ae82edfd690d527b915ce0237ba03f5913c130fb2c",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 1148.6919378585483,
+      "native_volume_mm3": 1148.6919378584882,
+      "relative_volume_error": 5.225652617438762e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 2.847716647714797e-14
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 8.881784197001252e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "shin_inner_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-shin-inner-right-final.step",
+      "source_sha256": "3b83ca3f0204402ef4faca289c412482d4d752726a17cc1a10bcda65affc28cf",
+      "native_sha256": "03f8716426593a842f69a0677ac1b734b7e62c52adc930125ac98918c8df43b0",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 55441.65381160114,
+      "native_volume_mm3": 55432.596825073604,
+      "relative_volume_error": 0.00016336068469956238,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.007862423500274886
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.006632739626542146
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.976020010071807e-12,
+      "cylinder_axis_error": 4.103661854770735e-13,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "shin_outer_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/cohesive-shin-outer-right-final.step",
+      "source_sha256": "3a863f3910861c0b6640e36c45a6151272b650850f06cf324a0a5eba534750e5",
+      "native_sha256": "ba3c477b0bf671ce616e5ddb6854dd3e75302c3582f3efc3dbf5a3ef83c181a1",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 60463.839431856424,
+      "native_volume_mm3": 60444.7563050383,
+      "relative_volume_error": 0.00031561222372634626,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.007298460141925743
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0076763718106963455
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 9.976020010071807e-12,
+      "cylinder_axis_error": 4.103661854770735e-13,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "shin_clamp_sleeve_37_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/shin_clamp_sleeve_37_right.step",
+      "source_sha256": "31bcaefe8b0e961cd03d3f482e7d4774d8186a336b6f347cedab2dc02607888e",
+      "native_sha256": "60adf59904b1f7ec59e76b9ee3a5431693fcbbba6375175f34e1b2e495649284",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 643.3824674919077,
+      "native_volume_mm3": 643.3824674918746,
+      "relative_volume_error": 5.1420222726859386e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 7.444291678311382e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 3.66205343881779e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "shin_clamp_sleeve_105_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/shin_clamp_sleeve_105_right.step",
+      "source_sha256": "8ae34dfce8b9fc032ce5d14f14665906139731438f533fea59a36a78ef03f715",
+      "native_sha256": "fa74bc4ac10d9d5d23437f3a2cd26468616c911d44d634eb2a3a0d49ea5b1c6f",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 643.382467491907,
+      "native_volume_mm3": 643.3824674918744,
+      "relative_volume_error": 5.071341554161051e-14,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 5.329070518200751e-15
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 4.884981308350689e-15
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0.0,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "foot_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/foot_right.step",
+      "source_sha256": "ef3df51046056ffd29610e63fa006d8f99ac59f8c52e917975c1fe2ef115d9ec",
+      "native_sha256": "aff1b0317f03232bd9c4877552012e678ffb54a7378f79b4ae2c2f54f478dc4a",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 36645.48052869156,
+      "native_volume_mm3": 36645.443322396095,
+      "relative_volume_error": 1.0153037953434627e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.0028023610495823627
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.002234999672354083
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 0,
+      "cylinder_axis_error": 0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "roll_cartridge_-1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/roll_cartridge_-1.step",
+      "source_sha256": "5f2e80726996b3adac596cec76aa3c4cd09fdab43434d5f98008886791c8ccc6",
+      "native_sha256": "a7e18e632c9c1d8b194589d7f2a0e04ee5ce079b511e422edd7ea56e8bef1e59",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 17005.020971079182,
+      "native_volume_mm3": 17005.062159604444,
+      "relative_volume_error": 2.4221390453785557e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.0001270095503776334
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0013610894649337877
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 8.700595799382427e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "motor_carrier_-1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/motor_carrier_-1.step",
+      "source_sha256": "f54ecc8db4e4605a53e47f646dd234ffb605c7a9952feaf47429b2ac24937d53",
+      "native_sha256": "5b9e8fd9e6aa0ee6d38328c0dd209780c0ba38405ed188eafe42b82e8f50f152",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 78614.80798778044,
+      "native_volume_mm3": 79452.44893774133,
+      "relative_volume_error": 0.010655002173268487,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "roll_cartridge_-1_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/roll_cartridge_-1_right.step",
+      "source_sha256": "2648d57ceca0e710e5c37b9de701f596ef8de16843fac5ccd74c96975ce1c165",
+      "native_sha256": "b1990a389ad00f8e63b700050abf49d4516ecd2d007325365e282cd1a9ef5513",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 17005.02097109422,
+      "native_volume_mm3": 17005.06215955543,
+      "relative_volume_error": 2.422135278612881e-06,
+      "surface_deviation": {
+        "source_to_native": {
+          "samples": 240,
+          "maximum_mm": 0.0005845379354978115
+        },
+        "native_to_source": {
+          "samples": 240,
+          "maximum_mm": 0.0012303498722625959
+        }
+      },
+      "critical_cylinders_passed": true,
+      "cylinder_error_mm": 8.700595799382427e-12,
+      "cylinder_axis_error": 0.0,
+      "unexplained_cylinders": [],
+      "passed": true,
+      "state": "geometry_screen_passed"
+    },
+    {
+      "variant": "high",
+      "key": "motor_carrier_-1_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/motor_carrier_-1_right.step",
+      "source_sha256": "1edf10391c732a2db367d70e0e6d61887c1f0807df778d48df406241506a559d",
+      "native_sha256": "843140ff5625371054e796f18053a6a20cc9bbfad5024ce0ee75965045e9d5dc",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 78614.80798776208,
+      "native_volume_mm3": 79452.44893778092,
+      "relative_volume_error": 0.010655002174008244,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "body_center_0",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/body_center_0.step",
+      "source_sha256": "5c7a466130071e36e6452c296de9eac337fa9c12fa6037b284a43c60bbd163d8",
+      "native_sha256": "5fe29bec425ea0ac498d1c6f93c9d0a41f54fa29e8d1c1f4e2af45c58536b81d",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 347121.58396794274,
+      "native_volume_mm3": 301463.96873465023,
+      "relative_volume_error": 0.13153205488227165,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "belly_center_0",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/belly_center_0.step",
+      "source_sha256": "23c178af5d50b5b517b6227b8a1f60f61f55bffd7a92bb594bb715171e138092",
+      "native_sha256": "539c1466bab6b80aeb23adc097513ff253fa89f9d14340588a094767249c08e6",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 114092.35006968635,
+      "native_volume_mm3": 104304.14365971487,
+      "relative_volume_error": 0.08579196067039507,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "neck_left",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/neck_left.step",
+      "state": "native_export_missing",
+      "passed": false
+    },
+    {
+      "variant": "high",
+      "key": "neck_right",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/neck_right.step",
+      "state": "native_export_missing",
+      "passed": false
+    },
+    {
+      "variant": "high",
+      "key": "head_bridge_spacer_30_-1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/head_bridge_spacer_30_-1.step",
+      "state": "native_export_missing",
+      "passed": false
+    },
+    {
+      "variant": "high",
+      "key": "head_bridge_spacer_62_-1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/head_bridge_spacer_62_-1.step",
+      "state": "native_export_missing",
+      "passed": false
+    },
+    {
+      "variant": "high",
+      "key": "head_bridge_spacer_30_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/head_bridge_spacer_30_1.step",
+      "state": "native_export_missing",
+      "passed": false
+    },
+    {
+      "variant": "high",
+      "key": "head_bridge_spacer_62_1",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/head_bridge_spacer_62_1.step",
+      "state": "native_export_missing",
+      "passed": false
+    },
+    {
+      "variant": "high",
+      "key": "head_bridge",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/head_bridge.step",
+      "state": "native_export_missing",
+      "passed": false
+    },
+    {
+      "variant": "high",
+      "key": "head_bumper",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/head_bumper.step",
+      "state": "native_export_missing",
+      "passed": false
+    },
+    {
+      "variant": "high",
+      "key": "chassis_beam_-102",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/chassis_beam_-102.step",
+      "source_sha256": "39cb9f4320845ccc2231623447b8e718f8911f809a4c4687aca50bb59a3774c0",
+      "native_sha256": "b402ac8891ed2280a3d66826a593489d39e78d2ee2e05541c6f3b277599be879",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 21461.783552894143,
+      "native_volume_mm3": 17500.461625432923,
+      "relative_volume_error": 0.1845756163600407,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "chassis_beam_102",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/chassis_beam_102.step",
+      "source_sha256": "3935244a92552f910f6e7e2dde9b46661b3a1e62385e9cec1ad2a73efe37014f",
+      "native_sha256": "df1cae0bacc4b64073fe8194c3336fd42f3b9da2c465a7df6cd92b385e29543b",
+      "valid": true,
+      "source_solids": 1,
+      "native_solids": 1,
+      "source_volume_mm3": 21461.783552871933,
+      "native_volume_mm3": 17500.459679819007,
+      "relative_volume_error": 0.1845757070140071,
+      "passed": false,
+      "state": "geometry_differs"
+    },
+    {
+      "variant": "high",
+      "key": "equipment_head_lower",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/equipment_head_lower.step",
+      "state": "native_export_missing",
+      "passed": false
+    },
+    {
+      "variant": "high",
+      "key": "equipment_head_lid",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/equipment_head_lid.step",
+      "state": "native_export_missing",
+      "passed": false
+    },
+    {
+      "variant": "high",
+      "key": "head_visor",
+      "scope": "Local native export coverage screen only",
+      "native_file": "exports/head_visor.step",
+      "state": "native_export_missing",
+      "passed": false
+    }
+  ],
+  "geometry_screen_passed": false,
+  "migration_gate_passed": false,
+  "scope": "Finite local STEP boundary, volume and cylindrical datum screen. Passing rows still require native history, sections, edits, saved-state, assembly, motion and service qualification."
+}

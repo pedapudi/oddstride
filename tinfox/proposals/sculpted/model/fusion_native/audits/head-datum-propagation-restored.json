@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "role": "head",
+  "phase": "restored",
+  "before_reference_update": {
+    "role": "head",
+    "version": 21,
+    "modified": true,
+    "up_to_date": true,
+    "can_advance": false,
+    "parameters_mm": {
+      "body_hip_x": 190.0,
+      "saddle_fastener_diametral_clearance": 0.6
+    },
+    "derived_parameters_mm": {
+      "cover_half_width_Ref": 111.20000000000002,
+      "cover_roll_y_Ref": 68.0,
+      "robot_hip_x_Ref": 190.0,
+      "robot_roll_y_Ref": 68.0,
+      "robot_body_wall_Ref": 2.8,
+      "robot_sensor_seat_z_Ref": 80.0,
+      "robot_fastener_diametral_allowance_Ref": 0.6,
+      "robot_body_half_width_Ref": 111.20000000000002
+    },
+    "parts": {
+      "front_fascia": {
+        "bounds_mm": [
+          80.99999999999997,
+          -91.62896475777217,
+          -37.3824525200839,
+          262.24467120181407,
+          98.09615384615384,
+          80.0
+        ],
+        "features": 26,
+        "faces": 97
+      },
+      "body_nose_surround": {
+        "bounds_mm": [
+          89.99999999999999,
+          -32.0,
+          42.80000000000001,
+          179.0,
+          32.0,
+          60.00000000000001
+        ],
+        "features": 13,
+        "faces": 114
+      }
+    },
+    "frames": {},
+    "fastener_probe": 2,
+    "unhealthy": []
+  },
+  "state": {
+    "role": "head",
+    "version": 21,
+    "modified": true,
+    "up_to_date": true,
+    "can_advance": false,
+    "parameters_mm": {
+      "body_hip_x": 185.0,
+      "saddle_fastener_diametral_clearance": 0.4000000000000001
+    },
+    "derived_parameters_mm": {
+      "cover_half_width_Ref": 111.20000000000002,
+      "cover_roll_y_Ref": 68.0,
+      "robot_hip_x_Ref": 185.0,
+      "robot_roll_y_Ref": 68.0,
+      "robot_body_wall_Ref": 2.8,
+      "robot_sensor_seat_z_Ref": 80.0,
+      "robot_fastener_diametral_allowance_Ref": 0.4000000000000001,
+      "robot_body_half_width_Ref": 111.20000000000002
+    },
+    "parts": {
+      "front_fascia": {
+        "bounds_mm": [
+          75.99999999999997,
+          -91.62896475777214,
+          -37.38245252008387,
+          257.24467120181407,
+          98.09615384615384,
+          80.0
+        ],
+        "features": 26,
+        "faces": 97
+      },
+      "body_nose_surround": {
+        "bounds_mm": [
+          84.99999999999999,
+          -32.0,
+          42.80000000000001,
+          174.0,
+          32.0,
+          60.00000000000001
+        ],
+        "features": 13,
+        "faces": 114
+      }
+    },
+    "frames": {},
+    "fastener_probe": 0,
+    "unhealthy": []
+  },
+  "maximum_geometry_or_pose_error": 0,
+  "elapsed_seconds": 15.477969874977134,
+  "scope": "Actual derived datum propagation and restoration. Frame rail lengths, fixed body reference placements and whole-family fit remain separate."
+}

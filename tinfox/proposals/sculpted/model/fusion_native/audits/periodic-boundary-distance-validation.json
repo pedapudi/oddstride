@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "source_step_sha256": "72b1f1c3bc6e89d66e37ee4f264c4c6813617ed7d4070d315771abe944ef897e",
+  "tests": [
+    {
+      "case": "on source periodic seam",
+      "expected_mm": 0,
+      "actual_mm": 1.7763568394002505e-15
+    },
+    {
+      "case": "radially outside by .2mm",
+      "expected_mm": 0.2,
+      "actual_mm": 0.19999999999999982
+    },
+    {
+      "case": "above pad top by .3mm",
+      "expected_mm": 0.3,
+      "actual_mm": 0.29999999999999716
+    }
+  ],
+  "projection_recoveries": [
+    {
+      "point_mm": [
+        1.9451875012257154,
+        53.875,
+        47.557862193948345
+      ],
+      "face": 2,
+      "original_compound_distance_mm": 0.375,
+      "classified_uv": [
+        6.432185916976364,
+        -3.375
+      ],
+      "projected_distance_mm": 1.7763568394002505e-15
+    },
+    {
+      "point_mm": [
+        2.0316402790579695,
+        53.875,
+        47.738211624790495
+      ],
+      "face": 2,
+      "original_compound_distance_mm": 0.4250000000000004,
+      "classified_uv": [
+        6.432185916976364,
+        -3.375
+      ],
+      "projected_distance_mm": 0.19999999999999982
+    }
+  ],
+  "scope": "Analytic projection is accepted only on a UV branch classified inside the trimmed source face. The original section and geometric tolerances are unchanged."
+}

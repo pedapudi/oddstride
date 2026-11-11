@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "saved": false,
+  "tests": [
+    {
+      "parameter": "bt_knee_axle_id",
+      "edited_value": "5.6 mm",
+      "affected_definitions": [
+        "CANDIDATE_bt_knee_axle_right",
+        "CANDIDATE_bt_knee_axle"
+      ],
+      "healthy": true,
+      "nominal_hardware_unchanged": true,
+      "restore_max_errors": {
+        "CANDIDATE_bt_sleeve_0_right": 0.0,
+        "CANDIDATE_bt_pod_sleeve_210": 0.0,
+        "CANDIDATE_bt_pod_sleeve_90": 0.0,
+        "CANDIDATE_bt_sleeve_1": 0.0,
+        "CANDIDATE_bt_knee_axle_right": 0.0,
+        "CANDIDATE_bt_pod_sleeve_90_right": 0.0,
+        "CANDIDATE_bt_sleeve_1_right": 0.0,
+        "CANDIDATE_bt_pod_sleeve_210_right": 0.0,
+        "CANDIDATE_bt_pod_sleeve_330": 0.0,
+        "CANDIDATE_bt_pod_sleeve_330_right": 0.0,
+        "CANDIDATE_bt_sleeve_0": 0.0,
+        "CANDIDATE_bt_knee_axle": 0.0
+      }
+    },
+    {
+      "parameter": "bt_clamp_id",
+      "edited_value": "4.4 mm",
+      "affected_definitions": [
+        "CANDIDATE_bt_sleeve_0_right",
+        "CANDIDATE_bt_sleeve_1",
+        "CANDIDATE_bt_sleeve_1_right",
+        "CANDIDATE_bt_sleeve_0"
+      ],
+      "healthy": true,
+      "nominal_hardware_unchanged": true,
+      "restore_max_errors": {
+        "CANDIDATE_bt_sleeve_0_right": 0.0,
+        "CANDIDATE_bt_pod_sleeve_210": 0.0,
+        "CANDIDATE_bt_pod_sleeve_90": 0.0,
+        "CANDIDATE_bt_sleeve_1": 0.0,
+        "CANDIDATE_bt_knee_axle_right": 0.0,
+        "CANDIDATE_bt_pod_sleeve_90_right": 0.0,
+        "CANDIDATE_bt_sleeve_1_right": 0.0,
+        "CANDIDATE_bt_pod_sleeve_210_right": 0.0,
+        "CANDIDATE_bt_pod_sleeve_330": 0.0,
+        "CANDIDATE_bt_pod_sleeve_330_right": 0.0,
+        "CANDIDATE_bt_sleeve_0": 0.0,
+        "CANDIDATE_bt_knee_axle": 0.0
+      }
+    },
+    {
+      "parameter": "bt_pod_short_length",
+      "edited_value": "6.5 mm",
+      "affected_definitions": [
+        "CANDIDATE_bt_pod_sleeve_210",
+        "CANDIDATE_bt_pod_sleeve_90",
+        "CANDIDATE_bt_pod_sleeve_90_right",
+        "CANDIDATE_bt_pod_sleeve_210_right",
+        "CANDIDATE_bt_pod_sleeve_330",
+        "CANDIDATE_bt_pod_sleeve_330_right"
+      ],
+      "healthy": true,
+      "nominal_hardware_unchanged": true,
+      "restore_max_errors": {
+        "CANDIDATE_bt_sleeve_0_right": 0.0,
+        "CANDIDATE_bt_pod_sleeve_210": 0.0,
+        "CANDIDATE_bt_pod_sleeve_90": 0.0,
+        "CANDIDATE_bt_sleeve_1": 0.0,
+        "CANDIDATE_bt_knee_axle_right": 0.0,
+        "CANDIDATE_bt_pod_sleeve_90_right": 0.0,
+        "CANDIDATE_bt_sleeve_1_right": 0.0,
+        "CANDIDATE_bt_pod_sleeve_210_right": 0.0,
+        "CANDIDATE_bt_pod_sleeve_330": 0.0,
+        "CANDIDATE_bt_pod_sleeve_330_right": 0.0,
+        "CANDIDATE_bt_sleeve_0": 0.0,
+        "CANDIDATE_bt_knee_axle": 0.0
+      }
+    }
+  ],
+  "definitions": 12,
+  "elapsed_seconds": 177.81971145799616,
+  "scope": "Independent stock dimensions and handed propagation. Clamp preload, material strength and manufacturing tolerances remain unqualified."
+}

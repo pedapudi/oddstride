@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"error\": \"Traceback (most recent call last):\\n  File \\\"<string>\\\", line 42, in <module>\\n  File \\\"<string>\\\", line 40, in run\\n  File \\\"tinfox_native.py\\\", line 3, in run\\n  File \\\"/Users/sunil/Library/Application Support/Autodesk/webdeploy/production/7698c9b1a08b85444b2eb3d6ec1ab6ea0789097a/Autodesk Fusion.app/Contents/Api/Python/packages/adsk/core.py\\\", line 10950, in createDataVersion\\n    return _core.DataFile_createDataVersion(self, versionDescription)\\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\\nRuntimeError: 3 : Create version is not applicable for this file\\n\",\n    \"success\": false\n}",
+        "type": "text"
+      }
+    ]
+  }
+}

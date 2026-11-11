@@ -1,0 +1,34 @@
+{
+  "previous_model_sha256": "1485602fff18f2fa0528291649df26f33849d54e56bfb459b09003c3ef8d1729",
+  "model_sha256": "d289382312c67d607ae42eb40229edd7500df32403f1ffbc8be0dc520688b409",
+  "changed_mesh_parts": [
+    "FL_thigh_inner",
+    "FL_thigh_outer",
+    "FL_shin_inner",
+    "FL_shin_outer",
+    "FR_thigh_inner",
+    "FR_thigh_outer",
+    "FR_shin_inner",
+    "FR_shin_outer",
+    "RL_thigh_inner",
+    "RL_thigh_outer",
+    "RL_shin_inner",
+    "RL_shin_outer",
+    "RR_thigh_inner",
+    "RR_thigh_outer",
+    "RR_shin_inner",
+    "RR_shin_outer"
+  ],
+  "equivalent_triangulation_to_1e_8_mm": [
+    "body_wordmark"
+  ],
+  "removed_parts": [
+    "RL_knee_scallop_skid",
+    "FL_knee_scallop_skid",
+    "FR_knee_scallop_skid",
+    "RR_knee_scallop_skid"
+  ],
+  "body_motor_hardware_and_foot_geometry_unchanged": true,
+  "historical_scope": "Records the preceding limb revision, before the later body-only revision. See body-revision-comparison.json for the current body and unchanged-limb check.",
+  "status": "Historical geometry study; model_sha256 identifies the studied revision. Consult current mounting-audit.json and print-strength-audit.json for the continuous shin shell."
+}

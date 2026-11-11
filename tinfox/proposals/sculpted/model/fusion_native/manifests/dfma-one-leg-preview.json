@@ -1,0 +1,80 @@
+{
+  "review_model": "exports/dfma-architecture-v1/dfma-one-leg-preview-v3.json.gz",
+  "review_model_sha256": "4be0623b242e2ff665e85432b07a6e99dcccdb668b5ecc2fb432d5e4c5927d5b",
+  "gzip_sha256": "beb9f68429a56b9baf0bb8c94ec5ef3a9905cbbc8bf818ea52ad5b934b6a3467",
+  "parts": 132,
+  "triangles": 824108,
+  "raw_bytes": 51510715,
+  "gzip_bytes": 17152150,
+  "native_source_of_truth": false,
+  "manufacturing_release": false,
+  "scope": "Static native-derived DFMA one-leg proposal with shallow outside screw access. Full factory screw pattern, unchanged exterior and physical piece count. Not a manufacturing release.",
+  "assembly_counts": {
+    "baseline_physical_pieces": 151,
+    "candidate_physical_pieces": 132,
+    "candidate_screws_pins": 52,
+    "candidate_purchased_hardware": 81,
+    "candidate_fabricated": 24,
+    "motors": 3,
+    "connector_detail_bodies": 24
+  },
+  "saved_checkpoint": {
+    "document": "Tinfox - Leg module",
+    "version": 36,
+    "save_complete": true,
+    "modified_after_save": false,
+    "evidence": "audits/dfma-shallow-seat-saved-state.json",
+    "mesh_capture_provenance": "The published v3 meshes were captured after the shallow-seat edits while working fromLeg35. The same geometry is now saved inLeg36; no geometry or review-file changes were made during this checkpoint."
+  },
+  "focused_checks": [
+    "audits/dfma-shallow-outer-seats.json",
+    "audits/dfma-shallow-seat-export.json"
+  ],
+  "focused_dfma_review": {
+    "report": "../../../../analysis/dfma/fastener-reduction/thigh-detail/final-detail-delta.json",
+    "sha256": "dbfe8d7b26d1b131000f29c8bae0862e1e8dc532fe17e29e463bb45a48022067",
+    "passed": true,
+    "scope": "The two changed local sections and valid-solid check only."
+  },
+  "remaining_before_print_release": [
+    "Choose and slice orientations/supports for the integrated primary and secondary halves; retain the limb long axis along the bed where practical.",
+    "Check physical motor, cable, screw, washer and cut-tube fits; nominal geometry does not establish polymer preload retention.",
+    "Prepare updated native-derived print files; prior structural motor-complex parts are superseded by this proposal."
+  ],
+  "working_state": {
+    "saved_version": 36,
+    "modified": false,
+    "save_complete": true,
+    "evidence": "audits/dfma-shallow-seat-saved-state.json"
+  },
+  "changed_entries": [
+    "FL_thigh_outer",
+    "FL_sleeve_0",
+    "FL_sleeve_1",
+    "FL_bolt_0",
+    "FL_bolt_1",
+    "FL_thigh_clamp_nut_0",
+    "FL_thigh_clamp_nut_1",
+    "FL_thigh_clamp_washer_0_outer",
+    "FL_thigh_clamp_washer_1_outer",
+    "FL_knee_stator_bolt_20",
+    "FL_knee_stator_bolt_60",
+    "FL_knee_stator_bolt_300",
+    "FL_knee_stator_bolt_340",
+    "FL_stator_tube_20",
+    "FL_stator_washer_20",
+    "FL_stator_tube_60",
+    "FL_stator_washer_60",
+    "FL_stator_tube_300",
+    "FL_stator_washer_300",
+    "FL_stator_tube_340",
+    "FL_stator_washer_340"
+  ],
+  "hardware_revision": {
+    "motor_stator_long_screws": "4 x M3 x45 ISO4762, replaces4 x M3 x40",
+    "motor_tubes": "4 x6OD/4ID x39mm, replaces34mm",
+    "thigh_clamps": "2 x M4 x40 ISO7380-1 fromoutside, same2M4nuts movedinside",
+    "clamp_tubes": "2 x8OD/4.3ID x31mm, replaces18mm",
+    "washers": "Same12OD washers; no extra pieces"
+  }
+}

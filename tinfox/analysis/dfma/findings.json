@@ -1,0 +1,128 @@
+{
+  "model_sha256": "beeac749ee36ea254189f884d8be080e354d245108a6cbd2c7506d8f2f7c3dc8",
+  "findings": [
+    {
+      "finding": "Structural shell clamp footprint",
+      "severity": "blocker",
+      "evidence_state": "verified defect",
+      "route": "Both",
+      "evidence": [
+        "clamp-bearing-faces.json",
+        "washer-land-screen.json"
+      ],
+      "required_action": "Revise head/nut bearing lands and compression stack; test slip and preload."
+    },
+    {
+      "finding": "Thigh stator-pocket cutter access",
+      "severity": "blocker",
+      "evidence_state": "suspected access constraint",
+      "route": "CNC",
+      "evidence": [
+        "thigh-lobe-access.json"
+      ],
+      "required_action": "Demonstrate all pocket faces with standard cutter/holder or revise exposed structural split."
+    },
+    {
+      "finding": "Cassette guide and gusset access",
+      "severity": "blocker",
+      "evidence_state": "unverified setup",
+      "route": "Both",
+      "evidence": [
+        "inventory.json",
+        "input-source/build.py"
+      ],
+      "required_action": "Prove support removal and straight-tool setups; revise trapped features if needed."
+    },
+    {
+      "finding": "Printed leg and frame strength",
+      "severity": "blocker",
+      "evidence_state": "qualification missing",
+      "route": "FDM",
+      "evidence": [
+        "inventory.json"
+      ],
+      "required_action": "Select actual printed/hybrid route, complete directional coupons and assembled load/creep tests."
+    },
+    {
+      "finding": "Boot, lower cover and skid retention",
+      "severity": "blocker",
+      "evidence_state": "design definition missing",
+      "route": "Both",
+      "evidence": [
+        "inventory.json"
+      ],
+      "required_action": "Complete serviceable retention geometry and hardware."
+    },
+    {
+      "finding": "Battery and equipment interfaces",
+      "severity": "major",
+      "evidence_state": "components unselected",
+      "route": "Both",
+      "evidence": [
+        "inventory.json"
+      ],
+      "required_action": "Select commercial packs, adapters, contacts, computer/sensors and retention before final packaging."
+    },
+    {
+      "finding": "Bearing, shaft and bushing fit intervals",
+      "severity": "major",
+      "evidence_state": "qualification missing",
+      "route": "Both",
+      "evidence": [
+        "inventory.json"
+      ],
+      "required_action": "Use supplier dimensions, independent fit/process parameters and manufactured coupons."
+    },
+    {
+      "finding": "Current print preparations",
+      "severity": "major",
+      "evidence_state": "release evidence missing",
+      "route": "FDM",
+      "evidence": [
+        "inventory.json"
+      ],
+      "required_action": "Regenerate plate/profile/layer review for released geometry; older-hash support files do not apply automatically."
+    },
+    {
+      "finding": "Integrated rail and enclosure machining effort",
+      "severity": "major",
+      "evidence_state": "geometry cost indicator",
+      "route": "CNC",
+      "evidence": [
+        "inventory.json"
+      ],
+      "required_action": "Quote multi-setup fixtures and evaluate flat/formed routes for cosmetic or simple parts."
+    },
+    {
+      "finding": "Short tubes and trimmed shoulder screws",
+      "severity": "major",
+      "evidence_state": "additional manufacturing operations",
+      "route": "Both",
+      "evidence": [
+        "input-source/slim_limb.py"
+      ],
+      "required_action": "Create cut/face/deburr gauges and assemble pod stacks on bench as retained modules."
+    },
+    {
+      "finding": "M3 tie screw displayed seating",
+      "severity": "minor",
+      "evidence_state": "nominal model clearance",
+      "route": "Both",
+      "evidence": [
+        "input-source/cohesive_chassis.py"
+      ],
+      "required_action": "Model selected head profile and seated position; observed normal gap0.07071mm."
+    },
+    {
+      "finding": "Extraction holes tangent to bearing-seat boundary",
+      "severity": "minor",
+      "evidence_state": "geometric robustness concern",
+      "route": "Both",
+      "evidence": [
+        "input-source/cohesive_limb.py"
+      ],
+      "required_action": "Resolve cutter/press-tool contact on actual bearing race while preserving full support; avoid zero-width tangencies."
+    }
+  ],
+  "scope": "Review of the frozen input model; corrective geometry requires a separate disposition."
+}

@@ -1,0 +1,228 @@
+{
+  "model_sha256": "144a84e88daed50139f890480e9f1a1740cfb20c773e740ba6b4e9c1b9eede5e",
+  "paths": [
+    {
+      "name": "Remove outer thigh with integral service ring",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "samples": [
+        {
+          "offset_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 0.1,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 0.3,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 3,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 5,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 12,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 20,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 30,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 45,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 60,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Insert stator plate with outer thigh removed",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "samples": [
+        {
+          "offset_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 0.1,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 0.3,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 3,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 5,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 12,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 20,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 30,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 45,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 60,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Insert motor envelope and stator plate",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "samples": [
+        {
+          "offset_mm": 0,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 0.05,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 0.1,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 0.3,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 0.5,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 1,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 2,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 3,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 5,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 8,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 12,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 20,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 30,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 45,
+          "overlap_mm3": 0
+        },
+        {
+          "offset_mm": 60,
+          "overlap_mm3": 0
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "split_gap_mm": 0.1999999999959454,
+  "closed_overlap_mm3": 0,
+  "scope": "Exact-solid axial paths against the inner cradle, and motor insertion against the hip hub. Crank, axial ties, knee shaft retention and wiring must be released first; the outer thigh carries the service ring. Motor fasteners, hand access, bearing retention and complete loaded assembly are not qualified.",
+  "open_interfaces": [
+    "Roll bearing retaining flanges and preload",
+    "Knee axle clamp preload and fits; outer bearing capture is integral with the structural shin",
+    "Pushrod pin, bushing and printed retaining lip load/fatigue qualification",
+    "Axial motor ties: final screw length, washer stack and accessible nut retention",
+    "Foot attachment and cable routing"
+  ]
+}

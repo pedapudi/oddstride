@@ -1,0 +1,1459 @@
+{
+  "passed": true,
+  "scope": "Actual native exports compared with independent reinforced-seat proposal; nominal contact and sampled axial service path.",
+  "inputs": {
+    "closure": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/recessed-native-hip_stator_closure_1.step",
+      "sha256": "62c564ec5ae214af874314ff593a52355f07c5efb2253ac88e152caaaa603ee2",
+      "frozen_path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/knee-stator-seats/recessed-native-input/recessed-native-hip_stator_closure_1.step"
+    },
+    "front": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/recessed-native-motor_carrier_1.step",
+      "sha256": "7da3e8c1e56d3b5813aa9627c0f4eb071141e36205748be30af506cc60d95859",
+      "frozen_path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/knee-stator-seats/recessed-native-input/recessed-native-motor_carrier_1.step"
+    },
+    "rear": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/recessed-native-motor_carrier_-1.step",
+      "sha256": "b1b1d74ab9c7bd042c40181e718e89e72e8e33d6b7cd76a0392c8c8b9c5cb8d4",
+      "frozen_path": "/home/sunil/git/oddstride/tinfox/analysis/dfma/knee-stator-seats/recessed-native-input/recessed-native-motor_carrier_-1.step"
+    },
+    "rear_parent": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-motor_carrier_-1.step",
+      "sha256": "a0149b91e2e0b128fe8e2b7326b646d7ddb09e6fc708576da5661b817843f6ca"
+    }
+  },
+  "comparisons": [
+    {
+      "part": "closure",
+      "valid": true,
+      "solids": 1,
+      "faces": 45,
+      "expected_volume_mm3": 12042.902402479525,
+      "native_volume_mm3": 12042.902402479525,
+      "absolute_volume_error_mm3": 0.0,
+      "relative_volume_error": 0.0,
+      "symmetric_sampled_surface_error_max_mm": 4.2780337774645346e-14,
+      "bounds_error_max_mm": 0.0013101469609608785,
+      "passed": true
+    },
+    {
+      "part": "front",
+      "valid": true,
+      "solids": 1,
+      "faces": 119,
+      "expected_volume_mm3": 89647.30044854876,
+      "native_volume_mm3": 89647.33327243151,
+      "absolute_volume_error_mm3": 0.03282388274965342,
+      "relative_volume_error": 3.66144686849684e-07,
+      "symmetric_sampled_surface_error_max_mm": 1.1154820047921841e-05,
+      "bounds_error_max_mm": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "part": "rear",
+      "valid": true,
+      "solids": 1,
+      "faces": 119,
+      "expected_volume_mm3": 89647.2710135163,
+      "native_volume_mm3": 89647.29950976351,
+      "absolute_volume_error_mm3": 0.028496247206931002,
+      "relative_volume_error": 3.178707715780279e-07,
+      "symmetric_sampled_surface_error_max_mm": 7.944109290391274e-14,
+      "bounds_error_max_mm": 0.0,
+      "passed": true
+    }
+  ],
+  "critical_cylinder_interfaces": [
+    {
+      "part": "closure",
+      "relevant_y_axis_cylinders": [
+        {
+          "radius_mm": 4.1,
+          "axis_line_xz_mm": [
+            5.0,
+            47.0
+          ],
+          "bounds_mm": [
+            0.899541117422117,
+            -2.200458882577886,
+            42.89999989999999,
+            9.100458882577886,
+            -0.899541117422114,
+            51.10000010000001
+          ]
+        },
+        {
+          "radius_mm": 4.1,
+          "axis_line_xz_mm": [
+            -33.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            -37.60060496416048,
+            -2.2004588825778844,
+            -31.058092608499205,
+            -29.399687199004713,
+            -0.8995411174221158,
+            -22.858092408499193
+          ]
+        },
+        {
+          "radius_mm": 4.1,
+          "axis_line_xz_mm": [
+            43.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            39.39968719900471,
+            -2.200458882577889,
+            -31.05809260849921,
+            47.60060496416049,
+            -0.8995411174221116,
+            -22.85809240849919
+          ]
+        },
+        {
+          "radius_mm": 4.95,
+          "axis_line_xz_mm": [
+            5.0,
+            47.0
+          ],
+          "bounds_mm": [
+            0.0494460039608482,
+            -5.100553996039155,
+            42.04999989999999,
+            9.950553996039154,
+            -3.999446003960845,
+            51.95000010000001
+          ]
+        },
+        {
+          "radius_mm": 4.95,
+          "axis_line_xz_mm": [
+            -33.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            -38.450700077621754,
+            -5.100553996039153,
+            -31.90809260849921,
+            -28.549592085543445,
+            -3.9994460039608466,
+            -22.00809240849919
+          ]
+        },
+        {
+          "radius_mm": 4.95,
+          "axis_line_xz_mm": [
+            43.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            38.549592085543445,
+            -5.100553996039153,
+            -31.90809260849921,
+            48.450700077621754,
+            -3.9994460039608466,
+            -22.00809240849919
+          ]
+        },
+        {
+          "radius_mm": 2.4,
+          "axis_line_xz_mm": [
+            5.0,
+            47.0
+          ],
+          "bounds_mm": [
+            2.599731344344649,
+            -4.0002686556553515,
+            44.599999899999986,
+            7.400268655655352,
+            -2.199731344344649,
+            49.400000100000014
+          ]
+        },
+        {
+          "radius_mm": 2.4,
+          "axis_line_xz_mm": [
+            -33.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            -35.900414737237945,
+            -4.00026865565535,
+            -29.358092608499206,
+            -31.09987742592725,
+            -2.19973134434465,
+            -24.558092408499192
+          ]
+        },
+        {
+          "radius_mm": 2.4,
+          "axis_line_xz_mm": [
+            43.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            41.099877425927254,
+            -4.00026865565535,
+            -29.358092608499206,
+            45.900414737237945,
+            -2.19973134434465,
+            -24.558092408499192
+          ]
+        }
+      ],
+      "critical_radius_position_error_max_mm": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "part": "front",
+      "relevant_y_axis_cylinders": [
+        {
+          "radius_mm": 4.8,
+          "axis_line_xz_mm": [
+            43.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            38.69960887027191,
+            -5.1005372113106935,
+            -31.758092608499204,
+            48.30068329289329,
+            -4.099462788689306,
+            -22.158092408499193
+          ]
+        },
+        {
+          "radius_mm": 4.8,
+          "axis_line_xz_mm": [
+            -33.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            -38.30068329289329,
+            -5.1005372113106935,
+            -31.758092608499204,
+            -28.699608870271906,
+            -4.099462788689306,
+            -22.158092408499193
+          ]
+        },
+        {
+          "radius_mm": 4.8,
+          "axis_line_xz_mm": [
+            5.0,
+            47.0
+          ],
+          "bounds_mm": [
+            0.19946278868930897,
+            -5.100537211310694,
+            42.199999899999995,
+            9.800537211310695,
+            -4.099462788689305,
+            51.800000100000005
+          ]
+        },
+        {
+          "radius_mm": 6.1,
+          "axis_line_xz_mm": [
+            5.0,
+            47.0
+          ],
+          "bounds_mm": [
+            -0.13091210216808596,
+            -5.100678397840077,
+            40.89999989999999,
+            10.130912102168077,
+            -3.999321602159923,
+            43.70057201486138
+          ]
+        },
+        {
+          "radius_mm": 6.1,
+          "axis_line_xz_mm": [
+            -33.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            -33.74011675521099,
+            -5.100678397840092,
+            -29.26834907419159,
+            -27.39946866352953,
+            -3.999321602159908,
+            -20.85768431572657
+          ]
+        },
+        {
+          "radius_mm": 6.1,
+          "axis_line_xz_mm": [
+            43.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            37.39946866352954,
+            -5.100678397840072,
+            -29.268349074191573,
+            43.74011675521098,
+            -3.9993216021599274,
+            -20.857684315726587
+          ]
+        }
+      ],
+      "critical_radius_position_error_max_mm": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "part": "rear",
+      "relevant_y_axis_cylinders": [
+        {
+          "radius_mm": 4.8,
+          "axis_line_xz_mm": [
+            33.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            28.699608870271906,
+            -5.1005372113106935,
+            -31.758092608499204,
+            38.30068329289329,
+            -4.099462788689306,
+            -22.158092408499193
+          ]
+        },
+        {
+          "radius_mm": 4.8,
+          "axis_line_xz_mm": [
+            -43.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            -48.30068329289329,
+            -5.1005372113106935,
+            -31.758092608499204,
+            -38.69960887027191,
+            -4.099462788689306,
+            -22.158092408499193
+          ]
+        },
+        {
+          "radius_mm": 4.8,
+          "axis_line_xz_mm": [
+            -5.0,
+            47.0
+          ],
+          "bounds_mm": [
+            -9.800537211310695,
+            -5.100537211310694,
+            42.199999899999995,
+            -0.19946278868930514,
+            -4.099462788689305,
+            51.800000100000005
+          ]
+        },
+        {
+          "radius_mm": 6.1,
+          "axis_line_xz_mm": [
+            -5.0,
+            47.0
+          ],
+          "bounds_mm": [
+            -10.130912102168077,
+            -5.100678397840077,
+            40.89999989999999,
+            0.130912102168091,
+            -3.999321602159923,
+            43.70057201486138
+          ]
+        },
+        {
+          "radius_mm": 6.1,
+          "axis_line_xz_mm": [
+            -43.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            -43.74011675521099,
+            -5.100678397840092,
+            -29.26834907419159,
+            -37.399468663529525,
+            -3.999321602159908,
+            -20.85768431572657
+          ]
+        },
+        {
+          "radius_mm": 6.1,
+          "axis_line_xz_mm": [
+            33.5001460815826,
+            -26.9580925084992
+          ],
+          "bounds_mm": [
+            27.39946866352955,
+            -5.10067839784007,
+            -29.26834907419157,
+            33.74011675521097,
+            -3.9993216021599305,
+            -20.85768431572659
+          ]
+        }
+      ],
+      "critical_radius_position_error_max_mm": 2.842170943040401e-14,
+      "passed": true
+    }
+  ],
+  "closure_service_path": [
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 0.01,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 0.05,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 0.1,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 0.25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 0.5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 1,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 1.1,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 2,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 3,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 10,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "front",
+      "closure_withdrawal_plusY_mm": 25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 0.01,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 0.05,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 0.1,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 0.25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 0.5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 1,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 1.1,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 2,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 3,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 10,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "cup": "rear",
+      "closure_withdrawal_plusY_mm": 25,
+      "overlap_mm3": 0,
+      "passed": true
+    }
+  ],
+  "reference_seating_checks": [
+    {
+      "kind": "closure_button",
+      "angle_deg": 90,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 27.26902423315941,
+      "driver_overlap_mm3": 0,
+      "cup_overlap_mm3": 0,
+      "head_max_y_mm": 0,
+      "passed": true
+    },
+    {
+      "kind": "closure_button",
+      "angle_deg": 215,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 27.26902423315942,
+      "driver_overlap_mm3": 0,
+      "cup_overlap_mm3": 0,
+      "head_max_y_mm": 0,
+      "passed": true
+    },
+    {
+      "kind": "closure_button",
+      "angle_deg": 325,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 27.26902423315942,
+      "driver_overlap_mm3": 0,
+      "cup_overlap_mm3": 0,
+      "head_max_y_mm": 0,
+      "passed": true
+    },
+    {
+      "kind": "hip_stator",
+      "angle_deg": 0,
+      "reference_shift_mm": [
+        0,
+        -0.2,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 18.075572211415114,
+      "motor_thread_penetration_mm": 5.1,
+      "conservative6mm_penetration_margin_mm": 0.9,
+      "passed": true
+    },
+    {
+      "kind": "hip_stator",
+      "angle_deg": 40,
+      "reference_shift_mm": [
+        0,
+        -0.2,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 18.075572211454993,
+      "motor_thread_penetration_mm": 5.1,
+      "conservative6mm_penetration_margin_mm": 0.9,
+      "passed": true
+    },
+    {
+      "kind": "hip_stator",
+      "angle_deg": 80,
+      "reference_shift_mm": [
+        0,
+        -0.2,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 18.075572211445845,
+      "motor_thread_penetration_mm": 5.1,
+      "conservative6mm_penetration_margin_mm": 0.9,
+      "passed": true
+    },
+    {
+      "kind": "hip_stator",
+      "angle_deg": 120,
+      "reference_shift_mm": [
+        0,
+        -0.2,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 18.075572211439095,
+      "motor_thread_penetration_mm": 5.1,
+      "conservative6mm_penetration_margin_mm": 0.9,
+      "passed": true
+    },
+    {
+      "kind": "hip_stator",
+      "angle_deg": 160,
+      "reference_shift_mm": [
+        0,
+        -0.2,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 18.075572211380386,
+      "motor_thread_penetration_mm": 5.1,
+      "conservative6mm_penetration_margin_mm": 0.9,
+      "passed": true
+    },
+    {
+      "kind": "hip_stator",
+      "angle_deg": 200,
+      "reference_shift_mm": [
+        0,
+        -0.2,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 18.075572211471247,
+      "motor_thread_penetration_mm": 5.1,
+      "conservative6mm_penetration_margin_mm": 0.9,
+      "passed": true
+    },
+    {
+      "kind": "hip_stator",
+      "angle_deg": 240,
+      "reference_shift_mm": [
+        0,
+        -0.2,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 18.07557221145233,
+      "motor_thread_penetration_mm": 5.1,
+      "conservative6mm_penetration_margin_mm": 0.9,
+      "passed": true
+    },
+    {
+      "kind": "hip_stator",
+      "angle_deg": 280,
+      "reference_shift_mm": [
+        0,
+        -0.2,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 18.07557221149887,
+      "motor_thread_penetration_mm": 5.1,
+      "conservative6mm_penetration_margin_mm": 0.9,
+      "passed": true
+    },
+    {
+      "kind": "hip_stator",
+      "angle_deg": 320,
+      "reference_shift_mm": [
+        0,
+        -0.2,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 18.075572211441138,
+      "motor_thread_penetration_mm": 5.1,
+      "conservative6mm_penetration_margin_mm": 0.9,
+      "passed": true
+    },
+    {
+      "kind": "roll_output",
+      "hand": "front",
+      "angle_deg": 0,
+      "reference_shift_mm": [
+        -0.2,
+        0,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 42.61298163232503,
+      "motor_thread_penetration_mm": 4.2,
+      "conservative6mm_penetration_margin_mm": 1.8,
+      "manufacturer7mm_minimum_depth_reserve_mm": 2.8,
+      "passed": true
+    },
+    {
+      "kind": "roll_output",
+      "hand": "front",
+      "angle_deg": 60,
+      "reference_shift_mm": [
+        -0.2,
+        0,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 42.61298163228311,
+      "motor_thread_penetration_mm": 4.2,
+      "conservative6mm_penetration_margin_mm": 1.8,
+      "manufacturer7mm_minimum_depth_reserve_mm": 2.8,
+      "passed": true
+    },
+    {
+      "kind": "roll_output",
+      "hand": "front",
+      "angle_deg": 120,
+      "reference_shift_mm": [
+        -0.2,
+        0,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 42.61298163241989,
+      "motor_thread_penetration_mm": 4.2,
+      "conservative6mm_penetration_margin_mm": 1.8,
+      "manufacturer7mm_minimum_depth_reserve_mm": 2.8,
+      "passed": true
+    },
+    {
+      "kind": "roll_output",
+      "hand": "front",
+      "angle_deg": 180,
+      "reference_shift_mm": [
+        -0.2,
+        0,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 42.61298163232148,
+      "motor_thread_penetration_mm": 4.2,
+      "conservative6mm_penetration_margin_mm": 1.8,
+      "manufacturer7mm_minimum_depth_reserve_mm": 2.8,
+      "passed": true
+    },
+    {
+      "kind": "roll_output",
+      "hand": "front",
+      "angle_deg": 240,
+      "reference_shift_mm": [
+        -0.2,
+        0,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 42.61298163236553,
+      "motor_thread_penetration_mm": 4.2,
+      "conservative6mm_penetration_margin_mm": 1.8,
+      "manufacturer7mm_minimum_depth_reserve_mm": 2.8,
+      "passed": true
+    },
+    {
+      "kind": "roll_output",
+      "hand": "front",
+      "angle_deg": 300,
+      "reference_shift_mm": [
+        -0.2,
+        0,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 42.61298163238472,
+      "motor_thread_penetration_mm": 4.2,
+      "conservative6mm_penetration_margin_mm": 1.8,
+      "manufacturer7mm_minimum_depth_reserve_mm": 2.8,
+      "passed": true
+    },
+    {
+      "kind": "roll_output",
+      "hand": "rear",
+      "angle_deg": 0,
+      "reference_shift_mm": [
+        0.2,
+        0,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 42.61298163232574,
+      "motor_thread_penetration_mm": 4.2,
+      "conservative6mm_penetration_margin_mm": 1.8,
+      "manufacturer7mm_minimum_depth_reserve_mm": 2.8,
+      "passed": true
+    },
+    {
+      "kind": "roll_output",
+      "hand": "rear",
+      "angle_deg": 60,
+      "reference_shift_mm": [
+        0.2,
+        0,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 42.61298163231366,
+      "motor_thread_penetration_mm": 4.2,
+      "conservative6mm_penetration_margin_mm": 1.8,
+      "manufacturer7mm_minimum_depth_reserve_mm": 2.8,
+      "passed": true
+    },
+    {
+      "kind": "roll_output",
+      "hand": "rear",
+      "angle_deg": 120,
+      "reference_shift_mm": [
+        0.2,
+        0,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 42.612981632344216,
+      "motor_thread_penetration_mm": 4.2,
+      "conservative6mm_penetration_margin_mm": 1.8,
+      "manufacturer7mm_minimum_depth_reserve_mm": 2.8,
+      "passed": true
+    },
+    {
+      "kind": "roll_output",
+      "hand": "rear",
+      "angle_deg": 180,
+      "reference_shift_mm": [
+        0.2,
+        0,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 42.612981632317215,
+      "motor_thread_penetration_mm": 4.2,
+      "conservative6mm_penetration_margin_mm": 1.8,
+      "manufacturer7mm_minimum_depth_reserve_mm": 2.8,
+      "passed": true
+    },
+    {
+      "kind": "roll_output",
+      "hand": "rear",
+      "angle_deg": 240,
+      "reference_shift_mm": [
+        0.2,
+        0,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 42.6129816323332,
+      "motor_thread_penetration_mm": 4.2,
+      "conservative6mm_penetration_margin_mm": 1.8,
+      "manufacturer7mm_minimum_depth_reserve_mm": 2.8,
+      "passed": true
+    },
+    {
+      "kind": "roll_output",
+      "hand": "rear",
+      "angle_deg": 300,
+      "reference_shift_mm": [
+        0.2,
+        0,
+        0
+      ],
+      "unshifted_002mm_down_contact_area_mm2": 0.0,
+      "seated_overlap_mm3": 0,
+      "seated_contact_area_mm2": 42.61298163237939,
+      "motor_thread_penetration_mm": 4.2,
+      "conservative6mm_penetration_margin_mm": 1.8,
+      "manufacturer7mm_minimum_depth_reserve_mm": 2.8,
+      "passed": true
+    }
+  ],
+  "retained_native_web_sections": [
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -54,
+      "before": {
+        "area_mm2": 837.5934701711997,
+        "Iyy_mm4": 199711.6001102226,
+        "Izz_mm4": 28456.926415608265
+      },
+      "after": {
+        "area_mm2": 837.5934701712001,
+        "Iyy_mm4": 199711.6001102226,
+        "Izz_mm4": 28456.926415608265
+      },
+      "area_retained_fraction": 1.0000000000000004,
+      "Iyy_retained_fraction": 1.0,
+      "Izz_retained_fraction": 1.0
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -52,
+      "before": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "after": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "area_retained_fraction": 1.0,
+      "Iyy_retained_fraction": 1.0,
+      "Izz_retained_fraction": 1.0
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -50,
+      "before": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.986846335,
+        "Izz_mm4": 21654.7205570729
+      },
+      "after": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.986846335,
+        "Izz_mm4": 21654.7205570729
+      },
+      "area_retained_fraction": 1.0,
+      "Iyy_retained_fraction": 1.0,
+      "Izz_retained_fraction": 1.0
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -48,
+      "before": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "after": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "area_retained_fraction": 1.0,
+      "Iyy_retained_fraction": 1.0,
+      "Izz_retained_fraction": 1.0
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -46,
+      "before": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.98684633453,
+        "Izz_mm4": 21654.7205570722
+      },
+      "after": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.98684633453,
+        "Izz_mm4": 21654.7205570722
+      },
+      "area_retained_fraction": 1.0,
+      "Iyy_retained_fraction": 1.0,
+      "Izz_retained_fraction": 1.0
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -45,
+      "before": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.98684633453,
+        "Izz_mm4": 21654.7205570722
+      },
+      "after": {
+        "area_mm2": 657.8357014117961,
+        "Iyy_mm4": 96074.98684633453,
+        "Izz_mm4": 21654.7205570722
+      },
+      "area_retained_fraction": 1.0,
+      "Iyy_retained_fraction": 1.0,
+      "Izz_retained_fraction": 1.0
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -44.5,
+      "before": {
+        "area_mm2": 658.4972211379466,
+        "Iyy_mm4": 96555.25629420462,
+        "Izz_mm4": 21699.42545724823
+      },
+      "after": {
+        "area_mm2": 658.4051107963306,
+        "Iyy_mm4": 96488.44116689567,
+        "Izz_mm4": 21687.665396346478
+      },
+      "area_retained_fraction": 0.9998601203791616,
+      "Iyy_retained_fraction": 0.9993080114964911,
+      "Izz_retained_fraction": 0.99945804736052
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -44,
+      "before": {
+        "area_mm2": 695.7280639739512,
+        "Iyy_mm4": 122185.65199448145,
+        "Izz_mm4": 24088.9641958531
+      },
+      "after": {
+        "area_mm2": 690.4519122247902,
+        "Iyy_mm4": 118721.25671611191,
+        "Izz_mm4": 23460.07128673466
+      },
+      "area_retained_fraction": 0.992416359174842,
+      "Iyy_retained_fraction": 0.9716464640338784,
+      "Izz_retained_fraction": 0.9738929036547489
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -43.5,
+      "before": {
+        "area_mm2": 708.0698461428381,
+        "Iyy_mm4": 129816.3180981013,
+        "Izz_mm4": 24830.11775864265
+      },
+      "after": {
+        "area_mm2": 701.0752183954771,
+        "Iyy_mm4": 125406.46818664414,
+        "Izz_mm4": 24014.343792277854
+      },
+      "area_retained_fraction": 0.9901215568132669,
+      "Iyy_retained_fraction": 0.9660300802236228,
+      "Izz_retained_fraction": 0.9671457874547998
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -43,
+      "before": {
+        "area_mm2": 713.2202321456895,
+        "Iyy_mm4": 132160.8704994351,
+        "Izz_mm4": 25132.482114909915
+      },
+      "after": {
+        "area_mm2": 708.8499076665233,
+        "Iyy_mm4": 129583.30652224645,
+        "Izz_mm4": 24626.051048387308
+      },
+      "area_retained_fraction": 0.9938724053494413,
+      "Iyy_retained_fraction": 0.9804967690705421,
+      "Izz_retained_fraction": 0.979849540359479
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -42.5,
+      "before": {
+        "area_mm2": 715.9231368023517,
+        "Iyy_mm4": 133410.6007002755,
+        "Izz_mm4": 25288.76271825959
+      },
+      "after": {
+        "area_mm2": 712.9645853887278,
+        "Iyy_mm4": 131849.5531860462,
+        "Izz_mm4": 24945.76955603808
+      },
+      "area_retained_fraction": 0.9958675013258571,
+      "Iyy_retained_fraction": 0.9882989244779999,
+      "Izz_retained_fraction": 0.9864369338254002
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -42,
+      "before": {
+        "area_mm2": 711.5424200292892,
+        "Iyy_mm4": 131965.59368905355,
+        "Izz_mm4": 25055.01367451949
+      },
+      "after": {
+        "area_mm2": 709.1623461739395,
+        "Iyy_mm4": 130837.30052598193,
+        "Izz_mm4": 24777.6227101197
+      },
+      "area_retained_fraction": 0.9966550499473358,
+      "Iyy_retained_fraction": 0.9914500959566007,
+      "Izz_retained_fraction": 0.9889287242863535
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -41.5,
+      "before": {
+        "area_mm2": 698.9516715216447,
+        "Iyy_mm4": 127385.15785861062,
+        "Izz_mm4": 24447.808049613843
+      },
+      "after": {
+        "area_mm2": 696.6787361247137,
+        "Iyy_mm4": 126338.95074223517,
+        "Izz_mm4": 24180.698870417895
+      },
+      "area_retained_fraction": 0.996748079317154,
+      "Iyy_retained_fraction": 0.9917870564046664,
+      "Izz_retained_fraction": 0.9890743097027807
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -41,
+      "before": {
+        "area_mm2": 674.0936686916324,
+        "Iyy_mm4": 118142.95838915557,
+        "Izz_mm4": 23573.402998177102
+      },
+      "after": {
+        "area_mm2": 671.8872620033228,
+        "Iyy_mm4": 117155.45570068085,
+        "Izz_mm4": 23311.294390828814
+      },
+      "area_retained_fraction": 0.9967268544554171,
+      "Iyy_retained_fraction": 0.9916414596185924,
+      "Izz_retained_fraction": 0.98888117225296
+    },
+    {
+      "hand": "front",
+      "pitch_local_x_mm": -40.9,
+      "before": {
+        "area_mm2": 664.290722975782,
+        "Iyy_mm4": 114650.25825846964,
+        "Izz_mm4": 23257.46484841709
+      },
+      "after": {
+        "area_mm2": 662.0944684560627,
+        "Iyy_mm4": 113674.06472788658,
+        "Izz_mm4": 22996.072498814203
+      },
+      "area_retained_fraction": 0.9966938353287836,
+      "Iyy_retained_fraction": 0.9914854659255777,
+      "Izz_retained_fraction": 0.9887609268118198
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 54,
+      "before": {
+        "area_mm2": 837.5934701712004,
+        "Iyy_mm4": 199711.6001102226,
+        "Izz_mm4": 28456.92641560873
+      },
+      "after": {
+        "area_mm2": 837.5934701712004,
+        "Iyy_mm4": 199711.6001102226,
+        "Izz_mm4": 28456.92641560873
+      },
+      "area_retained_fraction": 1.0,
+      "Iyy_retained_fraction": 1.0,
+      "Izz_retained_fraction": 1.0
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 52,
+      "before": {
+        "area_mm2": 657.835701411796,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "after": {
+        "area_mm2": 657.8357014117959,
+        "Iyy_mm4": 96074.98684633477,
+        "Izz_mm4": 21654.7205570729
+      },
+      "area_retained_fraction": 0.9999999999999998,
+      "Iyy_retained_fraction": 1.0000000000000049,
+      "Izz_retained_fraction": 1.0000000000000322
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 50,
+      "before": {
+        "area_mm2": 657.835701411796,
+        "Iyy_mm4": 96074.98684633384,
+        "Izz_mm4": 21654.7205570715
+      },
+      "after": {
+        "area_mm2": 657.8357014117959,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "area_retained_fraction": 0.9999999999999998,
+      "Iyy_retained_fraction": 1.0000000000000049,
+      "Izz_retained_fraction": 1.0000000000000322
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 48,
+      "before": {
+        "area_mm2": 657.835701411796,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "after": {
+        "area_mm2": 657.8357014117959,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "area_retained_fraction": 0.9999999999999998,
+      "Iyy_retained_fraction": 1.0,
+      "Izz_retained_fraction": 1.0
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 46,
+      "before": {
+        "area_mm2": 657.835701411796,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "after": {
+        "area_mm2": 657.8357014117959,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "area_retained_fraction": 0.9999999999999998,
+      "Iyy_retained_fraction": 1.0,
+      "Izz_retained_fraction": 1.0
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 45,
+      "before": {
+        "area_mm2": 657.835701411796,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "after": {
+        "area_mm2": 657.8357014117959,
+        "Iyy_mm4": 96074.9868463343,
+        "Izz_mm4": 21654.7205570722
+      },
+      "area_retained_fraction": 0.9999999999999998,
+      "Iyy_retained_fraction": 1.0,
+      "Izz_retained_fraction": 1.0
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 44.5,
+      "before": {
+        "area_mm2": 658.4972211379463,
+        "Iyy_mm4": 96555.25629420462,
+        "Izz_mm4": 21699.425457248464
+      },
+      "after": {
+        "area_mm2": 658.4051107963304,
+        "Iyy_mm4": 96488.44116689567,
+        "Izz_mm4": 21687.665396346478
+      },
+      "area_retained_fraction": 0.9998601203791616,
+      "Iyy_retained_fraction": 0.9993080114964911,
+      "Izz_retained_fraction": 0.9994580473605094
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 44,
+      "before": {
+        "area_mm2": 695.7280639739511,
+        "Iyy_mm4": 122185.65199448145,
+        "Izz_mm4": 24088.9641958531
+      },
+      "after": {
+        "area_mm2": 690.4519122247901,
+        "Iyy_mm4": 118721.25671611214,
+        "Izz_mm4": 23460.071286735125
+      },
+      "area_retained_fraction": 0.992416359174842,
+      "Iyy_retained_fraction": 0.9716464640338803,
+      "Izz_retained_fraction": 0.9738929036547683
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 43.5,
+      "before": {
+        "area_mm2": 708.069846142838,
+        "Iyy_mm4": 129816.31809810107,
+        "Izz_mm4": 24830.117758642416
+      },
+      "after": {
+        "area_mm2": 701.0752183954769,
+        "Iyy_mm4": 125406.46818664344,
+        "Izz_mm4": 24014.34379227739
+      },
+      "area_retained_fraction": 0.9901215568132666,
+      "Iyy_retained_fraction": 0.9660300802236191,
+      "Izz_retained_fraction": 0.9671457874547901
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 43,
+      "before": {
+        "area_mm2": 713.2202321456894,
+        "Iyy_mm4": 132160.8704994351,
+        "Izz_mm4": 25132.482114909915
+      },
+      "after": {
+        "area_mm2": 708.8499076665231,
+        "Iyy_mm4": 129583.30652224575,
+        "Izz_mm4": 24626.051048387308
+      },
+      "area_retained_fraction": 0.9938724053494412,
+      "Iyy_retained_fraction": 0.9804967690705368,
+      "Izz_retained_fraction": 0.979849540359479
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 42.5,
+      "before": {
+        "area_mm2": 715.9231368023513,
+        "Iyy_mm4": 133410.60070027527,
+        "Izz_mm4": 25288.762718259823
+      },
+      "after": {
+        "area_mm2": 712.9645853814434,
+        "Iyy_mm4": 131849.55318371393,
+        "Izz_mm4": 24945.769555667182
+      },
+      "area_retained_fraction": 0.9958675013156828,
+      "Iyy_retained_fraction": 0.9882989244605198,
+      "Izz_retained_fraction": 0.9864369338107245
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 42,
+      "before": {
+        "area_mm2": 711.5424200292891,
+        "Iyy_mm4": 131965.59368905379,
+        "Izz_mm4": 25055.013674519723
+      },
+      "after": {
+        "area_mm2": 709.1623461747159,
+        "Iyy_mm4": 130837.30052622384,
+        "Izz_mm4": 24777.62271016161
+      },
+      "area_retained_fraction": 0.9966550499484272,
+      "Iyy_retained_fraction": 0.9914500959584321,
+      "Izz_retained_fraction": 0.9889287242880169
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 41.5,
+      "before": {
+        "area_mm2": 698.9516715216448,
+        "Iyy_mm4": 127385.15785861039,
+        "Izz_mm4": 24447.808049613377
+      },
+      "after": {
+        "area_mm2": 696.6787360895008,
+        "Iyy_mm4": 126338.95073184255,
+        "Izz_mm4": 24180.698868422303
+      },
+      "area_retained_fraction": 0.9967480792667743,
+      "Iyy_retained_fraction": 0.9917870563230838,
+      "Izz_retained_fraction": 0.9890743096211728
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 41,
+      "before": {
+        "area_mm2": 674.0936686916326,
+        "Iyy_mm4": 118142.9583891551,
+        "Izz_mm4": 23573.40299817687
+      },
+      "after": {
+        "area_mm2": 671.887262003323,
+        "Iyy_mm4": 117155.45570067992,
+        "Izz_mm4": 23311.294390828116
+      },
+      "area_retained_fraction": 0.9967268544554171,
+      "Iyy_retained_fraction": 0.9916414596185884,
+      "Izz_retained_fraction": 0.9888811722529401
+    },
+    {
+      "hand": "rear",
+      "pitch_local_x_mm": 40.9,
+      "before": {
+        "area_mm2": 664.2907229757816,
+        "Iyy_mm4": 114650.25825846964,
+        "Izz_mm4": 23257.46484841709
+      },
+      "after": {
+        "area_mm2": 662.0944684560623,
+        "Iyy_mm4": 113674.06472788658,
+        "Izz_mm4": 22996.07249881397
+      },
+      "area_retained_fraction": 0.9966938353287836,
+      "Iyy_retained_fraction": 0.9914854659255777,
+      "Izz_retained_fraction": 0.9887609268118098
+    }
+  ],
+  "section_summary": {
+    "minimum_native_area_mm2": 657.8357014117959,
+    "minimum_area_retained_fraction": 0.9901215568132666,
+    "minimum_Iyy_retained_fraction": 0.9660300802236191,
+    "minimum_Izz_retained_fraction": 0.9671457874547901
+  },
+  "reference_placement_decision": "Seat only the existing hip references by\u22120.2Y and the front roll output references by\u22120.2X, reversedX for rear. Do not move the independent knee references or custom motor planes.",
+  "limitations": [
+    "Finite removal samples supplement the parallel coaxial open-pocket geometry; printed fits and deflection are not qualified.",
+    "The exact modeled cone references are nominal. Purchased head rim/angle/length tolerances need physical measurement.",
+    "Depth8mm M3 and7mmMIN M4 are manufacturer drawing values; physical motor-thread and tip-clearance confirmation remains required.",
+    "Native section properties are finite geometric measurements, not manufactured strength or stiffness qualification.",
+    "No native authoring, authority changes, release or powered actions were performed."
+  ]
+}

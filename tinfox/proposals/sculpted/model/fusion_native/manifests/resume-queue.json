@@ -1,0 +1,39 @@
+{
+  "updated_utc": "2026-10-26T02:38:55.216634+00:00",
+  "state": "waiting_for_fusion_execution",
+  "manufacturing_release": false,
+  "authoritative_source": "CadQuery V0 + authorized rounded upper cover delta",
+  "last_unknown_mutation": "thigh_outer-publish-native-archive started 2026-10-26T01:51:04Z; HTTP timed out after900s. Do not repeat before inspecting actual Fusion state.",
+  "counts": {
+    "custom_geometry_entries": 65,
+    "native_exports": 61,
+    "geometry_pass": 60,
+    "geometry_fail": 1,
+    "sections_pass": 59,
+    "sections_fail": 2,
+    "both_geometry_gates_pass": 59
+  },
+  "recovery": [
+    "Wait for Fusion execution to respond. Existing readiness probes are read-only; do not queue more while the server is saturated.",
+    "Run source/inspect_publication.py. Reconcile actual canonical thigh reference file ID, volume, cloud file name/folder and any completed replacement before retrying mutation.",
+    "If initial publication failed after closing the source archive, its native replacement may already be saved/inserted; recover registry metadata rather than rebuilding.",
+    "Rebuild thigh_outer_right only after canonical master references the qualified local native archive.",
+    "Publish qualified body_center_0 and shin_outer archives, preserving exact native feature history; cloud references currently may be earlier versions.",
+    "Build belly_center_0 and front_fascia using optimized independent recipes. Their source reconstructions already passed.",
+    "Build body_nose_surround with front-only torso tools, compact fascia subtree, and omitted empty rear return. Source replay volume error4.47e-6; native surfaces still need verification.",
+    "Rebuild sensor_bezel with exact editable cubic-control-point sketch spans; old export passes full surface but fails near-tangent sections. Probe native control-point spline creation first.",
+    "Build shin_outer_right from the qualified canonical model; use mirrored lossless source BRep if the same STEP round-trip corner artifact recurs.",
+    "Run geometry/section gates only for changed/new exports. Reuse valid hashes.",
+    "Perform meaningful scratch-archive edit/restore tests; source/editability_test.py now supports --part-archive.",
+    "Install explicitly marked hardware references, then source/assembly.py. Kinematic recipe passed432legcases; actual native placement/joints remain unverified.",
+    "Complete appearance/material, assembly motion/service path, silhouette and archive/reopen gates; source-of-truth switch remains prohibited until all pass."
+  ],
+  "prepared_evidence": [
+    "audits/source-roundtrip-anomaly.json: shin regeneration matches frozen mesh hash exactly; native comparison now uses lossless audit-only source BRep.",
+    "audits/assembly-recipe.json: planned transforms agree exactly across432legcases; closure8.53e-14mm.",
+    "snapshots/reconstructed/front_fascia/reconstruction-audit.json: reconstructed face surface1.98e-8mm.",
+    "audits/bezel-control-point-preflight.log: exact editable Bezier recipe volume4.41e-10 relative error.",
+    "exports/native-downloads.json: seven individual native F3D files plus an explicitly earlier partial master."
+  ],
+  "do_not_migrate": "Parent integrated/rounded limb proposal. Only frozen V0 plus rounded body_center_0 is authorized."
+}

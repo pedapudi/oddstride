@@ -1,0 +1,795 @@
+{
+  "model_sha256": "b968fea927022ba467e05eb52ab602a680e14fd7295c263eefcb95a58a90cdc6",
+  "limb": "front-left",
+  "units": "mm",
+  "parts": [
+    {
+      "part": "thigh_inner",
+      "quantity": 1,
+      "print_stl": "print-stl/thigh_inner.stl",
+      "print_3mf": "print-3mf/thigh_inner.3mf",
+      "stl_sha256": "c6b6b48cfe337c5ead9c95a3649314f81698445d71842dc24ed3d8e94472da09",
+      "three_mf_sha256": "4022bc1336d6db0e1f43a0fd06a69fc9f9b1970b38655932bfbc93639b088011",
+      "oriented_bounds_mm": [
+        71.62447547912598,
+        231.57579803466797,
+        58.0
+      ],
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": 90,
+      "process": "Structural-shell fit print; loaded use unqualified",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "thigh_outer",
+      "quantity": 1,
+      "print_stl": "print-stl/thigh_outer.stl",
+      "print_3mf": "print-3mf/thigh_outer.3mf",
+      "stl_sha256": "0bed97f7aa6363abf20156730484dfe168b1c7654f1600aad466c530ffa6cdbc",
+      "three_mf_sha256": "0fc0fb03abbbb030e74e175a36566864223e103e2806d4da1f3ca38c5444f6b5",
+      "oriented_bounds_mm": [
+        90.30150985717773,
+        242.48565673828125,
+        88.00000000000001
+      ],
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": -90,
+      "process": "Structural-shell fit print; loaded use unqualified",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed.",
+      "geometry_correction": "geometry-corrections.json"
+    },
+    {
+      "part": "shin_inner",
+      "quantity": 1,
+      "print_stl": "print-stl/shin_inner.stl",
+      "print_3mf": "print-3mf/shin_inner.3mf",
+      "stl_sha256": "7c887dea5e5985b95df073a2235e99ee9d25034606c211d6a02c715b0be544ae",
+      "three_mf_sha256": "ccd3b0babbb8128bb4882c66022097fe6b480ef09a3441ceb02c1a5fdcdd9280",
+      "oriented_bounds_mm": [
+        42.0,
+        173.88812637329102,
+        16.000000000000007
+      ],
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": 90,
+      "process": "Structural-shell fit print; loaded use unqualified",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "shin_outer",
+      "quantity": 1,
+      "print_stl": "print-stl/shin_outer.stl",
+      "print_3mf": "print-3mf/shin_outer.3mf",
+      "stl_sha256": "d03b98db8343dfa2bb6482e52c5dbdd9e9fbd692f4fd229dc691213a8aebf429",
+      "three_mf_sha256": "bdc49a52f646bdd1ae39d4387bff96335297dec65d2ac87baaf9f6e90be1b678",
+      "oriented_bounds_mm": [
+        42.0,
+        173.88813400268555,
+        18.000000000000014
+      ],
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": -90,
+      "process": "Structural-shell fit print; loaded use unqualified",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "motor_carrier_1",
+      "quantity": 1,
+      "print_stl": "print-stl/motor_carrier_1.stl",
+      "print_3mf": "print-3mf/motor_carrier_1.3mf",
+      "stl_sha256": "2f29fa11a8e293ca48f8230a76852a203ba585c67af59de284c84f704148ddeb",
+      "three_mf_sha256": "b06fa7006239b176caaf5f1868e5fec0a36ca466294fe86c115e811776a816fb",
+      "oriented_bounds_mm": [
+        120.99999237060547,
+        96.99816513061523,
+        77.3948745727539
+      ],
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": 90,
+      "process": "Printed fit prototype only",
+      "support_note": "Support the horizontal roll journal and inspect the three open nut approaches; keep support removable through the open motor cup."
+    },
+    {
+      "part": "hip_stator_closure_1",
+      "quantity": 1,
+      "print_stl": "print-stl/hip_stator_closure_1.stl",
+      "print_3mf": "print-3mf/hip_stator_closure_1.3mf",
+      "stl_sha256": "e0a47aae42ce813df72ee23cb7a5809f5362aa7f8ccd41d5f8ea2a0a931317e4",
+      "three_mf_sha256": "08cbedbd48ada241d0af9fc754774712a46e7914021c34d3a5a9d4a82fd993dc",
+      "oriented_bounds_mm": [
+        88.99998474121094,
+        96.99816513061523,
+        3.1000000238418637
+      ],
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": 90,
+      "process": "Printed fit prototype only",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "roll_cartridge_1",
+      "quantity": 1,
+      "print_stl": "print-stl/roll_cartridge_1.stl",
+      "print_3mf": "print-3mf/roll_cartridge_1.3mf",
+      "stl_sha256": "2ce5b1f6ee631504b2dd84fc5a67116a5638d33a2338f0d90c000e50028838b5",
+      "three_mf_sha256": "b38ae671e3417143e5b53fcf65f032c979966376756b828cf96cb6ef2cede377",
+      "oriented_bounds_mm": [
+        80.38336181640625,
+        77.79676818847656,
+        24.0
+      ],
+      "rotation_axis": [
+        0,
+        1,
+        0
+      ],
+      "rotation_deg": -90,
+      "process": "Printed fit prototype only",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "roll_stator_backplate_1",
+      "quantity": 1,
+      "print_stl": "print-stl/roll_stator_backplate_1.stl",
+      "print_3mf": "print-3mf/roll_stator_backplate_1.3mf",
+      "stl_sha256": "4ff3e477ca97183933a44088b83d3e918a613d5cfb5e67e438455c2fa1174f65",
+      "three_mf_sha256": "a9bebb945a9f00a1bfe0850d9b895ede26b77dd52914dfcb61bf03a842cd3aad",
+      "oriented_bounds_mm": [
+        81.97780227661133,
+        81.99988174438477,
+        6.0
+      ],
+      "rotation_axis": [
+        0,
+        1,
+        0
+      ],
+      "rotation_deg": -90,
+      "process": "Printed fit prototype only",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "roll_outer_retainer_1",
+      "quantity": 1,
+      "print_stl": "print-stl/roll_outer_retainer_1.stl",
+      "print_3mf": "print-3mf/roll_outer_retainer_1.3mf",
+      "stl_sha256": "4ebebfcbd72c6c2264e8060ac67406f31a6a23595f8d73adffe2776b9ce992fe",
+      "three_mf_sha256": "98d57de87c4888e00ecbf81d3ac66df7d4a7fcf9609013758010907420113383",
+      "oriented_bounds_mm": [
+        76.93699645996094,
+        75.25724411010742,
+        2.0
+      ],
+      "rotation_axis": [
+        0,
+        1,
+        0
+      ],
+      "rotation_deg": -90,
+      "process": "Printed fit prototype only",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "roll_inner_backplate_1",
+      "quantity": 1,
+      "print_stl": "print-stl/roll_inner_backplate_1.stl",
+      "print_3mf": "print-3mf/roll_inner_backplate_1.3mf",
+      "stl_sha256": "1de651c32b582ceb97a2a9617b838852d1275199a677ccc6f93eb1d163e45f67",
+      "three_mf_sha256": "2c13e76eec4321a827e15c7a5a8e03a13392b3b540eef9238cc461f1115b074a",
+      "oriented_bounds_mm": [
+        52.5,
+        52.483680725097656,
+        2.0
+      ],
+      "rotation_axis": [
+        0,
+        1,
+        0
+      ],
+      "rotation_deg": -90,
+      "process": "Printed fit prototype only",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "roll_inner_spacer_1",
+      "quantity": 1,
+      "print_stl": "print-stl/roll_inner_spacer_1.stl",
+      "print_3mf": "print-3mf/roll_inner_spacer_1.3mf",
+      "stl_sha256": "3f2f16c6ca73fc46b9c651622debd2bfd83c02ec32e5ead6ffa21fabe7e40057",
+      "three_mf_sha256": "17f0f2e5b4306b83eed50f9263275308d55f9467ca4daf79936dfbfdcace236a",
+      "oriented_bounds_mm": [
+        52.5,
+        52.483680725097656,
+        7.0
+      ],
+      "rotation_axis": [
+        0,
+        1,
+        0
+      ],
+      "rotation_deg": -90,
+      "process": "Printed fit prototype only",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "roll_outer_spacer_1",
+      "quantity": 1,
+      "print_stl": "print-stl/roll_outer_spacer_1.stl",
+      "print_3mf": "print-3mf/roll_outer_spacer_1.3mf",
+      "stl_sha256": "46d1395f45055ee47b9ba8719c8f5ea4d125a57f888c0a15ea6c73fdcd657aba",
+      "three_mf_sha256": "eee3776ff34b0b83d38e967670741a3fe6ec268615cdded76a78312584537023",
+      "oriented_bounds_mm": [
+        64.9000015258789,
+        64.87982940673828,
+        7.0
+      ],
+      "rotation_axis": [
+        0,
+        1,
+        0
+      ],
+      "rotation_deg": -90,
+      "process": "Printed fit prototype only",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "hip_hub",
+      "quantity": 1,
+      "print_stl": "print-stl/hip_hub.stl",
+      "print_3mf": "print-3mf/hip_hub.3mf",
+      "stl_sha256": "4f872337a4adea040ac56e9ce884368265e6d39bc3b0673b2c0f84f76aa55411",
+      "three_mf_sha256": "e058c68566323c21b9311d0fa6b46e7e5385eac8b937ebaf4053e17ef87eadf4",
+      "oriented_bounds_mm": [
+        86.98979523068864,
+        75.74999884750824,
+        9.500000000000005
+      ],
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": 90,
+      "process": "Printed fit prototype only",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "motor_mount_ring",
+      "quantity": 1,
+      "print_stl": "print-stl/motor_mount_ring.stl",
+      "print_3mf": "print-3mf/motor_mount_ring.3mf",
+      "stl_sha256": "ccb4cd74257fe165a55463073e3122531d2f88cf5c84e77202e1cea46939b435",
+      "three_mf_sha256": "d582eae2ff9e4b0f294b91fcbe03170a5e05a7c9f12d319b17fc8bd0f0829c44",
+      "oriented_bounds_mm": [
+        84.34398562244937,
+        88.49220736741651,
+        4.5
+      ],
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": 90,
+      "process": "Printed fit prototype only",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "input_crank",
+      "quantity": 1,
+      "print_stl": "print-stl/input_crank.stl",
+      "print_3mf": "print-3mf/input_crank.3mf",
+      "stl_sha256": "90712e11aae3ed985dded65eddc040ddf6e0638284aa1c63dc37924cd3ecfe97",
+      "three_mf_sha256": "425b956b41361d009d0e657597a005b47190b0e71265b5a926125c4f5ed9bc3d",
+      "oriented_bounds_mm": [
+        56.498236550846045,
+        35.99315816833589,
+        31.6
+      ],
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": 90,
+      "process": "Printed fit prototype only",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    },
+    {
+      "part": "pushrod",
+      "quantity": 1,
+      "print_stl": "print-stl/pushrod.stl",
+      "print_3mf": "print-3mf/pushrod.3mf",
+      "stl_sha256": "ed216c447bb8bf2963129052cd7d9b7981a971b2688c3f2f0f7bd5540eb74a20",
+      "three_mf_sha256": "4d19617b00b56773ff130b69c78cbceeb6e26eda44326207d3100e35c0a30967",
+      "oriented_bounds_mm": [
+        15.0,
+        184.98489999999998,
+        6.000000000000014
+      ],
+      "rotation_axis": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg": 90,
+      "process": "Printed fit prototype only",
+      "support_note": "Inspect curved bed contact and local bridges in the slicer. Keep support out of bearing seats and use removable exterior support where needed."
+    }
+  ],
+  "coupon_count": 9,
+  "coupons": [
+    "6810-seat-65p05",
+    "6810-seat-65p15",
+    "6810-seat-65p25",
+    "6810-journal-49p80",
+    "6810-journal-49p90",
+    "6810-journal-50p00",
+    "6001-seat-28p00",
+    "6001-seat-28p10",
+    "6001-seat-28p20"
+  ],
+  "status": "Unpowered fit prototype. No loaded or powered release.",
+  "print_volume_mm": [
+    325,
+    320,
+    325
+  ],
+  "bed_margin_mm": 10,
+  "scope": "Oriented closed meshes and generic unsliced 3MF files. Printer/material/support settings and layer previews must be chosen in the slicer. Thin precision spacers/backplate are fit surrogates; operating material and tolerances need qualification.",
+  "independent_service_checks": 2886,
+  "release_scope": "Unpowered bench fit only. Fixed-body integration, preload, process-specific fits and operating strength remain unqualified.",
+  "checks": {
+    "paired-roll-interfaces.json": {
+      "passed": true
+    },
+    "knee-retention.json": {
+      "passed": true
+    },
+    "paired-roll-motion.json": {
+      "previously_clear_poses_lost": [],
+      "knee_clear_samples": 109
+    },
+    "foot-clearance.json": {
+      "continuous_nominal_distance_lower_bound_mm": 1.704627446388006,
+      "passed": true
+    },
+    "body-integration.json": {
+      "whole_robot_integration_qualified": false
+    },
+    "step-roundtrip.json": {}
+  },
+  "handoff": {
+    "prepared_utc": "2026-10-29T04:10:47.929116+00:00",
+    "source_archive_sha256": "cdc45e1f75712616b46ae4463cca7d0aee5e337f10ed404728b74c523c8101c4",
+    "plates": [
+      {
+        "file": "plates/00-bearing-fit-tests.3mf",
+        "objects": [
+          "6810-seat-65p15",
+          "6810-journal-49p90",
+          "6001-seat-28p10"
+        ],
+        "bounds_mm": {
+          "6810-seat-65p15": [
+            [
+              10.0,
+              10.0,
+              0.0
+            ],
+            [
+              82.9855728149414,
+              83.0,
+              8.500000000000002
+            ]
+          ],
+          "6810-journal-49p90": [
+            [
+              92.9855728149414,
+              10.0,
+              0.0
+            ],
+            [
+              101.4855728149414,
+              59.89013671875,
+              49.900001525878906
+            ]
+          ],
+          "6001-seat-28p10": [
+            [
+              111.4855728149414,
+              10.0,
+              0.0
+            ],
+            [
+              149.4780616760254,
+              48.0,
+              8.500000000000002
+            ]
+          ]
+        },
+        "sha256": "570b5789d866607ff025ed78b815c7da17b45354c45c783b175f2f857f04d011"
+      },
+      {
+        "file": "plates/01-hip-assembly.3mf",
+        "objects": [
+          "motor_carrier_1",
+          "hip_stator_closure_1",
+          "roll_cartridge_1",
+          "roll_stator_backplate_1",
+          "roll_outer_retainer_1"
+        ],
+        "bounds_mm": {
+          "motor_carrier_1": [
+            [
+              10.0,
+              10.0,
+              0.0
+            ],
+            [
+              130.99999237060547,
+              106.9981689453125,
+              77.3948745727539
+            ]
+          ],
+          "hip_stator_closure_1": [
+            [
+              140.99999237060547,
+              10.0,
+              0.0
+            ],
+            [
+              229.9999771118164,
+              106.9981689453125,
+              3.1000001430511475
+            ]
+          ],
+          "roll_stator_backplate_1": [
+            [
+              10.0,
+              116.9981689453125,
+              0.0
+            ],
+            [
+              91.97779846191406,
+              198.998046875,
+              6.0
+            ]
+          ],
+          "roll_cartridge_1": [
+            [
+              101.97779846191406,
+              116.9981689453125,
+              0.0
+            ],
+            [
+              182.3611602783203,
+              194.79493713378906,
+              24.0
+            ]
+          ],
+          "roll_outer_retainer_1": [
+            [
+              192.3611602783203,
+              116.9981689453125,
+              0.0
+            ],
+            [
+              269.29815673828125,
+              192.2554168701172,
+              2.0
+            ]
+          ]
+        },
+        "sha256": "7b42877da16df87625412ae0c301a1eb06a7cdc14fe65e52c102cc108dcd2b54"
+      },
+      {
+        "file": "plates/02-thigh-halves.3mf",
+        "objects": [
+          "thigh_inner",
+          "thigh_outer"
+        ],
+        "bounds_mm": {
+          "thigh_outer": [
+            [
+              10.0,
+              10.0,
+              0.0
+            ],
+            [
+              100.301513671875,
+              252.48565673828125,
+              88.0
+            ]
+          ],
+          "thigh_inner": [
+            [
+              110.301513671875,
+              10.0,
+              0.0
+            ],
+            [
+              181.92598724365234,
+              241.5758056640625,
+              58.0
+            ]
+          ]
+        },
+        "sha256": "85b05af4530ca7cd36c705900a664e0f5cee84e7a697c6b6195a986c135ecacd"
+      },
+      {
+        "file": "plates/03-shin-and-pushrod.3mf",
+        "objects": [
+          "shin_inner",
+          "shin_outer",
+          "pushrod"
+        ],
+        "bounds_mm": {
+          "pushrod": [
+            [
+              10.0,
+              10.0,
+              0.0
+            ],
+            [
+              25.0,
+              194.98489379882812,
+              6.0
+            ]
+          ],
+          "shin_outer": [
+            [
+              35.0,
+              10.0,
+              0.0
+            ],
+            [
+              77.0,
+              183.8881378173828,
+              18.0
+            ]
+          ],
+          "shin_inner": [
+            [
+              87.0,
+              10.0,
+              0.0
+            ],
+            [
+              129.0,
+              183.88812255859375,
+              16.0
+            ]
+          ]
+        },
+        "sha256": "0b504eb10ed2ef7a4a79b8d6bbca2e0adec17fb3567d5c3144ca3c7199969c28"
+      },
+      {
+        "file": "plates/04-small-fit-parts.3mf",
+        "objects": [
+          "roll_inner_backplate_1",
+          "roll_inner_spacer_1",
+          "roll_outer_spacer_1",
+          "hip_hub",
+          "motor_mount_ring",
+          "input_crank"
+        ],
+        "bounds_mm": {
+          "motor_mount_ring": [
+            [
+              10.0,
+              10.0,
+              0.0
+            ],
+            [
+              94.34398651123047,
+              98.4922103881836,
+              4.5
+            ]
+          ],
+          "hip_hub": [
+            [
+              104.34398651123047,
+              10.0,
+              0.0
+            ],
+            [
+              191.33377838134766,
+              85.75,
+              9.5
+            ]
+          ],
+          "roll_outer_spacer_1": [
+            [
+              201.33377838134766,
+              10.0,
+              0.0
+            ],
+            [
+              266.23377990722656,
+              74.87982940673828,
+              7.0
+            ]
+          ],
+          "roll_inner_backplate_1": [
+            [
+              10.0,
+              108.4922103881836,
+              0.0
+            ],
+            [
+              62.5,
+              160.97589111328125,
+              2.0
+            ]
+          ],
+          "roll_inner_spacer_1": [
+            [
+              72.5,
+              108.4922103881836,
+              0.0
+            ],
+            [
+              125.0,
+              160.97589111328125,
+              7.0
+            ]
+          ],
+          "input_crank": [
+            [
+              135.0,
+              108.4922103881836,
+              0.0
+            ],
+            [
+              191.49823760986328,
+              144.48536682128906,
+              31.600000381469727
+            ]
+          ]
+        },
+        "sha256": "adad7e2dbb698140c9cd1d182e9c7eaeb80dd19bc011080ee0b4c7ded2e96d60"
+      }
+    ],
+    "mesh_checks": [
+      {
+        "part": "thigh_inner",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 13504
+      },
+      {
+        "part": "thigh_outer",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 70730
+      },
+      {
+        "part": "shin_inner",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 27858
+      },
+      {
+        "part": "shin_outer",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 28684
+      },
+      {
+        "part": "motor_carrier_1",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 24246
+      },
+      {
+        "part": "hip_stator_closure_1",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 15282
+      },
+      {
+        "part": "roll_cartridge_1",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 18840
+      },
+      {
+        "part": "roll_stator_backplate_1",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 6900
+      },
+      {
+        "part": "roll_outer_retainer_1",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 5244
+      },
+      {
+        "part": "roll_inner_backplate_1",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 4056
+      },
+      {
+        "part": "roll_inner_spacer_1",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 1008
+      },
+      {
+        "part": "roll_outer_spacer_1",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 1008
+      },
+      {
+        "part": "hip_hub",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 35768
+      },
+      {
+        "part": "motor_mount_ring",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 10606
+      },
+      {
+        "part": "input_crank",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 13092
+      },
+      {
+        "part": "pushrod",
+        "closed": true,
+        "consistent_winding": true,
+        "bounds_match_manifest": true,
+        "triangles": 868
+      }
+    ],
+    "sliced": false,
+    "printer_profile_selected": false
+  }
+}

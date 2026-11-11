@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "saved": false,
+  "manufacturing_deviation_parameters": [
+    "tol_bearing_od_minus",
+    "tol_bearing_od_plus",
+    "tol_bearing_id_minus",
+    "tol_bearing_id_plus",
+    "tol_bearing_width_minus",
+    "tol_bearing_width_plus",
+    "tol_bearing_seat_minus",
+    "tol_bearing_seat_plus",
+    "tol_axle_od_minus",
+    "tol_axle_od_plus",
+    "tol_fork_gap_minus",
+    "tol_fork_gap_plus",
+    "tol_rod_thickness_minus",
+    "tol_rod_thickness_plus",
+    "tol_bushing_flange_minus",
+    "tol_bushing_flange_plus",
+    "tol_spacer_length_minus",
+    "tol_spacer_length_plus",
+    "tol_bearing_station_span_minus",
+    "tol_bearing_station_span_plus"
+  ],
+  "native_worst_case_formulas": {
+    "stack_bearing_seat_min": "2*lc_bearing_seat_radius-tol_bearing_seat_minus-lc_bearing_od-tol_bearing_od_plus",
+    "stack_bearing_seat_max": "2*lc_bearing_seat_radius+tol_bearing_seat_plus-lc_bearing_od+tol_bearing_od_minus",
+    "stack_axle_running_min": "lc_bearing_id-tol_bearing_id_minus-fit_axle_nominal_od-tol_axle_od_plus",
+    "stack_axle_running_max": "lc_bearing_id+tol_bearing_id_plus-fit_axle_nominal_od+tol_axle_od_minus",
+    "stack_fork_side_min": "lc_drive_fork_gap-tol_fork_gap_minus-lc_rod_thickness-tol_rod_thickness_plus-2*(fit_bushing_flange_thickness+tol_bushing_flange_plus)",
+    "stack_fork_side_max": "lc_drive_fork_gap+tol_fork_gap_plus-lc_rod_thickness+tol_rod_thickness_minus-2*(fit_bushing_flange_thickness-tol_bushing_flange_minus)",
+    "stack_spacer_excess_min": "lc_knee_spacer_length-tol_spacer_length_minus-(lc_bearing_span+tol_bearing_station_span_plus-lc_bearing_width+tol_bearing_width_minus)",
+    "stack_spacer_excess_max": "lc_knee_spacer_length+tol_spacer_length_plus-(lc_bearing_span-tol_bearing_station_span_minus-lc_bearing_width-tol_bearing_width_plus)"
+  },
+  "cases": [
+    {
+      "case": "Nominal interval",
+      "values_mm": {
+        "stack_bearing_seat_min": 0.0,
+        "stack_bearing_seat_max": 0.0,
+        "stack_axle_running_min": 0.0,
+        "stack_axle_running_max": 0.0,
+        "stack_fork_side_min": 0.3999999999999998,
+        "stack_fork_side_max": 0.3999999999999998,
+        "stack_spacer_excess_min": 0.0,
+        "stack_spacer_excess_max": 0.0
+      },
+      "passed": true,
+      "scope": "Illustrative arithmetic exercise, not measured or recommended production tolerances."
+    },
+    {
+      "case": "Half illustrative variation",
+      "values_mm": {
+        "stack_bearing_seat_min": -0.049999999999999475,
+        "stack_bearing_seat_max": 0.049999999999999475,
+        "stack_axle_running_min": -0.049999999999999475,
+        "stack_axle_running_max": 0.049999999999999475,
+        "stack_fork_side_min": 0.3300000000000003,
+        "stack_fork_side_max": 0.4699999999999993,
+        "stack_spacer_excess_min": -0.05999999999999783,
+        "stack_spacer_excess_max": 0.05999999999999783
+      },
+      "passed": true,
+      "scope": "Illustrative arithmetic exercise, not measured or recommended production tolerances."
+    },
+    {
+      "case": "Full illustrative variation",
+      "values_mm": {
+        "stack_bearing_seat_min": -0.09999999999999895,
+        "stack_bearing_seat_max": 0.09999999999999895,
+        "stack_axle_running_min": -0.09999999999999895,
+        "stack_axle_running_max": 0.09999999999999895,
+        "stack_fork_side_min": 0.2599999999999997,
+        "stack_fork_side_max": 0.5399999999999999,
+        "stack_spacer_excess_min": -0.11999999999999789,
+        "stack_spacer_excess_max": 0.11999999999999789
+      },
+      "passed": true,
+      "scope": "Illustrative arithmetic exercise, not measured or recommended production tolerances."
+    }
+  ],
+  "restored": {
+    "stack_bearing_seat_min": 0.0,
+    "stack_bearing_seat_max": 0.0,
+    "stack_axle_running_min": 0.0,
+    "stack_axle_running_max": 0.0,
+    "stack_fork_side_min": 0.3999999999999998,
+    "stack_fork_side_max": 0.3999999999999998,
+    "stack_spacer_excess_min": 0.0,
+    "stack_spacer_excess_max": 0.0
+  },
+  "measurement_status": "Unmeasured. Supplier tolerances and print/CNC coupons remain required; no production fit qualification."
+}

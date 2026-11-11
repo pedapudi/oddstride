@@ -1,0 +1,40 @@
+{
+  "updated_utc": "2026-10-28T22:19:03.728430+00:00",
+  "scope": "Restored frozen low robot; native feature archives. Master retains links to the three subsystem documents.",
+  "source_reference_sha256": "929c06ab624ed80192157e99ce43165c1416db414902cb0a36c19d6d2ad50da6",
+  "source_of_truth": false,
+  "documents": [
+    {
+      "role": "master",
+      "saved_version": 60,
+      "path": "exports/Tinfox-Master-v60-motion-audited.f3d",
+      "bytes": 1207554,
+      "sha256": "8f76bdee16c6c40745cb061be90053b605039e0b4471a4bffaa310ee2651128c",
+      "save_verification": "audits/master-v60-save-verification.json"
+    },
+    {
+      "role": "chassis",
+      "saved_version": 12,
+      "path": "exports/Tinfox-Chassis-v12-family-linked.f3d",
+      "bytes": 6056343,
+      "sha256": "e178e4fc5e522ec44db16b5df0a461bcb17bedfbc9a607ede344308612377bc3",
+      "save_verification": "audits/chassis-v12-save-verification.json"
+    },
+    {
+      "role": "leg",
+      "saved_version": 13,
+      "path": "exports/Tinfox-Leg-family-linked-checkpoint.f3d",
+      "bytes": 9738851,
+      "sha256": "b7c7b78a93bade9d4d54fddf8ef4e6037a4b56970490513746fabdfd6c17e6be",
+      "save_verification": "audits/leg-v13-save-verification.json"
+    },
+    {
+      "role": "head",
+      "saved_version": 22,
+      "path": "exports/Tinfox-Head-family-linked-checkpoint.f3d",
+      "bytes": 3151356,
+      "sha256": "4834d1a1fd67e84ba84b40b77f13b9ac7cde70c52ffdc76cb1e2874a99962efa",
+      "save_verification": "audits/head-v22-save-verification.json"
+    }
+  ]
+}

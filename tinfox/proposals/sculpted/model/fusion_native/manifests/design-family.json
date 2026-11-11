@@ -1,0 +1,393 @@
+{
+  "schema": 1,
+  "parameterization_gate_passed": false,
+  "parameters": {
+    "chassis_length": {
+      "units": "mm",
+      "baseline": 464,
+      "owners": [
+        "chassis"
+      ],
+      "dependencies": [
+        "chassis rails and crossmembers",
+        "shell section station positions",
+        "head and rear interfaces"
+      ],
+      "qualified": false
+    },
+    "chassis_width": {
+      "units": "mm",
+      "baseline": 222.4,
+      "owners": [
+        "chassis"
+      ],
+      "dependencies": [
+        "rail separation",
+        "shell transverse profiles",
+        "electronics support widths"
+      ],
+      "qualified": false
+    },
+    "hip_spacing_longitudinal": {
+      "units": "mm",
+      "baseline": 370,
+      "owners": [
+        "chassis",
+        "leg",
+        "assembly"
+      ],
+      "dependencies": [
+        "front/rear shoulder datums",
+        "motor support locations",
+        "body motion clearances"
+      ],
+      "qualified": false
+    },
+    "hip_roll_axis_spacing": {
+      "units": "mm",
+      "baseline": 136,
+      "owners": [
+        "chassis",
+        "leg",
+        "assembly"
+      ],
+      "dependencies": [
+        "left/right shoulder datums",
+        "roll cartridges",
+        "shoulder clearances"
+      ],
+      "qualified": false
+    },
+    "hip_pitch_lateral_offset": {
+      "units": "mm",
+      "baseline": 0,
+      "owners": [
+        "leg",
+        "assembly"
+      ],
+      "dependencies": [
+        "roll-to-pitch axis placement",
+        "motor carrier and axial stack"
+      ],
+      "qualified": false
+    },
+    "thigh_center_distance": {
+      "units": "mm",
+      "baseline": 170,
+      "owners": [
+        "leg",
+        "assembly"
+      ],
+      "dependencies": [
+        "thigh distal bearing datum",
+        "thigh shell span with rigid motor/knee interface zones",
+        "pushrod center distance",
+        "knee frame and closure"
+      ],
+      "qualified": false,
+      "native_shell_parameter": "lc_thigh_length",
+      "qualification_scope": "Current cohesive thigh/shin families; whole assembly and remaining legacy components are not yet driven by these parameters."
+    },
+    "shank_contact_length": {
+      "units": "mm",
+      "baseline": 170,
+      "owners": [
+        "leg",
+        "assembly"
+      ],
+      "dependencies": [
+        "shin length",
+        "foot center datum",
+        "support-contact kinematics"
+      ],
+      "qualified": false
+    },
+    "foot_radius": {
+      "units": "mm",
+      "baseline": 22,
+      "owners": [
+        "leg",
+        "assembly"
+      ],
+      "dependencies": [
+        "foot native geometry",
+        "shank-to-foot-center derived dimension"
+      ],
+      "qualified": false
+    },
+    "shank_to_foot_center": {
+      "units": "mm",
+      "expression": "shank_contact_length - foot_radius",
+      "owners": [
+        "leg",
+        "assembly"
+      ],
+      "dependencies": [
+        "foot mounting datum",
+        "shin distal interface"
+      ],
+      "qualified": false,
+      "native_shell_parameter": "lc_shank_foot_center",
+      "qualification_scope": "Current cohesive thigh/shin families; whole assembly and remaining legacy components are not yet driven by these parameters."
+    },
+    "linkage_crank_radius": {
+      "units": "mm",
+      "baseline": 28,
+      "owners": [
+        "leg",
+        "assembly"
+      ],
+      "dependencies": [
+        "input-crank rod eye",
+        "integral shin crank eye",
+        "crank/rod motion frames"
+      ],
+      "qualified": false,
+      "native_shell_parameter": "lc_crank_radius",
+      "qualification_scope": "Current cohesive thigh/shin families; whole assembly and remaining legacy components are not yet driven by these parameters."
+    },
+    "linkage_phase": {
+      "units": "deg",
+      "baseline": -78,
+      "owners": [
+        "leg",
+        "assembly"
+      ],
+      "dependencies": [
+        "integral shin crank-eye angle",
+        "input/output phase",
+        "motion and closure"
+      ],
+      "qualified": false,
+      "native_shell_parameter": "lc_crank_phase",
+      "qualification_scope": "Current cohesive thigh/shin families; whole assembly and remaining legacy components are not yet driven by these parameters."
+    },
+    "pushrod_center_distance": {
+      "units": "mm",
+      "expression": "thigh_center_distance",
+      "owners": [
+        "leg",
+        "assembly"
+      ],
+      "dependencies": [
+        "pushrod eye spacing",
+        "four-bar closure"
+      ],
+      "qualified": false,
+      "native_shell_parameter": "lc_rod_length",
+      "qualification_scope": "Current cohesive thigh/shin families; whole assembly and remaining legacy components are not yet driven by these parameters."
+    },
+    "bearing_outer_diameter": {
+      "units": "mm",
+      "baseline": 28,
+      "owners": [
+        "leg"
+      ],
+      "dependencies": [
+        "bearing seats only; not scaled with limb length"
+      ],
+      "qualified": false,
+      "native_shell_parameter": "lc_bearing_od",
+      "qualification_scope": "Current cohesive thigh/shin families; whole assembly and remaining legacy components are not yet driven by these parameters."
+    },
+    "bearing_inner_diameter": {
+      "units": "mm",
+      "baseline": 12,
+      "owners": [
+        "leg"
+      ],
+      "dependencies": [
+        "bearing reference and compatible shaft family"
+      ],
+      "qualified": false,
+      "native_shell_parameter": "lc_bearing_id",
+      "qualification_scope": "Current cohesive thigh/shin families; whole assembly and remaining legacy components are not yet driven by these parameters."
+    },
+    "bearing_width": {
+      "units": "mm",
+      "baseline": 8,
+      "owners": [
+        "leg"
+      ],
+      "dependencies": [
+        "axial shoulders and spacer stack",
+        "extraction access"
+      ],
+      "qualified": false,
+      "native_shell_parameter": "lc_bearing_width",
+      "qualification_scope": "Current cohesive thigh/shin families; whole assembly and remaining legacy components are not yet driven by these parameters."
+    },
+    "knee_shaft_diameter": {
+      "units": "mm",
+      "baseline": 12,
+      "owners": [
+        "leg"
+      ],
+      "dependencies": [
+        "axle",
+        "shaft clearance bores",
+        "bushing bore family"
+      ],
+      "qualified": false
+    },
+    "bearing_seat_diametral_allowance": {
+      "units": "mm",
+      "baseline": 0,
+      "owners": [
+        "leg"
+      ],
+      "dependencies": [
+        "bearing seat diameter = bearing_outer_diameter + allowance"
+      ],
+      "physical_fit_verified": false,
+      "qualified": false
+    },
+    "shaft_clearance_diametral": {
+      "units": "mm",
+      "baseline": 0.2,
+      "owners": [
+        "leg"
+      ],
+      "dependencies": [
+        "12.2 mm shaft clearance bores only"
+      ],
+      "physical_fit_verified": false,
+      "qualified": false
+    },
+    "body_shell_wall": {
+      "units": "mm",
+      "baseline": 2.8,
+      "owners": [
+        "chassis"
+      ],
+      "dependencies": [
+        "inner body-shell profiles",
+        "local reinforced interfaces remain independently sized"
+      ],
+      "qualified": false
+    },
+    "limb_shell_wall": {
+      "units": "mm",
+      "baseline": 4,
+      "owners": [
+        "leg"
+      ],
+      "dependencies": [
+        "inner limb profiles",
+        "structural ribs",
+        "bearing roots remain independently sized"
+      ],
+      "qualified": false,
+      "native_shell_parameter": "lc_shell_wall",
+      "qualification_scope": "Current cohesive thigh/shin families; whole assembly and remaining legacy components are not yet driven by these parameters."
+    },
+    "body_motion_clearance": {
+      "units": "mm",
+      "baseline": 1.5,
+      "owners": [
+        "chassis",
+        "leg",
+        "assembly"
+      ],
+      "dependencies": [
+        "shoulder sweep reliefs",
+        "plug and wire corridors"
+      ],
+      "qualified": false
+    },
+    "sensor_top_mount_length": {
+      "units": "mm",
+      "baseline": null,
+      "owners": [
+        "chassis",
+        "head"
+      ],
+      "dependencies": [
+        "shared sensor top mounting interface; dimension mapping pending"
+      ],
+      "qualified": false
+    },
+    "sensor_top_mount_width": {
+      "units": "mm",
+      "baseline": null,
+      "owners": [
+        "chassis",
+        "head"
+      ],
+      "dependencies": [
+        "shared sensor top mounting interface; dimension mapping pending"
+      ],
+      "qualified": false
+    }
+  },
+  "motor_families": {
+    "RS02": {
+      "state": "baseline native geometry; semantic interface mapping pending",
+      "envelope_diameter_mm": 78.5,
+      "envelope_depth_mm": 45.4,
+      "mount_patterns": "Must be mapped from frozen source interfaces and verified vendor drawing; never inferred from diameter",
+      "scale_with_robot": false
+    },
+    "RS03": {
+      "state": "not implemented or qualified",
+      "scale_with_robot": false
+    },
+    "RS04": {
+      "state": "not implemented or qualified",
+      "scale_with_robot": false
+    }
+  },
+  "required_edit_tests": [
+    {
+      "parameter": "thigh_center_distance",
+      "test_value": 180,
+      "checks": [
+        "knee datum shifts exactly 10 mm",
+        "motor bolt patterns unchanged",
+        "bearing dimensions unchanged",
+        "pushrod center distance follows",
+        "both handed components regenerate",
+        "linkage closure and assembly placements remain consistent",
+        "baseline restored"
+      ]
+    },
+    {
+      "parameter": "hip_spacing_longitudinal",
+      "test_value": 390,
+      "checks": [
+        "shoulder datums shift symmetrically 10 mm each",
+        "support mounts and shell relief follow",
+        "leg geometry and vendor interfaces unchanged",
+        "assembly and service paths checked",
+        "baseline restored"
+      ]
+    },
+    {
+      "parameter": "body_shell_wall",
+      "test_value": 3.2,
+      "checks": [
+        "material volume changes",
+        "outer envelope preserved",
+        "interfaces remain aligned",
+        "no thin/invalid faces",
+        "baseline restored"
+      ]
+    }
+  ],
+  "current_limitation": "The restored frozen assembly passes native placement, sampled motion and service comparisons. Shared Chassis hip and fastener edits propagate to Leg and Head after explicit native Derive refresh. Frame rails, braces, cassette and several fixed reference placements retain independent dimensions. Whole-frame resizing, alternate motor families and load capacity remain unqualified.",
+  "payload_20kg_qualified": false,
+  "current_cohesive_limb_source_sha256": "7a30dd8d92258b011e043f6fb43992ff9ac718232dd030ec2a7c79b33f68d63a",
+  "verified_subsystem_edits": {
+    "shin": "audits/cohesive-shin-family-edits.json",
+    "thigh": "audits/cohesive-thigh-family-edits.json",
+    "handed_shin": "audits/cohesive-shin-handed-parts.json",
+    "handed_thigh": "audits/cohesive-thigh-handed-final-geometry.json",
+    "head": "audits/head-family-edit-restore.json",
+    "shared_leg": "audits/leg-datum-propagation-edited.json",
+    "shared_head": "audits/head-datum-propagation-edited.json",
+    "restored_leg": "audits/leg-datum-propagation-restored.json",
+    "restored_head": "audits/head-datum-propagation-restored.json",
+    "whole_robot": "audits/whole-native-robot-motion-service.json"
+  },
+  "updated_utc": "2026-10-28T22:12:32.505960+00:00"
+}

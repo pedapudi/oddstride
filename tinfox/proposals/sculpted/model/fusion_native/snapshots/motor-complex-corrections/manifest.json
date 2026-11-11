@@ -1,0 +1,38 @@
+{
+  "parts": [
+    {
+      "part": "thigh_outer",
+      "input_step_sha256": "444e1937618b2f33438fbc0684d8eedcad4b366b791220c9fcfe778d1a02c0e2",
+      "output_step_sha256": "28e49d8e38c3d75233eeea3e8bdd8927e92fb8ebbf60c6e5c39618dc6a996c19",
+      "operation": "Three straight diameter6.4 mm socket-head/driver channels, Y61..110, radius43.5 mm at90/210/330 degrees. Includes prior0.6 mm knee-stub removal.",
+      "removed_volume_mm3": 1844.9859229333524,
+      "mesh_check": {
+        "mesher": "Gmsh STEP surface triangulation",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 5.624764457537919e-05,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "frozen_step": "snapshots/motor-complex-corrections/thigh_outer.step"
+    },
+    {
+      "part": "input_crank",
+      "input_step_sha256": "aa29713f87d285758ef60af545e1f366e32e1b4e50815318dedba2a9db9d2272",
+      "output_step_sha256": "f207fda710a287a74df9a5a864500737c50de6e25fa377909b8d2995a418b60f",
+      "operation": "Six diameter8 mm output-screw head counterbores opened through the arm, Y61..90; original Y61 seating plane preserved.",
+      "removed_volume_mm3": 39.577765831445504,
+      "mesh_check": {
+        "mesher": "OpenCascade",
+        "watertight": true,
+        "consistent_winding": true,
+        "relative_volume_error": 0.00017134457586994123,
+        "mesher_warnings": [],
+        "scope": "Closed surface mesh and bounded volume difference. Does not establish continuous surface deviation, printability or CNC access."
+      },
+      "frozen_step": "snapshots/motor-complex-corrections/input_crank.step"
+    }
+  ],
+  "scope": "Explicit generated-source corrections queued after the v17 thigh audit; not yet applied to native geometry.",
+  "native_applied": false
+}

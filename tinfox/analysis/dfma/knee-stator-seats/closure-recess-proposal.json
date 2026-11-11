@@ -1,0 +1,127 @@
+{
+  "status": "analysis_proposal_not_native_authored",
+  "passed": true,
+  "inputs": {
+    "cup": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-motor_carrier_1.step",
+      "sha256": "b4d3fa0141de0d3b877e1bfaaff0440a3edf00a92207b44899f0f57a88b3c721"
+    },
+    "closure": {
+      "path": "/home/sunil/git/oddstride/tinfox/proposals/sculpted/model/fusion_native/exports/paired-native-hip_stator_closure_1.step",
+      "sha256": "4bbb56e2125b9e9a440a9a4149f3d2f8caed3f888ddaf21eae2655cc5f84f634"
+    }
+  },
+  "actual_original_dimensions": {
+    "plate_y_mm": [
+      -4,
+      -0.9
+    ],
+    "base_thickness_mm": 3.1,
+    "rear_register_pocket_depth_mm": 1.1,
+    "proposed_front_recess_depth_mm": 1.3,
+    "web_if_only_front_recess_added_mm": 0.7
+  },
+  "proposal": {
+    "front_counterbore_diameter_mm": 8.2,
+    "front_floor_y_mm": -2.2,
+    "closure_pilot_diameter_mm": 4.8,
+    "back_lug_y_mm": -5.1,
+    "old_pocket_filled": true,
+    "new_rear_register_pocket_y_mm": [
+      -5.1,
+      -4
+    ],
+    "rear_register_diameter_mm": 9.9,
+    "cup_locating_boss_y_mm": [
+      -5.1,
+      -4.1
+    ],
+    "cup_locating_boss_diameter_mm": 9.6,
+    "cup_lug_relief_diameter_mm": 12.2,
+    "residual_web_mm": 1.8,
+    "minimum_plan_lug_edge_land_mm": 1.9,
+    "radial_head_clearance_mm": 0.3,
+    "maximum_head_top_y_mm": 0,
+    "rotation_independent_axial_tie_gap_mm": 1,
+    "common_screw": "M4 x16 ISO7380-1 button head, no separate closure washer",
+    "screw_tip_y_mm": -18.2
+  },
+  "proposed_solid_validity": {
+    "cup": true,
+    "closure": true,
+    "cup_solids": 1,
+    "closure_solids": 1,
+    "excluded_prior_optional_coplanar_cleanup_valid": false
+  },
+  "checks": [
+    {
+      "angle_deg": 90,
+      "old_bolt_tie210_intersection_at_hip_minus10_mm3": 0,
+      "new_bolt_tie210_gap_at_hip_minus10_mm": 76.74070698547935,
+      "new_screw_closure_overlap_mm3": 0,
+      "new_screw_cup_overlap_mm3": 0,
+      "projected_head_seating_area_mm2": 27.26902423315941,
+      "full_floor_support_mm2": 27.269024233159396,
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_projection_mm": 3.1,
+      "nut_cup_overlap_mm3": 0,
+      "straight_driver_closure_overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "angle_deg": 215,
+      "old_bolt_tie210_intersection_at_hip_minus10_mm3": 0.009261998712340017,
+      "new_bolt_tie210_gap_at_hip_minus10_mm": 1.0,
+      "new_screw_closure_overlap_mm3": 0,
+      "new_screw_cup_overlap_mm3": 0,
+      "projected_head_seating_area_mm2": 27.26902423315942,
+      "full_floor_support_mm2": 27.269024233159396,
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_projection_mm": 3.1,
+      "nut_cup_overlap_mm3": 0,
+      "straight_driver_closure_overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "angle_deg": 325,
+      "old_bolt_tie210_intersection_at_hip_minus10_mm3": 0,
+      "new_bolt_tie210_gap_at_hip_minus10_mm": 66.53759972419418,
+      "new_screw_closure_overlap_mm3": 0,
+      "new_screw_cup_overlap_mm3": 0,
+      "projected_head_seating_area_mm2": 27.26902423315942,
+      "full_floor_support_mm2": 27.2690242331594,
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_projection_mm": 3.1,
+      "nut_cup_overlap_mm3": 0,
+      "straight_driver_closure_overlap_mm3": 0,
+      "passed": true
+    }
+  ],
+  "machining": {
+    "closure_front": "+Y: counterbore and through pilot using straight tools.",
+    "closure_back": "-Y: open locating pockets. Local back extensions are in the external profile.",
+    "cup_front": "+Y: open12.2mm lug recess; no roof or reverse-facing ledge.",
+    "assembly": "Seat closure screws and hold ordinary7mm nuts through existing radial cup slots before installing the hip output hub."
+  },
+  "primary_screw_dimensions": {
+    "source": "https://www.fastenal.com/content/product_specifications/M.BHSCS.73801.10.9.BO.04.pdf",
+    "head_diameter_mm": [
+      7.24,
+      7.6
+    ],
+    "height_mm": [
+      1.95,
+      2.2
+    ],
+    "fillet_diameter_max_mm": 4.7,
+    "drive_AF_mm": 2.5,
+    "inventory_verified": false
+  },
+  "limitations": [
+    "Proposed analysis geometry only. Native features, handed copies and whole-robot motion must be checked after authoring.",
+    "Localized cup relief can intersect the existing cup-to-journal web near the215degree lug. Retained web and new lug support need structural review before powered use.",
+    "Thin printed floor, preload, polymer creep, impact and loaded tolerances remain unqualified.",
+    "The primary standard bounds head dimensions; purchased underhead fillet and printed hole clearance still require measurement.",
+    "The1mm rigid axial gap is nominal. Screw/tube length, floor position, printed shrinkage and loaded deflection are not included."
+  ]
+}

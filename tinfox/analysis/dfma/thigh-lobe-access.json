@@ -1,0 +1,330 @@
+{
+  "checks": [
+    {
+      "part": "thigh_inner",
+      "tie_angle_deg": 90,
+      "probe_center_mm": [
+        2.847303808017596e-15,
+        52,
+        46.5
+      ],
+      "point_inside_part": false,
+      "tool_diameter_mm": 3,
+      "tool_length_mm": 120,
+      "tests": [
+        {
+          "direction": "X+",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "X-",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "Y+",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "Y-",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "Z+",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "Z-",
+          "overlap_mm3": 201.82823187501984,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "root_split+",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "root_split-",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        }
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle_deg": 90,
+      "probe_center_mm": [
+        2.847303808017596e-15,
+        52,
+        46.5
+      ],
+      "point_inside_part": false,
+      "tool_diameter_mm": 3,
+      "tool_length_mm": 120,
+      "tests": [
+        {
+          "direction": "X+",
+          "overlap_mm3": 99.55302490007156,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "X-",
+          "overlap_mm3": 46.30067886675069,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "Y+",
+          "overlap_mm3": 232.984871781932,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "Y-",
+          "overlap_mm3": 82.46571407293825,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "Z+",
+          "overlap_mm3": 19.453425994229054,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "Z-",
+          "overlap_mm3": 9.725782155695315,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "root_split+",
+          "overlap_mm3": 44.56019225521987,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "root_split-",
+          "overlap_mm3": 81.00558994469169,
+          "clear_sampled_corridor": false
+        }
+      ]
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle_deg": 210,
+      "probe_center_mm": [
+        -40.2701812759764,
+        52,
+        -23.250000000000004
+      ],
+      "point_inside_part": false,
+      "tool_diameter_mm": 3,
+      "tool_length_mm": 120,
+      "tests": [
+        {
+          "direction": "X+",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "X-",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "Y+",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "Y-",
+          "overlap_mm3": 82.46571407307333,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "Z+",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "Z-",
+          "overlap_mm3": 209.6176496636467,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "root_split+",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "root_split-",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        }
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle_deg": 210,
+      "probe_center_mm": [
+        -40.2701812759764,
+        52,
+        -23.250000000000004
+      ],
+      "point_inside_part": false,
+      "tool_diameter_mm": 3,
+      "tool_length_mm": 120,
+      "tests": [
+        {
+          "direction": "X+",
+          "overlap_mm3": 13.621006521814602,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "X-",
+          "overlap_mm3": 16.39167751466663,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "Y+",
+          "overlap_mm3": 223.2294060941862,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "Y-",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "Z+",
+          "overlap_mm3": 120.11394417617089,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "Z-",
+          "overlap_mm3": 118.67058404080689,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "root_split+",
+          "overlap_mm3": 29.779797839711907,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "root_split-",
+          "overlap_mm3": 20.618117982937797,
+          "clear_sampled_corridor": false
+        }
+      ]
+    },
+    {
+      "part": "thigh_inner",
+      "tie_angle_deg": 330,
+      "probe_center_mm": [
+        40.270181275976384,
+        52,
+        -23.25000000000002
+      ],
+      "point_inside_part": false,
+      "tool_diameter_mm": 3,
+      "tool_length_mm": 120,
+      "tests": [
+        {
+          "direction": "X+",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "X-",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "Y+",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "Y-",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "Z+",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "Z-",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "root_split+",
+          "overlap_mm3": 0,
+          "clear_sampled_corridor": true
+        },
+        {
+          "direction": "root_split-",
+          "overlap_mm3": 281.3431218578528,
+          "clear_sampled_corridor": false
+        }
+      ]
+    },
+    {
+      "part": "thigh_outer",
+      "tie_angle_deg": 330,
+      "probe_center_mm": [
+        40.270181275976384,
+        52,
+        -23.25000000000002
+      ],
+      "point_inside_part": false,
+      "tool_diameter_mm": 3,
+      "tool_length_mm": 120,
+      "tests": [
+        {
+          "direction": "X+",
+          "overlap_mm3": 13.621006521603906,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "X-",
+          "overlap_mm3": 16.391677514667645,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "Y+",
+          "overlap_mm3": 223.22940078000875,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "Y-",
+          "overlap_mm3": 82.46571407294157,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "Z+",
+          "overlap_mm3": 120.11576791043882,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "Z-",
+          "overlap_mm3": 74.12697830338242,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "root_split+",
+          "overlap_mm3": 15.166820039743987,
+          "clear_sampled_corridor": false
+        },
+        {
+          "direction": "root_split-",
+          "overlap_mm3": 22.59958117470355,
+          "clear_sampled_corridor": false
+        }
+      ]
+    }
+  ],
+  "input_step_manifest": "input-step/manifest.json",
+  "scope": "One finite cylindrical approach per direction at one void location per lobe. A clear corridor does not establish reach to every cut face, flute length, feasible fixturing or holder clearance. Blocked axial directions alone do not prove an undercut."
+}

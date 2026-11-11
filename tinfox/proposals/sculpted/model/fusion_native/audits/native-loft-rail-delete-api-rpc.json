@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "jsonrpc": "2.0",
+  "result": {
+    "content": [
+      {
+        "text": "{\n    \"message\": \"{\\\"deleteMe\\\": \\\"\\\\nDeletes the centerline or rail.\\\\nIf this LoftCenterLineOrRail object is associated with a created feature, you need to position the timeline marker to immediately before this feature.\\\\nThis can be accomplished using the following code: thisFeature.timelineObject.rollTo(True)\\\\nReturns true if the operation was successful.\\\\n\\\"}\\n\",\n    \"success\": true\n}",
+        "type": "text"
+      }
+    ]
+  }
+}
