@@ -31,6 +31,11 @@ All ordinary M3/M4 limb screws use ISO 4762 socket heads. The approved fit scope
 is a detached, supported, unpowered assembly. Adoption of the revised parts
 across the four installed limbs is in progress.
 
+The saved Fusion state is now Tinfox v66, referencing Leg module v41, Chassis v18
+and Head v22. Leg v41 revises the knee linkage for hardware in hand; see
+[knee linkage pivots and test pushrod](design/knee-linkage-pivots.md). The
+browser exports have not been regenerated from v66.
+
 The prepared files are on the Mac mini:
 
 - Three-object motor fit plate: `~/Downloads/Tinfox/Current-Motor-Fit/`.
